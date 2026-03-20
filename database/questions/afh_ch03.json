@@ -1,0 +1,69 @@
+{
+  "source": "AFH",
+  "chapter": 3,
+  "questions": [
+    {
+      "section": "Straight-and-Level Flight",
+      "difficulty": 1,
+      "categories": ["checkride_oral", "general_knowledge"],
+      "question": "What is the relationship between pitch and power in straight-and-level flight?",
+      "correct_answer": "Pitch controls airspeed and power controls altitude (in the long term, they are interrelated)",
+      "distractors": ["Pitch always controls altitude and power always controls airspeed", "Pitch and power have no relationship to each other", "Power controls airspeed only during climbs"],
+      "explanation": "In practice, pitch and power are interrelated. A common technique: pitch for airspeed, power for altitude in stabilized flight. Changing one typically requires adjusting the other."
+    },
+    {
+      "section": "Climbs",
+      "difficulty": 2,
+      "categories": ["written_exam", "checkride_oral"],
+      "question": "What is the difference between best rate of climb speed (VY) and best angle of climb speed (VX)?",
+      "correct_answer": "VY gains the most altitude per unit of time; VX gains the most altitude per unit of distance",
+      "distractors": ["VY gains the most altitude per unit of distance; VX per unit of time", "VY and VX are the same speed at sea level", "VY is always faster than cruise speed"],
+      "explanation": "VY = best rate (most feet per minute). VX = best angle (most feet per mile of ground distance). VX is used for obstacle clearance; VY for efficient climb to altitude."
+    },
+    {
+      "section": "Descents",
+      "difficulty": 1,
+      "categories": ["checkride_oral", "general_knowledge"],
+      "question": "During a power-off glide, what determines the glide distance of an aircraft?",
+      "correct_answer": "The lift-to-drag ratio (L/D) and wind conditions",
+      "distractors": ["The weight of the aircraft only", "The engine RPM at idle", "The altitude above the ground only"],
+      "explanation": "Maximum glide distance is achieved at the best L/D speed. Weight affects the speed at which best L/D occurs but not the glide ratio itself. Wind will affect ground distance covered."
+    },
+    {
+      "section": "Turns",
+      "difficulty": 2,
+      "categories": ["written_exam", "checkride_oral"],
+      "question": "What causes an aircraft to turn?",
+      "correct_answer": "The horizontal component of lift when the aircraft is banked",
+      "distractors": ["Rudder input that yaws the nose", "Differential thrust between left and right engines", "Ailerons directly turning the aircraft"],
+      "explanation": "In a banked turn, lift is tilted. The horizontal component of lift pulls the aircraft toward the center of the turn. Ailerons bank the wings; the bank creates the turning force."
+    },
+    {
+      "section": "Trim",
+      "difficulty": 1,
+      "categories": ["checkride_oral", "general_knowledge"],
+      "question": "What is the purpose of trim?",
+      "correct_answer": "To relieve control pressures so the pilot does not have to hold constant force on the controls",
+      "distractors": ["To change the aircraft's airspeed", "To adjust the wing's angle of incidence in flight", "To lock the flight controls in position"],
+      "explanation": "Trim adjusts the aerodynamic force on the control surface (via a trim tab or other mechanism) to eliminate the need for the pilot to hold continuous pressure."
+    },
+    {
+      "section": "Slow Flight",
+      "difficulty": 2,
+      "categories": ["written_exam", "checkride_oral"],
+      "question": "What is the purpose of practicing flight at minimum controllable airspeed (slow flight)?",
+      "correct_answer": "To develop the pilot's feel for the aircraft's controls at high angles of attack near stall",
+      "distractors": ["To practice energy conservation for fuel savings", "To demonstrate the aircraft can fly below VFE", "To prepare for aerobatic maneuvers"],
+      "explanation": "Slow flight teaches pilots to recognize and control the aircraft at high AoA, where controls are mushy, induced drag is high, and the aircraft is near stall — a critical skill for takeoff and landing phases."
+    },
+    {
+      "section": "Coordination",
+      "difficulty": 1,
+      "categories": ["checkride_oral", "general_knowledge"],
+      "question": "What does the ball in the inclinometer indicate?",
+      "correct_answer": "Whether the aircraft is in coordinated flight (slip or skid)",
+      "distractors": ["The rate of turn", "The bank angle", "The aircraft's pitch attitude"],
+      "explanation": "The ball (slip/skid indicator) shows coordination. Ball centered = coordinated. Ball to the inside of turn = slipping. Ball to the outside = skidding. Step on the ball to correct."
+    }
+  ]
+}

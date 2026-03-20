@@ -1,0 +1,78 @@
+{
+  "source": "PHAK",
+  "chapter": 15,
+  "questions": [
+    {
+      "section": "Airspace Classification",
+      "difficulty": 1,
+      "categories": ["written_exam", "checkride_oral"],
+      "question": "Which class of airspace typically surrounds the busiest airports (e.g., major international airports) and extends from the surface to 10,000 feet MSL?",
+      "correct_answer": "Class B airspace",
+      "distractors": ["Class A airspace", "Class C airspace", "Class D airspace"],
+      "explanation": "Class B airspace surrounds the nation's busiest airports, from the surface to typically 10,000 feet MSL. It requires ATC clearance to enter and a Mode C transponder."
+    },
+    {
+      "section": "Class A Airspace",
+      "difficulty": 1,
+      "categories": ["written_exam"],
+      "question": "What altitude range defines Class A airspace in the contiguous United States?",
+      "correct_answer": "18,000 feet MSL to FL600 (60,000 feet)",
+      "distractors": ["Surface to 18,000 feet MSL", "10,000 feet MSL to FL450", "14,500 feet MSL to FL600"],
+      "explanation": "Class A airspace extends from 18,000 feet MSL to FL600. All operations must be under IFR, and pilots must have an instrument rating."
+    },
+    {
+      "section": "Class C Airspace",
+      "difficulty": 2,
+      "categories": ["written_exam", "checkride_oral"],
+      "question": "What is required to enter Class C airspace?",
+      "correct_answer": "Two-way radio communication with ATC and a Mode C transponder",
+      "distractors": ["An ATC clearance, like Class B", "Only a transponder with Mode C", "No requirements beyond those for Class E"],
+      "explanation": "To enter Class C, you must establish two-way radio communication with approach control (ATC must acknowledge your callsign) and have a Mode C transponder."
+    },
+    {
+      "section": "Class D Airspace",
+      "difficulty": 2,
+      "categories": ["written_exam", "checkride_oral"],
+      "question": "What happens to Class D airspace when the control tower closes?",
+      "correct_answer": "It typically reverts to Class E or Class G airspace",
+      "distractors": ["It becomes Class C airspace", "It remains Class D with CTAF procedures", "It becomes restricted airspace"],
+      "explanation": "When the tower closes, Class D airspace typically reverts to Class E (if shown on charts) or Class G. Pilots should use CTAF procedures."
+    },
+    {
+      "section": "Class E Airspace",
+      "difficulty": 2,
+      "categories": ["written_exam"],
+      "question": "In most of the contiguous US, at what altitude does Class E airspace begin if no other airspace is designated?",
+      "correct_answer": "1,200 feet AGL",
+      "distractors": ["700 feet AGL", "Surface level", "14,500 feet MSL"],
+      "explanation": "Unless otherwise designated, Class E airspace begins at 1,200 feet AGL in most areas. It can extend from 700 feet AGL near airports with instrument approaches, or from the surface in some cases."
+    },
+    {
+      "section": "Class G Airspace",
+      "difficulty": 2,
+      "categories": ["written_exam", "checkride_oral"],
+      "question": "What are the VFR visibility and cloud clearance requirements in Class G airspace below 1,200 feet AGL during the day?",
+      "correct_answer": "1 statute mile visibility, clear of clouds",
+      "distractors": ["3 statute miles visibility, 500 below/1000 above/2000 horizontal from clouds", "5 statute miles visibility, clear of clouds", "1 statute mile visibility, 500 below/1000 above/2000 horizontal"],
+      "explanation": "In Class G below 1,200 feet AGL during the day, the minimums are 1 SM visibility and clear of clouds. At night, it's 3 SM and 500/1000/2000."
+    },
+    {
+      "section": "Special Use Airspace",
+      "difficulty": 1,
+      "categories": ["written_exam", "general_knowledge"],
+      "question": "What type of special use airspace may have active hazardous activities (such as artillery firing) and is prohibited to all non-participating aircraft when active?",
+      "correct_answer": "Restricted area",
+      "distractors": ["Prohibited area", "Military Operations Area (MOA)", "Alert area"],
+      "explanation": "Restricted areas contain hazardous activities like artillery, aerial gunnery, or missile testing. Non-participating IFR traffic may be routed through with ATC. A Prohibited area is always prohibited; MOAs and Alert areas don't prohibit VFR traffic."
+    },
+    {
+      "section": "TFRs",
+      "difficulty": 1,
+      "categories": ["written_exam", "checkride_oral"],
+      "question": "What is a TFR?",
+      "correct_answer": "A Temporary Flight Restriction, a short-term airspace restriction for safety or security",
+      "distractors": ["A Transponder Frequency Requirement for Class B", "A Terminal Flight Route for arriving IFR traffic", "A Transition Flight Rule for changing airspace classes"],
+      "explanation": "TFRs temporarily restrict aircraft from specific areas due to hazards, VIP movement, disaster relief, space operations, or major sporting events. They are published as NOTAMs."
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "source": "PHAK",
+  "chapter": 14,
+  "questions": [
+    {
+      "section": "Runway Markings",
+      "difficulty": 1,
+      "categories": ["written_exam", "general_knowledge"],
+      "question": "What do the numbers on the ends of a runway indicate?",
+      "correct_answer": "The magnetic heading of the runway rounded to the nearest 10 degrees, divided by 10",
+      "distractors": ["The length of the runway in hundreds of feet", "The elevation of the runway in feet MSL", "The runway's assigned traffic pattern number"],
+      "explanation": "Runway numbers represent the magnetic heading divided by 10 and rounded. Runway 27 has a magnetic heading of approximately 270 degrees."
+    },
+    {
+      "section": "Traffic Patterns",
+      "difficulty": 1,
+      "categories": ["written_exam", "checkride_oral"],
+      "question": "Unless otherwise indicated, what is the standard direction of traffic pattern turns at an airport?",
+      "correct_answer": "Left turns",
+      "distractors": ["Right turns", "Alternating left and right turns", "Either direction, pilot's discretion"],
+      "explanation": "Standard traffic patterns use left turns unless the airport has designated right traffic for specific runways, as indicated in the Chart Supplement or by visual indicators."
+    },
+    {
+      "section": "Airport Lighting",
+      "difficulty": 2,
+      "categories": ["written_exam"],
+      "question": "What color are the runway edge lights that mark the last 2,000 feet of runway available for landing?",
+      "correct_answer": "Yellow (caution zone)",
+      "distractors": ["Red", "White", "Green"],
+      "explanation": "Runway edge lights are white, but the last 2,000 feet (or last half of the runway if less than 4,000 feet) have yellow caution-zone lighting to warn pilots of the approaching runway end."
+    },
+    {
+      "section": "Airport Beacons",
+      "difficulty": 1,
+      "categories": ["written_exam", "general_knowledge"],
+      "question": "What colors does a civilian airport beacon alternate between?",
+      "correct_answer": "White and green",
+      "distractors": ["White and red", "Green and yellow", "White and blue"],
+      "explanation": "Civilian airport beacons alternate white and green. Military airport beacons alternate white and green but with dual-peaked white flashes. Heliport beacons are green-yellow-white."
+    },
+    {
+      "section": "VASI/PAPI",
+      "difficulty": 2,
+      "categories": ["written_exam", "checkride_oral"],
+      "question": "When using a VASI (Visual Approach Slope Indicator), what does seeing two red lights over two red lights indicate?",
+      "correct_answer": "The aircraft is below the glide path",
+      "distractors": ["The aircraft is on the glide path", "The aircraft is above the glide path", "The VASI system is inoperative"],
+      "explanation": "VASI: Red over Red = below glide path (dangerously low). Red over White = on glide path. White over White = above glide path. Memory: 'Red over red, you're dead.'"
+    },
+    {
+      "section": "NOTAMs",
+      "difficulty": 1,
+      "categories": ["written_exam", "general_knowledge"],
+      "question": "What is the purpose of NOTAMs (Notices to Air Missions)?",
+      "correct_answer": "To alert pilots of temporary changes, hazards, or conditions at airports and in the NAS",
+      "distractors": ["To provide permanent changes to instrument approach procedures", "To update aircraft maintenance records", "To issue new FARs"],
+      "explanation": "NOTAMs provide time-critical aeronautical information on temporary conditions, such as runway closures, airspace restrictions, hazards, and equipment outages."
+    },
+    {
+      "section": "Taxiway Markings",
+      "difficulty": 2,
+      "categories": ["written_exam", "checkride_oral"],
+      "question": "What does a solid yellow line paired with a dashed yellow line on a taxiway mean?",
+      "correct_answer": "Hold short line — do not cross from the solid side without ATC clearance",
+      "distractors": ["Taxiway centerline marking", "Taxiway edge marking", "ILS critical area boundary that can be freely crossed"],
+      "explanation": "The hold short marking has a solid line on the taxiway side and dashed lines on the runway side. Aircraft must stop before the solid line and not cross without ATC clearance."
+    },
+    {
+      "section": "Wake Turbulence",
+      "difficulty": 2,
+      "categories": ["written_exam", "checkride_oral"],
+      "question": "When landing behind a large aircraft on the same runway, where should a pilot plan to touch down?",
+      "correct_answer": "Beyond the large aircraft's touchdown point",
+      "distractors": ["Before the large aircraft's touchdown point", "At the same point as the large aircraft", "On the first third of the runway regardless"],
+      "explanation": "Wake turbulence (wingtip vortices) sink and drift. Landing beyond the preceding aircraft's touchdown point helps avoid its wake vortices, which are generated from rotation to touchdown."
+    }
+  ]
+}

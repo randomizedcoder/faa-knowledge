@@ -1,0 +1,78 @@
+{
+  "source": "PHAK",
+  "chapter": 17,
+  "questions": [
+    {
+      "section": "Hypoxia",
+      "difficulty": 2,
+      "categories": ["written_exam", "checkride_oral"],
+      "question": "At what cabin altitude does significant hypoxia begin to affect most pilots?",
+      "correct_answer": "Above 10,000 feet MSL",
+      "distractors": ["Above 5,000 feet MSL", "Above 18,000 feet MSL", "Above 15,000 feet MSL"],
+      "explanation": "Significant hypoxia effects begin above 10,000 feet. FAR 91.211 requires supplemental oxygen for crew above 12,500 feet for more than 30 minutes, and for all above 14,000 feet."
+    },
+    {
+      "section": "Hypoxia",
+      "difficulty": 2,
+      "categories": ["written_exam", "checkride_oral"],
+      "question": "What are common symptoms of hypoxia?",
+      "correct_answer": "Headache, impaired judgment, euphoria, and cyanosis (blue fingernails/lips)",
+      "distractors": ["Nausea, vertigo, and ringing in the ears", "Increased alertness and improved night vision", "Severe joint pain and rash"],
+      "explanation": "Hypoxia symptoms include headache, drowsiness, impaired judgment, euphoria, a false sense of well-being, and blue discoloration of fingernails and lips (cyanosis). Insidious because the pilot may feel fine."
+    },
+    {
+      "section": "Hyperventilation",
+      "difficulty": 2,
+      "categories": ["written_exam", "checkride_oral"],
+      "question": "How can hyperventilation be treated?",
+      "correct_answer": "Slow the breathing rate, talk aloud, or breathe into a paper bag",
+      "distractors": ["Increase the breathing rate to get more oxygen", "Descend to a lower altitude immediately", "Apply supplemental oxygen at high flow rate"],
+      "explanation": "Hyperventilation is caused by excessive breathing that lowers CO2 levels. Treatment is to consciously slow breathing, talk aloud, or breathe into a bag to restore CO2 balance."
+    },
+    {
+      "section": "Spatial Disorientation",
+      "difficulty": 2,
+      "categories": ["written_exam", "checkride_oral"],
+      "question": "What is the primary way to overcome spatial disorientation?",
+      "correct_answer": "Trust and rely on the flight instruments rather than bodily sensations",
+      "distractors": ["Focus on the horizon through peripheral vision", "Shake your head to reset the vestibular system", "Close your eyes for a few seconds to re-calibrate"],
+      "explanation": "The vestibular system can produce false sensations in flight (the leans, graveyard spiral, etc.). Trusting the flight instruments is the only reliable way to maintain orientation."
+    },
+    {
+      "section": "Carbon Monoxide Poisoning",
+      "difficulty": 2,
+      "categories": ["written_exam", "checkride_oral"],
+      "question": "What is a common source of carbon monoxide poisoning in a single-engine aircraft?",
+      "correct_answer": "A leak in the exhaust system allowing CO into the cabin through the heater",
+      "distractors": ["Running the avionics master with the engine off", "Using recirculated cabin air at high altitude", "Burning avgas fumes entering through the fuel vents"],
+      "explanation": "The cabin heater in most single-engine aircraft uses a shroud around the exhaust manifold. A crack in the exhaust can allow CO into the heated air. Symptoms include headache, drowsiness, and cherry-red skin."
+    },
+    {
+      "section": "Alcohol and Drugs",
+      "difficulty": 1,
+      "categories": ["written_exam", "checkride_oral"],
+      "question": "According to FAR 91.17, how many hours before flying must a pilot abstain from consuming alcohol?",
+      "correct_answer": "8 hours",
+      "distractors": ["12 hours", "24 hours", "4 hours"],
+      "explanation": "14 CFR 91.17: No person may act as a crewmember within 8 hours after consuming alcohol, while under the influence, or with a BAC of 0.04% or greater. '8 hours bottle to throttle.'"
+    },
+    {
+      "section": "Night Vision",
+      "difficulty": 2,
+      "categories": ["written_exam", "general_knowledge"],
+      "question": "How long does it take for the eyes to fully adapt to darkness for night flying?",
+      "correct_answer": "Approximately 30 minutes",
+      "distractors": ["Approximately 5 minutes", "Approximately 10 minutes", "Approximately 60 minutes"],
+      "explanation": "Full dark adaptation takes approximately 30 minutes. Exposure to bright light (especially white light) can destroy night adaptation. Red light helps preserve it."
+    },
+    {
+      "section": "IMSAFE Checklist",
+      "difficulty": 1,
+      "categories": ["checkride_oral", "general_knowledge"],
+      "question": "What does the IMSAFE checklist stand for?",
+      "correct_answer": "Illness, Medication, Stress, Alcohol, Fatigue, Emotion/Eating",
+      "distractors": ["Instruments, Maintenance, Safety, Airworthiness, Fuel, Equipment", "Initial, Maneuvers, Stalls, Approaches, Finals, Emergencies", "Inspection, Modifications, Systems, Avionics, Fuel, Engine"],
+      "explanation": "IMSAFE is a personal health checklist: Illness, Medication, Stress, Alcohol, Fatigue, and Emotion (or Eating). Pilots should assess each factor before every flight."
+    }
+  ]
+}

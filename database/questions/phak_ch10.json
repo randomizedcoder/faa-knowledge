@@ -1,0 +1,78 @@
+{
+  "source": "PHAK",
+  "chapter": 10,
+  "questions": [
+    {
+      "section": "Weight and Balance Basics",
+      "difficulty": 1,
+      "categories": ["written_exam", "checkride_oral"],
+      "question": "Why is weight and balance important for safe flight?",
+      "correct_answer": "An aircraft loaded outside its CG limits may become uncontrollable",
+      "distractors": ["It only affects fuel consumption", "It is required for insurance purposes only", "It determines the maximum altitude the aircraft can reach"],
+      "explanation": "If the CG is outside limits, the aircraft may not have enough control authority to maintain stable flight. Exceeding weight limits degrades performance and structural integrity."
+    },
+    {
+      "section": "Center of Gravity",
+      "difficulty": 2,
+      "categories": ["written_exam", "checkride_oral"],
+      "question": "What effect does a forward center of gravity have on an aircraft?",
+      "correct_answer": "Increased stability and higher stall speed",
+      "distractors": ["Decreased stability and lower stall speed", "No effect on stability or stall speed", "Decreased stability and higher stall speed"],
+      "explanation": "A forward CG increases longitudinal stability because the tail must produce more downforce, but this also means a higher stall speed and more fuel consumption due to increased induced drag from the tail."
+    },
+    {
+      "section": "Center of Gravity",
+      "difficulty": 2,
+      "categories": ["written_exam", "checkride_oral"],
+      "question": "What is the danger of an aft center of gravity that is beyond the rear limit?",
+      "correct_answer": "The aircraft may become unstable and unrecoverable from a stall",
+      "distractors": ["The aircraft will be too stable to maneuver", "The aircraft will use excessive fuel", "The nose will drop uncontrollably"],
+      "explanation": "An aft CG beyond limits reduces longitudinal stability. The aircraft may be impossible to control, especially in a stall, because there may not be enough elevator authority to lower the nose."
+    },
+    {
+      "section": "Weight and Balance Computation",
+      "difficulty": 2,
+      "categories": ["written_exam"],
+      "question": "How is the moment of an item calculated in weight and balance?",
+      "correct_answer": "Weight multiplied by arm (distance from datum)",
+      "distractors": ["Weight divided by arm", "Arm divided by weight", "Weight plus arm"],
+      "explanation": "Moment = Weight × Arm. The arm is the horizontal distance from the datum to the item's center of gravity, measured in inches."
+    },
+    {
+      "section": "Datum",
+      "difficulty": 1,
+      "categories": ["written_exam", "general_knowledge"],
+      "question": "What is the datum in weight and balance calculations?",
+      "correct_answer": "An imaginary reference point from which all horizontal distances (arms) are measured",
+      "distractors": ["The center of gravity of the empty aircraft", "The front of the engine firewall", "The point where the aircraft is perfectly balanced"],
+      "explanation": "The datum is an arbitrary reference point established by the manufacturer. All arms are measured from this point. It is often located at or near the nose of the aircraft."
+    },
+    {
+      "section": "Useful Load",
+      "difficulty": 1,
+      "categories": ["written_exam", "general_knowledge"],
+      "question": "What is the useful load of an aircraft?",
+      "correct_answer": "The difference between maximum gross weight and basic empty weight",
+      "distractors": ["The total weight of fuel the aircraft can carry", "The weight of passengers and baggage only", "The maximum ramp weight minus taxi fuel"],
+      "explanation": "Useful load = Max gross weight − Basic empty weight. It includes usable fuel, passengers, baggage, and crew."
+    },
+    {
+      "section": "Weight and Balance Computation",
+      "difficulty": 3,
+      "categories": ["written_exam"],
+      "question": "To find the loaded CG of an aircraft, what calculation is performed?",
+      "correct_answer": "Total moment divided by total weight",
+      "distractors": ["Total weight divided by total moment", "Total weight multiplied by total arm", "Total moment multiplied by total weight"],
+      "explanation": "CG = Total Moment ÷ Total Weight. This gives the CG location in inches from the datum. The result must fall within the approved CG envelope."
+    },
+    {
+      "section": "Weight Changes in Flight",
+      "difficulty": 2,
+      "categories": ["checkride_oral"],
+      "question": "How does fuel burn during flight typically affect the center of gravity?",
+      "correct_answer": "It depends on where the fuel tanks are relative to the CG; it can shift forward or aft",
+      "distractors": ["CG always moves forward as fuel burns", "CG always moves aft as fuel burns", "CG does not change as fuel burns"],
+      "explanation": "As fuel burns off, the weight at the fuel tank location decreases. If the tanks are aft of the CG, the CG shifts forward; if forward, it shifts aft. Pilots must ensure CG remains within limits throughout the flight."
+    }
+  ]
+}

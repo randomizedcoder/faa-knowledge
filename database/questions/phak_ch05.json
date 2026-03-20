@@ -1,0 +1,96 @@
+{
+  "source": "PHAK",
+  "chapter": 5,
+  "questions": [
+    {
+      "section": "Lift and Drag",
+      "difficulty": 2,
+      "categories": ["written_exam", "checkride_oral"],
+      "question": "What happens to lift as angle of attack increases below the critical angle of attack?",
+      "correct_answer": "Lift increases",
+      "distractors": ["Lift decreases", "Lift stays constant", "Lift oscillates"],
+      "explanation": "Below the critical angle of attack, increasing AoA increases the pressure differential between the upper and lower wing surfaces, producing more lift."
+    },
+    {
+      "section": "Stalls",
+      "difficulty": 2,
+      "categories": ["written_exam", "checkride_oral"],
+      "question": "An airplane can stall at any airspeed and any attitude. What determines whether a stall occurs?",
+      "correct_answer": "Exceeding the critical angle of attack",
+      "distractors": ["Flying below minimum controllable airspeed", "Exceeding maximum gross weight", "Flying with the nose above the horizon"],
+      "explanation": "A stall occurs when the critical angle of attack is exceeded, regardless of airspeed, attitude, or weight."
+    },
+    {
+      "section": "Drag",
+      "difficulty": 1,
+      "categories": ["written_exam", "general_knowledge"],
+      "question": "Which type of drag increases as airspeed increases?",
+      "correct_answer": "Parasite drag",
+      "distractors": ["Induced drag", "Total drag always decreases", "Profile drag decreases at all speeds"],
+      "explanation": "Parasite drag increases with the square of airspeed, while induced drag decreases as airspeed increases."
+    },
+    {
+      "section": "Ground Effect",
+      "difficulty": 2,
+      "categories": ["written_exam", "checkride_oral"],
+      "question": "What is the primary effect of ground effect on an aircraft during takeoff?",
+      "correct_answer": "Induced drag is reduced",
+      "distractors": ["Parasite drag is reduced", "Thrust is increased", "Weight is effectively reduced"],
+      "explanation": "Ground effect reduces the upwash and downwash around the wing, decreasing induced drag. It is most pronounced within one wingspan of the surface."
+    },
+    {
+      "section": "Turns",
+      "difficulty": 2,
+      "categories": ["written_exam"],
+      "question": "In a coordinated level turn, what must increase to maintain altitude?",
+      "correct_answer": "Lift",
+      "distractors": ["Thrust only", "Weight", "Parasite drag"],
+      "explanation": "In a banked turn, the vertical component of lift decreases. Total lift must increase (by increasing AoA/back pressure) to maintain the same vertical lift component and hold altitude."
+    },
+    {
+      "section": "Load Factor",
+      "difficulty": 2,
+      "categories": ["written_exam", "checkride_oral"],
+      "question": "What is the load factor in a 60-degree banked level turn?",
+      "correct_answer": "2 Gs",
+      "distractors": ["1.5 Gs", "1.41 Gs", "3 Gs"],
+      "explanation": "Load factor = 1/cos(bank angle). At 60 degrees: 1/cos(60°) = 1/0.5 = 2 Gs."
+    },
+    {
+      "section": "Stability",
+      "difficulty": 1,
+      "categories": ["written_exam", "general_knowledge"],
+      "question": "What does positive static stability mean?",
+      "correct_answer": "The aircraft tends to return to its original state after a disturbance",
+      "distractors": ["The aircraft remains in its displaced position", "The aircraft continues to diverge from its original state", "The aircraft oscillates with increasing amplitude"],
+      "explanation": "Positive static stability means the initial tendency is to return toward the original state of equilibrium after being disturbed."
+    },
+    {
+      "section": "Thrust and Power",
+      "difficulty": 1,
+      "categories": ["general_knowledge"],
+      "question": "Which of the four forces acts parallel to the flight path and opposite to the direction of flight?",
+      "correct_answer": "Drag",
+      "distractors": ["Weight", "Thrust", "Lift"],
+      "explanation": "Drag acts rearward, parallel to the relative wind and opposite to the direction of flight."
+    },
+    {
+      "section": "Wing Design",
+      "difficulty": 3,
+      "categories": ["checkride_oral"],
+      "question": "Why do some wings have washout (twist)?",
+      "correct_answer": "To ensure the wing root stalls before the wingtip, maintaining aileron effectiveness",
+      "distractors": ["To increase the maximum lift coefficient", "To reduce parasite drag at cruise speeds", "To allow higher speeds before flutter occurs"],
+      "explanation": "Washout decreases the angle of incidence from root to tip so the root reaches the critical AoA first, keeping ailerons effective during the stall."
+    },
+    {
+      "section": "Aerodynamics of Flight",
+      "difficulty": 2,
+      "categories": ["written_exam", "checkride_oral"],
+      "question": "What is the relationship between indicated airspeed and true airspeed as altitude increases?",
+      "correct_answer": "True airspeed is higher than indicated airspeed",
+      "distractors": ["True airspeed equals indicated airspeed", "True airspeed is lower than indicated airspeed", "The relationship depends solely on temperature"],
+      "explanation": "As altitude increases, air density decreases. The pitot-static system senses less dynamic pressure, so IAS reads lower than the actual TAS."
+    }
+  ]
+}
