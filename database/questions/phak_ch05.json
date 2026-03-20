@@ -6,10 +6,10 @@
       "section": "Lift and Drag",
       "difficulty": 2,
       "categories": ["written_exam", "checkride_oral"],
-      "question": "What happens to lift as angle of attack increases below the critical angle of attack?",
-      "correct_answer": "Lift increases",
-      "distractors": ["Lift decreases", "Lift stays constant", "Lift oscillates"],
-      "explanation": "Below the critical angle of attack, increasing AoA increases the pressure differential between the upper and lower wing surfaces, producing more lift."
+      "question": "As a pilot increases the angle of attack from 2° to 14° (below the critical AoA of 17°), how does the coefficient of lift change?",
+      "correct_answer": "It increases approximately linearly",
+      "distractors": ["It increases up to about 8°, then begins to decrease", "It remains roughly constant until the critical AoA", "It decreases because drag rises faster than lift"],
+      "explanation": "Below the critical angle of attack, the coefficient of lift (CL) increases nearly linearly with angle of attack. At the critical AoA (typically 15-20° for most airfoils), CL reaches its maximum and then drops sharply as the wing stalls."
     },
     {
       "section": "Stalls",

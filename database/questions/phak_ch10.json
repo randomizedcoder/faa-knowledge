@@ -15,10 +15,10 @@
       "section": "Center of Gravity",
       "difficulty": 2,
       "categories": ["written_exam", "checkride_oral"],
-      "question": "What effect does a forward center of gravity have on an aircraft?",
-      "correct_answer": "Increased stability and higher stall speed",
-      "distractors": ["Decreased stability and lower stall speed", "No effect on stability or stall speed", "Decreased stability and higher stall speed"],
-      "explanation": "A forward CG increases longitudinal stability because the tail must produce more downforce, but this also means a higher stall speed and more fuel consumption due to increased induced drag from the tail."
+      "question": "A forward center of gravity increases longitudinal stability. What is the tradeoff?",
+      "correct_answer": "Higher stall speed and increased fuel consumption due to greater tail-down force",
+      "distractors": ["Lower stall speed because the nose tends to pitch down", "Reduced rudder authority at low speeds", "Greater risk of exceeding VNE in a dive"],
+      "explanation": "A forward CG requires more tail-down force to balance, which effectively adds to the wing loading. This raises the stall speed and increases drag (more fuel burn). The tradeoff for the added stability is degraded performance."
     },
     {
       "section": "Center of Gravity",
