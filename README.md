@@ -11,8 +11,7 @@ A Private Pilot License study tool — interactive CLI quiz backed by a SQLite d
 ```bash
 nix develop          # enter dev shell with go, sqlite, curl
 nix build            # build the binary
-./result/bin/quiz --init
-./result/bin/quiz --import database/questions/phak_ch05.json
+./result/bin/quiz --init     # create DB + import all 106 bundled questions
 ./result/bin/quiz --count 5
 ```
 
@@ -20,13 +19,8 @@ nix build            # build the binary
 
 ```bash
 go build -o quiz ./cmd/quiz
-./quiz --init                    # create database + seed data
-```
-
-Import all questions:
-
-```bash
-for f in database/questions/*.json; do ./quiz --import "$f"; done
+./quiz --init                # create DB + import all 106 bundled questions
+./quiz --count 10
 ```
 
 Run the quiz:
@@ -52,7 +46,7 @@ make download-pdfs               # fetch FAA PDFs into pdfs/
 
 | Flag | Description |
 |---|---|
-| `--init` | Create database with schema and seed data |
+| `--init` | Create database, seed data, and import all bundled questions |
 | `--import FILE` | Import questions from a JSON seed file |
 | `--count N` | Limit to N random questions (default: all) |
 | `--category` | Filter: `written_exam`, `checkride_oral`, `general_knowledge` |

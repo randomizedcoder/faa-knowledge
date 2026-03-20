@@ -68,7 +68,29 @@ func doInit(dbPath string) {
 		os.Exit(1)
 	}
 
-	fmt.Println("Database initialized successfully.")
+	// Import all embedded question files
+	entries, err := dbsql.Questions.ReadDir("questions")
+	if err != nil {
+		fmt.Fprintf(os.Stderr, "Error reading embedded questions: %v\n", err)
+		os.Exit(1)
+	}
+
+	total := 0
+	for _, e := range entries {
+		data, err := dbsql.Questions.ReadFile("questions/" + e.Name())
+		if err != nil {
+			fmt.Fprintf(os.Stderr, "Error reading %s: %v\n", e.Name(), err)
+			os.Exit(1)
+		}
+		n, err := importer.ImportData(conn, data, e.Name())
+		if err != nil {
+			fmt.Fprintf(os.Stderr, "Error importing %s: %v\n", e.Name(), err)
+			os.Exit(1)
+		}
+		total += n
+	}
+
+	fmt.Printf("Database initialized with %d questions.\n", total)
 }
 
 func doImport(dbPath, path string) {

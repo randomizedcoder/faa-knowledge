@@ -31,10 +31,13 @@ func ImportFile(database *sql.DB, path string) (int, error) {
 	if err != nil {
 		return 0, fmt.Errorf("read %s: %w", path, err)
 	}
+	return ImportData(database, data, path)
+}
 
+func ImportData(database *sql.DB, data []byte, name string) (int, error) {
 	var seed SeedFile
 	if err := json.Unmarshal(data, &seed); err != nil {
-		return 0, fmt.Errorf("parse %s: %w", path, err)
+		return 0, fmt.Errorf("parse %s: %w", name, err)
 	}
 
 	chapterID, err := db.GetChapterID(database, seed.Source, seed.Chapter)
