@@ -6,10 +6,10 @@
       "section": "Hypoxia",
       "difficulty": 2,
       "categories": ["written_exam", "checkride_oral"],
-      "question": "At what cabin altitude does significant hypoxia begin to affect most pilots?",
+      "question": "At what cabin altitude do the effects of hypoxia become significant enough to impair pilot performance during the day?",
       "correct_answer": "Above 10,000 feet MSL",
       "distractors": ["Above 5,000 feet MSL", "Above 18,000 feet MSL", "Above 15,000 feet MSL"],
-      "explanation": "Significant hypoxia effects begin above 10,000 feet. FAR 91.211 requires supplemental oxygen for crew above 12,500 feet for more than 30 minutes, and for all above 14,000 feet."
+      "explanation": "Daytime cognitive impairment from hypoxia becomes significant above about 10,000 feet. Note that night vision can be affected as low as 5,000 feet. FAR 91.211 requires supplemental oxygen for crew above 12,500 feet cabin altitude for more than 30 minutes, and for everyone above 14,000 feet."
     },
     {
       "section": "Hypoxia",

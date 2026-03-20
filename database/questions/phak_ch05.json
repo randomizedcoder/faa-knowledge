@@ -26,7 +26,7 @@
       "categories": ["written_exam", "general_knowledge"],
       "question": "Which type of drag increases as airspeed increases?",
       "correct_answer": "Parasite drag",
-      "distractors": ["Induced drag", "Total drag always decreases", "Profile drag decreases at all speeds"],
+      "distractors": ["Induced drag", "Total drag remains constant at all speeds", "Induced drag increases proportionally with airspeed"],
       "explanation": "Parasite drag increases with the square of airspeed, while induced drag decreases as airspeed increases."
     },
     {
@@ -44,7 +44,7 @@
       "categories": ["written_exam"],
       "question": "In a coordinated level turn, what must increase to maintain altitude?",
       "correct_answer": "Lift",
-      "distractors": ["Thrust only", "Weight", "Parasite drag"],
+      "distractors": ["Thrust, to pull the aircraft through the turn", "Airspeed, to compensate for the bank angle", "Rudder input, to maintain coordinated flight"],
       "explanation": "In a banked turn, the vertical component of lift decreases. Total lift must increase (by increasing AoA/back pressure) to maintain the same vertical lift component and hold altitude."
     },
     {

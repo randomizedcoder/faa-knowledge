@@ -35,7 +35,7 @@
       "categories": ["written_exam"],
       "question": "What does the green arc on the airspeed indicator represent?",
       "correct_answer": "Normal operating range (VS1 to VNO)",
-      "distractors": ["Flap operating range", "Caution range for turbulence", "Maximum structural cruising range"],
+      "distractors": ["Flap operating range", "Caution range — fly only in smooth air", "Maneuvering speed range"],
       "explanation": "Green arc: normal operating range from VS1 (stall speed, clean) to VNO (max structural cruising speed). White arc is flap range, yellow arc is caution range."
     },
     {
@@ -44,7 +44,7 @@
       "categories": ["written_exam", "checkride_oral"],
       "question": "What speed does the bottom of the white arc on the airspeed indicator represent?",
       "correct_answer": "VS0 — stall speed in landing configuration (full flaps)",
-      "distractors": ["VS1 — stall speed in clean configuration", "VFE — maximum flap extended speed", "VMC — minimum controllable airspeed"],
+      "distractors": ["VS1 — stall speed in clean configuration", "VFE — maximum flap extended speed", "VNE — never exceed speed"],
       "explanation": "The white arc ranges from VS0 (stall speed in landing configuration/full flaps) at the bottom to VFE (max flap extended speed) at the top."
     },
     {
@@ -60,10 +60,10 @@
       "section": "Magnetic Compass",
       "difficulty": 3,
       "categories": ["written_exam", "checkride_oral"],
-      "question": "When accelerating on an east or west heading, what compass error will the magnetic compass display?",
-      "correct_answer": "No apparent error; acceleration errors are most apparent on north/south headings",
-      "distractors": ["The compass will show a turn toward the north", "The compass will show a turn toward the south", "The compass will spin freely"],
-      "explanation": "The ANDS memory aid: Accelerate-North, Decelerate-South. These acceleration errors affect the compass most on east/west headings — wait, actually the errors show on north/south headings. On east/west headings, acceleration errors are minimal."
+      "question": "When accelerating on an east or west heading in the Northern Hemisphere, what error will the magnetic compass temporarily show?",
+      "correct_answer": "The compass will show a turn toward the north",
+      "distractors": ["The compass will show a turn toward the south", "No error — acceleration errors only occur on north/south headings", "The compass will oscillate rapidly between headings"],
+      "explanation": "The ANDS memory aid: Accelerate-North, Decelerate-South. When accelerating on an east or west heading, the compass card tilts and temporarily indicates a turn toward north. When decelerating, it indicates a turn toward south. These errors are most pronounced on east/west headings and negligible on north/south headings."
     },
     {
       "section": "Vertical Speed Indicator",

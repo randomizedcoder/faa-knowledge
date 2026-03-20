@@ -6,10 +6,10 @@
       "section": "Straight-and-Level Flight",
       "difficulty": 1,
       "categories": ["checkride_oral", "general_knowledge"],
-      "question": "What is the relationship between pitch and power in straight-and-level flight?",
-      "correct_answer": "Pitch controls airspeed and power controls altitude (in the long term, they are interrelated)",
-      "distractors": ["Pitch always controls altitude and power always controls airspeed", "Pitch and power have no relationship to each other", "Power controls airspeed only during climbs"],
-      "explanation": "In practice, pitch and power are interrelated. A common technique: pitch for airspeed, power for altitude in stabilized flight. Changing one typically requires adjusting the other."
+      "question": "When transitioning to straight-and-level flight at a new cruise airspeed, what is the general sequence?",
+      "correct_answer": "Set the approximate power, allow airspeed to stabilize, then trim to relieve control pressure",
+      "distractors": ["Trim first, then adjust power to match the desired airspeed", "Adjust pitch only — power remains constant at cruise", "Increase power to maximum, then reduce pitch until the desired speed is reached"],
+      "explanation": "The standard technique: set power for the desired airspeed, hold altitude with pitch, let the airspeed stabilize, then trim to relieve control pressure. Pitch and power are interrelated — changing one typically requires adjusting the other."
     },
     {
       "section": "Climbs",

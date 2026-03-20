@@ -17,7 +17,7 @@
       "categories": ["written_exam", "checkride_oral"],
       "question": "According to Bernoulli's principle, as air velocity over a surface increases, what happens to the static pressure?",
       "correct_answer": "Static pressure decreases",
-      "distractors": ["Static pressure increases", "Static pressure remains constant", "Static pressure oscillates"],
+      "distractors": ["Static pressure increases", "Static pressure remains constant", "Dynamic pressure decreases"],
       "explanation": "Bernoulli's principle states that as the velocity of a fluid increases, its static pressure decreases. This pressure differential contributes to lift generation on a wing."
     },
     {

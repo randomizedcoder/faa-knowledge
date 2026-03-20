@@ -17,7 +17,7 @@
       "categories": ["written_exam", "checkride_oral"],
       "question": "Under what atmospheric conditions is carburetor icing most likely?",
       "correct_answer": "Temperatures between 20°F and 70°F with visible moisture or high humidity",
-      "distractors": ["Only in freezing temperatures below 32°F", "Only in clear air above 80°F", "Only in clouds with temperatures below 0°F"],
+      "distractors": ["In freezing temperatures below 32°F with low humidity", "In clear air above 80°F at low altitude", "In clouds with temperatures below 0°F"],
       "explanation": "Carburetor ice can form at temperatures as warm as 70°F (21°C) with humidity as low as 50%, due to the temperature drop from fuel vaporization and the venturi effect."
     },
     {

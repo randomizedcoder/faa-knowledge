@@ -60,10 +60,10 @@
       "section": "Special Use Airspace",
       "difficulty": 1,
       "categories": ["written_exam", "general_knowledge"],
-      "question": "What type of special use airspace may have active hazardous activities (such as artillery firing) and is prohibited to all non-participating aircraft when active?",
+      "question": "What type of special use airspace contains hazardous activities such as artillery firing or aerial gunnery, and requires authorization to fly through when active?",
       "correct_answer": "Restricted area",
       "distractors": ["Prohibited area", "Military Operations Area (MOA)", "Alert area"],
-      "explanation": "Restricted areas contain hazardous activities like artillery, aerial gunnery, or missile testing. Non-participating IFR traffic may be routed through with ATC. A Prohibited area is always prohibited; MOAs and Alert areas don't prohibit VFR traffic."
+      "explanation": "Restricted areas contain hazardous activities (artillery, gunnery, missile testing). Non-participating aircraft need authorization from the controlling agency to enter when active. A Prohibited area forbids all flight at all times. MOAs and Alert areas allow VFR traffic without authorization."
     },
     {
       "section": "TFRs",
