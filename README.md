@@ -1,6 +1,12 @@
 # faa-knowledge
 faa-knowledge
 
+Pilot’s Handbook of Aeronautical Knowledge
+https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak
+
+Airplane Flying Handbook
+https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook
+
 https://www.faa.gov/sites/faa.gov/files/training_testing/testing/questions_answers.pdf
 https://www.faa.gov/sites/faa.gov/files/testing_matrix.pdf
 https://www.faa.gov/sites/faa.gov/files/training_testing/testing/test_questions/par_questions.pdf
