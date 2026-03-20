@@ -1,0 +1,78 @@
+{
+  "source": "PHAK",
+  "chapter": 7,
+  "questions": [
+    {
+      "section": "Powerplant",
+      "difficulty": 1,
+      "categories": ["written_exam", "checkride_oral"],
+      "question": "In a normally aspirated reciprocating engine, what happens to engine power output as altitude increases?",
+      "correct_answer": "Power output decreases due to reduced air density",
+      "distractors": ["Power output increases due to cooler air", "Power output remains the same", "Power output increases due to lower atmospheric pressure"],
+      "explanation": "As altitude increases, air density decreases, meaning less air (and oxygen) enters the cylinders, reducing the engine's power output."
+    },
+    {
+      "section": "Carburetor Icing",
+      "difficulty": 2,
+      "categories": ["written_exam", "checkride_oral"],
+      "question": "Under what atmospheric conditions is carburetor icing most likely?",
+      "correct_answer": "Temperatures between 20°F and 70°F with visible moisture or high humidity",
+      "distractors": ["Only in freezing temperatures below 32°F", "Only in clear air above 80°F", "Only in clouds with temperatures below 0°F"],
+      "explanation": "Carburetor ice can form at temperatures as warm as 70°F (21°C) with humidity as low as 50%, due to the temperature drop from fuel vaporization and the venturi effect."
+    },
+    {
+      "section": "Carburetor Heat",
+      "difficulty": 2,
+      "categories": ["written_exam", "checkride_oral"],
+      "question": "What is the first indication of carburetor icing in an aircraft with a fixed-pitch propeller?",
+      "correct_answer": "A decrease in RPM",
+      "distractors": ["A decrease in manifold pressure", "An increase in oil temperature", "A rougher engine sound followed by increased RPM"],
+      "explanation": "In a fixed-pitch propeller aircraft, carburetor ice restricts airflow to the engine, reducing power, which shows as a decrease in RPM."
+    },
+    {
+      "section": "Fuel System",
+      "difficulty": 1,
+      "categories": ["written_exam", "general_knowledge"],
+      "question": "What color is 100LL aviation gasoline?",
+      "correct_answer": "Blue",
+      "distractors": ["Green", "Red", "Clear"],
+      "explanation": "100LL (low lead) aviation gasoline is dyed blue for identification. Other grades: 80 (red), 100 (green), Jet-A (clear/straw)."
+    },
+    {
+      "section": "Fuel System",
+      "difficulty": 2,
+      "categories": ["written_exam", "checkride_oral"],
+      "question": "Why should a pilot drain fuel from the sumps during preflight?",
+      "correct_answer": "To check for water contamination and sediment",
+      "distractors": ["To reduce fuel weight for takeoff", "To verify the fuel quantity gauges are accurate", "To prime the engine for starting"],
+      "explanation": "Water is denser than avgas and collects at the low points (sumps). Draining a sample reveals water (which appears as a clear bubble at the bottom) or sediment contamination."
+    },
+    {
+      "section": "Electrical System",
+      "difficulty": 2,
+      "categories": ["written_exam", "checkride_oral"],
+      "question": "What is the function of the alternator in a light aircraft?",
+      "correct_answer": "To supply electrical power during normal operation and recharge the battery",
+      "distractors": ["To start the engine", "To provide emergency backup power only", "To regulate fuel flow to the engine"],
+      "explanation": "The alternator is the primary source of electrical power during flight. It powers electrical systems and recharges the battery. The battery is used primarily for engine start."
+    },
+    {
+      "section": "Oil System",
+      "difficulty": 1,
+      "categories": ["written_exam", "general_knowledge"],
+      "question": "What are the primary functions of engine oil in a reciprocating aircraft engine?",
+      "correct_answer": "Lubrication, cooling, and sealing",
+      "distractors": ["Lubrication only", "Cooling and fuel mixing", "Cleaning and fuel delivery"],
+      "explanation": "Engine oil lubricates moving parts, helps cool the engine by carrying heat away from cylinders, and provides a seal between piston rings and cylinder walls."
+    },
+    {
+      "section": "Propeller",
+      "difficulty": 2,
+      "categories": ["written_exam", "checkride_oral"],
+      "question": "What is the purpose of a constant-speed propeller?",
+      "correct_answer": "To automatically adjust blade pitch to maintain a selected RPM",
+      "distractors": ["To keep the aircraft at a constant airspeed", "To prevent the engine from exceeding redline temperature", "To reduce propeller noise at all speeds"],
+      "explanation": "A constant-speed propeller uses a governor to automatically change blade pitch, maintaining the RPM set by the pilot regardless of airspeed or power changes."
+    }
+  ]
+}

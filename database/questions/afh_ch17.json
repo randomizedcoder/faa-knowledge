@@ -1,0 +1,78 @@
+{
+  "source": "AFH",
+  "chapter": 17,
+  "questions": [
+    {
+      "section": "Engine Failure After Takeoff",
+      "difficulty": 2,
+      "categories": ["written_exam", "checkride_oral"],
+      "question": "If the engine fails immediately after takeoff at low altitude, what is the recommended action?",
+      "correct_answer": "Lower the nose to maintain flying speed and land essentially straight ahead, making only small heading changes to avoid obstacles",
+      "distractors": ["Immediately turn back to the runway", "Attempt to restart the engine before doing anything else", "Pull back on the stick to gain altitude"],
+      "explanation": "At low altitude after takeoff, there is insufficient altitude/energy to turn back to the runway (the 'impossible turn'). Lower the nose to maintain airspeed and land as straight ahead as practical."
+    },
+    {
+      "section": "Engine Failure in Flight",
+      "difficulty": 2,
+      "categories": ["written_exam", "checkride_oral"],
+      "question": "What airspeed should be maintained after an engine failure to maximize glide distance?",
+      "correct_answer": "Best glide speed as specified in the POH",
+      "distractors": ["The fastest possible airspeed to cover more ground", "The slowest possible airspeed to stay aloft longest", "Normal cruise speed"],
+      "explanation": "Best glide speed (usually close to best L/D speed) maximizes the distance the aircraft can glide. This speed is specified in the POH and changes with weight."
+    },
+    {
+      "section": "Forced Landing",
+      "difficulty": 2,
+      "categories": ["checkride_oral"],
+      "question": "When selecting a field for an emergency off-airport landing, what factors should be considered?",
+      "correct_answer": "Wind direction, field length, surface condition, obstacles on approach, and proximity to civilization",
+      "distractors": ["Only the field length matters", "Choose the nearest paved road regardless of traffic", "Only the proximity to an airport matters"],
+      "explanation": "Select a field that is into the wind, long enough, has a firm and smooth surface, has a clear approach path free of obstacles, and is near help if possible. Avoid landing downwind or into obstacles."
+    },
+    {
+      "section": "Electrical Fire",
+      "difficulty": 2,
+      "categories": ["written_exam", "checkride_oral"],
+      "question": "What is the initial action if an electrical fire is suspected in flight?",
+      "correct_answer": "Turn off the master switch (electrical), then identify and isolate the faulty circuit",
+      "distractors": ["Open the cabin vents to clear smoke, then continue flight", "Increase power to maintain altitude and declare an emergency", "Turn on all electrical equipment to find the short circuit"],
+      "explanation": "For electrical fires: master switch OFF, all electrical OFF, cabin vents and heat closed initially (to starve fire). Then troubleshoot by turning on essential items one at a time. Land as soon as practical."
+    },
+    {
+      "section": "Engine Fire on Ground",
+      "difficulty": 2,
+      "categories": ["checkride_oral"],
+      "question": "If an engine fire occurs during start on the ground, what should the pilot do if the engine starts?",
+      "correct_answer": "Keep the engine running to draw the fire into the engine and away from the airframe, then shut down normally",
+      "distractors": ["Immediately shut down the engine and evacuate", "Add full throttle and attempt to take off", "Apply parking brake and use the fire extinguisher only"],
+      "explanation": "If the engine starts, running it briefly at higher RPM can draw the fire through the induction system and into the engine. If the engine doesn't start, continue cranking to attempt to draw fuel/fire through. Then shut down and evacuate."
+    },
+    {
+      "section": "Emergency Descent",
+      "difficulty": 2,
+      "categories": ["written_exam", "checkride_oral"],
+      "question": "When is an emergency descent appropriate?",
+      "correct_answer": "When rapid descent is needed, such as during an in-flight fire or sudden cabin depressurization",
+      "distractors": ["When ATC requests an expedited descent for traffic", "When the pilot wants to practice engine-out procedures", "Only during instrument approaches in IMC"],
+      "explanation": "Emergency descents are used for in-flight fires (to land quickly), cabin depressurization (to reach breathable air), or other situations requiring an immediate loss of altitude."
+    },
+    {
+      "section": "Lost Procedures",
+      "difficulty": 1,
+      "categories": ["written_exam", "checkride_oral"],
+      "question": "If a VFR pilot becomes lost, what are the '5 Cs' to follow?",
+      "correct_answer": "Confess, Climb, Communicate, Conserve, Comply",
+      "distractors": ["Check, Circle, Call, Climb, Continue", "Climb, Contact, Circle, Configure, Continue", "Confirm, Compass, Charts, Call, Confess"],
+      "explanation": "The 5 Cs: Confess (admit you're lost), Climb (better radio/visual range), Communicate (contact ATC for help), Conserve (fuel — reduce to best endurance), Comply (with ATC instructions)."
+    },
+    {
+      "section": "Emergency Equipment",
+      "difficulty": 1,
+      "categories": ["general_knowledge"],
+      "question": "What is the universal emergency frequency?",
+      "correct_answer": "121.5 MHz",
+      "distractors": ["122.8 MHz", "118.0 MHz", "126.7 MHz"],
+      "explanation": "121.5 MHz is the international emergency frequency, monitored by ATC, military, and many aircraft. It should be used when no other frequency is available in an emergency."
+    }
+  ]
+}

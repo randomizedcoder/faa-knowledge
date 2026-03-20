@@ -1,0 +1,78 @@
+{
+  "source": "AFH",
+  "chapter": 8,
+  "questions": [
+    {
+      "section": "Normal Approach and Landing",
+      "difficulty": 1,
+      "categories": ["checkride_oral", "general_knowledge"],
+      "question": "What is the purpose of the base-to-final turn in a traffic pattern?",
+      "correct_answer": "To align the aircraft with the extended runway centerline for the final approach",
+      "distractors": ["To reduce airspeed before landing", "To check for traffic on the runway", "To configure the aircraft for a go-around"],
+      "explanation": "The base-to-final turn aligns the aircraft with the runway. Pilots should avoid overshooting this turn, especially at low altitude, as steep turns close to the ground are dangerous."
+    },
+    {
+      "section": "Stabilized Approach",
+      "difficulty": 2,
+      "categories": ["written_exam", "checkride_oral"],
+      "question": "What are the elements of a stabilized approach?",
+      "correct_answer": "Proper airspeed, descent rate, flight path, and landing configuration established before a predetermined point",
+      "distractors": ["Maintaining a constant engine RPM throughout final", "Flying the approach without any power changes", "Keeping the wings level at all times during final"],
+      "explanation": "A stabilized approach means the aircraft is at the proper speed, descent rate, configuration (flaps/gear), and on the correct glidepath well before the runway threshold. An unstabilized approach warrants a go-around."
+    },
+    {
+      "section": "Crosswind Landing",
+      "difficulty": 2,
+      "categories": ["written_exam", "checkride_oral"],
+      "question": "In the wing-low (sideslip) method of crosswind landing, how is the aircraft aligned with the runway?",
+      "correct_answer": "Bank into the wind with opposite rudder to keep the nose aligned with the runway centerline",
+      "distractors": ["Use rudder only into the wind with wings level", "Bank away from the wind with same-direction rudder", "Apply forward slip with full flaps"],
+      "explanation": "The wing-low method uses aileron to bank into the wind (correcting drift) and opposite rudder to prevent turning and keep the longitudinal axis aligned with the runway."
+    },
+    {
+      "section": "Flare and Touchdown",
+      "difficulty": 2,
+      "categories": ["checkride_oral"],
+      "question": "What is the purpose of the flare (roundout) during landing?",
+      "correct_answer": "To transition from the descent to a landing attitude, reducing the descent rate for a gentle touchdown",
+      "distractors": ["To increase airspeed before touchdown", "To level the wings for a straight rollout", "To activate ground effect for a shorter landing"],
+      "explanation": "The flare gradually changes the flight path from a descent to a level attitude, dissipating energy and reducing sink rate so the aircraft touches down gently on the main gear."
+    },
+    {
+      "section": "Go-Around",
+      "difficulty": 2,
+      "categories": ["written_exam", "checkride_oral"],
+      "question": "What is the first action a pilot should take when initiating a go-around?",
+      "correct_answer": "Apply full power",
+      "distractors": ["Retract the flaps fully", "Raise the landing gear immediately", "Pull back sharply to climb"],
+      "explanation": "The first action is to apply full power to arrest the descent and begin climbing. Then adjust pitch for climb attitude, reduce flaps incrementally (not all at once to avoid sink), and retract gear as appropriate."
+    },
+    {
+      "section": "Short-Field Landing",
+      "difficulty": 2,
+      "categories": ["written_exam", "checkride_oral"],
+      "question": "What approach speed is typically used for a short-field landing?",
+      "correct_answer": "1.3 times the stall speed in landing configuration (1.3 VSO), or the POH recommended speed",
+      "distractors": ["Normal approach speed plus 10 knots", "Best glide speed", "1.5 times the stall speed"],
+      "explanation": "Short-field approaches use the minimum safe speed, typically 1.3 VSO (or as specified in the POH), to touch down at the lowest possible speed and minimize rollout distance."
+    },
+    {
+      "section": "Soft-Field Landing",
+      "difficulty": 2,
+      "categories": ["checkride_oral"],
+      "question": "What is the key technique difference in a soft-field landing versus a normal landing?",
+      "correct_answer": "Touch down at the slowest possible speed in a nose-high attitude and keep back pressure to hold weight off the nosewheel",
+      "distractors": ["Touch down faster than normal to prevent getting stuck", "Land nose-first to distribute weight forward", "Apply brakes immediately upon touchdown"],
+      "explanation": "On soft fields, the goal is to touch down as slowly as possible in a full-stall or near-stall attitude and hold the nosewheel off to prevent it from digging into the soft surface."
+    },
+    {
+      "section": "Slips",
+      "difficulty": 2,
+      "categories": ["written_exam", "checkride_oral"],
+      "question": "What is the difference between a forward slip and a sideslip?",
+      "correct_answer": "A forward slip is used to lose altitude without gaining airspeed; a sideslip corrects for crosswind drift",
+      "distractors": ["There is no difference; they are the same maneuver", "A forward slip uses only rudder; a sideslip uses only ailerons", "A forward slip is performed at high altitude; a sideslip only near the ground"],
+      "explanation": "In a forward slip, the aircraft's nose is pointed away from the flight path to create drag and steepen descent. In a sideslip, the aircraft tracks straight along the ground while banked into a crosswind."
+    }
+  ]
+}

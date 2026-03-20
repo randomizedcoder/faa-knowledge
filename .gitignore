@@ -1,3 +1,9 @@
+# FAA Knowledge project
+pdfs/**/*.pdf
+*.db
+result
+!flake.lock
+
 # Miscellaneous
 *.class
 *.lock

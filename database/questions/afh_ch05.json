@@ -1,0 +1,69 @@
+{
+  "source": "AFH",
+  "chapter": 5,
+  "questions": [
+    {
+      "section": "Normal Takeoff",
+      "difficulty": 1,
+      "categories": ["checkride_oral", "general_knowledge"],
+      "question": "During a normal takeoff, at what point should the pilot begin to apply back pressure to rotate?",
+      "correct_answer": "When the aircraft reaches the rotation speed (VR) specified in the POH",
+      "distractors": ["Immediately upon reaching full power", "When the airspeed indicator first comes alive", "After the aircraft has traveled half the runway distance"],
+      "explanation": "The pilot should smoothly apply back pressure at VR (rotation speed) as specified in the POH/AFM. Premature rotation increases drag and can prolong the ground roll."
+    },
+    {
+      "section": "Crosswind Takeoff",
+      "difficulty": 2,
+      "categories": ["written_exam", "checkride_oral"],
+      "question": "During a crosswind takeoff, which aileron position should be used at the start of the takeoff roll?",
+      "correct_answer": "Full aileron into the wind, gradually reducing as speed increases",
+      "distractors": ["Full aileron away from the wind", "Neutral ailerons throughout the takeoff", "Half aileron into the wind, increasing with speed"],
+      "explanation": "Start with full aileron deflection into the wind to prevent the upwind wing from lifting. As airspeed increases, control effectiveness improves and less deflection is needed."
+    },
+    {
+      "section": "Short-Field Takeoff",
+      "difficulty": 2,
+      "categories": ["written_exam", "checkride_oral"],
+      "question": "After a short-field takeoff with an obstacle, what airspeed should be maintained during the initial climb?",
+      "correct_answer": "VX (best angle of climb speed) until the obstacle is cleared",
+      "distractors": ["VY (best rate of climb speed)", "Normal climb speed", "Any speed above stall speed"],
+      "explanation": "VX provides the steepest climb angle, gaining the most altitude per foot of ground distance. After clearing the obstacle, accelerate to VY for the most efficient climb."
+    },
+    {
+      "section": "Soft-Field Takeoff",
+      "difficulty": 2,
+      "categories": ["written_exam", "checkride_oral"],
+      "question": "What is the technique for a soft-field takeoff?",
+      "correct_answer": "Hold full back pressure to keep weight off the nosewheel, lift off at the lowest possible airspeed, then accelerate in ground effect",
+      "distractors": ["Use normal technique but add 10 knots to rotation speed", "Keep the nosewheel firmly on the ground until VR", "Apply brakes intermittently during the roll to maintain control"],
+      "explanation": "On soft fields, hold back pressure to keep weight off the nosewheel (preventing it from digging in). The aircraft may become airborne at a speed below normal climb speed — accelerate in ground effect before climbing."
+    },
+    {
+      "section": "Density Altitude",
+      "difficulty": 2,
+      "categories": ["written_exam", "checkride_oral"],
+      "question": "How does high density altitude affect takeoff performance?",
+      "correct_answer": "Longer takeoff roll and reduced rate of climb",
+      "distractors": ["Shorter takeoff roll and increased rate of climb", "No effect on takeoff performance", "Shorter takeoff roll but reduced rate of climb"],
+      "explanation": "High density altitude (caused by high temperature, high elevation, or high humidity) means thinner air. The engine produces less power, and the wings produce less lift, resulting in a longer ground roll and reduced climb performance."
+    },
+    {
+      "section": "Normal Climb",
+      "difficulty": 1,
+      "categories": ["general_knowledge"],
+      "question": "After takeoff and obstacle clearance, what speed is typically used for a normal cruise climb?",
+      "correct_answer": "VY or a cruise climb speed recommended in the POH",
+      "distractors": ["VX until reaching pattern altitude", "Maximum airspeed for fastest climb", "Minimum controllable airspeed"],
+      "explanation": "After clearing obstacles, VY provides the best rate of climb. Some POHs recommend a cruise climb speed slightly faster than VY for better engine cooling and forward visibility."
+    },
+    {
+      "section": "Rejected Takeoff",
+      "difficulty": 2,
+      "categories": ["checkride_oral"],
+      "question": "When should a pilot abort a takeoff?",
+      "correct_answer": "If the engine is not producing expected power, if the aircraft is not accelerating normally, or if any unsafe condition exists before rotation",
+      "distractors": ["Only if the engine completely fails", "Only if ATC instructs an abort", "Never — always complete the takeoff once the roll begins"],
+      "explanation": "The decision to abort must be made quickly. Indications include abnormal engine instruments, sluggish acceleration, unexpected sounds, or any condition that makes continued takeoff unsafe. The earlier the decision, the more runway available to stop."
+    }
+  ]
+}

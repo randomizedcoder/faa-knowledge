@@ -1,0 +1,96 @@
+{
+  "source": "PHAK",
+  "chapter": 12,
+  "questions": [
+    {
+      "section": "Atmosphere",
+      "difficulty": 1,
+      "categories": ["written_exam", "general_knowledge"],
+      "question": "In the standard atmosphere, what is the average temperature lapse rate in the troposphere?",
+      "correct_answer": "2°C per 1,000 feet",
+      "distractors": ["3.5°C per 1,000 feet", "1°C per 1,000 feet", "2°F per 1,000 feet"],
+      "explanation": "The standard lapse rate is approximately 2°C (3.5°F) per 1,000 feet of altitude gain in the troposphere."
+    },
+    {
+      "section": "Wind",
+      "difficulty": 2,
+      "categories": ["written_exam", "checkride_oral"],
+      "question": "What causes wind?",
+      "correct_answer": "Differences in atmospheric pressure (pressure gradient force)",
+      "distractors": ["Rotation of the earth only", "Heating of the earth's surface only", "Convective currents in the stratosphere"],
+      "explanation": "Wind is caused by pressure differences in the atmosphere. Air flows from high pressure to low pressure. The Coriolis effect, friction, and other forces then modify wind direction and speed."
+    },
+    {
+      "section": "Coriolis Effect",
+      "difficulty": 2,
+      "categories": ["written_exam"],
+      "question": "In the Northern Hemisphere, how does the Coriolis effect influence wind direction?",
+      "correct_answer": "It deflects wind to the right of its path",
+      "distractors": ["It deflects wind to the left of its path", "It has no effect on wind direction", "It causes wind to blow directly from high to low pressure"],
+      "explanation": "In the Northern Hemisphere, the Coriolis effect (due to Earth's rotation) deflects moving air to the right. In the Southern Hemisphere, it deflects to the left."
+    },
+    {
+      "section": "Fronts",
+      "difficulty": 2,
+      "categories": ["written_exam", "checkride_oral"],
+      "question": "What type of weather is typically associated with a warm front?",
+      "correct_answer": "Widespread low clouds, steady precipitation, and poor visibility over a large area",
+      "distractors": ["Severe thunderstorms and hail along a narrow band", "Clear skies and unlimited visibility", "Isolated rain showers with rapid clearing"],
+      "explanation": "Warm fronts feature warm air riding up over cooler air, producing stratiform clouds, steady precipitation, and reduced visibility over a wide area ahead of the front."
+    },
+    {
+      "section": "Fronts",
+      "difficulty": 2,
+      "categories": ["written_exam", "checkride_oral"],
+      "question": "What type of weather is typically associated with a fast-moving cold front?",
+      "correct_answer": "A narrow band of thunderstorms, turbulence, and gusty winds",
+      "distractors": ["Widespread fog and drizzle", "Gradual clearing with light winds", "Steady light rain over a broad area"],
+      "explanation": "A fast-moving cold front forces warm air up rapidly, creating cumulonimbus clouds, thunderstorms, heavy rain, turbulence, and gusty surface winds in a narrow band along the front."
+    },
+    {
+      "section": "Thunderstorms",
+      "difficulty": 2,
+      "categories": ["written_exam", "checkride_oral"],
+      "question": "What three conditions are necessary for a thunderstorm to form?",
+      "correct_answer": "Sufficient moisture, an unstable lapse rate, and a lifting action",
+      "distractors": ["High pressure, dry air, and wind shear", "Cold front passage, low humidity, and stable air", "Mountain terrain, fog, and temperature inversion"],
+      "explanation": "All thunderstorms require: (1) sufficient moisture to form clouds and rain, (2) an unstable atmosphere (steep lapse rate), and (3) a lifting force (fronts, orographic, convection, or convergence)."
+    },
+    {
+      "section": "Fog",
+      "difficulty": 2,
+      "categories": ["written_exam"],
+      "question": "What type of fog forms when warm, moist air moves over a colder surface?",
+      "correct_answer": "Advection fog",
+      "distractors": ["Radiation fog", "Upslope fog", "Steam fog"],
+      "explanation": "Advection fog forms when warm, moist air moves horizontally over a colder surface, cooling the air to its dew point. It is common along coastlines and can persist throughout the day."
+    },
+    {
+      "section": "Stability",
+      "difficulty": 2,
+      "categories": ["written_exam", "checkride_oral"],
+      "question": "What kind of clouds and weather are associated with unstable air?",
+      "correct_answer": "Cumulus clouds, turbulence, good visibility outside of precipitation, and showery precipitation",
+      "distractors": ["Stratus clouds, smooth air, poor visibility, and steady precipitation", "No clouds, calm air, and excellent visibility", "Only high cirrus clouds with light turbulence"],
+      "explanation": "Unstable air promotes vertical development: cumulus/cumulonimbus clouds, turbulence, showery precipitation, and generally good visibility between showers."
+    },
+    {
+      "section": "Temperature Inversion",
+      "difficulty": 2,
+      "categories": ["written_exam", "checkride_oral"],
+      "question": "What weather conditions are typically associated with a temperature inversion near the surface?",
+      "correct_answer": "Smooth air, poor visibility, fog or haze, and stable conditions",
+      "distractors": ["Turbulence, good visibility, and cumulonimbus clouds", "Thunderstorms and wind shear", "Clear skies and gusty winds"],
+      "explanation": "A surface-based temperature inversion traps moisture, pollutants, and haze near the ground, resulting in smooth air, poor visibility, fog, and very stable conditions."
+    },
+    {
+      "section": "Icing",
+      "difficulty": 2,
+      "categories": ["written_exam", "checkride_oral"],
+      "question": "What is the most hazardous type of structural icing?",
+      "correct_answer": "Clear ice",
+      "distractors": ["Rime ice", "Mixed ice", "Frost"],
+      "explanation": "Clear ice (or glaze ice) forms from large supercooled water droplets that spread before freezing. It is hard, heavy, tenacious, and difficult to remove, significantly altering the airfoil shape."
+    }
+  ]
+}

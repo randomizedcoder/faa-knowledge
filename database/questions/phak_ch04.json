@@ -1,0 +1,78 @@
+{
+  "source": "PHAK",
+  "chapter": 4,
+  "questions": [
+    {
+      "section": "Four Forces of Flight",
+      "difficulty": 1,
+      "categories": ["written_exam", "general_knowledge"],
+      "question": "What are the four forces acting on an airplane in flight?",
+      "correct_answer": "Lift, weight, thrust, and drag",
+      "distractors": ["Lift, gravity, power, and friction", "Thrust, drag, centripetal force, and weight", "Lift, drag, torque, and gravity"],
+      "explanation": "The four forces are lift (opposes weight), weight (gravity), thrust (opposes drag), and drag (opposes thrust)."
+    },
+    {
+      "section": "Bernoulli's Principle",
+      "difficulty": 2,
+      "categories": ["written_exam", "checkride_oral"],
+      "question": "According to Bernoulli's principle, as air velocity over a surface increases, what happens to the static pressure?",
+      "correct_answer": "Static pressure decreases",
+      "distractors": ["Static pressure increases", "Static pressure remains constant", "Static pressure oscillates"],
+      "explanation": "Bernoulli's principle states that as the velocity of a fluid increases, its static pressure decreases. This pressure differential contributes to lift generation on a wing."
+    },
+    {
+      "section": "Newton's Third Law",
+      "difficulty": 2,
+      "categories": ["written_exam", "checkride_oral"],
+      "question": "How does Newton's Third Law contribute to lift on an airplane wing?",
+      "correct_answer": "The wing deflects air downward and receives an equal upward reaction force",
+      "distractors": ["The wing pushes air forward, creating a vacuum above", "Air molecules accelerate equally in all directions around the wing", "Gravity is counteracted by the inertia of the air mass"],
+      "explanation": "Newton's Third Law: for every action there is an equal and opposite reaction. The wing deflects air downward (downwash), and the reaction force pushes the wing upward."
+    },
+    {
+      "section": "Angle of Attack",
+      "difficulty": 1,
+      "categories": ["written_exam", "checkride_oral"],
+      "question": "What is the angle of attack?",
+      "correct_answer": "The angle between the chord line of the wing and the relative wind",
+      "distractors": ["The angle between the wing and the horizon", "The angle between the fuselage and the flight path", "The angle between the chord line and the longitudinal axis"],
+      "explanation": "Angle of attack (AoA) is measured between the chord line of the airfoil and the direction of the relative wind, not the horizon."
+    },
+    {
+      "section": "Airfoil Design",
+      "difficulty": 2,
+      "categories": ["general_knowledge", "checkride_oral"],
+      "question": "What is the chord line of an airfoil?",
+      "correct_answer": "An imaginary straight line from the leading edge to the trailing edge",
+      "distractors": ["The curved upper surface of the airfoil", "The line of maximum thickness", "The path air follows over the top of the wing"],
+      "explanation": "The chord line is the imaginary straight line drawn from the leading edge to the trailing edge of the airfoil. It is used as a reference for measuring angle of attack."
+    },
+    {
+      "section": "Relative Wind",
+      "difficulty": 2,
+      "categories": ["written_exam", "checkride_oral"],
+      "question": "What determines the direction of the relative wind?",
+      "correct_answer": "The flight path of the aircraft; relative wind is parallel and opposite to the flight path",
+      "distractors": ["The surface wind direction and speed", "The angle of the wing relative to the horizon", "The direction the propeller blast flows over the wing"],
+      "explanation": "The relative wind is always parallel to and opposite the flight path of the aircraft. It is not related to surface wind."
+    },
+    {
+      "section": "Lift",
+      "difficulty": 2,
+      "categories": ["written_exam"],
+      "question": "Which factors affect the amount of lift produced by a wing?",
+      "correct_answer": "Airspeed, air density, wing area, and angle of attack",
+      "distractors": ["Only airspeed and angle of attack", "Wing area and weight only", "Thrust and altitude only"],
+      "explanation": "Lift = CL × ½ρV²S. Lift depends on the coefficient of lift (related to AoA and airfoil shape), air density (ρ), velocity (V), and wing area (S)."
+    },
+    {
+      "section": "Camber",
+      "difficulty": 1,
+      "categories": ["general_knowledge"],
+      "question": "What is the camber of an airfoil?",
+      "correct_answer": "The curvature of the airfoil from the leading edge to the trailing edge",
+      "distractors": ["The thickness of the airfoil at its widest point", "The angle between the chord line and the horizontal", "The span of the wing from root to tip"],
+      "explanation": "Camber refers to the curvature of the airfoil. A wing with more camber (more curvature on top) generally produces more lift at a given angle of attack."
+    }
+  ]
+}
