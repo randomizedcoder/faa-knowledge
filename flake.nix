@@ -36,6 +36,9 @@
         # --chapters phak:04) are forwarded to the mine/generate stage.
         packages.extract-glm = pkgs.writeShellScriptBin "faa-extract-glm" ''
           set -euo pipefail
+          # Stage 1 shells out to pdftotext (poppler-utils); nix run has a
+          # minimal PATH, so make it available here.
+          export PATH=${pkgs.poppler-utils}/bin:$PATH
           quiz=${self.packages.${system}.default}/bin/quiz
           url="''${FAA_LLM_URL:-http://localhost:8000}"
           export FAA_LLM_URL="$url"
