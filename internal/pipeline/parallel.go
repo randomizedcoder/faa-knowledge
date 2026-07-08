@@ -24,7 +24,7 @@ type generateResult struct {
 
 // GenerateAndCheck runs generation on largeClient and cross-checking on
 // smallClient concurrently, using a channel pipeline.
-func GenerateAndCheck(ctx context.Context, largeClient, smallClient *llm.Client, runID int, filter ChapterFilter, opts PipelineOpts) error {
+func GenerateAndCheck(ctx context.Context, largeClient, smallClient *llm.Client, runID, cap int, filter ChapterFilter, opts PipelineOpts) error {
 	knowledgeDir := filepath.Join("runs", fmt.Sprintf("run_%02d", runID), "knowledge")
 	entries, err := filepath.Glob(filepath.Join(knowledgeDir, "*.json"))
 	if err != nil {
@@ -59,6 +59,8 @@ func GenerateAndCheck(ctx context.Context, largeClient, smallClient *llm.Client,
 				continue
 			}
 		}
+		kf.Items = SelectItems(kf.Items, cap)
+
 		if opts.DryRun {
 			fmt.Printf("  [dry-run] would generate from %s ch%02d (%d items)\n", kf.Source, kf.Chapter, len(kf.Items))
 			continue
@@ -87,6 +89,7 @@ func GenerateAndCheck(ctx context.Context, largeClient, smallClient *llm.Client,
 		defer close(ch)
 
 		globalIdx := 0
+		connFails := 0
 		for _, cw := range chapters {
 			fmt.Printf("Generating from %s ch%02d (%d items)...\n", cw.kf.Source, cw.kf.Chapter, len(cw.kf.Items))
 			for _, ki := range cw.kf.Items {
@@ -94,8 +97,16 @@ func GenerateAndCheck(ctx context.Context, largeClient, smallClient *llm.Client,
 				sq, err := GenerateFromItem(ctx, largeClient, ki, cw.kf.Source, cw.kf.Chapter)
 				if err != nil {
 					fmt.Printf("  [gen %d/%d] ERROR: %v\n", globalIdx, totalItems, err)
+					if llm.IsConnError(err) {
+						connFails++
+						if connFails >= maxConsecutiveConnFails {
+							genErr = fmt.Errorf("aborting after %d consecutive connection failures — is the LLM server up? last: %w", connFails, err)
+							return
+						}
+					}
 					continue
 				}
+				connFails = 0
 				fmt.Printf("  [gen %d/%d] %s\n", globalIdx, totalItems, truncateStr(sq.Question, 60))
 
 				select {

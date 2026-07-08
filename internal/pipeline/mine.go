@@ -168,6 +168,7 @@ func MineChapter(ctx context.Context, client *llm.Client, source string, chapter
 	}
 
 	seq := 0
+	connFails := 0
 	for i, p := range paragraphs {
 		if len(p.Text) < 50 {
 			continue
@@ -178,8 +179,15 @@ func MineChapter(ctx context.Context, client *llm.Client, source string, chapter
 		var resp mineResponse
 		if err := client.CompleteJSON(ctx, mineSystemPrompt, userPrompt, &resp); err != nil {
 			fmt.Printf("  [%d/%d] ERROR: %v\n", i+1, len(paragraphs), err)
+			if llm.IsConnError(err) {
+				connFails++
+				if connFails >= maxConsecutiveConnFails {
+					return nil, fmt.Errorf("aborting after %d consecutive connection failures — is the LLM server up? last: %w", connFails, err)
+				}
+			}
 			continue
 		}
+		connFails = 0
 
 		for _, f := range resp.Facts {
 			seq++

@@ -68,6 +68,7 @@ func main() {
 	llmURL := flag.String("llm-url", envOr("FAA_LLM_URL", "http://l2:8095"), "Large LLM API base URL (MI50 on l2)")
 	llmModel := flag.String("llm-model", envOr("FAA_LLM_MODEL", "local"), "Model name sent to the LLM server (e.g. /model for GLM)")
 	think := flag.Bool("think", envOrBool("FAA_LLM_THINK", false), "Enable the model's reasoning mode (chat_template_kwargs.enable_thinking) for all LLM calls")
+	genCap := flag.Int("gen-cap", 0, "Max questions to generate per chapter (0 = one per fact); selects hardest, distinct facts")
 	file := flag.String("file", "", "Validate a specific JSON file (requires --validate)")
 	addRefs := flag.Bool("add-refs", false, "Extract references from PDFs and add to JSON files")
 	pdfDir := flag.String("pdf-dir", "pdfs", "Directory containing phak.pdf and afh.pdf")
@@ -94,7 +95,7 @@ func main() {
 	if *pipelineFlag {
 		filter := pipeline.ParseChapterFilter(*chapters)
 		opts := pipeline.PipelineOpts{Force: *force, DryRun: *dryRun}
-		runPipeline(*pdfDir, *textDir, *llmURL, *smallLLMURL, *llmModel, *think, *runs, *startRun, *skipExtract, *skipChunk, filter, opts)
+		runPipeline(*pdfDir, *textDir, *llmURL, *smallLLMURL, *llmModel, *think, *genCap, *runs, *startRun, *skipExtract, *skipChunk, filter, opts)
 		return
 	}
 
@@ -152,12 +153,12 @@ func main() {
 		if *generate {
 			if *smallLLMURL != "" {
 				smallClient := newLLMClient(*smallLLMURL, *llmModel, *think, 0.1, 120*time.Second)
-				if err := pipeline.GenerateAndCheck(ctx, client, smallClient, *runID, filter, opts); err != nil {
+				if err := pipeline.GenerateAndCheck(ctx, client, smallClient, *runID, *genCap, filter, opts); err != nil {
 					fmt.Fprintf(os.Stderr, "Error generating+checking: %v\n", err)
 					os.Exit(1)
 				}
 			} else {
-				if err := pipeline.Generate(ctx, client, *runID); err != nil {
+				if err := pipeline.Generate(ctx, client, *runID, *genCap); err != nil {
 					fmt.Fprintf(os.Stderr, "Error generating: %v\n", err)
 					os.Exit(1)
 				}
@@ -330,7 +331,7 @@ func doAddRefs(llmURL, llmModel string, think bool, pdfDir, filePath string) {
 	}
 }
 
-func runPipeline(pdfDir, textDir, llmURL, smallLLMURL, llmModel string, think bool, runs, startRun int, skipExtract, skipChunk bool, filter pipeline.ChapterFilter, opts pipeline.PipelineOpts) {
+func runPipeline(pdfDir, textDir, llmURL, smallLLMURL, llmModel string, think bool, genCap, runs, startRun int, skipExtract, skipChunk bool, filter pipeline.ChapterFilter, opts pipeline.PipelineOpts) {
 	ctx := context.Background()
 
 	// Stage 1: Extract text from PDFs
@@ -367,7 +368,7 @@ func runPipeline(pdfDir, textDir, llmURL, smallLLMURL, llmModel string, think bo
 		}
 
 		fmt.Printf("=== Run %d/%d: Generate + cross-check questions ===\n", i, runs)
-		if err := pipeline.GenerateAndCheck(ctx, largeClient, smallClient, i, filter, opts); err != nil {
+		if err := pipeline.GenerateAndCheck(ctx, largeClient, smallClient, i, genCap, filter, opts); err != nil {
 			fmt.Fprintf(os.Stderr, "Error generating run %d: %v\n", i, err)
 			os.Exit(1)
 		}

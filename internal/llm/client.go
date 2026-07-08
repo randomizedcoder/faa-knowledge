@@ -4,18 +4,28 @@ import (
 	"bytes"
 	"context"
 	"encoding/json"
+	"errors"
 	"fmt"
 	"io"
+	"net"
 	"net/http"
 	"strings"
 	"time"
 )
+
+// defaultRetries is the number of extra attempts on transient errors when a
+// Client doesn't set Retries explicitly.
+const defaultRetries = 3
 
 type Client struct {
 	BaseURL     string
 	Model       string
 	Temperature float64
 	Timeout     time.Duration
+	// Retries is the number of extra attempts on connection-level or 5xx
+	// errors (0 uses defaultRetries). Transient tunnel/VPN drops are retried
+	// with exponential backoff so a blip doesn't fail a whole pipeline stage.
+	Retries int
 	// Thinking controls the reasoning mode of hybrid models (e.g. GLM) via
 	// chat_template_kwargs.enable_thinking. nil means "don't send the field"
 	// so llama.cpp servers that don't understand it (the l2 pipeline) behave
@@ -137,34 +147,73 @@ func (c *Client) Complete(ctx context.Context, system, user string) (string, err
 		return "", fmt.Errorf("marshal request: %w", err)
 	}
 
+	retries := c.Retries
+	if retries <= 0 {
+		retries = defaultRetries
+	}
+
+	var lastErr error
+	for attempt := 0; attempt <= retries; attempt++ {
+		if attempt > 0 {
+			// Exponential backoff: 1s, 2s, 4s, ... capped at 30s.
+			backoff := time.Duration(1<<uint(attempt-1)) * time.Second
+			if backoff > 30*time.Second {
+				backoff = 30 * time.Second
+			}
+			select {
+			case <-ctx.Done():
+				return "", ctx.Err()
+			case <-time.After(backoff):
+			}
+		}
+
+		content, retryable, err := c.doOnce(ctx, body)
+		if err == nil {
+			return content, nil
+		}
+		lastErr = err
+		if !retryable {
+			return "", err
+		}
+	}
+	return "", lastErr
+}
+
+// doOnce performs a single chat-completion request. It returns the content, a
+// flag indicating whether the error (if any) is worth retrying (connection-level
+// or 5xx), and the error.
+func (c *Client) doOnce(ctx context.Context, body []byte) (string, bool, error) {
 	req, err := http.NewRequestWithContext(ctx, "POST", c.BaseURL+"/v1/chat/completions", bytes.NewReader(body))
 	if err != nil {
-		return "", fmt.Errorf("create request: %w", err)
+		return "", false, fmt.Errorf("create request: %w", err)
 	}
 	req.Header.Set("Content-Type", "application/json")
 
 	resp, err := c.httpClient.Do(req)
 	if err != nil {
-		return "", fmt.Errorf("llm request: %w", err)
+		// Transport-level failure (refused/reset/timeout) — retryable.
+		return "", true, fmt.Errorf("llm request: %w", err)
 	}
 	defer resp.Body.Close()
 
 	respBody, err := io.ReadAll(resp.Body)
 	if err != nil {
-		return "", fmt.Errorf("read response: %w", err)
+		return "", true, fmt.Errorf("read response: %w", err)
 	}
 
 	if resp.StatusCode != http.StatusOK {
-		return "", fmt.Errorf("llm returned %d: %s", resp.StatusCode, string(respBody))
+		// 5xx and 429 are transient; other 4xx are not.
+		retryable := resp.StatusCode >= 500 || resp.StatusCode == http.StatusTooManyRequests
+		return "", retryable, fmt.Errorf("llm returned %d: %s", resp.StatusCode, string(respBody))
 	}
 
 	var chatResp chatResponse
 	if err := json.Unmarshal(respBody, &chatResp); err != nil {
-		return "", fmt.Errorf("parse chat response: %w", err)
+		return "", false, fmt.Errorf("parse chat response: %w", err)
 	}
 
 	if len(chatResp.Choices) == 0 {
-		return "", fmt.Errorf("llm returned no choices")
+		return "", false, fmt.Errorf("llm returned no choices")
 	}
 
 	msg := chatResp.Choices[0].Message
@@ -172,7 +221,31 @@ func (c *Client) Complete(ctx context.Context, system, user string) (string, err
 	if content == "" {
 		content = msg.ReasoningContent
 	}
-	return content, nil
+	return content, false, nil
+}
+
+// IsConnError reports whether err is a connection-level failure (server
+// unreachable), as opposed to a content error like a JSON parse failure. Used
+// by pipeline stages to trip a circuit-breaker when the LLM endpoint goes away.
+func IsConnError(err error) bool {
+	if err == nil {
+		return false
+	}
+	var netErr net.Error
+	if errors.As(err, &netErr) {
+		return true
+	}
+	s := err.Error()
+	for _, sub := range []string{
+		"connection refused", "connection reset", "no such host",
+		"dial tcp", "EOF", "i/o timeout", "broken pipe",
+		"server misbehaving", "network is unreachable", "no route to host",
+	} {
+		if strings.Contains(s, sub) {
+			return true
+		}
+	}
+	return false
 }
 
 // CompleteJSON calls Complete then unmarshals the result into dest.

@@ -6,6 +6,7 @@ import (
 	"fmt"
 	"os"
 	"path/filepath"
+	"sort"
 	"strings"
 
 	"github.com/das/faa-knowledge/internal/importer"
@@ -50,8 +51,14 @@ type generateResponse struct {
 	Explanation   string   `json:"explanation"`
 }
 
-// Generate reads knowledge items from a run and generates questions.
-func Generate(ctx context.Context, client *llm.Client, runID int) error {
+// maxConsecutiveConnFails trips a stage-level circuit-breaker: once the LLM
+// endpoint has failed this many times in a row (e.g. a dropped tunnel), abort
+// the stage instead of grinding through thousands of doomed calls.
+const maxConsecutiveConnFails = 8
+
+// Generate reads knowledge items from a run and generates questions. When cap
+// > 0, at most cap items per chapter are used (see SelectItems).
+func Generate(ctx context.Context, client *llm.Client, runID, cap int) error {
 	knowledgeDir := filepath.Join("runs", fmt.Sprintf("run_%02d", runID), "knowledge")
 	entries, err := filepath.Glob(filepath.Join(knowledgeDir, "*.json"))
 	if err != nil {
@@ -70,7 +77,7 @@ func Generate(ctx context.Context, client *llm.Client, runID int) error {
 		}
 
 		fmt.Printf("Generating from %s ch%02d (%d items)...\n", kf.Source, kf.Chapter, len(kf.Items))
-		sf, err := GenerateChapter(ctx, client, &kf, runID)
+		sf, err := GenerateChapter(ctx, client, &kf, runID, cap)
 		if err != nil {
 			return fmt.Errorf("generate %s ch%02d: %w", kf.Source, kf.Chapter, err)
 		}
@@ -95,24 +102,76 @@ func Generate(ctx context.Context, client *llm.Client, runID int) error {
 	return nil
 }
 
-// GenerateChapter generates questions for all knowledge items in a chapter.
-func GenerateChapter(ctx context.Context, client *llm.Client, kf *KnowledgeFile, runID int) (*importer.SeedFile, error) {
+// GenerateChapter generates questions for the knowledge items in a chapter.
+// When cap > 0, only the top cap items (per SelectItems) are used.
+func GenerateChapter(ctx context.Context, client *llm.Client, kf *KnowledgeFile, runID, cap int) (*importer.SeedFile, error) {
 	sf := &importer.SeedFile{
 		Source:  strings.ToUpper(kf.Source),
 		Chapter: kf.Chapter,
 	}
 
-	for i, ki := range kf.Items {
+	items := SelectItems(kf.Items, cap)
+	if cap > 0 && len(items) < len(kf.Items) {
+		fmt.Printf("  (selected %d of %d items)\n", len(items), len(kf.Items))
+	}
+
+	connFails := 0
+	for i, ki := range items {
 		sq, err := GenerateFromItem(ctx, client, ki, kf.Source, kf.Chapter)
 		if err != nil {
-			fmt.Printf("  [%d/%d] ERROR: %v\n", i+1, len(kf.Items), err)
+			fmt.Printf("  [%d/%d] ERROR: %v\n", i+1, len(items), err)
+			if llm.IsConnError(err) {
+				connFails++
+				if connFails >= maxConsecutiveConnFails {
+					return nil, fmt.Errorf("aborting after %d consecutive connection failures — is the LLM server up? last: %w", connFails, err)
+				}
+			}
 			continue
 		}
+		connFails = 0
 		sf.Questions = append(sf.Questions, *sq)
-		fmt.Printf("  [%d/%d] %s\n", i+1, len(kf.Items), truncateStr(sq.Question, 60))
+		fmt.Printf("  [%d/%d] %s\n", i+1, len(items), truncateStr(sq.Question, 60))
 	}
 
 	return sf, nil
+}
+
+// SelectItems picks up to cap knowledge items from items, favoring harder,
+// distinct facts. It drops near-duplicate facts (SimilarityScore > 0.85), then
+// sorts by difficulty (descending) keeping document order within a difficulty,
+// and returns the first cap. cap <= 0 returns items unchanged.
+func SelectItems(items []KnowledgeItem, cap int) []KnowledgeItem {
+	if cap <= 0 || len(items) <= cap {
+		return items
+	}
+
+	// Drop near-duplicate facts, keeping the first occurrence.
+	deduped := make([]KnowledgeItem, 0, len(items))
+	kept := make([]string, 0, len(items))
+	for _, ki := range items {
+		norm := NormalizeText(ki.Fact)
+		dup := false
+		for _, k := range kept {
+			if SimilarityScore(norm, k) > 0.85 {
+				dup = true
+				break
+			}
+		}
+		if !dup {
+			deduped = append(deduped, ki)
+			kept = append(kept, norm)
+		}
+	}
+
+	if len(deduped) <= cap {
+		return deduped
+	}
+
+	// Stable sort by difficulty descending; ties keep document order.
+	sort.SliceStable(deduped, func(i, j int) bool {
+		return deduped[i].Difficulty > deduped[j].Difficulty
+	})
+	return deduped[:cap]
 }
 
 // GenerateFromItem generates a single question from a knowledge item.
