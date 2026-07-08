@@ -5,74 +5,162 @@
     {
       "section": "Powerplant",
       "difficulty": 1,
-      "categories": ["written_exam", "checkride_oral"],
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
       "question": "In a normally aspirated reciprocating engine, what happens to engine power output as altitude increases?",
       "correct_answer": "Power output decreases due to reduced air density",
-      "distractors": ["Power output increases due to cooler air", "Power output remains the same", "Power output increases due to lower atmospheric pressure"],
-      "explanation": "As altitude increases, air density decreases, meaning less air (and oxygen) enters the cylinders, reducing the engine's power output."
+      "distractors": [
+        "Power output increases due to cooler air",
+        "Power output remains the same",
+        "Power output increases due to lower atmospheric pressure"
+      ],
+      "explanation": "As altitude increases, air density decreases, meaning less air (and oxygen) enters the cylinders, reducing the engine's power output.",
+      "reference": {
+        "page": "7-12",
+        "text": "As a normally aspirated aircraft climbs, it eventually reaches an altitude where the MAP is insufficient for a normal climb. This altitude limit is known as the aircraft’s service ceiling, and it is directly affected by the engine’s ability to produce power. If the induction air entering the engine is pressurized or boosted, by either a supercharger or a turbosupercharger, the aircraft’s service ceiling can be increased. With these systems, an aircraft can fly at higher altitudes with the advantage of higher true airspeeds and the increased ability to circumnavigate adverse weather."
+      }
     },
     {
       "section": "Carburetor Icing",
       "difficulty": 2,
-      "categories": ["written_exam", "checkride_oral"],
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
       "question": "Under what atmospheric conditions is carburetor icing most likely?",
       "correct_answer": "Temperatures between 20°F and 70°F with visible moisture or high humidity",
-      "distractors": ["In freezing temperatures below 32°F with low humidity", "In clear air above 80°F at low altitude", "In clouds with temperatures below 0°F"],
-      "explanation": "Carburetor ice can form at temperatures as warm as 70°F (21°C) with humidity as low as 50%, due to the temperature drop from fuel vaporization and the venturi effect."
+      "distractors": [
+        "In freezing temperatures below 32°F with low humidity",
+        "In clear air above 80°F at low altitude",
+        "In clouds with temperatures below 0°F"
+      ],
+      "explanation": "Carburetor ice can form at temperatures as warm as 70°F (21°C) with humidity as low as 50%, due to the temperature drop from fuel vaporization and the venturi effect.",
+      "reference": {
+        "page": "7-10",
+        "text": "The first indication of carburetor icing in an aircraft with a fixed-pitch propeller is a decrease in engine rpm, which may be followed by engine roughness. In an aircraft with a constant-speed propeller, carburetor icing is usually indicated by a decrease in manifold pressure, but no reduction in rpm. Propeller pitch is automatically adjusted to compensate for loss of power. Although carburetor ice can occur during any phase of flight, it is particularly dangerous when using reduced power during a descent. Under certain conditions, carburetor ice could build unnoticed until power is added. To combat the effects of carburetor ice, engines with float-type carburetors employ a carburetor heat system. Carburetor heat is an anti-icing system that preheats the air before it reaches the carburetor and is intended to keep the fuel-air mixture above freezing to prevent the formation of carburetor ice. Carburetor heat can be used to melt ice that has already formed in the carburetor if the accumulation is not too great, but using carburetor heat as a preventative measure is the better option. Additionally, carburetor heat may be used as an alternate air source if the intake filter clogs, such as in sudden or unexpected airframe icing conditions. The carburetor heat should be checked during the engine runup. When using carburetor heat, follow the manufacturer's recommendations. When conditions are conducive to carburetor icing during flight, periodic checks should be made to detect its presence. If detected, full carburetor heat should be applied immediately, and it should be left in the ON position until the pilot is certain that all the ice has been removed. If ice is present, applying partial heat or leaving heat on for an insufficient time might aggravate the situation. In extreme cases of carburetor icing, even after the ice has been removed, full carburetor heat should be used to prevent further ice formation. If installed, a carburetor temperature gauge is useful in determining when to use carburetor heat. Whenever the throttle is closed during flight, the engine cools rapidly and vaporization of the fuel is less complete than if the engine is warm. Also, in this condition, the engine is more susceptible to carburetor icing. If carburetor icing conditions are suspected and closed-throttle operation anticipated, adjust the carburetor heat to the full ON position before closing the throttle and leave it on during the closed-throttle operation. The heat aids in vaporizing the fuel and helps prevent the formation of carburetor ice. Periodically, open the throttle smoothly for a few seconds to keep the engine warm; otherwise, the carburetor heater may not provide enough heat to prevent icing. The use of carburetor heat causes a decrease in engine power, sometimes up to 15 percent, because the heated air is less dense than the outside air that had been entering the engine. This enriches the mixture. When ice is present in an aircraft with a fixed-pitch propeller and carburetor heat is being used, there is a decrease in rpm, followed by a gradual increase in rpm as the ice melts. The engine also should run more smoothly after the ice has been removed. If ice is not present, the rpm decreases and then remains constant. When carburetor heat is used on an aircraft with a constant-speed propeller and ice is present, a decrease in the manifold pressure is noticed, followed by a gradual increase. If carburetor icing is not present, the gradual increase in manifold pressure is not apparent until the carburetor heat is turned off. It is imperative for a pilot to recognize carburetor ice when it forms during flight to prevent a loss in power, altitude, and/or airspeed. These symptoms may sometimes be accompanied by vibration or engine roughness. Once a power loss is noticed, immediate action should be taken to eliminate ice already formed in the carburetor and to prevent further ice formation. This is accomplished by applying full carburetor heat, which will further reduce power and may cause engine roughness as melted ice goes through the engine. These symptoms may last from 30 seconds to several minutes, depending on the severity of the icing. During this period, the pilot must resist the temptation to decrease the carburetor heat usage. Carburetor heat must remain in the full-hot position until normal power returns."
+      }
     },
     {
       "section": "Carburetor Heat",
       "difficulty": 2,
-      "categories": ["written_exam", "checkride_oral"],
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
       "question": "What is the first indication of carburetor icing in an aircraft with a fixed-pitch propeller?",
       "correct_answer": "A decrease in RPM",
-      "distractors": ["A decrease in manifold pressure", "An increase in oil temperature", "A rougher engine sound followed by increased RPM"],
-      "explanation": "In a fixed-pitch propeller aircraft, carburetor ice restricts airflow to the engine, reducing power, which shows as a decrease in RPM."
+      "distractors": [
+        "A decrease in manifold pressure",
+        "An increase in oil temperature",
+        "A rougher engine sound followed by increased RPM"
+      ],
+      "explanation": "In a fixed-pitch propeller aircraft, carburetor ice restricts airflow to the engine, reducing power, which shows as a decrease in RPM.",
+      "reference": {
+        "page": "7-10",
+        "text": "The first indication of carburetor icing in an aircraft with a fixed-pitch propeller is a decrease in engine rpm, which may be followed by engine roughness."
+      }
     },
     {
       "section": "Fuel System",
       "difficulty": 1,
-      "categories": ["written_exam", "general_knowledge"],
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
       "question": "What color is 100LL aviation gasoline?",
       "correct_answer": "Blue",
-      "distractors": ["Green", "Red", "Clear"],
-      "explanation": "100LL (low lead) aviation gasoline is dyed blue for identification. Other grades: 80 (red), 100 (green), Jet-A (clear/straw)."
+      "distractors": [
+        "Green",
+        "Red",
+        "Clear"
+      ],
+      "explanation": "100LL (low lead) aviation gasoline is dyed blue for identification. Other grades: 80 (red), 100 (green), Jet-A (clear/straw).",
+      "reference": {
+        "page": "7-15",
+        "text": "The operation of the magneto is controlled in the flight deck by the ignition switch. The switch has five positions: 1. OFF 2. R (right) 3. L (left) 4. BOTH 5. START With RIGHT or LEFT selected, only the associated magneto is activated. The system operates on both magnetos when BOTH is selected."
+      }
     },
     {
       "section": "Fuel System",
       "difficulty": 2,
-      "categories": ["written_exam", "checkride_oral"],
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
       "question": "Why should a pilot drain fuel from the sumps during preflight?",
       "correct_answer": "To check for water contamination and sediment",
-      "distractors": ["To reduce fuel weight for takeoff", "To verify the fuel quantity gauges are accurate", "To prime the engine for starting"],
-      "explanation": "Water is denser than avgas and collects at the low points (sumps). Draining a sample reveals water (which appears as a clear bubble at the bottom) or sediment contamination."
+      "distractors": [
+        "To reduce fuel weight for takeoff",
+        "To verify the fuel quantity gauges are accurate",
+        "To prime the engine for starting"
+      ],
+      "explanation": "Water is denser than avgas and collects at the low points (sumps). Draining a sample reveals water (which appears as a clear bubble at the bottom) or sediment contamination.",
+      "reference": {
+        "page": "7-11",
+        "text": "Most aircraft are also equipped with an outside air temperature (OAT) gauge calibrated in both degrees Celsius and Fahrenheit. It provides the outside or ambient air temperature for calculating true airspeed and is useful in detecting potential icing conditions."
+      }
     },
     {
       "section": "Electrical System",
       "difficulty": 2,
-      "categories": ["written_exam", "checkride_oral"],
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
       "question": "What is the function of the alternator in a light aircraft?",
       "correct_answer": "To supply electrical power during normal operation and recharge the battery",
-      "distractors": ["To start the engine", "To provide emergency backup power only", "To regulate fuel flow to the engine"],
-      "explanation": "The alternator is the primary source of electrical power during flight. It powers electrical systems and recharges the battery. The battery is used primarily for engine start."
+      "distractors": [
+        "To start the engine",
+        "To provide emergency backup power only",
+        "To regulate fuel flow to the engine"
+      ],
+      "explanation": "The alternator is the primary source of electrical power during flight. It powers electrical systems and recharges the battery. The battery is used primarily for engine start.",
+      "reference": {
+        "page": "7-15",
+        "text": "A malfunctioning ignition system can be identified durin"
+      }
     },
     {
       "section": "Oil System",
       "difficulty": 1,
-      "categories": ["written_exam", "general_knowledge"],
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
       "question": "What are the primary functions of engine oil in a reciprocating aircraft engine?",
       "correct_answer": "Lubrication, cooling, and sealing",
-      "distractors": ["Lubrication only", "Cooling and fuel mixing", "Cleaning and fuel delivery"],
-      "explanation": "Engine oil lubricates moving parts, helps cool the engine by carrying heat away from cylinders, and provides a seal between piston rings and cylinder walls."
+      "distractors": [
+        "Lubrication only",
+        "Cooling and fuel mixing",
+        "Cleaning and fuel delivery"
+      ],
+      "explanation": "Engine oil lubricates moving parts, helps cool the engine by carrying heat away from cylinders, and provides a seal between piston rings and cylinder walls.",
+      "reference": {
+        "page": "7-1",
+        "text": "Powerplant\nAn aircraft engine, or powerplant, produces thrust to propel an aircraft. Reciprocating engines and turboprop engines work in combination with a propeller to produce thrust. Turbojet and turbofan engines produce thrust by increasing the velocity of air flowing through the engine. All of these powerplants also drive the various systems that support the operation of an aircraft."
+      }
     },
     {
       "section": "Propeller",
       "difficulty": 2,
-      "categories": ["written_exam", "checkride_oral"],
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
       "question": "What is the purpose of a constant-speed propeller?",
       "correct_answer": "To automatically adjust blade pitch to maintain a selected RPM",
-      "distractors": ["To keep the aircraft at a constant airspeed", "To prevent the engine from exceeding redline temperature", "To reduce propeller noise at all speeds"],
-      "explanation": "A constant-speed propeller uses a governor to automatically change blade pitch, maintaining the RPM set by the pilot regardless of airspeed or power changes."
+      "distractors": [
+        "To keep the aircraft at a constant airspeed",
+        "To prevent the engine from exceeding redline temperature",
+        "To reduce propeller noise at all speeds"
+      ],
+      "explanation": "A constant-speed propeller uses a governor to automatically change blade pitch, maintaining the RPM set by the pilot regardless of airspeed or power changes.",
+      "reference": {
+        "page": "7-6",
+        "text": "A constant-speed propeller is a controllable-pitch propeller whose pitch is automatically varied in flight by a governor maintaining constant rpm despite varying air loads. It is the most common type of adjustable-pitch propeller. The main advantage of a constant-speed propeller is that it converts a high percentage of brake horsepower (BHP) into thrust horsepower (THP) over a wide range of rpm and airspeed combinations. A constant-speed propeller is more efficient than other propellers because it allows selection of the most efficient engine rpm for the given conditions.\n\nAn aircraft with a constant-speed propeller has two controls: the throttle and the propeller control. The throttle controls power output, and the propeller control regulates engine rpm. This regulates propeller rpm, which is registered on the tachometer.\n\nOnce a specific rpm is selected, a governor automatically adjusts the propeller blade angle as necessary to maintain the selected rpm. For example, after setting the desired rpm, an increase in airspeed or decrease in propeller load causes the propeller blade angle to increase as necessary to maintain the selected rpm. A reduction in airspeed or increase in propeller load causes the propeller blade angle to decrease."
+      }
     }
   ]
 }

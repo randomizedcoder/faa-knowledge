@@ -5,92 +5,199 @@
     {
       "section": "Lift and Drag",
       "difficulty": 2,
-      "categories": ["written_exam", "checkride_oral"],
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
       "question": "As a pilot increases the angle of attack from 2° to 14° (below the critical AoA of 17°), how does the coefficient of lift change?",
       "correct_answer": "It increases approximately linearly",
-      "distractors": ["It increases up to about 8°, then begins to decrease", "It remains roughly constant until the critical AoA", "It decreases because drag rises faster than lift"],
-      "explanation": "Below the critical angle of attack, the coefficient of lift (CL) increases nearly linearly with angle of attack. At the critical AoA (typically 15-20° for most airfoils), CL reaches its maximum and then drops sharply as the wing stalls."
+      "distractors": [
+        "It increases up to about 8°, then begins to decrease",
+        "It remains roughly constant until the critical AoA",
+        "It decreases because drag rises faster than lift"
+      ],
+      "explanation": "Below the critical angle of attack, the coefficient of lift (CL) increases nearly linearly with angle of attack. At the critical AoA (typically 15-20° for most airfoils), CL reaches its maximum and then drops sharply as the wing stalls.",
+      "reference": {
+        "page": "5-5",
+        "text": "Notice in Figure 5-5 that the coefficient of lift curve (red) reaches its maximum for this particular wing section at 20° AOA and then rapidly decreases. 20° AOA is therefore the critical angle of attack. The coefficient of drag curve (orange) increases very rapidly from 14° AOA and completely overcomes the lift curve at 21° AOA. The lift/drag ratio (green) reaches its maximum at 6° AOA, meaning that at this angle, the most lift is obtained for the least amount of drag. Note that the maximum lift/drag ratio (L/DMAX) occurs at one specific CL and AOA. If the aircraft is operated in steady flight at L/DMAX, the total drag is at a minimum. Any AOA lower or higher than that for L/DMAX reduces the L/D and consequently increases the total drag for a given aircraft's lift. Figure 5-5. Coefficients of lift and drag at various angles of attack."
+      }
     },
     {
       "section": "Stalls",
       "difficulty": 2,
-      "categories": ["written_exam", "checkride_oral"],
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
       "question": "An airplane can stall at any airspeed and any attitude. What determines whether a stall occurs?",
       "correct_answer": "Exceeding the critical angle of attack",
-      "distractors": ["Flying below minimum controllable airspeed", "Exceeding maximum gross weight", "Flying with the nose above the horizon"],
-      "explanation": "A stall occurs when the critical angle of attack is exceeded, regardless of airspeed, attitude, or weight."
+      "distractors": [
+        "Flying below minimum controllable airspeed",
+        "Exceeding maximum gross weight",
+        "Flying with the nose above the horizon"
+      ],
+      "explanation": "A stall occurs when the critical angle of attack is exceeded, regardless of airspeed, attitude, or weight.",
+      "reference": {
+        "page": "5-4",
+        "text": "All other factors being constant, for every AOA there is a corresponding airspeed required to maintain altitude in steady, unaccelerated flight (true only if maintaining level flight). Since an airfoil always stalls at the same AOA, if increasing weight, lift must also be increased. The only method of increasing lift is by increasing velocity if the AOA is held constant just short of the \"critical,\" or stalling, AOA (assuming no flaps or other high lift devices)."
+      }
     },
     {
       "section": "Drag",
       "difficulty": 1,
-      "categories": ["written_exam", "general_knowledge"],
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
       "question": "Which type of drag increases as airspeed increases?",
       "correct_answer": "Parasite drag",
-      "distractors": ["Induced drag", "Total drag remains constant at all speeds", "Induced drag increases proportionally with airspeed"],
-      "explanation": "Parasite drag increases with the square of airspeed, while induced drag decreases as airspeed increases."
+      "distractors": [
+        "Induced drag",
+        "Total drag remains constant at all speeds",
+        "Induced drag increases proportionally with airspeed"
+      ],
+      "explanation": "Parasite drag increases with the square of airspeed, while induced drag decreases as airspeed increases.",
+      "reference": {
+        "page": "5-6",
+        "text": "Conversely, parasite drag increases as the square of the airspeed. Thus, in steady state, as airspeed decreases to near the stalling speed, the total drag becomes greater, due mainly to the sharp rise in induced drag. Similarly, as the aircraft reaches its never-exceed speed (VNE), the total drag increases rapidly due to the sharp increase of parasite drag."
+      }
     },
     {
       "section": "Ground Effect",
       "difficulty": 2,
-      "categories": ["written_exam", "checkride_oral"],
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
       "question": "What is the primary effect of ground effect on an aircraft during takeoff?",
       "correct_answer": "Induced drag is reduced",
-      "distractors": ["Parasite drag is reduced", "Thrust is increased", "Weight is effectively reduced"],
-      "explanation": "Ground effect reduces the upwash and downwash around the wing, decreasing induced drag. It is most pronounced within one wingspan of the surface."
+      "distractors": [
+        "Parasite drag is reduced",
+        "Thrust is increased",
+        "Weight is effectively reduced"
+      ],
+      "explanation": "Ground effect reduces the upwash and downwash around the wing, decreasing induced drag. It is most pronounced within one wingspan of the surface.",
+      "reference": {
+        "page": "5-11",
+        "text": "As the wing encounters ground effect and is maintained at a constant AOA, there is consequent reduction in the upwash, downwash, and wingtip vortices. Induced drag is a result of the airfoil’s work of sustaining the aircraft, and a wing or rotor lifts the aircraft simply by accelerating a mass of air downward. It is true that reduced pressure on top of an airfoil is essential to lift, but that is only one of the things contributing to the overall effect of pushing an air mass downward. The more downwash there is, the harder the wing pushes the mass of air down. At high angles of attack, the amount of induced drag is high; since this corresponds to lower airspeeds in actual flight, it can be said that induced drag predominates at low speed. However, the reduction of the wingtip vortices due to ground effect alters the spanwise lift distribution and reduces the induced AOA and induced drag. Therefore, the wing will require a lower AOA in ground effect to produce the same CL. If a constant AOA is maintained, an increase in CL results."
+      }
     },
     {
       "section": "Turns",
       "difficulty": 2,
-      "categories": ["written_exam"],
+      "categories": [
+        "written_exam"
+      ],
       "question": "In a coordinated level turn, what must increase to maintain altitude?",
       "correct_answer": "Lift",
-      "distractors": ["Thrust, to pull the aircraft through the turn", "Airspeed, to compensate for the bank angle", "Rudder input, to maintain coordinated flight"],
-      "explanation": "In a banked turn, the vertical component of lift decreases. Total lift must increase (by increasing AoA/back pressure) to maintain the same vertical lift component and hold altitude."
+      "distractors": [
+        "Thrust, to pull the aircraft through the turn",
+        "Airspeed, to compensate for the bank angle",
+        "Rudder input, to maintain coordinated flight"
+      ],
+      "explanation": "In a banked turn, the vertical component of lift decreases. Total lift must increase (by increasing AoA/back pressure) to maintain the same vertical lift component and hold altitude.",
+      "reference": {
+        "page": "5-22",
+        "text": "Forces in Turns\n\nIn a coordinated level turn, the vertical component of lift decreases. Total lift must increase (by increasing AOA/back pressure) to maintain the same vertical lift component and hold altitude."
+      }
     },
     {
       "section": "Load Factor",
       "difficulty": 2,
-      "categories": ["written_exam", "checkride_oral"],
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
       "question": "What is the load factor in a 60-degree banked level turn?",
       "correct_answer": "2 Gs",
-      "distractors": ["1.5 Gs", "1.41 Gs", "3 Gs"],
-      "explanation": "Load factor = 1/cos(bank angle). At 60 degrees: 1/cos(60°) = 1/0.5 = 2 Gs."
+      "distractors": [
+        "1.5 Gs",
+        "1.41 Gs",
+        "3 Gs"
+      ],
+      "explanation": "Load factor = 1/cos(bank angle). At 60 degrees: 1/cos(60°) = 1/0.5 = 2 Gs.",
+      "reference": {
+        "page": "5-33",
+        "text": "Load Factors\nLoad factors are defined as the ratio of the total aerodynamic force acting on the aircraft to the gross weight of the aircraft. Load factors are expressed in multiples of the force of gravity (G). For example, if the total aerodynamic force acting on the aircraft is twice the weight of the aircraft, the load factor is 2 Gs. Load factors in aircraft design are determined by the maximum load the aircraft is expected to encounter in flight. Load factors in steep turns are determined by the bank angle of the aircraft. Load factor = 1/cos(bank angle). At 60 degrees: 1/cos(60°) = 1/0.5 = 2 Gs."
+      }
     },
     {
       "section": "Stability",
       "difficulty": 1,
-      "categories": ["written_exam", "general_knowledge"],
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
       "question": "What does positive static stability mean?",
       "correct_answer": "The aircraft tends to return to its original state after a disturbance",
-      "distractors": ["The aircraft remains in its displaced position", "The aircraft continues to diverge from its original state", "The aircraft oscillates with increasing amplitude"],
-      "explanation": "Positive static stability means the initial tendency is to return toward the original state of equilibrium after being disturbed."
+      "distractors": [
+        "The aircraft remains in its displaced position",
+        "The aircraft continues to diverge from its original state",
+        "The aircraft oscillates with increasing amplitude"
+      ],
+      "explanation": "Positive static stability means the initial tendency is to return toward the original state of equilibrium after being disturbed.",
+      "reference": {
+        "page": "5-14",
+        "text": "•        Positive static stability—the initial tendency of the aircraft to return to the original state of equilibrium after being disturbed."
+      }
     },
     {
       "section": "Thrust and Power",
       "difficulty": 1,
-      "categories": ["general_knowledge"],
+      "categories": [
+        "general_knowledge"
+      ],
       "question": "Which of the four forces acts parallel to the flight path and opposite to the direction of flight?",
       "correct_answer": "Drag",
-      "distractors": ["Weight", "Thrust", "Lift"],
-      "explanation": "Drag acts rearward, parallel to the relative wind and opposite to the direction of flight."
+      "distractors": [
+        "Weight",
+        "Thrust",
+        "Lift"
+      ],
+      "explanation": "Drag acts rearward, parallel to the relative wind and opposite to the direction of flight.",
+      "reference": {
+        "page": "5-2",
+        "text": "•    Drag—a rearward, retarding force caused by disruption of airflow by the wing, rotor, fuselage, and other protruding objects. As a general rule, drag opposes thrust and acts rearward parallel to the relative wind."
+      }
     },
     {
       "section": "Wing Design",
       "difficulty": 3,
-      "categories": ["checkride_oral"],
+      "categories": [
+        "checkride_oral"
+      ],
       "question": "Why do some wings have washout (twist)?",
       "correct_answer": "To ensure the wing root stalls before the wingtip, maintaining aileron effectiveness",
-      "distractors": ["To increase the maximum lift coefficient", "To reduce parasite drag at cruise speeds", "To allow higher speeds before flutter occurs"],
-      "explanation": "Washout decreases the angle of incidence from root to tip so the root reaches the critical AoA first, keeping ailerons effective during the stall."
+      "distractors": [
+        "To increase the maximum lift coefficient",
+        "To reduce parasite drag at cruise speeds",
+        "To allow higher speeds before flutter occurs"
+      ],
+      "explanation": "Washout decreases the angle of incidence from root to tip so the root reaches the critical AoA first, keeping ailerons effective during the stall.",
+      "reference": {
+        "page": "5-15",
+        "text": "Washout (twist) is sometimes used on wings to ensure the wing root stalls before the wingtip, thereby maintaining aileron effectiveness during a stall. This is accomplished by decreasing the angle of incidence from root to tip so the root reaches the critical angle of attack first."
+      }
     },
     {
       "section": "Aerodynamics of Flight",
       "difficulty": 2,
-      "categories": ["written_exam", "checkride_oral"],
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
       "question": "What is the relationship between indicated airspeed and true airspeed as altitude increases?",
       "correct_answer": "True airspeed is higher than indicated airspeed",
-      "distractors": ["True airspeed equals indicated airspeed", "True airspeed is lower than indicated airspeed", "The relationship depends solely on temperature"],
-      "explanation": "As altitude increases, air density decreases. The pitot-static system senses less dynamic pressure, so IAS reads lower than the actual TAS."
+      "distractors": [
+        "True airspeed equals indicated airspeed",
+        "True airspeed is lower than indicated airspeed",
+        "The relationship depends solely on temperature"
+      ],
+      "explanation": "As altitude increases, air density decreases. The pitot-static system senses less dynamic pressure, so IAS reads lower than the actual TAS.",
+      "reference": {
+        "page": "5-4",
+        "text": "Lift varies directly with the density of the air. Density is affected by several factors: pressure, temperature, and humidity. At an altitude of 18,000 feet, the density of the air has one-half the density of air at sea level. In order to maintain its lift at a higher altitude, an aircraft must fly at a greater true airspeed for any given AOA."
+      }
     }
   ]
 }

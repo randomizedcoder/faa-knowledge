@@ -42,6 +42,51 @@ make run
 make download-pdfs               # fetch FAA PDFs into pdfs/
 ```
 
+## Knowledge Extraction Pipeline
+
+This project includes an automated pipeline for generating quiz questions
+directly from FAA handbook PDFs. See [docs/pipeline.md](docs/pipeline.md)
+for the full design.
+
+**Quick overview:** PDFs → text extraction → paragraph chunking → LLM-powered
+knowledge mining → question generation → multi-run consensus → cross-validation
+→ final validation. The pipeline produces 500+ grounded questions from the
+PHAK and AFH handbooks.
+
+The pipeline targets two llama.cpp endpoints (managed by the NixOS configs on hosts `l`/`l2`):
+the **large** model — mine/generate/validate — on `http://l2:8095` (MI50 32GB), and the **small**
+cross-check model on `http://l2:8096` (W5700 8GB) — all inference stays on host `l2`. Override with
+`--llm-url` / `--small-llm-url` or the `FAA_LLM_URL` / `FAA_SMALL_LLM_URL` env vars. Run
+`nix run .#check-llms` (or `make check-llms`) to confirm both are reachable before a run.
+
+### Single powerful model (GLM)
+
+When a single, much stronger model is available (e.g. GLM served at `http://localhost:8000`),
+use the **extract + verify** target instead of the multi-run consensus pipeline:
+
+```bash
+nix run .#extract-glm                 # extract from all chapters, then GLM-verify each question
+nix run .#extract-glm -- --chapters phak:04   # scope to one chapter
+make extract-glm CHAPTERS=phak:04     # same, via Make
+make verify-glm                       # GLM verify/fix pass over existing questions only
+make check-glm                        # confirm the GLM endpoint is reachable
+```
+
+This does a single generation run (no consensus voting) and then re-checks every generated
+question with the same GLM. It runs the model in **reasoning mode** — `chat_template_kwargs.enable_thinking`
+is set, `response_format` is dropped, and JSON is parsed out of the reasoned output — which is
+slower but higher quality. Configure it with:
+
+| Flag | Env var | Default | Purpose |
+|---|---|---|---|
+| `--llm-url` | `FAA_LLM_URL` | `http://localhost:8000` (GLM target) | Model endpoint |
+| `--llm-model` | `FAA_LLM_MODEL` | `/model` (GLM target) | Served model name |
+| `--think` | `FAA_LLM_THINK` | `1` (GLM target) | Enable reasoning mode on every call |
+
+The `--llm-model` / `--think` flags also work with the individual stage commands (`--mine`,
+`--generate`, `--cross-check`, `--validate`), so any stage can be pointed at GLM. Defaults for
+the plain `quiz` binary keep the l2 behavior unchanged (`model=local`, thinking off).
+
 ## CLI Flags
 
 | Flag | Description |

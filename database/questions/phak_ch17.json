@@ -5,74 +5,162 @@
     {
       "section": "Hypoxia",
       "difficulty": 2,
-      "categories": ["written_exam", "checkride_oral"],
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
       "question": "At what cabin altitude do the effects of hypoxia become significant enough to impair pilot performance during the day?",
       "correct_answer": "Above 10,000 feet MSL",
-      "distractors": ["Above 5,000 feet MSL", "Above 18,000 feet MSL", "Above 15,000 feet MSL"],
-      "explanation": "Daytime cognitive impairment from hypoxia becomes significant above about 10,000 feet. Note that night vision can be affected as low as 5,000 feet. FAR 91.211 requires supplemental oxygen for crew above 12,500 feet cabin altitude for more than 30 minutes, and for everyone above 14,000 feet."
+      "distractors": [
+        "Above 5,000 feet MSL",
+        "Above 18,000 feet MSL",
+        "Above 15,000 feet MSL"
+      ],
+      "explanation": "Daytime cognitive impairment from hypoxia becomes significant above about 10,000 feet. Note that night vision can be affected as low as 5,000 feet. FAR 91.211 requires supplemental oxygen for crew above 12,500 feet cabin altitude for more than 30 minutes, and for everyone above 14,000 feet.",
+      "reference": {
+        "page": "17-4",
+        "text": "As altitude increases above 10,000 feet, the symptoms of hypoxia increase in severity, and the time of useful consciousness rapidly decreases."
+      }
     },
     {
       "section": "Hypoxia",
       "difficulty": 2,
-      "categories": ["written_exam", "checkride_oral"],
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
       "question": "What are common symptoms of hypoxia?",
       "correct_answer": "Headache, impaired judgment, euphoria, and cyanosis (blue fingernails/lips)",
-      "distractors": ["Nausea, vertigo, and ringing in the ears", "Increased alertness and improved night vision", "Severe joint pain and rash"],
-      "explanation": "Hypoxia symptoms include headache, drowsiness, impaired judgment, euphoria, a false sense of well-being, and blue discoloration of fingernails and lips (cyanosis). Insidious because the pilot may feel fine."
+      "distractors": [
+        "Nausea, vertigo, and ringing in the ears",
+        "Increased alertness and improved night vision",
+        "Severe joint pain and rash"
+      ],
+      "explanation": "Hypoxia symptoms include headache, drowsiness, impaired judgment, euphoria, a false sense of well-being, and blue discoloration of fingernails and lips (cyanosis). Insidious because the pilot may feel fine.",
+      "reference": {
+        "page": "17-4",
+        "text": "The first symptoms of hypoxia can include euphoria and a carefree feeling. With increased oxygen starvation, the extremities become less responsive and flying becomes less coordinated. The symptoms of hypoxia vary with the individual, but common symptoms include: •    Cyanosis (blue fingernails and lips) •    Headache •    Decreased response to stimuli and increased reaction time •    Impaired judgment •    Euphoria •    Visual impairment •    Drowsiness •    Lightheaded or dizzy sensation •    Tingling in fingers and toes •    Numbness"
+      }
     },
     {
       "section": "Hyperventilation",
       "difficulty": 2,
-      "categories": ["written_exam", "checkride_oral"],
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
       "question": "How can hyperventilation be treated?",
       "correct_answer": "Slow the breathing rate, talk aloud, or breathe into a paper bag",
-      "distractors": ["Increase the breathing rate to get more oxygen", "Descend to a lower altitude immediately", "Apply supplemental oxygen at high flow rate"],
-      "explanation": "Hyperventilation is caused by excessive breathing that lowers CO2 levels. Treatment is to consciously slow breathing, talk aloud, or breathe into a bag to restore CO2 balance."
+      "distractors": [
+        "Increase the breathing rate to get more oxygen",
+        "Descend to a lower altitude immediately",
+        "Apply supplemental oxygen at high flow rate"
+      ],
+      "explanation": "Hyperventilation is caused by excessive breathing that lowers CO2 levels. Treatment is to consciously slow breathing, talk aloud, or breathe into a bag to restore CO2 balance.",
+      "reference": {
+        "page": "17-4",
+        "text": "The treatment for hyperventilation involves restoring the proper carbon dioxide level in the body. Breathing normally is both the best prevention and the best cure for hyperventilation. In addition to slowing the breathing rate, breathing into a paper bag or talking aloud helps to overcome hyperventilation."
+      }
     },
     {
       "section": "Spatial Disorientation",
       "difficulty": 2,
-      "categories": ["written_exam", "checkride_oral"],
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
       "question": "What is the primary way to overcome spatial disorientation?",
       "correct_answer": "Trust and rely on the flight instruments rather than bodily sensations",
-      "distractors": ["Focus on the horizon through peripheral vision", "Shake your head to reset the vestibular system", "Close your eyes for a few seconds to re-calibrate"],
-      "explanation": "The vestibular system can produce false sensations in flight (the leans, graveyard spiral, etc.). Trusting the flight instruments is the only reliable way to maintain orientation."
+      "distractors": [
+        "Focus on the horizon through peripheral vision",
+        "Shake your head to reset the vestibular system",
+        "Close your eyes for a few seconds to re-calibrate"
+      ],
+      "explanation": "The vestibular system can produce false sensations in flight (the leans, graveyard spiral, etc.). Trusting the flight instruments is the only reliable way to maintain orientation.",
+      "reference": {
+        "page": "17-9",
+        "text": "The sensations that lead to illusions during instrument flight conditions are normal perceptions experienced by pilots. These undesirable sensations cannot be completely prevented, but through training and awareness, pilots can ignore or suppress them by developing absolute reliance on the flight instruments. As pilots gain proficiency in instrument flying, they become less susceptible to these illusions and their effects. The most importantly, become proficient in the use of flight instruments and rely upon them. Trust the instruments and disregard your sensory perceptions."
+      }
     },
     {
       "section": "Carbon Monoxide Poisoning",
       "difficulty": 2,
-      "categories": ["written_exam", "checkride_oral"],
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
       "question": "What is a common source of carbon monoxide poisoning in a single-engine aircraft?",
       "correct_answer": "A leak in the exhaust system allowing CO into the cabin through the heater",
-      "distractors": ["Running the avionics master with the engine off", "Using recirculated cabin air at high altitude", "Burning avgas fumes entering through the fuel vents"],
-      "explanation": "The cabin heater in most single-engine aircraft uses a shroud around the exhaust manifold. A crack in the exhaust can allow CO into the heated air. Symptoms include headache, drowsiness, and cherry-red skin."
+      "distractors": [
+        "Running the avionics master with the engine off",
+        "Using recirculated cabin air at high altitude",
+        "Burning avgas fumes entering through the fuel vents"
+      ],
+      "explanation": "The cabin heater in most single-engine aircraft uses a shroud around the exhaust manifold. A crack in the exhaust can allow CO into the heated air. Symptoms include headache, drowsiness, and cherry-red skin.",
+      "reference": {
+        "page": "17-12",
+        "text": "CO is a colorless and odorless gas produced by all internal combustion engines. Attaching itself to the hemoglobin in the blood about 200 times more easily than oxygen, CO prevents the hemoglobin from carrying oxygen to the cells, resulting in hypemic hypoxia. The body requires up to 48 hours to dispose of CO. If severe enough, the CO poisoning can result in death. Aircraft heater vents and defrost vents may provide CO a passageway into the cabin, particularly if the engine exhaust system has a leak or is damaged. If a strong odor of exhaust gases is detected, assume that CO is present. However, CO may be present in dangerous amounts even if no exhaust odor is detected."
+      }
     },
     {
       "section": "Alcohol and Drugs",
       "difficulty": 1,
-      "categories": ["written_exam", "checkride_oral"],
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
       "question": "According to FAR 91.17, how many hours before flying must a pilot abstain from consuming alcohol?",
       "correct_answer": "8 hours",
-      "distractors": ["12 hours", "24 hours", "4 hours"],
-      "explanation": "14 CFR 91.17: No person may act as a crewmember within 8 hours after consuming alcohol, while under the influence, or with a BAC of 0.04% or greater. '8 hours bottle to throttle.'"
+      "distractors": [
+        "12 hours",
+        "24 hours",
+        "4 hours"
+      ],
+      "explanation": "14 CFR 91.17: No person may act as a crewmember within 8 hours after consuming alcohol, while under the influence, or with a BAC of 0.04% or greater. '8 hours bottle to throttle.'",
+      "reference": {
+        "page": "17-15",
+        "text": "14 CFR 91.17: No person may act as a crewmember within 8 hours after consuming alcohol, while under the influence, or with a BAC of 0.04% or greater. '8 hours bottle to throttle.'"
+      }
     },
     {
       "section": "Night Vision",
       "difficulty": 2,
-      "categories": ["written_exam", "general_knowledge"],
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
       "question": "How long does it take for the eyes to fully adapt to darkness for night flying?",
       "correct_answer": "Approximately 30 minutes",
-      "distractors": ["Approximately 5 minutes", "Approximately 10 minutes", "Approximately 60 minutes"],
-      "explanation": "Full dark adaptation takes approximately 30 minutes. Exposure to bright light (especially white light) can destroy night adaptation. Red light helps preserve it."
+      "distractors": [
+        "Approximately 5 minutes",
+        "Approximately 10 minutes",
+        "Approximately 60 minutes"
+      ],
+      "explanation": "Full dark adaptation takes approximately 30 minutes. Exposure to bright light (especially white light) can destroy night adaptation. Red light helps preserve it.",
+      "reference": {
+        "page": "17-10",
+        "text": "2.   Make frequent reference to the altimeter, especially               4.   Use Visual Approach Slope Indicator (VASI) or               whenever they are available."
+      }
     },
     {
       "section": "IMSAFE Checklist",
       "difficulty": 1,
-      "categories": ["checkride_oral", "general_knowledge"],
+      "categories": [
+        "checkride_oral",
+        "general_knowledge"
+      ],
       "question": "What does the IMSAFE checklist stand for?",
       "correct_answer": "Illness, Medication, Stress, Alcohol, Fatigue, Emotion/Eating",
-      "distractors": ["Instruments, Maintenance, Safety, Airworthiness, Fuel, Equipment", "Initial, Maneuvers, Stalls, Approaches, Finals, Emergencies", "Inspection, Modifications, Systems, Avionics, Fuel, Engine"],
-      "explanation": "IMSAFE is a personal health checklist: Illness, Medication, Stress, Alcohol, Fatigue, and Emotion (or Eating). Pilots should assess each factor before every flight."
+      "distractors": [
+        "Instruments, Maintenance, Safety, Airworthiness, Fuel, Equipment",
+        "Initial, Maneuvers, Stalls, Approaches, Finals, Emergencies",
+        "Inspection, Modifications, Systems, Avionics, Fuel, Engine"
+      ],
+      "explanation": "IMSAFE is a personal health checklist: Illness, Medication, Stress, Alcohol, Fatigue, and Emotion (or Eating). Pilots should assess each factor before every flight.",
+      "reference": {
+        "page": "17-12",
+        "text": "Stress is the body's response to physical and psychological demands placed upon it. The body's reaction to stress includes releasing chemical hormones (such as adrenaline) into the blood and increasing metabolism to provide more energy to the muscles. Blood sugar, heart rate, respiration, blood pressure, and perspiration all increase. The term \"stressor\" is used to describe an element that causes an individual to experience stress. Examples of stressors include physical stress (noise or vibration), physiological stress (fatigue), and psychological stress (difficult work or personal situations)."
+      }
     }
   ]
 }

@@ -91,6 +91,11 @@ func (s *Session) Run() {
 			fmt.Printf("%s%s%s\n", colorDim, q.Explanation, colorReset)
 		}
 
+		if !correct && q.ReferencePage != "" {
+			fmt.Printf("\n%sReference: %s Ch.%d, p.%s%s\n", colorDim, q.SourceCode, q.ChapterNum, q.ReferencePage, colorReset)
+			fmt.Printf("%s%s%s\n", colorDim, q.ReferenceText, colorReset)
+		}
+
 		// Record attempt
 		ms := elapsed.Milliseconds()
 		_ = db.RecordAttempt(s.DB, q.ID, selected, correct, ms)

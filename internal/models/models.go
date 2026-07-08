@@ -44,6 +44,8 @@ type Question struct {
 	KnowledgeID   *int64
 	Active        bool
 	CreatedAt     time.Time
+	ReferencePage string
+	ReferenceText string
 
 	// Populated by queries
 	Distractors []Distractor

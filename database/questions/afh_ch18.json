@@ -1,0 +1,163 @@
+{
+  "source": "AFH",
+  "chapter": 18,
+  "questions": [
+    {
+      "section": "Engine Failure After Takeoff",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "If the engine fails immediately after takeoff at low altitude, what is the recommended action?",
+      "correct_answer": "Lower the nose to maintain flying speed and land essentially straight ahead, making only small heading changes to avoid obstacles",
+      "distractors": [
+        "Immediately turn back to the runway",
+        "Attempt to restart the engine before doing anything else",
+        "Pull back on the stick to gain altitude"
+      ],
+      "explanation": "At low altitude after takeoff, there is insufficient altitude/energy to turn back to the runway (the 'impossible turn'). Lower the nose to maintain airspeed and land as straight ahead as practical.",
+      "reference": {
+        "page": "18-7",
+        "text": "When an engine failure occurs during the initial climb, the pilot should lower the nose of the airplane and establish the proper glide attitude. What happens next if the engine does not restart? Does the pilot select a field directly ahead (or slightly to the side of the takeoff path) or should the pilot turn back toward the point of departure? There's not much time to decide and a lot to consider.\n\nContinuing straight ahead or making a slight turn gives the pilot time to establish a safe landing attitude, and the landing occurs under control and as slowly as possible (assuming a takeoff made into a headwind). This minimizes the risk of injury and usually represents the option with the lowest risk—i.e. the safest option. Turning back requires a more complex analysis and consideration of risk. At some urban airports, there may be numerous hazards in the departure path. In that case, the pilot might turn back, but only if certain the airplane can reach the field from its current position and the pilot has trained and practiced the turn back maneuver."
+      }
+    },
+    {
+      "section": "Engine Failure in Flight",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "What airspeed should be maintained after an engine failure to maximize glide distance?",
+      "correct_answer": "Best glide speed as specified in the POH",
+      "distractors": [
+        "The fastest possible airspeed to cover more ground",
+        "The slowest possible airspeed to stay aloft longest",
+        "Normal cruise speed"
+      ],
+      "explanation": "Best glide speed (usually close to best L/D speed) maximizes the distance the aircraft can glide. This speed is specified in the POH and changes with weight.",
+      "reference": {
+        "page": "18-5",
+        "text": "Airplane Configuration\nSince flaps improve maneuverability at slow speed, and lower the stalling speed, their use during final approach is recommended when time and circumstances permit. However, the associated increase in drag and decrease in gliding distance call for caution in the timing and the extent of their application; premature use of flap and dissipation of altitude may jeopardize an otherwise sound plan."
+      }
+    },
+    {
+      "section": "Forced Landing",
+      "difficulty": 2,
+      "categories": [
+        "checkride_oral"
+      ],
+      "question": "When selecting a field for an emergency off-airport landing, what factors should be considered?",
+      "correct_answer": "Wind direction, field length, surface condition, obstacles on approach, and proximity to civilization",
+      "distractors": [
+        "Only the field length matters",
+        "Choose the nearest paved road regardless of traffic",
+        "Only the proximity to an airport matters"
+      ],
+      "explanation": "Select a field that is into the wind, long enough, has a firm and smooth surface, has a clear approach path free of obstacles, and is near help if possible. Avoid landing downwind or into obstacles.",
+      "reference": {
+        "page": "18-4",
+        "text": "When the pilot has time to maneuver, the planning of the approach should be governed by the following three factors: ⦁ Wind direction and velocity ⦁ Dimensions and slope of the chosen field ⦁ Obstacles in the final approach path"
+      }
+    },
+    {
+      "section": "Electrical Fire",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "What is the initial action if an electrical fire is suspected in flight?",
+      "correct_answer": "Turn off the master switch (electrical), then identify and isolate the faulty circuit",
+      "distractors": [
+        "Open the cabin vents to clear smoke, then continue flight",
+        "Increase power to maintain altitude and declare an emergency",
+        "Turn on all electrical equipment to find the short circuit"
+      ],
+      "explanation": "For electrical fires: master switch OFF, all electrical OFF, cabin vents and heat closed initially (to starve fire). Then troubleshoot by turning on essential items one at a time. Land as soon as practical.",
+      "reference": {
+        "page": "18-9",
+        "text": "Electrical Fires\nThe initial indication of an electrical fire is usually the distinct odor of burning insulation. Once an electrical fire is detected, the pilot should attempt to identify the faulty circuit by checking circuit breakers, instruments, avionics, and lights. If the faulty circuit cannot be readily detected and isolated, and flight conditions permit, the battery master switch and alternator/generator switches should be turned off to remove the possible source of the fire. However, any materials that have been ignited may continue to burn."
+      }
+    },
+    {
+      "section": "Engine Fire on Ground",
+      "difficulty": 2,
+      "categories": [
+        "checkride_oral"
+      ],
+      "question": "If an engine fire occurs during start on the ground, what should the pilot do if the engine starts?",
+      "correct_answer": "Keep the engine running to draw the fire into the engine and away from the airframe, then shut down normally",
+      "distractors": [
+        "Immediately shut down the engine and evacuate",
+        "Add full throttle and attempt to take off",
+        "Apply parking brake and use the fire extinguisher only"
+      ],
+      "explanation": "If the engine starts, running it briefly at higher RPM can draw the fire through the induction system and into the engine. If the engine doesn't start, continue cranking to attempt to draw fuel/fire through. Then shut down and evacuate.",
+      "reference": {
+        "page": "18-9",
+        "text": "If the engine compartment fire is oil-fed, as evidenced by thick black smoke, as opposed to a fuel-fed fire, which produces bright orange flames, the pilot should consider stopping the propeller rotation by feathering or other means, such as (with constant-speed propellers) placing the pitch control lever to the minimum rpm position and raising the nose to reduce airspeed until the propeller stops rotating. This procedure stops an engine-driven oil (or hydraulic) pump from continuing to pump the flammable fluid that is feeding the fire."
+      }
+    },
+    {
+      "section": "Emergency Descent",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "When is an emergency descent appropriate?",
+      "correct_answer": "When rapid descent is needed, such as during an in-flight fire or sudden cabin depressurization",
+      "distractors": [
+        "When ATC requests an expedited descent for traffic",
+        "When the pilot wants to practice engine-out procedures",
+        "Only during instrument approaches in IMC"
+      ],
+      "explanation": "Emergency descents are used for in-flight fires (to land quickly), cabin depressurization (to reach breathable air), or other situations requiring an immediate loss of altitude.",
+      "reference": {
+        "page": "18-8",
+        "text": "An emergency descent is a maneuver for descending as rapidly as possible to a lower altitude or to the ground for an emergency landing. [Figure 18-6] The need for this maneuver may result from an uncontrollable fire, a sudden loss of cabin pressurization, or any other situation demanding an immediate and rapid descent."
+      }
+    },
+    {
+      "section": "Lost Procedures",
+      "difficulty": 1,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "If a VFR pilot becomes lost, what are the '5 Cs' to follow?",
+      "correct_answer": "Confess, Climb, Communicate, Conserve, Comply",
+      "distractors": [
+        "Check, Circle, Call, Climb, Continue",
+        "Climb, Contact, Circle, Configure, Continue",
+        "Confirm, Compass, Charts, Call, Confess"
+      ],
+      "explanation": "The 5 Cs: Confess (admit you're lost), Climb (better radio/visual range), Communicate (contact ATC for help), Conserve (fuel — reduce to best endurance), Comply (with ATC instructions).",
+      "reference": {
+        "page": "18-17",
+        "text": "Inadvertent VFR Flight Into IMC\nIt is beyond the scope of this handbook to incorporate a course of training in basic attitude instrument flying. This information is contained in the Instrument Flying Handbook (FAA-H-8083-15). Certain pilot certificates and/or associated ratings require training in instrument flying and a demonstration of specific instrument flying tasks on the practical test.\n\nPilots and flight instructors should refer to the Instrument Flying Handbook (FAA-H-8083-15) for guidance in the performance of these tasks and to the appropriate airman certification standards (ACS) for information on the evaluation of tasks performed for the particular certificate level and/or rating. The pilot should remember, however, that unless these tasks are practiced on a continuing and regular basis, skill erosion begins almost immediately. In a very short time, the pilot's assumed level of confidence is much higher than the performance he or she is actually able to demonstrate should the need arise.\n\nAccident statistics show that the pilot who has not been trained in attitude instrument flying, or one whose instrument skills have eroded, lose control of the airplane in about 10 minutes once forced to rely solely on instrument references. The purpose of this section is to provide guidance on practical emergency measures to maintain airplane control for a limited period of time in the event a VFR pilot encounters instrument meteorological conditions (IMC). The main goal is not precision instrument flying; rather, it is to help the VFR pilot keep the airplane under adequate control until suitable visual references are regained.\n\nThe first steps necessary for surviving an encounter with IMC by a VFR pilot are as follows:\n\n    ⦁ Recognition and acceptance of the seriousness of the situation and the need for immediate remedial action\n    ⦁ Maintaining control of the airplane\n    ⦁ Obtaining the appropriate assistance to get the airplane safely on the ground\n\nRecognition\nAnytime a VFR pilot is unable to maintain airplane attitude control by reference to the natural horizon, the condition is considered to be IMC regardless of the circumstances or the prevailing weather conditions. Whether the cause is inadventent or intentional, the VFR pilot is, in effect, in IMC if unable to navigate or establish geographical position by visual reference to landmarks on the surface. These situations should be accepted by the pilot involved as a genuine emergency requiring appropriate action."
+      }
+    },
+    {
+      "section": "Emergency Equipment",
+      "difficulty": 1,
+      "categories": [
+        "general_knowledge"
+      ],
+      "question": "What is the universal emergency frequency?",
+      "correct_answer": "121.5 MHz",
+      "distractors": [
+        "122.8 MHz",
+        "118.0 MHz",
+        "126.7 MHz"
+      ],
+      "explanation": "121.5 MHz is the international emergency frequency, monitored by ATC, military, and many aircraft. It should be used when no other frequency is available in an emergency.",
+      "reference": {
+        "page": "18-22",
+        "text": "Once activated, the EAL system transmits automated radio broadcasts on the aircraft's last selected frequency and on Guard (121.5 MHz) to alert controllers or pilots in the area of the EAL aircraft's imminent arrival to the selected runway."
+      }
+    }
+  ]
+}

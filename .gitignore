@@ -1,8 +1,17 @@
 # FAA Knowledge project
-pdfs/**/*.pdf
 *.db
 result
 !flake.lock
+pdfs/
+pdfs_text/
+runs/
+/quiz
+
+# Generated/archived pipeline artifacts
+runs_old_qwen3/
+pdfs_text_run/
+database/crosscheck_report.json
+/resume
 
 # Miscellaneous
 *.class

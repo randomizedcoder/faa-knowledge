@@ -5,92 +5,200 @@
     {
       "section": "Atmosphere",
       "difficulty": 1,
-      "categories": ["written_exam", "general_knowledge"],
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
       "question": "In the standard atmosphere, what is the average temperature lapse rate in the troposphere?",
       "correct_answer": "2°C per 1,000 feet",
-      "distractors": ["3.5°C per 1,000 feet", "1°C per 1,000 feet", "2°F per 1,000 feet"],
-      "explanation": "The standard lapse rate is approximately 2°C (3.5°F) per 1,000 feet of altitude gain in the troposphere."
+      "distractors": [
+        "3.5°C per 1,000 feet",
+        "1°C per 1,000 feet",
+        "2°F per 1,000 feet"
+      ],
+      "explanation": "The standard lapse rate is approximately 2°C (3.5°F) per 1,000 feet of altitude gain in the troposphere.",
+      "reference": {
+        "page": "12-2",
+        "text": "In the first layer, known as the troposphere, extends from 6 to 20 kilometers (km) (4 to 12 miles) over the northern and southern poles and up to 48,000 feet (14.5 km) over the equatorial regions. The vast majority of weather, clouds, storms, and temperature variances occur within this first layer of the atmosphere. Inside the troposphere, the average temperature decreases at a rate of about 2 °Celsius (C) every 1,000 feet of altitude gain, and the pressure decreases at a rate of about one inch per 1,000 feet of altitude gain."
+      }
     },
     {
       "section": "Wind",
       "difficulty": 2,
-      "categories": ["written_exam", "checkride_oral"],
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
       "question": "What causes wind?",
       "correct_answer": "Differences in atmospheric pressure (pressure gradient force)",
-      "distractors": ["Rotation of the earth only", "Heating of the earth's surface only", "Convective currents in the stratosphere"],
-      "explanation": "Wind is caused by pressure differences in the atmosphere. Air flows from high pressure to low pressure. The Coriolis effect, friction, and other forces then modify wind direction and speed."
+      "distractors": [
+        "Rotation of the earth only",
+        "Heating of the earth's surface only",
+        "Convective currents in the stratosphere"
+      ],
+      "explanation": "Wind is caused by pressure differences in the atmosphere. Air flows from high pressure to low pressure. The Coriolis effect, friction, and other forces then modify wind direction and speed.",
+      "reference": {
+        "page": "12-7",
+        "text": "Air flows from areas of high pressure into areas of low pressure because air always seeks out lower pressure."
+      }
     },
     {
       "section": "Coriolis Effect",
       "difficulty": 2,
-      "categories": ["written_exam"],
+      "categories": [
+        "written_exam"
+      ],
       "question": "In the Northern Hemisphere, how does the Coriolis effect influence wind direction?",
       "correct_answer": "It deflects wind to the right of its path",
-      "distractors": ["It deflects wind to the left of its path", "It has no effect on wind direction", "It causes wind to blow directly from high to low pressure"],
-      "explanation": "In the Northern Hemisphere, the Coriolis effect (due to Earth's rotation) deflects moving air to the right. In the Southern Hemisphere, it deflects to the left."
+      "distractors": [
+        "It deflects wind to the left of its path",
+        "It has no effect on wind direction",
+        "It causes wind to blow directly from high to low pressure"
+      ],
+      "explanation": "In the Northern Hemisphere, the Coriolis effect (due to Earth's rotation) deflects moving air to the right. In the Southern Hemisphere, it deflects to the left.",
+      "reference": {
+        "page": "12-4",
+        "text": "The Coriolis force deflects air to the right in the Northern Hemisphere, causing it to follow a curved path instead of a straight line."
+      }
     },
     {
       "section": "Fronts",
       "difficulty": 2,
-      "categories": ["written_exam", "checkride_oral"],
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
       "question": "What type of weather is typically associated with a warm front?",
       "correct_answer": "Widespread low clouds, steady precipitation, and poor visibility over a large area",
-      "distractors": ["Severe thunderstorms and hail along a narrow band", "Clear skies and unlimited visibility", "Isolated rain showers with rapid clearing"],
-      "explanation": "Warm fronts feature warm air riding up over cooler air, producing stratiform clouds, steady precipitation, and reduced visibility over a wide area ahead of the front."
+      "distractors": [
+        "Severe thunderstorms and hail along a narrow band",
+        "Clear skies and unlimited visibility",
+        "Isolated rain showers with rapid clearing"
+      ],
+      "explanation": "Warm fronts feature warm air riding up over cooler air, producing stratiform clouds, steady precipitation, and reduced visibility over a wide area ahead of the front.",
+      "reference": {
+        "page": "12-18",
+        "text": "Warm Front\nWidespread low clouds, steady precipitation, and poor visibility often occur ahead of a warm front. The warm air rides up over the cooler air, producing stratiform clouds and steady precipitation. The precipitation is usually light to moderate and may continue for many hours. The weather associated with a warm front is generally more gradual and prolonged than that of a cold front."
+      }
     },
     {
       "section": "Fronts",
       "difficulty": 2,
-      "categories": ["written_exam", "checkride_oral"],
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
       "question": "What type of weather is typically associated with a fast-moving cold front?",
       "correct_answer": "A narrow band of thunderstorms, turbulence, and gusty winds",
-      "distractors": ["Widespread fog and drizzle", "Gradual clearing with light winds", "Steady light rain over a broad area"],
-      "explanation": "A fast-moving cold front forces warm air up rapidly, creating cumulonimbus clouds, thunderstorms, heavy rain, turbulence, and gusty surface winds in a narrow band along the front."
+      "distractors": [
+        "Widespread fog and drizzle",
+        "Gradual clearing with light winds",
+        "Steady light rain over a broad area"
+      ],
+      "explanation": "A fast-moving cold front forces warm air up rapidly, creating cumulonimbus clouds, thunderstorms, heavy rain, turbulence, and gusty surface winds in a narrow band along the front.",
+      "reference": {
+        "page": "12-20",
+        "text": "Fast-Moving Cold Front .....................................12-20\n\nThe fast-moving cold front forces the warm air up rapidly, creating cumulonimbus clouds, thunderstorms, heavy rain, turbulence, and gusty surface winds in a narrow band along the front."
+      }
     },
     {
       "section": "Thunderstorms",
       "difficulty": 2,
-      "categories": ["written_exam", "checkride_oral"],
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
       "question": "What three conditions are necessary for a thunderstorm to form?",
       "correct_answer": "Sufficient moisture, an unstable lapse rate, and a lifting action",
-      "distractors": ["High pressure, dry air, and wind shear", "Cold front passage, low humidity, and stable air", "Mountain terrain, fog, and temperature inversion"],
-      "explanation": "All thunderstorms require: (1) sufficient moisture to form clouds and rain, (2) an unstable atmosphere (steep lapse rate), and (3) a lifting force (fronts, orographic, convection, or convergence)."
+      "distractors": [
+        "High pressure, dry air, and wind shear",
+        "Cold front passage, low humidity, and stable air",
+        "Mountain terrain, fog, and temperature inversion"
+      ],
+      "explanation": "All thunderstorms require: (1) sufficient moisture to form clouds and rain, (2) an unstable atmosphere (steep lapse rate), and (3) a lifting force (fronts, orographic, convection, or convergence).",
+      "reference": {
+        "page": "12-13",
+        "text": "The combination of moisture and temperature determine the stability of the air and the resulting weather. Cool, dry air is very stable and resists vertical movement, which leads to good and generally clear weather. The greatest instability occurs when the air is moist and warm, as it is in the tropical regions in the summer. Typically, thunderstorms appear on a daily basis in these regions due to the instability of the surrounding air."
+      }
     },
     {
       "section": "Fog",
       "difficulty": 2,
-      "categories": ["written_exam"],
+      "categories": [
+        "written_exam"
+      ],
       "question": "What type of fog forms when warm, moist air moves over a colder surface?",
       "correct_answer": "Advection fog",
-      "distractors": ["Radiation fog", "Upslope fog", "Steam fog"],
-      "explanation": "Advection fog forms when warm, moist air moves horizontally over a colder surface, cooling the air to its dew point. It is common along coastlines and can persist throughout the day."
+      "distractors": [
+        "Radiation fog",
+        "Upslope fog",
+        "Steam fog"
+      ],
+      "explanation": "Advection fog forms when warm, moist air moves horizontally over a colder surface, cooling the air to its dew point. It is common along coastlines and can persist throughout the day.",
+      "reference": {
+        "page": "12-15",
+        "text": "When a layer of warm, moist air moves over a cold surface, advection fog is likely to occur. Unlike radiation fog, wind is required to form advection fog. Winds of up to 15 knots allow the fog to form and intensify; above a speed of 15 knots, the fog usually lifts and forms low stratus clouds. Advection fog is common in coastal areas where sea breezes can blow the air over cooler landmasses."
+      }
     },
     {
       "section": "Stability",
       "difficulty": 2,
-      "categories": ["written_exam", "checkride_oral"],
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
       "question": "What kind of clouds and weather are associated with unstable air?",
       "correct_answer": "Cumulus clouds, turbulence, good visibility outside of precipitation, and showery precipitation",
-      "distractors": ["Stratus clouds, smooth air, poor visibility, and steady precipitation", "No clouds, calm air, and excellent visibility", "Only high cirrus clouds with light turbulence"],
-      "explanation": "Unstable air promotes vertical development: cumulus/cumulonimbus clouds, turbulence, showery precipitation, and generally good visibility between showers."
+      "distractors": [
+        "Stratus clouds, smooth air, poor visibility, and steady precipitation",
+        "No clouds, calm air, and excellent visibility",
+        "Only high cirrus clouds with light turbulence"
+      ],
+      "explanation": "Unstable air promotes vertical development: cumulus/cumulonimbus clouds, turbulence, showery precipitation, and generally good visibility between showers.",
+      "reference": {
+        "page": "12-13",
+        "text": "The combination of moisture and temperature determine the stability of the air and the resulting weather. Cool, dry air is very stable and resists vertical movement, which leads to good and generally clear weather. The greatest instability occurs when the air is moist and warm, as it is in the tropical regions in the summer. Typically, thunderstorms appear on a daily basis in these regions due to the instability of the surrounding air."
+      }
     },
     {
       "section": "Temperature Inversion",
       "difficulty": 2,
-      "categories": ["written_exam", "checkride_oral"],
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
       "question": "What weather conditions are typically associated with a temperature inversion near the surface?",
       "correct_answer": "Smooth air, poor visibility, fog or haze, and stable conditions",
-      "distractors": ["Turbulence, good visibility, and cumulonimbus clouds", "Thunderstorms and wind shear", "Clear skies and gusty winds"],
-      "explanation": "A surface-based temperature inversion traps moisture, pollutants, and haze near the ground, resulting in smooth air, poor visibility, fog, and very stable conditions."
+      "distractors": [
+        "Turbulence, good visibility, and cumulonimbus clouds",
+        "Thunderstorms and wind shear",
+        "Clear skies and gusty winds"
+      ],
+      "explanation": "A surface-based temperature inversion traps moisture, pollutants, and haze near the ground, resulting in smooth air, poor visibility, fog, and very stable conditions.",
+      "reference": {
+        "page": "12-13",
+        "text": "Surface-based temperature inversions occur on clear, cool nights when the air close to the ground is cooled by the lowering temperature of the ground. The air within a few hundred feet of the surface becomes cooler than the air above it. Frontal inversions occur when warm air spreads over a layer of cooler air, or cooler air is forced under a layer of warmer air. The air at the top of the layer acts as a lid, keeping weather and pollutants trapped below. If the relative humidity of the air is high, it can contribute to the formation of clouds, fog, haze, or smoke resulting in diminished visibility in the inversion layer."
+      }
     },
     {
       "section": "Icing",
       "difficulty": 2,
-      "categories": ["written_exam", "checkride_oral"],
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
       "question": "What is the most hazardous type of structural icing?",
       "correct_answer": "Clear ice",
-      "distractors": ["Rime ice", "Mixed ice", "Frost"],
-      "explanation": "Clear ice (or glaze ice) forms from large supercooled water droplets that spread before freezing. It is hard, heavy, tenacious, and difficult to remove, significantly altering the airfoil shape."
+      "distractors": [
+        "Rime ice",
+        "Mixed ice",
+        "Frost"
+      ],
+      "explanation": "Clear ice (or glaze ice) forms from large supercooled water droplets that spread before freezing. It is hard, heavy, tenacious, and difficult to remove, significantly altering the airfoil shape.",
+      "reference": {
+        "page": "12-15",
+        "text": "Fog is a cloud that is on the surface. It typically occurs when the temperature of air near the ground is cooled to the air’s dew point. At this point, water vapor in the air condenses and becomes visible in the form of fog. Fog is classified according to the manner in which it forms and is dependent upon the current temperature and the amount of water vapor in the air."
+      }
     }
   ]
 }

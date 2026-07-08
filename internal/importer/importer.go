@@ -16,14 +16,20 @@ type SeedFile struct {
 	Questions []SeedQuestion `json:"questions"`
 }
 
+type Reference struct {
+	Page string `json:"page"`
+	Text string `json:"text"`
+}
+
 type SeedQuestion struct {
-	Section       string   `json:"section"`
-	Difficulty    int      `json:"difficulty"`
-	Categories    []string `json:"categories"`
-	Question      string   `json:"question"`
-	CorrectAnswer string   `json:"correct_answer"`
-	Distractors   []string `json:"distractors"`
-	Explanation   string   `json:"explanation"`
+	Section       string     `json:"section"`
+	Difficulty    int        `json:"difficulty"`
+	Categories    []string   `json:"categories"`
+	Question      string     `json:"question"`
+	CorrectAnswer string     `json:"correct_answer"`
+	Distractors   []string   `json:"distractors"`
+	Explanation   string     `json:"explanation"`
+	Reference     *Reference `json:"reference,omitempty"`
 }
 
 func ImportFile(database *sql.DB, path string) (int, error) {
@@ -74,6 +80,10 @@ func ImportData(database *sql.DB, data []byte, name string) (int, error) {
 			QuestionText:  sq.Question,
 			CorrectAnswer: sq.CorrectAnswer,
 			Explanation:   sq.Explanation,
+		}
+		if sq.Reference != nil {
+			q.ReferencePage = sq.Reference.Page
+			q.ReferenceText = sq.Reference.Text
 		}
 
 		qID, err := db.InsertQuestion(tx, q)

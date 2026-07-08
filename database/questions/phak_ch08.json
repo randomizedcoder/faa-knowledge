@@ -5,74 +5,161 @@
     {
       "section": "Pitot-Static System",
       "difficulty": 2,
-      "categories": ["written_exam", "checkride_oral"],
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
       "question": "Which flight instruments operate from the pitot-static system?",
       "correct_answer": "Airspeed indicator, altimeter, and vertical speed indicator",
-      "distractors": ["Airspeed indicator, heading indicator, and altimeter", "Attitude indicator, altimeter, and turn coordinator", "Airspeed indicator, attitude indicator, and VSI"],
-      "explanation": "The pitot-static system powers three instruments: the airspeed indicator (pitot + static), altimeter (static only), and vertical speed indicator (static only)."
+      "distractors": [
+        "Airspeed indicator, heading indicator, and altimeter",
+        "Attitude indicator, altimeter, and turn coordinator",
+        "Airspeed indicator, attitude indicator, and VSI"
+      ],
+      "explanation": "The pitot-static system powers three instruments: the airspeed indicator (pitot + static), altimeter (static only), and vertical speed indicator (static only).",
+      "reference": {
+        "page": "8-1",
+        "text": "The pitot-static system is a combined system that utilizes the static air pressure and the dynamic pressure due to the motion of the aircraft through the air. These combined pressures are utilized for the operation of the airspeed indicator (ASI), altimeter, and vertical speed indicator (VSI)."
+      }
     },
     {
       "section": "Altimeter",
       "difficulty": 2,
-      "categories": ["written_exam", "checkride_oral"],
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
       "question": "What does the altimeter setting (Kollsman window) compensate for?",
       "correct_answer": "Changes in atmospheric pressure",
-      "distractors": ["Changes in outside air temperature", "Changes in aircraft weight", "Changes in magnetic variation"],
-      "explanation": "The Kollsman window allows the pilot to set the current altimeter setting (barometric pressure), compensating for nonstandard pressure so the altimeter reads correct altitude."
+      "distractors": [
+        "Changes in outside air temperature",
+        "Changes in aircraft weight",
+        "Changes in magnetic variation"
+      ],
+      "explanation": "The Kollsman window allows the pilot to set the current altimeter setting (barometric pressure), compensating for nonstandard pressure so the altimeter reads correct altitude.",
+      "reference": {
+        "page": "8-5",
+        "text": "Most altimeters are equipped with a barometric pressure setting window (or Kollsman window) providing a means to adjust the altimeter. A knob is located at the bottom of the instrument for this adjustment. To adjust the altimeter for variation in atmospheric pressure, the pressure scale in the altimeter setting window, calibrated in inches of mercury (\"Hg) and/or millibars (mb), is adjusted to match the given altimeter setting."
+      }
     },
     {
       "section": "Altimeter Errors",
       "difficulty": 3,
-      "categories": ["written_exam", "checkride_oral"],
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
       "question": "When flying from a high-pressure area to a low-pressure area without adjusting the altimeter, what will the altimeter indicate?",
       "correct_answer": "An altitude higher than the actual altitude (the aircraft is lower than indicated)",
-      "distractors": ["An altitude lower than actual altitude", "The correct altitude", "An altitude that fluctuates unpredictably"],
-      "explanation": "High to low, look out below. Flying from high to low pressure without correcting the altimeter causes it to indicate higher than actual altitude, putting the aircraft dangerously lower than the pilot thinks."
+      "distractors": [
+        "An altitude lower than actual altitude",
+        "The correct altitude",
+        "An altitude that fluctuates unpredictably"
+      ],
+      "explanation": "High to low, look out below. Flying from high to low pressure without correcting the altimeter causes it to indicate higher than actual altitude, putting the aircraft dangerously lower than the pilot thinks.",
+      "reference": {
+        "page": "8-4",
+        "text": "If altimeters could not be adjusted for nonstandard pressure, a hazardous situation could occur. For example, if an aircraft is flown from a high pressure area to a low pressure area without adjusting the altimeter, a constant altitude will be displayed, but the actual height of the aircraft above the ground would be lower then the indicated altitude. There is an old aviation axiom: “GOING FROM A HIGH TO A LOW, LOOK OUT BELOW.” Conversely, if an aircraft is flown from a low pressure area to a high pressure area without an adjustment of the altimeter, the actual altitude of the aircraft is higher than the indicated altitude."
+      }
     },
     {
       "section": "Airspeed Indicator",
       "difficulty": 2,
-      "categories": ["written_exam"],
+      "categories": [
+        "written_exam"
+      ],
       "question": "What does the green arc on the airspeed indicator represent?",
       "correct_answer": "Normal operating range (VS1 to VNO)",
-      "distractors": ["Flap operating range", "Caution range — fly only in smooth air", "Maneuvering speed range"],
-      "explanation": "Green arc: normal operating range from VS1 (stall speed, clean) to VNO (max structural cruising speed). White arc is flap range, yellow arc is caution range."
+      "distractors": [
+        "Flap operating range",
+        "Caution range — fly only in smooth air",
+        "Maneuvering speed range"
+      ],
+      "explanation": "Green arc: normal operating range from VS1 (stall speed, clean) to VNO (max structural cruising speed). White arc is flap range, yellow arc is caution range.",
+      "reference": {
+        "page": "8-9",
+        "text": "•     Green arc—the normal operating range of the aircraft. Most flying occurs within this range."
+      }
     },
     {
       "section": "Airspeed Indicator",
       "difficulty": 2,
-      "categories": ["written_exam", "checkride_oral"],
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
       "question": "What speed does the bottom of the white arc on the airspeed indicator represent?",
       "correct_answer": "VS0 — stall speed in landing configuration (full flaps)",
-      "distractors": ["VS1 — stall speed in clean configuration", "VFE — maximum flap extended speed", "VNE — never exceed speed"],
-      "explanation": "The white arc ranges from VS0 (stall speed in landing configuration/full flaps) at the bottom to VFE (max flap extended speed) at the top."
+      "distractors": [
+        "VS1 — stall speed in clean configuration",
+        "VFE — maximum flap extended speed",
+        "VNE — never exceed speed"
+      ],
+      "explanation": "The white arc ranges from VS0 (stall speed in landing configuration/full flaps) at the bottom to VFE (max flap extended speed) at the top.",
+      "reference": {
+        "page": "8-9",
+        "text": "As shown in Figure 8-8, ASIs on single-engine small aircraft include the following standard color-coded markings: • White arc—commonly referred to as the flap operating range since its lower limit represents the full flap stall speed and its upper limit provides the maximum flap speed. • Lower limit of white arc (VS0)—the stalling speed or the minimum steady flight speed in the landing configuration. In small aircraft, this is the power-off stall speed at the maximum landing weight in the landing configuration (gear and flaps down)."
+      }
     },
     {
       "section": "Gyroscopic Instruments",
       "difficulty": 2,
-      "categories": ["written_exam", "checkride_oral"],
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
       "question": "Which instruments typically use a gyroscope driven by the vacuum system?",
       "correct_answer": "Attitude indicator and heading indicator",
-      "distractors": ["Turn coordinator and heading indicator", "Airspeed indicator and altimeter", "Attitude indicator and turn coordinator"],
-      "explanation": "The vacuum system typically drives the attitude indicator and heading indicator. The turn coordinator is usually electrically driven, providing redundancy."
+      "distractors": [
+        "Turn coordinator and heading indicator",
+        "Airspeed indicator and altimeter",
+        "Attitude indicator and turn coordinator"
+      ],
+      "explanation": "The vacuum system typically drives the attitude indicator and heading indicator. The turn coordinator is usually electrically driven, providing redundancy.",
+      "reference": {
+        "page": "8-1",
+        "text": "This chapter addresses the pitot-static system and associated instruments, the vacuum system and related instruments, gyroscopic instruments, and the magnetic compass."
+      }
     },
     {
       "section": "Magnetic Compass",
       "difficulty": 3,
-      "categories": ["written_exam", "checkride_oral"],
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
       "question": "When accelerating on an east or west heading in the Northern Hemisphere, what error will the magnetic compass temporarily show?",
       "correct_answer": "The compass will show a turn toward the north",
-      "distractors": ["The compass will show a turn toward the south", "No error — acceleration errors only occur on north/south headings", "The compass will oscillate rapidly between headings"],
-      "explanation": "The ANDS memory aid: Accelerate-North, Decelerate-South. When accelerating on an east or west heading, the compass card tilts and temporarily indicates a turn toward north. When decelerating, it indicates a turn toward south. These errors are most pronounced on east/west headings and negligible on north/south headings."
+      "distractors": [
+        "The compass will show a turn toward the south",
+        "No error — acceleration errors only occur on north/south headings",
+        "The compass will oscillate rapidly between headings"
+      ],
+      "explanation": "The ANDS memory aid: Accelerate-North, Decelerate-South. When accelerating on an east or west heading, the compass card tilts and temporarily indicates a turn toward north. When decelerating, it indicates a turn toward south. These errors are most pronounced on east/west headings and negligible on north/south headings.",
+      "reference": {
+        "page": "8-1",
+        "text": "In order to safely fly any aircraft, a pilot must understand how to interpret and operate the flight instruments. The pilot also needs to be able to recognize associated errors and malfunctions of these instruments. This chapter addresses the pitot-static system and associated instruments, the vacuum system and related instruments, gyroscopic instruments, and the magnetic compass. When a pilot understands how each instrument works and recognizes when an instrument is malfunctioning, he or she can safely utilize the instruments to their fullest potential."
+      }
     },
     {
       "section": "Vertical Speed Indicator",
       "difficulty": 1,
-      "categories": ["written_exam", "general_knowledge"],
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
       "question": "What does the vertical speed indicator (VSI) display?",
       "correct_answer": "The rate of climb or descent in feet per minute",
-      "distractors": ["The aircraft's vertical altitude above sea level", "The rate of airspeed change", "The angle of climb or descent in degrees"],
-      "explanation": "The VSI shows the rate of altitude change (climb or descent) in feet per minute by measuring the rate of pressure change in the static system through a calibrated leak."
+      "distractors": [
+        "The aircraft's vertical altitude above sea level",
+        "The rate of airspeed change",
+        "The angle of climb or descent in degrees"
+      ],
+      "explanation": "The VSI shows the rate of altitude change (climb or descent) in feet per minute by measuring the rate of pressure change in the static system through a calibrated leak.",
+      "reference": {
+        "page": "8-7",
+        "text": "The VSI, which is sometimes called a vertical velocity indicator (VVI), indicates whether the aircraft is climbing, descending, or in level flight. The rate of climb or descent is indicated in feet per minute (fpm)."
+      }
     }
   ]
 }
