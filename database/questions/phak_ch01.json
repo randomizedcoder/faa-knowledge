@@ -1,0 +1,353 @@
+{
+  "source": "PHAK",
+  "chapter": 1,
+  "questions": [
+    {
+      "section": "HIWAS.",
+      "difficulty": 3,
+      "categories": [
+        "written_exam"
+      ],
+      "question": "When reviewing a Chart Supplement, a pilot encounters the notation 'PAPI(P2L)—GA 3.0° TCH 40' for a specific runway. What does this entry indicate?",
+      "correct_answer": "A Precision Approach Path Indicator with 2 lights on the left side, providing a 3.0° glide slope angle and a threshold crossing height of 40 feet.",
+      "distractors": [
+        "A Precision Approach Path Indicator with 2 lights on both sides, providing a 3.0° glide slope angle and a threshold crossing height of 40 feet.",
+        "A Pilot Activated Procedure Indicator with 2 lights on the left side, providing a 3.0° glide slope angle and a threshold crossing height of 40 feet.",
+        "A Precision Approach Path Indicator with 2 lights on the left side, providing a 3.0° glide slope angle and a touchdown zone elevation of 40 feet."
+      ],
+      "explanation": "According to the Pilot's Handbook of Aeronautical Knowledge (PHAK), a Chart Supplement entry reading 'PAPI(P2L)—GA 3.0° TCH 40' indicates a Precision Approach Path Indicator with a 2-light configuration on the left side of the runway. The '3.0°' specifies the glide slope angle, and 'TCH 40' indicates a threshold crossing height of 40 feet. The distractors are incorrect because 'L' specifies the left side only (not both sides), PAPI stands for Precision Approach Path Indicator (not Pilot Activated Procedure Indicator), and TCH stands for Threshold Crossing Height (not touchdown zone elevation).",
+      "reference": {
+        "page": "1-12",
+        "text": "AUSTIN (TMT)      4 SW UTC 8( 7DT) N39 °28.08 W117°11.72                                                      LAS VEGAS\n                                                                                                 5735    B NOTAM FILE RNO                                                                                  H–3C, L–9B\n                                                                                                   RWY 18:REIL. PAPI(P2L)—GA 3.0 ° TCH 40 .             RWY 36:REIL. PAPI(P2L)—GA 3.0 ° TCH 40 . Fence.\n                                                                                                 AIRPORT REMARKS:Unattended. Military acft opr in vicinity of arpt. ACTIVATE MIRL Rwy 18–36, PAPI Rwys 18 and 36,\n                                                                                                   REIL Rwy 18 and 36—CTAF.\n                                                                                                 WEATHER DATA SOURCES:AWOS–3PT 132.925 (775) 964–1144.\n                                                                                                                 115.1 MVA Chan 98 N38 °33.92 W118°01.97\n                                                                                                   MINA (H) VORTAC                                                            019° 66.7 NM to fld. 7860/17E."
+      }
+    },
+    {
+      "section": "The Pilot’s Handbook of Aeronautical Knowledge provides",
+      "difficulty": 2,
+      "categories": [
+        "general_knowledge"
+      ],
+      "question": "While the Chinese utilized kites for purposes such as aerial observation and signaling, this technology was not introduced to the West until the 13th century. According to the Pilot's Handbook of Aeronautical Knowledge, how long had the kite been familiar to the East prior to its introduction to the West?",
+      "correct_answer": "2,000 years",
+      "distractors": [
+        "1,000 years",
+        "500 years",
+        "3,000 years"
+      ],
+      "explanation": "According to Chapter 1 of the Pilot's Handbook of Aeronautical Knowledge, the kite was familiar to the East for 2,000 years, but was not introduced to the West until the 13th century. The text notes that the Chinese used kites for aerial observation, to test winds for sailing, as a signaling device, and as a toy, and that this technology held many of the answers to lifting a heavier-than-air device into the air.",
+      "reference": {
+        "page": "1-2",
+        "text": "History of Flight                                                    billowing heap of cloth capable of no more than a one-way,\n                                                                     downwind journey.\nFrom prehistoric times, humans have watched the flight of\nbirds, and longed to imitate them, but lacked the power to do\n                                                                     Balloons solved the problem of lift, but that was only one of\nso. Logic dictated that if the small muscles of birds can lift\n                                                                     the problems of human flight. The ability to control speed and\nthem into the air and sustain them, then the larger muscles\n                                                                     direction eluded balloonists. The solution to that problem lay\nof humans should be able to duplicate the feat. No one knew\n                                                                     in a child’s toy familiar to the East for 2,000 years, but not\nabout the intricate mesh of muscles, sinew, heart, breathing\n                                                                     introduced to the West until the 13th century—the kite. The\nsystem, and devices not unlike wing flaps, variable-camber\n                                                                     kites used by the Chinese for aerial observation, to test winds\nand spoilers of the modern airplane that enabled a bird to\n                                                                     for sailing, as a signaling device, and as a toy, held many of\nfly. Still, thousands of years and countless lives were lost in\n                                                                     the answers to lifting a heavier-than-air device into the air.\nattempts to fly like birds.\n                                                                     One of the men who believed the study of kites unlocked\nThe identity of the first “bird-men” who fitted themselves\n                                                                     the secrets of winged flight was Sir George Cayley."
+      }
+    },
+    {
+      "section": "The Pilot’s Handbook of Aeronautical Knowledge provides",
+      "difficulty": 2,
+      "categories": [
+        "general_knowledge"
+      ],
+      "question": "According to the PHAK, the Chinese used kites for aerial observation, to test winds for sailing, as a signaling device, and as a toy. What was the broader significance of these kites in the history of flight?",
+      "correct_answer": "They held many of the answers to lifting a heavier-than-air device into the air",
+      "distractors": [
+        "They proved that human muscle power alone could sustain heavier-than-air flight",
+        "They solved the problem of lift for lighter-than-air balloons",
+        "They were used as the first powered military aircraft in recorded history"
+      ],
+      "explanation": "The PHAK states that kites, used by the Chinese for various practical and recreational purposes, 'held many of the answers to lifting a heavier-than-air device into the air.' The text contrasts this with earlier failed attempts to fly using human muscle power (like birds), and notes that balloons had already solved the problem of lift but lacked directional control. Kites were unpowered devices, not powered aircraft, and their significance was specifically related to heavier-than-air flight principles.",
+      "reference": {
+        "page": "1-2",
+        "text": "History of Flight                                                    billowing heap of cloth capable of no more than a one-way,\n                                                                     downwind journey.\nFrom prehistoric times, humans have watched the flight of\nbirds, and longed to imitate them, but lacked the power to do\n                                                                     Balloons solved the problem of lift, but that was only one of\nso. Logic dictated that if the small muscles of birds can lift\n                                                                     the problems of human flight. The ability to control speed and\nthem into the air and sustain them, then the larger muscles\n                                                                     direction eluded balloonists. The solution to that problem lay\nof humans should be able to duplicate the feat. No one knew\n                                                                     in a child’s toy familiar to the East for 2,000 years, but not\nabout the intricate mesh of muscles, sinew, heart, breathing\n                                                                     introduced to the West until the 13th century—the kite. The\nsystem, and devices not unlike wing flaps, variable-camber\n                                                                     kites used by the Chinese for aerial observation, to test winds\nand spoilers of the modern airplane that enabled a bird to\n                                                                     for sailing, as a signaling device, and as a toy, held many of\nfly. Still, thousands of years and countless lives were lost in\n                                                                     the answers to lifting a heavier-than-air device into the air.\nattempts to fly like birds.\n                                                                     One of the men who believed the study of kites unlocked\nThe identity of the first “bird-men” who fitted themselves\n                                                                     the secrets of winged flight was Sir George Cayley."
+      }
+    },
+    {
+      "section": "The Pilot’s Handbook of Aeronautical Knowledge provides",
+      "difficulty": 2,
+      "categories": [
+        "general_knowledge"
+      ],
+      "question": "According to the Pilot's Handbook of Aeronautical Knowledge, while early balloons solved the initial problem of lift, which technology held many of the answers to lifting a heavier-than-air device into the air?",
+      "correct_answer": "The kite",
+      "distractors": [
+        "The hot air balloon",
+        "The artificial wing",
+        "The glider"
+      ],
+      "explanation": "The PHAK states that while balloons solved the problem of lift, they lacked the ability to control speed and direction. The solution to this problem, and the key to lifting a heavier-than-air device, was found in the kite, a concept familiar to the East for 2,000 years and later studied by aviation pioneers like Sir George Cayley.",
+      "reference": {
+        "page": "1-2",
+        "text": "History of Flight                                                    billowing heap of cloth capable of no more than a one-way,\n                                                                     downwind journey.\nFrom prehistoric times, humans have watched the flight of\nbirds, and longed to imitate them, but lacked the power to do\n                                                                     Balloons solved the problem of lift, but that was only one of\nso. Logic dictated that if the small muscles of birds can lift\n                                                                     the problems of human flight. The ability to control speed and\nthem into the air and sustain them, then the larger muscles\n                                                                     direction eluded balloonists. The solution to that problem lay\nof humans should be able to duplicate the feat. No one knew\n                                                                     in a child’s toy familiar to the East for 2,000 years, but not\nabout the intricate mesh of muscles, sinew, heart, breathing\n                                                                     introduced to the West until the 13th century—the kite. The\nsystem, and devices not unlike wing flaps, variable-camber\n                                                                     kites used by the Chinese for aerial observation, to test winds\nand spoilers of the modern airplane that enabled a bird to\n                                                                     for sailing, as a signaling device, and as a toy, held many of\nfly. Still, thousands of years and countless lives were lost in\n                                                                     the answers to lifting a heavier-than-air device into the air.\nattempts to fly like birds.\n                                                                     One of the men who believed the study of kites unlocked\nThe identity of the first “bird-men” who fitted themselves\n                                                                     the secrets of winged flight was Sir George Cayley."
+      }
+    },
+    {
+      "section": "The Pilot’s Handbook of Aeronautical Knowledge provides",
+      "difficulty": 2,
+      "categories": [
+        "general_knowledge"
+      ],
+      "question": "Sir George Cayley is regarded as a foundational figure in aviation because his work represented a shift away from birdlike wing-flapping designs. Which achievement is correctly attributed to him according to the Pilot's Handbook of Aeronautical Knowledge?",
+      "correct_answer": "He built the first successful flying model and tested the first full-size man-carrying airplane.",
+      "distractors": [
+        "He sketched proposed flying machines in his notebooks but, like da Vinci, clung to birdlike wing designs that never successfully flew.",
+        "He concluded that the human body lacks the strength to power artificial wings and proposed that flight would require some form of artificial propulsion.",
+        "He demonstrated the first hot air balloon flight in England, predating the Mongolfier brothers' flight by ten years.",
+        "He developed a lighter-than-air vehicle supported by kite-shaped wings and discovered the principles of buoyancy."
+      ],
+      "explanation": "According to PHAK Chapter 1, Sir George Cayley, known as the 'Father of Aerial Navigation,' discovered the basic principles on which the modern science of aeronautics is founded, built what is recognized as the first successful flying model, and tested the first full-size man-carrying airplane. Unlike da Vinci, who clung to birdlike wings, Cayley sought to develop a heavier-than-air vehicle supported by kite-shaped wings. The distractors incorrectly attribute the achievements of da Vinci (sketches with birdlike wings), Robert Hooke (conclusion about human body strength), and the Mongolfier balloon flight to Cayley, or mischaracterize his work as lighter-than-air.",
+      "reference": {
+        "page": "1-2",
+        "text": "Born\nwith wings and leapt off of cliffs in an effort to fly are lost in\n                                                                     in England 10 years before the Mongolfier balloon flight,\ntime, but each failure gave those who wished to fly questions\n                                                                     Cayley spent his 84 years seeking to develop a heavier-than­\nthat needed to be answered. Where had the wing flappers\n                                                                     air vehicle supported by kite-shaped wings. [Figure 1-2] The\ngone wrong? Philosophers, scientists, and inventors offered\n                                                                     “Father of Aerial Navigation,” Cayley discovered the basic\nsolutions, but no one could add wings to the human body\n                                                                     principles on which the modern science of aeronautics is\nand soar like a bird. During the 1500s, Leonardo da Vinci\n                                                                     founded; built what is recognized as the first successful flying\nfilled pages of his notebooks with sketches of proposed\n                                                                     model; and tested the first full-size man-carrying airplane.\nflying machines, but most of his ideas were flawed because\nhe clung to the idea of birdlike wings. [Figure 1-1] By\n1655, mathematician, physicist, and inventor Robert Hooke\nconcluded that the human body does not possess the strength\nto power artificial wings. He believed human flight would\nrequire some form of artificial propulsion."
+      }
+    },
+    {
+      "section": "The Pilot’s Handbook of Aeronautical Knowledge provides",
+      "difficulty": 2,
+      "categories": [
+        "general_knowledge"
+      ],
+      "question": "The Wright brothers' success at Kitty Hawk on December 17, 1903, validated their scientific approach to powered flight rather than a 'build-it-and-see' method. What did they achieve by the afternoon of that historic day?",
+      "correct_answer": "A total of 98 seconds of flight across four separate flights",
+      "distractors": [
+        "A single continuous flight lasting 98 seconds",
+        "Four flights with a combined time of 98 minutes",
+        "Two flights totaling 98 seconds"
+      ],
+      "explanation": "According to the Pilot's Handbook of Aeronautical Knowledge (Chapter 1), by the afternoon of December 17, 1903, the Wright brothers had flown a total of 98 seconds on four flights. The correct answer reflects both the total flight time and the number of flights. The first distractor is wrong because it was four separate flights, not one continuous flight. The second distractor incorrectly uses minutes instead of seconds. The third distractor incorrectly states two flights rather than four.",
+      "reference": {
+        "page": "1-3",
+        "text": "For the half-century after Cayley’s death, countless scientists,   Petersburg across the waterway to Tampa. Benoist suggested\nflying enthusiasts, and inventors worked toward building           using his “Safety First” airboat and the two men signed an\na powered flying machine. Men, such as William Samuel              agreement for what would become the first scheduled airline\nHenson, who designed a huge monoplane that was propelled           in the United States. The first aircraft was delivered to St.\nby a steam engine housed inside the fuselage, and Otto             Petersburg and made the first test flight on December 31,\nLilienthal, who proved human flight in aircraft heavier than       1913. [Figure 1-4]\nair was practical, worked toward the dream of powered flight.\nA dream turned into reality by Wilbur and Orville Wright at        A public auction decided who would win the honor of\nKitty Hawk, North Carolina, on December 17, 1903.                  becoming the first paying airline customer. The former\n                                                                   mayor of St. Petersburg, A. C. Pheil, made the winning bid\nThe bicycle-building Wright brothers of Dayton, Ohio, had          of $400.00, which secured his place in history as the first\nexperimented for 4 years with kites, their own homemade            paying airline passenger.\nwind tunnel, and different engines to power their biplane. One\nof their great achievements in flight was proving the value of     On January 1, 1914, the first scheduled airline flight was\nthe scientific, rather than a build-it-and-see approach. Their     conducted. The flight length was 21 miles and lasted 23\nbiplane, The Flyer, combined inspired design and engineering       minutes due to a headwind. The return trip took 20 minutes.\nwith superior craftsmanship. [Figure 1-3] By the afternoon         The line, which was subsidized by Florida businessmen,\nof December 17th, the Wright brothers had flown a total of         continued for 4 months and offered regular passage for $5.00\n98 seconds on four flights."
+      }
+    },
+    {
+      "section": "The Pilot’s Handbook of Aeronautical Knowledge provides",
+      "difficulty": 2,
+      "categories": [
+        "general_knowledge"
+      ],
+      "question": "The Wright brothers spent 4 years experimenting with kites, a homemade wind tunnel, and different engines before achieving powered flight in 1903. According to the Pilot's Handbook of Aeronautical Knowledge, what was one of their great achievements in flight?",
+      "correct_answer": "Proving the value of the scientific approach rather than a build-it-and-see approach to aircraft development",
+      "distractors": [
+        "Proving that human flight in aircraft heavier than air was practical, building on Otto Lilienthal's earlier glider work",
+        "Demonstrating that a build-it-and-see approach was the most efficient path to achieving powered flight",
+        "Designing the first monoplane propelled by a steam engine housed inside the fuselage"
+      ],
+      "explanation": "According to PHAK Chapter 1, the Wright brothers experimented for 4 years with kites, their own homemade wind tunnel, and different engines to power their biplane. One of their great achievements was proving the value of the scientific, rather than a build-it-and-see approach. Distractor 1 describes Otto Lilienthal's contribution, not the Wright brothers'. Distractor 2 contradicts the source, which specifically credits them with proving the value of the scientific approach OVER a build-it-and-see method. Distractor 3 describes William Samuel Henson's design, not the Wright brothers' biplane, The Flyer.",
+      "reference": {
+        "page": "1-3",
+        "text": "For the half-century after Cayley’s death, countless scientists,   Petersburg across the waterway to Tampa. Benoist suggested\nflying enthusiasts, and inventors worked toward building           using his “Safety First” airboat and the two men signed an\na powered flying machine. Men, such as William Samuel              agreement for what would become the first scheduled airline\nHenson, who designed a huge monoplane that was propelled           in the United States. The first aircraft was delivered to St.\nby a steam engine housed inside the fuselage, and Otto             Petersburg and made the first test flight on December 31,\nLilienthal, who proved human flight in aircraft heavier than       1913. [Figure 1-4]\nair was practical, worked toward the dream of powered flight.\nA dream turned into reality by Wilbur and Orville Wright at        A public auction decided who would win the honor of\nKitty Hawk, North Carolina, on December 17, 1903.                  becoming the first paying airline customer. The former\n                                                                   mayor of St. Petersburg, A. C. Pheil, made the winning bid\nThe bicycle-building Wright brothers of Dayton, Ohio, had          of $400.00, which secured his place in history as the first\nexperimented for 4 years with kites, their own homemade            paying airline passenger.\nwind tunnel, and different engines to power their biplane. One\nof their great achievements in flight was proving the value of     On January 1, 1914, the first scheduled airline flight was\nthe scientific, rather than a build-it-and-see approach. Their     conducted. The flight length was 21 miles and lasted 23\nbiplane, The Flyer, combined inspired design and engineering       minutes due to a headwind. The return trip took 20 minutes.\nwith superior craftsmanship. [Figure 1-3] By the afternoon         The line, which was subsidized by Florida businessmen,\nof December 17th, the Wright brothers had flown a total of         continued for 4 months and offered regular passage for $5.00\n98 seconds on four flights."
+      }
+    },
+    {
+      "section": "The Pilot’s Handbook of Aeronautical Knowledge provides",
+      "difficulty": 2,
+      "categories": [
+        "general_knowledge"
+      ],
+      "question": "Before the Wright brothers' successful powered flight at Kitty Hawk in 1903, earlier pioneers contributed critical advancements. What was Otto Lilienthal's key contribution to the development of powered flight?",
+      "correct_answer": "He demonstrated that human flight in aircraft heavier than air was practical.",
+      "distractors": [
+        "He designed and built the first successful steam-powered monoplane.",
+        "He achieved the first sustained powered flight at Kitty Hawk, North Carolina.",
+        "He established the first scheduled airline service in the United States."
+      ],
+      "explanation": "According to the Pilot's Handbook of Aeronautical Knowledge (Chapter 1), Otto Lilienthal is credited with proving that human flight in aircraft heavier than air was practical. This was a critical stepping stone toward the dream of powered flight, which was ultimately realized by the Wright brothers at Kitty Hawk on December 17, 1903. Lilienthal did not build a steam-powered monoplane (that was William Samuel Henson), he did not achieve powered flight at Kitty Hawk (that was the Wright brothers), and he was not involved in the first scheduled airline service (that was the St. Petersburg-Tampa line in 1914).",
+      "reference": {
+        "page": "1-3",
+        "text": "For the half-century after Cayley’s death, countless scientists,   Petersburg across the waterway to Tampa. Benoist suggested\nflying enthusiasts, and inventors worked toward building           using his “Safety First” airboat and the two men signed an\na powered flying machine. Men, such as William Samuel              agreement for what would become the first scheduled airline\nHenson, who designed a huge monoplane that was propelled           in the United States. The first aircraft was delivered to St.\nby a steam engine housed inside the fuselage, and Otto             Petersburg and made the first test flight on December 31,\nLilienthal, who proved human flight in aircraft heavier than       1913. [Figure 1-4]\nair was practical, worked toward the dream of powered flight.\nA dream turned into reality by Wilbur and Orville Wright at        A public auction decided who would win the honor of\nKitty Hawk, North Carolina, on December 17, 1903.                  becoming the first paying airline customer. The former\n                                                                   mayor of St. Petersburg, A. C. Pheil, made the winning bid\nThe bicycle-building Wright brothers of Dayton, Ohio, had          of $400.00, which secured his place in history as the first\nexperimented for 4 years with kites, their own homemade            paying airline passenger.\nwind tunnel, and different engines to power their biplane. One\nof their great achievements in flight was proving the value of     On January 1, 1914, the first scheduled airline flight was\nthe scientific, rather than a build-it-and-see approach. Their     conducted. The flight length was 21 miles and lasted 23\nbiplane, The Flyer, combined inspired design and engineering       minutes due to a headwind. The return trip took 20 minutes.\nwith superior craftsmanship. [Figure 1-3] By the afternoon         The line, which was subsidized by Florida businessmen,\nof December 17th, the Wright brothers had flown a total of         continued for 4 months and offered regular passage for $5.00\n98 seconds on four flights."
+      }
+    },
+    {
+      "section": "The Pilot’s Handbook of Aeronautical Knowledge provides",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "The first scheduled airline in the United States was established to provide passenger service across a waterway between which two cities?",
+      "correct_answer": "St. Petersburg and Tampa",
+      "distractors": [
+        "Miami and Key West",
+        "San Francisco and Oakland",
+        "New York and Atlantic City"
+      ],
+      "explanation": "According to the Pilot's Handbook of Aeronautical Knowledge, the first scheduled airline in the United States operated across the waterway between St. Petersburg and Tampa, Florida. The first scheduled airline flight was conducted on January 1, 1914.",
+      "reference": {
+        "page": "1-3",
+        "text": "For the half-century after Cayley’s death, countless scientists,   Petersburg across the waterway to Tampa. Benoist suggested\nflying enthusiasts, and inventors worked toward building           using his “Safety First” airboat and the two men signed an\na powered flying machine. Men, such as William Samuel              agreement for what would become the first scheduled airline\nHenson, who designed a huge monoplane that was propelled           in the United States. The first aircraft was delivered to St.\nby a steam engine housed inside the fuselage, and Otto             Petersburg and made the first test flight on December 31,\nLilienthal, who proved human flight in aircraft heavier than       1913. [Figure 1-4]\nair was practical, worked toward the dream of powered flight.\nA dream turned into reality by Wilbur and Orville Wright at        A public auction decided who would win the honor of\nKitty Hawk, North Carolina, on December 17, 1903.                  becoming the first paying airline customer. The former\n                                                                   mayor of St. Petersburg, A. C. Pheil, made the winning bid\nThe bicycle-building Wright brothers of Dayton, Ohio, had          of $400.00, which secured his place in history as the first\nexperimented for 4 years with kites, their own homemade            paying airline passenger.\nwind tunnel, and different engines to power their biplane. One\nof their great achievements in flight was proving the value of     On January 1, 1914, the first scheduled airline flight was\nthe scientific, rather than a build-it-and-see approach. Their     conducted. The flight length was 21 miles and lasted 23\nbiplane, The Flyer, combined inspired design and engineering       minutes due to a headwind. The return trip took 20 minutes.\nwith superior craftsmanship. [Figure 1-3] By the afternoon         The line, which was subsidized by Florida businessmen,\nof December 17th, the Wright brothers had flown a total of         continued for 4 months and offered regular passage for $5.00\n98 seconds on four flights."
+      }
+    },
+    {
+      "section": "The Pilot’s Handbook of Aeronautical Knowledge provides",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "On January 1, 1914, a significant milestone in U.S. aviation history occurred. What event took place on this date?",
+      "correct_answer": "The first scheduled airline flight was conducted in the United States",
+      "distractors": [
+        "The Wright brothers completed their first powered flights at Kitty Hawk, North Carolina",
+        "The first test flight of the St. Petersburg-to-Tampa airboat service was completed",
+        "Otto Lilienthal demonstrated that human flight in heavier-than-air aircraft was practical"
+      ],
+      "explanation": "According to the PHAK Chapter 1, the first scheduled airline flight was conducted on January 1, 1914, covering 21 miles between St. Petersburg and Tampa in 23 minutes. The Wright brothers' first powered flights occurred on December 17, 1903. The first test flight of the airline's aircraft was made on December 31, 1913—one day before the scheduled service began. Lilienthal's demonstrations of heavier-than-air human flight occurred in the half-century prior to the Wright brothers' achievement.",
+      "reference": {
+        "page": "1-3",
+        "text": "For the half-century after Cayley’s death, countless scientists,   Petersburg across the waterway to Tampa. Benoist suggested\nflying enthusiasts, and inventors worked toward building           using his “Safety First” airboat and the two men signed an\na powered flying machine. Men, such as William Samuel              agreement for what would become the first scheduled airline\nHenson, who designed a huge monoplane that was propelled           in the United States. The first aircraft was delivered to St.\nby a steam engine housed inside the fuselage, and Otto             Petersburg and made the first test flight on December 31,\nLilienthal, who proved human flight in aircraft heavier than       1913. [Figure 1-4]\nair was practical, worked toward the dream of powered flight.\nA dream turned into reality by Wilbur and Orville Wright at        A public auction decided who would win the honor of\nKitty Hawk, North Carolina, on December 17, 1903.                  becoming the first paying airline customer. The former\n                                                                   mayor of St. Petersburg, A. C. Pheil, made the winning bid\nThe bicycle-building Wright brothers of Dayton, Ohio, had          of $400.00, which secured his place in history as the first\nexperimented for 4 years with kites, their own homemade            paying airline passenger.\nwind tunnel, and different engines to power their biplane. One\nof their great achievements in flight was proving the value of     On January 1, 1914, the first scheduled airline flight was\nthe scientific, rather than a build-it-and-see approach. Their     conducted. The flight length was 21 miles and lasted 23\nbiplane, The Flyer, combined inspired design and engineering       minutes due to a headwind. The return trip took 20 minutes.\nwith superior craftsmanship. [Figure 1-3] By the afternoon         The line, which was subsidized by Florida businessmen,\nof December 17th, the Wright brothers had flown a total of         continued for 4 months and offered regular passage for $5.00\n98 seconds on four flights."
+      }
+    },
+    {
+      "section": "The Pilot’s Handbook of Aeronautical Knowledge provides",
+      "difficulty": 2,
+      "categories": [
+        "general_knowledge"
+      ],
+      "question": "The first scheduled airline flight covered 21 miles and took 23 minutes on the outbound leg, but the return trip took only 20 minutes. What does this difference in flight times demonstrate about the effect of wind on a flight?",
+      "correct_answer": "A headwind on the outbound leg increased the time aloft, while the same wind became a tailwind on the return leg, reducing flight time",
+      "distractors": [
+        "The outbound leg required a longer route due to airspace restrictions, while the return was a direct flight",
+        "The aircraft was heavier on the outbound leg because it carried a paying passenger, resulting in a slower speed",
+        "The pilot was unfamiliar with the route on the outbound leg and had to navigate carefully, adding time to the flight"
+      ],
+      "explanation": "According to the PHAK Chapter 1, the first scheduled airline flight on January 1, 1914, was 21 miles and 'lasted 23 minutes due to a headwind. The return trip took 20 minutes.' This illustrates a fundamental concept: a headwind increases flight time by reducing groundspeed, while the same wind acts as a tailwind on the return leg, increasing groundspeed and reducing flight time. The 3-minute difference reflects the effect of wind direction relative to the aircraft's course.",
+      "reference": {
+        "page": "1-3",
+        "text": "For the half-century after Cayley’s death, countless scientists,   Petersburg across the waterway to Tampa. Benoist suggested\nflying enthusiasts, and inventors worked toward building           using his “Safety First” airboat and the two men signed an\na powered flying machine. Men, such as William Samuel              agreement for what would become the first scheduled airline\nHenson, who designed a huge monoplane that was propelled           in the United States. The first aircraft was delivered to St.\nby a steam engine housed inside the fuselage, and Otto             Petersburg and made the first test flight on December 31,\nLilienthal, who proved human flight in aircraft heavier than       1913. [Figure 1-4]\nair was practical, worked toward the dream of powered flight.\nA dream turned into reality by Wilbur and Orville Wright at        A public auction decided who would win the honor of\nKitty Hawk, North Carolina, on December 17, 1903.                  becoming the first paying airline customer. The former\n                                                                   mayor of St. Petersburg, A. C. Pheil, made the winning bid\nThe bicycle-building Wright brothers of Dayton, Ohio, had          of $400.00, which secured his place in history as the first\nexperimented for 4 years with kites, their own homemade            paying airline passenger.\nwind tunnel, and different engines to power their biplane. One\nof their great achievements in flight was proving the value of     On January 1, 1914, the first scheduled airline flight was\nthe scientific, rather than a build-it-and-see approach. Their     conducted. The flight length was 21 miles and lasted 23\nbiplane, The Flyer, combined inspired design and engineering       minutes due to a headwind. The return trip took 20 minutes.\nwith superior craftsmanship. [Figure 1-3] By the afternoon         The line, which was subsidized by Florida businessmen,\nof December 17th, the Wright brothers had flown a total of         continued for 4 months and offered regular passage for $5.00\n98 seconds on four flights."
+      }
+    },
+    {
+      "section": "The Pilot’s Handbook of Aeronautical Knowledge provides",
+      "difficulty": 2,
+      "categories": [
+        "general_knowledge"
+      ],
+      "question": "How was the first paying airline passenger selected for the inaugural scheduled airline flight between St. Petersburg and Tampa in 1914, and how did this differ from regular passenger fares on the route?",
+      "correct_answer": "A. C. Pheil won the honor through a public auction with a bid of $400, while regular passage on the route was later offered for $5.00.",
+      "distractors": [
+        "A. C. Pheil purchased the first ticket at the standard fare of $5.00, which was the same price all subsequent passengers paid.",
+        "A. C. Pheil was selected by the Florida businessmen subsidizing the route because he was the former mayor of St. Petersburg.",
+        "A. C. Pheil won a lottery held among St. Petersburg residents, with the $400 representing the total pool collected from participants."
+      ],
+      "explanation": "According to the PHAK Chapter 1, a public auction was held to decide who would become the first paying airline customer. A. C. Pheil, the former mayor of St. Petersburg, placed the winning bid of $400.00. This was a one-time auction for the honor of being first; the airline subsequently offered regular passage for $5.00 per trip. The distractors are incorrect because they confuse the auction price with the regular fare, misidentify the selection method, or conflate Pheil's political position with the reason he was chosen.",
+      "reference": {
+        "page": "1-3",
+        "text": "For the half-century after Cayley’s death, countless scientists,   Petersburg across the waterway to Tampa. Benoist suggested\nflying enthusiasts, and inventors worked toward building           using his “Safety First” airboat and the two men signed an\na powered flying machine. Men, such as William Samuel              agreement for what would become the first scheduled airline\nHenson, who designed a huge monoplane that was propelled           in the United States. The first aircraft was delivered to St.\nby a steam engine housed inside the fuselage, and Otto             Petersburg and made the first test flight on December 31,\nLilienthal, who proved human flight in aircraft heavier than       1913. [Figure 1-4]\nair was practical, worked toward the dream of powered flight.\nA dream turned into reality by Wilbur and Orville Wright at        A public auction decided who would win the honor of\nKitty Hawk, North Carolina, on December 17, 1903.                  becoming the first paying airline customer. The former\n                                                                   mayor of St. Petersburg, A. C. Pheil, made the winning bid\nThe bicycle-building Wright brothers of Dayton, Ohio, had          of $400.00, which secured his place in history as the first\nexperimented for 4 years with kites, their own homemade            paying airline passenger.\nwind tunnel, and different engines to power their biplane. One\nof their great achievements in flight was proving the value of     On January 1, 1914, the first scheduled airline flight was\nthe scientific, rather than a build-it-and-see approach. Their     conducted. The flight length was 21 miles and lasted 23\nbiplane, The Flyer, combined inspired design and engineering       minutes due to a headwind. The return trip took 20 minutes.\nwith superior craftsmanship. [Figure 1-3] By the afternoon         The line, which was subsidized by Florida businessmen,\nof December 17th, the Wright brothers had flown a total of         continued for 4 months and offered regular passage for $5.00\n98 seconds on four flights."
+      }
+    },
+    {
+      "section": "The Pilot’s Handbook of Aeronautical Knowledge provides",
+      "difficulty": 2,
+      "categories": [
+        "general_knowledge"
+      ],
+      "question": "What distinguished the Benoist \"Safety First\" airboat service between St. Petersburg and Tampa from all previous aviation achievements in the United States?",
+      "correct_answer": "It was the first scheduled airline service, offering regular passenger passage for a fare",
+      "distractors": [
+        "It was the first successful powered flight in the United States, predating the Wright brothers",
+        "It was the first airmail delivery service, carrying mail between two cities",
+        "It was the first nonstop transcontinental flight across the United States"
+      ],
+      "explanation": "According to PHAK Chapter 1, the agreement to use Benoist's 'Safety First' airboat between St. Petersburg and Tampa 'would become the first scheduled airline in the United States.' The service began on January 1, 1914, and 'continued for 4 months and offered regular passage for $5.00.' This distinguished it from earlier achievements—such as the Wright brothers' first powered flight at Kitty Hawk in 1903—because it established scheduled, fare-paying passenger service rather than a single flight event.",
+      "reference": {
+        "page": "1-3",
+        "text": "For the half-century after Cayley’s death, countless scientists,   Petersburg across the waterway to Tampa. Benoist suggested\nflying enthusiasts, and inventors worked toward building           using his “Safety First” airboat and the two men signed an\na powered flying machine. Men, such as William Samuel              agreement for what would become the first scheduled airline\nHenson, who designed a huge monoplane that was propelled           in the United States. The first aircraft was delivered to St.\nby a steam engine housed inside the fuselage, and Otto             Petersburg and made the first test flight on December 31,\nLilienthal, who proved human flight in aircraft heavier than       1913. [Figure 1-4]\nair was practical, worked toward the dream of powered flight.\nA dream turned into reality by Wilbur and Orville Wright at        A public auction decided who would win the honor of\nKitty Hawk, North Carolina, on December 17, 1903.                  becoming the first paying airline customer. The former\n                                                                   mayor of St. Petersburg, A. C. Pheil, made the winning bid\nThe bicycle-building Wright brothers of Dayton, Ohio, had          of $400.00, which secured his place in history as the first\nexperimented for 4 years with kites, their own homemade            paying airline passenger.\nwind tunnel, and different engines to power their biplane. One\nof their great achievements in flight was proving the value of     On January 1, 1914, the first scheduled airline flight was\nthe scientific, rather than a build-it-and-see approach. Their     conducted. The flight length was 21 miles and lasted 23\nbiplane, The Flyer, combined inspired design and engineering       minutes due to a headwind. The return trip took 20 minutes.\nwith superior craftsmanship. [Figure 1-3] By the afternoon         The line, which was subsidized by Florida businessmen,\nof December 17th, the Wright brothers had flown a total of         continued for 4 months and offered regular passage for $5.00\n98 seconds on four flights."
+      }
+    },
+    {
+      "section": "The Pilot’s Handbook of Aeronautical Knowledge provides",
+      "difficulty": 2,
+      "categories": [
+        "general_knowledge"
+      ],
+      "question": "Despite operating for only 4 months, the St. Petersburg-Tampa Airboat Line safely carried 1,205 passengers without injury. What was the primary significance of this achievement?",
+      "correct_answer": "It proved that commercial passenger airline travel was viable.",
+      "distractors": [
+        "It demonstrated that government safety regulations were essential for commercial aviation success.",
+        "It showed that larger aircraft were necessary for airlines to operate profitably.",
+        "It established that year-round service was required to maintain a profitable airline route."
+      ],
+      "explanation": "According to the Pilot's Handbook of Aeronautical Knowledge (Chapter 1), the St. Petersburg-Tampa Airboat Line operated for only 4 months but carried 1,205 passengers without injury. The handbook states that 'this experiment proved commercial passenger airline travel was viable.' The distractors are incorrect because the airline operated before government aviation regulation existed, used small aircraft, and was a seasonal operation that suspended flights when the winter tourist industry dried up—yet still demonstrated the viability of commercial passenger travel.",
+      "reference": {
+        "page": "1-3",
+        "text": "The age of flight had arrived.         per person or $5.00 per 100 pounds of cargo. Shortly after the\n                                                                   opening of the line, Benoist added a new airboat that afforded\nHistory of the Federal Aviation                                    more protection from spray during takeoff and landing.\nAdministration (FAA)                                               The routes were also extended to Manatee, Bradenton, and\nDuring the early years of manned flight, aviation was a            Sarasota giving further credence to the idea of a profitable\nfree for all because no government body was in place to            commercial airline.\nestablish policies or regulate and enforce safety standards.\nIndividuals were free to conduct flights and operate aircraft      The St. Petersburg-Tampa Airboat Line continued throughout\nwith no government oversight. Most of the early flights were       the winter months with flights finally being suspended when\nconducted for sport. Aviation was expensive and became the         the winter tourist industry began to dry up. The airline\nplayground of the wealthy. Since these early airplanes were        operated for only 4 months, but 1,205 passengers were\nsmall, many people doubted their commercial value. One             carried without injury. This experiment proved commercial\ngroup of individuals believed otherwise and they became            passenger airline travel was viable.\nthe genesis for modern airline travel.\n                                                                   The advent of World War I offered the airplane a chance\nP. E. Fansler, a Florida businessman living in St. Petersburg,     to demonstrate its varied capabilities. It began the war as a\napproached Tom Benoist of the Benoist Aircraft Company             reconnaissance platform, but by 1918, airplanes were being\nin St. Louis, Missouri, about starting a flight route from St. 1-3"
+      }
+    },
+    {
+      "section": "The Pilot’s Handbook of Aeronautical Knowledge provides",
+      "difficulty": 2,
+      "categories": [
+        "general_knowledge"
+      ],
+      "question": "What did the St. Petersburg-Tampa Airboat Line, established through P.E. Fansler's collaboration with Tom Benoist, ultimately prove about aviation?",
+      "correct_answer": "Commercial passenger airline travel was viable.",
+      "distractors": [
+        "Aviation required government regulation before commercial operations could succeed.",
+        "Airplanes were too small to carry enough passengers to be commercially profitable.",
+        "Commercial aviation could only be sustained as a year-round operation."
+      ],
+      "explanation": "According to the PHAK Chapter 1, the St. Petersburg-Tampa Airboat Line operated for only 4 months but carried 1,205 passengers without injury. This experiment proved commercial passenger airline travel was viable. Distractor 1 is incorrect because this occurred during the early 'free for all' era with no government oversight. Distractor 2 is incorrect because while many people doubted the commercial value of small early airplanes, the airline's success disproved this. Distractor 3 is incorrect because the airline operated for only 4 months (winter season) yet still demonstrated viability.",
+      "reference": {
+        "page": "1-3",
+        "text": "The age of flight had arrived.         per person or $5.00 per 100 pounds of cargo. Shortly after the\n                                                                   opening of the line, Benoist added a new airboat that afforded\nHistory of the Federal Aviation                                    more protection from spray during takeoff and landing.\nAdministration (FAA)                                               The routes were also extended to Manatee, Bradenton, and\nDuring the early years of manned flight, aviation was a            Sarasota giving further credence to the idea of a profitable\nfree for all because no government body was in place to            commercial airline.\nestablish policies or regulate and enforce safety standards.\nIndividuals were free to conduct flights and operate aircraft      The St. Petersburg-Tampa Airboat Line continued throughout\nwith no government oversight. Most of the early flights were       the winter months with flights finally being suspended when\nconducted for sport. Aviation was expensive and became the         the winter tourist industry began to dry up. The airline\nplayground of the wealthy. Since these early airplanes were        operated for only 4 months, but 1,205 passengers were\nsmall, many people doubted their commercial value. One             carried without injury. This experiment proved commercial\ngroup of individuals believed otherwise and they became            passenger airline travel was viable.\nthe genesis for modern airline travel.\n                                                                   The advent of World War I offered the airplane a chance\nP. E. Fansler, a Florida businessman living in St. Petersburg,     to demonstrate its varied capabilities. It began the war as a\napproached Tom Benoist of the Benoist Aircraft Company             reconnaissance platform, but by 1918, airplanes were being\nin St. Louis, Missouri, about starting a flight route from St. 1-3"
+      }
+    },
+    {
+      "section": "Chicago                    Rawlins               San Francisco",
+      "difficulty": 2,
+      "categories": [
+        "general_knowledge"
+      ],
+      "question": "Why was the U.S. Postal Service initially unable to launch airmail service despite strong interest from aviation advocates?",
+      "correct_answer": "The war prevented the Postal Service from obtaining airplanes, as available aircraft were being used for military purposes.",
+      "distractors": [
+        "The Postal Service lacked pilots with sufficient cross-country flying experience to carry mail reliably.",
+        "Congress had not yet authorized legislation permitting the Postal Service to operate aircraft.",
+        "Aircraft manufacturers were unwilling to produce planes that were not designed for combat roles."
+      ],
+      "explanation": "According to the PHAK Chapter 1, while aviation advocates sought ways to use airplanes and airmail service was a popular idea, 'the war prevented the Postal Service from having access to airplanes.' The War Department and Postal Service later reached an agreement to address this, but the core issue was that the war effort consumed available aircraft, not a lack of qualified pilots, missing legislation, or manufacturer reluctance.",
+      "reference": {
+        "page": "1-4",
+        "text": "mass produced to serve as fighters, bombers, trainers, as well           1                           6                     11\nas reconnaissance platforms.                                             2\n                                                                             Bellefonte\n                                                                                                     7\n                                                                                                        Omaha\n                                                                                                                           12\n                                                                         3                            8                    13\nAviation advocates continued to look for ways to use\n                                                                         4                            9                    14\n                                                                         5                           10                    15\nairplanes. Airmail service was a popular idea, but the\nwar prevented the Postal Service from having access to\nairplanes. The War Department and Postal Service reached an                       13\n                                                                                       12\n                                                                                            11 10                 6\n                                                                                                                       5   4\n                                                                                                                                3   2\n                                                                                                                                        1 14                  9            7"
+      }
+    },
+    {
+      "section": "Chicago                    Rawlins               San Francisco",
+      "difficulty": 2,
+      "categories": [
+        "general_knowledge"
+      ],
+      "question": "What obstacle initially prevented the U.S. Postal Service from launching airmail service, and how was this overcome?",
+      "correct_answer": "World War I prevented the Postal Service from accessing airplanes, but an agreement with the War Department made military aircraft available for airmail.",
+      "distractors": [
+        "A lack of federal funding delayed airmail until the Department of Commerce provided grants to purchase aircraft.",
+        "A shortage of qualified pilots forced the Postal Service to contract with civilian flight schools before operations could begin.",
+        "Regulatory restrictions barred the Postal Service from operating aircraft until Congress passed enabling legislation.",
+        "The Postal Service lacked suitable aircraft, but purchased surplus Navy seaplanes after the war ended."
+      ],
+      "explanation": "According to the Pilot's Handbook of Aeronautical Knowledge (PHAK) Chapter 1, aviation advocates sought ways to use airplanes, and airmail service was a popular idea. However, World War I prevented the Postal Service from having access to airplanes. This obstacle was overcome when the War Department and the U.S. Postal Service reached an agreement to use airplanes for airmail service.",
+      "reference": {
+        "page": "1-4",
+        "text": "mass produced to serve as fighters, bombers, trainers, as well           1                           6                     11\nas reconnaissance platforms.                                             2\n                                                                             Bellefonte\n                                                                                                     7\n                                                                                                        Omaha\n                                                                                                                           12\n                                                                         3                            8                    13\nAviation advocates continued to look for ways to use\n                                                                         4                            9                    14\n                                                                         5                           10                    15\nairplanes. Airmail service was a popular idea, but the\nwar prevented the Postal Service from having access to\nairplanes. The War Department and Postal Service reached an                       13\n                                                                                       12\n                                                                                            11 10                 6\n                                                                                                                       5   4\n                                                                                                                                3   2\n                                                                                                                                        1 14                  9            7"
+      }
+    },
+    {
+      "section": "On May 20, 1926, Congress passed the Air Commerce Act,",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "After the United States Postal Service took control of airmail routes in 1918, routes continued to expand until the Transcontinental Mail Route was inaugurated. What best describes the scale of this route?",
+      "correct_answer": "San Francisco to New York, covering 2,612 miles with 13 intermediate stops",
+      "distractors": [
+        "New York to Washington, DC, covering 2,612 miles with 13 intermediate stops",
+        "San Francisco to New York, covering 1,865 miles with 24 intermediate stops",
+        "Chicago to Los Angeles, covering 2,612 miles with 13 intermediate stops"
+      ],
+      "explanation": "According to PHAK Chapter 1, the Transcontinental Mail Route spanned from San Francisco to New York for a total distance of 2,612 miles with 13 intermediate stops along the way. The first distractor confuses this with the first airmail flight between New York and Washington, DC on May 15, 1918. The second distractor uses incorrect distance and stop count figures. The third distractor identifies incorrect endpoint cities.",
+      "reference": {
+        "page": "1-4",
+        "text": "train its pilots in flying cross-country. The first airmail flight\nwas conducted on May 15, 1918, between New York and\nWashington, DC. The flight was not considered spectacular;\nthe pilot became lost and landed at the wrong airfield. In\nAugust of 1918, the United States Postal Service took control\nof the airmail routes and brought the existing Army airmail\npilots and their planes into the program as postal employees.\nAirmail routes continued to expand until the Transcontinental\nMail Route was inaugurated. [Figure 1-5] This route spanned          Department of Commerce made significant advances in\nfrom San Francisco to New York for a total distance of 2,612         aviation communications, including the introduction of radio\nmiles with 13 intermediate stops along the way. [Figure 1-6]         beacons as an effective means of navigation.\nwhich served as the cornerstone for aviation within the              Built at intervals of approximately 10 miles apart, the\nUnited States. This legislation was supported by leaders in          standard beacon tower was 51 feet high, and was topped\nthe aviation industry who felt that the airplane could not           with a powerful rotating light. Below the rotating light, two\nreach its full potential without assistance from the Federal         course lights pointed forward and back along the airway. The\nGovernment in improving safety.                                      course lights flashed a code to identify the beacon’s number.\n                                                                     The tower usually stood in the center of a concrete arrow\nThe Air Commerce Act charged the Secretary of Commerce               70 feet long."
+      }
+    }
+  ]
+}

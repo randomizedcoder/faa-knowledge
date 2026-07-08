@@ -1,0 +1,363 @@
+{
+  "source": "AFH",
+  "chapter": 7,
+  "questions": [
+    {
+      "section": "Drift and Ground Track Control",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "An airplane flying at 90 knots in a 10-knot crosswind drifts laterally 10 nautical miles per hour. If the pilot doubles airspeed to 180 knots while remaining in the same 10-knot crosswind, what happens to the airplane's lateral drift rate?",
+      "correct_answer": "It remains 10 nautical miles per hour",
+      "distractors": [
+        "It is reduced to 5 nautical miles per hour",
+        "It increases to 20 nautical miles per hour",
+        "It is reduced to 10 nautical miles every two hours"
+      ],
+      "explanation": "According to AFH Chapter 7, the lateral drift in nautical miles per hour is determined by the crosswind component, not the airplane's speed through the air mass. The handbook explicitly states that if an airplane doubles its speed from 90 to 180 knots in the same 10-knot crosswind, it still drifts laterally 10 nautical miles every hour. While the drift angle (the angular displacement from the intended track) decreases with higher speed, the raw lateral drift rate in NM/hour does not change because the wind continues to push the air mass—and the airplane within it—at the same 10 knots. This is why pilots must always compensate for wind drift regardless of their cruise speed.",
+      "reference": {
+        "page": "7-2",
+        "text": "For example, an airplane is traveling at 90 knots (90 nautical miles per hour) and the wind is blowing from right to left at 10 knots.\nThe airplane continues forward at 90 knots but also travels left 10 nautical miles for every hour of flight time. If the airplane, in this\nexample doubles its speed to 180 knots, it still drifts laterally to the left 10 nautical miles every hour. Unless in still air, traveling to a\npoint on the surface requires compensation for the movement of the air mass."
+      }
+    },
+    {
+      "section": "Drift and Ground Track Control",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "An airplane is flying at 90 knots in a 10-knot crosswind, drifting laterally at 10 nautical miles per hour. If the pilot increases airspeed to 180 knots while the wind remains unchanged, what is the new lateral drift rate?",
+      "correct_answer": "10 nautical miles per hour",
+      "distractors": [
+        "20 nautical miles per hour, because the faster airspeed increases the rate of drift",
+        "5 nautical miles per hour, because the faster airspeed reduces the time the airplane is exposed to the wind",
+        "Zero, because the increased airspeed overcomes the crosswind effect"
+      ],
+      "explanation": "According to AFH Chapter 7, the lateral drift rate in nautical miles per hour is determined by the wind speed, not the airplane's airspeed. The handbook's example states that if an airplane traveling at 90 knots in a 10-knot crosswind doubles its speed to 180 knots, it still drifts laterally 10 nautical miles every hour. While doubling airspeed reduces the drift angle and the total lateral displacement over a given distance traveled, the drift rate per hour remains equal to the wind speed.",
+      "reference": {
+        "page": "7-2",
+        "text": "For example, an airplane is traveling at 90 knots (90 nautical miles per hour) and the wind is blowing from right to left at 10 knots.\nThe airplane continues forward at 90 knots but also travels left 10 nautical miles for every hour of flight time. If the airplane, in this\nexample doubles its speed to 180 knots, it still drifts laterally to the left 10 nautical miles every hour. Unless in still air, traveling to a\npoint on the surface requires compensation for the movement of the air mass."
+      }
+    },
+    {
+      "section": "Constant Radius During Turning Flight",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "A pilot is maintaining a constant radius turn over the ground on a windy day. At the upwind point of the turn, the bank angle should be shallower than at the downwind point. What is the primary reason for this?",
+      "correct_answer": "Groundspeed is lower at the upwind point.",
+      "distractors": [
+        "Groundspeed is higher at the upwind point.",
+        "True airspeed is lower at the upwind point.",
+        "The radius of turn in the air is larger at the upwind point."
+      ],
+      "explanation": "According to the Airplane Flying Handbook, to maintain a constant radius turn over the ground, the bank angle used is proportional to groundspeed. At the upwind point of the turn, the airplane's groundspeed is lower than at the downwind point. Therefore, the pilot must use a shallower bank angle to maintain the same turn radius over the ground.",
+      "reference": {
+        "page": "7-4",
+        "text": "For a given true airspeed, the radius of turn in the air varies proportionally with the bank angle. To maintain a constant radius over the\nground, the bank angle used is proportional to groundspeed. For example, an airplane is in the downwind position at 100 knots\ngroundspeed. In this example, the wind is 10 knots, meaning that the airplane has an airspeed of 90 knots (for this discussion, assume\ntrue, calibrated, and indicated airspeed are all the same). If the pilot starts a turn using a 45° bank angle, the turn radius over the\nground at that moment is approximately 890 feet. As the airplane turns, the groundspeed decreases and the bank angle needs to be\nreduced in order to maintain the same turn radius of 890 feet over the ground. At the upwind point of the turn, the bank angle should\nbe approximately 33°. In another example, if the downwind is flown at an airspeed of 90 knots in a 10 knot tailwind with a desired\nturn radius of 2,000 feet, the bank angle would be approximately 24°. The bank angle flying upwind would be approximately 16°."
+      }
+    },
+    {
+      "section": "Constant Radius During Turning Flight",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "A pilot performs a 360° turn holding a constant bank angle in windy conditions. How does wind affect the airplane's flight path?",
+      "correct_answer": "The airplane's path through the airmass is circular, but its path over the ground is not circular.",
+      "distractors": [
+        "The airplane's path through the airmass becomes non-circular, requiring bank adjustments to maintain a circular ground track.",
+        "Both the path through the airmass and the path over the ground remain circular, but the ground track is simply shifted downwind.",
+        "The ground track remains circular but with a larger radius than the path through the airmass due to wind drift."
+      ],
+      "explanation": "According to AFH Chapter 7, when a pilot holds a constant bank angle through a 360° turn in wind, the airplane flies a perfect continuous radius through the air. However, wind causes the airplane to drift, meaning the path over the ground is not circular. The handbook demonstrates this using ground references parallel to and across the wind—in both cases the ground track is distorted by wind even though the turn through the airmass is perfectly circular.",
+      "reference": {
+        "page": "7-4",
+        "text": "To demonstrate the effect that wind has on turns, the pilot should select a straight-line ground reference, such as a road or railroad\ntrack. [Figure 7-3] Choosing a straight-line ground reference that is parallel to the wind, the airplane would be flown into the wind\nand directly over the selected straight-line ground reference. Once a straight-line ground reference is established, the pilot makes a\n360° constant medium-banked turn. As the airplane completes the 360° turn, it should return directly over the straight-line ground\nreference but downwind from the starting point. Choosing a straight-line ground reference that has a crosswind, and using the same\n360° constant medium-banked turn, demonstrates how the airplane drifts away from the reference even as the pilot holds a constant\nbank angle. In both examples, the path over the ground is not circular, although in reference to the air, the airplane flew a perfect\ncontinuous radius. 7-4"
+      }
+    },
+    {
+      "section": "Constant Radius During Turning Flight",
+      "difficulty": 3,
+      "categories": [
+        "checkride_oral"
+      ],
+      "question": "A pilot is flying a turn to maintain a constant radius track over the ground in windy conditions. As the airplane transitions from upwind to downwind, how should the pilot adjust the bank angle?",
+      "correct_answer": "Increase the bank angle as groundspeed increases",
+      "distractors": [
+        "Decrease the bank angle as groundspeed increases",
+        "Maintain a constant bank angle and adjust airspeed instead",
+        "Increase the bank angle as groundspeed decreases"
+      ],
+      "explanation": "According to AFH Chapter 7, to maintain a constant radius track over the ground in wind, the pilot adjusts bank angle as groundspeed changes throughout the turn. Where groundspeed is fastest, such as when headed downwind, the bank angle should be steepest. Where groundspeed is slowest, such as when headed upwind, the bank angle should be shallow. Increasing or decreasing the angle of bank changes the rate of turn, which is how the pilot compensates for wind drift and achieves the desired constant radius over the ground.",
+      "reference": {
+        "page": "7-5",
+        "text": "In order to compensate for the effects of wind drift, the pilot adjusts the bank angle as the groundspeed changes throughout the turn.\nWhere groundspeed is the fastest, such as when the airplane is headed downwind, the bank angle should be steepest. Where\ngroundspeed is the slowest, such as when the airplane is headed upwind, the bank angle should be shallow. It is necessary to increase\nor decrease the angle of bank, which increases or decreases the rate of turn, to achieve the desired constant radius track over the\nground."
+      }
+    },
+    {
+      "section": "Rectangular Course",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "During a rectangular course, why should a pilot avoid flying too close to the ground references, particularly when transitioning from downwind to crosswind?",
+      "correct_answer": "The required steep bank angles increase aerodynamic load factor and the airplane's stall speed",
+      "distractors": [
+        "The smaller turn radius causes the airplane to exceed its maneuvering speed",
+        "The proximity to the references makes them difficult to observe from either pilot seat",
+        "The increased groundspeed requires excessive rudder pressure to maintain coordination"
+      ],
+      "explanation": "According to AFH Chapter 7, flying close to ground references during a rectangular course forces the pilot to use very steep bank angles. This increases aerodynamic load factor and the airplane's stall speed, which is especially hazardous during the downwind to crosswind turn where groundspeed is highest. The recommended distance is one-half to three-fourths of a mile from the field boundaries. The distractors are incorrect because: maneuvering speed is not the stated concern; the text notes references are actually easier to observe when flown at proper distance outside the boundaries; and rudder pressure is not the identified issue.",
+      "reference": {
+        "page": "7-5",
+        "text": "To fly the rectangular course, the pilot should first locate a square field, a rectangular field, or an area with suitable ground references\non all four sides. Note that a square meets the definition of a rectangle. As previously mentioned, this area should be selected\nconsistent with safe practices. The airplane should be flown parallel to and at an equal distance between one-half to three-fourths of a\nmile away from the field boundaries or selected ground references. The flightpath should be positioned outside the field boundaries or\nselected ground references so that the references may be easily observed from either pilot seat. It is not practical to fly directly above\nthe field boundaries or selected ground references. The pilot should avoid flying close to the references, as this will require the pilot\nto turn using very steep bank angles, thereby increasing aerodynamic load factor and the airplane’s stall speed, especially in the\ndownwind to crosswind turn. 7-5"
+      }
+    },
+    {
+      "section": "Rectangular Course",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "When flying a rectangular course, what wind change occurs during the turn from the downwind leg to the base leg that requires the pilot to turn more than 90° and angle toward the inside of the course?",
+      "correct_answer": "The tailwind lessens and becomes a crosswind, causing lateral drift that must be compensated for",
+      "distractors": [
+        "The increased groundspeed on downwind causes the airplane to overshoot the turn if exactly 90° is used",
+        "The steep bank angle used in the turn creates momentum that naturally carries the airplane past 90°",
+        "A headwind develops on the base leg, pushing the airplane toward the outside of the rectangular course"
+      ],
+      "explanation": "According to AFH Chapter 7, during the turn from downwind to base leg, the tailwind lessens and becomes a crosswind. This crosswind creates lateral drift, and the pilot must compensate by turning more than 90° angling toward the inside of the rectangular course. The other options are incorrect: the overshoot is not caused by groundspeed alone, the turn past 90° is a deliberate compensation rather than momentum from bank angle, and the wind on base leg is a crosswind, not a headwind.",
+      "reference": {
+        "page": "7-6",
+        "text": "The entry into the maneuver should be accomplished downwind. This places the wind on the tail of the airplane and results in an\nincreased groundspeed. There should be no wind correction angle if the wind is directly on the tail of the airplane; however, a real-\nworld situation often results in some drift correction. The turn from the downwind leg onto the base leg is entered with a relatively\nsteep bank angle. The pilot should roll the airplane into a steep bank with rapid, but not excessive, coordinated aileron and rudder\npressures. As the airplane turns onto the following base leg, the tailwind lessens and becomes a crosswind; the bank angle is reduced\ngradually with coordinated aileron and rudder pressures. The pilot should be prepared for the lateral drift and compensate by turning\nmore than 90° angling toward the inside of the rectangular course."
+      }
+    },
+    {
+      "section": "Rectangular Course",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "During a rectangular course flown in wind, why is the turn from the base leg to the upwind leg less than 90°?",
+      "correct_answer": "Because the airplane is already angled into the wind on the base leg to maintain ground track",
+      "distractors": [
+        "Because the headwind encountered on the upwind leg decreases groundspeed and reduces the turn radius",
+        "Because the wind transitions from a headwind to a crosswind during the turn, requiring less heading change",
+        "Because a steeper bank angle is needed on the upwind leg to compensate for drift, shortening the turn"
+      ],
+      "explanation": "According to AFH Chapter 7, on the base leg the pilot must angle the airplane into the wind to maintain a proper ground track parallel to the field. Since the airplane's heading is already partially turned toward the upwind leg to crab against the wind, less than 90° of turn is required to align with the upwind leg. The distractors are incorrect because: (1) groundspeed does not determine the angular change needed, (2) the wind transitions from crosswind to headwind—not the reverse, and (3) the bank angle is actually reduced, not increased, as the airplane turns onto the upwind leg.",
+      "reference": {
+        "page": "7-6",
+        "text": "The next leg is where the airplane turns from a base leg position to the upwind leg. Ideally, on the upwind, the wind is directly on the\nnose of the airplane resulting in a direct headwind and decreased groundspeed; however, some drift correction may be necessary. The\npilot should roll the airplane into a medium-banked turn with coordinated aileron and rudder pressures. As the airplane turns onto the\nupwind leg, the crosswind lessens and becomes a headwind, and the bank angle is gradually reduced with coordinated aileron and\nrudder pressures. Because the pilot was angled into the wind on the base leg, the turn to the upwind leg is less than 90°."
+      }
+    },
+    {
+      "section": "Rectangular Course",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "When flying a rectangular course with a crosswind, why is the turn from the upwind leg to the crosswind leg less than 90°?",
+      "correct_answer": "The airplane must be established at an angle into the wind, toward the outside of the course, to compensate for crosswind drift",
+      "distractors": [
+        "The crosswind naturally drifts the airplane toward the inside of the course, reducing the required turn angle",
+        "The shallow bank angle used for the turn prevents the airplane from achieving a full 90° heading change",
+        "The headwind gradually lessens during the turn, which naturally reduces the turn angle needed"
+      ],
+      "explanation": "According to AFH Chapter 7, when turning from upwind to crosswind leg on a rectangular course with a crosswind, the pilot rolls into a shallow-banked turn. As the turn nears completion, the pilot reduces the bank angle and maintains an angle into the wind, toward the outside of the rectangular course, to compensate for the crosswind. This crab angle into the wind is what requires the turn to be less than 90°. The crosswind drifting the airplane toward the inside is the problem being corrected, not the cause of the reduced turn angle. The shallow bank and lessening headwind are conditions during the turn, not the reason for the less-than-90° heading change.",
+      "reference": {
+        "page": "7-6",
+        "text": "The next leg is where the airplane turns from an upwind leg position to the crosswind leg. The pilot should slowly roll the airplane\ninto a shallow-banked turn, as the developing crosswind drifts the airplane into the inside of the rectangular course with coordinated\naileron and rudder pressures. As the airplane turns onto the crosswind leg, the headwind lessens and becomes a crosswind. As the turn\nnears completion, the bank angle is reduced with coordinated aileron and rudder pressures. To compensate for the crosswind, the\npilot maintains an angle into the wind, toward the outside of the rectangular course, which requires the turn to be less than 90°."
+      }
+    },
+    {
+      "section": "Rectangular Course",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "A pilot is practicing a rectangular course when the wind is from a direction that could drift the airplane into the course during a turn. How should the pilot adjust the banking roll rate, and why?",
+      "correct_answer": "Use a slow banking roll rate to prevent drifting inside the course",
+      "distractors": [
+        "Use a quick banking roll rate to establish the turn before the wind drifts the airplane inward",
+        "Use a banking roll rate proportional to the changing groundspeed throughout the turn",
+        "Use a constant banking roll rate since wind direction only affects bank angle, not roll rate"
+      ],
+      "explanation": "The Airplane Flying Handbook states that the rate for rolling in and out of turns should be adjusted to prevent drifting in or out of the course. When wind could drift the airplane into the course, a slow banking roll rate should be used; conversely, when wind could drift the airplane to the outside, a quick roll rate is appropriate. Distractor 1 is incorrect because it applies the opposite guidance—quick roll rates are for outward drift situations. Distractor 2 incorrectly conflates roll rate with bank angle; groundspeed determines the bank angle needed, not the roll rate. Distractor 3 is incorrect because the handbook explicitly states that wind direction does affect the banking roll rate.",
+      "reference": {
+        "page": "7-7",
+        "text": "For the maneuver to be executed properly, the pilot should visually utilize the ground-based, nose, and wingtip references to properly\nposition the airplane in attitude and in orientation to the rectangular course. In order to maintain a constant ground-based radius\nduring the turns, each turn requires the bank angle to be adjusted to compensate for the changing groundspeed—the higher the\ngroundspeed, the steeper the bank. If the groundspeed is initially higher and then decreases throughout the turn, the bank angle should\nprogressively decrease throughout the turn. The converse is also true, if the groundspeed is initially slower and then increases\nthroughout the turn, the bank angle should progressively increase throughout the turn until rollout is started. Also, the rate for rolling\nin and out of the turn should be adjusted to prevent drifting in or out of the course. When the wind is from a direction that could drift\nthe airplane into the course, the banking roll rate should be slow. When the wind is from a direction that could drift the airplane to the\noutside of the course, the banking roll rate should be quick."
+      }
+    },
+    {
+      "section": "Turns Around a Point",
+      "difficulty": 3,
+      "categories": [
+        "checkride_oral"
+      ],
+      "question": "While practicing turns around a point in a high-wing airplane, you notice that the lowered wing consistently blocks your view of the ground reference point during the maneuver. According to the Airplane Flying Handbook, what action(s) can you take to ensure the reference point remains visible at all times?",
+      "correct_answer": "Change the maneuvering altitude or the desired turn radius",
+      "distractors": [
+        "Increase airspeed to reduce the bank angle required for the turn",
+        "Switch to a right turn so the lowered wing is on the opposite side of the cockpit",
+        "Use opposite rudder to yaw the nose toward the reference point for better visibility"
+      ],
+      "explanation": "The Airplane Flying Handbook (Chapter 7, Turns Around a Point) states that in a high-wing airplane, the lowered wing may block the view of the ground reference point, especially in side-by-side seating during a left turn. To prevent this, the pilot may need to change the maneuvering altitude or the desired turn radius. Increasing airspeed, switching turn direction, or using rudder are not recommended solutions and could compromise the proper execution of the maneuver. The key is adjusting altitude or turn radius so the reference point remains visible throughout the maneuver.",
+      "reference": {
+        "page": "7-8",
+        "text": "When performing a turn around a point, the pilot should select a prominent, ground-based reference that is easily distinguishable yet\nsmall enough to present a precise reference. The pilot should enter the maneuver downwind, where the groundspeed is at its fastest, at\nthe appropriate radius of turn and distance from the selected ground-based reference point. In a high-wing airplane, the lowered wing\nmay block the view of the ground reference point, especially in airplanes with side-by-side seating during a left turn (assuming that\nthe pilot is flying from the left seat). To prevent this, the pilot may need to change the maneuvering altitude or the desired turn radius.\nThe pilot should ensure that the reference point is visible at all times throughout the maneuver, even with the wing lowered in a bank."
+      }
+    },
+    {
+      "section": "Turns Around a Point",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "During a turn around a point with a crosswind requiring a 10° wind correction angle, what is the relationship between the airplane's heading and its ground track position when the airplane is directly over the 90° crosswind position?",
+      "correct_answer": "The heading is 10° ahead of the ground reference point, meaning the airplane has turned 100° in the air while tracking only 90° over the ground",
+      "distractors": [
+        "The heading is 10° behind the ground reference point, meaning the airplane has turned only 80° in the air while tracking 90° over the ground",
+        "The heading is aligned with the ground reference point, meaning the airplane has turned exactly 90° in both the air and over the ground",
+        "The heading is 20° ahead of the ground reference point, meaning the airplane has turned 110° in the air while tracking only 90° over the ground"
+      ],
+      "explanation": "According to AFH Chapter 7, when turning around a point with a crosswind requiring a 10° wind correction angle, the airplane's heading is 10° ahead of the ground reference point when directly over the 90° crosswind position. This illustrates the key concept that the number of degrees the airplane turns in the air differs from the number of degrees it turns over the ground. The first 90° of ground track requires a 100° heading change, while the last 90° of ground track requires only an 80° heading change. This difference is due to the wind correction angle that must be maintained throughout the maneuver.",
+      "reference": {
+        "page": "7-10",
+        "text": "Controlling the wind correction angle during a turn can be complex to understand. The concept may be understood by comprehending\nthe difference between the number of degrees that the airplane has turned over the ground versus the number of degrees that the\nairplane has turned in the air. As an example, assume the airplane is exactly crosswind, meaning directly at a point that is 90° to the\nstraight-lined ground reference. In this example, if the wind requires a 10° wind correction angle (for this example, this is a left turn\nwith the crosswind from the left), the airplane would be at a heading that is 10° ahead when directly over the 90° ground reference\npoint. In other words, the first 90° track over the ground would result in a heading change of 100° and the last 90° track over the\nground would result in 80° of heading change."
+      }
+    },
+    {
+      "section": "Turns Around a Point",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "During a turn around a point requiring a 10° wind correction angle, how many degrees of heading change are needed to complete the first 90° of ground track?",
+      "correct_answer": "100°",
+      "distractors": [
+        "90°",
+        "80°",
+        "110°"
+      ],
+      "explanation": "According to the AFH, when a 10° wind correction angle is required, the airplane is headed 10° ahead when directly over the 90° ground reference point. This means the first 90° of ground track requires 100° of heading change (90° + 10°). The 90° answer would only be correct with no wind. The 80° figure actually represents the heading change for the last 90° of ground track, where the wind correction angle works in the opposite direction. The 110° answer incorrectly doubles the wind correction angle rather than adding it once.",
+      "reference": {
+        "page": "7-10",
+        "text": "Controlling the wind correction angle during a turn can be complex to understand. The concept may be understood by comprehending\nthe difference between the number of degrees that the airplane has turned over the ground versus the number of degrees that the\nairplane has turned in the air. As an example, assume the airplane is exactly crosswind, meaning directly at a point that is 90° to the\nstraight-lined ground reference. In this example, if the wind requires a 10° wind correction angle (for this example, this is a left turn\nwith the crosswind from the left), the airplane would be at a heading that is 10° ahead when directly over the 90° ground reference\npoint. In other words, the first 90° track over the ground would result in a heading change of 100° and the last 90° track over the\nground would result in 80° of heading change."
+      }
+    },
+    {
+      "section": "Eights Along a Road",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "During the turn from downwind to crosswind in eights along a road, a pilot must adjust the bank angle as groundspeed decreases. How is the total reduction in groundspeed distributed throughout this turn, and what does this imply about the rate of bank angle reduction?",
+      "correct_answer": "One-half of the groundspeed reduction occurs in the first two-thirds of the turn, so the bank must be reduced more slowly at first and more rapidly near the end",
+      "distractors": [
+        "The groundspeed decreases at a constant rate throughout the turn, requiring a steady, uniform reduction in bank angle",
+        "One-half of the groundspeed reduction occurs in the first one-third of the turn, so the bank must be reduced rapidly at first and then more slowly",
+        "Two-thirds of the groundspeed reduction occurs in the first one-half of the turn, requiring an aggressive initial bank reduction that gradually levels off"
+      ],
+      "explanation": "According to AFH Chapter 7, when performing eights along a road, the airplane's groundspeed decreases as it turns from downwind to crosswind. However, this decrease is not linear—one-half of the total reduction in groundspeed occurs during the first two-thirds of the turn. This means the groundspeed decreases slowly at first and then more rapidly in the final third of the turn. Because the bank angle must be reduced in proportion to the decreasing groundspeed, the pilot should reduce the bank gradually at first and more aggressively near the end of the turn.",
+      "reference": {
+        "page": "7-11",
+        "text": "The following description is illustrated in Figure 7-7. The airplane is initially in a crosswind position, perpendicular to the wind, and\nover the ground-based reference. The first turn should be to the right toward a downwind position starting with a steepening bank.\nWhen the entry is made into the turn, it requires that the turn begin with a medium bank and gradually steepen to its maximum bank\nangle when the airplane is directly downwind. As the airplane turns from downwind to crosswind, the bank angle needs to be\ngradually reduced since groundspeed is decreasing; however, 1/2 of the reduction in groundspeed occurs during the first 2/3 of the\nturn from downwind to crosswind."
+      }
+    },
+    {
+      "section": "Eights Along a Road",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "During Eights Along a Road, if the pilot fails to reduce the bank angle as the airplane turns toward the upwind side, what is the likely result?",
+      "correct_answer": "The rate of turn will be too fast, causing the airplane to complete the turn before returning to the ground reference.",
+      "distractors": [
+        "The rate of turn will be too slow, causing the airplane to drift downwind past the ground reference.",
+        "The airplane's groundspeed will increase, requiring a steeper bank to maintain the proper track.",
+        "The airplane will turn too slowly and cross the road at a perpendicular angle."
+      ],
+      "explanation": "According to the Airplane Flying Handbook, as the turn continues toward the upwind side, the airplane's groundspeed decreases. This requires the pilot to reduce the bank angle to slow the rate of turn. If the pilot maintains a steeper-than-required bank angle, the rate of turn will be too fast, causing the airplane to complete the turn prematurely before it has had time to return to the ground reference.",
+      "reference": {
+        "page": "7-11",
+        "text": "As the turn is continued toward the upwind, the airplane’s groundspeed is decreasing, which requires the pilot to reduce the bank\nangle to slow the rate of turn. If the pilot does not reduce the bank angle, the continued high rate of turn would cause the turn to be\ncompleted prematurely. Another way to explain this effect is—the wind is drifting the airplane downwind at the same time its\ngroundspeed is slowing. If the airplane has a steeper-than-required bank angle, its rate of turn will be too fast and the airplane will\ncomplete the turn before it has had time to return to the ground reference. 7-11"
+      }
+    },
+    {
+      "section": "Eights Along a Road",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "In Eights Along a Road, what requires the pilot to increase the bank angle during the second 90° of the upwind turn (90° to 180°)?",
+      "correct_answer": "The airplane's groundspeed is increasing, which necessitates a steeper bank to maintain a constant radius.",
+      "distractors": [
+        "The airplane's groundspeed is decreasing, which necessitates a steeper bank to maintain a constant radius.",
+        "The airplane's groundspeed is increasing, which necessitates a shallower bank to establish wind correction.",
+        "The airplane's groundspeed is decreasing, which necessitates a shallower bank to establish a constant radius."
+      ],
+      "explanation": "According to the Airplane Flying Handbook, during the second 90° of the upwind turn in Eights Along a Road, the airplane's groundspeed is increasing. To maintain a constant radius and establish the proper wind correction angle, the pilot must increase the bank angle. A decreasing groundspeed (which requires a shallower bank) occurs during the first 90° of the upwind turn, not the second.",
+      "reference": {
+        "page": "7-12",
+        "text": "After momentarily flying straight-and-level with the established wind correction, along the ground reference, the pilot should roll the\nairplane into a medium bank-turn in the opposite direction to begin the 360° turn on the upwind side of the ground reference. The\nwind will decrease the airplane’s groundspeed and drift the airplane back toward the ground reference; therefore, the pilot should\ndecrease the bank slowly during the first 90° of the upwind turn in order to establish a constant radius. During the next 90° of turn,\nthe pilot should increase the bank angle, since the groundspeed is increasing, to maintain a constant radius and establish the proper\nwind correction angle before reaching the 180° upwind position."
+      }
+    },
+    {
+      "section": "Eights Along a Road",
+      "difficulty": 3,
+      "categories": [
+        "checkride_oral"
+      ],
+      "question": "In Eights Along a Road, why should the pilot increase the bank angle during the second 90° of the upwind turn?",
+      "correct_answer": "The airplane's groundspeed is increasing, so a steeper bank is needed to maintain a constant radius and establish the proper wind correction angle",
+      "distractors": [
+        "The airplane's groundspeed is decreasing, so a steeper bank compensates for the reduced turn rate",
+        "The wind is drifting the airplane back toward the ground reference, requiring a steeper bank to maintain track",
+        "The airplane must accelerate the turn rate to align with the road at the 180° position"
+      ],
+      "explanation": "According to the Airplane Flying Handbook, during the second 90° of the upwind turn in Eights Along a Road, the pilot should increase the bank angle because the groundspeed is increasing. This maintains a constant radius and establishes the proper wind correction angle before reaching the 180° upwind position. The first 90° requires decreasing the bank because the wind decreases groundspeed and drifts the airplane toward the reference. Distractor 1 reverses the groundspeed trend. Distractor 2 describes the concern during the first 90°, not the second. Distractor 3 misidentifies the purpose—alignment is a byproduct, but the bank change is driven by groundspeed and radius.",
+      "reference": {
+        "page": "7-12",
+        "text": "After momentarily flying straight-and-level with the established wind correction, along the ground reference, the pilot should roll the\nairplane into a medium bank-turn in the opposite direction to begin the 360° turn on the upwind side of the ground reference. The\nwind will decrease the airplane’s groundspeed and drift the airplane back toward the ground reference; therefore, the pilot should\ndecrease the bank slowly during the first 90° of the upwind turn in order to establish a constant radius. During the next 90° of turn,\nthe pilot should increase the bank angle, since the groundspeed is increasing, to maintain a constant radius and establish the proper\nwind correction angle before reaching the 180° upwind position."
+      }
+    },
+    {
+      "section": "Eights on Pylons",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "While performing Eights on Pylons, a pilot notices the visual reference line on the pylon has stopped moving and then begins to drift forward. What does this indicate, and what corrective action should the pilot take?",
+      "correct_answer": "The aircraft has descended below pivotal altitude; the pilot should climb to restore the reference line to a stationary position on the pylon",
+      "distractors": [
+        "The aircraft has climbed above pivotal altitude; the pilot should descend to restore the reference line to a stationary position on the pylon",
+        "The aircraft is at the correct pivotal altitude but flying too fast; the pilot should reduce airspeed while maintaining altitude",
+        "The aircraft is at the correct pivotal altitude but the bank angle is too steep; the pilot should shallow the bank to re-center the reference line"
+      ],
+      "explanation": "According to AFH Chapter 7, during Eights on Pylons the apparent backward movement of the projected visual reference line slows as altitude is lost and momentarily stops at pivotal altitude. If the pilot continues descending below pivotal altitude, the reference line begins to move forward. This is because pivotal altitude is the altitude at which the visual reference line appears stationary on the pylon for a given groundspeed. Descending below it causes forward movement; climbing above it causes backward movement. The correct response to forward drift is to climb back to pivotal altitude, not adjust airspeed or bank angle.",
+      "reference": {
+        "page": "7-16",
+        "text": "After demonstrating the maneuver at a high altitude, the pilot should reduce power and begin a descent at maneuvering speed in a\ncontinuing medium-bank turn around the pylon. The apparent backward movement of the projected visual reference line with respect\nto the pylon will slow down as altitude is lost and will eventually stop for an instant. If the pilot continues the descent below the\npivotal altitude, the projected visual reference line with respect to the pylon will begin to move forward."
+      }
+    }
+  ]
+}

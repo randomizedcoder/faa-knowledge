@@ -3,160 +3,366 @@
   "chapter": 18,
   "questions": [
     {
-      "section": "Engine Failure After Takeoff",
-      "difficulty": 2,
+      "section": "Types of Emergency Landings",
+      "difficulty": 3,
       "categories": [
         "written_exam",
-        "checkride_oral"
-      ],
-      "question": "If the engine fails immediately after takeoff at low altitude, what is the recommended action?",
-      "correct_answer": "Lower the nose to maintain flying speed and land essentially straight ahead, making only small heading changes to avoid obstacles",
-      "distractors": [
-        "Immediately turn back to the runway",
-        "Attempt to restart the engine before doing anything else",
-        "Pull back on the stick to gain altitude"
-      ],
-      "explanation": "At low altitude after takeoff, there is insufficient altitude/energy to turn back to the runway (the 'impossible turn'). Lower the nose to maintain airspeed and land as straight ahead as practical.",
-      "reference": {
-        "page": "18-7",
-        "text": "When an engine failure occurs during the initial climb, the pilot should lower the nose of the airplane and establish the proper glide attitude. What happens next if the engine does not restart? Does the pilot select a field directly ahead (or slightly to the side of the takeoff path) or should the pilot turn back toward the point of departure? There's not much time to decide and a lot to consider.\n\nContinuing straight ahead or making a slight turn gives the pilot time to establish a safe landing attitude, and the landing occurs under control and as slowly as possible (assuming a takeoff made into a headwind). This minimizes the risk of injury and usually represents the option with the lowest risk—i.e. the safest option. Turning back requires a more complex analysis and consideration of risk. At some urban airports, there may be numerous hazards in the departure path. In that case, the pilot might turn back, but only if certain the airplane can reach the field from its current position and the pilot has trained and practiced the turn back maneuver."
-      }
-    },
-    {
-      "section": "Engine Failure in Flight",
-      "difficulty": 2,
-      "categories": [
-        "written_exam",
-        "checkride_oral"
-      ],
-      "question": "What airspeed should be maintained after an engine failure to maximize glide distance?",
-      "correct_answer": "Best glide speed as specified in the POH",
-      "distractors": [
-        "The fastest possible airspeed to cover more ground",
-        "The slowest possible airspeed to stay aloft longest",
-        "Normal cruise speed"
-      ],
-      "explanation": "Best glide speed (usually close to best L/D speed) maximizes the distance the aircraft can glide. This speed is specified in the POH and changes with weight.",
-      "reference": {
-        "page": "18-5",
-        "text": "Airplane Configuration\nSince flaps improve maneuverability at slow speed, and lower the stalling speed, their use during final approach is recommended when time and circumstances permit. However, the associated increase in drag and decrease in gliding distance call for caution in the timing and the extent of their application; premature use of flap and dissipation of altitude may jeopardize an otherwise sound plan."
-      }
-    },
-    {
-      "section": "Forced Landing",
-      "difficulty": 2,
-      "categories": [
-        "checkride_oral"
-      ],
-      "question": "When selecting a field for an emergency off-airport landing, what factors should be considered?",
-      "correct_answer": "Wind direction, field length, surface condition, obstacles on approach, and proximity to civilization",
-      "distractors": [
-        "Only the field length matters",
-        "Choose the nearest paved road regardless of traffic",
-        "Only the proximity to an airport matters"
-      ],
-      "explanation": "Select a field that is into the wind, long enough, has a firm and smooth surface, has a clear approach path free of obstacles, and is near help if possible. Avoid landing downwind or into obstacles.",
-      "reference": {
-        "page": "18-4",
-        "text": "When the pilot has time to maneuver, the planning of the approach should be governed by the following three factors: ⦁ Wind direction and velocity ⦁ Dimensions and slope of the chosen field ⦁ Obstacles in the final approach path"
-      }
-    },
-    {
-      "section": "Electrical Fire",
-      "difficulty": 2,
-      "categories": [
-        "written_exam",
-        "checkride_oral"
-      ],
-      "question": "What is the initial action if an electrical fire is suspected in flight?",
-      "correct_answer": "Turn off the master switch (electrical), then identify and isolate the faulty circuit",
-      "distractors": [
-        "Open the cabin vents to clear smoke, then continue flight",
-        "Increase power to maintain altitude and declare an emergency",
-        "Turn on all electrical equipment to find the short circuit"
-      ],
-      "explanation": "For electrical fires: master switch OFF, all electrical OFF, cabin vents and heat closed initially (to starve fire). Then troubleshoot by turning on essential items one at a time. Land as soon as practical.",
-      "reference": {
-        "page": "18-9",
-        "text": "Electrical Fires\nThe initial indication of an electrical fire is usually the distinct odor of burning insulation. Once an electrical fire is detected, the pilot should attempt to identify the faulty circuit by checking circuit breakers, instruments, avionics, and lights. If the faulty circuit cannot be readily detected and isolated, and flight conditions permit, the battery master switch and alternator/generator switches should be turned off to remove the possible source of the fire. However, any materials that have been ignited may continue to burn."
-      }
-    },
-    {
-      "section": "Engine Fire on Ground",
-      "difficulty": 2,
-      "categories": [
-        "checkride_oral"
-      ],
-      "question": "If an engine fire occurs during start on the ground, what should the pilot do if the engine starts?",
-      "correct_answer": "Keep the engine running to draw the fire into the engine and away from the airframe, then shut down normally",
-      "distractors": [
-        "Immediately shut down the engine and evacuate",
-        "Add full throttle and attempt to take off",
-        "Apply parking brake and use the fire extinguisher only"
-      ],
-      "explanation": "If the engine starts, running it briefly at higher RPM can draw the fire through the induction system and into the engine. If the engine doesn't start, continue cranking to attempt to draw fuel/fire through. Then shut down and evacuate.",
-      "reference": {
-        "page": "18-9",
-        "text": "If the engine compartment fire is oil-fed, as evidenced by thick black smoke, as opposed to a fuel-fed fire, which produces bright orange flames, the pilot should consider stopping the propeller rotation by feathering or other means, such as (with constant-speed propellers) placing the pitch control lever to the minimum rpm position and raising the nose to reduce airspeed until the propeller stops rotating. This procedure stops an engine-driven oil (or hydraulic) pump from continuing to pump the flammable fluid that is feeding the fire."
-      }
-    },
-    {
-      "section": "Emergency Descent",
-      "difficulty": 2,
-      "categories": [
-        "written_exam",
-        "checkride_oral"
-      ],
-      "question": "When is an emergency descent appropriate?",
-      "correct_answer": "When rapid descent is needed, such as during an in-flight fire or sudden cabin depressurization",
-      "distractors": [
-        "When ATC requests an expedited descent for traffic",
-        "When the pilot wants to practice engine-out procedures",
-        "Only during instrument approaches in IMC"
-      ],
-      "explanation": "Emergency descents are used for in-flight fires (to land quickly), cabin depressurization (to reach breathable air), or other situations requiring an immediate loss of altitude.",
-      "reference": {
-        "page": "18-8",
-        "text": "An emergency descent is a maneuver for descending as rapidly as possible to a lower altitude or to the ground for an emergency landing. [Figure 18-6] The need for this maneuver may result from an uncontrollable fire, a sudden loss of cabin pressurization, or any other situation demanding an immediate and rapid descent."
-      }
-    },
-    {
-      "section": "Lost Procedures",
-      "difficulty": 1,
-      "categories": [
-        "written_exam",
-        "checkride_oral"
-      ],
-      "question": "If a VFR pilot becomes lost, what are the '5 Cs' to follow?",
-      "correct_answer": "Confess, Climb, Communicate, Conserve, Comply",
-      "distractors": [
-        "Check, Circle, Call, Climb, Continue",
-        "Climb, Contact, Circle, Configure, Continue",
-        "Confirm, Compass, Charts, Call, Confess"
-      ],
-      "explanation": "The 5 Cs: Confess (admit you're lost), Climb (better radio/visual range), Communicate (contact ATC for help), Conserve (fuel — reduce to best endurance), Comply (with ATC instructions).",
-      "reference": {
-        "page": "18-17",
-        "text": "Inadvertent VFR Flight Into IMC\nIt is beyond the scope of this handbook to incorporate a course of training in basic attitude instrument flying. This information is contained in the Instrument Flying Handbook (FAA-H-8083-15). Certain pilot certificates and/or associated ratings require training in instrument flying and a demonstration of specific instrument flying tasks on the practical test.\n\nPilots and flight instructors should refer to the Instrument Flying Handbook (FAA-H-8083-15) for guidance in the performance of these tasks and to the appropriate airman certification standards (ACS) for information on the evaluation of tasks performed for the particular certificate level and/or rating. The pilot should remember, however, that unless these tasks are practiced on a continuing and regular basis, skill erosion begins almost immediately. In a very short time, the pilot's assumed level of confidence is much higher than the performance he or she is actually able to demonstrate should the need arise.\n\nAccident statistics show that the pilot who has not been trained in attitude instrument flying, or one whose instrument skills have eroded, lose control of the airplane in about 10 minutes once forced to rely solely on instrument references. The purpose of this section is to provide guidance on practical emergency measures to maintain airplane control for a limited period of time in the event a VFR pilot encounters instrument meteorological conditions (IMC). The main goal is not precision instrument flying; rather, it is to help the VFR pilot keep the airplane under adequate control until suitable visual references are regained.\n\nThe first steps necessary for surviving an encounter with IMC by a VFR pilot are as follows:\n\n    ⦁ Recognition and acceptance of the seriousness of the situation and the need for immediate remedial action\n    ⦁ Maintaining control of the airplane\n    ⦁ Obtaining the appropriate assistance to get the airplane safely on the ground\n\nRecognition\nAnytime a VFR pilot is unable to maintain airplane attitude control by reference to the natural horizon, the condition is considered to be IMC regardless of the circumstances or the prevailing weather conditions. Whether the cause is inadventent or intentional, the VFR pilot is, in effect, in IMC if unable to navigate or establish geographical position by visual reference to landmarks on the surface. These situations should be accepted by the pilot involved as a genuine emergency requiring appropriate action."
-      }
-    },
-    {
-      "section": "Emergency Equipment",
-      "difficulty": 1,
-      "categories": [
+        "checkride_oral",
         "general_knowledge"
       ],
-      "question": "What is the universal emergency frequency?",
-      "correct_answer": "121.5 MHz",
+      "question": "A non-instrument-rated pilot becomes trapped by deteriorating weather conditions. According to the Airplane Flying Handbook, if this pilot does not give any thought to the feasibility of a precautionary landing, what are they effectively accepting?",
+      "correct_answer": "An extremely hazardous alternative",
       "distractors": [
-        "122.8 MHz",
-        "118.0 MHz",
-        "126.7 MHz"
+        "A manageable risk, as weather conditions typically improve over time",
+        "A forced landing, which is generally less hazardous than a precautionary landing",
+        "A standard diversion procedure to another airport"
       ],
-      "explanation": "121.5 MHz is the international emergency frequency, monitored by ATC, military, and many aircraft. It should be used when no other frequency is available in an emergency.",
+      "explanation": "The Airplane Flying Handbook states that a non-instrument-rated pilot trapped by weather who does not consider a precautionary landing accepts an extremely hazardous alternative. The handbook also notes that precautionary landings are generally less hazardous than forced landings because the pilot has more time for terrain selection, can plan the approach, and can use power to compensate for errors. The distractors are wrong for specific reasons: assuming weather will improve is the kind of 'wishful thinking instead of reason' the handbook warns against; a forced landing is actually MORE hazardous than a precautionary landing, not less; and a standard diversion implies the pilot can still maintain control and navigate safely, which contradicts being 'trapped' by weather.",
       "reference": {
-        "page": "18-22",
-        "text": "Once activated, the EAL system transmits automated radio broadcasts on the aircraft's last selected frequency and on Guard (121.5 MHz) to alert controllers or pilots in the area of the EAL aircraft's imminent arrival to the selected runway."
+        "page": "18-1",
+        "text": "A precautionary landing, generally, is less hazardous than a forced landing because the pilot has more time for terrain selection and\nthe planning of the approach. In addition, the pilot can use power to compensate for errors in judgment or technique. The pilot should\nbe aware that too many situations calling for a precautionary landing are allowed to develop into immediate forced landings, when the\npilot uses wishful thinking instead of reason, especially when dealing with a self-inflicted predicament. The non-instrument-rated\npilot trapped by weather, or the pilot facing imminent fuel exhaustion who does not give any thought to the feasibility of a\nprecautionary landing, accepts an extremely hazardous alternative."
+      }
+    },
+    {
+      "section": "Types of Emergency Landings",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral",
+        "general_knowledge"
+      ],
+      "question": "A pilot recognizes that fuel exhaustion is becoming imminent but continues toward the destination, dismissing any thought of a precautionary landing. According to the Airplane Flying Handbook, what makes this decision extremely hazardous?",
+      "correct_answer": "A precautionary landing allows time for terrain selection, approach planning, and use of remaining power to compensate for errors—advantages lost once the engine quits",
+      "distractors": [
+        "A forced landing is generally less hazardous because the pilot has fewer decisions to make under pressure",
+        "A precautionary landing is only recommended for non-instrument-rated pilots trapped by deteriorating weather",
+        "A precautionary landing requires prior coordination with ATC, which wastes critical remaining fuel reserves"
+      ],
+      "explanation": "The Airplane Flying Handbook states that a precautionary landing is generally less hazardous than a forced landing because the pilot has more time for terrain selection and approach planning, and can use power to compensate for errors in judgment or technique. The handbook specifically identifies the pilot facing imminent fuel exhaustion who does not consider a precautionary landing as accepting an extremely hazardous alternative. By waiting until fuel is exhausted, the pilot loses all of these advantages and is left with a forced landing. The handbook also notes that too many precautionary landing situations are allowed to develop into forced landings through wishful thinking instead of reason.",
+      "reference": {
+        "page": "18-1",
+        "text": "A precautionary landing, generally, is less hazardous than a forced landing because the pilot has more time for terrain selection and\nthe planning of the approach. In addition, the pilot can use power to compensate for errors in judgment or technique. The pilot should\nbe aware that too many situations calling for a precautionary landing are allowed to develop into immediate forced landings, when the\npilot uses wishful thinking instead of reason, especially when dealing with a self-inflicted predicament. The non-instrument-rated\npilot trapped by weather, or the pilot facing imminent fuel exhaustion who does not give any thought to the feasibility of a\nprecautionary landing, accepts an extremely hazardous alternative."
+      }
+    },
+    {
+      "section": "Psychological Hazards",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "During an engine failure, a pilot becomes so consumed with desperate attempts to restart the engine that airspeed decays and aircraft control is compromised. According to the Airplane Flying Handbook, this behavior is most characteristic of which psychological hazard?",
+      "correct_answer": "Reluctance to accept the emergency situation",
+      "distractors": [
+        "Overconfidence in the ability to troubleshoot under pressure",
+        "Peer pressure to attempt a resolution rather than accept a forced landing",
+        "Complacency from familiarity with the aircraft systems"
+      ],
+      "explanation": "The AFH states that reluctance to accept the emergency situation can manifest as an unconscious desire to delay the dreaded moment, leading to errors such as failure to lower the nose to maintain flying speed, delay in selecting a landing area, and indecision. Desperate attempts to correct whatever went wrong at the expense of airplane control fall into this same category. The pilot's inability to accept the reality of the emergency causes them to prioritize fixing the problem over maintaining control of the aircraft.",
+      "reference": {
+        "page": "18-1",
+        "text": "⦁ Reluctance to accept the emergency situation—a pilot who allows the mind to become paralyzed at the\n      thought that the airplane will be on the ground in a very short time, regardless of the pilot’s actions or\n      hopes, is severely handicapped in the handling of the emergency. An unconscious desire to delay the\n      dreaded moment may lead to such errors as: failure to lower the nose to maintain flying speed, delay in the\n      selection of the most suitable landing area within reach, and indecision in general. Desperate attempts to\n      correct whatever went wrong at the expense of airplane control fall into the same category."
+      }
+    },
+    {
+      "section": "Psychological Hazards",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral",
+        "general_knowledge"
+      ],
+      "question": "A pilot experiences an engine failure shortly after takeoff. The terrain directly ahead will likely result in substantial aircraft damage, but occupants would likely walk away uninjured. The runway is behind the aircraft, but altitude is insufficient for a 180° turn back. According to the AFH, what psychological hazard might pressure this pilot into attempting the turn back, and what is the proper priority?",
+      "correct_answer": "The desire to save the airplane may pressure the pilot, but the pilot should be willing to sacrifice the airplane so the occupants can safely walk away.",
+      "distractors": [
+        "The fear of bodily harm may pressure the pilot, but the pilot should always attempt to reach the runway since an undamaged airplane guarantees no injuries.",
+        "Financial concerns may pressure the pilot, but the pilot should stretch the glide to reach a more appealing field regardless of minimum control speed.",
+        "Conditioning from training may pressure the pilot, but the pilot should accept an approach with no margin for error to avoid damaging the aircraft."
+      ],
+      "explanation": "The AFH Chapter 18 identifies the 'desire to save the airplane' as a psychological hazard. Pilots conditioned during training to always find a safe landing area may ignore basic rules of airmanship to avoid touchdown in damaging terrain, such as making a 180° turn back with insufficient altitude. The AFH explicitly states that there are times when a pilot should be more interested in sacrificing the airplane so that the occupants can safely walk away from it. The distractors are incorrect because they either misidentify the hazard or suggest hazardous actions the AFH warns against, such as stretching the glide, accepting no margin for error, or assuming an undamaged airplane means no bodily harm.",
+      "reference": {
+        "page": "18-2",
+        "text": "⦁ Desire to save the airplane—the pilot who has been conditioned during training to expect to find a relatively\n      safe landing area, whenever the flight instructor closed the throttle for a simulated forced landing, may\n      ignore all basic rules of airmanship to avoid a touchdown in terrain where airplane damage is unavoidable.\n      Typical consequences are: making a 180° turn back to the runway when available altitude is insufficient;\n      stretching the glide without regard for minimum control speed in order to reach a more appealing field; and\n      accepting an approach and touchdown situation that leaves no margin for error. The desire to save the\n      airplane, regardless of the risks involved, may be influenced by two other factors: the pilot’s financial stake\n      in the airplane and the certainty that an undamaged airplane implies no bodily harm. There are times,\n      however, when a pilot should be more interested in sacrificing the airplane so that the occupants can safely\n      walk away from it."
+      }
+    },
+    {
+      "section": "Psychological Hazards",
+      "difficulty": 3,
+      "categories": [
+        "checkride_oral",
+        "general_knowledge"
+      ],
+      "question": "A private pilot experiences an actual engine failure shortly after takeoff. Despite insufficient altitude, the pilot attempts a 180° turn back to the runway and stalls the aircraft. According to the AFH, which training practice can contribute to this type of poor decision-making in a real emergency?",
+      "correct_answer": "Simulated forced landing training that always conditions the pilot to expect a safe landing area can be found, leading them to ignore basic airmanship to avoid airplane damage",
+      "distractors": [
+        "Simulated forced landing training that focuses too heavily on checklist memorization, causing the pilot to delay critical immediate-action steps during a real emergency",
+        "Simulated forced landing training that consistently uses the same practice airport, causing the pilot to become disoriented when an emergency occurs over unfamiliar terrain",
+        "Simulated forced landing training that overemphasizes slow-flight maneuvering, causing the pilot to inadvertently maintain airspeed well below minimum control speed during the real emergency"
+      ],
+      "explanation": "According to AFH Chapter 18 (Psychological Hazards), a pilot conditioned during training to expect finding a safe landing area whenever the instructor closes the throttle for a simulated forced landing may ignore all basic rules of airmanship to avoid touchdown in terrain where airplane damage is unavoidable. Typical consequences include making a 180° turn back to the runway with insufficient altitude, stretching the glide below minimum control speed, and accepting an approach with no margin for error. This desire to save the airplane may be influenced by the pilot's financial stake and the belief that an undamaged airplane means no bodily harm—but sometimes a pilot should sacrifice the airplane so occupants can walk away safely.",
+      "reference": {
+        "page": "18-2",
+        "text": "⦁ Desire to save the airplane—the pilot who has been conditioned during training to expect to find a relatively\n      safe landing area, whenever the flight instructor closed the throttle for a simulated forced landing, may\n      ignore all basic rules of airmanship to avoid a touchdown in terrain where airplane damage is unavoidable.\n      Typical consequences are: making a 180° turn back to the runway when available altitude is insufficient;\n      stretching the glide without regard for minimum control speed in order to reach a more appealing field; and\n      accepting an approach and touchdown situation that leaves no margin for error. The desire to save the\n      airplane, regardless of the risks involved, may be influenced by two other factors: the pilot’s financial stake\n      in the airplane and the certainty that an undamaged airplane implies no bodily harm. There are times,\n      however, when a pilot should be more interested in sacrificing the airplane so that the occupants can safely\n      walk away from it."
+      }
+    },
+    {
+      "section": "Basic Safety Concepts",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "During an emergency landing where crash damage is inevitable, the cabin structure remains relatively intact, but the occupant decelerates at a slower rate than the surrounding structure. What is the likely result?",
+      "correct_answer": "The occupant experiences a secondary collision with the interior structure, negating the benefit of the cabin's intactness",
+      "distractors": [
+        "The occupant benefits from the cabin's intactness because the structure absorbs the impact forces regardless of the occupant's deceleration rate",
+        "The cabin structure collapses inward toward the occupant because the differential deceleration creates a vacuum effect within the cabin",
+        "The occupant is protected because decelerating slower than the structure reduces the g-forces experienced by the body"
+      ],
+      "explanation": "According to AFH Chapter 18, avoiding crash injuries requires both keeping the cabin structure intact AND avoiding forceful bodily contact with interior structure. Unless the occupant decelerates at the same rate as the surrounding structure, no benefit is realized from its relative intactness. The occupant is brought to a stop violently in the form of a secondary collision. This is why seat and body security—using restraints—is critical: it ensures the occupant decelerates with the structure rather than independently.",
+      "reference": {
+        "page": "18-2",
+        "text": "General\nA pilot who is faced with an emergency landing in terrain that makes extensive airplane damage inevitable should keep in mind that\nthe avoidance of crash injuries is largely a matter of: (1) keeping the vital structure (cabin area) relatively intact by using dispensable\nstructure (i.e., wings, landing gear, fuselage bottom) to absorb the violence of the stopping process before it affects the occupants and\n(2) avoiding forceful bodily contact with interior structure. Avoiding forcible contact with interior structure is a matter of seat and\nbody security. Unless the occupant decelerates at the same rate as the surrounding structure, no benefit is realized from its relative\nintactness. The occupant is brought to a stop violently in the form of a secondary collision."
+      }
+    },
+    {
+      "section": "Basic Safety Concepts",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "When an emergency landing requires striking natural or manmade obstacles that are stronger than the airplane's dispensable structure, how should the pilot plan the touchdown?",
+      "correct_answer": "In a manner that ensures only nonessential structure is used up in the principal slowing-down process.",
+      "distractors": [
+        "To direct the initial impact into the strongest structural components to preserve cabin integrity.",
+        "To increase the approach speed so the aircraft plows through the obstacles rather than stopping.",
+        "To align the aircraft so the obstacles strike the leading edge of the wings to prevent flipping."
+      ],
+      "explanation": "According to the Airplane Flying Handbook (AFH) Chapter 18, when dealing with obstacles that have greater strength than the dispensable airplane structure, the pilot should plan the touchdown in such a manner that only nonessential structure is 'used up' in the principal slowing-down process. This controlled sacrifice of nonessential structure helps decelerate the aircraft while maximizing the safety of the occupants.",
+      "reference": {
+        "page": "18-2",
+        "text": "Dispensable airplane structure is not the only available energy absorbing medium in an emergency situation. Vegetation, trees, and\neven manmade structures may be used for this purpose. Cultivated fields with dense crops, such as mature corn and grain, are almost\nas effective in bringing an airplane to a stop with repairable damage as an emergency arresting device on a runway. [Figure 18-1]\nBrush and small trees provide considerable cushioning and braking effect without destroying the airplane. When dealing with natural\nand manmade obstacles with greater strength than the dispensable airplane structure, the pilot should plan the touchdown in such a\nmanner that only nonessential structure is “used up” in the principal slowing-down process. 18-2"
+      }
+    },
+    {
+      "section": "Basic Safety Concepts",
+      "difficulty": 3,
+      "categories": [
+        "checkride_oral",
+        "general_knowledge"
+      ],
+      "question": "During a crash landing in very poor terrain, what is the purpose of selecting touchdown conditions that spread the breakup of dispensable structure over a short distance?",
+      "correct_answer": "To reduce the peak deceleration forces experienced in the cabin area",
+      "distractors": [
+        "To bring the aircraft to a stop as quickly as possible by maximizing deceleration",
+        "To preserve the dispensable structure for post-crash inspection",
+        "To spread the breakup over a longer distance for a more gradual stop"
+      ],
+      "explanation": "According to AFH Chapter 18, a typical light airplane is designed to protect occupants in crash landings exposing them to up to 9G forward deceleration. The handbook states that understanding the need for a firm but uniform deceleration process enables the pilot to select touchdown conditions that spread the breakup of dispensable structure over a short distance, thereby reducing the peak deceleration of the cabin area. This is not about maximizing deceleration to stop quickly, preserving structure, or spreading breakup over a longer distance—all of which would either increase peak forces on occupants or fail to achieve the protective uniform deceleration the airframe is designed to provide.",
+      "reference": {
+        "page": "18-3",
+        "text": "The typical light airplane is designed to provide protection in crash landings that expose the occupants to nine times the acceleration\nof gravity (9G) in a forward direction. Assuming a uniform 9G deceleration, at 50 mph the required stopping distance is about 9.4\nfeet. While at 100 mph, the stopping distance is about 37.6 feet—about four times as great. [Figure 18-2] Although these figures are\nbased on an ideal deceleration process, it is interesting to note what can be accomplished in an effectively used short stopping\ndistance. Understanding the need for a firm but uniform deceleration process in very poor terrain enables the pilot to select\ntouchdown conditions that spread the breakup of dispensable structure over a short distance, thereby reducing the peak deceleration\nof the cabin area. 18-3"
+      }
+    },
+    {
+      "section": "Basic Safety Concepts",
+      "difficulty": 3,
+      "categories": [
+        "checkride_oral",
+        "general_knowledge"
+      ],
+      "question": "When executing a crash landing in very poor terrain, what is the primary benefit of selecting touchdown conditions that produce a firm but uniform deceleration?",
+      "correct_answer": "It spreads the breakup of dispensable structure over a short distance, reducing the peak deceleration experienced by the cabin area",
+      "distractors": [
+        "It minimizes damage to the dispensable structure so the aircraft can potentially be repaired after the incident",
+        "It shortens the total stopping distance required, which is critical when terrain limits available landing area",
+        "It allows the cabin area to absorb impact energy more gradually by flexing along its structural joints"
+      ],
+      "explanation": "According to AFH Chapter 18, understanding the need for a firm but uniform deceleration process in very poor terrain enables the pilot to select touchdown conditions that spread the breakup of dispensable structure over a short distance, thereby reducing the peak deceleration of the cabin area. The goal is not to preserve the aircraft structure or shorten stopping distance, but to use the sacrificial structure to manage deceleration forces and protect occupants.",
+      "reference": {
+        "page": "18-3",
+        "text": "The typical light airplane is designed to provide protection in crash landings that expose the occupants to nine times the acceleration\nof gravity (9G) in a forward direction. Assuming a uniform 9G deceleration, at 50 mph the required stopping distance is about 9.4\nfeet. While at 100 mph, the stopping distance is about 37.6 feet—about four times as great. [Figure 18-2] Although these figures are\nbased on an ideal deceleration process, it is interesting to note what can be accomplished in an effectively used short stopping\ndistance. Understanding the need for a firm but uniform deceleration process in very poor terrain enables the pilot to select\ntouchdown conditions that spread the breakup of dispensable structure over a short distance, thereby reducing the peak deceleration\nof the cabin area. 18-3"
+      }
+    },
+    {
+      "section": "Terrain Selection",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "During an off-airport landing emergency, a pilot has identified an established airport just within gliding distance, but reaching it would require an unstable, high-speed approach with minimal margin for error. A nearby field with rough terrain offers a more controlled approach. What principle from the Airplane Flying Handbook should guide the pilot's decision?",
+      "correct_answer": "A well-executed crash landing in poor terrain can be less hazardous than an uncontrolled touchdown on an established field",
+      "distractors": [
+        "An established field should always be chosen over poor terrain since the smooth surface guarantees a safer outcome",
+        "The pilot should choose the established field only if it has a runway length of at least 2,000 feet",
+        "The pilot should alternate between both options as altitude decreases to keep the best choice open as long as possible"
+      ],
+      "explanation": "The Airplane Flying Handbook (Chapter 18, Terrain Selection) states that 'a well-executed crash landing in poor terrain can be less hazardous than an uncontrolled touchdown on an established field.' This principle emphasizes that pilot control over the aircraft's touchdown—energy management, touchdown attitude, and directional control—matters more than the quality of the surface itself. An uncontrolled arrival at a prepared surface can still be catastrophic. The handbook also cautions pilots not to change their mind more than once during terrain selection, as indecision can lead to a poorly executed approach to either option.",
+      "reference": {
+        "page": "18-4",
+        "text": "If beyond gliding distance of a suitable open area, the pilot should judge the available terrain for its energy absorbing capability. If\nthe emergency starts at a considerable height above the ground, the pilot should be more concerned about first selecting the desired\ngeneral area than a specific spot. Terrain appearances from altitude can be very misleading and considerable altitude may be lost\nbefore the best spot can be pinpointed. For this reason, the pilot should not hesitate to discard the original plan for one that is\nobviously better. However, as a general rule, the pilot should not change his or her mind more than once; a well-executed crash\nlanding in poor terrain can be less hazardous than an uncontrolled touchdown on an established field."
+      }
+    },
+    {
+      "section": "Airplane Configuration",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "A pilot is flying a power-off approach and extends full flaps significantly earlier than planned, while still well above the desired glidepath. What is the primary reason this could jeopardize the approach?",
+      "correct_answer": "The increased drag reduces gliding distance, potentially causing the aircraft to land short of the runway",
+      "distractors": [
+        "The lower stalling speed caused by the flaps will result in excessive float during the flare",
+        "The improved slow-speed maneuverability makes the aircraft overly sensitive to control inputs",
+        "The flaps will raise the stalling speed, increasing the risk of an accelerated stall"
+      ],
+      "explanation": "According to AFH Chapter 18, while flaps improve maneuverability at slow speed and lower the stalling speed, they also increase drag and decrease gliding distance. This is why timing and extent of flap application matter—premature use of flaps and dissipation of altitude may jeopardize an otherwise sound approach plan. The key concern is not stall speed or maneuverability (both of which are improved by flaps), but rather the loss of gliding distance due to increased drag.",
+      "reference": {
+        "page": "18-4",
+        "text": "Since flaps improve maneuverability at slow speed, and lower the stalling speed, their use during final approach is recommended\nwhen time and circumstances permit. However, the associated increase in drag and decrease in gliding distance call for caution in the\ntiming and the extent of their application; premature use of flap and dissipation of altitude may jeopardize an otherwise sound plan."
+      }
+    },
+    {
+      "section": "Airplane Configuration",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "When considering whether to land gear-down during an off-airport landing in a retractable gear aircraft, what risk must a pilot weigh against the protective benefit that extended gear provides to the cabin area?",
+      "correct_answer": "A collapsing gear could rupture a fuel tank",
+      "distractors": [
+        "The extended gear reduces impact absorption, increasing forces transmitted to occupants",
+        "The extended gear will likely cause the aircraft to flip over upon touchdown",
+        "The extended gear prevents the aircraft from decelerating by sliding on its belly"
+      ],
+      "explanation": "According to AFH Chapter 18, while extended gear can have a protective effect on the cabin area in rugged terrain or during high sink rate impacts, this advantage must be weighed against possible side effects of a collapsing gear, such as a ruptured fuel tank. Distractor A is incorrect because the handbook states the gear has a protective effect, not that it reduces impact absorption. Distractors B and C describe outcomes not discussed in the source material. The AFM/POH manufacturer recommendations should always be followed.",
+      "reference": {
+        "page": "18-4",
+        "text": "A hard and fast rule concerning the position of a retractable landing gear at touchdown cannot be given. In rugged terrain and trees,\nor during impacts at high sink rate, an extended gear would definitely have a protective effect on the cabin area. However, this\nadvantage has to be weighed against the possible side effects of a collapsing gear, such as a ruptured fuel tank. As always, the\nmanufacturer’s recommendations as outlined in the AFM/POH should be followed."
+      }
+    },
+    {
+      "section": "Airplane Configuration",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "In an emergency off-airport landing, what is the primary rationale for turning the engine and fuel off just before touchdown?",
+      "correct_answer": "It ensures the pilot's initiative over the situation and reduces the fire hazard due to a cooled-down engine.",
+      "distractors": [
+        "It prevents the battery from draining prematurely, ensuring electrical power is available for vital systems during rollout.",
+        "It stops the propeller from windmilling, which significantly reduces drag and allows the airplane to glide further.",
+        "It prevents fuel from surging into the engine, which could cause an unexpected and uncontrollable increase in power."
+      ],
+      "explanation": "According to the Airplane Flying Handbook, switching the engine and fuel off just before touchdown ensures the pilot's initiative over the situation and allows the engine to cool down, considerably reducing the fire hazard. The battery master switch should remain on until electrical power is no longer needed. Turning off the engine early to stop the propeller or prevent power surges is not the recommended procedure, as the pilot should attempt to exploit any available power from an irregularly running engine until just before touchdown.",
+      "reference": {
+        "page": "18-4",
+        "text": "However, the battery master switch should not be turned off until the pilot no longer has any need for electrical power to operate vital\nairplane systems. Positive airplane control during the final part of the approach has priority over all other considerations, including\nairplane configuration and checklist tasks. The pilot should attempt to exploit the power available from an irregularly running engine;\nhowever, it is generally better to switch the engine and fuel off just before touchdown. This not only ensures the pilot’s initiative over\nthe situation, but a cooled-down engine reduces the fire hazard considerably."
+      }
+    },
+    {
+      "section": "Airplane Configuration",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "What is the primary reason a pilot might choose to plan an emergency approach over an unobstructed area, even if it means ignoring wind direction?",
+      "correct_answer": "Striking an obstacle at flying speed before touchdown is much more hazardous than striking one during the ground roll.",
+      "distractors": [
+        "A tailwind over an unobstructed area increases the gliding range and prevents the aircraft from undershooting the touchdown point.",
+        "An unobstructed area guarantees a longer ground roll, allowing for safer dissipation of kinetic energy.",
+        "Obstacles located on the ground are typically softer and cause less structural damage than obstacles in the approach path."
+      ],
+      "explanation": "According to the Airplane Flying Handbook, a pilot who overestimates their gliding range may be tempted to stretch the glide across obstacles in the approach path. For this reason, it is sometimes better to plan the approach over an unobstructed area, regardless of wind direction. Experience shows that colliding with obstacles at the end of a ground roll or slide is much less hazardous than striking an obstacle at flying speed before the touchdown point is reached.",
+      "reference": {
+        "page": "18-5",
+        "text": "These three factors are seldom compatible. When compromises have to be made, the pilot should aim for a wind/obstacle/terrain\ncombination that permits a final approach with some margin for error in judgment or technique. A pilot who overestimates the gliding\nrange may be tempted to stretch the glide across obstacles in the approach path. For this reason, it is sometimes better to plan the\napproach over an unobstructed area, regardless of wind direction. Experience shows that a collision with obstacles at the end of a\nground roll or slide is much less hazardous than striking an obstacle at flying speed before the touchdown point is reached."
+      }
+    },
+    {
+      "section": "Airplane Configuration",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "When planning an off-airport forced landing with obstacles near the intended touchdown point, a pilot may be tempted to stretch the glide to clear them. According to the Airplane Flying Handbook, why is it generally preferable to touchdown short and collide with an obstacle during the ground roll rather than strike it while still airborne at flying speed?",
+      "correct_answer": "A collision at the end of a ground roll occurs at a much lower speed, making it significantly less hazardous than striking an obstacle at flying speed before touchdown.",
+      "distractors": [
+        "The landing gear is specifically designed to absorb frontal impacts with obstacles during ground roll, whereas it provides no protection in flight.",
+        "Colliding with an obstacle before touchdown could redirect the aircraft into a stall, whereas a ground collision keeps the aircraft in ground effect.",
+        "The aircraft's firewall and cabin structure are reinforced to withstand impacts along the runway axis but not from approach angles."
+      ],
+      "explanation": "The Airplane Flying Handbook (Chapter 18) states that 'a collision with obstacles at the end of a ground roll or slide is much less hazardous than striking an obstacle at flying speed before the touchdown point is reached.' The key factor is the significantly lower kinetic energy at the end of a ground roll compared to flying speed. This is why pilots should avoid stretching a glide to clear obstacles, as overestimating gliding range and attempting to clear obstacles on approach can lead to a much more dangerous high-speed collision before touchdown.",
+      "reference": {
+        "page": "18-5",
+        "text": "These three factors are seldom compatible. When compromises have to be made, the pilot should aim for a wind/obstacle/terrain\ncombination that permits a final approach with some margin for error in judgment or technique. A pilot who overestimates the gliding\nrange may be tempted to stretch the glide across obstacles in the approach path. For this reason, it is sometimes better to plan the\napproach over an unobstructed area, regardless of wind direction. Experience shows that a collision with obstacles at the end of a\nground roll or slide is much less hazardous than striking an obstacle at flying speed before the touchdown point is reached."
+      }
+    },
+    {
+      "section": "Confined Areas",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "During an emergency landing in a confined area where the remaining space after the touchdown point is very limited, which action may be considered to help bring the aircraft to a rapid stop?",
+      "correct_answer": "Intentionally ground-looping or retracting the landing gear",
+      "distractors": [
+        "Delaying touchdown until the airplane stalls and settles on its own",
+        "Maintaining a nose-high attitude to maximize aerodynamic drag",
+        "Keeping the airplane airborne as long as possible to bleed off airspeed"
+      ],
+      "explanation": "According to the Airplane Flying Handbook, an airplane decelerates faster after it is on the ground than while airborne. In a confined area with very limited remaining space, it is better to force the airplane down on the ground rather than delaying touchdown until it stalls. In certain conditions, thought may also be given to the desirability of intentionally ground-looping or retracting the landing gear to stop the aircraft.",
+      "reference": {
+        "page": "18-5",
+        "text": "Once the intended touchdown point is reached, and the remaining open and unobstructed space is very limited, it may be better to\nforce the airplane down on the ground than to delay touchdown until it stalls (settles). An airplane decelerates faster after it is on the\nground than while airborne. Thought may also be given to the desirability of ground-looping or retracting the landing gear in certain\nconditions."
+      }
+    },
+    {
+      "section": "Confined Areas",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "During a forced landing in trees, a pilot should strive for symmetrical initial contact. What is the specific risk if this is not achieved and a wing is lost?",
+      "correct_answer": "The descent to the ground will become more rapid and less predictable.",
+      "distractors": [
+        "The aircraft will enter a slow, predictable flat spin.",
+        "The remaining wing will generate excess lift, causing a roll.",
+        "The aircraft will yaw violently and strike the ground tail-first."
+      ],
+      "explanation": "According to the Airplane Flying Handbook (AFH Chapter 18), initial tree contact should ideally be symmetrical to maintain proper airplane attitude and preclude the loss of one wing. The handbook states that the loss of one wing invariably leads to a more rapid and less predictable descent to the ground.",
+      "reference": {
+        "page": "18-6",
+        "text": "⦁ Ideally, initial tree contact should be symmetrical; that is, both wings should meet equal resistance in the tree\n   branches. This distribution of the load helps to maintain proper airplane attitude. It may also preclude the loss\n   of one wing, which invariably leads to a more rapid and less predictable descent to the ground."
+      }
+    },
+    {
+      "section": "Confined Areas",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "During an off-airport landing in a confined area, a pilot realizes heavy contact with tree trunks is unavoidable. What is the proper procedure regarding directing the airplane between two properly spaced trees to involve both wings simultaneously?",
+      "correct_answer": "Direct the airplane between the trees only after the airplane is on the ground, not while still airborne",
+      "distractors": [
+        "Direct the airplane between the trees while still airborne to ensure proper alignment before touchdown",
+        "Direct the airplane between the trees only if one wing has already made contact with a tree",
+        "Avoid directing the airplane between trees entirely, as it is always better to contact a single tree with one wing"
+      ],
+      "explanation": "According to AFH Chapter 18 on Confined Areas, if heavy tree trunk contact is unavoidable once the airplane is on the ground, it is best to involve both wings simultaneously by directing the airplane between two properly spaced trees. However, the handbook explicitly states that a pilot must not attempt this maneuver while still airborne. The key distinction is that this technique is only appropriate after the aircraft has touched down, as attempting it while airborne could result in a loss of control prior to ground contact.",
+      "reference": {
+        "page": "18-6",
+        "text": "⦁ If heavy tree trunk contact is unavoidable once the airplane is on the ground, it is best to involve both wings\n   simultaneously by directing the airplane between two properly spaced trees. Do not attempt this maneuver,\n   however, while still airborne."
       }
     }
   ]

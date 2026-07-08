@@ -1,0 +1,363 @@
+{
+  "source": "PHAK",
+  "chapter": 6,
+  "questions": [
+    {
+      "section": "involves Intelligent Flight Control Systems (IFCS). The goal",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "A pilot transitioning from a conventional cable-and-pulley aircraft to a fly-by-wire aircraft notices the control stick still provides resistance and feel during maneuvers. How is this control feel being provided?",
+      "correct_answer": "Through simulated means, since fly-by-wire systems replace the physical connection between the controls and the flight control surfaces",
+      "distractors": [
+        "Through the residual mechanical linkage that remains in parallel with the electrical interface as a backup",
+        "Through natural aerodynamic forces transmitted back through the electrical wiring to the control stick",
+        "Through the hydraulic boost system, which preserves the direct physical feedback path to the pilot"
+      ],
+      "explanation": "According to PHAK Chapter 6, fly-by-wire systems replace the physical connection between pilot controls and flight control surfaces with an electrical interface. Because there is no longer a direct mechanical link to transmit natural aerodynamic forces, the feel of the control reaction must be fed back to the pilot by simulated means. This is also true for boosted control systems, where hydraulic or electric actuators reduce the natural force feedback. Distractor A is incorrect because fly-by-wire replaces, rather than supplements, the physical connection. Distractor B is incorrect because electrical wiring cannot transmit aerodynamic forces. Distractor C is incorrect because boosted systems also rely on simulated feedback rather than preserving a direct physical feedback path.",
+      "reference": {
+        "page": "6-2",
+        "text": "The ailerons, elevator (or stabilator),\nwere actuated by electric motors, digital computers, or fiber\n                                                                       and rudder constitute the primary control system and are\noptic cables. Called “fly-by-wire,” this flight control system\n                                                                       required to control an aircraft safely during flight. Wing flaps,\nreplaces the physical connection between pilot controls and\n                                                                       leading edge devices, spoilers, and trim systems constitute\nthe flight control surfaces with an electrical interface. In\n                                                                       the secondary control system and improve the performance\naddition, in some large and fast aircraft, controls are boosted\n                                                                       characteristics of the airplane or relieve the pilot of excessive\nby hydraulically or electrically actuated systems. In both\n                                                                       control forces.\nthe fly-by-wire and boosted controls, the feel of the control\nreaction is fed back to the pilot by simulated means.\n                                                                       Aircraft control systems are carefully designed to provide\nCurrent research at the National Aeronautics and Space\n                                                                       adequate responsiveness to control inputs while allowing a"
+      }
+    },
+    {
+      "section": "Differential Ailerons                                                                              Raised",
+      "difficulty": 3,
+      "categories": [
+        "written_exam"
+      ],
+      "question": "How does a differential aileron system increase drag on the descending wing to help mitigate adverse yaw?",
+      "correct_answer": "By deflecting the up aileron on the descending wing to a greater angle than the down aileron on the rising wing.",
+      "distractors": [
+        "By deflecting the down aileron on the rising wing to a greater angle than the up aileron on the descending wing.",
+        "By deploying spoilers on the rising wing to counteract the induced drag from the down aileron.",
+        "By deflecting both ailerons upward simultaneously to create symmetric drag on both wings."
+      ],
+      "explanation": "According to the PHAK, a differential aileron system raises one aileron a greater distance than the other aileron is lowered for a given control input. This produces an increase in drag on the descending wing, which results from deflecting the up aileron on the descending wing to a greater angle than the down aileron on the rising wing. While this helps reduce adverse yaw, it does not eliminate it completely.",
+      "reference": {
+        "page": "6-4",
+        "text": "With differential ailerons, one aileron is raised a greater\ndistance than the other aileron and is lowered for a given\nmovement of the control wheel or control stick. This produces\nan increase in drag on the descending wing. The greater drag\nresults from deflecting the up aileron on the descending wing                             Drag\nto a greater angle than the down aileron on the rising wing.\nWhile adverse yaw is reduced, it is not eliminated completely.                                    Lowered\n[Figure 6-6]"
+      }
+    },
+    {
+      "section": "Frise-Type Ailerons",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "During a turn, how does a Frise-type aileron design help counteract adverse yaw?",
+      "correct_answer": "The raised aileron pivots on an offset hinge, projecting its leading edge into the airflow to create drag on that wing, helping equalize drag between the two wings",
+      "distractors": [
+        "The lowered aileron pivots on an offset hinge, projecting its leading edge into the airflow to create additional drag on the outside wing",
+        "Both ailerons simultaneously deploy spoilers to create symmetric drag on both wings regardless of deflection direction",
+        "The offset hinge automatically reduces the deflection angle of the lowered aileron, minimizing induced drag on the outside wing"
+      ],
+      "explanation": "According to the PHAK Chapter 6, when pressure is applied to the controls, the Frise-type aileron that is being raised pivots on an offset hinge. This projects the leading edge of that raised aileron into the airflow, creating drag. This drag on the raised-aileron side helps equalize drag between the two wings, counteracting adverse yaw. Distractor 1 is incorrect because it is the raised aileron, not the lowered one, that creates the drag. Distractor 2 is incorrect because Frise-type ailerons do not use spoilers and only one aileron creates the compensating drag. Distractor 3 is incorrect because the mechanism works by creating drag on the raised-aileron side, not by reducing deflection of the lowered aileron.",
+      "reference": {
+        "page": "6-4",
+        "text": "With a frise-type aileron, when pressure is applied to the\ncontrol wheel, or control stick, the aileron that is being raised\npivots on an offset hinge. This projects the leading edge of\nthe aileron into the airflow and creates drag. It helps equalize                   Figure ailerons. 6-4"
+      }
+    },
+    {
+      "section": "Frise-Type Ailerons",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "A properly trimmed airplane with an aft CG is at increased risk of stall at a high angle of attack. According to the PHAK, what elevator position contributes to this stall risk?",
+      "correct_answer": "Trailing edge down, forcing the tail up and the nose down",
+      "distractors": [
+        "Trailing edge up, forcing the tail down and the nose up",
+        "Neutral, providing insufficient pitch authority at low airspeeds",
+        "Trailing edge down, forcing the tail down and the nose up"
+      ],
+      "explanation": "According to the PHAK Chapter 6, a properly trimmed airplane with an aft CG flies with the elevator in a trailing edge down position, which forces the tail up and the nose down. This configuration can contribute to a stall, which is why systems such as elevator down springs and stick pushers are used to assist in lowering the nose and preventing a stall caused by the aft CG position. The third distractor is incorrect because, while it identifies the correct elevator position, it reverses the aerodynamic effect — trailing edge down forces the tail up, not down.",
+      "reference": {
+        "page": "6-6",
+        "text": "example, the horizontal tail surfaces may be attached near            similar recovery problems are also found with conventional\nthe lower part of the vertical stabilizer, at the midpoint, or        tail aircraft with an aft CG. [Figure 6-11] Deep stalls can\nat the high point, as in the T-tail design.                           occur on any aircraft but are more likely to occur on aircraft\n                                                                      with “T” tails as a high AOA may be more likely to place\nT-Tail                                                                the wings separated airflow into the path of the horizontal\nIn a T-tail configuration, the elevator is above most of the          surface of the tail. Additionally, the distance between the\neffects of downwash from the propeller, as well as airflow            wings and the tail, the position of the engines (such as being\naround the fuselage and/or wings during normal flight                 mounted on the tail) may increase the susceptibility of deep\nconditions. Operation of the elevators in this undisturbed air        stall events. Therefore a deep stall may be more prevalent\nallows control movements that are consistent throughout most          on transport versus general aviation aircraft.\nflight regimes. T-tail designs have become popular on many\nlight and large aircraft, especially those with aft fuselage-         Since flight at a high AOA with a low airspeed and an aft\nmounted engines because the T-tail configuration removes              CG position can be dangerous, many aircraft have systems to\nthe tail from the exhaust blast of the engines. Seaplanes and         compensate for this situation. The systems range from control\namphibians often have T-tails in order to keep the horizontal         stops to elevator down springs. On transport category jets, stick\nsurfaces as far from the water as possible. An additional             pushers are commonly used. An elevator down spring assists in\nbenefit is reduced noise and vibration inside the aircraft.           lowering the nose of the aircraft to prevent a stall caused by the\n                                                                      aft CG position. The stall occurs because the properly trimmed\nIn comparison with conventional-tail aircraft, the elevator on a      airplane is flying with the elevator in a trailing edge down\nT-tail aircraft must be moved a greater distance to raise the nose    position, forcing the tail up and the nose down."
+      }
+    },
+    {
+      "section": "Frise-Type Ailerons",
+      "difficulty": 3,
+      "categories": [
+        "written_exam"
+      ],
+      "question": "An aircraft is in an unstable condition and encounters turbulence while slowing down further, rendering the trim tab ineffective at positioning the elevator nose-down. What system is designed to prevent the elevator from streaming and causing an uncommanded pitch-up?",
+      "correct_answer": "The elevator down spring, which provides a mechanical load that drives the elevator toward the nose-down position",
+      "distractors": [
+        "The propeller downwash on the horizontal stabilizer, which increases at slow speeds to hold the elevator in place",
+        "The trim tab's automatic repositioning, which compensates for the slower airspeed by increasing its deflection angle",
+        "The aircraft's inherent longitudinal stability, which returns the elevator to its trimmed position without mechanical input"
+      ],
+      "explanation": "According to PHAK Chapter 6, when an aircraft in an unstable condition encounters turbulence and slows down further, the trim tab may no longer position the elevator in the nose-down position. Without intervention, the elevator would streamline and the nose would pitch upward, possibly resulting in a stall. The elevator down spring is the safety mechanism that addresses this: it produces a mechanical load on the elevator, causing it to move toward the nose-down position if not otherwise balanced. During normal flight, the trim tab balances the down spring to maintain the trimmed position, but when the trim tab becomes ineffective at slow speeds, the down spring drives the elevator to nose-down. The distractors are wrong because: (1) propeller downwash assists in raising the nose of conventional-tail aircraft, not holding the elevator in place, and diminishes at slow speeds; (2) the trim tab is explicitly stated to become ineffective in this scenario; (3) the aircraft is described as being in an unstable condition, so inherent stability cannot be relied upon.",
+      "reference": {
+        "page": "6-6",
+        "text": "In this unstable\na given amount when traveling at slow speeds. This is because         condition, if the aircraft encounters turbulence and slows down\nthe conventional-tail aircraft has the downwash from the              further, the trim tab no longer positions the elevator in the nose-\npropeller pushing down on the tail to assist in raising the nose.     down position. The elevator then streamlines, and the nose of\n                                                                      the aircraft pitches upward, possibly resulting in a stall.\nAircraft controls are rigged so that an increase in control force\nis required to increase control travel. The forces required to        The elevator down spring produces a mechanical load on the\nraise the nose of a T-tail aircraft are greater than the forces       elevator, causing it to move toward the nose-down position if not\nrequired to raise the nose of a conventional-tail aircraft.           otherwise balanced. The elevator trim tab balances the elevator\nLongitudinal stability of a trimmed aircraft is the same for          down spring to position the elevator in a trimmed position.\nboth types of configuration, but the pilot must be aware that         When the trim tab becomes ineffective, the down spring drives\nthe required control forces are greater at slow speeds during         the elevator to a nose-down position."
+      }
+    },
+    {
+      "section": "Frise-Type Ailerons",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "In a T-tail aircraft at slow speeds, if turbulence causes further deceleration and the trim tab can no longer position the elevator, what sequence of events could lead to an inadvertent stall?",
+      "correct_answer": "The elevator streamlines with the airflow, the nose pitches upward, and a stall may result",
+      "distractors": [
+        "The elevator deflects upward, the nose pitches downward, and airspeed increases",
+        "The elevator locks in its trimmed position, the nose maintains attitude, and flight continues normally",
+        "The trim tab forces the elevator nose-up, the nose pitches downward, and a stall is prevented"
+      ],
+      "explanation": "According to PHAK Chapter 6, in this unstable condition at slow speeds, the trim tab no longer positions the elevator in the nose-down position. The elevator then streamlines with the airflow, meaning it is no longer holding the nose down. This causes the nose of the aircraft to pitch upward, possibly resulting in a stall. This is why the elevator down spring was introduced as a safety feature—it mechanically drives the elevator to a nose-down position when the trim tab becomes ineffective.",
+      "reference": {
+        "page": "6-6",
+        "text": "In this unstable\na given amount when traveling at slow speeds. This is because         condition, if the aircraft encounters turbulence and slows down\nthe conventional-tail aircraft has the downwash from the              further, the trim tab no longer positions the elevator in the nose-\npropeller pushing down on the tail to assist in raising the nose.     down position. The elevator then streamlines, and the nose of\n                                                                      the aircraft pitches upward, possibly resulting in a stall.\nAircraft controls are rigged so that an increase in control force\nis required to increase control travel. The forces required to        The elevator down spring produces a mechanical load on the\nraise the nose of a T-tail aircraft are greater than the forces       elevator, causing it to move toward the nose-down position if not\nrequired to raise the nose of a conventional-tail aircraft.           otherwise balanced. The elevator trim tab balances the elevator\nLongitudinal stability of a trimmed aircraft is the same for          down spring to position the elevator in a trimmed position.\nboth types of configuration, but the pilot must be aware that         When the trim tab becomes ineffective, the down spring drives\nthe required control forces are greater at slow speeds during         the elevator to a nose-down position."
+      }
+    },
+    {
+      "section": "Frise-Type Ailerons",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "An aircraft is equipped with an elevator down spring that is normally balanced by the trim tab in level flight. If airspeed decreases to the point where the trim tab becomes ineffective, what is the function of the down spring in this scenario?",
+      "correct_answer": "It drives the elevator to a nose-down position to prevent the aircraft from pitching up",
+      "distractors": [
+        "It allows the elevator to streamline so the aircraft naturally returns to trimmed flight",
+        "It drives the elevator to a nose-up position to compensate for the loss of trim authority",
+        "It locks the elevator in its current position until the pilot manually re-trims the aircraft"
+      ],
+      "explanation": "According to the PHAK Chapter 6, the elevator down spring produces a mechanical load on the elevator, causing it to move toward the nose-down position if not otherwise balanced. During normal flight, the trim tab balances this spring force to hold the elevator in trim. However, when the trim tab becomes ineffective (such as at slow speeds), the down spring is no longer balanced and drives the elevator to a nose-down position. This is a safety feature—without it, the elevator would streamline and the nose could pitch upward, possibly resulting in a stall.",
+      "reference": {
+        "page": "6-6",
+        "text": "In this unstable\na given amount when traveling at slow speeds. This is because         condition, if the aircraft encounters turbulence and slows down\nthe conventional-tail aircraft has the downwash from the              further, the trim tab no longer positions the elevator in the nose-\npropeller pushing down on the tail to assist in raising the nose.     down position. The elevator then streamlines, and the nose of\n                                                                      the aircraft pitches upward, possibly resulting in a stall.\nAircraft controls are rigged so that an increase in control force\nis required to increase control travel. The forces required to        The elevator down spring produces a mechanical load on the\nraise the nose of a T-tail aircraft are greater than the forces       elevator, causing it to move toward the nose-down position if not\nrequired to raise the nose of a conventional-tail aircraft.           otherwise balanced. The elevator trim tab balances the elevator\nLongitudinal stability of a trimmed aircraft is the same for          down spring to position the elevator in a trimmed position.\nboth types of configuration, but the pilot must be aware that         When the trim tab becomes ineffective, the down spring drives\nthe required control forces are greater at slow speeds during         the elevator to a nose-down position."
+      }
+    },
+    {
+      "section": "Frise-Type Ailerons",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "Why might a forward center of gravity (CG) create a control issue during the landing roundout?",
+      "correct_answer": "The elevator may lack sufficient authority to hold the nose up.",
+      "distractors": [
+        "The horizontal stabilizer may experience structural flutter due to increased load factors.",
+        "The aircraft may experience excessive pitch instability and tend to stall prematurely.",
+        "The rudder may lack sufficient authority to maintain directional control during the flare."
+      ],
+      "explanation": "According to the PHAK, the elevator must have sufficient authority to hold the nose of the aircraft up during the roundout for a landing. A forward CG can cause a problem in this phase of flight because it makes it harder for the elevator to raise the nose, potentially preventing a proper flare.",
+      "reference": {
+        "page": "6-6",
+        "text": "The nose of the aircraft\ntakeoffs, landings, or stalls than for similar size aircraft          lowers, speed builds up, and a stall is prevented. [Figure 6-12]\nequipped with conventional tails.\n                                                                      The elevator must also have sufficient authority to hold the\nT-tail aircraft also require additional design considerations         nose of the aircraft up during the roundout for a landing. In\nto counter the problem of flutter. Since the weight of the            this case, a forward CG may cause a problem. During the\nhorizontal surfaces is at the top of the vertical stabilizer, the     landing flare, power is usually reduced, which decreases the\nmoment arm created causes high loads on the vertical stabilizer\nthat can result in flutter. Engineers must compensate for this by\nincreasing the design stiffness of the vertical stabilizer, usually\nresulting in a weight penalty over conventional tail designs."
+      }
+    },
+    {
+      "section": "Frise-Type Ailerons",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "When flying a T-tail aircraft at a high angle of attack and low airspeed, which loading condition increases the aircraft's susceptibility to a deep stall?",
+      "correct_answer": "An aft center of gravity",
+      "distractors": [
+        "A forward center of gravity",
+        "A center of gravity at the midpoint of the approved range",
+        "A center of gravity at the forward limit of the approved range"
+      ],
+      "explanation": "According to the PHAK, when flying at a very high AOA with a low airspeed and an aft CG, a T-tail aircraft may be more susceptible to a deep stall. In this condition, the wake of the wing impinges on the T-tail, reducing elevator effectiveness. The aft CG exacerbates this vulnerability by reducing longitudinal stability and available pitch authority for recovery.",
+      "reference": {
+        "page": "6-6",
+        "text": "When flying at a very high AOA with a low airspeed and\nan aft CG, the T-tail aircraft may be more susceptible to a\ndeep stall. In this condition, the wake of the wing impinges                                    CG"
+      }
+    },
+    {
+      "section": "Frise-Type Ailerons",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "When a T-tail aircraft is in a fully stalled condition, the wing's turbulent wake can blanket the horizontal tail and diminish elevator effectiveness. Which loading condition is often a contributing factor that exacerbates the difficulty of recovering from this situation?",
+      "correct_answer": "An aft center of gravity (CG)",
+      "distractors": [
+        "A forward center of gravity (CG)",
+        "Operating at maximum gross takeoff weight",
+        "A lateral imbalance causing a heavy wing"
+      ],
+      "explanation": "According to the PHAK, when a T-tail aircraft's wing is fully stalled, the wide wake of decelerated, turbulent air blankets the horizontal tail, reducing or eliminating elevator control. In these incidents, an aft CG is often a contributing factor to the recovery difficulty, as it reduces the aircraft's natural nose-down pitching tendency needed to break the stall.",
+      "reference": {
+        "page": "6-6",
+        "text": "on the tail surface and renders it almost ineffective. The\nwing, if fully stalled, allows its airflow to separate right after\nthe leading edge. The wide wake of decelerated, turbulent\nair blankets the horizontal tail and hence its effectiveness\ndiminished significantly. In these circumstances, elevator or\nstabilator control is reduced (or perhaps eliminated) making\nit difficult to recover from the stall. It should be noted that an\naft CG is often a contributing factor in these incidents, since       Figure 6-11. Aircraft with a T-tail design at a high AOA and an aft CG. 6-6 Antiservo tab Down spring Stabilator\n     Pivot points\n       Bell crank"
+      }
+    },
+    {
+      "section": "Elevator                                   Balance weight           Pivot point",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "According to the Pilot's Handbook of Aeronautical Knowledge, why is the canard configuration considered theoretically more efficient than a conventional aft-tail design?",
+      "correct_answer": "The horizontal surface helps lift the weight of the aircraft, resulting in less drag for a given amount of lift.",
+      "distractors": [
+        "The forward horizontal surface produces downforce on the nose, which reduces the induced drag created by the main wing.",
+        "The canard configuration eliminates the need for a vertical stabilizer, significantly reducing overall parasite drag.",
+        "The canard's pivot point is located further forward, decreasing control forces and resulting in less aerodynamic drag."
+      ],
+      "explanation": "The PHAK states that the canard is considered theoretically more efficient because using the horizontal surface to help lift the weight of the aircraft should result in less drag for a given amount of lift. Unlike a conventional aft-tail, which often generates downward lift (downforce) to balance the aircraft, a canard generates upward lift, contributing to the total lift required to support the aircraft's weight.",
+      "reference": {
+        "page": "6-7",
+        "text": "on newer aircraft. Canard designs include two types–one with\n                                                                      a horizontal surface of about the same size as a normal aft-tail\nStabilator                                                            design, and the other with a surface of the same approximate\nAs mentioned in Chapter 3, Aircraft Structure, a stabilator is        size and airfoil of the aft-mounted wing known as a tandem\nessentially a one-piece horizontal stabilizer that pivots from        wing configuration. Theoretically, the canard is considered\na central hinge point. When the control column is pulled              more efficient because using the horizontal surface to help\nback, it raises the stabilator’s trailing edge, pulling the nose      lift the weight of the aircraft should result in less drag for a\nof the aircraft. Pushing the control column forward lowers            given amount of lift.\nthe trailing edge of the stabilator and pitches the nose of the\naircraft down."
+      }
+    },
+    {
+      "section": "Elevator                                   Balance weight           Pivot point",
+      "difficulty": 3,
+      "categories": [
+        "written_exam"
+      ],
+      "question": "How does lowering a slotted flap delay airflow separation and achieve a higher maximum coefficient of lift (CL-MAX) compared to plain or split flaps?",
+      "correct_answer": "High energy air from the lower surface is ducted to the flap's upper surface, accelerating the boundary layer.",
+      "distractors": [
+        "The flap slides backwards on tracks to increase the total wing area and camber simultaneously.",
+        "The lower surface of the flap deflects downward to create a high-pressure air pocket beneath the wing.",
+        "The slot allows lower energy air from the upper surface to vent to the lower surface, reducing pressure drag."
+      ],
+      "explanation": "According to the PHAK, when a slotted flap is lowered, a duct forms between the flap well and the flap's leading edge. High energy air from the lower surface is ducted to the flap's upper surface, which accelerates the upper surface boundary layer and delays airflow separation. Sliding backwards on tracks describes a Fowler flap, while creating a high-pressure pocket describes a split flap.",
+      "reference": {
+        "page": "6-9",
+        "text": "when the flap is lowered, a duct forms between the flap well       Fowler flaps are a type of slotted flap. This flap design not\nin the wing and the leading edge of the flap. When the slotted     only changes the camber of the wing, it also increases the\nflap is lowered, high energy air from the lower surface is         wing area. Instead of rotating down on a hinge, it slides\nducted to the flap’s upper surface. The high energy air from       backwards on tracks. In the first portion of its extension, it\nthe slot accelerates the upper surface boundary layer and          increases the drag very little, but increases the lift a great\ndelays airflow separation, providing a higher CL. Thus, the        deal as it increases both the area and camber. Pilots should\nslotted flap produces much greater increases in maximum            be aware that flap extension may cause a nose-up or down\ncoefficient of lift (CL-MAX) than the plain or split flap. While   pitching moment, depending on the type of aircraft, which\nthere are many types of slotted flaps, large aircraft often        the pilot will need to compensate for, usually with a trim\nhave double- and even triple-slotted flaps. These allow the        adjustment. As the extension continues, the flap deflects\nmaximum increase in drag without the airflow over the flaps        downward. During the last portion of its travel, the flap\nseparating and destroying the lift they produce.                   increases the drag with little additional increase in lift."
+      }
+    },
+    {
+      "section": "Slotted Fowler flap",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "When the elevator trim control is placed in the full nose-down position, the trim tab moves to its full up position. What is the aerodynamic purpose of this tab deflection?",
+      "correct_answer": "The upward-deflected tab produces a downward force on the elevator's trailing edge, holding the elevator in a nose-down position without requiring the pilot to maintain forward control pressure.",
+      "distractors": [
+        "The upward-deflected tab generates additional upward lift on the elevator, which raises the nose and offsets the aircraft's natural nose-down tendency.",
+        "The upward-deflected tab reduces drag on the elevator surface, allowing the aircraft's nose to drop naturally to a trimmed attitude.",
+        "The upward-deflected tab neutralizes all aerodynamic forces on the elevator, letting the aircraft seek a nose-down pitch attitude on its own."
+      ],
+      "explanation": "According to the PHAK Chapter 6, trim systems are designed to relieve the pilot of the need to maintain constant pressure on the flight controls. When the trim control is placed in the full nose-down position, the trim tab moves to its full up position. This upward deflection of the tab creates a downward aerodynamic force on the elevator's trailing edge, which holds the elevator in a deflected position that keeps the nose down—relieving the pilot from holding forward stick pressure. The distractors are incorrect because: (1) the tab does not generate upward lift on the elevator—it does the opposite; (2) drag reduction is not the mechanism by which trim tabs function; and (3) the tab does not neutralize forces but rather creates an aerodynamic force to position the control surface.",
+      "reference": {
+        "page": "6-10",
+        "text": "Leading edge flaps, like trailing edge flaps, are used to            Figure 6-19. Spoilers reduce lift and increase drag during descent\nincrease both CL-MAX and the camber of the wings. This type          and landing.\nof leading edge device is frequently used in conjunction with\ntrailing edge flaps and can reduce the nose-down pitching            variables. Trim systems are used to relieve the pilot of the\nmovement produced by the latter. As is true with trailing edge       need to maintain constant pressure on the flight controls, and\nflaps, a small increment of leading edge flaps increases lift        usually consist of flight deck controls and small hinged devices\nto a much greater extent than drag. As flaps are extended,           attached to the trailing edge of one or more of the primary flight\ndrag increases at a greater rate than lift.                          control surfaces. Designed to help minimize a pilot’s workload,\n                                                                     trim systems aerodynamically assist movement and position of\nLeading edge cuffs, like leading edge flaps and trailing edge        the flight control surface to which they are attached. Common\nflaps are used to increase both CL-MAX and the camber of             types of trim systems include trim tabs, balance tabs, antiservo\nthe wings. Unlike leading edge flaps and trailing edge flaps,        tabs, ground adjustable tabs, and an adjustable stabilizer.\nleading edge cuffs are fixed aerodynamic devices. In most\ncases, leading edge cuffs extend the leading edge down and           Trim Tabs\nforward. This causes the airflow to attach better to the upper       The most common installation on small aircraft is a single\nsurface of the wing at higher angles of attack, thus lowering        trim tab attached to the trailing edge of the elevator. Most trim\nan aircraft’s stall speed. The fixed nature of leading edge cuffs    tabs are manually operated by a small, vertically mounted\nextracts a penalty in maximum cruise airspeed, but recent            control wheel. However, a trim crank may be found in some\nadvances in design and technology have reduced this penalty.         aircraft. The flight deck control includes a trim tab position\n                                                                     indicator. Placing the trim control in the full nose-down\nSpoilers                                                             position moves the trim tab to its full up position."
+      }
+    },
+    {
+      "section": "Slotted Fowler flap",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "An aircraft uses spoilers for roll control instead of ailerons. When the pilot initiates a right turn, how do the spoilers function and what advantage does this provide over ailerons?",
+      "correct_answer": "The right wing spoiler is raised, reducing lift and increasing drag on that side to drop the right wing, and adverse yaw is eliminated.",
+      "distractors": [
+        "The left wing spoiler is raised, reducing lift and increasing drag on that side to drop the left wing, and adverse yaw is eliminated.",
+        "The right wing spoiler is raised, increasing lift and reducing drag on that side to raise the right wing, and adverse yaw is eliminated.",
+        "Both spoilers are raised simultaneously, reducing lift equally on both wings to lower the nose, and adverse yaw is eliminated."
+      ],
+      "explanation": "According to the PHAK Chapter 6, when using spoilers for roll control to turn right, the spoiler on the right wing is raised. This destroys some of the lift and creates more drag on the right side, causing the right wing to drop so the aircraft banks and yaws to the right. A key advantage of using spoilers for roll control is the elimination of adverse yaw, which is a common issue with traditional ailerons. Deploying both spoilers simultaneously is a separate function used to descend without gaining airspeed, not for roll control.",
+      "reference": {
+        "page": "6-10",
+        "text": "With\nFound on some fixed-wing aircraft, high drag devices called          the trim tab up and into the airstream, the airflow over the\nspoilers are deployed from the wings to spoil the smooth             horizontal tail surface tends to force the trailing edge of the\nairflow, reducing lift and increasing drag. On gliders, spoilers     elevator down. This causes the tail of the aircraft to move\nare most often used to control rate of descent for accurate          up and the nose to move down. [Figure 6-20]\nlandings. On other aircraft, spoilers are often used for roll\ncontrol, an advantage of which is the elimination of adverse         If the trim tab is set to the full nose-up position, the tab moves\nyaw. To turn right, for example, the spoiler on the right wing       to its full down position. In this case, the air flowing under the\nis raised, destroying some of the lift and creating more drag        horizontal tail surface hits the tab and forces the trailing edge\non the right. The right wing drops, and the aircraft banks           of the elevator up, reducing the elevator’s AOA. This causes\nand yaws to the right. Deploying spoilers on both wings at           the tail of the aircraft to move down and the nose to move up.\nthe same time allows the aircraft to descend without gaining\nspeed."
+      }
+    },
+    {
+      "section": "Slotted Fowler flap",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "A pilot sets the trim tab for nose-down trim. How does the trim tab's position and the resulting airflow over the horizontal tail surface produce the desired nose-down attitude?",
+      "correct_answer": "The tab moves up into the airstream, airflow forces the elevator trailing edge down, the tail moves up, and the nose moves down",
+      "distractors": [
+        "The tab moves down into the airstream, airflow forces the elevator trailing edge down, the tail moves up, and the nose moves down",
+        "The tab moves up into the airstream, airflow forces the elevator trailing edge up, the tail moves down, and the nose moves up",
+        "The tab moves down into the airstream, airflow forces the elevator trailing edge up, the tail moves up, and the nose moves down"
+      ],
+      "explanation": "According to PHAK Chapter 6, when the trim tab is set for nose-down trim, the tab moves up and into the airstream. The airflow over the horizontal tail surface then tends to force the trailing edge of the elevator down. This causes the tail of the aircraft to move up and the nose to move down. Distractor 1 has the correct elevator and aircraft effects but the wrong tab direction. Distractor 2 has the correct tab direction but reverses the aerodynamic effects, actually describing nose-up trim. Distractor 3 has the wrong tab direction, wrong elevator effect, but coincidentally the correct aircraft result, making it internally inconsistent with the described aerodynamic mechanism.",
+      "reference": {
+        "page": "6-10",
+        "text": "With\nFound on some fixed-wing aircraft, high drag devices called          the trim tab up and into the airstream, the airflow over the\nspoilers are deployed from the wings to spoil the smooth             horizontal tail surface tends to force the trailing edge of the\nairflow, reducing lift and increasing drag. On gliders, spoilers     elevator down. This causes the tail of the aircraft to move\nare most often used to control rate of descent for accurate          up and the nose to move down. [Figure 6-20]\nlandings. On other aircraft, spoilers are often used for roll\ncontrol, an advantage of which is the elimination of adverse         If the trim tab is set to the full nose-up position, the tab moves\nyaw. To turn right, for example, the spoiler on the right wing       to its full down position. In this case, the air flowing under the\nis raised, destroying some of the lift and creating more drag        horizontal tail surface hits the tab and forces the trailing edge\non the right. The right wing drops, and the aircraft banks           of the elevator up, reducing the elevator’s AOA. This causes\nand yaws to the right. Deploying spoilers on both wings at           the tail of the aircraft to move down and the nose to move up.\nthe same time allows the aircraft to descend without gaining\nspeed."
+      }
+    },
+    {
+      "section": "Slotted Fowler flap",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "A pilot sets the trim tab to the full nose-up position. How does the trim tab interact with the airflow to achieve the nose-up attitude?",
+      "correct_answer": "The tab moves to its full down position, and air flowing under the horizontal tail surface forces the elevator's trailing edge up, reducing the elevator's AOA, which causes the tail to move down and the nose to move up.",
+      "distractors": [
+        "The tab moves to its full up position, and air flowing over the horizontal tail surface forces the elevator's trailing edge down, increasing the elevator's AOA, which causes the tail to move down and the nose to move up.",
+        "The tab moves to its full down position, and air flowing under the horizontal tail surface forces the elevator's trailing edge down, increasing the elevator's AOA, which causes the tail to move up and the nose to move down.",
+        "The tab moves to its full up position, and air flowing over the horizontal tail surface forces the elevator's trailing edge up, reducing the elevator's AOA, which causes the tail to move down and the nose to move up."
+      ],
+      "explanation": "According to PHAK Chapter 6, when the trim tab is set to the full nose-up position, the tab moves to its full down position. Air flowing under the horizontal tail surface hits the tab and forces the trailing edge of the elevator up, reducing the elevator's AOA. This causes the tail of the aircraft to move down and the nose to move up. Distractor 1 incorrectly states the tab moves up and the air flows over the tail. Distractor 2 correctly identifies the tab moving down but incorrectly describes the effect on the elevator and the resulting aircraft attitude. Distractor 3 reaches the correct end result but incorrectly describes the tab position and airflow direction, failing to demonstrate understanding of the actual mechanism.",
+      "reference": {
+        "page": "6-10",
+        "text": "With\nFound on some fixed-wing aircraft, high drag devices called          the trim tab up and into the airstream, the airflow over the\nspoilers are deployed from the wings to spoil the smooth             horizontal tail surface tends to force the trailing edge of the\nairflow, reducing lift and increasing drag. On gliders, spoilers     elevator down. This causes the tail of the aircraft to move\nare most often used to control rate of descent for accurate          up and the nose to move down. [Figure 6-20]\nlandings. On other aircraft, spoilers are often used for roll\ncontrol, an advantage of which is the elimination of adverse         If the trim tab is set to the full nose-up position, the tab moves\nyaw. To turn right, for example, the spoiler on the right wing       to its full down position. In this case, the air flowing under the\nis raised, destroying some of the lift and creating more drag        horizontal tail surface hits the tab and forces the trailing edge\non the right. The right wing drops, and the aircraft banks           of the elevator up, reducing the elevator’s AOA. This causes\nand yaws to the right. Deploying spoilers on both wings at           the tail of the aircraft to move down and the nose to move up.\nthe same time allows the aircraft to descend without gaining\nspeed."
+      }
+    },
+    {
+      "section": "Antiservo Tabs",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "If a pilot makes a control input that causes the trailing edge of a stabilator to move up, how does the antiservo tab respond and what is its function?",
+      "correct_answer": "The trailing edge of the tab moves up to decrease the sensitivity of the stabilator and act as a trim device.",
+      "distractors": [
+        "The trailing edge of the tab moves down to aid the pilot in moving the control surface and decrease workload.",
+        "The trailing edge of the tab moves up to increase the sensitivity of the stabilator and destabilize the aircraft.",
+        "The trailing edge of the tab moves down to balance the aerodynamic forces and relieve control pressure."
+      ],
+      "explanation": "According to the PHAK, antiservo tabs move in the same direction as the trailing edge of the stabilator. When the stabilator's trailing edge moves up, the linkage forces the antiservo tab's trailing edge up as well. This decreases the sensitivity of the stabilator and functions as a trim device to relieve control pressure. Distractors describing the tab moving down describe servo or balance tabs, which move in the opposite direction of the control surface.",
+      "reference": {
+        "page": "6-11",
+        "text": "Nose-down trim\n                                                                   helps to move the entire flight control surface in the direction\n                                                                   that the pilot wishes it to go. A servo tab is a dynamic device\n                                                                   that deploys to decrease the pilots work load and de-stabilize\n    Elevator\n                                                                   the aircraft. Servo tabs are sometimes referred to as flight tabs\n                                           Trim tab                and are used primarily on large aircraft. They aid the pilot in\n                                                                   moving the control surface and in holding it in the desired\n                                                                   position. Only the servo tab moves in response to movement\n                                                                   of the pilot’s flight control, and the force of the airflow on\n                                                                   the servo tab then moves the primary control surface.\n                      Tab up—elevator down\n                         Nose-up trim                              Antiservo tabs work in the same manner as balance tabs\n                                                                   except, instead of moving in the opposite direction, they move\n    Elevator                                                       in the same direction as the trailing edge of the stabilator.\n                                           Trim tab                In addition to decreasing the sensitivity of the stabilator, an\n                                                                   antiservo tab also functions as a trim device to relieve control\n                                                                   pressure and maintain the stabilator in the desired position.\n                                                                   The fixed end of the linkage is on the opposite side of the\n                                                                   surface from the horn on the tab; when the trailing edge of the\n                                                                   stabilator moves up, the linkage forces the trailing edge of the\n                       Tab up—elevator up                          tab up."
+      }
+    },
+    {
+      "section": "Flight Controls",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "A student pilot notices their training aircraft uses cables, pulleys, and rods to move the control surfaces rather than a hydraulic or fly-by-wire system. According to the PHAK, what is the primary reason mechanical flight control systems are still used in small general and sport category aircraft?",
+      "correct_answer": "The aerodynamic forces acting on the control surfaces are not excessive, making mechanical systems adequate",
+      "distractors": [
+        "FAA regulations require mechanical control systems in all aircraft used for private pilot training",
+        "Mechanical systems provide greater control authority than hydraulic systems at low airspeeds",
+        "The control surfaces on light aircraft are too small to accommodate hydraulic actuators"
+      ],
+      "explanation": "According to PHAK Chapter 6, mechanical flight control systems—the most basic design dating back to early aircraft—operate using rods, cables, pulleys, and sometimes chains to transmit flight deck control inputs to the control surfaces. The PHAK states these systems are still used today in small general and sport category aircraft specifically because the aerodynamic forces are not excessive. The suitability of a mechanical system is determined by the magnitude of aerodynamic forces involved, not by regulation, control authority claims, or physical surface size limitations.",
+      "reference": {
+        "page": "6-1",
+        "text": "Introduction\n   This chapter focuses on the flight control systems a pilot uses\n   to control the forces of flight and the aircraft’s direction and\n   attitude. It should be noted that flight control systems and\n   characteristics can vary greatly depending on the type of\n   aircraft flown. The most basic flight control system designs\n   are mechanical and date back to early aircraft. They operate\n   with a collection of mechanical parts, such as rods, cables,\n   pulleys, and sometimes chains to transmit the forces of the\n   flight deck controls to the control surfaces. Mechanical flight\n   control systems are still used today in small general and\n   sport category aircraft where the aerodynamic forces are not\n   excessive. [Figure 6-1] 6-1"
+      }
+    }
+  ]
+}

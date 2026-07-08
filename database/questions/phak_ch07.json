@@ -3,163 +3,361 @@
   "chapter": 7,
   "questions": [
     {
-      "section": "Powerplant",
-      "difficulty": 1,
+      "section": "Reciprocating Engines",
+      "difficulty": 3,
       "categories": [
         "written_exam",
         "checkride_oral"
       ],
-      "question": "In a normally aspirated reciprocating engine, what happens to engine power output as altitude increases?",
-      "correct_answer": "Power output decreases due to reduced air density",
+      "question": "Why are in-line reciprocating engines normally limited to four or six cylinders?",
+      "correct_answer": "The rearmost cylinders receive very little cooling air, restricting how many cylinders can be effectively cooled.",
       "distractors": [
-        "Power output increases due to cooler air",
-        "Power output remains the same",
-        "Power output increases due to lower atmospheric pressure"
+        "The small frontal area creates insufficient airflow for fuel atomization beyond six cylinders.",
+        "The power-to-weight ratio becomes too high for the airframe structure beyond six cylinders.",
+        "The combustion process in the front cylinders consumes too much oxygen, starving rear cylinders beyond six."
       ],
-      "explanation": "As altitude increases, air density decreases, meaning less air (and oxygen) enters the cylinders, reducing the engine's power output.",
+      "explanation": "According to the PHAK Chapter 7, in-line engines have a comparatively small frontal area, but the rearmost cylinders of an air-cooled, in-line engine receive very little cooling air. This cooling limitation is what restricts these engines to four or six cylinders, not issues related to fuel atomization, structural limits, or oxygen starvation.",
       "reference": {
-        "page": "7-12",
-        "text": "As a normally aspirated aircraft climbs, it eventually reaches an altitude where the MAP is insufficient for a normal climb. This altitude limit is known as the aircraft’s service ceiling, and it is directly affected by the engine’s ability to produce power. If the induction air entering the engine is pressurized or boosted, by either a supercharger or a turbosupercharger, the aircraft’s service ceiling can be increased. With these systems, an aircraft can fly at higher altitudes with the advantage of higher true airspeeds and the increased ability to circumnavigate adverse weather."
+        "page": "7-2",
+        "text": "Reciprocating engines operate on the basic principle of\nconverting chemical energy (fuel) into mechanical energy.\nThis conversion occurs within the cylinders of the engine         Figure 7-1. Radial engine.\nthrough the process of combustion. The two primary\nreciprocating engine designs are the spark ignition and the       In-line engines have a comparatively small frontal area, but\ncompression ignition. The spark ignition reciprocating engine     their power-to-weight ratios are relatively low. In addition,\nhas served as the powerplant of choice for many years. In         the rearmost cylinders of an air-cooled, in-line engine\nan effort to reduce operating costs, simplify design, and         receive very little cooling air, so these engines are normally\nimprove reliability, several engine manufacturers are turning     limited to four or six cylinders. V-type engines provide\nto compression ignition as a viable alternative. Often referred   more horsepower than in-line engines and still retain a small\nto as jet fuel piston engines, compression ignition engines       frontal area.\nhave the added advantage of utilizing readily available and\nlower cost diesel or jet fuel.                                    Continued improvements in engine design led to the\n                                                                  development of the horizontally-opposed engine, which\nThe main mechanical components of the spark ignition and          remains the most popular reciprocating engines used on\nthe compression ignition engine are essentially the same."
       }
     },
     {
-      "section": "Carburetor Icing",
-      "difficulty": 2,
+      "section": "Reciprocating Engines",
+      "difficulty": 3,
       "categories": [
         "written_exam",
         "checkride_oral"
       ],
-      "question": "Under what atmospheric conditions is carburetor icing most likely?",
-      "correct_answer": "Temperatures between 20°F and 70°F with visible moisture or high humidity",
+      "question": "A propeller blade is designed with a greater angle of incidence near the hub than at the tip. What is the primary purpose of this twist?",
+      "correct_answer": "To produce uniform lift from the hub to the tip by compensating for the difference in rotational speed along the blade",
       "distractors": [
-        "In freezing temperatures below 32°F with low humidity",
-        "In clear air above 80°F at low altitude",
-        "In clouds with temperatures below 0°F"
+        "To reduce aerodynamic drag at the blade tips where the rotational speed is greatest",
+        "To increase structural strength of the blade near the hub where centrifugal forces are highest",
+        "To allow the propeller to maintain a constant RPM during changes in engine power output"
       ],
-      "explanation": "Carburetor ice can form at temperatures as warm as 70°F (21°C) with humidity as low as 50%, due to the temperature drop from fuel vaporization and the venturi effect.",
+      "explanation": "According to the Pilot's Handbook of Aeronautical Knowledge (Chapter 7), the twist in a propeller blade exists to produce uniform lift from the hub to the tip. Because the tip travels a greater distance than the hub in the same amount of time, it moves faster through the air. If the blade had a constant angle of incidence, the faster-moving tip would produce far more lift than the hub. By varying the angle of incidence to correspond with the rotational speed at each point along the blade, lift is equalized. The distractors are incorrect because the twist is an aerodynamic design for lift uniformity—not for drag reduction, structural reinforcement, or RPM governing (which is the job of a constant-speed propeller governor).",
       "reference": {
-        "page": "7-10",
-        "text": "The first indication of carburetor icing in an aircraft with a fixed-pitch propeller is a decrease in engine rpm, which may be followed by engine roughness. In an aircraft with a constant-speed propeller, carburetor icing is usually indicated by a decrease in manifold pressure, but no reduction in rpm. Propeller pitch is automatically adjusted to compensate for loss of power. Although carburetor ice can occur during any phase of flight, it is particularly dangerous when using reduced power during a descent. Under certain conditions, carburetor ice could build unnoticed until power is added. To combat the effects of carburetor ice, engines with float-type carburetors employ a carburetor heat system. Carburetor heat is an anti-icing system that preheats the air before it reaches the carburetor and is intended to keep the fuel-air mixture above freezing to prevent the formation of carburetor ice. Carburetor heat can be used to melt ice that has already formed in the carburetor if the accumulation is not too great, but using carburetor heat as a preventative measure is the better option. Additionally, carburetor heat may be used as an alternate air source if the intake filter clogs, such as in sudden or unexpected airframe icing conditions. The carburetor heat should be checked during the engine runup. When using carburetor heat, follow the manufacturer's recommendations. When conditions are conducive to carburetor icing during flight, periodic checks should be made to detect its presence. If detected, full carburetor heat should be applied immediately, and it should be left in the ON position until the pilot is certain that all the ice has been removed. If ice is present, applying partial heat or leaving heat on for an insufficient time might aggravate the situation. In extreme cases of carburetor icing, even after the ice has been removed, full carburetor heat should be used to prevent further ice formation. If installed, a carburetor temperature gauge is useful in determining when to use carburetor heat. Whenever the throttle is closed during flight, the engine cools rapidly and vaporization of the fuel is less complete than if the engine is warm. Also, in this condition, the engine is more susceptible to carburetor icing. If carburetor icing conditions are suspected and closed-throttle operation anticipated, adjust the carburetor heat to the full ON position before closing the throttle and leave it on during the closed-throttle operation. The heat aids in vaporizing the fuel and helps prevent the formation of carburetor ice. Periodically, open the throttle smoothly for a few seconds to keep the engine warm; otherwise, the carburetor heater may not provide enough heat to prevent icing. The use of carburetor heat causes a decrease in engine power, sometimes up to 15 percent, because the heated air is less dense than the outside air that had been entering the engine. This enriches the mixture. When ice is present in an aircraft with a fixed-pitch propeller and carburetor heat is being used, there is a decrease in rpm, followed by a gradual increase in rpm as the ice melts. The engine also should run more smoothly after the ice has been removed. If ice is not present, the rpm decreases and then remains constant. When carburetor heat is used on an aircraft with a constant-speed propeller and ice is present, a decrease in the manifold pressure is noticed, followed by a gradual increase. If carburetor icing is not present, the gradual increase in manifold pressure is not apparent until the carburetor heat is turned off. It is imperative for a pilot to recognize carburetor ice when it forms during flight to prevent a loss in power, altitude, and/or airspeed. These symptoms may sometimes be accompanied by vibration or engine roughness. Once a power loss is noticed, immediate action should be taken to eliminate ice already formed in the carburetor and to prevent further ice formation. This is accomplished by applying full carburetor heat, which will further reduce power and may cause engine roughness as melted ice goes through the engine. These symptoms may last from 30 seconds to several minutes, depending on the severity of the icing. During this period, the pilot must resist the temptation to decrease the carburetor heat usage. Carburetor heat must remain in the full-hot position until normal power returns."
+        "page": "7-4",
+        "text": "The reason for the twist is to produce uniform lift from the\n                                                                        hub to the tip. As the blade rotates, there is a difference in\n                                                                        the actual speed of the various portions of the blade. The tip\n                                                                        of the blade travels faster than the part near the hub, because\n                                                                        the tip travels a greater distance than the hub in the same\n                3. Power                     4. Exhaust\n                                                                        length of time. [Figure 7-7] Changing the angle of incidence\n                                                                        (pitch) from the hub to the tip to correspond with the speed\nmotion of the crankshaft and piston during the four-stroke cycle.       propeller blade designed with the same angle of incidence 7-4"
       }
     },
     {
-      "section": "Carburetor Heat",
-      "difficulty": 2,
+      "section": "Reciprocating Engines",
+      "difficulty": 3,
+      "categories": [
+        "written_exam"
+      ],
+      "question": "Why would a propeller blade with the same pitch throughout its entire length be inefficient as airspeed increases in flight?",
+      "correct_answer": "The portion near the hub would have a negative angle of attack while the blade tip would be stalled",
+      "distractors": [
+        "The portion near the hub would be stalled while the blade tip would have a negative angle of attack",
+        "The entire blade would simultaneously stall as forward airspeed increases",
+        "The portion near the hub would produce excessive thrust while the blade tip would produce no thrust"
+      ],
+      "explanation": "According to the Pilot's Handbook of Aeronautical Knowledge (Chapter 7), a propeller blade with the same pitch throughout its entire length would be inefficient because, as airspeed increases in flight, the different rotational speeds along the blade cause the inner portion near the hub to develop a negative angle of attack while the faster-moving blade tip would stall. This is why propeller blades are designed with a twist — varying pitch along their length — to maintain an efficient angle of attack across the entire blade span.",
+      "reference": {
+        "page": "7-5",
+        "text": "The cruise propeller has a higher pitch, therefore more\n                                                                                 drag. More drag results in lower rpm and less horsepower\n                                                                                 capability, which decreases performance during takeoffs and\n                                                                                 climbs but increases efficiency during cruising flight.\n                                                                                 The propeller is usually mounted on a shaft, which may be\n                                                                                 an extension of the engine crankshaft. In this case, the rpm\nthroughout its entire length would be inefficient because as\n                                                                                 of the propeller would be the same as the crankshaft rpm. On\nairspeed increases in flight, the portion near the hub would\n                                                                                 some engines, the propeller is mounted on a shaft geared to\nhave a negative AOA while the blade tip would be stalled.\n                                                                                 the engine crankshaft. In this type, the rpm of the propeller\nSmall aircraft are equipped with either one of two types of\n                                                                                 is different than that of the engine.\npropellers: fixed-pitch or adjustable-pitch."
+      }
+    },
+    {
+      "section": "AND 2350 RPM",
+      "difficulty": 3,
       "categories": [
         "written_exam",
         "checkride_oral"
       ],
-      "question": "What is the first indication of carburetor icing in an aircraft with a fixed-pitch propeller?",
-      "correct_answer": "A decrease in RPM",
+      "question": "A pilot is flying an aircraft with a constant-speed propeller and notices a continuous decrease in airspeed. If the airspeed decreases enough to rotate the propeller blades to the low pitch stop, what will happen to engine RPM with any further decrease in airspeed?",
+      "correct_answer": "Engine RPM will decrease in the same manner as a fixed-pitch propeller, because the blades can no longer reduce pitch to maintain RPM",
       "distractors": [
-        "A decrease in manifold pressure",
-        "An increase in oil temperature",
-        "A rougher engine sound followed by increased RPM"
+        "Engine RPM will remain constant because the constant-speed governor will continue to adjust blade angle regardless of the low pitch stop",
+        "Engine RPM will increase because the reduced airspeed lowers the aerodynamic load on the propeller blades",
+        "Engine RPM will remain constant because the manifold pressure automatically compensates for the airspeed loss"
       ],
-      "explanation": "In a fixed-pitch propeller aircraft, carburetor ice restricts airflow to the engine, reducing power, which shows as a decrease in RPM.",
-      "reference": {
-        "page": "7-10",
-        "text": "The first indication of carburetor icing in an aircraft with a fixed-pitch propeller is a decrease in engine rpm, which may be followed by engine roughness."
-      }
-    },
-    {
-      "section": "Fuel System",
-      "difficulty": 1,
-      "categories": [
-        "written_exam",
-        "general_knowledge"
-      ],
-      "question": "What color is 100LL aviation gasoline?",
-      "correct_answer": "Blue",
-      "distractors": [
-        "Green",
-        "Red",
-        "Clear"
-      ],
-      "explanation": "100LL (low lead) aviation gasoline is dyed blue for identification. Other grades: 80 (red), 100 (green), Jet-A (clear/straw).",
-      "reference": {
-        "page": "7-15",
-        "text": "The operation of the magneto is controlled in the flight deck by the ignition switch. The switch has five positions: 1. OFF 2. R (right) 3. L (left) 4. BOTH 5. START With RIGHT or LEFT selected, only the associated magneto is activated. The system operates on both magnetos when BOTH is selected."
-      }
-    },
-    {
-      "section": "Fuel System",
-      "difficulty": 2,
-      "categories": [
-        "written_exam",
-        "checkride_oral"
-      ],
-      "question": "Why should a pilot drain fuel from the sumps during preflight?",
-      "correct_answer": "To check for water contamination and sediment",
-      "distractors": [
-        "To reduce fuel weight for takeoff",
-        "To verify the fuel quantity gauges are accurate",
-        "To prime the engine for starting"
-      ],
-      "explanation": "Water is denser than avgas and collects at the low points (sumps). Draining a sample reveals water (which appears as a clear bubble at the bottom) or sediment contamination.",
-      "reference": {
-        "page": "7-11",
-        "text": "Most aircraft are also equipped with an outside air temperature (OAT) gauge calibrated in both degrees Celsius and Fahrenheit. It provides the outside or ambient air temperature for calculating true airspeed and is useful in detecting potential icing conditions."
-      }
-    },
-    {
-      "section": "Electrical System",
-      "difficulty": 2,
-      "categories": [
-        "written_exam",
-        "checkride_oral"
-      ],
-      "question": "What is the function of the alternator in a light aircraft?",
-      "correct_answer": "To supply electrical power during normal operation and recharge the battery",
-      "distractors": [
-        "To start the engine",
-        "To provide emergency backup power only",
-        "To regulate fuel flow to the engine"
-      ],
-      "explanation": "The alternator is the primary source of electrical power during flight. It powers electrical systems and recharges the battery. The battery is used primarily for engine start.",
-      "reference": {
-        "page": "7-15",
-        "text": "A malfunctioning ignition system can be identified durin"
-      }
-    },
-    {
-      "section": "Oil System",
-      "difficulty": 1,
-      "categories": [
-        "written_exam",
-        "general_knowledge"
-      ],
-      "question": "What are the primary functions of engine oil in a reciprocating aircraft engine?",
-      "correct_answer": "Lubrication, cooling, and sealing",
-      "distractors": [
-        "Lubrication only",
-        "Cooling and fuel mixing",
-        "Cleaning and fuel delivery"
-      ],
-      "explanation": "Engine oil lubricates moving parts, helps cool the engine by carrying heat away from cylinders, and provides a seal between piston rings and cylinder walls.",
-      "reference": {
-        "page": "7-1",
-        "text": "Powerplant\nAn aircraft engine, or powerplant, produces thrust to propel an aircraft. Reciprocating engines and turboprop engines work in combination with a propeller to produce thrust. Turbojet and turbofan engines produce thrust by increasing the velocity of air flowing through the engine. All of these powerplants also drive the various systems that support the operation of an aircraft."
-      }
-    },
-    {
-      "section": "Propeller",
-      "difficulty": 2,
-      "categories": [
-        "written_exam",
-        "checkride_oral"
-      ],
-      "question": "What is the purpose of a constant-speed propeller?",
-      "correct_answer": "To automatically adjust blade pitch to maintain a selected RPM",
-      "distractors": [
-        "To keep the aircraft at a constant airspeed",
-        "To prevent the engine from exceeding redline temperature",
-        "To reduce propeller noise at all speeds"
-      ],
-      "explanation": "A constant-speed propeller uses a governor to automatically change blade pitch, maintaining the RPM set by the pilot regardless of airspeed or power changes.",
+      "explanation": "According to PHAK Chapter 7, a constant-speed propeller maintains selected RPM by adjusting blade pitch as airspeed changes. However, once airspeed decreases enough to rotate the blades to the low pitch stop, the blades cannot decrease pitch any further. At this point, the constant-speed mechanism has reached its limit, and any additional decrease in airspeed will cause engine RPM to decrease just as it would with a fixed-pitch propeller. The governor cannot maintain RPM beyond the mechanical limits of the blade pitch range.",
       "reference": {
         "page": "7-6",
-        "text": "A constant-speed propeller is a controllable-pitch propeller whose pitch is automatically varied in flight by a governor maintaining constant rpm despite varying air loads. It is the most common type of adjustable-pitch propeller. The main advantage of a constant-speed propeller is that it converts a high percentage of brake horsepower (BHP) into thrust horsepower (THP) over a wide range of rpm and airspeed combinations. A constant-speed propeller is more efficient than other propellers because it allows selection of the most efficient engine rpm for the given conditions.\n\nAn aircraft with a constant-speed propeller has two controls: the throttle and the propeller control. The throttle controls power output, and the propeller control regulates engine rpm. This regulates propeller rpm, which is registered on the tachometer.\n\nOnce a specific rpm is selected, a governor automatically adjusts the propeller blade angle as necessary to maintain the selected rpm. For example, after setting the desired rpm, an increase in airspeed or decrease in propeller load causes the propeller blade angle to increase as necessary to maintain the selected rpm. A reduction in airspeed or increase in propeller load causes the propeller blade angle to decrease."
+        "text": "density (higher density altitude) decreases the power output       will increase or decrease as appropriate, with changes in\nof the engine. As altitude changes, the position of the throttle   airspeed and propeller load. For example, once a specific\nmust be changed to maintain the same rpm. As altitude is           rpm has been selected, if aircraft speed decreases enough to\nincreased, the throttle must be opened further to indicate the     rotate the propeller blades until they contact the low pitch\nsame rpm as at a lower altitude.                                   stop, any further decrease in airspeed will cause engine rpm\n                                                                   to decrease the same way as if a fixed-pitch propeller were\nAdjustable-Pitch Propeller                                         installed. The same holds true when an aircraft equipped with\nThe adjustable-pitch propeller was the forerunner of the           a constant-speed propeller accelerates to a faster airspeed. As\nconstant-speed propeller. It is a propeller with blades whose      the aircraft accelerates, the propeller blade angle increases to\npitch can be adjusted on the ground with the engine not            maintain the selected rpm until the high pitch stop is reached.\nrunning, but which cannot be adjusted in flight. It is also        Once this occurs, the blade angle cannot increase any further\nreferred to as a ground adjustable propeller. By the 1930s,        and engine rpm increases.\npioneer aviation inventors were laying the ground work for\nautomatic pitch-change mechanisms, which is why the term           On aircraft equipped with a constant-speed propeller, power\nsometimes refers to modern constant-speed propellers that          output is controlled by the throttle and indicated by a manifold\nare adjustable in flight.                                          pressure gauge. The gauge measures the absolute pressure of\n                                                                   the fuel-air mixture inside the intake manifold and is more\nThe first adjustable-pitch propeller systems provided only two     correctly a measure of manifold absolute pressure (MAP)."
+      }
+    },
+    {
+      "section": "AND 2350 RPM",
+      "difficulty": 3,
+      "categories": [
+        "written_exam"
+      ],
+      "question": "An aircraft with a constant-speed propeller is accelerating to a higher airspeed with a specific RPM selected. What happens when the propeller blades reach the high pitch stop?",
+      "correct_answer": "The blade angle can no longer increase, so engine RPM increases",
+      "distractors": [
+        "The blade angle can no longer increase, so engine RPM decreases just like a fixed-pitch propeller",
+        "The propeller governor reduces blade angle to prevent the engine from exceeding redline RPM",
+        "The blade angle continues to increase beyond the stop, maintaining the selected RPM"
+      ],
+      "explanation": "According to PHAK Chapter 7, as an aircraft with a constant-speed propeller accelerates, the propeller blade angle increases to maintain the selected RPM until the high pitch stop is reached. Once this occurs, the blade angle cannot increase any further and engine RPM increases. This is the opposite of the low pitch stop scenario, where a decrease in airspeed causes RPM to decrease as it would with a fixed-pitch propeller.",
+      "reference": {
+        "page": "7-6",
+        "text": "density (higher density altitude) decreases the power output       will increase or decrease as appropriate, with changes in\nof the engine. As altitude changes, the position of the throttle   airspeed and propeller load. For example, once a specific\nmust be changed to maintain the same rpm. As altitude is           rpm has been selected, if aircraft speed decreases enough to\nincreased, the throttle must be opened further to indicate the     rotate the propeller blades until they contact the low pitch\nsame rpm as at a lower altitude.                                   stop, any further decrease in airspeed will cause engine rpm\n                                                                   to decrease the same way as if a fixed-pitch propeller were\nAdjustable-Pitch Propeller                                         installed. The same holds true when an aircraft equipped with\nThe adjustable-pitch propeller was the forerunner of the           a constant-speed propeller accelerates to a faster airspeed. As\nconstant-speed propeller. It is a propeller with blades whose      the aircraft accelerates, the propeller blade angle increases to\npitch can be adjusted on the ground with the engine not            maintain the selected rpm until the high pitch stop is reached.\nrunning, but which cannot be adjusted in flight. It is also        Once this occurs, the blade angle cannot increase any further\nreferred to as a ground adjustable propeller. By the 1930s,        and engine rpm increases.\npioneer aviation inventors were laying the ground work for\nautomatic pitch-change mechanisms, which is why the term           On aircraft equipped with a constant-speed propeller, power\nsometimes refers to modern constant-speed propellers that          output is controlled by the throttle and indicated by a manifold\nare adjustable in flight.                                          pressure gauge. The gauge measures the absolute pressure of\n                                                                   the fuel-air mixture inside the intake manifold and is more\nThe first adjustable-pitch propeller systems provided only two     correctly a measure of manifold absolute pressure (MAP)."
+      }
+    },
+    {
+      "section": "IN Hg",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "Under what condition does the governor of a constant-speed propeller stop maintaining the selected engine RPM?",
+      "correct_answer": "When the propeller blades contact a pitch stop.",
+      "distractors": [
+        "When the pilot adjusts the manifold pressure using the throttle.",
+        "When the aircraft experiences an increase or decrease in airspeed.",
+        "When the propeller control lever is adjusted to select a new RPM."
+      ],
+      "explanation": "According to the PHAK, a constant engine rpm is maintained by the governor as long as the propeller blade angle remains within the constant-speed range and is not against either pitch stop. The governor actively adjusts the blade angle to compensate for changes in airspeed or propeller load. However, once the propeller blades contact a high or low pitch stop, they have reached the limit of their adjustable range, and the engine rpm is no longer maintained by the governor.",
+      "reference": {
+        "page": "7-6",
+        "text": "Once a specific rpm is selected, a governor automatically\nadjusts the propeller blade angle as necessary to maintain                                       30\nthe selected rpm. For example, after setting the desired rpm                              25              35\nduring cruising flight, an increase in airspeed or decrease in                              MANIFOLD\npropeller load causes the propeller blade angle to increase                          20                        40\nas necessary to maintain the selected rpm. A reduction in\nairspeed or increase in propeller load causes the propeller\n                                                                                      15         AL g .\n                                                                                                           45\nblade angle to decrease.\n                                                                                           10         50\nThe propeller’s constant-speed range, defined by the high\nand low pitch stops, is the range of possible blade angles for\na constant-speed propeller. As long as the propeller blade\nangle is within the constant-speed range and not against           Figure 7-9. Engine power output is indicated on the manifold\neither pitch stop, a constant engine rpm is maintained. If         pressure gauge.\nthe propeller blades contact a pitch stop, the engine rpm 7-6"
+      }
+    },
+    {
+      "section": "(FAA) issued Special Airworthiness Information Bulletin            Induction Systems",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "A pilot experiences a propeller failure causing the blades to move to the low pitch stop position, resulting in a propeller overspeed condition. Attempting to maintain level flight at the published best glide speed, the pilot finds inadequate thrust is being generated. What should the pilot understand about this situation?",
+      "correct_answer": "An airspeed lower than the published best glide speed may produce increased thrust, potentially enabling the pilot to maintain level flight",
+      "distractors": [
+        "An airspeed higher than the published best glide speed would generate more thrust by increasing propeller rpm and airflow through the engine",
+        "The published best glide speed will always generate adequate thrust regardless of propeller blade position, so the pilot should focus on increasing manifold pressure instead",
+        "The only way to generate additional thrust is to reduce manifold pressure, which will slow the propeller and allow the blades to move off the low pitch stop"
+      ],
+      "explanation": "According to PHAK Chapter 7, when propeller blades are stuck at the low pitch stop position, the propeller operates like a fixed-pitch propeller that changes rpm with changes in power and airspeed. A performance evaluation of this condition found that an airspeed lower than the published best glide speed would have resulted in increased thrust, enabling the pilot to maintain level flight. The low pitch setting is designed for maximum takeoff power but can cause propeller overspeed at higher airspeeds, meaning the published best glide speed may not be low enough to generate adequate thrust for a given propeller installation in this specific failure mode.",
+      "reference": {
+        "page": "7-7",
+        "text": "For any given rpm, there is a manifold pressure that should        Operating Handbook (POH), but was unable to reach the\nnot be exceeded. If manifold pressure is excessive for a given     airport and was forced to conduct an off-field landing.\nrpm, the pressure within the cylinders could be exceeded,\nplacing undue stress on the cylinders. If repeated too             It was further explained that a determination was made that the\nfrequently, this stress can weaken the cylinder components         propeller experienced a failure causing the blade pitch change\nand eventually cause engine failure.                               mechanism to move to the low pitch stop position. This caused\n                                                                   the propeller to operate as a fixed-pitch propeller such that it\nA pilot can avoid conditions that overstress the cylinders         changes rpm with changes in power and airspeed. The low\nby being constantly aware of the rpm, especially when              pitch setting allows for maximum power during takeoff but\nincreasing the manifold pressure. Consult the manufacturer’s       can result in a propeller overspeed at a higher airspeed.\nrecommendations for power settings of a particular engine to\nmaintain the proper relationship between manifold pressure         A performance evaluation of the flight condition was\nand rpm.                                                           performed for the particular aircraft model involved in this\n                                                                   incident. This evaluation indicated that an airspeed lower\nWhen both manifold pressure and rpm need to be changed,            than the best glide speed would have resulted in increased\navoid engine overstress by making power adjustments in             thrust enabling the pilot to maintain level flight. There are\nthe proper order:                                                  numerous variables in aircraft, engines, and propellers\n  •    When power settings are being decreased, reduce             that affect aircraft performance. For some aircraft models,\n       manifold pressure before reducing rpm. If rpm is            the published best glide speed may not be low enough to\n       reduced before manifold pressure, manifold pressure         generate adequate thrust for a given propeller installation in\n       automatically increases, possibly exceeding the             this situation (propeller blades at low pitch stop position).\n       manufacturer’s tolerances.\n                                                                   The operators of aircraft with variable pitch propellers should\n  •    When power settings are being increased, reverse the        be aware that in certain instances of propeller overspeed, the\n       order—increase rpm first, then manifold pressure."
+      }
+    },
+    {
+      "section": "(FAA) issued Special Airworthiness Information Bulletin            Induction Systems",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "A variable-pitch propeller has failed and the blades are stuck at the low pitch stop position, causing a propeller overspeed condition. According to the SAIB discussed in the PHAK, what action might enable the pilot to maintain level flight?",
+      "correct_answer": "Reduce airspeed below the published best glide speed to increase thrust",
+      "distractors": [
+        "Increase airspeed above best glide to drive the propeller faster and generate more thrust",
+        "Maintain best glide speed, as it always provides the optimal thrust for any propeller condition",
+        "Reduce manifold pressure to minimum and accept a descent at best glide speed"
+      ],
+      "explanation": "The PHAK describes an incident where a propeller's blade pitch change mechanism failed to the low pitch stop, causing it to act like a fixed-pitch propeller that can overspeed at higher airspeed. A performance evaluation found that an airspeed lower than best glide speed would have resulted in increased thrust, enabling level flight. This is because the published best glide speed may not be low enough to generate adequate thrust when the propeller is stuck at the low pitch stop. This counterintuitive finding illustrates that standard best glide speeds are optimized for a functioning propeller, not for this specific failure mode.",
+      "reference": {
+        "page": "7-7",
+        "text": "For any given rpm, there is a manifold pressure that should        Operating Handbook (POH), but was unable to reach the\nnot be exceeded. If manifold pressure is excessive for a given     airport and was forced to conduct an off-field landing.\nrpm, the pressure within the cylinders could be exceeded,\nplacing undue stress on the cylinders. If repeated too             It was further explained that a determination was made that the\nfrequently, this stress can weaken the cylinder components         propeller experienced a failure causing the blade pitch change\nand eventually cause engine failure.                               mechanism to move to the low pitch stop position. This caused\n                                                                   the propeller to operate as a fixed-pitch propeller such that it\nA pilot can avoid conditions that overstress the cylinders         changes rpm with changes in power and airspeed. The low\nby being constantly aware of the rpm, especially when              pitch setting allows for maximum power during takeoff but\nincreasing the manifold pressure. Consult the manufacturer’s       can result in a propeller overspeed at a higher airspeed.\nrecommendations for power settings of a particular engine to\nmaintain the proper relationship between manifold pressure         A performance evaluation of the flight condition was\nand rpm.                                                           performed for the particular aircraft model involved in this\n                                                                   incident. This evaluation indicated that an airspeed lower\nWhen both manifold pressure and rpm need to be changed,            than the best glide speed would have resulted in increased\navoid engine overstress by making power adjustments in             thrust enabling the pilot to maintain level flight. There are\nthe proper order:                                                  numerous variables in aircraft, engines, and propellers\n  •    When power settings are being decreased, reduce             that affect aircraft performance. For some aircraft models,\n       manifold pressure before reducing rpm. If rpm is            the published best glide speed may not be low enough to\n       reduced before manifold pressure, manifold pressure         generate adequate thrust for a given propeller installation in\n       automatically increases, possibly exceeding the             this situation (propeller blades at low pitch stop position).\n       manufacturer’s tolerances.\n                                                                   The operators of aircraft with variable pitch propellers should\n  •    When power settings are being increased, reverse the        be aware that in certain instances of propeller overspeed, the\n       order—increase rpm first, then manifold pressure."
+      }
+    },
+    {
+      "section": "(FAA) issued Special Airworthiness Information Bulletin            Induction Systems",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "In the event of a propeller overspeed, what is a potential outcome of reducing airspeed?",
+      "correct_answer": "It may result in the ability for continued safe flight and landing.",
+      "distractors": [
+        "It allows the aircraft to maintain engine-out best glide speed.",
+        "It eliminates the need to determine an alternative course of action.",
+        "It immediately restores the induction system's proper fuel-air mixture."
+      ],
+      "explanation": "According to the FAA handbook, in the event of a propeller overspeed, pilots should be aware that some reduction in airspeed may result in the ability for continued safe flight and landing. The text also notes that the airspeed necessary to maintain level flight in this situation may be different than the speed associated with engine-out best glide speed.",
+      "reference": {
+        "page": "7-7",
+        "text": "airspeed necessary to maintain level flight may be different\n  •    To prevent damage to radial engines, minimize               than the speed associated with engine-out best glide speed.\n       operating time at maximum rpm and manifold                  The appropriate emergency procedures should be followed to\n       pressure, and avoid operation at maximum rpm and            mitigate the emergency situation in the event of a propeller\n       low manifold pressure.                                      overspeed; however, pilots should be aware that some\n                                                                   reduction in airspeed may result in the ability for continued\nThe engine and/or airframe manufacturer’s recommendations          safe flight and landing. The determination of an airspeed that\nshould be followed to prevent severe wear, fatigue, and            is more suitable than engine-out best glide speed should only\ndamage to high-performance reciprocating engines.                  be conducted at a safe altitude when the pilot has time to\n                                                                   determine an alternative course of action other than landing\n(SAIB) CE-10-21. The subject was Propellers/Propulsers;            The induction system brings in air from the outside, mixes\nPropeller Overspeed in Piston Engine Aircraft to alert             it with fuel, and delivers the fuel-air mixture to the cylinder\noperators, pilots, and aircraft manufacturers of concerns          where combustion occurs."
+      }
+    },
+    {
+      "section": "(FAA) issued Special Airworthiness Information Bulletin            Induction Systems",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "During a propeller overspeed emergency, what should a pilot understand about the relationship between level flight airspeed and engine-out best glide speed?",
+      "correct_answer": "The airspeed needed for level flight may be different than best glide speed, and a reduction in airspeed might allow continued safe flight.",
+      "distractors": [
+        "The airspeed needed for level flight is always identical to best glide speed, so no airspeed adjustment is necessary.",
+        "The airspeed needed for level flight will always be higher than best glide speed, requiring the pilot to increase speed.",
+        "The airspeed needed for level flight must be maintained at the stall warning horn activation to prevent further overspeed."
+      ],
+      "explanation": "According to the PHAK, the airspeed necessary to maintain level flight may be different than the speed associated with engine-out best glide speed during a propeller overspeed emergency. Pilots should be aware that some reduction in airspeed may result in the ability for continued safe flight and landing, though determining a more suitable airspeed should only be conducted at a safe altitude.",
+      "reference": {
+        "page": "7-7",
+        "text": "airspeed necessary to maintain level flight may be different\n  •    To prevent damage to radial engines, minimize               than the speed associated with engine-out best glide speed.\n       operating time at maximum rpm and manifold                  The appropriate emergency procedures should be followed to\n       pressure, and avoid operation at maximum rpm and            mitigate the emergency situation in the event of a propeller\n       low manifold pressure.                                      overspeed; however, pilots should be aware that some\n                                                                   reduction in airspeed may result in the ability for continued\nThe engine and/or airframe manufacturer’s recommendations          safe flight and landing. The determination of an airspeed that\nshould be followed to prevent severe wear, fatigue, and            is more suitable than engine-out best glide speed should only\ndamage to high-performance reciprocating engines.                  be conducted at a safe altitude when the pilot has time to\n                                                                   determine an alternative course of action other than landing\n(SAIB) CE-10-21. The subject was Propellers/Propulsers;            The induction system brings in air from the outside, mixes\nPropeller Overspeed in Piston Engine Aircraft to alert             it with fuel, and delivers the fuel-air mixture to the cylinder\noperators, pilots, and aircraft manufacturers of concerns          where combustion occurs."
+      }
+    },
+    {
+      "section": "(FAA) issued Special Airworthiness Information Bulletin            Induction Systems",
+      "difficulty": 3,
+      "categories": [
+        "checkride_oral"
+      ],
+      "question": "During a propeller overspeed event, a pilot discovers that engine-out best glide speed may not provide the airspeed necessary to maintain level flight. Under what conditions should the pilot attempt to determine a more suitable airspeed?",
+      "correct_answer": "Only at a safe altitude when the pilot has time to determine an alternative course of action other than landing",
+      "distractors": [
+        "Immediately upon recognizing the overspeed, regardless of altitude, to prevent propeller damage",
+        "Only after the engine has been secured and the propeller has stopped windmilling",
+        "At any altitude provided the aircraft is first configured for engine-out best glide speed"
+      ],
+      "explanation": "According to PHAK Chapter 7, during a propeller overspeed the airspeed necessary to maintain level flight may be different than engine-out best glide speed, and some reduction in airspeed may allow continued safe flight and landing. However, the handbook specifically states that determining an airspeed more suitable than engine-out best glide speed should only be conducted at a safe altitude when the pilot has time to determine an alternative course of action. This emphasizes that experimenting with airspeed during an emergency requires sufficient altitude and time to avoid creating a more dangerous situation.",
+      "reference": {
+        "page": "7-7",
+        "text": "airspeed necessary to maintain level flight may be different\n  •    To prevent damage to radial engines, minimize               than the speed associated with engine-out best glide speed.\n       operating time at maximum rpm and manifold                  The appropriate emergency procedures should be followed to\n       pressure, and avoid operation at maximum rpm and            mitigate the emergency situation in the event of a propeller\n       low manifold pressure.                                      overspeed; however, pilots should be aware that some\n                                                                   reduction in airspeed may result in the ability for continued\nThe engine and/or airframe manufacturer’s recommendations          safe flight and landing. The determination of an airspeed that\nshould be followed to prevent severe wear, fatigue, and            is more suitable than engine-out best glide speed should only\ndamage to high-performance reciprocating engines.                  be conducted at a safe altitude when the pilot has time to\n                                                                   determine an alternative course of action other than landing\n(SAIB) CE-10-21. The subject was Propellers/Propulsers;            The induction system brings in air from the outside, mixes\nPropeller Overspeed in Piston Engine Aircraft to alert             it with fuel, and delivers the fuel-air mixture to the cylinder\noperators, pilots, and aircraft manufacturers of concerns          where combustion occurs."
+      }
+    },
+    {
+      "section": "(FAA) issued Special Airworthiness Information Bulletin            Induction Systems",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "When operating at high altitudes without leaning the mixture, carbon buildup can foul the spark plugs. What is the primary reason a rich mixture causes this carbon buildup?",
+      "correct_answer": "The rich mixture lowers the temperature inside the cylinder, inhibiting complete combustion of the fuel.",
+      "distractors": [
+        "The rich mixture raises the temperature inside the cylinder, causing the fuel to burn too quickly and leave carbon residue.",
+        "The rich mixture increases the pressure inside the cylinder, preventing the spark plugs from firing consistently.",
+        "The rich mixture increases the humidity inside the cylinder, which traps carbon particles on the spark plug electrodes."
+      ],
+      "explanation": "According to the Pilot's Handbook of Aeronautical Knowledge (Chapter 7), at higher altitudes the density of air entering the carburetor decreases while fuel density remains the same, creating a progressively richer mixture. This rich mixture lowers the temperature inside the cylinder, which inhibits complete combustion of the fuel and leads to carbon buildup on the spark plugs. Leaning the mixture compensates for decreased air density and helps prevent this condition.",
+      "reference": {
+        "page": "7-9",
+        "text": "However, as           (versus relative) Fahrenheit degrees (70 x 100/180 = 38.89\naltitude increases, the density of air entering the carburetor\ndecreases, while the density of the fuel remains the same. This\ncreates a progressively richer mixture that can result in engine                       To engine            Fuel-air mixture\nroughness and an appreciable loss of power. The roughness\nnormally is due to spark plug fouling from excessive carbon\nbuildup on the plugs. Carbon buildup occurs because the\nrich mixture lowers the temperature inside the cylinder,\ninhibiting complete combustion of the fuel. This condition\nmay occur during the runup prior to takeoff at high-elevation                Ice\nairports and during climbs or cruise flight at high altitudes.\nTo maintain the correct fuel-air mixture, the mixture must\nbe leaned using the mixture control. Leaning the mixture                   Ice\ndecreases fuel flow, which compensates for the decreased\n                                                                                                                               Ice\nair density at high altitude.\n                                                                           Venturi\nDuring a descent from high altitude, the fuel-air mixture\nmust be enriched, or it may become too lean."
+      }
+    },
+    {
+      "section": "(FAA) issued Special Airworthiness Information Bulletin            Induction Systems",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "A pilot flying an aircraft with a fixed-pitch propeller applies carburetor heat and observes the RPM drop, then gradually begin to climb back up. What does this indicate?",
+      "correct_answer": "Carburetor ice was present and is melting",
+      "distractors": [
+        "No carburetor ice was present and the engine is running normally",
+        "The carburetor heat is malfunctioning and should be turned off immediately",
+        "The mixture has become excessively lean due to the heated air"
+      ],
+      "explanation": "According to the PHAK Chapter 7, when ice is present in an aircraft with a fixed-pitch propeller and carburetor heat is applied, there is a decrease in RPM followed by a gradual increase in RPM as the ice melts. This distinguishes it from the no-ice condition, where RPM decreases and then remains decreased. The initial RPM drop occurs because the heated air is less dense, enriching the mixture, but as the ice melts and airflow is restored, RPM recovers. The engine should also run more smoothly once the ice has been removed.",
+      "reference": {
+        "page": "7-10",
+        "text": "Carburetor heat can be used to melt ice that has                   air is less dense than the outside air that had been entering\nalready formed in the carburetor if the accumulation is not too                    the engine. This enriches the mixture. When ice is present\ngreat, but using carburetor heat as a preventative measure is                      in an aircraft with a fixed-pitch propeller and carburetor\nthe better option. Additionally, carburetor heat may be used                       heat is being used, there is a decrease in rpm, followed by\nas an alternate air source if the intake filter clogs, such as in                  a gradual increase in rpm as the ice melts. The engine also\nsudden or unexpected airframe icing conditions. The carburetor                     should run more smoothly after the ice has been removed.\nheat should be checked during the engine runup. When using                         If ice is not present, the rpm decreases and then remains\ncarburetor heat, follow the manufacturer’s recommendations."
+      }
+    },
+    {
+      "section": "(FAA) issued Special Airworthiness Information Bulletin            Induction Systems",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "During an engine runup, a pilot applies carburetor heat to check its function. If carburetor ice is NOT present, what change in engine RPM should the pilot expect to observe?",
+      "correct_answer": "The RPM decreases and then remains constant.",
+      "distractors": [
+        "The RPM decreases momentarily, followed by a gradual increase.",
+        "The RPM increases and then remains constant.",
+        "The RPM remains constant with no noticeable change."
+      ],
+      "explanation": "According to the FAA Pilot's Handbook of Aeronautical Knowledge (Chapter 7), applying carburetor heat routes warm, less dense air into the engine, which enriches the mixture and causes a drop in RPM. If carburetor ice is not present, the RPM will decrease and then remain constant. If ice were present, the initial drop in RPM would be followed by a gradual increase as the ice melts.",
+      "reference": {
+        "page": "7-10",
+        "text": "Carburetor heat can be used to melt ice that has                   air is less dense than the outside air that had been entering\nalready formed in the carburetor if the accumulation is not too                    the engine. This enriches the mixture. When ice is present\ngreat, but using carburetor heat as a preventative measure is                      in an aircraft with a fixed-pitch propeller and carburetor\nthe better option. Additionally, carburetor heat may be used                       heat is being used, there is a decrease in rpm, followed by\nas an alternate air source if the intake filter clogs, such as in                  a gradual increase in rpm as the ice melts. The engine also\nsudden or unexpected airframe icing conditions. The carburetor                     should run more smoothly after the ice has been removed.\nheat should be checked during the engine runup. When using                         If ice is not present, the rpm decreases and then remains\ncarburetor heat, follow the manufacturer’s recommendations."
+      }
+    },
+    {
+      "section": "(FAA) issued Special Airworthiness Information Bulletin            Induction Systems",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "During a carburetor heat check on an aircraft with a constant-speed propeller, you apply carburetor heat and observe an initial decrease in manifold pressure with no subsequent gradual increase. Assuming no carburetor ice is present, when would you expect to see manifold pressure increase?",
+      "correct_answer": "When the carburetor heat is turned off",
+      "distractors": [
+        "After a few seconds, once the warmer air stabilizes in the intake manifold",
+        "Immediately after the initial decrease, as the engine compensates for the temperature change",
+        "The manifold pressure would remain at its decreased value even after carburetor heat is turned off"
+      ],
+      "explanation": "According to the Pilot's Handbook of Aeronautical Knowledge (Chapter 7), when carburetor heat is applied on an aircraft with a constant-speed propeller and ice IS present, the pilot sees a decrease in manifold pressure followed by a gradual increase as the ice melts. However, if carburetor icing is NOT present, that gradual increase in manifold pressure does not occur while the heat is on. The increase in manifold pressure only becomes apparent when the carburetor heat is turned off and denser, cooler air is restored to the engine.",
+      "reference": {
+        "page": "7-10",
+        "text": "constant. When carburetor heat is used on an aircraft with a\n                                                                                   constant-speed propeller and ice is present, a decrease in the\nWhen conditions are conducive to carburetor icing during                           manifold pressure is noticed, followed by a gradual increase.\nflight, periodic checks should be made to detect its                               If carburetor icing is not present, the gradual increase in\n                                                                                   manifold pressure is not apparent until the carburetor heat\n                      100%                                                         is turned off.\n                                   High carburetor\n                      90%           icing potential                                It is imperative for a pilot to recognize carburetor ice when it\n  Relative humidity"
+      }
+    },
+    {
+      "section": "20°F/-7°C 32°F/0°C        70°F/21°C      100°F/38°C",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "A pilot applies full carburetor heat to clear suspected carburetor ice. The engine runs rougher and power drops further. What is the correct pilot action during this period?",
+      "correct_answer": "Leave carburetor heat in the full-hot position until normal power returns",
+      "distractors": [
+        "Reduce carburetor heat to partial hot to stabilize engine roughness",
+        "Remove carburetor heat temporarily to restore power, then reapply it",
+        "Cycle carburetor heat on and off in 10-second intervals to clear ice gradually",
+        "Remove carburetor heat completely and plan an immediate precautionary landing"
+      ],
+      "explanation": "According to PHAK Chapter 7, applying full carburetor heat to clear ice will further reduce power and may cause engine roughness as melted ice passes through the engine. These symptoms can last from 30 seconds to several minutes depending on icing severity. The handbook explicitly states that during this period, the pilot must resist the temptation to decrease carburetor heat usage and must keep it in the full-hot position until normal power returns. Reducing or cycling heat would interrupt the ice-clearing process and could allow ice to re-form.",
+      "reference": {
+        "page": "7-10",
+        "text": "forms during flight to prevent a loss in power, altitude, and/or\n                      80%                                                          airspeed. These symptoms may sometimes be accompanied\n                                                                                   by vibration or engine roughness. Once a power loss is\n                      70%\n                                          Carburetor icing possible                noticed, immediate action should be taken to eliminate ice\n                                                                                   already formed in the carburetor and to prevent further ice\n                      60%                                                          formation. This is accomplished by applying full carburetor\n                                                                                   heat, which will further reduce power and may cause engine\n                      50%                                                          roughness as melted ice goes through the engine. These\n                                           Outside air temperature\n                                                                                   symptoms may last from 30 seconds to several minutes,\n                                                                                   depending on the severity of the icing. During this period, the\n                                                                                   pilot must resist the temptation to decrease the carburetor heat\n                                                                                   usage. Carburetor heat must remain in the full-hot position\nthe temperature and humidity are in ranges indicated by this chart,\n                                                                                   until normal power returns.\ncarburetor icing is possible under conditions not depicted. 7-10"
+      }
+    },
+    {
+      "section": "20°F/-7°C 32°F/0°C        70°F/21°C      100°F/38°C",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "Under what conditions may a pilot operate an engine with the carburetor air temperature indicator in the yellow arc?",
+      "correct_answer": "When the air temperature and moisture content are such that carburetor icing is improbable",
+      "distractors": [
+        "Only during descents with reduced power settings, regardless of atmospheric conditions",
+        "Only after carburetor heat has been fully applied to warm the induction system",
+        "At any time, since the yellow arc merely indicates a cautionary temperature range with no operational restrictions"
+      ],
+      "explanation": "According to PHAK Chapter 7, the yellow arc on the carburetor air temperature indicator represents the temperature range where carburetor icing may occur (typically -15°C to +5°C). The handbook explicitly states that if the air temperature and moisture content of the air are such that carburetor icing is improbable, the engine can be operated with the indicator in the yellow range with no adverse effects. However, if atmospheric conditions are conducive to carburetor icing, the pilot must keep the indicator outside the yellow arc by applying carburetor heat. Distractor A is incorrect because the permissibility depends on atmospheric conditions, not phase of flight. Distractor B is incorrect because applying carburetor heat is the remedy used to move the indicator OUT of the yellow arc when icing conditions exist. Distractor C is incorrect because it ignores the requirement to avoid the yellow arc when conditions are conducive to icing.",
+      "reference": {
+        "page": "7-11",
+        "text": "This source is used if the external\nwith a yellow arc indicating the carburetor air temperatures      air source is obstructed. The alternate air source is usually\nwhere icing may occur. This yellow arc typically ranges           operated automatically, with a backup manual system that\nbetween –15 °C and +5 °C (5 °F and 41 °F). If the air             can be used if the automatic feature malfunctions.\ntemperature and moisture content of the air are such that\ncarburetor icing is improbable, the engine can be operated        A fuel injection system usually incorporates six basic\nwith the indicator in the yellow range with no adverse effects.   components: an engine-driven fuel pump, a fuel-air control\nIf the atmospheric conditions are conducive to carburetor         unit, a fuel manifold (fuel distributor), discharge nozzles,\nicing, the indicator must be kept outside the yellow arc by       an auxiliary fuel pump, and fuel pressure/flow indicators.\napplication of carburetor heat.                                   [Figure 7-13]"
+      }
+    },
+    {
+      "section": "20°F/-7°C 32°F/0°C        70°F/21°C      100°F/38°C",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "When an aircraft equipped with a two-speed supercharger reaches the specified altitude to shift to high blower, what is the correct sequence of pilot actions?",
+      "correct_answer": "Make a power reduction, switch the supercharger control to high blower, and then reset the throttle to the desired manifold pressure.",
+      "distractors": [
+        "Switch the supercharger control to high blower, make a power reduction, and then reset the throttle to the desired manifold pressure.",
+        "Reset the throttle to the desired manifold pressure, make a power reduction, and then switch the supercharger control to high blower.",
+        "Switch the supercharger control to high blower, reset the throttle to the desired manifold pressure, and then make a power reduction."
+      ],
+      "explanation": "According to the Pilot's Handbook of Aeronautical Knowledge (PHAK) Chapter 7, when an aircraft with a supercharger reaches a specified altitude, a power reduction is made first. The supercharger control is then switched to the high blower position, and finally, the throttle is reset to the desired manifold pressure.",
+      "reference": {
+        "page": "7-13",
+        "text": "However, once                  horsepower at higher altitudes. A turbocharger is comprised\nthe aircraft reaches a specified altitude, a power reduction is                 of two main elements: a compressor and turbine. The\nmade, and the supercharger control is switched to the high                      compressor section houses an impeller that turns at a high rate\nblower position. The throttle is then reset to the desired                      of speed. As induction air is drawn across the impeller blades,\nmanifold pressure. An engine equipped with this type of                         the impeller accelerates the air, allowing a large volume of\nsupercharger is called an altitude engine. [Figure 7-14]                        air to be drawn into the compressor housing. The impeller’s\n                                                                                action subsequently produces high-pressure, high-density\nTurbosuperchargers                                                              air that is delivered to the engine. To turn the impeller, the\nThe most efficient method of increasing horsepower in an                        engine’s exhaust gases are used to drive a turbine wheel\nengine is by using a turbosupercharger or turbocharger."
       }
     }
   ]

@@ -1,0 +1,364 @@
+{
+  "source": "AFH",
+  "chapter": 16,
+  "questions": [
+    {
+      "section": "Absence of Propeller Drag",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "A pilot transitioning to jets notices that closing the throttles to idle does not produce the same rapid deceleration experienced in piston-powered aircraft. What best explains this difference?",
+      "correct_answer": "The jet engine still produces forward thrust at idle power, and without a propeller there is no significant drag effect, compounded by the aerodynamically clean airframe.",
+      "distractors": [
+        "Jet engines require more time to spool down from cruise power to idle, delaying the reduction in thrust compared to piston engines.",
+        "Jet aircraft are typically heavier than piston aircraft, giving them more momentum that takes longer to bleed off.",
+        "The high-altitude environment where jets typically operate has thinner air, providing less aerodynamic drag to slow the airplane."
+      ],
+      "explanation": "According to AFH Chapter 16, when throttles are closed on a piston-powered airplane, the propellers create significant drag that immediately decreases airspeed or altitude. In contrast, reducing power to idle on a jet engine produces no such drag effect — the jet engine still produces forward thrust even at idle. Combined with the aerodynamically clean airframe of a jet, this means the airplane decelerates very slowly. The source notes that in level flight at idle power, it takes approximately 1 mile to lose just 10 knots of airspeed. The distractors are incorrect because they describe other real jet characteristics (spool-up time, weight, altitude) that are not the factors identified by the source material for this specific deceleration problem.",
+      "reference": {
+        "page": "16-4",
+        "text": "When the throttles are closed on a piston-powered airplane, the propellers create significant drag. Airspeed or altitude is immediately\ndecreased. The effect of reducing power to idle on the jet engine, however, produces no such drag effect. In fact, at an idle power\nsetting, the jet engine still produces forward thrust. While this can be an advantage in certain descent profiles, it is a handicap when it\nis necessary to lose speed quickly. The lack of propeller drag, along with the aerodynamically clean airframe of the jet, are new to\nmost pilots, and slowing the airplane down is one of the initial problems encountered by pilots transitioning into jets. In level flight at\nidle power, it takes about 1 mile to lose 10 knots of airspeed."
+      }
+    },
+    {
+      "section": "Absence of Propeller Drag",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "A pilot transitioning to jets is surprised by how long it takes to slow the aircraft down after reducing power to idle. What primary characteristic of jet engines contributes to this difficulty compared to a piston-powered airplane?",
+      "correct_answer": "The jet engine continues to produce forward thrust even at idle power, with no propeller drag to help slow the aircraft",
+      "distractors": [
+        "The jet engine produces reverse thrust at idle power settings, which counteracts the aerodynamic drag",
+        "The jet engine produces significantly more drag than a propeller at idle, but the heavier jet airframe requires more distance to slow",
+        "The jet engine's fuel consumption at idle creates a gyroscopic effect that resists changes in airspeed"
+      ],
+      "explanation": "According to AFH Chapter 16, when throttles are closed on a piston-powered airplane, the propellers create significant drag that immediately decreases airspeed or altitude. On a jet, however, reducing power to idle produces no such drag effect—in fact, the jet engine still produces forward thrust at idle. This lack of propeller drag, combined with the aerodynamically clean airframe, means slowing down is one of the initial problems encountered by pilots transitioning into jets. In level flight at idle power, it takes approximately 1 mile to lose just 10 knots of airspeed.",
+      "reference": {
+        "page": "16-4",
+        "text": "When the throttles are closed on a piston-powered airplane, the propellers create significant drag. Airspeed or altitude is immediately\ndecreased. The effect of reducing power to idle on the jet engine, however, produces no such drag effect. In fact, at an idle power\nsetting, the jet engine still produces forward thrust. While this can be an advantage in certain descent profiles, it is a handicap when it\nis necessary to lose speed quickly. The lack of propeller drag, along with the aerodynamically clean airframe of the jet, are new to\nmost pilots, and slowing the airplane down is one of the initial problems encountered by pilots transitioning into jets. In level flight at\nidle power, it takes about 1 mile to lose 10 knots of airspeed."
+      }
+    },
+    {
+      "section": "Speed Margins",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "When an airplane exceeds MMO, what aerodynamic change contributes to pitch change tendencies?",
+      "correct_answer": "Changes to the center of lift",
+      "distractors": [
+        "A forward shift of the center of gravity",
+        "Decreased effectiveness of the horizontal stabilizer",
+        "Increased parasite drag on the elevator surfaces"
+      ],
+      "explanation": "According to AFH Chapter 16, when an airplane exceeds MMO, accompanying changes to the center of lift may cause the airplane to exhibit pitch change tendencies. This is distinct from a center of gravity shift (which is a weight distribution issue, not an aerodynamic one), horizontal stabilizer effectiveness, or elevator drag. The center of pressure moving on an airfoil at transonic speeds is the aerodynamic mechanism behind these pitch changes.",
+      "reference": {
+        "page": "16-6",
+        "text": "If airplane speed progresses sufficiently beyond MMO, the separation of air behind the shock wave may result in severe buffeting and\npossible loss of control or “upset.” Because of the accompanying changes to the center of lift, the airplane may exhibit pitch change\ntendencies."
+      }
+    },
+    {
+      "section": "Speed Margins",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "A pilot notices excessive airspeed and mild buffeting while descending at high altitude but has not yet felt any nose-down pitching tendency. Why should the pilot take corrective action immediately rather than waiting for more definitive signs of Mach tuck?",
+      "correct_answer": "Mach tuck develops gradually, and if corrective action is delayed, there may no longer be enough elevator authority to prevent an unrecoverable dive.",
+      "distractors": [
+        "Mach tuck develops suddenly and without warning, so any buffeting indicates the aircraft is already beyond the point of recovery.",
+        "The center of pressure moves forward during Mach tuck, and waiting too long will make the nose-down tendency impossible to trim out.",
+        "The shock wave will dissipate if action is not taken immediately, eliminating all lift and causing an uncontrollable stall.",
+        "The shock wave will dissipate if action is not taken immediately, eliminating all lift and causing an uncontrollable stall."
+      ],
+      "explanation": "According to AFH Chapter 16, Mach tuck develops gradually as the wing's center of pressure moves aft with increased speed and aft movement of the shock wave. The handbook explicitly states that the condition 'should not be allowed to progress to where there is no longer enough elevator authority to prevent entry into a steep, sometimes unrecoverable, dive.' An alert pilot should respond to early indicators—excessive airspeed, buffeting, or warning devices—before the onset of extreme nose-down forces. Distractor B is incorrect because Mach tuck develops gradually, not suddenly. Distractor C is incorrect because the center of pressure moves aft, not forward. Distractor D is incorrect because the danger is loss of elevator authority, not shock wave dissipation and stall.",
+      "reference": {
+        "page": "16-6",
+        "text": "With increased speed and the aft movement of the shock wave, the wing’s center of pressure moves aft causing the start of a nose-\ndown tendency or “tuck.” Mach tuck develops gradually, and the condition should not be allowed to progress to where there is no\nlonger enough elevator authority to prevent entry into a steep, sometimes unrecoverable, dive. An alert pilot should respond to\nexcessive airspeed, buffeting, or warning devices before the onset of extreme nose-down forces."
+      }
+    },
+    {
+      "section": "Mach Buffet",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "While flying at high speed, a pilot experiences buffeting caused by airflow separation behind a shock wave on the upper wing surface. According to the Airplane Flying Handbook, what primarily causes this airflow separation during Mach buffet?",
+      "correct_answer": "The strength of the shock wave, rather than a stall",
+      "distractors": [
+        "Exceeding the wing's critical angle of attack",
+        "The airplane's forward airspeed through the air",
+        "Reduced local airflow speed ahead of the shock wave"
+      ],
+      "explanation": "According to AFH Chapter 16, Mach buffet arises when airflow separates on the upper surface of a wing behind a shock wave, and 'the shock wave strength, rather than a stall, creates the airflow separation.' This distinguishes Mach buffet from a conventional stall, which is caused by exceeding the critical angle of attack. The first distractor describes a stall. The second is incorrect because the handbook states Mach buffet 'is a function of the speed of the airflow over the wing—not necessarily the forward speed of the airplane.' The third is wrong because shock wave strength increases as local airflow speed ahead of the shock wave increases, so reduced speed ahead would weaken, not strengthen, the separation.",
+      "reference": {
+        "page": "16-6",
+        "text": "Mach buffet arises when airflow separates on the upper surface of a wing behind a shock wave. All other things being equal, shock\nwave strength increases as the local airflow speed ahead of the shock wave increases. Mach buffet is a function of the speed of the\nairflow over the wing—not necessarily the forward speed of the airplane, and the shock wave strength, rather than a stall, creates the\nairflow separation."
+      }
+    },
+    {
+      "section": "Mach Buffet",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "Why is it possible for an aircraft to experience Mach buffet while flying at a low-speed cruise setting?",
+      "correct_answer": "The airflow over the wing's upper surface must make a greater turn, which accelerates it enough to potentially exceed Mach 1.",
+      "distractors": [
+        "The aircraft's overall airspeed reaches Mach 1, creating a strong shock wave that buffets the entire airframe.",
+        "The airflow over the wing's lower surface accelerates past Mach 1 due to the decreased angle of attack.",
+        "Residual shock waves from a recent high-speed cruise continue to buffet the wing as the aircraft slows down."
+      ],
+      "explanation": "According to the Airplane Flying Handbook, at low-speed cruise, the airflow has a greater turn to make to follow the wing's upper surface. To make this turn, the air speeds up and may locally exceed Mach 1 over the upper surface, which can result in Mach buffet. This is different from high-speed buffet, which is caused by a shock wave becoming too strong as the aircraft's overall speed increases.",
+      "reference": {
+        "page": "16-6",
+        "text": "Mach buffet may result from two different conditions in cruise. At high-speed cruise, a shock wave that becomes too strong as the\nairflow speeds up over the upper surface causes a buffet. At low-speed cruise, the flow has a greater turn to make to follow the wing's\nupper surface. The air speeds up to do that and may exceed Mach 1 over the upper surface."
+      }
+    },
+    {
+      "section": "Mach Buffet",
+      "difficulty": 3,
+      "categories": [
+        "written_exam"
+      ],
+      "question": "A jet airplane is cruising at 51,000 feet at 0.73 Mach and 1.0 G. If the airplane experiences a 1.4 G load, why might it encounter low-speed buffet?",
+      "correct_answer": "An increase in load factor raises the low-end buffet speed.",
+      "distractors": [
+        "An increase in load factor lowers the low-end buffet speed.",
+        "An increase in load factor raises the high-speed buffet speed.",
+        "An increase in load factor temporarily decreases the aircraft's Mach speed."
+      ],
+      "explanation": "According to the Airplane Flying Handbook, an increase in load factor (G) raises the low-end buffet speed. In the given scenario, the increase to 1.4 G raises the low-speed buffet boundary, meaning the airplane could encounter low-speed buffet even though it is maintaining 0.73 Mach.",
+      "reference": {
+        "page": "16-6",
+        "text": "An increase in load factor (G factor) will raise the low-end buffet speed. For example, a jet airplane flying at 51,000 feet altitude at\n1.0 G and a speed of 0.73 Mach that experiences a 1.4 G load, may encounter low-speed buffet. Consequently, a maximum cruising\nflight altitude and speed should be selected, which will allow sufficient margin for maneuvering and turbulence. The pilot should\nknow the manufacturer’s recommended turbulence penetration speed for the particular make and model airplane. This speed normally\ngives the greatest margin between the high-speed and low-speed buffets."
+      }
+    },
+    {
+      "section": "Low-Speed Flight",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "A swept wing is penalized at low speeds because its effective lift is proportional to which airflow component?",
+      "correct_answer": "The airflow speed perpendicular to the leading edge",
+      "distractors": [
+        "The spanwise airflow component parallel to the leading edge",
+        "The total free-stream airspeed regardless of sweep angle",
+        "The airflow component accelerated over the thickest portion of the airfoil"
+      ],
+      "explanation": "According to AFH Chapter 16, a swept wing is penalized at low speeds because its effective lift is proportional to the airflow speed that is perpendicular to the leading edge. Because the wing is swept, only a component of the total free-stream airflow is perpendicular to the leading edge, meaning the wing must fly faster to generate the same lift as a straight wing. The spanwise (parallel) component does not contribute to effective lift, and the total free-stream speed overstates the lift-producing airflow.",
+      "reference": {
+        "page": "16-6",
+        "text": "The jet airplane wing, designed primarily for high-speed flight, has relatively poor low-speed characteristics. As opposed to the\nnormal piston-powered airplane, the jet wing has less area relative to the airplane’s weight, a lower aspect ratio (long chord/short\nspan), and thin airfoil shape—all of which amount to the need for speed to generate enough lift. The swept wing is additionally\npenalized at low speeds because its effective lift is proportional to airflow speed that is perpendicular to the leading edge."
+      }
+    },
+    {
+      "section": "Low-Speed Flight",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "A jet pilot is descending at a constant power setting near VMD and notices the airspeed is slowly decreasing. The pitch attitude looks and feels normal, but the altimeter shows an increasing descent rate. What is the most likely explanation for this situation?",
+      "correct_answer": "A speed divergence is developing due to the jet's lack of speed stability near VMD, where decreasing speed increases drag and causes a sinking flightpath without noticeable pitch changes",
+      "distractors": [
+        "The jet is experiencing a conventional stall, where the pitch attitude would break and the flying qualities would change noticeably before a sink rate develops",
+        "A downdraft or windshear has encountered the aircraft, since a speed divergence would always be accompanied by a noticeable change in pitch attitude",
+        "The constant power setting is simply too low for the aircraft's weight, and the sink rate is a normal, stable response that will self-correct as drag decreases with the slowing airspeed"
+      ],
+      "explanation": "According to AFH Chapter 16, flight in the area of VMD in a jet does not normally produce noticeable changes in flying qualities other than a lack of speed stability. A decrease in speed leads to increased drag, which causes further speed decrease—a speed divergence. A pilot who is not aware of this developing divergence may find a serious sink rate developing at constant power while pitch attitude appears normal. Unlike a piston-engine airplane, where flight below VMD is well-identified and predictable, the jet's lack of speed stability can lead to a sinking flightpath without the usual cues, making this one of the most important aspects of jet-airplane flying.",
+      "reference": {
+        "page": "16-6",
+        "text": "In a typical piston-engine airplane, VMD (minimum drag) in the clean configuration is normally at a speed of about 1.3 VS. [Figure\n16-7] Flight below VMD in a piston-engine airplane is well identified and predictable. In contrast, in a jet airplane, flight in the area of\nVMD (typically 1.5 – 1.6 VS) does not normally produce any noticeable changes in flying qualities other than a lack of speed\nstability—a condition where a decrease in speed leads to an increase in drag, which leads to a further decrease in speed, which creates\nthe potential for a speed divergence. A pilot who is not aware of a developing speed divergence may find a serious sink rate\ndeveloping at a constant power setting, while pitch attitude appears to be normal. The fact that lack of speed stability may lead to a\nsinking flightpath, is one of the most important aspects of jet-airplane flying. 16-6"
+      }
+    },
+    {
+      "section": "Low-Speed Flight",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "An aircraft enters a deep stall accompanied by a high rate of descent, with the nose already positioned below the horizon. Why might the appropriate recovery action require pushing the nose down even further?",
+      "correct_answer": "High angles of attack can occur at any pitch attitude, even with the nose below the horizon.",
+      "distractors": [
+        "Lowering the nose further immerses the T-tail in the wing wake, which immediately restores elevator effectiveness.",
+        "A high rate of descent aligns the relative wind with the longitudinal axis, requiring a steeper dive to regain lift.",
+        "Pitch attitude directly determines angle of attack, so a continued nose-down pitch is required to overcome the deep stall."
+      ],
+      "explanation": "According to the Airplane Flying Handbook (AFH) Chapter 16, high angles of attack can occur at any pitch attitude, even with the nose below the horizon. In a deep stall with a high rate of descent, the aircraft's flight path is directed downward, meaning the relative wind is striking the wing from below. This can result in a critical angle of attack despite the nose-down attitude. Pushing the nose down further is necessary to reduce the angle of attack and break the stall, even though it may seem counterintuitive. Distractor 1 is incorrect because immersing the tail in the wing wake reduces effectiveness; it does not restore it. Distractor 2 is incorrect because a high rate of descent causes the relative wind to come from below, not align with the longitudinal axis. Distractor 3 is incorrect because pitch attitude does not directly determine angle of attack; the relative wind does.",
+      "reference": {
+        "page": "16-8",
+        "text": "Some T-tail configurations are prone to so-called deep stalls where the tail can become immersed in the wing wake at very high\nangles of attack and lose effectiveness. Such a situation can be accompanied by a high-rate of descent. Since high angles of attack can\noccur at any pitch attitude, even a pitch attitude with the nose below the horizon, it may seem counterintuitive in such a situation to\ntake the appropriate recovery action, which is to push the nose down even further."
+      }
+    },
+    {
+      "section": "Low-Speed Flight",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "A pilot flying a T-tail aircraft enters a deep stall accompanied by a high rate of descent. The pilot notices the aircraft's nose is already positioned below the horizon. What is the appropriate recovery action?",
+      "correct_answer": "Push the nose down further to reduce the angle of attack.",
+      "distractors": [
+        "Pull the nose up toward the horizon to break the stall, since the nose is already pointing downward.",
+        "Apply full power and hold the current pitch attitude until the tail regains effectiveness.",
+        "Use opposite rudder to yaw the nose into the relative wind while keeping the ailerons neutral."
+      ],
+      "explanation": "According to the Airplane Flying Handbook (AFH) Chapter 16, T-tail aircraft can experience 'deep stalls' where the tail becomes immersed in the wing wake at very high angles of attack, causing a loss of tail effectiveness. Because high angles of attack can occur at any pitch attitude—even with the nose below the horizon—a pilot must reduce the angle of attack by pushing the nose down even further, despite it feeling counterintuitive.",
+      "reference": {
+        "page": "16-8",
+        "text": "Some T-tail configurations are prone to so-called deep stalls where the tail can become immersed in the wing wake at very high\nangles of attack and lose effectiveness. Such a situation can be accompanied by a high-rate of descent. Since high angles of attack can\noccur at any pitch attitude, even a pitch attitude with the nose below the horizon, it may seem counterintuitive in such a situation to\ntake the appropriate recovery action, which is to push the nose down even further."
+      }
+    },
+    {
+      "section": "Low-Speed Flight",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "What is the function of a stick pusher, and what operational precaution must be observed regarding its use?",
+      "correct_answer": "It automatically reduces the airplane's angle of attack before a dangerous stall, and pilots should avoid situations that would activate it close to the ground.",
+      "distractors": [
+        "It physically shakes the control column to warn the pilot of an impending stall, and pilots should be prepared to override it during the landing flare.",
+        "It temporarily increases the airplane's angle of attack to regain lost lift, and pilots should avoid activating it during gusty conditions.",
+        "It automatically applies maximum throttle to recover from a stall, and pilots should ensure the system is disarmed prior to landing."
+      ],
+      "explanation": "According to the Airplane Flying Handbook, a stick pusher acts to automatically reduce the airplane's angle of attack (AOA) before the airplane reaches a dangerous stall condition, or it may aid in recovering the airplane from a stall if its natural aerodynamic characteristics do so weakly. Because this system forcefully reduces the AOA (pitching the nose down), pilots should avoid situations that would activate a stick pusher when close to the ground. Distractor 1 incorrectly describes a stick shaker (a stall warning system), while Distractors 2 and 3 describe incorrect recovery mechanisms.",
+      "reference": {
+        "page": "16-8",
+        "text": "Deep stalls may be unrecoverable. Fortunately, they are easily avoided as long as published limitations are observed. On those\nairplanes susceptible to deep stalls (not all swept or tapered wing airplanes are), sophisticated stall warning systems such as stick\nshakers are standard equipment. A stick pusher (if installed), as its name implies, acts to automatically reduce the airplane’s AOA\nbefore the airplane reaches a dangerous stall condition, or it may aid in recovering the airplane from a stall if an airplane’s natural\naerodynamic characteristics do so weakly. Pilots should avoid situations that would activate a stick pusher when close to the ground."
+      }
+    },
+    {
+      "section": "Low-Speed Flight",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "During stall recovery in a jet airplane, a pilot reduces angle of attack in response to a stall warning. What is the specific role of added thrust during this recovery?",
+      "correct_answer": "Added thrust allows the descent to be stopped once the wing is flying again, but it is the reduction in AOA that actually eliminates the stall.",
+      "distractors": [
+        "Added thrust eliminates the stall by increasing airflow over the wing, making AOA reduction unnecessary.",
+        "Added thrust and AOA reduction work simultaneously together to eliminate the stall; neither action alone is sufficient.",
+        "Added thrust is used to increase airspeed so the pilot can maintain the original AOA without stalling again."
+      ],
+      "explanation": "According to AFH Chapter 16, the Airplane Flying Handbook is clear that reducing AOA is what eliminates the stall. Added thrust serves a different purpose: it allows the descent to be stopped once the wing is flying again. A common misconception is that thrust itself recovers the stall, but the handbook emphasizes that these are distinct actions with distinct purposes—AOA reduction breaks the stall, and thrust arrests the resulting descent.",
+      "reference": {
+        "page": "16-8",
+        "text": "Pilots undergoing training in jet airplanes are taught to recover at the first indication of an impending stall instead of going beyond\nthose initial cues and into a full stall. Normally, this is indicated by aural stall warning devices, annunciators, or activation of the\nairplane’s stick shaker. Stick shakers normally activate around 107 percent of the actual stall speed. In response to a stall warning, the\nproper action is for the pilot to apply a nose-down input until the stall warning stops (pitch trim may be necessary). Then, the wings\nare rolled level, followed by adjusting thrust to return to normal flight. The elapsed time will be small between these actions,\nparticularly at low altitude where significant available thrust exists. It is important to understand that reducing AOA eliminates the\nstall, but added thrust will allow the descent to be stopped once the wing is flying again. Note that airplanes without vortex generators\nmay stall with little to no buffet. 16-8"
+      }
+    },
+    {
+      "section": "Low-Speed Flight",
+      "difficulty": 3,
+      "categories": [
+        "checkride_oral"
+      ],
+      "question": "During a stall recovery at high altitude, why might several thousand feet of altitude loss occur before a safe airspeed is regained?",
+      "correct_answer": "Available thrust is significantly reduced at altitude, so a greater pitch-down attitude is needed to accelerate to the desired airspeed",
+      "distractors": [
+        "The stalling angle of attack increases with altitude, requiring a more pronounced nose-down pitch to break the stall",
+        "The stall recovery technique changes at high altitude, requiring different control inputs than at lower altitudes",
+        "The less dense air at altitude delays stall warning activation, so the pilot initiates recovery later"
+      ],
+      "explanation": "According to AFH Chapter 16, the stall recovery technique is the same at high altitudes: reduce AOA by lowering the nose until the stall warning stops. However, because available thrust is significantly less at high altitudes, the airplane may need a significant pitch-down to regain airspeed, potentially resulting in several thousand feet of altitude loss. The stalling AOA does not change with altitude, the recovery technique remains the same, and the issue is thrust-limited acceleration—not delayed stall warning activation.",
+      "reference": {
+        "page": "16-9",
+        "text": "At high altitudes the stall recovery technique is the same. A pilot will need to reduce the AOA by lowering the nose until the stall\nwarning stops. However, after the AOA has been reduced to where the wing is again developing efficient lift, the airplane will still\nlikely need to accelerate to a desired airspeed. At high altitudes where the available thrust is significantly less than at lower altitudes,\nrecovery may require significant pitch down to regain airspeed. As such, several thousand feet or more of altitude loss may occur\nduring the recovery. The above discussion covers most airplanes; however, the stall recovery procedures for a particular make and\nmodel airplane may differ, as recommended by the manufacturer, and are contained in the FAA-approved Airplane Flight Manual for\nthat airplane."
+      }
+    },
+    {
+      "section": "Thrust Reversers",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "What is the correct procedure for canceling reverse thrust on most installations?",
+      "correct_answer": "Close the reverse levers to the idle reverse position, then drop them fully back to the forward idle position.",
+      "distractors": [
+        "Drop the reverse levers directly from the full reverse position to the forward idle position.",
+        "Close the thrust levers to idle while holding the reverse levers in the idle reverse detent.",
+        "Pull the reverse levers down to the stowed position while simultaneously advancing the thrust levers."
+      ],
+      "explanation": "According to the Airplane Flying Handbook (Chapter 16), reverse thrust is canceled by closing the reverse levers to the idle reverse position, then dropping them fully back to the forward idle position. This last movement selects the stowed position, and the reversers return to the forward thrust position.",
+      "reference": {
+        "page": "16-11",
+        "text": "On most installations, the pilot selects reverse thrust with the thrust levers at idle by pulling up the reverse levers to a detent. Doing so\npositions the reversing mechanisms for operation but leaves the engines at idle rpm. Further upward and backward movement of the\nreverse levers increases engine power. Reverse is canceled by closing the reverse levers to the idle reverse position, then dropping\nthem fully back to the forward idle position. This last movement selects the stowed position, and the reversers return to the forward\nthrust position."
+      }
+    },
+    {
+      "section": "Jet Airplane Takeoff and Climb",
+      "difficulty": 3,
+      "categories": [
+        "written_exam"
+      ],
+      "question": "In the event of a critical engine failure at VEF, what does V1 specifically represent regarding the ability to continue the takeoff?",
+      "correct_answer": "The minimum speed at which the pilot can continue the takeoff and achieve the required height above the takeoff surface within the takeoff distance.",
+      "distractors": [
+        "The minimum speed required to safely abort the takeoff and stop the aircraft within the accelerate-stop distance.",
+        "The speed at which the pilot must rotate the aircraft to achieve the required height above the takeoff surface.",
+        "The exact speed at which the critical engine is assumed to fail during the takeoff roll."
+      ],
+      "explanation": "According to the Airplane Flying Handbook, V1 (takeoff decision speed) is the minimum speed in the takeoff, following a failure of the critical engine at VEF, at which the pilot can continue the takeoff and achieve the required height above the takeoff surface within the takeoff distance. At speeds less than V1, it is considered safer to stop. The distractors are incorrect because V1 is not the speed at which the engine fails (that is VEF), nor is it the rotation speed (Vr), and while it relates to the accelerate-stop distance, it is the maximum speed to stop, not the minimum.",
+      "reference": {
+        "page": "16-12",
+        "text": "⦁ V1—critical engine failure speed or takeoff decision speed. It is the speed at which the pilot is to continue\n      the takeoff in the event of an engine failure or other serious emergency. At speeds less than V1, it is\n      considered safer to stop the aircraft within the accelerate-stop distance. It is also the minimum speed in the\n      takeoff, following a failure of the critical engine at VEF, at which the pilot can continue the takeoff and\n      achieve the required height above the takeoff surface within the takeoff distance."
+      }
+    },
+    {
+      "section": "Jet Airplane Takeoff and Climb",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "During a single-engine takeoff in a jet airplane, what specific performance target is achieved by initiating rotation at VR?",
+      "correct_answer": "Acceleration to V2 at the 35-foot height at the end of the runway",
+      "distractors": [
+        "Acceleration to V1 at the 35-foot height at the end of the runway",
+        "The ability to safely stop on the remaining runway if the takeoff is rejected",
+        "Maintenance of directional control at the minimum flying speed with one engine inoperative"
+      ],
+      "explanation": "According to the Airplane Flying Handbook, rotation speed (VR) is the speed at which rotation is initiated to takeoff attitude. On a single-engine takeoff, VR is specifically planned to allow for acceleration to V2 (takeoff safety speed) by the time the airplane reaches a 35-foot height at the end of the runway. The other options incorrectly define V1 (decision speed) and VMCA (minimum control speed in the air).",
+      "reference": {
+        "page": "16-12",
+        "text": "⦁ VR—rotation speed, or speed at which the rotation of the airplane is initiated to takeoff attitude. This speed\n      cannot be less than V1 or less than 1.05 × VMCA (minimum control speed in the air). On a single-engine\n      takeoff, it also allows for the acceleration to V2 at the 35-foot height at the end of the runway."
+      }
+    },
+    {
+      "section": "Takeoff Roll",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "During the takeoff roll in a multiengine airplane, after takeoff power has been set, under what condition would a pilot need to retard a thrust lever?",
+      "correct_answer": "Only if an engine exceeds any limitation",
+      "distractors": [
+        "If slight asymmetric thrust is detected during acceleration",
+        "If the pre-computed takeoff thrust setting is inadvertently exceeded",
+        "If directional control requires correction below 60 knots"
+      ],
+      "explanation": "According to AFH Chapter 16, after brake release the power levers should be set to the pre-computed takeoff power setting with adjustments made prior to reaching 60 knots. Retarding a thrust lever during takeoff would only be necessary in case an engine exceeds any limitation. Slight asymmetry is managed through normal thrust adjustments, not by retarding a lever. Overshooting the desired thrust setting is prevented by the stabilization procedure before brake release, and directional control issues are addressed with flight controls, not by reducing thrust on one engine.",
+      "reference": {
+        "page": "16-12",
+        "text": "After confirming the runway and position match expectations, the airplane should be aligned in the center of the runway. When\nrunway length is limited, the brakes should be held while the thrust levers are brought to a power setting specified in the AFM and the\nengines allowed to stabilize. The engine instruments should be checked for proper operation before the brakes are released or the\npower increased further. This procedure assures symmetrical thrust during the takeoff roll and aids in prevention of overshooting the\ndesired takeoff thrust setting. After brake release, the power levers should be set to the pre-computed takeoff power setting and\ntakeoff thrust adjustments made prior to reaching 60 knots. The final engine power adjustments are normally made by the pilot not\nflying. Retarding a thrust lever would only be necessary in case an engine exceeds any limitation."
+      }
+    }
+  ]
+}

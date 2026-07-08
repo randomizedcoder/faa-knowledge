@@ -3,162 +3,362 @@
   "chapter": 14,
   "questions": [
     {
-      "section": "Runway Markings",
-      "difficulty": 1,
+      "section": "Outbound                Inbound               Approach",
+      "difficulty": 3,
       "categories": [
         "written_exam",
-        "general_knowledge"
+        "checkride_oral"
       ],
-      "question": "What do the numbers on the ends of a runway indicate?",
-      "correct_answer": "The magnetic heading of the runway rounded to the nearest 10 degrees, divided by 10",
+      "question": "While conducting an instrument approach to an airport that has no tower, FSS, or UNICOM, a pilot should self-announce at which point(s) inbound?",
+      "correct_answer": "When departing the final approach fix (stating the name) or when on the final approach segment inbound",
       "distractors": [
-        "The length of the runway in hundreds of feet",
-        "The elevation of the runway in feet MSL",
-        "The runway's assigned traffic pattern number"
+        "When crossing the initial approach fix and again at the missed approach point",
+        "Only when transitioning from instrument to visual flight upon seeing the runway",
+        "When entering the holding pattern and when cleared for the approach"
       ],
-      "explanation": "Runway numbers represent the magnetic heading divided by 10 and rounded. Runway 27 has a magnetic heading of approximately 270 degrees.",
+      "explanation": "According to PHAK Chapter 14, when flying to an airport with no tower, FSS, or UNICOM, a pilot should self-announce on the MULTICOM frequency 122.9. Specifically for an instrument approach inbound, this announcement should be made when departing the final approach fix (stating the fix name) or when on the final approach segment inbound.",
+      "reference": {
+        "page": "14-3",
+        "text": "No tower, FSS,          Self-announce on MULTICOM              Before taxiing and      10 miles out.          Departing final\n  or UNICOM               frequency 122.9.                       before taxiing on the   Entering downwind,     approach fix (name)\n                                                                 runway for departure.   base, and final.       or on final approach\n                                                                                         Leaving the runway.    segment inbound."
+      }
+    },
+    {
+      "section": "Aeronautical Charts",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "A pilot is approaching a non-towered airport to land and has descended to pattern altitude, preparing to enter the downwind leg at a 45° angle. Another aircraft is already established on the 45° entry ahead of them, and a second aircraft is already flying the downwind leg. What action should the pilot take before turning downwind?",
+      "correct_answer": "Yield to both the aircraft on the 45° entry and the aircraft already on downwind before turning onto the downwind leg.",
+      "distractors": [
+        "Yield only to the aircraft already on downwind, since aircraft on the 45° entry are still considered transitioning traffic.",
+        "Proceed with the downwind turn since right-of-way belongs to the aircraft at the lower altitude entering the pattern.",
+        "Yield only to the aircraft on the 45° entry, then immediately turn downwind regardless of other downwind traffic."
+      ],
+      "explanation": "According to PHAK Chapter 14, when entering the downwind leg at a 45° angle, a pilot must yield to traffic already established on both the 45° entry and the downwind leg before turning downwind. This ensures the pilot does not cut off or conflict with aircraft already operating within the established traffic pattern flow.",
+      "reference": {
+        "page": "14-4",
+        "text": "2\n                                                          Fly clear of\n                                                          traffic pattern\n                                                          (approx. 2 mi.)\n         4\n             Yield to\n             downwind\n             traffic and\n             enter\n             midfield                                                                                            Yield to the preferred\n             downwind                                                                                            45° and downwind\n             at 45°                               3                                                              traffic, then turn\n                                                      Descend to                                                 downwind\n                                                      pattern altitude,\n                                                      then turn"
+      }
+    },
+    {
+      "section": "Runway Designation Marking",
+      "difficulty": 3,
+      "categories": [
+        "written_exam"
+      ],
+      "question": "A pilot is taxiing on Taxiway Bravo and approaches a runway holding position sign at the intersection of Runways 31-13 and 35-17. The sign displays all four runway designations with arrows. What do the arrows on this sign indicate?",
+      "correct_answer": "The direction to the threshold of the runway whose designation is immediately next to each corresponding arrow",
+      "distractors": [
+        "The direction of active traffic flow on each runway, as currently assigned by ATC",
+        "The approximate magnetic heading a pilot should expect when aligning with each runway",
+        "The direction to the departure end of each runway for takeoff operations"
+      ],
+      "explanation": "According to PHAK Chapter 14, when a runway holding position sign is located at the intersection of two runways, the designations for both runways are shown along with arrows. These arrows indicate the direction(s) to the threshold of the runway whose designation is immediately next to each corresponding arrow. This is distinct from indicating traffic flow, magnetic headings, or departure ends. Understanding this is critical for pilots navigating complex runway/runway intersections, which are often designated as hot spots on airport diagrams.",
       "reference": {
         "page": "14-8",
-        "text": "Runway designation marking\nRunway numbers and letters are determined from the approach direction. The runway number is the whole number nearest one-tenth the magnetic azimuth of the centerline of the runway, measured clockwise from the magnetic north. In the case where there are parallel runways, the letters differentiate between left (L), right (R), or center (C). [Figure 14-16] For example, if there are two parallel runways, they would show the designation number and then either L or R beneath it.\nFor three parallel runways, the designation number would be presented with L, C, or R beneath it."
+        "text": "than the takeoff end of Runway 18-36 with collocated Taxiway         dashed lines will be visible. Prior to reaching the solid lines, it\nAlpha location sign.\n                                                                     is imperative to stop and ensure that no portion of the aircraft\n                                                                     intersects the first solid yellow line. Do not cross the double\nRunway 36 is to the right. The sign also indicates that you          solid lines until a clearance from ATC has been received.\nare located on Taxiway Alpha.                                        [Figure 14-13] When the tower is closed or when operating at\n                                                                     a nontowered airport, you may taxi onto or across the runway\nIf the runway holding position sign is located on a taxiway          only when the runway is clear and there are no aircraft on final\nat the intersection of two runways, the designations for             approach. You should use extreme caution when crossing or\nboth runways are shown on the sign along with arrows                 taxiing onto the runway and always look both ways.\nshowing the approximate alignment of each runway.\n[Figure 14-11A and B] In addition to showing the                     When exiting the runway, the same markings will be seen\napproximate runway alignment, the arrows indicate the                except the aircraft will be approaching the double dashed\ndirection(s) to the threshold of the runway whose designation        lines. [Figure 14-14] In order to be clear of the runway, the\nis immediately next to each corresponding arrow.                     entire aircraft must cross both the dashed and solid lines.\n                                                                     An ATC clearance is not needed to cross this marking when\nThis type of taxiway and runway/runway intersection                  exiting the runway.\ngeometry can be very confusing and create navigational\nchallenges. Extreme caution must be exercised when taxiing           Runway Distance Remaining Signs\nonto or crossing this type of intersection. Figure 14-11A and        Runway distance remaining signs have a black background\nB shows a depiction of a taxiway, runway/runway intersection         with a white number and may be installed along one or both\nand is also designated as a “hot spot” on the airport diagram.       sides of the runway. [Figure 14-15] The number on the\nIn the example, Taxiway Bravo intersects with two runways,           signs indicates the distance, in thousands of feet, of landing\n31-13 and 35-17, which cross each other."
+      }
+    },
+    {
+      "section": "Destination Signs",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "Why does ATC protect the ILS critical area, particularly during poor weather conditions?",
+      "correct_answer": "To ensure signal quality for arriving aircraft that may depend on the ILS for approach guidance",
+      "distractors": [
+        "To prevent runway incursions by aircraft taxiing in low visibility conditions",
+        "To maintain separation between arriving and departing aircraft during IFR operations",
+        "To keep taxiways clear for emergency vehicle access during poor weather"
+      ],
+      "explanation": "According to PHAK Chapter 14, the ILS broadcasts signals to arriving instrument aircraft to guide them to the runway, and each ILS has critical areas that must be kept clear of obstacles to ensure quality of the broadcast signal. While taxiways often extend into the ILS critical area with no concern most of the time, during poor weather an aircraft on approach may depend on good signal quality, and ATC will protect the ILS critical area when necessary. The protection is specifically about signal integrity, not runway incursion prevention, aircraft separation, or emergency vehicle access.",
+      "reference": {
+        "page": "14-12",
+        "text": "This type of array can be displayed\nwith or without the taxiway location sign, which in this case           Holding Position Signs and Markings for an\n                                                                        The instrument landing system (ILS) broadcasts signals to\nEnhanced Taxiway Centerline Markings                                    arriving instrument aircraft to guide them to the runway. Each\nAt most towered airports, the enhanced taxiway centerline               of these ILSs have critical areas that must be kept clear of all\nmarking is used to warn you of an upcoming runway. It consists          obstacles in order to ensure quality of the broadcast signal. At\nof yellow dashed lines on either side of the normal solid taxiway       many airports, taxiways extend into the ILS critical area. Most\ncenterline and the dashes extend up to 150 feet prior to a              of the time, this is of no concern; however, during times of\nrunway holding position marking. [Figure 14-21A and B] They             poor weather, an aircraft on approach may depend on a good\nare used to aid you in maintaining awareness during surface             signal quality. When necessary, ATC will protect the ILS\nmovement to reduce runway incursions."
+      }
+    },
+    {
+      "section": "Runway Lighting",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "When descending below the glidepath of a tri-color visual approach path indicator, a pilot observes a small area of dark amber. What is the specific hazard associated with this indication?",
+      "correct_answer": "The dark amber may be mistaken for an \"above glidepath\" indication, which could cause the pilot to continue descending.",
+      "distractors": [
+        "The dark amber may be mistaken for an \"on glidepath\" indication, which could cause the pilot to maintain their current descent rate.",
+        "The dark amber may be mistaken for a \"below glidepath\" indication, which could cause the pilot to climb unnecessarily.",
+        "The dark amber may be mistaken for a system malfunction, which could cause the pilot to execute a missed approach."
+      ],
+      "explanation": "According to the PHAK Chapter 14, a tri-color visual approach path indicator uses red for below glidepath, green for on glidepath, and amber for above glidepath. However, when descending below the glidepath, there is a small area of dark amber. The handbook specifically warns that pilots should not mistake this dark amber area for an 'above the glidepath' indication, as doing so could lead a pilot to continue descending when they are actually below the safe glidepath.",
+      "reference": {
+        "page": "14-17",
+        "text": "Runway end identifier lights (REIL) are installed at many\nA tri-color system consists of a single-light unit projecting        airfields to provide rapid and positive identification of the\na three-color visual approach path. Below the glidepath is           approach end of a particular runway. The system consists\nindicated by red, on the glidepath is indicated by green, and        of a pair of synchronized flashing lights located laterally\nabove the glidepath is indicated by amber. When descending           on each side of the runway threshold. REILs may be either\nbelow the glidepath, there is a small area of dark amber. Pilots     omnidirectional or unidirectional facing the approach area.\nshould not mistake this area for an “above the glidepath”\nindication. [Figure 14-31]                                           Runway Edge Lights\n                                                                     Runway edge lights are used to outline the edges of\nPulsating VASIs normally consist of a single-light unit\n                                                                     runways at night or during low visibility conditions.\nprojecting a two-color visual approach path into the final\n                                                                     [Figure 14-33] These lights are classified according to the\napproach area of the runway upon which the indicator is\n                                                                     intensity they are capable of producing: high intensity runway\ninstalled. The “on glidepath” indication is a steady white\n                                                                     lights (HIRL), medium intensity runway lights (MIRL), and"
+      }
+    },
+    {
+      "section": "High                   Slightly High              On Glidepath              Slightly Low                  Low",
+      "difficulty": 3,
+      "categories": [
+        "written_exam"
+      ],
+      "question": "A pilot exiting a runway at night observes taxiway centerline lead-off lights alternating green and yellow, beginning with green at the runway centerline. What is the operational significance of this color-coded lighting pattern?",
+      "correct_answer": "It warns the pilot they remain within the runway environment or ILS critical area",
+      "distractors": [
+        "It confirms the taxiway ahead is clear of conflicting ground traffic",
+        "It indicates the pilot should switch to ground control frequency",
+        "It marks the boundary between movement and non-movement areas"
+      ],
+      "explanation": "According to PHAK Chapter 14, taxiway centerline lead-off lights are color-coded to warn pilots and vehicle drivers that they are within the runway environment or ILS critical area, whichever is more restrictive. The lights alternate green and yellow, beginning with green, from the runway centerline to one centerline light position beyond the runway holding position or ILS critical area holding position. The color pattern serves as a visual cue that the pilot has not yet fully exited the protected area—not as a traffic clearance, frequency change indicator, or movement area boundary marker.",
+      "reference": {
+        "page": "14-18",
+        "text": "low intensity runway lights (LIRL). The HIRL and MIRL                Taxiway centerline lead-off lights—provide visual guidance\nhave variable intensity settings. These lights are white, except     to persons exiting the runway. They are color-coded to warn\non instrument runways where amber lights are used on the             pilots and vehicle drivers that they are within the runway\nlast 2,000 feet or half the length of the runway, whichever          environment or ILS critical area, whichever is more restrictive.\nis less. The lights marking the end of the runway are red.           Alternate green and yellow lights are installed, beginning\n                                                                     with green, from the runway centerline to one centerline light\nIn-Runway Lighting                                                   position beyond the runway holding position or ILS critical\nRunway centerline lighting system (RCLS)—installed on some           area holding position.\nprecision approach runways to facilitate landing under adverse\nvisibility conditions. They are located along the runway             Taxiway centerline lead-on lights—provide visual guidance\ncenterline and are spaced at 50-foot intervals. When viewed          to persons entering the runway. These “lead-on” lights are\nfrom the landing threshold, the runway centerline lights are         also color-coded with the same color pattern as lead-off\nwhite until the last 3,000 feet of the runway. The white lights      lights to warn pilots and vehicle drivers that they are within\nbegin to alternate with red for the next 2,000 feet."
       }
     },
     {
       "section": "Traffic Patterns",
-      "difficulty": 1,
-      "categories": [
-        "written_exam",
-        "checkride_oral"
-      ],
-      "question": "Unless otherwise indicated, what is the standard direction of traffic pattern turns at an airport?",
-      "correct_answer": "Left turns",
-      "distractors": [
-        "Right turns",
-        "Alternating left and right turns",
-        "Either direction, pilot's discretion"
-      ],
-      "explanation": "Standard traffic patterns use left turns unless the airport has designated right traffic for specific runways, as indicated in the Chart Supplement or by visual indicators.",
-      "reference": {
-        "page": "14-2",
-        "text": "Nontowered airport traffic patterns are always entered at pattern altitude. How you enter the pattern depends upon the direction of arrival. The preferred method for entering from the downwind side of the pattern is to approach the pattern on a course 45 degrees to the downwind leg and join the pattern at midfield. An alternate method is to enter on a midfield crosswind at pattern altitude, carefully scan for traffic, announce your intentions, and then turn downwind. [Figure 14-3] This technique should not be used if the pattern is busy. Always remember to give way to aircraft on the preferred 45° entry and to aircraft already established on downwind. When well clear of the pattern—approximately 2 miles–scan carefully for traffic, descend to pattern altitude, then turn right to enter at 45° to the downwind leg at midfield. [Figure 14-2]"
-      }
-    },
-    {
-      "section": "Airport Lighting",
-      "difficulty": 2,
-      "categories": [
-        "written_exam"
-      ],
-      "question": "What color are the runway edge lights that mark the last 2,000 feet of runway available for landing?",
-      "correct_answer": "Yellow (caution zone)",
-      "distractors": [
-        "Red",
-        "White",
-        "Green"
-      ],
-      "explanation": "Runway edge lights are white, but the last 2,000 feet (or last half of the runway if less than 4,000 feet) have yellow caution-zone lighting to warn pilots of the approaching runway end.",
-      "reference": {
-        "page": "14-18",
-        "text": "The lights marking the end of the runway are red. In-Runway Lighting Runway centerline lighting system (RCLS)—installed on some precision approach runways to facilitate landing under adverse visibility conditions. They are located along the runway centerline and are spaced at 50-foot intervals. When viewed from the landing threshold, the runway centerline lights are white until the last 3,000 feet of the runway. The white lights begin to alternate with red for the next 2,000 feet. For the remaining 1,000 feet of the runway, all centerline lights are red."
-      }
-    },
-    {
-      "section": "Airport Beacons",
-      "difficulty": 1,
+      "difficulty": 3,
       "categories": [
         "written_exam",
         "general_knowledge"
       ],
-      "question": "What colors does a civilian airport beacon alternate between?",
-      "correct_answer": "White and green",
+      "question": "A pilot is planning a cross-country route that passes near a military air base. Why does the PHAK recommend that en route aircraft avoid traffic pattern areas whenever possible?",
+      "correct_answer": "Traffic pattern altitudes for military turbojet aircraft can extend as high as 2,500 feet AGL, creating a collision hazard for en route aircraft.",
       "distractors": [
-        "White and red",
-        "Green and yellow",
-        "White and blue"
+        "Military bases use non-standard traffic pattern directions that are not published, making it impossible for en route pilots to predict aircraft positions.",
+        "Military aircraft in traffic patterns operate under separate ATC control and are exempt from seeing-and-avoiding other aircraft.",
+        "Military traffic patterns extend laterally for several miles beyond the airport boundary, creating an enlarged area of restricted airspace."
       ],
-      "explanation": "Civilian airport beacons alternate white and green. Military airport beacons alternate white and green but with dual-peaked white flashes. Heliport beacons are green-yellow-white.",
+      "explanation": "According to PHAK Chapter 14, traffic pattern altitudes for military turbojet aircraft can extend up to 2,500 feet AGL, significantly higher than typical propeller-driven aircraft patterns (600 to 1,500 feet AGL). Because of these potentially high traffic pattern altitudes, pilots of en route aircraft should be constantly alert for other aircraft in traffic patterns and avoid those areas whenever possible. The concern is a collision hazard at altitudes en route pilots might not expect traffic to be operating.",
       "reference": {
-        "page": "14-16",
-        "text": "The beacon may be an omnidirectional capacitor-discharge device, or it may rotate at a constant speed, that produces the visual effect of flashes at regular intervals. The combination of light colors from an airport beacon indicates the type of airport. [Figure 14-28] Some of the most common beacons are: • Flashing white and green for civilian land airports • Flashing white and yellow for a water airport • Flashing white, yellow, and green for a heliport • Two quick white flashes alternating with a green flash identifying a military airport"
+        "page": "14-20",
+        "text": "A pilot should check these wind indicators         At most airports and military air bases, traffic pattern altitudes\neven when information is provided on the CTAF at a given            for propeller-driven aircraft generally extend from 600 feet\nairport because there is no assurance that the information          to as high as 1,500 feet above ground level (AGL). Pilots\nprovided is accurate.                                               can obtain the traffic pattern altitude for an airport from the\n                                                                    Chart Supplement U.S. (formerly Airport/Facility Directory).\nThe wind direction indicator can be a wind cone, wind sock,         Also, traffic pattern altitudes for military turbojet aircraft\ntetrahedron, or wind tee. These are usually located in a central    sometimes extend up to 2,500 feet AGL. Therefore, pilots of\nlocation near the runway and may be placed in the center            en route aircraft should be constantly on alert for other aircraft\nof a segmented circle, which identifies the traffic pattern         in traffic patterns and avoid these areas whenever possible.\ndirection if it is other than the standard left-hand pattern.       When operating at an airport, traffic pattern altitudes should\n[Figures 14-37 and 14-38]                                           be maintained unless otherwise required by the applicable\n                                                                    distance from cloud criteria according to Title 14 of the Code\nThe wind sock is a good source of information since it not          of Federal Regulations (14 CFR) part 91, section 91.155.\nonly indicates wind direction but allows the pilot to estimate      Additional information on airport traffic pattern operations\nthe wind velocity and/or gust factor. The wind sock extends 14-20 Tetrahedron Wind tee Wind sock or cone"
       }
     },
     {
-      "section": "VASI/PAPI",
-      "difficulty": 2,
+      "section": "Traffic Patterns",
+      "difficulty": 3,
       "categories": [
         "written_exam",
         "checkride_oral"
       ],
-      "question": "When using a VASI (Visual Approach Slope Indicator), what does seeing two red lights over two red lights indicate?",
-      "correct_answer": "The aircraft is below the glide path",
+      "question": "While flying a traffic pattern at a non-towered airport, you notice clouds encroaching on your altitude. Under what circumstance does the PHAK indicate it is appropriate to deviate from the established traffic pattern altitude?",
+      "correct_answer": "When deviation is required to comply with the distance from cloud criteria in 14 CFR part 91, section 91.155",
       "distractors": [
-        "The aircraft is on the glide path",
-        "The aircraft is above the glide path",
-        "The VASI system is inoperative"
+        "When adjusting altitude to maintain a safe interval behind preceding traffic on downwind",
+        "When descending below pattern altitude to avoid wake turbulence from a larger aircraft",
+        "When maneuvering to compensate for strong crosswinds on the base-to-final turn"
       ],
-      "explanation": "VASI: Red over Red = below glide path (dangerously low). Red over White = on glide path. White over White = above glide path. Memory: 'Red over red, you're dead.'",
+      "explanation": "According to PHAK Chapter 14, traffic pattern altitudes should be maintained when operating at an airport, with one specific exception: deviation is permitted when otherwise required by the applicable distance from cloud criteria per 14 CFR part 91, section 91.155. The other answer choices, while representing plausible operational considerations, are not the stated regulatory basis for deviating from traffic pattern altitude. Pilots must balance the safety benefit of flying a predictable pattern altitude against the legal requirement to maintain minimum cloud clearance distances.",
       "reference": {
-        "page": "14-16",
-        "text": "The VASI consists of light units arranged in bars. There are 2-bar and 3-bar VASIs. The 2-bar VASI has near and far light bars and the 3-bar VASI has near, middle, and far light bars. Two-bar VASI installations provide one visual glidepath that is normally set at 3°. The 3-bar system provides two glidepaths, the lower glidepath normally set at 3° and the upper glidepath ¼ degree above the lower glidepath.\n\nThe basic principle of the VASI is that of color differentiation between red and white. Each light unit projects a beam of light, a white segment in the upper part of the beam and a red segment in the lower part of the beam. The lights are arranged so the pilot sees the combination of lights shown in Figure 14-29 to indicate below, on, or above the glidepath."
+        "page": "14-20",
+        "text": "A pilot should check these wind indicators         At most airports and military air bases, traffic pattern altitudes\neven when information is provided on the CTAF at a given            for propeller-driven aircraft generally extend from 600 feet\nairport because there is no assurance that the information          to as high as 1,500 feet above ground level (AGL). Pilots\nprovided is accurate.                                               can obtain the traffic pattern altitude for an airport from the\n                                                                    Chart Supplement U.S. (formerly Airport/Facility Directory).\nThe wind direction indicator can be a wind cone, wind sock,         Also, traffic pattern altitudes for military turbojet aircraft\ntetrahedron, or wind tee. These are usually located in a central    sometimes extend up to 2,500 feet AGL. Therefore, pilots of\nlocation near the runway and may be placed in the center            en route aircraft should be constantly on alert for other aircraft\nof a segmented circle, which identifies the traffic pattern         in traffic patterns and avoid these areas whenever possible.\ndirection if it is other than the standard left-hand pattern.       When operating at an airport, traffic pattern altitudes should\n[Figures 14-37 and 14-38]                                           be maintained unless otherwise required by the applicable\n                                                                    distance from cloud criteria according to Title 14 of the Code\nThe wind sock is a good source of information since it not          of Federal Regulations (14 CFR) part 91, section 91.155.\nonly indicates wind direction but allows the pilot to estimate      Additional information on airport traffic pattern operations\nthe wind velocity and/or gust factor. The wind sock extends 14-20 Tetrahedron Wind tee Wind sock or cone"
       }
     },
     {
-      "section": "NOTAMs",
-      "difficulty": 1,
+      "section": "LEGEND",
+      "difficulty": 3,
       "categories": [
         "written_exam",
+        "checkride_oral"
+      ],
+      "question": "A pilot experiences a radio malfunction where both the receiver and transmitter are inoperative while approaching an airport with an operating control tower in Class D airspace. What action should the pilot take?",
+      "correct_answer": "Remain outside of Class D airspace until the flow of traffic has been determined, then enter the pattern and land",
+      "distractors": [
+        "Enter the pattern immediately and rock the wings to acknowledge ATC instructions while monitoring the frequency",
+        "Squawk 7600 and land at the nearest non-towered airport to avoid conflicting with IFR traffic",
+        "Remain outside Class D airspace until receiving a light signal from the tower, then enter the pattern and land"
+      ],
+      "explanation": "According to the PHAK Chapter 14, when both receiver and transmitter are inoperative, the pilot should remain outside of Class D airspace until the flow of traffic has been determined and then enter the pattern and land. This procedure differs from a transmitter-only failure, where the pilot can still monitor ATC frequency and acknowledge instructions by rocking the wings during daylight or blinking the landing light at night. With both receiver and transmitter inoperative, the pilot cannot monitor ATC instructions, making it essential to visually determine traffic flow from outside the airspace before entering the pattern.",
+      "reference": {
+        "page": "14-23",
+        "text": "standard terminology. The AIM also contains many examples              If the transmitter becomes inoperative, a pilot should follow\nof radio communications.                                               the previously stated procedures and also monitor the\n                                                                       appropriate ATC frequency. During daylight hours, ATC\nICAO has adopted a phonetic alphabet that should be used in            transmissions may be acknowledged by rocking the wings\nradio communications. When communicating with ATC, pilots              and at night by blinking the landing light.\nshould use this alphabet to identify their aircraft. [Figure 14-41]\n                                                                       When both receiver and transmitter are inoperative, the pilot\nLost Communication Procedures                                          should remain outside of Class D airspace until the flow of\nIt is possible that a pilot might experience a malfunction of          traffic has been determined and then enter the pattern and\nthe radio."
+      }
+    },
+    {
+      "section": "LEGEND",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "While approaching a towered airport, a pilot discovers that both the radio receiver and transmitter are inoperative. What action should the pilot take?",
+      "correct_answer": "Remain outside Class D airspace until the flow of traffic is determined, then enter the traffic pattern and land",
+      "distractors": [
+        "Enter the traffic pattern immediately and rock the wings to acknowledge any ATC instructions",
+        "Remain outside Class D airspace and wait for light gun signals from the tower before entering the pattern",
+        "Squawk 7600 and divert to the nearest uncontrolled airport"
+      ],
+      "explanation": "According to PHAK Chapter 14, when both receiver and transmitter are inoperative, the pilot should remain outside of Class D airspace until the flow of traffic has been determined and then enter the pattern and land. Rocking the wings is the procedure for when only the transmitter is inoperative (receiver still works), allowing the pilot to monitor ATC and acknowledge transmissions visually. Light gun signals are used when the receiver is inoperative but the transmitter still functions. Diverting to an uncontrolled airport is unnecessary since the established procedure allows landing at the towered airport.",
+      "reference": {
+        "page": "14-23",
+        "text": "standard terminology. The AIM also contains many examples              If the transmitter becomes inoperative, a pilot should follow\nof radio communications.                                               the previously stated procedures and also monitor the\n                                                                       appropriate ATC frequency. During daylight hours, ATC\nICAO has adopted a phonetic alphabet that should be used in            transmissions may be acknowledged by rocking the wings\nradio communications. When communicating with ATC, pilots              and at night by blinking the landing light.\nshould use this alphabet to identify their aircraft. [Figure 14-41]\n                                                                       When both receiver and transmitter are inoperative, the pilot\nLost Communication Procedures                                          should remain outside of Class D airspace until the flow of\nIt is possible that a pilot might experience a malfunction of          traffic has been determined and then enter the pattern and\nthe radio."
+      }
+    },
+    {
+      "section": "TRACK                                                      TRACK",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "While flying with a significant crosswind, ATC advises of traffic at your 12 o'clock position. You acquire the traffic visually, but it appears at your 1 o'clock. What explains this discrepancy?",
+      "correct_answer": "ATC determines traffic position based on ground track, while the pilot perceives it relative to aircraft heading, and wind causes these to differ",
+      "distractors": [
+        "ATC radar systems have an inherent processing delay that causes displayed traffic positions to lag behind their real-time location",
+        "The other aircraft's transponder is broadcasting an erroneous position report, causing ATC to misidentify its bearing",
+        "ATC references traffic using true north while the pilot's clock position is based on magnetic north, creating an angular offset"
+      ],
+      "explanation": "According to PHAK Chapter 14, traffic advisories issued by ATC may differ from the actual relative position of traffic as seen by the pilot due to wind effects. ATC radar and ADS-B ground systems display aircraft ground track, but the pilot visually references traffic relative to the aircraft's heading. When a crosswind requires a crab angle, the aircraft's heading and ground track diverge, causing the called-out clock position to differ from where the pilot actually sees the traffic.",
+      "reference": {
+        "page": "14-26",
+        "text": "(ADS-B)                                                                 A                                                          B\nAutomatic Dependent Surveillance−Broadcast (ADS−B) is a                                            Wind\nsurveillance technology being deployed throughout the NAS\nto facilitate improvements needed to increase the capacity\nand efficiency of the NAS, while maintaining safety. ADS-B\nsupports these improvements by providing a higher update rate\nand enhanced accuracy of surveillance information over the\ncurrent radar-based surveillance system. In addition, ADS-B\nenables the expansion of air traffic control (ATC) surveillance\nservices into areas where none existed previously. The ADS-B           Trafﬁc information would be issued to the pilot of aircraft “A”\n                                                                       as 12 o’clock. The actual position of the trafﬁc as seen by\nground system also provides Traffic Information Services-              the pilot of aircraft “A” would be 1 o’clock. Trafﬁc information\nBroadcast (TIS-B) and Flight Information Services-Broadcast            issued to aircraft “B” would also be given as 12 o’clock, but\n(FIS-B) for use on appropriately equipped aircraft, enhancing          in this case, the pilot of “B” would see trafﬁc at 10 o’clock.\nthe user’s situational awareness (SA) and improving the\noverall safety of the NAS.                                          Figure 14-44. Traffic advisories."
+      }
+    },
+    {
+      "section": "Vortex Generation",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "When a light aircraft encounters the wake vortex of a larger aircraft, what makes this situation potentially uncontrollable for the pilot?",
+      "correct_answer": "The rolling moment imposed by the vortex can exceed the encountering aircraft's roll-control authority.",
+      "distractors": [
+        "The vortex creates a simultaneous loss of lift on both wings that cannot be countered by adding power.",
+        "The vortex induces an immediate structural failure of the flight control surfaces, making them unresponsive.",
+        "The vortex causes an uncontrollable pitch-up moment that cannot be countered with elevator input."
+      ],
+      "explanation": "According to the Pilot's Handbook of Aeronautical Knowledge (Chapter 14, Wake Turbulence section), the vortices from larger aircraft 'can impose rolling moments exceeding the roll-control authority of the encountering aircraft.' This means that no matter how much control input the pilot applies, the aircraft may be physically incapable of overcoming the roll induced by the vortex. The distractors are incorrect because they describe lift loss, structural failure, or pitch-up moments rather than the roll-control authority limitation described in the source material.",
+      "reference": {
+        "page": "14-26",
+        "text": "The ADS−B system is composed of aircraft avionics and a             area (TRSA) has been implemented at certain terminal\nground infrastructure. Onboard avionics determine the position      locations. TRSAs are depicted on sectional aeronautical\nof the aircraft by using the GPS and transmit its position,         charts and listed in the Chart Supplement U.S. (formerly\nalong with additional information about the aircraft, to ground     Airport/Facility Directory). The purpose of this service is to\nstations for use by ATC and nearby ADS-B equipped aircraft.         provide separation between all participating VFR aircraft and\n                                                                    all IFR aircraft operating within the TRSA. Class C service\nIn the United States, ADS−B equipped aircraft exchange              provides approved separation between IFR and VFR aircraft\ninformation on one of two frequencies: 978 or 1090 MHz.             and sequencing of VFR aircraft to the primary airport. Class\nThe 1090 MHz frequency is associated with Mode A, C, and S          B service provides approved separation of aircraft based on\ntransponder operations. 1090 MHz transponders with integrated       IFR, VFR, and/or weight and sequencing of VFR arrivals to\nADS−B functionality extend the transponder message sets with        the primary airport(s).\nadditional ADS−B information. This additional information\nis known as an “extended squitter” message and referred to as       Wake Turbulence\n1090ES. ADS−B equipment operating on 978 MHz is known\n                                                                    All aircraft generate wake turbulence during flight. This\nas the Universal Access Transceiver (UAT).\n                                                                    disturbance is caused by a pair of counter-rotating vortices\n                                                                    trailing from the wingtips. The vortices from larger aircraft\n                                                                    pose problems to encountering aircraft. The wake of these\nRadar equipped ATC facilities provide radar assistance\n                                                                    aircraft can impose rolling moments exceeding the roll-\nto aircraft on instrument flight plans and VFR aircraft\n                                                                    control authority of the encountering aircraft. Also, the\nprovided the aircraft can communicate with the facility and\n                                                                    turbulence generated within the vortices can damage aircraft\nare within radar coverage."
+      }
+    },
+    {
+      "section": "Vortex Generation",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "A pilot cruising at high altitude behind a heavy transport aircraft assumes that wake turbulence will be significantly weaker than in the terminal area due to the higher cruise speed. What does recent research indicate about this assumption?",
+      "correct_answer": "Reduced air density at high altitude may result in wake strength comparable to that in the terminal area, despite higher cruise speeds.",
+      "distractors": [
+        "Reduced air density at altitude causes wake vortices to dissipate more quickly, making cruise wake turbulence always weaker than in the terminal area.",
+        "Air density has no effect on wake strength; only aircraft weight and speed determine vortex intensity at any altitude.",
+        "Wake turbulence at cruise altitude is always stronger because the higher speed generates more powerful vortices than in the terminal area."
+      ],
+      "explanation": "According to PHAK Chapter 14, air density is a factor in wake strength. Even though speeds are higher in cruise at high altitude, the reduced air density may result in wake strength comparable to that in the terminal area. Pilots should not assume that higher cruise speeds or lower air density automatically mean weaker wake turbulence.",
+      "reference": {
+        "page": "14-27",
+        "text": "Vortex Strength                                                     operating in the NAS. There have been wake turbulence\nTerminal Area                                                       events in excess of 30NM and 2000 feet lower than the wake\nWake turbulence has historically been thought of as only            generating aircraft. Air density is also a factor in wake strength.\na function of aircraft weight, but recent research considers        Even though the speeds are higher in cruise at high altitude,\nadditional parameters, such as speed, aspects of the wing, wake     the reduced air density may result in wake strength comparable\ndecay rates, and aircraft resistance to wake, just to name a few.   to that in the terminal area. In addition, for a given separation\nThe vortex characteristics of any aircraft will be changed with     distance, the higher speeds in cruise result in less time for the\nthe extension of flaps or other wing configuration devices, as      wake to decay before being encountered by a trailing aircraft.\nwell as changing speed. However, as the basic factors are weight\nand speed, the vortex strength increases proportionately with       Vortex Behavior\nan increase in aircraft operating weight or decrease in aircraft    Trailing vortices have certain behavioral characteristics\nspeed."
+      }
+    },
+    {
+      "section": "Vortex Generation",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "Two aircraft are maintaining the same in-trail separation distance at cruise altitude. Compared to a slower lead aircraft, a faster lead aircraft will produce a wake that is encountered by the trailing aircraft with:",
+      "correct_answer": "Less time to decay before the encounter",
+      "distractors": [
+        "More time to decay because the faster aircraft travels farther before the wake is encountered",
+        "Greater initial vortex strength since vortex strength increases with speed",
+        "The same decay time since separation distance, not speed, determines how long the wake persists"
+      ],
+      "explanation": "According to PHAK Chapter 14, for a given separation distance, higher speeds in cruise result in less time for the wake to decay before being encountered by a trailing aircraft. This is a time-based relationship: the same physical separation distance is covered more quickly at higher speeds, giving the wake less time to dissipate. Distractor 1 reverses this logic. Distractor 2 is incorrect because the source states vortex strength increases with a decrease in speed, not an increase. Distractor 3 incorrectly assumes decay is purely a function of distance rather than time.",
+      "reference": {
+        "page": "14-27",
+        "text": "Vortex Strength                                                     operating in the NAS. There have been wake turbulence\nTerminal Area                                                       events in excess of 30NM and 2000 feet lower than the wake\nWake turbulence has historically been thought of as only            generating aircraft. Air density is also a factor in wake strength.\na function of aircraft weight, but recent research considers        Even though the speeds are higher in cruise at high altitude,\nadditional parameters, such as speed, aspects of the wing, wake     the reduced air density may result in wake strength comparable\ndecay rates, and aircraft resistance to wake, just to name a few.   to that in the terminal area. In addition, for a given separation\nThe vortex characteristics of any aircraft will be changed with     distance, the higher speeds in cruise result in less time for the\nthe extension of flaps or other wing configuration devices, as      wake to decay before being encountered by a trailing aircraft.\nwell as changing speed. However, as the basic factors are weight\nand speed, the vortex strength increases proportionately with       Vortex Behavior\nan increase in aircraft operating weight or decrease in aircraft    Trailing vortices have certain behavioral characteristics\nspeed."
+      }
+    },
+    {
+      "section": "Vortex Avoidance Procedures",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "Why does a light quartering tailwind create the worst case scenario for wake turbulence on approach to landing?",
+      "correct_answer": "It can transport vortices along a significant portion of the final approach path and extended centerline, rather than concentrating them only in the touchdown zone",
+      "distractors": [
+        "It causes vortices to sink at a faster rate, bringing them to pattern altitude before they can dissipate",
+        "It prevents the vortices from moving laterally, trapping them directly over the runway centerline",
+        "It increases the rotational speed of the vortices, making them more violent and longer-lasting"
+      ],
+      "explanation": "According to PHAK Chapter 14, a light quartering tailwind is the worst case scenario because the wind can carry the wake vortices along a significant portion of the final approach and extended centerline. Pilots typically expect vortices to hazard only the touchdown zone, but under these wind conditions, the hazard persists throughout the flight path. The tailwind does not change the vortex sink rate, lateral movement pattern, or rotational intensity—it changes where the vortices end up relative to the approaching aircraft's flight path.",
+      "reference": {
+        "page": "14-28",
+        "text": "aircraft have shown that vortices remain spaced a bit less than            landing (since vortices settle and move laterally\na wingspan apart, drifting with the wind, at altitudes greater             near the ground, the vortex hazard may exist along\nthan a wingspan from the ground. Tests have also shown that                the runway and in the flight path, particularly in a\nthe vortices sink at a rate of several hundred feet per minute,            quartering tailwind), it is prudent to wait at least 2\nslowing their descent and diminishing in strength with time                minutes prior to a takeoff or landing.\nand distance behind the generating aircraft.                          •    En route, it is advisable to avoid a path below and\n                                                                           behind a large aircraft, and if a large aircraft is\nWhen the vortices of larger aircraft sink close to the ground              observed above on the same track, change the aircraft\n(within 100 to 200 feet), they tend to move laterally over                 position laterally and preferably upwind.\nthe ground at a speed of 2–3 knots. A crosswind decreases\nthe lateral movement of the upwind vortex and increases\nthe movement of the downwind vortex. A light quartering\ntailwind presents the worst case scenario as the wake               Title 14 of the CFR part 91 has established right-of-way\nvortices could be all present along a significant portion of        rules, minimum safe altitudes, and VFR cruising altitudes\nthe final approach and extended centerline and not just in the      to enhance flight safety. The pilot can contribute to collision\ntouchdown zone as typically expected.                               avoidance by being alert and scanning for other aircraft."
+      }
+    },
+    {
+      "section": "Vortex Avoidance Procedures",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral",
         "general_knowledge"
       ],
-      "question": "What is the purpose of NOTAMs (Notices to Air Missions)?",
-      "correct_answer": "To alert pilots of temporary changes, hazards, or conditions at airports and in the NAS",
+      "question": "Two aircraft are converging on approach to an airport. You are flying a small aircraft and have the legal right-of-way under the applicable regulations. However, you observe that the other aircraft is on a path that will bring it uncomfortably close to your position. What action should you take?",
+      "correct_answer": "Yield to the other aircraft, prioritizing collision avoidance over your right-of-way entitlement",
       "distractors": [
-        "To provide permanent changes to instrument approach procedures",
-        "To update aircraft maintenance records",
-        "To issue new FARs"
+        "Maintain your course and speed, since the other aircraft is legally required to yield to you",
+        "Immediately climb to a higher altitude and declare an emergency with ATC",
+        "Turn base early to shorten your approach and ensure you land before the other aircraft arrives"
       ],
-      "explanation": "NOTAMs provide time-critical aeronautical information on temporary conditions, such as runway closures, airspace restrictions, hazards, and equipment outages.",
+      "explanation": "According to PHAK Chapter 14, even if a pilot is entitled to the right-of-way, they should yield if another aircraft seems too close. This guidance emphasizes that safety of flight and collision avoidance take priority over strict adherence to right-of-way rules, particularly in the vicinity of an airport where traffic convergence is common and wake vortex encounters are a concern.",
       "reference": {
-        "page": "14-4",
-        "text": "NOTAMs provide time-critical aeronautical information on temporary conditions, such as runway closures, airspace restrictions, hazards, and equipment outages."
+        "page": "14-28",
+        "text": "This\n                                                                    is particularly important in the vicinity of an airport.\nThe following procedures are in place to assist pilots in vortex    Effective scanning is accomplished with a series of short,\navoidance in the given scenario.                                    regularly spaced eye movements that bring successive areas of\n                                                                    the sky into the central visual field. Each movement should not\n  •     Landing behind a larger aircraft on the same runway—        exceed 10°, and each should be observed for at least 1 second\n        stay at or above the larger aircraft’s approach             to enable detection. Although back and forth eye movements\n        flight path and land beyond its touchdown point.            seem preferred by most pilots, each pilot should develop a\n        [Figure 14-47A]                                             scanning pattern that is most comfortable and then adhere to\n  •     Landing behind a larger aircraft on a parallel runway       it to assure optimum scanning. Even if entitled to the right-of­\n        closer than 2,500 feet—consider the possibility of drift    way, a pilot should yield if another aircraft seems too close.\n        and stay at or above the larger aircraft’s final approach\n        flight path and note its touchdown point. [Figure 14-47B]   Clearing Procedures\n  •     Landing behind a larger aircraft on crossing runway—        The following procedures and considerations are in place to\n        cross above the larger aircraft’s flight path.              assist pilots in collision avoidance under various situations:"
       }
     },
     {
-      "section": "Taxiway Markings",
-      "difficulty": 2,
+      "section": "Vortex Avoidance Procedures",
+      "difficulty": 3,
       "categories": [
         "written_exam",
         "checkride_oral"
       ],
-      "question": "What does a solid yellow line paired with a dashed yellow line on a taxiway mean?",
-      "correct_answer": "Hold short line — do not cross from the solid side without ATC clearance",
+      "question": "While landing behind a larger aircraft on a crossing runway, you note that the larger aircraft's rotation point is past the runway intersection. What is the recommended vortex avoidance procedure?",
+      "correct_answer": "Continue the approach and land prior to the intersection.",
       "distractors": [
-        "Taxiway centerline marking",
-        "Taxiway edge marking",
-        "ILS critical area boundary that can be freely crossed"
+        "Abandon the approach unless a landing is ensured well before reaching the intersection.",
+        "Avoid flight below the larger aircraft's flight path and land beyond the intersection.",
+        "Execute a shallow climb over the intersection and land beyond the larger aircraft's rotation point."
       ],
-      "explanation": "The hold short marking has a solid line on the taxiway side and dashed lines on the runway side. Aircraft must stop before the solid line and not cross without ATC clearance.",
+      "explanation": "According to the Pilot's Handbook of Aeronautical Knowledge (PHAK) Chapter 14, when landing behind a larger aircraft on a crossing runway, a pilot should note the larger aircraft's rotation point. If that point is past the intersection, the pilot should continue and land prior to the intersection. The procedure to abandon the approach or avoid flight below the flight path applies if the larger aircraft rotates prior to the intersection.",
       "reference": {
-        "page": "14-8",
-        "text": "Runway holding position markings consist of four yellow lines, two solid and two dashed, that are painted on the surface and extend across the width of the taxiway to indicate where the aircraft should stop when approaching a runway. These markings are painted across the entire taxiway pavement, are in alignment, and are collocated with the holding position sign as described above."
+        "page": "14-28",
+        "text": "•     Landing behind a departing aircraft on the same               •    Before takeoff—prior to taxiing onto a runway or\n        runway—land prior to the departing aircraft’s                      landing area in preparation for takeoff, pilots should\n        rotating point.                                                    scan the approach area for possible landing traffic,\n                                                                           executing appropriate maneuvers to provide a clear\n  •     Landing behind a larger aircraft on a crossing                     view of the approach areas.\n        runway—note the aircraft’s rotation point and, if that\n        point is past the intersection, continue and land prior       •    Climbs and descents—during climbs and descents in\n        to the intersection. If the larger aircraft rotates prior          flight conditions that permit visual detection of other\n        to the intersection, avoid flight below its flight path.           traffic, pilots should execute gentle banks left and right\n        Abandon the approach unless a landing is ensured well              at a frequency that permits continuous visual scanning\n        before reaching the intersection. [Figure 14-47C]                  of the airspace."
       }
     },
     {
-      "section": "Wake Turbulence",
-      "difficulty": 2,
+      "section": "Vortex Avoidance Procedures",
+      "difficulty": 3,
       "categories": [
         "written_exam",
         "checkride_oral"
       ],
-      "question": "When landing behind a large aircraft on the same runway, where should a pilot plan to touch down?",
-      "correct_answer": "Beyond the large aircraft's touchdown point",
+      "question": "While landing behind a larger departing aircraft on a crossing runway, you observe that the larger aircraft rotates prior to the runway intersection. What action should you take to avoid wake turbulence?",
+      "correct_answer": "Avoid flight below the larger aircraft's flight path and ensure a landing well before the intersection.",
       "distractors": [
-        "Before the large aircraft's touchdown point",
-        "At the same point as the large aircraft",
-        "On the first third of the runway regardless"
+        "Land prior to the intersection, as this procedure applies whenever the larger aircraft rotates before the intersection.",
+        "Continue the approach and land beyond the intersection to allow the wake vortices to descend below your flight path.",
+        "Maintain your current approach path and reduce speed to increase the separation time behind the larger aircraft."
       ],
-      "explanation": "Wake turbulence (wingtip vortices) sink and drift. Landing beyond the preceding aircraft's touchdown point helps avoid its wake vortices, which are generated from rotation to touchdown.",
+      "explanation": "According to the PHAK, when landing behind a larger aircraft on a crossing runway, note the larger aircraft's rotation point. If the larger aircraft rotates prior to the intersection, you should avoid flight below its flight path. The approach should be abandoned unless a landing is ensured well before reaching the intersection. Landing prior to the intersection is only the correct procedure if the larger aircraft's rotation point is past the intersection.",
       "reference": {
-        "page": "14-19",
-        "text": "When landing behind a large aircraft on the same runway, where should a pilot plan to touch down? Beyond the large aircraft's touchdown point. Explanation: Wake turbulence (wingtip vortices) sink and drift. Landing beyond the preceding aircraft's touchdown point helps avoid its wake vortices, which are generated from rotation to touchdown."
+        "page": "14-28",
+        "text": "•     Landing behind a departing aircraft on the same               •    Before takeoff—prior to taxiing onto a runway or\n        runway—land prior to the departing aircraft’s                      landing area in preparation for takeoff, pilots should\n        rotating point.                                                    scan the approach area for possible landing traffic,\n                                                                           executing appropriate maneuvers to provide a clear\n  •     Landing behind a larger aircraft on a crossing                     view of the approach areas.\n        runway—note the aircraft’s rotation point and, if that\n        point is past the intersection, continue and land prior       •    Climbs and descents—during climbs and descents in\n        to the intersection. If the larger aircraft rotates prior          flight conditions that permit visual detection of other\n        to the intersection, avoid flight below its flight path.           traffic, pilots should execute gentle banks left and right\n        Abandon the approach unless a landing is ensured well              at a frequency that permits continuous visual scanning\n        before reaching the intersection. [Figure 14-47C]                  of the airspace."
       }
     }
   ]

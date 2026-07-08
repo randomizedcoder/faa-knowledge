@@ -83,9 +83,16 @@ func Merge(numRuns int, outputDir string) (*MergeReport, error) {
 			}
 			agreement := len(runs)
 
-			// Scale thresholds proportionally to number of runs
-			strongThresh := max(2, (numRuns*80+99)/100) // >=80% agreement
-			weakThresh := max(2, (numRuns*60+99)/100)   // >=60% agreement
+			// Scale thresholds proportionally to number of runs. The floor of 2
+			// (require at least two agreeing runs) only makes sense for
+			// multi-run consensus — with a single run every question is its own
+			// 100% consensus, so don't floor it out of existence.
+			strongThresh := (numRuns*80 + 99) / 100 // >=80% agreement
+			weakThresh := (numRuns*60 + 99) / 100   // >=60% agreement
+			if numRuns > 1 {
+				strongThresh = max(2, strongThresh)
+				weakThresh = max(2, weakThresh)
+			}
 
 			var level string
 			switch {

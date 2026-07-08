@@ -3,163 +3,361 @@
   "chapter": 17,
   "questions": [
     {
-      "section": "Hypoxia",
-      "difficulty": 2,
+      "section": "•    Unconsciousness                                                                    Eardrum",
+      "difficulty": 3,
       "categories": [
         "written_exam",
-        "checkride_oral"
-      ],
-      "question": "At what cabin altitude do the effects of hypoxia become significant enough to impair pilot performance during the day?",
-      "correct_answer": "Above 10,000 feet MSL",
-      "distractors": [
-        "Above 5,000 feet MSL",
-        "Above 18,000 feet MSL",
-        "Above 15,000 feet MSL"
-      ],
-      "explanation": "Daytime cognitive impairment from hypoxia becomes significant above about 10,000 feet. Note that night vision can be affected as low as 5,000 feet. FAR 91.211 requires supplemental oxygen for crew above 12,500 feet cabin altitude for more than 30 minutes, and for everyone above 14,000 feet.",
-      "reference": {
-        "page": "17-4",
-        "text": "As altitude increases above 10,000 feet, the symptoms of hypoxia increase in severity, and the time of useful consciousness rapidly decreases."
-      }
-    },
-    {
-      "section": "Hypoxia",
-      "difficulty": 2,
-      "categories": [
-        "written_exam",
-        "checkride_oral"
-      ],
-      "question": "What are common symptoms of hypoxia?",
-      "correct_answer": "Headache, impaired judgment, euphoria, and cyanosis (blue fingernails/lips)",
-      "distractors": [
-        "Nausea, vertigo, and ringing in the ears",
-        "Increased alertness and improved night vision",
-        "Severe joint pain and rash"
-      ],
-      "explanation": "Hypoxia symptoms include headache, drowsiness, impaired judgment, euphoria, a false sense of well-being, and blue discoloration of fingernails and lips (cyanosis). Insidious because the pilot may feel fine.",
-      "reference": {
-        "page": "17-4",
-        "text": "The first symptoms of hypoxia can include euphoria and a carefree feeling. With increased oxygen starvation, the extremities become less responsive and flying becomes less coordinated. The symptoms of hypoxia vary with the individual, but common symptoms include: •    Cyanosis (blue fingernails and lips) •    Headache •    Decreased response to stimuli and increased reaction time •    Impaired judgment •    Euphoria •    Visual impairment •    Drowsiness •    Lightheaded or dizzy sensation •    Tingling in fingers and toes •    Numbness"
-      }
-    },
-    {
-      "section": "Hyperventilation",
-      "difficulty": 2,
-      "categories": [
-        "written_exam",
-        "checkride_oral"
-      ],
-      "question": "How can hyperventilation be treated?",
-      "correct_answer": "Slow the breathing rate, talk aloud, or breathe into a paper bag",
-      "distractors": [
-        "Increase the breathing rate to get more oxygen",
-        "Descend to a lower altitude immediately",
-        "Apply supplemental oxygen at high flow rate"
-      ],
-      "explanation": "Hyperventilation is caused by excessive breathing that lowers CO2 levels. Treatment is to consciously slow breathing, talk aloud, or breathe into a bag to restore CO2 balance.",
-      "reference": {
-        "page": "17-4",
-        "text": "The treatment for hyperventilation involves restoring the proper carbon dioxide level in the body. Breathing normally is both the best prevention and the best cure for hyperventilation. In addition to slowing the breathing rate, breathing into a paper bag or talking aloud helps to overcome hyperventilation."
-      }
-    },
-    {
-      "section": "Spatial Disorientation",
-      "difficulty": 2,
-      "categories": [
-        "written_exam",
-        "checkride_oral"
-      ],
-      "question": "What is the primary way to overcome spatial disorientation?",
-      "correct_answer": "Trust and rely on the flight instruments rather than bodily sensations",
-      "distractors": [
-        "Focus on the horizon through peripheral vision",
-        "Shake your head to reset the vestibular system",
-        "Close your eyes for a few seconds to re-calibrate"
-      ],
-      "explanation": "The vestibular system can produce false sensations in flight (the leans, graveyard spiral, etc.). Trusting the flight instruments is the only reliable way to maintain orientation.",
-      "reference": {
-        "page": "17-9",
-        "text": "The sensations that lead to illusions during instrument flight conditions are normal perceptions experienced by pilots. These undesirable sensations cannot be completely prevented, but through training and awareness, pilots can ignore or suppress them by developing absolute reliance on the flight instruments. As pilots gain proficiency in instrument flying, they become less susceptible to these illusions and their effects. The most importantly, become proficient in the use of flight instruments and rely upon them. Trust the instruments and disregard your sensory perceptions."
-      }
-    },
-    {
-      "section": "Carbon Monoxide Poisoning",
-      "difficulty": 2,
-      "categories": [
-        "written_exam",
-        "checkride_oral"
-      ],
-      "question": "What is a common source of carbon monoxide poisoning in a single-engine aircraft?",
-      "correct_answer": "A leak in the exhaust system allowing CO into the cabin through the heater",
-      "distractors": [
-        "Running the avionics master with the engine off",
-        "Using recirculated cabin air at high altitude",
-        "Burning avgas fumes entering through the fuel vents"
-      ],
-      "explanation": "The cabin heater in most single-engine aircraft uses a shroud around the exhaust manifold. A crack in the exhaust can allow CO into the heated air. Symptoms include headache, drowsiness, and cherry-red skin.",
-      "reference": {
-        "page": "17-12",
-        "text": "CO is a colorless and odorless gas produced by all internal combustion engines. Attaching itself to the hemoglobin in the blood about 200 times more easily than oxygen, CO prevents the hemoglobin from carrying oxygen to the cells, resulting in hypemic hypoxia. The body requires up to 48 hours to dispose of CO. If severe enough, the CO poisoning can result in death. Aircraft heater vents and defrost vents may provide CO a passageway into the cabin, particularly if the engine exhaust system has a leak or is damaged. If a strong odor of exhaust gases is detected, assume that CO is present. However, CO may be present in dangerous amounts even if no exhaust odor is detected."
-      }
-    },
-    {
-      "section": "Alcohol and Drugs",
-      "difficulty": 1,
-      "categories": [
-        "written_exam",
-        "checkride_oral"
-      ],
-      "question": "According to FAR 91.17, how many hours before flying must a pilot abstain from consuming alcohol?",
-      "correct_answer": "8 hours",
-      "distractors": [
-        "12 hours",
-        "24 hours",
-        "4 hours"
-      ],
-      "explanation": "14 CFR 91.17: No person may act as a crewmember within 8 hours after consuming alcohol, while under the influence, or with a BAC of 0.04% or greater. '8 hours bottle to throttle.'",
-      "reference": {
-        "page": "17-15",
-        "text": "14 CFR 91.17: No person may act as a crewmember within 8 hours after consuming alcohol, while under the influence, or with a BAC of 0.04% or greater. '8 hours bottle to throttle.'"
-      }
-    },
-    {
-      "section": "Night Vision",
-      "difficulty": 2,
-      "categories": [
-        "written_exam",
+        "checkride_oral",
         "general_knowledge"
       ],
-      "question": "How long does it take for the eyes to fully adapt to darkness for night flying?",
-      "correct_answer": "Approximately 30 minutes",
+      "question": "A pilot recovering from a cold plans to fly and reasons that if ear discomfort occurs during descent, performing the Valsalva maneuver will equalize pressure as usual. Why is this assumption potentially dangerous?",
+      "correct_answer": "The cold may make it impossible to equalize ear pressure through the Eustachian tube, and continuing the flight could cause extreme pain and eardrum damage.",
       "distractors": [
-        "Approximately 5 minutes",
-        "Approximately 10 minutes",
-        "Approximately 60 minutes"
+        "The Valsalva maneuver only works during climbs, not descents, so it would be ineffective regardless of the pilot's health.",
+        "A cold causes the Eustachian tube to open too widely, resulting in rapid over-pressurization of the middle ear rather than under-pressurization.",
+        "The Valsalva maneuver forces air into the sinuses instead of the middle ear when nasal passages are congested, providing no relief to ear pressure."
       ],
-      "explanation": "Full dark adaptation takes approximately 30 minutes. Exposure to bright light (especially white light) can destroy night adaptation. Red light helps preserve it.",
+      "explanation": "According to PHAK Chapter 17, it may not be possible to equalize pressure in the ears if a pilot has a cold, an ear infection, or sore throat. The Eustachian tube, which normally allows air pressure to equalize in the middle ear, may be blocked or swollen due to the illness. Even attempting the Valsalva maneuver (pinching nostrils shut and blowing gently) may not force air through the Eustachian tube. Flying in this condition can be extremely painful and damaging to the eardrums. The pilot's assumption that the Valsalva maneuver will always work is flawed because the underlying illness can physically prevent equalization.",
       "reference": {
-        "page": "17-10",
-        "text": "2.   Make frequent reference to the altimeter, especially               4.   Use Visual Approach Slope Indicator (VASI) or               whenever they are available."
+        "page": "17-5",
+        "text": "•    Lightheaded or dizzy sensation\n  •    Tingling sensations\n  •    Hot and cold sensations\n  •    Muscle spasms\n                                                                                       Auditory canal\nThe treatment for hyperventilation involves restoring\nthe proper carbon dioxide level in the body. Breathing                Outer ear        Opening to throat\nnormally is both the best prevention and the best cure\nfor hyperventilation. In addition to slowing the breathing\nrate, breathing into a paper bag or talking aloud helps to        Figure 17-2. The Eustachian tube allows air pressure to equalize\novercome hyperventilation. Recovery is usually rapid once         in the middle ear.\nthe breathing rate is returned to normal.\n                                                                  sensitivity, pinch the nostrils shut, close the mouth and lips,\nMiddle Ear and Sinus Problems                                     and blow slowly and gently into the mouth and nose.\nDuring climbs and descents, the free gas formerly present in\nvarious body cavities expands due to a difference between         This procedure forces air through the Eustachian tube into the\nthe pressure of the air outside the body and that of the air      middle ear. It may not be possible to equalize the pressure in\ninside the body. If the escape of the expanded gas is impeded,    the ears if a pilot has a cold, an ear infection, or sore throat.\npressure builds up within the cavity and pain is experienced.     A flight in this condition can be extremely painful, as well as\nTrapped gas expansion accounts for ear pain and sinus pain,       damaging to the eardrums. If experiencing minor congestion,\nas well as a temporary reduction in the ability to hear.          nose drops or nasal sprays may reduce the risk of a painful\n                                                                  ear blockage. Before using any medication, check with an\nThe middle ear is a small cavity located in the bone of the       AME to ensure that it will not affect the ability to fly.\nskull. It is closed off from the external ear canal by the\neardrum. Normally, pressure differences between the middle        In a similar way, air pressure in the sinuses equalizes with\near and the outside world are equalized by a tube leading         the pressure in the flight deck through small openings\nfrom inside each ear to the back of the throat on each side       that connect the sinuses to the nasal passages."
       }
     },
     {
-      "section": "IMSAFE Checklist",
-      "difficulty": 1,
+      "section": "•    Unconsciousness                                                                    Eardrum",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "A pilot has minor nasal congestion on the morning of a planned flight and is concerned about developing a painful ear blockage during descent. What action should the pilot take before considering the use of a nasal spray or nose drops?",
+      "correct_answer": "Consult with an AME to verify that the medication will not impair the ability to fly before using it.",
+      "distractors": [
+        "Use any over-the-counter nasal spray, since topical decongestants do not affect piloting ability.",
+        "Self-medicate with nose drops only if symptoms worsen during the flight, rather than before takeoff.",
+        "Ask a personal physician for medication recommendations, as any doctor's approval is sufficient for flight."
+      ],
+      "explanation": "According to PHAK Chapter 17, while nose drops or nasal sprays may reduce the risk of a painful ear blockage when minor congestion is present, a pilot must check with an AME before using any medication to ensure it will not affect the ability to fly. Over-the-counter status does not guarantee a medication is safe for flying, a personal physician may not be familiar with aviation-specific medication implications, and waiting until symptoms worsen in flight could already put the pilot at risk of an ear blockage.",
+      "reference": {
+        "page": "17-5",
+        "text": "•    Lightheaded or dizzy sensation\n  •    Tingling sensations\n  •    Hot and cold sensations\n  •    Muscle spasms\n                                                                                       Auditory canal\nThe treatment for hyperventilation involves restoring\nthe proper carbon dioxide level in the body. Breathing                Outer ear        Opening to throat\nnormally is both the best prevention and the best cure\nfor hyperventilation. In addition to slowing the breathing\nrate, breathing into a paper bag or talking aloud helps to        Figure 17-2. The Eustachian tube allows air pressure to equalize\novercome hyperventilation. Recovery is usually rapid once         in the middle ear.\nthe breathing rate is returned to normal.\n                                                                  sensitivity, pinch the nostrils shut, close the mouth and lips,\nMiddle Ear and Sinus Problems                                     and blow slowly and gently into the mouth and nose.\nDuring climbs and descents, the free gas formerly present in\nvarious body cavities expands due to a difference between         This procedure forces air through the Eustachian tube into the\nthe pressure of the air outside the body and that of the air      middle ear. It may not be possible to equalize the pressure in\ninside the body. If the escape of the expanded gas is impeded,    the ears if a pilot has a cold, an ear infection, or sore throat.\npressure builds up within the cavity and pain is experienced.     A flight in this condition can be extremely painful, as well as\nTrapped gas expansion accounts for ear pain and sinus pain,       damaging to the eardrums. If experiencing minor congestion,\nas well as a temporary reduction in the ability to hear.          nose drops or nasal sprays may reduce the risk of a painful\n                                                                  ear blockage. Before using any medication, check with an\nThe middle ear is a small cavity located in the bone of the       AME to ensure that it will not affect the ability to fly.\nskull. It is closed off from the external ear canal by the\neardrum. Normally, pressure differences between the middle        In a similar way, air pressure in the sinuses equalizes with\near and the outside world are equalized by a tube leading         the pressure in the flight deck through small openings\nfrom inside each ear to the back of the throat on each side       that connect the sinuses to the nasal passages."
+      }
+    },
+    {
+      "section": "•    Unconsciousness                                                                    Eardrum",
+      "difficulty": 3,
+      "categories": [
+        "written_exam"
+      ],
+      "question": "During descent, a pilot finds it difficult to relieve pressure in the middle ear despite repeated swallowing and yawning. What physical mechanism makes this condition harder to relieve during descent compared to ascent?",
+      "correct_answer": "The partial vacuum in the middle ear constricts the walls of the Eustachian tube, making it harder to open",
+      "distractors": [
+        "The eardrum bulges outward during descent, physically blocking the Eustachian tube opening",
+        "Increased external air pressure directly compresses the Eustachian tube from outside the body",
+        "Rapid temperature changes at lower altitudes cause the Eustachian tube muscles to spasm"
+      ],
+      "explanation": "According to PHAK Chapter 17, during descent the middle ear cavity remains at the lower pressure it equalized to at altitude, while external pressure increases. This creates a partial vacuum inside the middle ear that tends to constrict the walls of the Eustachian tube, making it more difficult to open and relieve the pressure differential. The eardrum bulges inward (not outward), and the problem originates from the internal vacuum effect rather than external compression or temperature changes.",
+      "reference": {
+        "page": "17-5",
+        "text": "A maxillary sinus block can also\nhappens. While the pressure of the air in the external ear        make the upper teeth ache. Bloody mucus may discharge\ncanal increases, the middle ear cavity, which equalized with      from the nasal passages.\nthe lower pressure at altitude, is at lower pressure than the\nexternal ear canal. This results in the higher outside pressure   Sinus block can be avoided by not flying with an upper\ncausing the eardrum to bulge inward.                              respiratory infection or nasal allergic condition. Adequate\n                                                                  protection is usually not provided by decongestant sprays\nThis condition can be more difficult to relieve due to the        or drops to reduce congestion around the sinus openings.\nfact that the partial vacuum tends to constrict the walls of      Oral decongestants have side effects that can impair pilot\nthe Eustachian tube. To remedy this often painful condition,      performance. If a sinus block does not clear shortly after\nwhich also causes a temporary reduction in hearing                landing, a physician should be consulted. 17-5"
+      }
+    },
+    {
+      "section": "•    Unconsciousness                                                                    Eardrum",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "Why can reliance on the somatosensory system, or \"seat of the pants\" flying, lead to sensory illusions and false impressions of an aircraft's orientation?",
+      "correct_answer": "The body is unable to differentiate between acceleration forces caused by gravity and those caused by maneuvering the aircraft.",
+      "distractors": [
+        "The somatosensory system relies entirely on visual inputs from the eyes to send accurate posture signals to the brain.",
+        "The nerves in the skin and muscles only transmit signals to the brain during abrupt changes in aircraft attitude, ignoring gradual shifts.",
+        "The vestibular system automatically overrides somatosensory inputs during flight, causing the brain to receive mixed signals about movement."
+      ],
+      "explanation": "According to PHAK Chapter 17, the somatosensory system sends signals from the skin, joints, and muscles to the brain that are interpreted in relation to the Earth's gravitational pull. However, the body cannot distinguish between acceleration forces due to gravity and those resulting from maneuvering the aircraft. This inability to differentiate the source of acceleration forces is what leads to sensory illusions and false impressions of an aircraft's orientation and movement.",
+      "reference": {
+        "page": "17-6",
+        "text": "Spatial Disorientation and Illusions                                     ear in any direction causes the tiny hairs to deflect, which\nSpatial disorientation specifically refers to the lack of                in turn stimulates nerve impulses, sending messages to the\norientation with regard to the position, attitude, or movement           brain. The vestibular nerve transmits the impulses from\nof the airplane in space. The body uses three integrated                 the utricle, saccule, and semicircular canals to the brain to\nsystems that work together to ascertain orientation and                  interpret motion.\nmovement in space.\n                                                                         The somatosensory system sends signals from the skin, joints,\n  •       Vestibular system—organs found in the inner ear that\n                                                                         and muscles to the brain that are interpreted in relation to the\n          sense position by the way we are balanced\n                                                                         Earth’s gravitational pull. These signals determine posture.\n  •       Somatosensory system—nerves in the skin, muscles,              Inputs from each movement update the body’s position to the\n          and joints that, along with hearing, sense position            brain on a constant basis. “Seat of the pants” flying is largely\n          based on gravity, feeling, and sound                           dependent upon these signals. Used in conjunction with visual\n  •       Visual system—eyes, which sense position based on              and vestibular clues, these sensations can be fairly reliable.\n          what is seen                                                   However, the body cannot distinguish between acceleration\n                                                                         forces due to gravity and those resulting from maneuvering\nAll this information comes together in the brain and, most               the aircraft, which can lead to sensory illusions and false\nof the time, the three streams of information agree, giving              impressions of an aircraft’s orientation and movement.\na clear idea of where and how the body is moving."
+      }
+    },
+    {
+      "section": "ROLL                                             H",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "During a graveyard spiral, a disoriented pilot notices a loss of altitude and perceives they are in a level descent. If the pilot pulls back on the flight controls in an attempt to stop the descent, what is the actual result?",
+      "correct_answer": "The control input tightens the spiral and increases the loss of altitude.",
+      "distractors": [
+        "The control input levels the wings and initiates a stabilized climb.",
+        "The control input reduces the bank angle but increases the rate of descent.",
+        "The control input causes an immediate stall, which breaks the spiral dive."
+      ],
+      "explanation": "According to the Pilot's Handbook of Aeronautical Knowledge (PHAK) Chapter 17, a graveyard spiral occurs when a pilot in a prolonged, unnoticed turn perceives a loss of altitude as a level descent. If the pilot pulls back on the controls to climb or stop the descent, the action tightens the spiral and increases the loss of altitude, potentially leading to a loss of aircraft control.",
+      "reference": {
+        "page": "17-7",
+        "text": "Vestibular Illusions                                                 direction causing the disoriented pilot to return the aircraft\nThe Leans                                                            to its original turn. Because an aircraft tends to lose altitude\nA condition called the leans, is the most common illusion            in turns unless the pilot compensates for the loss in lift,\nduring flight and is caused by a sudden return to level flight       the pilot may notice a loss of altitude. The absence of any\nfollowing a gradual and prolonged turn that went unnoticed by        sensation of turning creates the illusion of being in a level\nthe pilot. The reason a pilot can be unaware of such a gradual       descent. The pilot may pull back on the controls in an attempt\nturn is that human exposure to a rotational acceleration of 2        to climb or stop the descent. This action tightens the spiral\ndegrees per second or lower is below the detection threshold         and increases the loss of altitude; this illusion is referred to\nof the semicircular canals. [Figure 17-4] Leveling the wings         as a “graveyard spiral.” [Figure 17-5] This may lead to a\nafter such a turn may cause an illusion that the aircraft is         loss of aircraft control.\nbanking in the opposite direction. In response to such an\nillusion, a pilot may lean in the direction of the original turn     Somatogravic Illusion\nin a corrective attempt to regain the perception of a correct        A rapid acceleration, such as experienced during takeoff,\nvertical posture.                                                    stimulates the otolith organs in the same way as tilting the\n                                                                     head backwards."
+      }
+    },
+    {
+      "section": "ROLL                                             H",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "While flying in conditions with poor visual references, a pilot rapidly reduces the throttle(s), resulting in a quick deceleration. What dangerous reaction might the disoriented pilot have due to the somatogravic illusion?",
+      "correct_answer": "Pull the aircraft into a nose-up or stall attitude",
+      "distractors": [
+        "Push the aircraft into a nose-low or dive attitude",
+        "Roll the aircraft to correct a perceived turn on a different axis",
+        "Apply opposite rudder to recover from a perceived spin"
+      ],
+      "explanation": "According to PHAK Chapter 17, a rapid deceleration from a quick throttle reduction creates the opposite somatogravic effect of acceleration. While acceleration creates the illusion of a nose-up attitude (causing the pilot to push the aircraft into a nose-low or dive attitude), deceleration can cause the disoriented pilot to pull the aircraft into a nose-up or stall attitude. Pushing into a dive is the reaction to acceleration, not deceleration. Rolling to correct a perceived turn on a different axis describes the Coriolis illusion, and applying rudder to recover from a perceived spin describes the graveyard spin illusion.",
+      "reference": {
+        "page": "17-7",
+        "text": "This action may create what is known as\nCoriolis Illusion                                                    the “somatogravic illusion” of being in a nose-up attitude,\nThe “coriolis illusion” occurs when a pilot has been in a turn       especially in conditions with poor visual references. The\nlong enough for the fluid in the ear canal to move at the same       disoriented pilot may push the aircraft into a nose-low or\nspeed as the canal. A movement of the head in a different            dive attitude. A rapid deceleration by quick reduction of the\nplane, such as looking at something in a different part of the       throttle(s) can have the opposite effect, with the disoriented\nflight deck, may set the fluid moving, creating the illusion         pilot pulling the aircraft into a nose-up or stall attitude.\nof turning or accelerating on an entirely different axis. This\naction causes the pilot to think the aircraft is performing a\nmaneuver it is not. The disoriented pilot may maneuver the\naircraft into a dangerous attitude in an attempt to correct the\naircraft’s perceived attitude.\n                                                                                                                  Graveyard spin\nFor this reason, it is important that pilots develop an\ninstrument cross-check or scan that involves minimal head\nmovement. Take care when retrieving charts and other objects\nin the flight deck—if something is dropped, retrieve it with\nminimal head movement and be alert for the coriolis illusion."
+      }
+    },
+    {
+      "section": "Graveyard Spiral",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral",
+        "general_knowledge"
+      ],
+      "question": "A pilot has been in a prolonged constant-rate turn and no longer perceives the turn. As the pilot begins recovery to level flight, they experience the sensation of turning in the opposite direction. What is the primary danger of this illusion?",
+      "correct_answer": "The pilot may re-enter the original turn, creating a tightening spiral",
+      "distractors": [
+        "The pilot may roll the aircraft inverted during recovery",
+        "The pilot may enter an accelerated stall during the rollout",
+        "The pilot may experience vertigo causing an immediate loss of consciousness"
+      ],
+      "explanation": "According to PHAK Chapter 17, during a prolonged coordinated constant-rate turn, a pilot may lose perception of the turn. When recovering to level flight, the pilot experiences the sensation of turning in the opposite direction. This is the graveyard spiral illusion. The danger is that the pilot, feeling they are turning the wrong way, may instinctively turn back into the original turn direction rather than continuing the recovery to level flight. This re-entry into the original turn tightens the spiral, increasing the descent rate and load factor—a potentially fatal cycle if the pilot does not recognize the illusion and rely on flight instruments.",
+      "reference": {
+        "page": "17-7",
+        "text": "As in other illusions, a pilot in a prolonged coordinated,\nconstant-rate turn may experience the illusion of not                                    Graveyard spiral\nturning. During the recovery to level flight, the pilot will\nthen experience the sensation of turning in the opposite             Figure 17-5. Graveyard spiral. Endolymph\n                          Cupola Tube"
+      }
+    },
+    {
+      "section": "Graveyard Spiral",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral",
+        "general_knowledge"
+      ],
+      "question": "A VFR pilot flying into IMC inadvertently enters a constant-rate turn to the left. After approximately 20 seconds, the pilot no longer feels any sensation of turning. What property of the semicircular canals makes this scenario so dangerous?",
+      "correct_answer": "The canals detect angular acceleration and deceleration but do not detect constant-rate rotation",
+      "distractors": [
+        "The canals become saturated after 15-20 seconds and temporarily stop transmitting any vestibular signals to the brain",
+        "The canals only detect turns that exceed a bank angle of 30 degrees, allowing shallow spirals to go unnoticed",
+        "The otolith organs, which normally sense sustained turns, are suppressed when the pilot loses outside visual references"
+      ],
+      "explanation": "According to the PHAK Chapter 17, the semicircular canals contain fluid that moves when angular acceleration occurs, deflecting hair cells and creating a sensation of turning. However, once a constant rate of turn is established, the fluid accelerates to the same speed as the canal wall, and the sensation of turning ceases. This means a pilot in IMC can enter a spiral and, after the initial turn is established, feel as though they are flying straight and level. This is the fundamental mechanism behind graveyard spirals. Distractor A is incorrect because it describes saturation/fatigue rather than the physics of fluid equalization. Distractor B is incorrect because the canals respond to acceleration regardless of bank angle. Distractor C is incorrect because the otolith organs detect linear acceleration and gravity, not angular rotation.",
+      "reference": {
+        "page": "17-7",
+        "text": "No turning                    Start of turn                 Constant rate turn            Turn stopped\n        No sensation.               Sensation of turning           No sensation after fluid  Sensation of turning in\n                                  as moving fluid deflects          accelerates to same opposite direction as moving\n                                           hairs.                    speed as tube wall. fluid deflects hairs in opposite\n                                                                                                     direction. 17-7"
+      }
+    },
+    {
+      "section": "False Horizon",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "A pilot flying in low visibility decides to rely on \"seat of the pants\" sensations to maintain attitude. During an uncoordinated turn, the pilot feels the aircraft is level when it is actually banked. What causes this false sensation?",
+      "correct_answer": "Acceleration forces overpower gravity, causing the brain to misinterpret the body's position relative to the Earth",
+      "distractors": [
+        "The postural system stops sending signals to the brain during uncoordinated flight, leaving the pilot without orientation cues",
+        "The vestibular system overrides the postural system during turns, suppressing all sensations from the skin, joints, and muscles",
+        "Visual illusions interfere with the skin, joints, and muscles, preventing them from accurately detecting the aircraft's bank angle"
+      ],
+      "explanation": "According to PHAK Chapter 17, the postural system sends signals from the skin, joints, and muscles to the brain that are interpreted in relation to the Earth's gravitational pull. While 'seat of the pants' flying can be fairly reliable when used in conjunction with visual and vestibular clues, false sensations can occur because acceleration forces can overpower gravity. These situations include uncoordinated turns, where the acceleration forces cause the brain to misinterpret the body's actual position relative to the Earth.",
+      "reference": {
+        "page": "17-8",
+        "text": "An abrupt upward vertical acceleration, as can occur in an         The postural system sends signals from the skin, joints, and\nupdraft, can stimulate the otolith organs to create the illusion   muscles to the brain that are interpreted in relation to the\nof being in a climb. This is known as “elevator illusion.”         Earth’s gravitational pull. These signals determine posture.\nThe disoriented pilot may push the aircraft into a nose-low        Inputs from each movement update the body’s position to\nattitude. An abrupt downward vertical acceleration, usually        the brain on a constant basis. “Seat of the pants” flying is\nin a downdraft, has the opposite effect with the disoriented       largely dependent upon these signals. Used in conjunction\npilot pulling the aircraft into a nose-up attitude.                with visual and vestibular clues, these sensations can be\n                                                                   fairly reliable. However, because of the forces acting upon\n                                                                   the body in certain flight situations, many false sensations\n                                                                   can occur due to acceleration forces overpowering gravity.\nVisual illusions are especially hazardous because pilots rely\n                                                                   [Figure 17-6] These situations include uncoordinated turns,\non their eyes for correct information."
+      }
+    },
+    {
+      "section": "False Horizon",
+      "difficulty": 3,
       "categories": [
         "checkride_oral",
         "general_knowledge"
       ],
-      "question": "What does the IMSAFE checklist stand for?",
-      "correct_answer": "Illness, Medication, Stress, Alcohol, Fatigue, Emotion/Eating",
+      "question": "During a controlled maneuver designed to demonstrate spatial disorientation, the pilot experiences no unusual sensations. Why is this absence of sensation still considered an effective demonstration?",
+      "correct_answer": "It illustrates the pilot's inability to detect bank or roll.",
       "distractors": [
-        "Instruments, Maintenance, Safety, Airworthiness, Fuel, Equipment",
-        "Initial, Maneuvers, Stalls, Approaches, Finals, Emergencies",
-        "Inspection, Modifications, Systems, Avionics, Fuel, Engine"
+        "It indicates the pilot is overly reliant on visual cues rather than the vestibular system.",
+        "It proves the maneuver was performed too gently to stimulate the inner ear.",
+        "It demonstrates the pilot's natural adaptation to unusual attitudes."
       ],
-      "explanation": "IMSAFE is a personal health checklist: Illness, Medication, Stress, Alcohol, Fatigue, and Emotion (or Eating). Pilots should assess each factor before every flight.",
+      "explanation": "According to the Pilot's Handbook of Aeronautical Knowledge (PHAK), Chapter 17, any false sensation during a spatial disorientation demonstration maneuver is effective. Furthermore, even if there is no sensation at all, the absence of sensation is still an effective demonstration because it illustrates the pilot's inability to detect bank or roll.",
+      "reference": {
+        "page": "17-8",
+        "text": "Two illusions that lead\n                                                                   climbing turns, and turbulence.\nto spatial disorientation, false horizon and autokinesis, affect\nthe visual system only.                                            Demonstration of Spatial Disorientation\n                                                                   There are a number of controlled aircraft maneuvers a pilot\n                                                                   can perform to experiment with spatial disorientation. While\nA sloping cloud formation, an obscured horizon, an aurora          each maneuver normally creates a specific illusion, any false\nborealis, a dark scene spread with ground lights and stars,        sensation is an effective demonstration of disorientation.\nand certain geometric patterns of ground lights can provide        Thus, even if there is no sensation during any of these\ninaccurate visual information, or “false horizon,” when            maneuvers, the absence of sensation is still an effective\nattempting to align the aircraft with the actual horizon.          demonstration because it illustrates the inability to detect\nThe disoriented pilots as a result may place the aircraft in a     bank or roll.\ndangerous attitude."
+      }
+    },
+    {
+      "section": "Reversal of Motion",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "When a pilot experiences spatial disorientation without visual references, what typically dictates their control inputs if they do not reference the flight instruments?",
+      "correct_answer": "The pilot reacts to what their senses are saying rather than the actual aircraft attitude.",
+      "distractors": [
+        "The pilot's subconscious muscle memory automatically maintains the actual aircraft attitude.",
+        "The pilot's vestibular system accurately determines the actual aircraft attitude.",
+        "The pilot instinctively levels the wings based on the actual aircraft attitude."
+      ],
+      "explanation": "According to the PHAK, when a pilot is experiencing spatial disorientation, it is clear they have no idea of the actual attitude, and he or she will react to what the senses are saying. This is why pilots must rely on their flight instruments rather than their senses during instrument meteorological conditions.",
+      "reference": {
+        "page": "17-9",
+        "text": "While it is clear the pilot has no\nWith the pilot’s eyes still closed and the aircraft in a straight­   idea of the actual attitude, he or she will react to what the\nand-level attitude, the instructor pilot now executes, with a        senses are saying. After a short time, the pilot will become\nrelatively slow entry, a well coordinated turn of about 1.5          disoriented and the instructor pilot will tell the pilot to look\npositive G (approximately 50° bank) for 90°. While in the            up and recover. This exercise allows the pilot to experience\nturn, without outside visual references and under the effect of      the disorientation while flying the aircraft.\nthe slight positive G, the usual illusion produced is that of a\nclimb. Upon sensing the climb, the pilot should immediately\nopen the eyes to see that a slowly established, coordinated          Coping with Spatial Disorientation\nturn produces the same sensation as a climb.                         To prevent illusions and their potentially disastrous\n                                                                     consequences, pilots can:\nDiving While Turning                                                   1.   Understand the causes of these illusions and remain\nRepeating the previous procedure, but with the pilot’s                      constantly alert for them. Take the opportunity to\neyes should be kept closed until recovery from the turn is                  experience spatial disorientation illusions in a device,\napproximately one-half completed, can create the illusion of                such as a Barany chair, a Vertigon, or a Virtual Reality\ndiving while turning."
+      }
+    },
+    {
+      "section": "Featureless Terrain Illusion",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "During a night visual approach, a pilot encounters a runway with a downsloping surface and downsloping approach terrain. If the pilot is unaware of this visual illusion, what is the likely effect on the approach?",
+      "correct_answer": "The pilot may fly a higher approach than intended",
+      "distractors": [
+        "The pilot may fly a lower approach than intended",
+        "The pilot may experience a false sensation of pitching up and descend below the proper glidepath",
+        "The pilot may perceive the runway as longer than it is and land beyond the intended touchdown point"
+      ],
+      "explanation": "According to PHAK Chapter 17, an absence of surrounding ground features (the featureless terrain illusion or 'black hole approach') creates an illusion that the aircraft is at a higher altitude than it actually is, causing pilots to fly a lower approach. Downsloping runways and downsloping approach terrain can have the opposite effect, causing pilots to fly a higher approach. A pilot who does not recognize this illusion may fly an unnecessarily high approach. The first distractor confuses the downsloping terrain effect with the featureless terrain illusion. The second distractor describes a vestibular-type illusion rather than a visual terrain illusion. The third distractor references a different visual illusion related to runway appearance rather than terrain slope.",
+      "reference": {
+        "page": "17-10",
+        "text": "night-flight currency and proficiency. Include cross-         is. [Figure 17-7] The pilot who does not recognize this\n        country and local operations at various airfields.            illusion will fly a lower approach. Downsloping runways and\n  5.    Ensure that when outside visual references are used,          downsloping approach terrain can have the opposite effect.\n        they are reliable, fixed points on the Earth’s surface.\n  6.    Avoid sudden head movement, particularly during\n                                                                      An absence of surrounding ground features, as in an\n        takeoffs, turns, and approaches to landing.\n                                                                      overwater approach over darkened areas or terrain made\n  7.    Be physically tuned for flight into reduced visibility.       featureless by snow, can create an illusion that the aircraft is\n        Ensure proper rest, adequate diet, and, if flying at          at a higher altitude than it actually is. This illusion, sometimes\n        night, allow for night adaptation. Remember that              referred to as the “black hole approach,” causes pilots to fly\n        illness, medication, alcohol, fatigue, sleep loss, and        a lower approach than is desired.\n        mild hypoxia are likely to increase susceptibility to\n        spatial disorientation.                                       Water Refraction\n  8.    Most importantly, become proficient in the use of             Rain on the windscreen can create an illusion of being at a\n        flight instruments and rely upon them. Trust the              higher altitude due to the horizon appearing lower than it is.\n        instruments and disregard your sensory perceptions.           This can result in the pilot flying a lower approach."
+      }
+    },
+    {
+      "section": "Runway Width Illusion",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "A pilot on final approach suddenly enters a layer of fog. The pilot experiences a sensation of pitching up and, not recognizing this as an illusion, reacts instinctively. What is the likely consequence?",
+      "correct_answer": "The pilot steepens the approach abruptly",
+      "distractors": [
+        "The pilot shallowly extends the approach by adding power",
+        "The pilot levels off prematurely and lands long",
+        "The pilot initiates an immediate go-around due to disorientation"
+      ],
+      "explanation": "According to PHAK Chapter 17, flying into fog creates an illusion of pitching up. Pilots who do not recognize this illusion often steepen the approach abruptly, likely because the false sensation of pitching up causes them to overcorrect by pushing the nose down. Understanding this illusion is critical for maintaining a stable approach, especially during the transition from instrument to visual flight at the end of an approach.",
+      "reference": {
+        "page": "17-10",
+        "text": "The sensations that lead to illusions during instrument               Haze\nflight conditions are normal perceptions experienced by               Atmospheric haze can create an illusion of being at a greater\npilots. These undesirable sensations cannot be completely             distance and height from the runway. As a result, the pilot\nprevented, but through training and awareness, pilots can             has a tendency to be low on the approach. Conversely,\nignore or suppress them by developing absolute reliance               extremely clear air (clear bright conditions of a high attitude\non the flight instruments. As pilots gain proficiency in              airport) can give the pilot the illusion of being closer than\ninstrument flying, they become less susceptible to these              he or she actually is, resulting in a high approach that may\nillusions and their effects.                                          result in an overshoot or go around. The diffusion of light\n                                                                      due to water particles on the windshield can adversely affect\nOptical Illusions                                                     depth perception. The lights and terrain features normally\nOf the senses, vision is the most important for safe flight.          used to gauge height during landing become less effective\nHowever, various terrain features and atmospheric conditions          for the pilot.\ncan create optical illusions. These illusions are primarily\nassociated with landing. Since pilots must transition from            Fog\nreliance on instruments to visual cues outside the flight             Flying into fog can create an illusion of pitching up. Pilots\ndeck for landing at the end of an instrument approach, it             who do not recognize this illusion often steepen the approach\nis imperative that they be aware of the potential problems            abruptly.\nassociated with these illusions and take appropriate corrective\naction."
+      }
+    },
+    {
+      "section": "Runway Width Illusion",
+      "difficulty": 3,
+      "categories": [
+        "written_exam"
+      ],
+      "question": "A pilot accustomed to standard-width runways is approaching an unfamiliar airport with a notably narrow runway. Without recognizing the visual illusion, what approach error is the pilot most likely to make?",
+      "correct_answer": "Fly a lower-than-normal approach path",
+      "distractors": [
+        "Fly a higher-than-normal approach path",
+        "Maintain a faster-than-normal approach airspeed",
+        "Flare prematurely before reaching the runway surface"
+      ],
+      "explanation": "According to PHAK Chapter 17, a narrow runway creates a visual illusion that causes a pilot to fly a lower approach than normal. The narrower runway gives the false perception of being higher than actual altitude, prompting the pilot to descend. Conversely, a wider runway creates the opposite illusion, causing a higher-than-normal approach. Recognizing this illusion is critical to maintaining a safe glidepath.",
+      "reference": {
+        "page": "17-11",
+        "text": "Narrower runway                            Wider runway                                   Runway width illusion"
+      }
+    },
+    {
+      "section": "N                                                     Norm",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "While cruising at altitude, a pilot notices a strong exhaust odor and begins experiencing a headache and dizziness. Suspecting carbon monoxide (CO) is present, what immediate corrective actions should the pilot take?",
+      "correct_answer": "Turn off the heater, open fresh air vents and windows, and use supplemental oxygen if available",
+      "distractors": [
+        "Turn on the cabin defrost to help filter the air, close all vents to prevent additional CO from entering, and descend to a lower altitude",
+        "Increase cabin heat to dilute the contaminated air, open the overhead vent only, and monitor symptoms for improvement",
+        "Close all windows and vents to seal the cabin, reduce throttle to decrease exhaust output, and use supplemental oxygen if available"
+      ],
+      "explanation": "According to the PHAK Chapter 17, any time a pilot smells exhaust odor or experiences symptoms such as headache, blurred vision, dizziness, drowsiness, or loss of muscle power, immediate corrective action should be taken including turning off the heater, opening fresh air vents and windows, and using supplemental oxygen if available. The heater is a known pathway for CO to enter the cabin, so it must be turned off rather than increased or redirected. Closing vents and windows would trap CO in the cabin rather than ventilating it out.",
       "reference": {
         "page": "17-12",
-        "text": "Stress is the body's response to physical and psychological demands placed upon it. The body's reaction to stress includes releasing chemical hormones (such as adrenaline) into the blood and increasing metabolism to provide more energy to the muscles. Blood sugar, heart rate, respiration, blood pressure, and perspiration all increase. The term \"stressor\" is used to describe an element that causes an individual to experience stress. Examples of stressors include physical stress (noise or vibration), physiological stress (fatigue), and psychological stress (difficult work or personal situations)."
+        "text": "6.    Recognize that the chances of being involved in an         can result in death. Aircraft heater vents and defrost vents\n        approach accident increase when an emergency or            may provide CO a passageway into the cabin, particularly if\n        other activity distracts from usual procedures.            the engine exhaust system has a leak or is damaged. If a strong\n  7.    Maintain optimum proficiency in landing procedures.        odor of exhaust gases is detected, assume that CO is present.\n                                                                   However, CO may be present in dangerous amounts even\nIn addition to the sensory illusions due to misleading inputs to   if no exhaust odor is detected. Disposable, inexpensive CO\nthe vestibular system, a pilot may also encounter various visual   detectors are widely available. In the presence of CO, these\nillusions during flight. Illusions rank among the most common      detectors change color to alert the pilot of the presence of CO.\nfactors cited as contributing to fatal aviation accidents.         Some effects of CO poisoning are headache, blurred vision,\n                                                                   dizziness, drowsiness, and/or loss of muscle power. Any time\nSloping cloud formations, an obscured horizon, a dark scene        a pilot smells exhaust odor, or any time these symptoms are\nspread with ground lights and stars, and certain geometric         experienced, immediate corrective action should be taken\npatterns of ground light can create illusions of not being         including turning off the heater, opening fresh air vents and\naligned correctly with the actual horizon. Various surface         windows, and using supplemental oxygen, if available.\nfeatures and atmospheric conditions encountered in landing\ncan create illusions of being on the wrong approach path.          Tobacco smoke also causes CO poisoning. Smoking at\nLanding errors due to these illusions can be prevented by          sea level can raise the CO concentration in the blood and\nanticipating them during approaches, inspecting unfamiliar         result in physiological effects similar to flying at 8,000 feet.\nairports before landing, using electronic glideslope or VASI       Besides hypoxia, tobacco causes diseases and physiological\nsystems when available, and maintaining proficiency in             debilitation that can be medically disqualifying for pilots.\nlanding procedures.\n                                                                   Stress\nMotion Sickness                                                    Stress is the body’s response to physical and psychological\nMotion sickness, or airsickness, is caused by the brain            demands placed upon it. The body’s reaction to stress includes\nreceiving conflicting messages about the state of the body. A      releasing chemical hormones (such as adrenaline) into the\npilot may experience motion sickness during initial flights, but   blood and increasing metabolism to provide more energy\nit generally goes away within the first few lessons. Anxiety       to the muscles. Blood sugar, heart rate, respiration, blood\nand stress, which may be experienced at the beginning of           pressure, and perspiration all increase."
+      }
+    },
+    {
+      "section": "Exposure to Chemicals",
+      "difficulty": 3,
+      "categories": [
+        "written_exam"
+      ],
+      "question": "A pilot on a long cross-country flight notices they are still accomplishing every usual task, but each individual step feels slightly disconnected from the next. Their procedures are correct, yet the overall flow of operations has become choppy and less smooth. According to the PHAK, this is an example of which effect of skill fatigue?",
+      "correct_answer": "Timing disruption, where each component is performed as though it were separate instead of part of an integrated activity",
+      "distractors": [
+        "Disruption of the perceptual field, where attention narrows to immediate movements or objects rather than the entire perceptual field",
+        "Chronic fatigue, where continuous high stress produces tiredness not relieved by rest or sleep",
+        "Mental fatigue, where prolonged cognitive work degrades decision-making and communication ability"
+      ],
+      "explanation": "The PHAK describes skill fatigue as a special type of acute fatigue with two main effects. Timing disruption is when a pilot appears to perform a task as usual, but the timing of each component is slightly off, making the operation less smooth because the pilot performs each component as though it were separate instead of part of an integrated activity. The scenario describes this exact effect. Disruption of the perceptual field is the other effect of skill fatigue but involves narrowed attention, not choppy procedure timing. Chronic fatigue and mental fatigue are different categories of fatigue entirely.",
+      "reference": {
+        "page": "17-13",
+        "text": "Fatigue                                                            Chronic fatigue, extending over a long period of time, usually\nFatigue is frequently associated with pilot error. Some of         has psychological roots, although an underlying disease is\nthe effects of fatigue include degradation of attention and        sometimes responsible. Continuous high-stress levels produce\nconcentration, impaired coordination, and decreased ability        chronic fatigue. Chronic fatigue is not relieved by proper diet\nto communicate. These factors seriously influence the              and adequate rest and sleep and usually requires treatment\nability to make effective decisions. Physical fatigue results      by a physician. An individual may experience this condition\nfrom sleep loss, exercise, or physical work. Factors such as       in the form of weakness, tiredness, palpitations of the heart,\nstress and prolonged performance of cognitive work result          breathlessness, headaches, or irritability. Sometimes chronic\nin mental fatigue.                                                 fatigue even creates stomach or intestinal problems and\n                                                                   generalized aches and pains throughout the body. When the\nLike stress, fatigue falls into two broad categories: acute        condition becomes serious enough, it leads to emotional illness.\nand chronic. Acute fatigue is short term and is a normal\noccurrence in everyday living. It is the kind of tiredness         If suffering from acute fatigue, stay on the ground. If fatigue\npeople feel after a period of strenuous effort, excitement, or     occurs in the flight deck, no amount of training or experience\nlack of sleep. Rest after exertion and 8 hours of sound sleep      can overcome the detrimental effects. Getting adequate rest\nordinarily cures this condition.                                   is the only way to prevent fatigue from occurring. Avoid\n                                                                   flying without a full night’s rest, after working excessive\nA special type of acute fatigue is skill fatigue. This type of     hours, or after an especially exhausting or stressful day. Pilots\nfatigue has two main effects on performance:                       who suspect they are suffering from chronic fatigue should\n                                                                   consult a physician.\n  •    Timing disruption—appearing to perform a task as\n       usual, but the timing of each component is slightly off.\n       This makes the pattern of the operation less smooth\n                                                                   When conducting preflight and post-flight inspections, pilots\n       because the pilot performs each component as though it\n                                                                   must verify that the fluid levels in their aircraft meet the\n       were separate, instead of part of an integrated activity.\n                                                                   levels specified for safe operations as stated in the Pilot's\n  •    Disruption of the perceptual field—concentrating            Operating Handbook."
+      }
+    },
+    {
+      "section": "Exposure to Chemicals",
+      "difficulty": 3,
+      "categories": [
+        "written_exam"
+      ],
+      "question": "A pilot experiencing skill fatigue may exhibit a \"disruption of the perceptual field.\" Which scenario best describes this effect?",
+      "correct_answer": "The pilot concentrates on a single task while ignoring other important inputs.",
+      "distractors": [
+        "The pilot performs a task as usual, but the timing of each component is slightly off.",
+        "The pilot experiences long-term tiredness and irritability that is not relieved by adequate rest.",
+        "The pilot suffers from physical weakness after a period of strenuous physical work."
+      ],
+      "explanation": "According to the PHAK, skill fatigue has two main effects on performance. One is 'disruption of the perceptual field,' which means concentrating upon a task while ignoring other inputs. The other is 'timing disruption,' where the pilot performs a task as usual but the timing of each component is slightly off. The other distractors describe chronic fatigue and physical fatigue, respectively.",
+      "reference": {
+        "page": "17-13",
+        "text": "Fatigue                                                            Chronic fatigue, extending over a long period of time, usually\nFatigue is frequently associated with pilot error. Some of         has psychological roots, although an underlying disease is\nthe effects of fatigue include degradation of attention and        sometimes responsible. Continuous high-stress levels produce\nconcentration, impaired coordination, and decreased ability        chronic fatigue. Chronic fatigue is not relieved by proper diet\nto communicate. These factors seriously influence the              and adequate rest and sleep and usually requires treatment\nability to make effective decisions. Physical fatigue results      by a physician. An individual may experience this condition\nfrom sleep loss, exercise, or physical work. Factors such as       in the form of weakness, tiredness, palpitations of the heart,\nstress and prolonged performance of cognitive work result          breathlessness, headaches, or irritability. Sometimes chronic\nin mental fatigue.                                                 fatigue even creates stomach or intestinal problems and\n                                                                   generalized aches and pains throughout the body. When the\nLike stress, fatigue falls into two broad categories: acute        condition becomes serious enough, it leads to emotional illness.\nand chronic. Acute fatigue is short term and is a normal\noccurrence in everyday living. It is the kind of tiredness         If suffering from acute fatigue, stay on the ground. If fatigue\npeople feel after a period of strenuous effort, excitement, or     occurs in the flight deck, no amount of training or experience\nlack of sleep. Rest after exertion and 8 hours of sound sleep      can overcome the detrimental effects. Getting adequate rest\nordinarily cures this condition.                                   is the only way to prevent fatigue from occurring. Avoid\n                                                                   flying without a full night’s rest, after working excessive\nA special type of acute fatigue is skill fatigue. This type of     hours, or after an especially exhausting or stressful day. Pilots\nfatigue has two main effects on performance:                       who suspect they are suffering from chronic fatigue should\n                                                                   consult a physician.\n  •    Timing disruption—appearing to perform a task as\n       usual, but the timing of each component is slightly off.\n       This makes the pattern of the operation less smooth\n                                                                   When conducting preflight and post-flight inspections, pilots\n       because the pilot performs each component as though it\n                                                                   must verify that the fluid levels in their aircraft meet the\n       were separate, instead of part of an integrated activity.\n                                                                   levels specified for safe operations as stated in the Pilot's\n  •    Disruption of the perceptual field—concentrating            Operating Handbook."
+      }
+    },
+    {
+      "section": "Engine Oil                                                          dizziness.",
+      "difficulty": 3,
+      "categories": [
+        "general_knowledge"
+      ],
+      "question": "If a person vomits after ingesting a hazardous material, what body position should be maintained to reduce the risk of aspiration?",
+      "correct_answer": "Keep the head below the hips",
+      "distractors": [
+        "Keep the person sitting upright to maintain an open airway",
+        "Keep the head elevated above the heart to promote circulation",
+        "Keep the person lying flat on their back with arms at their sides"
+      ],
+      "explanation": "According to the PHAK Chapter 17, if vomiting occurs after ingestion of hazardous material, the head should be kept below the hips to reduce the risks of aspiration. Aspiration occurs when vomited material enters the airway and lungs, which can cause serious lung damage. Positioning the head below the hips uses gravity to help prevent stomach contents from flowing back into the airway. Sitting upright, elevating the head, or lying flat on the back would all fail to provide this gravity-assisted protection and could increase aspiration risk.",
+      "reference": {
+        "page": "17-14",
+        "text": "appearance of the wound or its size, seek medical                  lung damage. Should vomiting occur, keep head below\n        attention immediately.                                             the hips to reduce the risks of aspiration. Monitor for\n •      Inhalation—if respiratory symptoms develop, move                   breathing difficulties. Rinse out any material which\n        away from the source of exposure and into fresh air                enters the mouth until the taste is dissipated.\n        in a position comfortable for breathing. If symptoms\n        persist, seek medical attention.                            Dehydration and Heatstroke\n                                                                    Dehydration is the term given to a critical loss of water from\n •      Ingestion—first aid is not normally required; however,\n                                                                    the body. Causes of dehydration are hot flight decks and\n        if swallowed and symptoms develop, seek medical\n                                                                    flight lines, wind, humidity, and diuretic drinks—coffee, tea,\n        attention.\n                                                                    alcohol, and caffeinated soft drinks. Some common signs of\n                                                                    dehydration are headache, fatigue, cramps, sleepiness, and\n •      Eye Contact—immediately flush the eyes with clean\n        water and seek medical attention if irritation occurs.      The first noticeable effect of dehydration is fatigue, which\n                                                                    in turn makes top physical and mental performance difficult,\n •      Skin Contact—remove all contaminated clothing and\n                                                                    if not impossible. Flying for long periods in hot summer\n        thoroughly cleanse the affected areas with soap and\n                                                                    temperatures or at high altitudes increases the susceptibility\n        water. Launder contaminated clothing before reuse.\n                                                                    to dehydration because these conditions tend to increase the\n •      Inhalation—move away from the source of exposure            rate of water loss from the body.\n        and into fresh air. If respiratory irritation, dizziness,\n        nausea, or unconsciousness occurs, seek immediate           To help prevent dehydration, drink two to four quarts of\n        medical attention. If breathing stops, assisted             water every 24 hours. Since each person is physiologically\n        ventilation is required via a bag-valve-mask or             different, this is only a guide. Most people are aware of the\n        cardiopulmonary resuscitation (CPR).                        eight-glasses-a-day guide: If each glass of water is eight\n •      Ingestion—seek immediate medical attention. If              ounces, this equates to 64 ounces, which is two quarts. If\n        immediate medical attention is not available, contact       this fluid is not replaced, fatigue progresses to dizziness,\n        a regional poison control center or emergency medical       weakness, nausea, tingling of hands and feet, abdominal\n        professional regarding the induction of vomiting or         cramps, and extreme thirst.\n        use of activated charcoal."
       }
     }
   ]

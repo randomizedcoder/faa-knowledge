@@ -1,0 +1,365 @@
+{
+  "source": "AFH",
+  "chapter": 13,
+  "questions": [
+    {
+      "section": "Terms and Definitions",
+      "difficulty": 3,
+      "categories": [
+        "written_exam"
+      ],
+      "question": "Under 14 CFR part 23 certification rules, what speed criteria define a level 2 low speed airplane?",
+      "correct_answer": "VNO or VMO less than or equal to 250 knots calibrated airspeed and an MMO less than or equal to 0.6.",
+      "distractors": [
+        "VNO or VMO less than or equal to 250 knots indicated airspeed and an MMO less than or equal to 0.6.",
+        "VNE or VMO less than or equal to 250 knots calibrated airspeed and an MMO less than or equal to 0.6.",
+        "VNO or VMO less than or equal to 200 knots calibrated airspeed and an MMO less than or equal to 0.5."
+      ],
+      "explanation": "According to the Airplane Flying Handbook (AFH) Chapter 13, 14 CFR part 23 certification rules divide airplanes into performance levels based on speed. A level 2 low speed airplane is specifically defined as having a VNO or VMO less than or equal to 250 knots calibrated airspeed and an MMO less than or equal to 0.6. The distractors are incorrect because they substitute indicated airspeed for calibrated airspeed, substitute VNE for VNO, or use incorrect speed and Mach values.",
+      "reference": {
+        "page": "13-3",
+        "text": "The performance characteristics of an airplane depend upon the rules in effect during type certification and do not depend on the\nproduction year after certification. The current amendment to 14 CFR part 23, 81 FR 96689, went into effect on December 30, 2016.\nThis includes certification of normal category airplanes with passenger seating configuration of 19 or less and a maximum certificated\ntakeoff weight of 19,000 pounds or less (section 23.2005(a)). Current 14 CFR part 23 certification rules (section 23.2005(b)) classify\nairplanes into certification levels 1 through 4 based on maximum passenger seating configuration. For example, a level 2 airplane has\na passenger seating configuration between two and six passengers. The rule further divides airplanes into two different performance\nlevels based on speed (section 23.2005(c)). After a critical loss of thrust, a level 2 low speed airplane (VNO or VMO less than or equal\nto 250 knots calibrated airspeed and MMO less than or equal to 0.6) that does not meet single-engine crashworthiness requirements\nrequires a climb gradient of at least 1.5 percent at a pressure altitude of 5,000 feet in the cruise configuration for certification (section\n23.2120(b)(1))."
+      }
+    },
+    {
+      "section": "Terms and Definitions",
+      "difficulty": 3,
+      "categories": [
+        "written_exam"
+      ],
+      "question": "A manufacturer is certifying a level 2 low speed airplane under 14 CFR part 23 that does not meet single-engine crashworthiness requirements. After a critical loss of thrust, what minimum climb gradient must the airplane demonstrate at 5,000 feet pressure altitude in the cruise configuration?",
+      "correct_answer": "1.5 percent",
+      "distractors": [
+        "1.0 percent",
+        "2.0 percent",
+        "3.0 percent"
+      ],
+      "explanation": "According to 14 CFR part 23, section 23.2120(b)(1), after a critical loss of thrust, a level 2 low speed airplane (VNO or VMO ≤ 250 KCAS and MMO ≤ 0.6) that does not meet single-engine crashworthiness requirements must demonstrate a climb gradient of at least 1.5 percent at a pressure altitude of 5,000 feet in the cruise configuration for certification. The 1.0 percent option is below the minimum standard, while 2.0 and 3.0 percent exceed what the regulation requires for this specific category of airplane.",
+      "reference": {
+        "page": "13-3",
+        "text": "The performance characteristics of an airplane depend upon the rules in effect during type certification and do not depend on the\nproduction year after certification. The current amendment to 14 CFR part 23, 81 FR 96689, went into effect on December 30, 2016.\nThis includes certification of normal category airplanes with passenger seating configuration of 19 or less and a maximum certificated\ntakeoff weight of 19,000 pounds or less (section 23.2005(a)). Current 14 CFR part 23 certification rules (section 23.2005(b)) classify\nairplanes into certification levels 1 through 4 based on maximum passenger seating configuration. For example, a level 2 airplane has\na passenger seating configuration between two and six passengers. The rule further divides airplanes into two different performance\nlevels based on speed (section 23.2005(c)). After a critical loss of thrust, a level 2 low speed airplane (VNO or VMO less than or equal\nto 250 knots calibrated airspeed and MMO less than or equal to 0.6) that does not meet single-engine crashworthiness requirements\nrequires a climb gradient of at least 1.5 percent at a pressure altitude of 5,000 feet in the cruise configuration for certification (section\n23.2120(b)(1))."
+      }
+    },
+    {
+      "section": "Feathering Propellers",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "In a feathering propeller system, what causes the propeller blades to move toward high pitch when oil pressure from the governor is reduced?",
+      "correct_answer": "Centrifugal force acting on counterweights attached to each blade shank",
+      "distractors": [
+        "Aerodynamic forces acting on the windmilling propeller blades",
+        "Spring-loaded mechanisms inside the propeller hub",
+        "Residual oil pressure trapped in the propeller cylinder"
+      ],
+      "explanation": "According to AFH Chapter 13, counterweights attached to the shank of each blade are driven by centrifugal force (inertia) to move the blades toward high pitch and low rpm. During normal operation, high-pressure oil from the propeller governor opposes this force and holds the blades toward low pitch. When oil pressure is reduced, the counterweights are allowed to drive the blades to higher pitch, decreasing engine rpm. Aerodynamic forces on a windmilling propeller actually tend to drive blades toward low pitch (high rpm), not high pitch, making that answer incorrect.",
+      "reference": {
+        "page": "13-5",
+        "text": "Aerodynamic forces acting upon a windmilling propeller tend to drive the blades to low pitch, high rpm. Counterweights attached to\nthe shank of each blade tend to force the blades to high pitch, low rpm. Inertia, or the apparent force (called centrifugal force) acting\nthrough the counterweights, is generally slightly greater than the aerodynamic forces. Therefore, centrifugal force would drive the\nblades to high pitch and low rpm were it not for an additional force acting through the propeller governor. A controlling force\ngenerated from high pressure oil from the propeller governor pushes the propeller blade angles toward low pitch and high rpm. Thus,\na reduction in oil pressure allows the counterweights to drive the blades to a higher pitch and decreases engine rpm. [Figure 13-4]"
+      }
+    },
+    {
+      "section": "Feathering Propellers",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "In a constant-speed propeller system, what primary mechanism drives the blades to high pitch and low RPM if governor oil pressure is lost?",
+      "correct_answer": "Centrifugal force acting through the blade counterweights",
+      "distractors": [
+        "Aerodynamic forces acting upon the windmilling propeller",
+        "Trapped high-pressure oil from the propeller governor",
+        "Spring tension located inside the propeller hub"
+      ],
+      "explanation": "According to the Airplane Flying Handbook, aerodynamic forces on a windmilling propeller tend to drive the blades to low pitch and high RPM. However, centrifugal force (inertia) acting through the counterweights attached to the shank of each blade is generally greater than these aerodynamic forces. During normal operation, high-pressure oil from the governor overcomes this centrifugal force to push the blades toward low pitch. If governor oil pressure is lost, the centrifugal force through the counterweights takes over and drives the blades to high pitch and low RPM.",
+      "reference": {
+        "page": "13-5",
+        "text": "Aerodynamic forces acting upon a windmilling propeller tend to drive the blades to low pitch, high rpm. Counterweights attached to\nthe shank of each blade tend to force the blades to high pitch, low rpm. Inertia, or the apparent force (called centrifugal force) acting\nthrough the counterweights, is generally slightly greater than the aerodynamic forces. Therefore, centrifugal force would drive the\nblades to high pitch and low rpm were it not for an additional force acting through the propeller governor. A controlling force\ngenerated from high pressure oil from the propeller governor pushes the propeller blade angles toward low pitch and high rpm. Thus,\na reduction in oil pressure allows the counterweights to drive the blades to a higher pitch and decreases engine rpm. [Figure 13-4]"
+      }
+    },
+    {
+      "section": "Feathering Propellers",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "During the feathering process, counterweights initially drive the blades toward feather but cannot complete the job alone. What causes the counterweights to lose their effectiveness as feathering progresses?",
+      "correct_answer": "Centrifugal force on the counterweights decreases as RPM drops during feathering",
+      "distractors": [
+        "Oil pressure from the governor resists the counterweights as RPM decreases",
+        "The counterweights are only designed to initiate feathering, not complete it",
+        "Aerodynamic loads on the blades increase at lower RPM, opposing the counterweights"
+      ],
+      "explanation": "According to AFH Chapter 13, as the propeller feathers and RPM decreases, the centrifugal force acting on the counterweights decays. This reduces their ability to drive the blades the rest of the way into feather. The additional force needed to complete feathering comes from either a spring or high-pressure air stored in the propeller dome. Distractor 1 is incorrect because oil pressure is dumped from the governor during feathering, so it cannot resist the counterweights. Distractor 2 is incorrect because the counterweights are not limited by design—they are limited by the physics of decreasing centrifugal force. Distractor 3 is incorrect because aerodynamic loads are not identified as the limiting factor; the handbook attributes the need for additional force solely to the decay of centrifugal force on the counterweights.",
+      "reference": {
+        "page": "13-5",
+        "text": "To feather the propeller, the propeller control is brought fully aft. All oil pressure is dumped from the governor, and the\ncounterweights drive the propeller blades toward feather. As centrifugal force acting on the counterweights decays from decreasing\nrpm, additional forces are needed to completely feather the blades. This additional force comes from either a spring or high-pressure\nair stored in the propeller dome, which forces the blades into the feathered position. The entire process may take up to 10 seconds. 13-5"
+      }
+    },
+    {
+      "section": "Feathering Propellers",
+      "difficulty": 3,
+      "categories": [
+        "checkride_oral",
+        "general_knowledge"
+      ],
+      "question": "According to the Airplane Flying Handbook, why might completely securing a failed engine be unnecessary or even undesirable immediately after an engine failure?",
+      "correct_answer": "The failed engine's fuel, ignition, and alternator/generator switch positions do not affect aircraft performance, and manipulating switches under pressure risks selecting the wrong one.",
+      "distractors": [
+        "The failed engine's alternator must remain online to supply bus voltage to the operating engine's ignition system.",
+        "Completely securing the engine changes the propeller drag profile and can cause a sudden yaw toward the operating engine.",
+        "The fuel selector must remain on the failed engine to prevent vapor lock in the operating engine's fuel lines."
+      ],
+      "explanation": "The AFH states that the position of the fuel controls, ignition, and alternator/generator switches of the failed engine has no effect on aircraft performance. Since completely securing the engine may not be necessary depending on the failure mode, altitude, and time available, doing so under haste or pressure introduces the risk of the pilot inadvertently manipulating the incorrect switch—potentially on the operating engine.",
+      "reference": {
+        "page": "13-6",
+        "text": "Completely securing a failed engine may not be necessary or even desirable depending upon the failure mode, altitude, and time\navailable. The position of the fuel controls, ignition, and alternator/generator switches of the failed engine has no effect on aircraft\nperformance, and the pilot might manipulate the incorrect switch under conditions of haste or pressure."
+      }
+    },
+    {
+      "section": "Feathering Propellers",
+      "difficulty": 3,
+      "categories": [
+        "checkride_oral",
+        "general_knowledge"
+      ],
+      "question": "During flight, a pilot attempts to unfeather a propeller by moving the propeller control out of the feather position, but the propeller remains feathered. What action may the pilot take to start the engine?",
+      "correct_answer": "Engage the electric starter",
+      "distractors": [
+        "Increase airspeed to force the propeller into a windmilling state",
+        "Cycle the propeller control back to feather and then out of feather again to recharge the accumulator",
+        "Reduce engine oil pressure to allow the accumulator to release its reserve"
+      ],
+      "explanation": "According to AFH Chapter 13, the unfeathering accumulator stores engine oil under pressure and is the normal means of starting a feathered engine in-flight without the electric starter. If the accumulator fails to bring the propeller out of feather, the electric starter may be engaged as a backup method. The accumulator cannot recharge itself without engine rotation, and oil pressure reduction would not assist unfeathering.",
+      "reference": {
+        "page": "13-6",
+        "text": "An unfeathering accumulator is a device that permits starting a feathered engine in-flight without the use of the electric starter. An\naccumulator is any device that stores a reserve of high pressure. On multiengine airplanes, the unfeathering accumulator stores a small\nreserve of engine oil under pressure from compressed air or nitrogen. To start a feathered engine in-flight, the pilot moves the\npropeller control out of the feather position to release the accumulator pressure. The oil flows under pressure to the propeller hub and\ndrives the blades toward the high rpm, low pitch position, whereupon the propeller usually begins to windmill. If fuel and ignition are\npresent, the engine starts and runs. High oil pressure from the propeller governor recharges the accumulator just moments after engine\nrotation begins making it available for another unfeathering cycle, if needed. For airplanes used in training, an unfeathering\naccumulator may prolong the life of the electric starter and battery. If the accumulator fails to bring the propeller out of feather, the\nelectric starter may be engaged. 13-6"
+      }
+    },
+    {
+      "section": "Fuel Crossfeed",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "Under what circumstance might a pilot need to use fuel crossfeed during a landing with one engine inoperative?",
+      "correct_answer": "If setting normal fuel flow would cause the operative engine to fail",
+      "distractors": [
+        "When an alternate airport is nearby and the pilot needs to complete the flight",
+        "During normal landing operations with both engines operating to balance fuel",
+        "When water and debris have accumulated in the crossfeed lines and need to be cleared"
+      ],
+      "explanation": "According to AFH Chapter 13, a landing with one engine inoperative using crossfeed may be necessary if setting normal fuel flow would cause the operative engine to fail. The handbook specifically states that crossfeed is ordinarily not used to complete a flight when an alternate airport is nearby, and pilots should never use crossfeed for normal landing operations with both engines operating.",
+      "reference": {
+        "page": "13-7",
+        "text": "This suggested check is not required prior to every flight. Crossfeed lines are ideal places for water and debris to accumulate unless\nthey are used from time to time and drained using their external drains during preflight. Crossfeed is ordinarily not used for\ncompleting a flight with one engine inoperative when an alternate airport is nearby. Pilots should never use crossfeed during takeoff\nor for normal landing operations with both engines operating. A landing with one engine inoperative using crossfeed may be\nnecessary if setting normal fuel flow would cause the operative engine to fail. 13-7"
+      }
+    },
+    {
+      "section": "Combustion Heater",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "Why must a pilot or mechanic visually inspect a combustion heater before resetting its over-temperature thermal switch?",
+      "correct_answer": "To check the unit for possible heat damage.",
+      "distractors": [
+        "To verify the heater's hour meter is within maintenance limits.",
+        "To ensure the thermostatic controls are functioning properly.",
+        "To clear any blockages in the gasoline fuel supply line."
+      ],
+      "explanation": "The Airplane Flying Handbook states that the over-temperature thermal switch on a combustion heater cannot be accessed in flight. Because the switch has tripped due to excessive heat, resetting it requires the pilot or mechanic to visually inspect the unit for possible heat damage first.",
+      "reference": {
+        "page": "13-8",
+        "text": "Combustion heaters are another common item on multiengine airplanes not found on single-engine airplanes. A combustion heater is\nbest described as a small furnace that burns gasoline to produce heated air for occupant comfort and windshield defogging. Most are\nthermostatically operated and have a separate hour meter to record time in service for maintenance purposes. Automatic over-\ntemperature protection is provided by a thermal switch mounted on the unit that cannot be accessed in flight. This requires the pilot or\nmechanic to visually inspect the unit for possible heat damage in order to reset the switch."
+      }
+    },
+    {
+      "section": "Anti-Icing/Deicing Equipment",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral",
+        "general_knowledge"
+      ],
+      "question": "When operating an aircraft with ice accumulations, what is the FAA's guidance regarding the use of standard stall warning devices?",
+      "correct_answer": "They should not be relied upon, as ice accumulations cause degradation of flight characteristics and large performance losses.",
+      "distractors": [
+        "They remain reliable as long as the anti-icing and deicing systems are used properly to clear protected surfaces.",
+        "They are designed to automatically adjust their activation point to compensate for the increased weight of ice.",
+        "They will provide earlier warnings to help pilots maintain the minimum speeds required in icing conditions."
+      ],
+      "explanation": "According to the Airplane Flying Handbook, anti-icing and deicing equipment only eliminates ice from protected surfaces, and significant ice can still form on unprotected areas. Because ice accumulations cause degradation of all flight characteristics and large performance losses, pilots should not rely upon stall warning devices for adequate stall warning.",
+      "reference": {
+        "page": "13-10",
+        "text": "Anti-icing/deicing equipment only eliminates ice from the protected surfaces. Significant ice accumulations may form on unprotected\nareas, even with proper use of anti-ice and deice systems. Flight at high angles of attack (AOA) or even normal climb speeds permit\nsignificant ice accumulations on lower wing surfaces, which are unprotected. Many AFM/POHs provide minimum speeds to be\nmaintained in icing conditions. Degradation of all flight characteristics and large performance losses can be expected with ice\naccumulations. Pilots should not rely upon the stall warning devices for adequate stall warning with ice accumulations."
+      }
+    },
+    {
+      "section": "Performance and Limitations",
+      "difficulty": 3,
+      "categories": [
+        "checkride_oral",
+        "general_knowledge"
+      ],
+      "question": "In the event of an engine failure shortly after takeoff, what does the Airplane Flying Handbook identify as the scenario to be avoided above all?",
+      "correct_answer": "Attempting to continue flight when it is not within the airplane's performance capability to do so.",
+      "distractors": [
+        "Choosing to land off-airport rather than attempting to return to the departure airport",
+        "Promptly configuring the airplane for a single-engine climb if performance is adequate",
+        "Descending immediately to maintain airspeed while searching for a suitable landing area"
+      ],
+      "explanation": "According to the Airplane Flying Handbook, if single-engine climb performance is such that climb is unlikely or impossible, a landing has to be made in the most suitable area. The handbook explicitly states that to be avoided above all is attempting to continue flight when it is not within the airplane's performance capability to do so.",
+      "reference": {
+        "page": "13-11",
+        "text": "In the event of an engine failure shortly after takeoff, the decision is basically one of continuing flight or landing, even off-airport. If\nsingle-engine climb performance is adequate for continued flight, and the airplane has been promptly and correctly configured, the\nclimb after takeoff may be continued. If single-engine climb performance is such that climb is unlikely or impossible, a landing has to\nbe made in the most suitable area. To be avoided above all is attempting to continue flight when it is not within the airplane’s\nperformance capability to do so. [Figure 13-6]"
+      }
+    },
+    {
+      "section": "Performance and Limitations",
+      "difficulty": 3,
+      "categories": [
+        "checkride_oral",
+        "general_knowledge"
+      ],
+      "question": "A multiengine pilot is evaluating a runway for takeoff. The runway meets regulatory minimum length requirements, and the AFM/POH publishes accelerate-stop distance only as advisory information, not as a limitation. What should the pilot understand about using this runway?",
+      "correct_answer": "Even though not required by regulation, experienced multiengine pilots insist on runway lengths of at least accelerate-stop distance as a safety practice, recognizing the margin beyond the bare minimum for normal takeoff",
+      "distractors": [
+        "Since accelerate-stop distance is advisory only, the pilot should use the published distance solely as a reference for calculating single-engine climb performance",
+        "The pilot should depart only if the runway length exceeds the accelerate-stop distance by at least 50 percent, as required by good operating practice",
+        "Since the AFM/POH lists the accelerate-stop distance as advisory, the pilot may disregard it and use only the normal takeoff distance for runway planning"
+      ],
+      "explanation": "According to AFH Chapter 13, the regulations do not specifically require runway length to equal or exceed accelerate-stop distance, and most AFM/POHs publish it only as advisory. It becomes a limitation only when published in the limitations section. However, experienced multiengine pilots recognize the safety margin provided by runway lengths in excess of the bare minimum required for normal takeoff, and they insist on runway lengths of at least accelerate-stop distance as a matter of safety and good operating practice. Distractor A is wrong because accelerate-stop distance is not used for calculating single-engine climb performance. Distractor C is wrong because the text specifies 'at least accelerate-stop distance,' not accelerate-stop distance plus 50 percent. Distractor D is wrong because experienced pilots do not disregard advisory accelerate-stop distance—they use it as a safety benchmark.",
+      "reference": {
+        "page": "13-12",
+        "text": "The regulations do not specifically require that the runway length be equal to or greater than the accelerate-stop distance. Most\nAFM/POHs publish accelerate-stop distances only as an advisory. It becomes a limitation only when published in the limitations\nsection of the AFM/POH. Experienced multiengine pilots, however, recognize the safety margin of runway lengths in excess of the\nbare minimum required for normal takeoff, and they insist on runway lengths of at least accelerate-stop distance as a matter of safety\nand good operating practice."
+      }
+    },
+    {
+      "section": "Performance and Limitations",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "A multiengine airplane is airborne during takeoff when an engine fails. The landing gear has not yet been selected up. What is the general recommendation for this situation?",
+      "correct_answer": "Reject the takeoff and land on whatever surface lies essentially ahead",
+      "distractors": [
+        "Immediately retract the landing gear and execute the engine failure procedure to continue the climb",
+        "Maintain heading and airspeed while deciding whether to continue based on the remaining runway length",
+        "Reduce power on the operating engine and return to the departure runway"
+      ],
+      "explanation": "According to AFH Chapter 13, the landing gear position serves as a practical decision point during takeoff. If an engine fails before the gear has been selected up, the takeoff should be rejected even if airborne, for a landing on whatever runway or surface lies essentially ahead. At this early point in the takeoff sequence, climb performance on a single engine is marginal even under ideal conditions, making continued flight hazardous. Only if an engine fails after the decision point (generally after gear retraction) should the pilot execute engine failure procedures and continue the climb, assuming performance capability exists.",
+      "reference": {
+        "page": "13-12",
+        "text": "The point of the previous discussion is to illustrate the marginal climb performance of a multiengine airplane that suffers an engine\nfailure shortly after takeoff, even under ideal conditions. The prudent multiengine pilot should pick a decision point in the takeoff and\nclimb sequence in advance. If an engine fails before this point, the takeoff should be rejected, even if airborne, for a landing on\nwhatever runway or surface lies essentially ahead. If an engine fails after this point, the pilot should promptly execute the appropriate\nengine failure procedure and continue the climb, assuming the performance capability exists. As a general recommendation, if the\nlanding gear has not been selected up, the takeoff should be rejected, even if airborne."
+      }
+    },
+    {
+      "section": "Normal and Crosswind Takeoff and Climb",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "Why must a multi-engine aircraft not become airborne before reaching VMC during takeoff?",
+      "correct_answer": "If an engine fails below VMC while airborne, directional control cannot be maintained with the remaining engine producing takeoff power.",
+      "distractors": [
+        "If an engine fails below VMC while airborne, the aircraft will immediately enter an aerodynamic stall due to insufficient lift.",
+        "If an engine fails below VMC while airborne, the pilot will be unable to feather the failed engine's propeller.",
+        "If an engine fails below VMC while airborne, the remaining engine cannot produce sufficient thrust to sustain flight."
+      ],
+      "explanation": "According to AFH Chapter 13, if an engine fails below VMC while airborne, directional control is not possible with the remaining engine producing takeoff power. VMC is the minimum speed at which directional control can be maintained during an engine failure. This is why the airplane should never be airborne before airspeed exceeds VMC, and pilots should use the manufacturer's recommended rotation speed or a minimum of VMC plus 5 knots if no speed is published. The issue is specifically about controllability under asymmetric thrust, not about stall speed, feathering capability, or insufficient thrust from the operating engine.",
+      "reference": {
+        "page": "13-15",
+        "text": "There are several key airspeeds to be noted during the takeoff and climb sequence in any twin. The first speed to consider is VMC. If\nan engine fails below VMC while the airplane is on the ground, the takeoff needs to be rejected. Directional control can only be\nmaintained by promptly closing both throttles and using rudder and brakes as required. If an engine fails below VMC while airborne,\ndirectional control is not possible with the remaining engine producing takeoff power. On takeoffs, therefore, the airplane\nshould never be airborne before the airspeed exceeds VMC. Pilots should use the manufacturer’s recommended rotation speed (VR) or\nlift-off speed (VLOF). If no such speeds are published, a minimum of VMC plus 5 knots should be used for VR."
+      }
+    },
+    {
+      "section": "Normal and Crosswind Takeoff and Climb",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "During a crosswind takeoff, a pilot chooses to rotate at a higher airspeed than the recommended VR to achieve a more positive liftoff. How does this affect the applicability of the AFM/POH performance figures for takeoff ground roll and distance to clear an obstacle?",
+      "correct_answer": "The published figures may no longer be accurate because they were calculated using the recommended VR and/or VLOF speed",
+      "distractors": [
+        "The published figures remain valid since takeoff distance is determined by runway surface conditions, not rotation speed",
+        "The published figures become conservative because a higher rotation speed always reduces the ground roll distance",
+        "The published figures remain valid as long as the airplane lifts off before reaching the calculated accelerate-stop distance"
+      ],
+      "explanation": "The AFH states that AFM/POH performance figures for accelerate-stop distance, takeoff ground roll, and distance to clear an obstacle were calculated at the recommended VR and/or VLOF speed. While the AFH acknowledges that a pilot may rotate more positively and/or at a higher speed during crosswind conditions, doing so means the published performance data—which was based on specific recommended speeds—may no longer accurately predict the actual distances required. A pilot should be aware that deviating from recommended speeds introduces uncertainty into performance expectations.",
+      "reference": {
+        "page": "13-15",
+        "text": "The rotation to a takeoff pitch attitude is performed with smooth control inputs. With a crosswind, the pilot should ensure that\nthe landing gear does not momentarily touch the runway after the airplane has lifted off, as a side drift is present. The rotation\nmay be accomplished more positively and/or at a higher speed under these conditions. However, the pilot should keep in mind\nthat the AFM/POH performance figures for accelerate-stop distance, takeoff ground roll, and distance to clear an obstacle were\ncalculated at the recommended VR and/or VLOF speed."
+      }
+    },
+    {
+      "section": "Normal and Crosswind Takeoff and Climb",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "During a crosswind takeoff, a pilot elects to rotate at a higher airspeed than the published V_R to ensure a positive lift-off and prevent side drift. What is the potential consequence of this technique?",
+      "correct_answer": "The airplane's actual takeoff performance may differ from the performance figures calculated in the AFM/POH.",
+      "distractors": [
+        "The AFM/POH performance figures will automatically adjust to reflect the higher rotation speed.",
+        "The distance required to clear an obstacle is guaranteed to be shorter than the AFM/POH calculated distance.",
+        "The calculated accelerate-stop distance will remain unchanged as long as the proper climb speed is maintained."
+      ],
+      "explanation": "According to the Airplane Flying Handbook, while rotating more positively and/or at a higher speed during a crosswind takeoff is an acceptable technique to prevent side drift, the AFM/POH performance figures for accelerate-stop distance, takeoff ground roll, and distance to clear an obstacle were calculated at the recommended V_R and/or V_LOF. Deviating from these recommended speeds means the actual performance will likely differ from the published calculated figures.",
+      "reference": {
+        "page": "13-15",
+        "text": "The rotation to a takeoff pitch attitude is performed with smooth control inputs. With a crosswind, the pilot should ensure that\nthe landing gear does not momentarily touch the runway after the airplane has lifted off, as a side drift is present. The rotation\nmay be accomplished more positively and/or at a higher speed under these conditions. However, the pilot should keep in mind\nthat the AFM/POH performance figures for accelerate-stop distance, takeoff ground roll, and distance to clear an obstacle were\ncalculated at the recommended VR and/or VLOF speed."
+      }
+    },
+    {
+      "section": "Normal and Crosswind Takeoff and Climb",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "A pilot is evaluating whether a runway provides an adequate safety margin for takeoff. The AFM/POH lists the takeoff distance to 50 feet AGL and the stopping distance from 50 feet AGL. How should the pilot use these two values to assess the risk of an off-runway landing if something fails during takeoff?",
+      "correct_answer": "Add the two distances together; if the runway is no longer than that combined total, an off-runway landing is likely if anything fails",
+      "distractors": [
+        "Use only the stopping distance from 50 feet AGL; if the runway exceeds that value, sufficient room remains to stop safely",
+        "Subtract the stopping distance from the takeoff distance; if the runway exceeds the remainder, the takeoff can be attempted safely",
+        "Compare the takeoff distance to 50 feet AGL against runway length; if the runway is longer, stopping distance is not a factor"
+      ],
+      "explanation": "According to AFH Chapter 13, prior to takeoff, pilots should review the takeoff distance to 50 feet AGL and the stopping distance from 50 feet AGL and add the two distances together. If the runway is no longer than this combined total value, the odds are very good that if anything fails during takeoff, it will result in an off-runway landing at the least. This calculation helps pilots assess whether the runway provides enough margin to both accelerate to 50 feet and, if a problem arises, stop the aircraft from that same 50-foot point within the remaining pavement.",
+      "reference": {
+        "page": "13-15",
+        "text": "After lift-off, the next consideration is to gain altitude as rapidly as possible. To assist the pilot in takeoff and initial climb\nprofile, some AFM/POHs give a “50-foot” or “50-foot barrier” speed to use as a target during rotation, lift-off, and acceleration to\nVY. Prior to takeoff, pilots should review the takeoff distance to 50 feet above ground level (AGL) and the stopping distance from 50\nfeet AGL and add the distance together. If the runway is no longer than the total value, the odds are very good that if anything fails, it\nwill be an off-runway landing at the least. After leaving the ground, altitude gain is more important than achieving an excess\nof airspeed. Experience has shown that excessive speed cannot be effectively converted into altitude in the event of an engine failure.\nAdditional altitude increases the time available to recognize and respond to any aircraft abnormality or emergency during the climb\nsegment. 13-15"
+      }
+    },
+    {
+      "section": "Normal and Crosswind Takeoff and Climb",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "A multiengine airplane departs from a high-density altitude airport. After liftoff, the aircraft is unable to establish a positive rate of climb with the landing gear still extended. What explains why the standard procedure of waiting for a positive rate of climb before retracting the gear may not be practicable in this situation?",
+      "correct_answer": "The drag from the extended landing gear may prevent the airplane from achieving a positive rate of climb at all in high-density altitude conditions",
+      "distractors": [
+        "At high-density altitude, the landing gear retraction mechanism operates more slowly, requiring earlier initiation to compensate",
+        "High-density altitude causes the altimeter to overread, making it appear there is no climb when one actually exists",
+        "The landing gear must be retracted before reaching a specified density-altitude-adjusted altitude that is lower at high-density altitude airports"
+      ],
+      "explanation": "According to AFH Chapter 13, in some multiengine airplanes operating in a high-density altitude environment, a positive rate of climb with the landing gear down is not possible. The additional drag of the extended gear, combined with reduced engine performance at high-density altitude, can prevent the aircraft from climbing at all. Waiting for a positive rate of climb that may never occur is therefore not practicable. The handbook notes that raising the landing gear as early as possible after liftoff drastically decreases drag and significantly increases climb performance, which is especially critical should an engine failure occur.",
+      "reference": {
+        "page": "13-16",
+        "text": "When to raise the landing gear after takeoff depends on several factors. Normally, the gear should be retracted when there is\ninsufficient runway available for landing and after a positive rate of climb is established as indicated on the altimeter. If an excessive\namount of runway is available, it would not be prudent to leave the landing gear down for an extended period of time and sacrifice\nclimb performance and acceleration. Leaving the gear extended after the point at which a landing cannot be accomplished on the\nrunway is a hazard. In some multiengine airplanes, operating in a high-density altitude environment, a positive rate of climb with the\nlanding gear down is not possible. Waiting for a positive rate of climb under these conditions is not practicable. An important point to\nremember is that raising the landing gear as early as possible after liftoff drastically decreases the drag profile and significantly\nincreases climb performance should an engine failure occur. An equally important point to remember is that leaving the gear down to\nland on sufficient runway or overrun is a much better option than landing with the gear retracted. A general recommendation is to\nraise the landing gear not later than VYSE airspeed, and once the gear is up, consider it a GO commitment if climb performance is\navailable. Some AFM/POHs direct the pilot to apply the wheel brakes momentarily after lift-off to stop wheel rotation prior to\nlanding gear retraction. If flaps were extended for takeoff, they should be retracted as recommended in the AFM/POH."
+      }
+    }
+  ]
+}

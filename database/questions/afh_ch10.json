@@ -1,0 +1,345 @@
+{
+  "source": "AFH",
+  "chapter": 10,
+  "questions": [
+    {
+      "section": "1. Higher G-forces",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "When maintaining altitude in a level turn, which statement is true regarding the load factor limits of a standard category general aviation airplane?",
+      "correct_answer": "A 75° bank exceeds the 3.8 limit, while a 60° bank produces a load factor of 2.0.",
+      "distractors": [
+        "A 60° bank exceeds the 3.8 limit, while a 45° bank produces a load factor of 2.0.",
+        "A 45° bank exceeds the 3.8 limit, while a 60° bank produces a load factor of 1.41.",
+        "Load factor is determined by airspeed, not bank angle, so a 75° bank at a slow speed will not exceed the 3.8 limit."
+      ],
+      "explanation": "According to the AFH, in a level altitude turn, a 45° bank produces a load factor of 1.41 and a 60° bank produces a load factor of 2.0. Load factors increase dramatically beyond 60° of bank. A standard category general aviation airplane is designed for a load factor up to 3.8, which is exceeded at a 75° bank. The handbook also notes that for a given bank angle in a level altitude turn, the same load factor is always produced regardless of airspeed.",
+      "reference": {
+        "page": "10-2",
+        "text": "As discussed in previous chapters, when banking an airplane for a level turn, the total lift divides into vertical and horizontal\ncomponents of lift. In order to maintain altitude at a constant airspeed, the pilot increases the angle of attack (AOA) to ensure that the\nvertical component of lift is sufficient to maintain altitude. The pilot adds power as needed to maintain airspeed. For a steep turn, as\nin any level turn, the horizontal component of lift provides the necessary force to turn the airplane. Regardless of the airspeed or\nairplane, for a given bank angle in a level altitude turn, the same load factor will always be produced. The load factor is the vector\naddition of gravity and centrifugal force. When the bank becomes steep as in a level altitude 45° banked turn, the resulting load factor\nis 1.41. In a level altitude 60° banked turn, the resulting load factor is 2.0. To put this in perspective, with a load factor of 2.0, the\neffective weight of the aircraft (and its occupants) doubles. Pilots may have difficulty with orientation and movement when first\nexperiencing these forces. Pilots should also understand that load factors increase dramatically during a level turn beyond 60° of\nbank. Note that the design of a standard category general aviation airplane accommodates a load factor up to 3.8. A level turn using\n75° of bank exceeds that limit."
+      }
+    },
+    {
+      "section": "1. Higher G-forces",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "A pilot is maintaining altitude while progressively increasing bank angle in a level turn. What happens to the margin between the airplane's stalling speed and its maneuvering speed (VA), and why?",
+      "correct_answer": "The margin decreases because stalling speed increases with load factor while maneuvering speed remains constant.",
+      "distractors": [
+        "The margin increases because maneuvering speed rises proportionally with bank angle.",
+        "The margin remains constant because both stalling speed and maneuvering speed increase at the same rate.",
+        "The margin decreases because maneuvering speed decreases as load factor increases."
+      ],
+      "explanation": "According to the Airplane Flying Handbook (Chapter 10), as bank angle increases in level flight, load factor increases, causing stalling speed to rise at the square root of the load factor. Maneuvering speed (VA) is a fixed design speed that does not change with bank angle. Therefore, as stalling speed climbs closer to VA, the margin between the two speeds shrinks. This is why steep turns should be performed at or below VA—at those speeds, the airplane will stall before exceeding its design load limit, providing a built-in safety margin.",
+      "reference": {
+        "page": "10-2",
+        "text": "Because of higher load factors, steep turns should be performed at an airspeed that does not exceed the airplane’s design maneuvering\nspeed (VA) or operating maneuvering speed (VO). Maximum turning performance for a given speed is accomplished when an\nairplane has a high angle of bank. Each airplane’s level turning performance is limited by structural and aerodynamic design, as well\nas available power. The airplane’s limiting load factor determines the maximum bank angle that can be maintained in level flight\nwithout exceeding the airplane’s structural limitations or stalling. As the load factor increases, so does the stalling speed. For\nexample, if an airplane stalls in level flight at 50 knots, it will stall at 60 knots in a 45° steep turn while maintaining altitude. It will\nstall at 70 knots if the bank is increased to 60°. Stalling speed increases at the square root of the load factor. As the bank angle\nincreases in level flight, the margin between stalling speed and maneuvering speed decreases. At speeds at or below VA or VO, the\nairplane will stall before exceeding the design load limit."
+      }
+    },
+    {
+      "section": "1. Higher G-forces",
+      "difficulty": 3,
+      "categories": [
+        "checkride_oral",
+        "general_knowledge"
+      ],
+      "question": "During a steep turn, a pilot may notice that yaw manifests differently than in normal flight. How is a significant component of yaw experienced during this maneuver, which may initially seem confusing to the pilot?",
+      "correct_answer": "As motion away from and toward the earth's surface",
+      "distractors": [
+        "As a continued rolling tendency in the direction of the bank",
+        "As a pitching motion relative to the horizon",
+        "As horizontal nose movement across the horizon"
+      ],
+      "explanation": "According to AFH Chapter 10, during a steep turn, a significant component of yaw is experienced as motion away from and toward the earth's surface, which may seem confusing when first experienced. This is distinct from the overbanking tendency (continued rolling in the direction of bank), which is a separate phenomenon also present during steep turns. The airplane's steeply banked attitude changes how yaw motion is perceived relative to the earth's surface.",
+      "reference": {
+        "page": "10-2",
+        "text": "In addition to the increased load factors, the airplane will exhibit what is called “overbanking tendency” as previously discussed in\nChapter 3, Basic Flight Maneuvers. In most flight maneuvers, bank angles are shallow enough that the airplane exhibits positive or\nneutral stability about the longitudinal axis. However, as bank angles steepen, the airplane will continue rolling in the direction of the\nbank unless deliberate and opposite aileron pressure is held. Pilots should also be mindful of the various left-turning tendencies, such\nas P-factor, which require effective rudder/aileron coordination. While performing a steep turn, a significant component of yaw is\nexperienced as motion away from and toward the earth's surface, which may seem confusing when first experienced."
+      }
+    },
+    {
+      "section": "1. Higher G-forces",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "While performing a steep turn, the nose drops excessively, resulting in a rapid loss of altitude. What is the correct procedure to recover from this condition?",
+      "correct_answer": "Reduce the angle of bank with coordinated opposite aileron and rudder, then increase pitch with elevator back pressure.",
+      "distractors": [
+        "Apply elevator back pressure first to arrest the descent, then reduce the angle of bank with opposite aileron and rudder.",
+        "Reduce the angle of bank using opposite aileron only, then increase pitch with elevator back pressure.",
+        "Maintain the bank angle and apply elevator back pressure to return to the desired altitude."
+      ],
+      "explanation": "According to the Airplane Flying Handbook, attempting to recover from an excessively nose-low, steep bank condition by using only the elevator causes a steepening of the bank and puts unnecessary stress on the airplane. The correct procedure is to first reduce the angle of bank with coordinated use of opposite aileron and rudder, and then increase the pitch attitude by increasing elevator back pressure.",
+      "reference": {
+        "page": "10-2",
+        "text": "Maintaining bank angle, altitude, and orientation requires an awareness of the relative position of the horizon to the nose and the\nwings. The pilot who references the aircraft’s attitude by observing only the nose will have difficulty maintaining altitude. A pilot\nwho observes both the nose and the wings relative to the horizon is likely able to maintain altitude within performance standards.\nAltitude deviations are primary errors exhibited in the execution of steep turns. Minor corrections for pitch attitude are accomplished\nwith proportional elevator back pressure while the bank angle is held constant with the ailerons. However, during steep turns, it is not\nuncommon for a pilot to allow the nose to get excessively low resulting in a significant loss in altitude in a very short period of time.\nThe pilot can recover from such an altitude loss by first reducing the angle of bank with coordinated use of opposite aileron and\nrudder and then increasing the pitch attitude by increasing elevator back pressure. Attempting to recover from an excessively nose-\nlow, steep bank condition by using only the elevator causes a steepening of the bank and puts unnecessary stress on the airplane. 10-2"
+      }
+    },
+    {
+      "section": "1. Higher G-forces",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "During a steep turn, a pilot allows the nose to drop excessively, causing a rapid altitude loss. What is the primary risk if the pilot attempts to recover using only elevator back pressure?",
+      "correct_answer": "The bank will steepen and unnecessary stress will be placed on the airplane",
+      "distractors": [
+        "The airplane will enter an accelerated stall due to the increased load factor",
+        "The turn will shallow out and the airplane will roll toward wings level",
+        "The altitude loss will continue regardless of pitch input due to the steep bank"
+      ],
+      "explanation": "According to AFH Chapter 10, attempting to recover from an excessively nose-low, steep bank condition by using only the elevator causes a steepening of the bank and puts unnecessary stress on the airplane. The proper recovery procedure is to first reduce the angle of bank with coordinated use of opposite aileron and rudder, and then increase pitch attitude with elevator back pressure. Applying elevator alone in a steep bank increases the horizontal component of lift, which tightens the turn rather than simply raising the nose.",
+      "reference": {
+        "page": "10-2",
+        "text": "Maintaining bank angle, altitude, and orientation requires an awareness of the relative position of the horizon to the nose and the\nwings. The pilot who references the aircraft’s attitude by observing only the nose will have difficulty maintaining altitude. A pilot\nwho observes both the nose and the wings relative to the horizon is likely able to maintain altitude within performance standards.\nAltitude deviations are primary errors exhibited in the execution of steep turns. Minor corrections for pitch attitude are accomplished\nwith proportional elevator back pressure while the bank angle is held constant with the ailerons. However, during steep turns, it is not\nuncommon for a pilot to allow the nose to get excessively low resulting in a significant loss in altitude in a very short period of time.\nThe pilot can recover from such an altitude loss by first reducing the angle of bank with coordinated use of opposite aileron and\nrudder and then increasing the pitch attitude by increasing elevator back pressure. Attempting to recover from an excessively nose-\nlow, steep bank condition by using only the elevator causes a steepening of the bank and puts unnecessary stress on the airplane. 10-2"
+      }
+    },
+    {
+      "section": "Steep Spiral",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "During a chandelle, what indicates that the maximum pitch attitude established at the 90° point was set too low?",
+      "correct_answer": "The airplane's airspeed never decreases to just above stall speed",
+      "distractors": [
+        "The airplane may aerodynamically stall prior to completion of the maneuver",
+        "The airplane exceeds the 180° turn as the wings come level to the horizon",
+        "The airplane does not complete the turn as the wings come level to the horizon"
+      ],
+      "explanation": "According to AFH Chapter 10, if the pitch attitude is set too low at the 90° point of a chandelle, the airplane's airspeed will never decrease to just above stall speed. Stalling prior to completion indicates the pitch attitude was set too HIGH, not too low. Exceeding or not completing the 180° turn are related to the rate of rollout being too sluggish or too rapid, respectively, not to pitch attitude.",
+      "reference": {
+        "page": "10-4",
+        "text": "A chandelle is best described in two specific phases: the first 90° of turn and the second 90° of turn. The first 90° of turn is described\nas constant bank and continuously increasing pitch; and the second 90° as constant pitch and continuously decreasing bank. During\nthe first 90°, the pilot will set the bank angle, increase power, and increase pitch attitude at a rate such that maximum pitch-up occurs\nat the completion of the first 90°. The maximum pitch-up attitude achieved at the 90° mark is held for the remainder of the maneuver.\nIf the pitch attitude is set too low, the airplane’s airspeed will never decrease to just above stall speed. If the pitch attitude is set too\nhigh, the airplane may aerodynamically stall prior to completion of the maneuver. Starting at the 90° point, and while maintaining the\npitch attitude set at the end of the first 90°, the pilot begins a slow and coordinated constant rate rollout so as to have the wings level\nwhen the airplane is at the 180° point. If the rate of rollout is too rapid or sluggish, the airplane either exceeds the 180° turn or does\nnot complete the turn as the wings come level to the horizon. 10-4"
+      }
+    },
+    {
+      "section": "Steep Spiral",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "During the execution of a chandelle, what is the likely consequence if the pilot establishes a maximum pitch attitude that is too high at the completion of the first 90° of turn?",
+      "correct_answer": "The airplane may aerodynamically stall prior to completion of the maneuver.",
+      "distractors": [
+        "The airplane's airspeed will never decrease to just above stall speed.",
+        "The airplane will exceed the 180° turn before the wings come level.",
+        "The airplane will fail to complete the turn as the wings come level."
+      ],
+      "explanation": "According to the Airplane Flying Handbook, the maximum pitch-up attitude achieved at the 90° mark is held for the remainder of the maneuver. If this pitch attitude is set too high, the airplane may aerodynamically stall prior to completion of the maneuver. Note that if the pitch attitude is set too low, the airspeed will never decrease to just above stall speed. Exceeding or failing to complete the 180° turn is a result of an improper rate of rollout, not an incorrect pitch attitude.",
+      "reference": {
+        "page": "10-4",
+        "text": "A chandelle is best described in two specific phases: the first 90° of turn and the second 90° of turn. The first 90° of turn is described\nas constant bank and continuously increasing pitch; and the second 90° as constant pitch and continuously decreasing bank. During\nthe first 90°, the pilot will set the bank angle, increase power, and increase pitch attitude at a rate such that maximum pitch-up occurs\nat the completion of the first 90°. The maximum pitch-up attitude achieved at the 90° mark is held for the remainder of the maneuver.\nIf the pitch attitude is set too low, the airplane’s airspeed will never decrease to just above stall speed. If the pitch attitude is set too\nhigh, the airplane may aerodynamically stall prior to completion of the maneuver. Starting at the 90° point, and while maintaining the\npitch attitude set at the end of the first 90°, the pilot begins a slow and coordinated constant rate rollout so as to have the wings level\nwhen the airplane is at the 180° point. If the rate of rollout is too rapid or sluggish, the airplane either exceeds the 180° turn or does\nnot complete the turn as the wings come level to the horizon. 10-4"
+      }
+    },
+    {
+      "section": "Steep Spiral",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "During the second 90° of a chandelle, the pilot maintains the pitch attitude set at the 90° point while rolling out at a constant rate. If the pilot rolls out too rapidly, what is the likely result?",
+      "correct_answer": "The wings come level before the airplane has completed the full 180° turn",
+      "distractors": [
+        "The airplane exceeds the 180° turn before the wings come level with the horizon",
+        "The airplane aerodynamically stalls prior to completion of the maneuver",
+        "The airplane's airspeed never decreases to just above stall speed"
+      ],
+      "explanation": "According to AFH Chapter 10, during the second 90° of a chandelle the pilot maintains constant pitch while performing a slow, coordinated rollout so the wings are level at the 180° point. If the rollout rate is too rapid, the wings level before the full 180° turn is completed. If the rollout is too sluggish, the airplane exceeds 180°. The other distractors describe different errors: stalling results from setting the pitch attitude too high, and failing to slow to just above stall speed results from setting the pitch attitude too low—both of which are errors associated with the first 90° of the maneuver, not the rollout rate.",
+      "reference": {
+        "page": "10-4",
+        "text": "A chandelle is best described in two specific phases: the first 90° of turn and the second 90° of turn. The first 90° of turn is described\nas constant bank and continuously increasing pitch; and the second 90° as constant pitch and continuously decreasing bank. During\nthe first 90°, the pilot will set the bank angle, increase power, and increase pitch attitude at a rate such that maximum pitch-up occurs\nat the completion of the first 90°. The maximum pitch-up attitude achieved at the 90° mark is held for the remainder of the maneuver.\nIf the pitch attitude is set too low, the airplane’s airspeed will never decrease to just above stall speed. If the pitch attitude is set too\nhigh, the airplane may aerodynamically stall prior to completion of the maneuver. Starting at the 90° point, and while maintaining the\npitch attitude set at the end of the first 90°, the pilot begins a slow and coordinated constant rate rollout so as to have the wings level\nwhen the airplane is at the 180° point. If the rate of rollout is too rapid or sluggish, the airplane either exceeds the 180° turn or does\nnot complete the turn as the wings come level to the horizon. 10-4"
+      }
+    },
+    {
+      "section": "Steep Spiral",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "During the second 90° of a chandelle, the pilot maintains a constant pitch attitude while rolling out at a steady, coordinated rate. If the pilot's rate of rollout is too sluggish, what is the likely result?",
+      "correct_answer": "The airplane exceeds the 180° turn before the wings come level",
+      "distractors": [
+        "The airplane does not complete the 180° turn as the wings come level",
+        "The airplane aerodynamically stalls prior to completion of the maneuver",
+        "The airplane's airspeed never decreases to just above stall speed"
+      ],
+      "explanation": "According to AFH Chapter 10, during the second 90° of a chandelle the pilot maintains the pitch attitude set at the 90° point and begins a slow, coordinated constant-rate rollout to have wings level at the 180° point. If the rollout rate is too sluggish, the wings are not yet level when the airplane reaches 180°, causing it to exceed the intended turn. A rollout that is too rapid has the opposite effect—the wings level before completing the 180° turn. Note that stalling before completion is caused by setting the pitch attitude too high, and failing to slow to just above stall speed is caused by setting the pitch attitude too low—both are errors from the first 90° of the maneuver, not the rollout phase.",
+      "reference": {
+        "page": "10-4",
+        "text": "A chandelle is best described in two specific phases: the first 90° of turn and the second 90° of turn. The first 90° of turn is described\nas constant bank and continuously increasing pitch; and the second 90° as constant pitch and continuously decreasing bank. During\nthe first 90°, the pilot will set the bank angle, increase power, and increase pitch attitude at a rate such that maximum pitch-up occurs\nat the completion of the first 90°. The maximum pitch-up attitude achieved at the 90° mark is held for the remainder of the maneuver.\nIf the pitch attitude is set too low, the airplane’s airspeed will never decrease to just above stall speed. If the pitch attitude is set too\nhigh, the airplane may aerodynamically stall prior to completion of the maneuver. Starting at the 90° point, and while maintaining the\npitch attitude set at the end of the first 90°, the pilot begins a slow and coordinated constant rate rollout so as to have the wings level\nwhen the airplane is at the 180° point. If the rate of rollout is too rapid or sluggish, the airplane either exceeds the 180° turn or does\nnot complete the turn as the wings come level to the horizon. 10-4"
+      }
+    },
+    {
+      "section": "Lazy Eight",
+      "difficulty": 3,
+      "categories": [
+        "checkride_oral"
+      ],
+      "question": "During a lazy eight, the airplane's longitudinal axis traces a figure eight pattern on its side. What portion of this pattern is traced during the first 90° of the first 180° turn?",
+      "correct_answer": "The upper portion of one loop of the eight",
+      "distractors": [
+        "The lower portion of one loop of the eight",
+        "One complete loop of the eight",
+        "The intersection point where the two loops meet"
+      ],
+      "explanation": "According to AFH Chapter 10, during a lazy eight the longitudinal axis traces a symmetrical eight on its side. The first 90° of the first 180° turn traces the upper portion of one loop, while the lower portion of that same loop is traced during the second 90° of the second 180° turn. The other loop is completed by the remaining segments. This means each loop requires parts of both 180° turns, so no single 90° segment can complete an entire loop. The intersection point occurs at the horizon at the 90° positions, but the first 90° traces the upper arc, not just the crossing point.",
+      "reference": {
+        "page": "10-6",
+        "text": "The previous description of a lazy eight and figure 10-4 describe how a lazy eight looks from outside the flight deck and describes it\nas two 180° turns with altitude changes. How does it look from the pilot's perspective? Think of the longitudinal axis of the airplane\nas a pencil, which draws on whatever it points to. During this maneuver, the longitudinal axis of the airplane traces a symmetrical\neight on its side with segments of the eight above and below the horizon, and it takes both 180° turns to form both loops of an eight.\nThe first 90° of the first 180° turn traces the upper portion of one of the loops. The second 90° portion of the second 180° turn traces\nthe lower portion of that loop at the end of the maneuvuer. The second 90° of the first 180° turn and the first 90° of the second 180°\nturn complete the other loop of the eight. The sensation of using the airplane to slowly draw this symbol gives the maneuver its name. 10-6"
+      }
+    },
+    {
+      "section": "Lazy Eight",
+      "difficulty": 3,
+      "categories": [
+        "checkride_oral"
+      ],
+      "question": "During a lazy eight, the airplane's longitudinal axis traces a symmetrical figure eight on its side. Which two 90° segments of the maneuver combine to form one complete loop of the eight?",
+      "correct_answer": "The second 90° of the first 180° turn and the first 90° of the second 180° turn",
+      "distractors": [
+        "The first 90° of the first 180° turn and the first 90° of the second 180° turn",
+        "The second 90° of the first 180° turn and the second 90° of the second 180° turn",
+        "The first 90° of the first 180° turn and the second 90° of the first 180° turn"
+      ],
+      "explanation": "According to AFH Chapter 10, the lazy eight consists of four 90° segments that trace a figure eight pattern. The first 90° of the first 180° turn traces the upper portion of one loop, while the second 90° of the second 180° turn traces the lower portion of that same loop. The other loop of the eight is completed by the second 90° of the first 180° turn and the first 90° of the second 180° turn. This interleaving of segments across the two 180° turns is what creates the symmetrical figure eight pattern. A distractor pairing two segments from the same 180° turn is incorrect because those segments form only half of the eight, not a complete loop. Distractors pairing two 'first' halves or two 'second' halves are incorrect because the loops are formed by alternating segments across the two turns.",
+      "reference": {
+        "page": "10-6",
+        "text": "The previous description of a lazy eight and figure 10-4 describe how a lazy eight looks from outside the flight deck and describes it\nas two 180° turns with altitude changes. How does it look from the pilot's perspective? Think of the longitudinal axis of the airplane\nas a pencil, which draws on whatever it points to. During this maneuver, the longitudinal axis of the airplane traces a symmetrical\neight on its side with segments of the eight above and below the horizon, and it takes both 180° turns to form both loops of an eight.\nThe first 90° of the first 180° turn traces the upper portion of one of the loops. The second 90° portion of the second 180° turn traces\nthe lower portion of that loop at the end of the maneuvuer. The second 90° of the first 180° turn and the first 90° of the second 180°\nturn complete the other loop of the eight. The sensation of using the airplane to slowly draw this symbol gives the maneuver its name. 10-6"
+      }
+    },
+    {
+      "section": "Lazy Eight",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "Why should a lazy eight begin with a slow rate of roll?",
+      "correct_answer": "Because the combination of increasing pitch and increasing bank can cause the rate of turn to become so rapid that the 45° point is reached before the highest pitch attitude is attained.",
+      "distractors": [
+        "Because a rapid roll rate causes airspeed to increase, which would prevent the aircraft from climbing to the 45° reference point.",
+        "Because increasing pitch naturally decreases the rate of turn, requiring a slower roll to ensure the 45° point is reached on schedule.",
+        "Because a rapid roll rate would cause the maximum bank angle to be reached prematurely at the 45° reference point instead of the 90° reference point."
+      ],
+      "explanation": "According to the Airplane Flying Handbook, as pitch attitude is raised during a lazy eight, airspeed decreases, which causes the rate of turn to increase. Therefore, the maneuver should begin with a slow rate of roll. If the roll rate is too fast, the combination of increasing pitch and bank will cause the turn rate to accelerate so rapidly that the 45° reference point is reached before the highest pitch attitude is attained.",
+      "reference": {
+        "page": "10-7",
+        "text": "Shown in Figure 10-4A, from level flight a gradual climbing turn is begun in the direction of the 45° reference point. The climbing\nturn should be planned and controlled so that the maximum pitch-up attitude is reached at the 45° point with an approximate bank\nangle of 15°. [Figure 10-4B] As the pitch attitude is raised, the airspeed decreases, which causes the rate of turn to increase. As such,\nthe lazy eight should begin with a slow rate of roll as the combination of increasing pitch and increasing bank may cause the rate of\nturn to be so rapid that the 45° reference point will be reached before the highest pitch attitude is attained. At the 45° reference point,\nthe pitch attitude should be at the maximum pitch-up selected for the maneuver while the bank angle is slowly increasing. Beyond the\n45° reference point, the pitch-up attitude should begin to decrease slowly toward the horizon until the 90° reference point is reached\nwhere the pitch attitude passes through level."
+      }
+    },
+    {
+      "section": "Lazy Eight",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "While performing a lazy eight, a pilot applies aileron pressure to increase lift on the left wing. How do the aerodynamic forces interact in this scenario, and what rudder pressure is required to maintain coordination?",
+      "correct_answer": "Left adverse yaw and left-yawing P-factor augment each other, requiring substantial right rudder pressure.",
+      "distractors": [
+        "Left adverse yaw and left-yawing P-factor cancel each other out, requiring less right rudder pressure.",
+        "Left adverse yaw and right-yawing P-factor augment each other, requiring substantial left rudder pressure.",
+        "Right adverse yaw and left-yawing P-factor cancel each other out, requiring no rudder pressure."
+      ],
+      "explanation": "According to the Airplane Flying Handbook, when displacing ailerons for more lift on the left wing (rolling right) during a lazy eight, left adverse yaw augments with left-yawing P-factor in an attempt to yaw the nose to the left. To counteract this combined left-yawing tendency and maintain coordination, substantial right rudder pressure is required.",
+      "reference": {
+        "page": "10-7",
+        "text": "The lazy eight requires substantial skill in coordinating the aileron and rudder; therefore, some discussion about coordination is\nwarranted. As pilots understand, the purpose of the rudder is to maintain coordination; slipping or skidding is to be avoided. Pilots\nshould remember that since the airspeed is still decreasing as the airplane is climbing; additional right rudder pressure should be\napplied to counteract left-turning tendencies, such as P-factor. As the airspeed decreases, right rudder pressure should be gradually\napplied to counteract yaw at the apex of the lazy eight in both the right and left turns; however, additional right rudder pressure is\nrequired when using right aileron control pressure. When displacing the ailerons for more lift on the left wing, left adverse yaw\naugments with the left-yawing P-factor in an attempt to yaw the nose to the left. In contrast, in left climbing turns or rolling to the left,\nthe left yawing P-factor tends to cancel the effects of adverse yaw to the right; consequently, less right rudder pressure is required.\nThese concepts can be difficult to remember; however, to simplify, rolling right at low airspeeds and high-power settings requires\nsubstantial right rudder pressures."
+      }
+    },
+    {
+      "section": "Lazy Eight",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "When executing a lazy eight, how do P-factor and adverse yaw interact during a left climbing turn or when rolling to the left, and what rudder pressure is required?",
+      "correct_answer": "Left-yawing P-factor tends to cancel right adverse yaw, requiring less right rudder pressure.",
+      "distractors": [
+        "Left-yawing P-factor augments right adverse yaw, requiring substantial right rudder pressure.",
+        "Left-yawing P-factor tends to cancel left adverse yaw, requiring less left rudder pressure.",
+        "Left-yawing P-factor augments left adverse yaw, requiring substantial left rudder pressure."
+      ],
+      "explanation": "According to the Airplane Flying Handbook, in left climbing turns or when rolling to the left, the airplane experiences left-yawing P-factor and right adverse yaw. Because these two opposing yawing forces tend to cancel each other out, less right rudder pressure is required to maintain coordination compared to rolling to the right.",
+      "reference": {
+        "page": "10-7",
+        "text": "The lazy eight requires substantial skill in coordinating the aileron and rudder; therefore, some discussion about coordination is\nwarranted. As pilots understand, the purpose of the rudder is to maintain coordination; slipping or skidding is to be avoided. Pilots\nshould remember that since the airspeed is still decreasing as the airplane is climbing; additional right rudder pressure should be\napplied to counteract left-turning tendencies, such as P-factor. As the airspeed decreases, right rudder pressure should be gradually\napplied to counteract yaw at the apex of the lazy eight in both the right and left turns; however, additional right rudder pressure is\nrequired when using right aileron control pressure. When displacing the ailerons for more lift on the left wing, left adverse yaw\naugments with the left-yawing P-factor in an attempt to yaw the nose to the left. In contrast, in left climbing turns or rolling to the left,\nthe left yawing P-factor tends to cancel the effects of adverse yaw to the right; consequently, less right rudder pressure is required.\nThese concepts can be difficult to remember; however, to simplify, rolling right at low airspeeds and high-power settings requires\nsubstantial right rudder pressures."
+      }
+    },
+    {
+      "section": "Chapter 10: Performance Maneuvers",
+      "difficulty": 2,
+      "categories": [
+        "checkride_oral",
+        "general_knowledge"
+      ],
+      "question": "What design characteristic of performance maneuvers most directly distinguishes them from basic flight maneuvers like straight-and-level flight or standard climbs?",
+      "correct_answer": "The continuous variation of flight control pressures, attitudes, airspeeds, and orientations throughout the maneuver",
+      "distractors": [
+        "The requirement to maintain a constant airspeed and attitude throughout the maneuver to achieve precise performance",
+        "The use of flight control pressures that remain fixed once the maneuver is established, allowing the pilot to focus on outside references",
+        "The need to hold consistent orientations while transitioning between only two distinct flight attitudes"
+      ],
+      "explanation": "According to AFH Chapter 10, performance maneuver design allows for the application of flight control pressures, attitudes, airspeeds, and orientations that constantly change throughout the maneuver. This continuous variation is what distinguishes performance maneuvers from basic flight maneuvers such as straight-and-level, turns, climbs, and descents, which involve more stable and consistent flight parameters. The constantly changing parameters are intentionally built into performance maneuvers to develop a pilot's proficiency in flight control application, maneuver planning, situational awareness, and division of attention.",
+      "reference": {
+        "page": "10-1",
+        "text": "Introduction\nBasic flight maneuvers taught to pilots include: straight-and-level, turns, climbs, and descents. As training advances, other\nperformance maneuvers serve to further develop piloting skills. Performance maneuvers enhance a pilot’s proficiency in flight control\napplication, maneuver planning, situational awareness, and division of attention. To further that intent, performance maneuver design\nallows for the application of flight control pressures, attitudes, airspeeds, and orientations that constantly change throughout the\nmaneuver."
+      }
+    },
+    {
+      "section": "Chapter 10: Performance Maneuvers",
+      "difficulty": 2,
+      "categories": [
+        "checkride_oral",
+        "general_knowledge"
+      ],
+      "question": "A student pilot is experiencing consistent difficulties during performance maneuver training. According to the Airplane Flying Handbook, what is the most likely root cause of these deficiencies?",
+      "correct_answer": "A lack of understanding or mastery of fundamental flight skills",
+      "distractors": [
+        "Insufficient repetition of the performance maneuvers themselves",
+        "Inadequate aircraft power available for the maneuvers being attempted",
+        "Failure to memorize the specific pitch attitudes for each maneuver",
+        "Environmental factors such as wind or turbulence affecting maneuver execution"
+      ],
+      "explanation": "The Airplane Flying Handbook (Chapter 10) states that deficiencies during execution of performance maneuvers often occur when a pilot lacks an understanding of fundamental skills or never mastered them. For this reason, performance maneuver training should not take place until the pilot demonstrates consistent competency in the fundamentals. While repetition is important, the handbook identifies it as a building-block instructional technique used after fundamentals are solid—not as the root cause of deficiencies. The other distractors are not cited as primary causes of performance maneuver difficulties.",
+      "reference": {
+        "page": "10-1",
+        "text": "Deficiencies during execution of performance maneuvers often occur when a pilot lacks an understanding of fundamental skills or\nnever mastered them. Performance maneuver training should not take place until the pilot demonstrates consistent competency in the\nfundamentals. Further, initial training for performance maneuvers should always begin with a detailed ground lesson for each\nmaneuver, so that the learner understands the technicalities prior to flight. In addition, performance maneuver training should use\nsegmented building blocks of instruction so as to allow the pilot an appropriate level of repetition necessary to develop the required\nskills."
+      }
+    },
+    {
+      "section": "Chapter 10: Performance Maneuvers",
+      "difficulty": 2,
+      "categories": [
+        "checkride_oral",
+        "general_knowledge"
+      ],
+      "question": "A flight instructor is planning performance maneuver training for a student who has demonstrated consistent competency in fundamental skills. What approach should the instructor use to structure the training, and why?",
+      "correct_answer": "Use segmented building blocks of instruction to allow the pilot an appropriate level of repetition necessary to develop the required skills",
+      "distractors": [
+        "Introduce all performance maneuvers simultaneously to maximize training efficiency and reduce total flight hours needed",
+        "Begin with flight training first, then follow up with ground instruction after the pilot has experienced each maneuver firsthand",
+        "Focus on advanced maneuvers before fundamentals review, since performance maneuvers naturally reinforce basic skills through repetition"
+      ],
+      "explanation": "The Airplane Flying Handbook (Chapter 10) states that performance maneuver training should use segmented building blocks of instruction to allow the pilot an appropriate level of repetition necessary to develop the required skills. The handbook also emphasizes that training should not begin until the pilot demonstrates consistent competency in fundamentals, and that a detailed ground lesson should precede flight training. The distractors are incorrect because: (1) introducing all maneuvers simultaneously contradicts the segmented building block approach, (2) the AFH specifies ground instruction should come before flight, and (3) the AFH explicitly states training should not occur until fundamentals are mastered, as deficiencies often arise when pilots lack understanding of fundamental skills.",
+      "reference": {
+        "page": "10-1",
+        "text": "Deficiencies during execution of performance maneuvers often occur when a pilot lacks an understanding of fundamental skills or\nnever mastered them. Performance maneuver training should not take place until the pilot demonstrates consistent competency in the\nfundamentals. Further, initial training for performance maneuvers should always begin with a detailed ground lesson for each\nmaneuver, so that the learner understands the technicalities prior to flight. In addition, performance maneuver training should use\nsegmented building blocks of instruction so as to allow the pilot an appropriate level of repetition necessary to develop the required\nskills."
+      }
+    }
+  ]
+}

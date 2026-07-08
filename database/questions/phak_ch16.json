@@ -1,0 +1,363 @@
+{
+  "source": "PHAK",
+  "chapter": 16,
+  "questions": [
+    {
+      "section": "Agonic line                      Magnetic Deviation",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "A pilot draws a course line on a sectional chart, applies magnetic variation and compass deviation, and flies the resulting compass course in a no wind condition. What is the expected result?",
+      "correct_answer": "The aircraft travels from point A to point B, even if the aircraft heading does not match the original course line drawn on the chart.",
+      "distractors": [
+        "The aircraft travels parallel to the original course line, missing point B unless further corrections are made.",
+        "The aircraft heading aligns perfectly with the original course line drawn on the chart, ensuring arrival at point B.",
+        "The aircraft drifts off course because the compass course does not account for the Earth's magnetic field."
+      ],
+      "explanation": "According to PHAK Chapter 16, applying deviation (taken from a compass deviation card) compensates for an aircraft's localized magnetic influencers, converting the magnetic course into a compass course. When followed in a no wind condition, this compass course successfully takes the aircraft from point A to point B, even though the aircraft's heading may not match the original course line drawn on the chart.",
+      "reference": {
+        "page": "16-7",
+        "text": "Because each aircraft has its own internal effect upon the\n                                                                                        onboard compass systems from its own localized magnetic\n                                                                                        influencers, the pilot must add or subtract these influencers\n                                                                                        based upon the direction he or she is flying. The application of\nZero degree variation exists on the agonic line where                                   deviation (taken from a compass deviation card) compensates\nMN and TN coincide. This line runs roughly west of the                                  the magnetic course unique to that aircraft’s compass system\nGreat Lakes, south through Wisconsin, Illinois, western                                 (as affected by localized magnetic influencers) and it now\nTennessee, and along the border of Mississippi and Alabama.                             becomes the compass course. Therefore, the compass course,\nCompare Figures 16-9 and 16-10.                                                         when followed (in a no wind condition), takes the aircraft\n                                                                                        from point A to point B even though the aircraft heading\nBecause courses are measured in reference to geographical                               may not match the original course line drawn on the chart.\nmeridians that point toward TN, and these courses are\nmaintained by reference to the compass that points along a                              If the variation is shown as “9° E,” this means that MN is\nmagnetic meridian in the general direction of MN, the true                              9° east of TN."
+      }
+    },
+    {
+      "section": "S                                                     S",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "An aircraft is heading eastward at an airspeed of 120 knots through an air mass moving southward at 20 knots. If the pilot makes no wind correction, where will the aircraft be relative to its intended position after 1 hour?",
+      "correct_answer": "20 miles south of the intended position",
+      "distractors": [
+        "20 miles north of the intended position",
+        "100 miles east of the intended position",
+        "120 miles south of the intended position"
+      ],
+      "explanation": "According to PHAK Chapter 16, an aircraft's forward movement through the air mass and the movement of the air mass itself are independent. If no correction is made for wind effect, the aircraft will drift with the air mass. After 1 hour, the aircraft will have flown 120 miles east through the air, but because the air mass moved southward at 20 knots, the aircraft will also be 20 miles south of its intended position.",
+      "reference": {
+        "page": "16-9",
+        "text": "•    Movement of the air mass in reference to the ground              mass of air is moving westward at 20 knots, the airspeed of\n  •    Forward movement of the aircraft through the air mass            the aircraft remains the same, but GS becomes 120 minus\n                                                                        20 or 100 knots.\nActually, these two motions are independent. It makes no\ndifference whether the mass of air through which the aircraft           Assuming no correction is made for wind effect, if an aircraft\nis flying is moving or is stationary. A pilot flying in a 70-           is heading eastward at 120 knots and the air mass moving\nknot gale would be totally unaware of any wind (except for              southward at 20 knots, the aircraft at the end of 1 hour is\npossible turbulence) unless the ground were observed. In                almost 120 miles east of its point of departure because of its\nreference to the ground, however, the aircraft would appear             progress through the air. It is 20 miles south because of the\nto fly faster with a tailwind or slower with a headwind, or to          motion of the air."
+      }
+    },
+    {
+      "section": "GS GS = D/T",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "Why do turbine-powered aircraft typically measure large fuel quantities by density (weight) rather than by volume such as gallons?",
+      "correct_answer": "Fuel volume varies greatly with temperature, while density provides a more uniform and repeatable measurement.",
+      "distractors": [
+        "Turbine engines burn fuel at a rate that makes volume measurements unreliable at high flow rates.",
+        "Weight measurements allow for more precise center of gravity calculations during flight.",
+        "Volume sensors cannot accurately measure the large tank capacities found in turbine aircraft."
+      ],
+      "explanation": "According to PHAK Chapter 16, turbine-powered aircraft require much more fuel and thus much larger fuel tanks than reciprocating-engine aircraft. When determining these large fuel quantities, using a volume measurement such as gallons presents a problem because the volume of fuel varies greatly in relation to temperature. In contrast, density (weight) is less affected by temperature and therefore provides a more uniform and repeatable measurement.",
+      "reference": {
+        "page": "16-11",
+        "text": "To find the time (T) in flight, divide the distance (D) by the        To ensure that sufficient fuel is available for your intended\nGS. The time to fly 210 NM at a GS of 140 knots is 210 ÷              flight, you must be able to accurately compute aircraft fuel\n140 or 1.5 hours. (The 0.5 hour multiplied by 60 minutes              consumption during preflight planning. Typically, fuel\nequals 30 minutes.) Answer: 1:30.                                     consumption in gasoline-fueled aircraft is measured in\n                                                                      gallons per hour. Since turbine engines consume much more\nDistance D = GS X T                                                   fuel than reciprocating engines, turbine-powered aircraft\nTo find the distance flown in a given time, multiply GS by            require much more fuel, and thus much larger fuel tanks.\ntime. The distance flown in 1 hour 45 minutes at a GS of 120          When determining these large fuel quantities, using a volume\nknots is 120 × 1.75 or 210 NM.                                        measurement such as gallons presents a problem because\n                                                                      the volume of fuel varies greatly in relation to temperature.\n                                                                      In contrast, density (weight) is less affected by temperature\n                                                                      and therefore, provides a more uniform and repeatable\nTo find the GS, divide the distance flown by the time                 measurement."
+      }
+    },
+    {
+      "section": "To Guthrie",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "On a cross-country flight, a pilot plans a True Course (TC) of 031°. The wind requires a 3° left Wind Correction Angle (WCA). If the magnetic variation is 7° east and the compass deviation is +2°, what Compass Heading (CH) should be flown?",
+      "correct_answer": "023°",
+      "distractors": [
+        "019°",
+        "029°",
+        "037°"
+      ],
+      "explanation": "According to the Pilot's Handbook of Aeronautical Knowledge (PHAK) Chapter 16, to find the Compass Heading (CH), start with the True Course (TC) of 031°. Apply the 3° left Wind Correction Angle by subtracting it (031° - 3° = 028° True Heading). Next, apply the 7° east magnetic variation by subtracting it ('East is least') to get the Magnetic Heading (028° - 7° = 021°). Finally, apply the +2° compass deviation by adding it to get the Compass Heading (021° + 2° = 023°). The distractors represent common sequencing or sign errors: 019° results from subtracting the +2° deviation instead of adding it; 029° results from adding a right WCA instead of a left WCA; and 037° results from adding the east variation instead of subtracting it.",
+      "reference": {
+        "page": "16-20",
+        "text": "COURSE         TC                    ALTITUDE WCA TH MAG VAR MH DEV CH TOTAL                                   GS      TOTAL         FUEL    TOTAL\n                             Knots From              R+ L­   W+ E­            MILES                                            TIME         RATE     FUEL\n                      031°    10 360°         8000        3° L 28          7° E       21° +2°         23     53    106 kts    35 min        8 GPH    38 gal\n  From\n  To"
+      }
+    },
+    {
+      "section": "Guthrie Airport                                                                   53 NM",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "A pilot has determined a true course and needs to arrive at the compass heading to fly. Which sequence correctly describes the order of corrections?",
+      "correct_answer": "Apply wind correction angle to true course, then apply variation, then apply deviation",
+      "distractors": [
+        "Apply variation to true course, then apply wind correction angle, then apply deviation",
+        "Apply deviation to true course, then apply variation, then apply wind correction angle",
+        "Apply wind correction angle to true course, then apply deviation, then apply variation"
+      ],
+      "explanation": "According to PHAK Chapter 16, the order of calculations for determining compass heading is: True Course → True Heading (applying wind correction angle) → Magnetic Heading (applying variation) → Compass Heading (applying deviation). The handbook's example demonstrates this sequence: WCA is subtracted from TC to get TH, then variation is applied to TH to get MH, then deviation is applied to MH to get the compass heading. Variation must be applied before deviation because variation corrects from true to magnetic reference, while deviation is a compass-specific correction applied last.",
+      "reference": {
+        "page": "16-20",
+        "text": "Since the wind is no factor and it is desirable and within the                    The WCA can be determined by using a manual or electronic\naircraft’s capability to fly above the Class C and D airspace                     flight computer. Using a wind of 360° at 10 knots, it is\nto be encountered, an altitude of 5,500 feet MSL is chosen.                       determined the WCA is 3° left. This is subtracted from the\nThis altitude also gives adequate clearance of all obstructions,                  TC making the TH 28°. Next, the pilot should locate the\nas well as conforms to the 14 CFR part 91 requirement to                          isogonic line closest to the route of the flight to determine\nfly at an altitude of odd thousand plus 500 feet when on a                        variation. Figure 16-25 shows the variation to be 6.30° E\nmagnetic course between 0 and 179°.                                               (rounded to 7° E), which means it should be subtracted from\n                                                                                  the TH, giving an MH of 21°. Next, add 2° to the MH for\nNext, the pilot should measure the total distance of the                          the deviation correction."
+      }
+    },
+    {
+      "section": "21        S            15",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "While maintaining a corrected heading to compensate for wind, you notice the VOR course deviation needle begins moving to the left. What does this indicate about your aircraft's position and wind correction?",
+      "correct_answer": "The wind correction is too great and the aircraft is flying to the right of course.",
+      "distractors": [
+        "The wind correction is too small and the aircraft is flying to the left of course.",
+        "The wind correction is too great and the aircraft is flying to the left of course.",
+        "The wind correction is too small and the aircraft is flying to the right of course."
+      ],
+      "explanation": "According to the Pilot's Handbook of Aeronautical Knowledge (PHAK), if the course deviation needle begins moving to the left while maintaining a corrected heading, the wind correction is too great and the aircraft is flying to the right of course. A slight turn to the left should be made to permit the aircraft to return to the desired radial.",
+      "reference": {
+        "page": "16-26",
+        "text": "To return to the desired radial, the aircraft heading must be                maintain the course. If the aircraft drifts, fly a heading\naltered to the right. As the aircraft returns to the desired track,          to re-intercept the course then apply a correction to\nthe deviation needle slowly returns to center. When centered,                compensate for wind drift.\nthe aircraft is on the desired radial and a left turn must be           •    If minor needle fluctuations occur, avoid changing\nmade toward, but not to the original heading of 350° because                 headings immediately. Wait a moment to see if the\na wind drift correction must be established. The amount of                   needle recenters; if it does not, then you must correctly\ncorrection depends upon the strength of the wind. If the wind                recenter the course to the needle.\nvelocity is unknown, a trial-and-error method can be used\nto find the correct heading. Assume, for this example, a 10°            •    When flying “TO” a station, always fly the selected\ncorrection for a heading of 360° is maintained.                              course with a “TO” indication. When flying “FROM” a\n                                                                             station, always fly the selected course with a “FROM”\nWhile maintaining a heading of 360°, assume that the course                  indication. If this is not done, the action of the course\ndeviation begins to move to the left. This means that the wind               deviation needle is reversed. To further explain this\ncorrection of 10° is too great and the aircraft is flying to the             reverse action, if the aircraft is flown toward a station\nright of course. A slight turn to the left should be made to                 with a “FROM” indication or away from a station\npermit the aircraft to return to the desired radial.                         with a “TO” indication, the course deviation needle\n                                                                             indicates in a direction opposite to that which it should\nWhen the deviation needle centers, a small wind drift                        indicate. For example, if the aircraft drifts to the right\ncorrection of 5° or a heading correction of 355° should be                   of a radial being flown, the needle moves to the right\nflown."
+      }
+    },
+    {
+      "section": "21        S            15",
+      "difficulty": 3,
+      "categories": [
+        "written_exam"
+      ],
+      "question": "A pilot is flying away from a VOR station but mistakenly has a \"TO\" indication displayed, creating a reversed course deviation indication. If the aircraft drifts to the right of the selected radial, how will the course deviation needle respond?",
+      "correct_answer": "The needle moves to the right, opposite to the direction it would move with a normal indication",
+      "distractors": [
+        "The needle moves to the left, the same as it would with a proper \"FROM\" indication",
+        "The needle remains centered because the reversed indication disables course tracking",
+        "The needle flags, indicating the signal is unreliable"
+      ],
+      "explanation": "According to PHAK Chapter 16, when flying with a reversed indication (e.g., flying away from a station with a \"TO\" indication or toward a station with a \"FROM\" indication), the course deviation needle indicates in a direction opposite to that which it should. The handbook specifically states that if the aircraft drifts to the right of a radial being flown under these conditions, the needle moves to the right instead of to the left. The signal itself remains valid—it is simply the direction of the needle deflection that is reversed.",
+      "reference": {
+        "page": "16-26",
+        "text": "To return to the desired radial, the aircraft heading must be                maintain the course. If the aircraft drifts, fly a heading\naltered to the right. As the aircraft returns to the desired track,          to re-intercept the course then apply a correction to\nthe deviation needle slowly returns to center. When centered,                compensate for wind drift.\nthe aircraft is on the desired radial and a left turn must be           •    If minor needle fluctuations occur, avoid changing\nmade toward, but not to the original heading of 350° because                 headings immediately. Wait a moment to see if the\na wind drift correction must be established. The amount of                   needle recenters; if it does not, then you must correctly\ncorrection depends upon the strength of the wind. If the wind                recenter the course to the needle.\nvelocity is unknown, a trial-and-error method can be used\nto find the correct heading. Assume, for this example, a 10°            •    When flying “TO” a station, always fly the selected\ncorrection for a heading of 360° is maintained.                              course with a “TO” indication. When flying “FROM” a\n                                                                             station, always fly the selected course with a “FROM”\nWhile maintaining a heading of 360°, assume that the course                  indication. If this is not done, the action of the course\ndeviation begins to move to the left. This means that the wind               deviation needle is reversed. To further explain this\ncorrection of 10° is too great and the aircraft is flying to the             reverse action, if the aircraft is flown toward a station\nright of course. A slight turn to the left should be made to                 with a “FROM” indication or away from a station\npermit the aircraft to return to the desired radial.                         with a “TO” indication, the course deviation needle\n                                                                             indicates in a direction opposite to that which it should\nWhen the deviation needle centers, a small wind drift                        indicate. For example, if the aircraft drifts to the right\ncorrection of 5° or a heading correction of 355° should be                   of a radial being flown, the needle moves to the right\nflown."
+      }
+    },
+    {
+      "section": "21        S            15",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "What is the correct procedure for setting up an RMI to determine the approximate time and distance from a VOR station?",
+      "correct_answer": "Place the bearing pointer on the nearest 90° index, note the time, and maintain heading until the pointer moves 10°.",
+      "distractors": [
+        "Place the bearing pointer on the 0° index, note the time, and maintain heading until the pointer moves 10°.",
+        "Place the bearing pointer on the nearest 90° index, note the time, and maintain heading until the pointer moves 20°.",
+        "Place the bearing pointer on the 180° index, note the time, and maintain heading until the pointer moves 5°."
+      ],
+      "explanation": "According to the Pilot's Handbook of Aeronautical Knowledge (PHAK) Chapter 16, to determine the approximate time and distance from a VOR station using an RMI, a pilot should place the bearing pointer on the nearest 90° index, note the time, and maintain heading. Once the bearing pointer moves 10°, the pilot notes the elapsed time in seconds and applies the appropriate formula.",
+      "reference": {
+        "page": "16-26",
+        "text": "If the intent is         aircraft to place the RMI bearing pointer on the nearest 90°\nto fly over the station and track outbound on the reciprocal of       index. Note the time and maintain the heading. When the\nthe inbound radial, the course selector should not be changed.        RMI bearing pointer has moved 10°, note the elapsed time\nCorrections are made in the same manner to keep the needle            in seconds and apply the formulas in the following example\ncentered. The only difference is that the omnidirectional             to determine the approximate time and distance from a given\nrange indicator indicates “FROM.”                                     station. [Figure 16-33]"
+      }
+    },
+    {
+      "section": "Distance Measuring Equipment (DME)",
+      "difficulty": 3,
+      "categories": [
+        "checkride_oral"
+      ],
+      "question": "When computing time and distance from a VOR station using a CDI, after turning 90° from the inbound course, you rotate the OBS to the nearest 10° increment opposite the direction of turn. What is the purpose of rotating the OBS in this manner?",
+      "correct_answer": "To center the CDI as you cross each successive 10° radial, allowing you to note the time",
+      "distractors": [
+        "To align the OBS with your new heading after the 90° turn so the CDI remains centered",
+        "To keep the VOR receiver indicating 'TO' throughout the maneuver",
+        "To maintain the original inbound course indication on the CDI during the turn"
+      ],
+      "explanation": "According to PHAK Chapter 16, when computing time and distance from a station using a CDI, you turn 90° from the inbound course and rotate the OBS opposite the direction of turn to the nearest 10° increment. This causes the CDI to center as you cross each successive 10° radial. By noting the time when the CDI first centers, then rotating the OBS 10° further in the same direction and noting the elapsed time when it centers again, you can compute your distance and time to the station based on how long it takes to cross 10° of radials.",
+      "reference": {
+        "page": "16-27",
+        "text": "Each degree, or radial, is 1 NM wide at\n                                                                 a distance of 60 NM from the station. Width increases or\nCDI\n                                                                 decreases in proportion to the 60 NM distance. For example,\nTo compute time and distance from a station using a CDI,\n                                                                 1 degree is 2 NM wide at 120 NM—and ½ NM wide at 30\nfirst tune and identify the VOR station and determine the\n                                                                 NM. For a given GS and angle of intercept, the resultant rate\nradial on which you are located. Then turn inbound and\n                                                                 of intercept varies according to the distance from the station.\nre-center the needle if necessary. Turn 90° left or right, of\n                                                                 When selecting an intercept heading to form an angle of\nthe inbound course, rotating the OBS to the nearest 10°\n                                                                 intercept, consider the following factors:\nincrement opposite the direction of turn. Maintain heading\nand when the CDI centers, note the time. Maintaining the           •    Degrees from course\nsame heading, rotate the OBS 10° in the same direction as          •    Distance from the station\nwas done previously and note the elapsed time when the\n                                                                   •    True airspeed and wind (GS)\nCDI again centers."
+      }
+    },
+    {
+      "section": "Distance Measuring Equipment (DME)",
+      "difficulty": 3,
+      "categories": [
+        "checkride_oral"
+      ],
+      "question": "While computing time and distance from a VOR station using a CDI, you have just noted the time when the CDI centered for the first time. What is the next step in the procedure?",
+      "correct_answer": "Maintain the same heading and rotate the OBS 10° in the same direction as before",
+      "distractors": [
+        "Maintain the same heading and rotate the OBS 10° in the opposite direction as before",
+        "Turn the aircraft 10° in the same direction the OBS was previously rotated and wait for the CDI to center",
+        "Turn the aircraft back to the original inbound heading and rotate the OBS 10° in the same direction as before"
+      ],
+      "explanation": "According to PHAK Chapter 16, after noting the time at the first CDI centering, the pilot must maintain the same heading and rotate the OBS 10° in the same direction as was done previously, then note the elapsed time when the CDI centers again. The distractors are wrong for specific reasons: rotating the OBS in the opposite direction would not produce the proper angular measurement; turning the aircraft instead of maintaining heading would change the ground track and invalidate the timing calculation; and turning back to the original inbound heading would defeat the purpose of the 90° offset turn used to establish the intercept geometry.",
+      "reference": {
+        "page": "16-27",
+        "text": "Each degree, or radial, is 1 NM wide at\n                                                                 a distance of 60 NM from the station. Width increases or\nCDI\n                                                                 decreases in proportion to the 60 NM distance. For example,\nTo compute time and distance from a station using a CDI,\n                                                                 1 degree is 2 NM wide at 120 NM—and ½ NM wide at 30\nfirst tune and identify the VOR station and determine the\n                                                                 NM. For a given GS and angle of intercept, the resultant rate\nradial on which you are located. Then turn inbound and\n                                                                 of intercept varies according to the distance from the station.\nre-center the needle if necessary. Turn 90° left or right, of\n                                                                 When selecting an intercept heading to form an angle of\nthe inbound course, rotating the OBS to the nearest 10°\n                                                                 intercept, consider the following factors:\nincrement opposite the direction of turn. Maintain heading\nand when the CDI centers, note the time. Maintaining the           •    Degrees from course\nsame heading, rotate the OBS 10° in the same direction as          •    Distance from the station\nwas done previously and note the elapsed time when the\n                                                                   •    True airspeed and wind (GS)\nCDI again centers."
+      }
+    },
+    {
+      "section": "Area Navigation Direct Route",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "When tracking outbound from an NDB in a crosswind, what is the result of continuously attempting to keep the ADF needle on the 180° position?",
+      "correct_answer": "The aircraft flies a curved flight path leading further and further from the desired track.",
+      "distractors": [
+        "The aircraft maintains the desired track but requires continuous heading changes.",
+        "The aircraft drifts parallel to the desired track at a constant distance.",
+        "The aircraft flies a curved flight path that eventually leads back to the station."
+      ],
+      "explanation": "According to the PHAK, when tracking outbound, the ADF needle points toward the tail of the aircraft at the 180° position. If a pilot simply attempts to keep the needle on the 180° position in a crosswind, the aircraft will fly a curved flight path leading further and further from the desired track. Proper wind corrections must be made based on the needle's position rather than just forcing it to 180°.",
+      "reference": {
+        "page": "16-30",
+        "text": "W\n                                                24                 21\n                                                                                                                                   made similar to tracking to the station, but the ADF needle\n                                                                                                                                   points toward the tail of the aircraft or the 180° position on\n                                                                                                                                   the azimuth dial. Attempting to keep the ADF needle on\n                                                                                                                                   the 180° position during winds results in the aircraft flying\n                                                                                                                                   a curved flight leading further and further from the desired\n                                                                                                                                   track. When tracking outbound, corrections for wind should\n                                                                                                                                   is pointing."
+      }
+    },
+    {
+      "section": "24        S",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "A VFR pilot is navigating with a handheld GPS receiver that lacks RAIM capability. If the GPS navigation solution begins to deteriorate during flight, what is the primary danger the pilot faces?",
+      "correct_answer": "The receiver will not alert the pilot to the deterioration, and an undetected navigation error could occur.",
+      "distractors": [
+        "The receiver will automatically switch to dead reckoning mode, but the pilot will not be notified of the change.",
+        "The receiver will display a 'RAIM unavailable' warning message, but will continue providing navigation guidance.",
+        "The receiver will lose all satellite signals and stop providing any position information until at least six satellites are reacquired."
+      ],
+      "explanation": "According to the PHAK Chapter 16, many VFR GPS receivers and all handheld units are not equipped with RAIM alerting capability. In receivers with no RAIM capability, no alert would be provided to the pilot that the navigation solution had deteriorated, and an undetected navigation error could occur. This is why a systematic cross-check with other navigation techniques is essential to identify such failures. The distractors are incorrect because the receiver does not switch modes, does not display a RAIM warning (it lacks RAIM entirely), and does not lose all signals—the problem is that it continues providing potentially erroneous data without any indication of a problem.",
+      "reference": {
+        "page": "16-32",
+        "text": "55 degrees relative to the equator. The orbital radius (i.e.        each type of receiver installation or use must be understood\ndistance from the center of mass of the earth to the satellite)     by the pilot to avoid misusing navigation information. In all\nis approximately 26,600 km.                                         cases, VFR pilots should never rely solely on one system\n                                                                    of navigation. GPS navigation must be integrated with\nWith the baseline satellite constellation, users with a clear       other forms of electronic navigation, as well as pilotage\nview of the sky have a minimum of four satellites in view.          and dead reckoning. Only through the integration of these\nIt is more likely that a user would see six to eight satellites.    techniques can the VFR pilot ensure accuracy in navigation.\nThe satellites broadcast ranging signals and navigation data        Some critical concerns in VFR use of GPS include RAIM\nallowing users to measure their pseudoranges in order to            capability, database currency, and antenna location.\nestimate their position, velocity and time, in a passive, listen-\nonly mode. The receiver uses data from a minimum of four            RAIM Capability\nsatellites above the mask angle (the lowest angle above the         Many VFR GPS receivers and all hand-held units are not\nhorizon at which a receiver can use a satellite). The exact         equipped with RAIM alerting capability. Loss of the required\nnumber of satellites operating at any one particular time           number of satellites in view, or the detection of a position\nvaries depending on the number of satellite outages and             error, cannot be displayed to the pilot by such receivers.\noperational spares in orbit. For current status of the GPS          In receivers with no RAIM capability, no alert would\nconstellation, please visit http://tycho.usno.navy.mil/gpscurr.     be provided to the pilot that the navigation solution had\nhtml. [Figure 16-40]                                                deteriorated and an undetected navigation error could occur.\n                                                                    A systematic cross-check with other navigation techniques\nVFR Use of GPS                                                      would identify this failure and prevent a serious deviation.\nGPS navigation has become a great asset to VFR pilots\nproviding increased navigation capability and enhanced              In many receivers, an updatable database is used for\nsituational awareness while reducing operating costs due            navigation fixes, airports, and instrument procedures.\nto greater ease in flying direct routes."
+      }
+    },
+    {
+      "section": "24        S",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "Many VFR GPS receivers and hand-held units are not equipped with RAIM alerting capability. Without RAIM, how can a pilot identify a GPS navigation failure and prevent a serious deviation?",
+      "correct_answer": "By systematically cross-checking with other navigation techniques",
+      "distractors": [
+        "By verifying the GPS database is current before the flight",
+        "By ensuring a minimum of four satellites are above the mask angle",
+        "By maintaining a clear view of the sky to track six to eight satellites"
+      ],
+      "explanation": "According to the PHAK Chapter 16, in receivers with no RAIM capability, no alert would be provided to the pilot if the navigation solution deteriorated, leading to an undetected navigation error. A systematic cross-check with other navigation techniques, such as pilotage and dead reckoning, would identify this failure and prevent a serious deviation.",
+      "reference": {
+        "page": "16-32",
+        "text": "55 degrees relative to the equator. The orbital radius (i.e.        each type of receiver installation or use must be understood\ndistance from the center of mass of the earth to the satellite)     by the pilot to avoid misusing navigation information. In all\nis approximately 26,600 km.                                         cases, VFR pilots should never rely solely on one system\n                                                                    of navigation. GPS navigation must be integrated with\nWith the baseline satellite constellation, users with a clear       other forms of electronic navigation, as well as pilotage\nview of the sky have a minimum of four satellites in view.          and dead reckoning. Only through the integration of these\nIt is more likely that a user would see six to eight satellites.    techniques can the VFR pilot ensure accuracy in navigation.\nThe satellites broadcast ranging signals and navigation data        Some critical concerns in VFR use of GPS include RAIM\nallowing users to measure their pseudoranges in order to            capability, database currency, and antenna location.\nestimate their position, velocity and time, in a passive, listen-\nonly mode. The receiver uses data from a minimum of four            RAIM Capability\nsatellites above the mask angle (the lowest angle above the         Many VFR GPS receivers and all hand-held units are not\nhorizon at which a receiver can use a satellite). The exact         equipped with RAIM alerting capability. Loss of the required\nnumber of satellites operating at any one particular time           number of satellites in view, or the detection of a position\nvaries depending on the number of satellite outages and             error, cannot be displayed to the pilot by such receivers.\noperational spares in orbit. For current status of the GPS          In receivers with no RAIM capability, no alert would\nconstellation, please visit http://tycho.usno.navy.mil/gpscurr.     be provided to the pilot that the navigation solution had\nhtml. [Figure 16-40]                                                deteriorated and an undetected navigation error could occur.\n                                                                    A systematic cross-check with other navigation techniques\nVFR Use of GPS                                                      would identify this failure and prevent a serious deviation.\nGPS navigation has become a great asset to VFR pilots\nproviding increased navigation capability and enhanced              In many receivers, an updatable database is used for\nsituational awareness while reducing operating costs due            navigation fixes, airports, and instrument procedures.\nto greater ease in flying direct routes."
+      }
+    },
+    {
+      "section": "24        S",
+      "difficulty": 3,
+      "categories": [
+        "checkride_oral",
+        "general_knowledge"
+      ],
+      "question": "A VFR pilot is using a panel-mounted GPS moving map to navigate around a Restricted Area. The pilot notices the database expired two months ago. Since VFR operations do not require a current GPS database, what is the safest course of action?",
+      "correct_answer": "Disregard the moving map display when making critical navigation decisions and use other sources to identify airspace boundaries",
+      "distractors": [
+        "Continue using the moving map display since the database is only required to be current for IFR operations",
+        "Use the moving map display but maintain an extra 5 NM buffer from any displayed airspace boundaries",
+        "Rely on the GPS receiver's satellite-derived position to determine airspace boundaries independently of the database"
+      ],
+      "explanation": "According to PHAK Chapter 16, while no current database requirement exists for VFR operations (unlike IFR), numerous pilots have inadvertently entered airspace they were trying to avoid by using an outdated database. The moving map display may show erroneous information regarding Special Use Airspace and airspace classes. The handbook specifically states: 'If there is not a current database in the receiver, disregard the moving map display when making critical navigation decisions.' Distractor 1 is wrong because the absence of a regulatory requirement does not make outdated data safe. Distractor 2 is wrong because the handbook does not suggest a buffer zone workaround—it says to disregard the display. Distractor 3 is wrong because airspace boundaries come from the database, not from satellite positioning; satellites provide aircraft position only.",
+      "reference": {
+        "page": "16-32",
+        "text": "While GPS has many         These databases must be maintained to the current update\nbenefits to the VFR pilot, care must be exercised to ensure         for IFR operation, but no such requirement exists for VFR\nthat system capabilities are not exceeded.                          use. However, in many cases, the database drives a moving\n                                                                    map display that indicates Special Use Airspace and the\nTypes of receivers used for GPS navigation under VFR are            various classes of airspace in addition to other operational\nvaried from a full IFR installation being used to support a         information. Without a current database, the moving map\nVFR flight to a VFR only installation (in either a VFR or IFR       display may be outdated and offer erroneous information\ncapable aircraft) to a hand-held receiver. The limitations of       to VFR pilots wishing to fly around critical airspace areas,\n                                                                    such as a Restricted Area or a Class B airspace segment.\n                                                                    Numerous pilots have ventured into airspace they were trying\n                                                                    to avoid by using an outdated database. If there is not a current\n                                                                    database in the receiver, disregard the moving map display\n                                                                    when making critical navigation decisions."
+      }
+    },
+    {
+      "section": "Flight Diversion",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "According to the Pilot's Handbook of Aeronautical Knowledge, why does the increased accuracy of GPS navigation demand greater vigilance when operating near VFR waypoints?",
+      "correct_answer": "There are fewer off-course deviations among different pilots and receivers, concentrating traffic.",
+      "distractors": [
+        "GPS receivers are required to automatically switch to a higher sensitivity mode near VFR waypoints, causing erratic flight paths.",
+        "VFR waypoints are typically located at the boundaries of controlled airspace, inherently increasing traffic volume.",
+        "GPS signals are more susceptible to interference near VFR waypoints, leading to sudden course reversals by other aircraft."
+      ],
+      "explanation": "The PHAK states that because of the increased accuracy of GPS navigation, there are fewer off-course deviations among different pilots and receivers. This means aircraft are more likely to be concentrated exactly over the waypoint, requiring greater vigilance and see-and-avoid efforts, similar to but exceeding the concentration of traffic found at VORs and NDBs.",
+      "reference": {
+        "page": "16-34",
+        "text": "When filing VFR flight plans, use the five-letter identifier as     information to plot the aircraft position and then give vectors\na waypoint in the route of flight section if there is an intended   to a suitable landing site. If the situation becomes threatening,\ncourse change at that point or if used to describe the planned      transmit the situation on the emergency frequency 121.5 MHz\nroute of flight. This VFR filing would be similar to VOR use        and set the transponder to 7700. Most facilities, and even\nin a route of flight. Pilots must use the VFR waypoints only        airliners, monitor the emergency frequency.\nwhen operating under VFR conditions.\nAny VFR waypoints intended for use during a flight should           There may come a time when a pilot is not able to make it to\nbe loaded into the receiver while on the ground and prior to        the planned destination. This can be the result of unpredicted\ndeparture. Once airborne, pilots should avoid programming           weather conditions, a system malfunction, or poor preflight\nroutes or VFR waypoint chains into their receivers.                 planning. In any case, the pilot needs to be able to safely\n                                                                    and efficiently divert to an alternate destination. Risk\nPilots should be especially vigilant for other traffic while        management procedures become a priority during any type\noperating near VFR waypoints. The same effort to see and            of flight diversion and should be used the pilot. For example,\navoid other aircraft near VFR waypoints is necessary, as            the hazards of inadvertent VFR into IMC involve a risk that\nis the case when operating near VORs and NDBs. In fact,             the pilot can identify and assess and then mitigate through a\nthe increased accuracy of navigation through the use of             pre-planned or in-flight diversion around hazardous weather.\nGPS demands even greater vigilance as there are fewer               Before any cross-country flight, check the charts for airports\noff-course deviations among different pilots and receivers.         or suitable landing areas along or near the route of flight.\nWhen operating near a VFR waypoint, use all available               Also, check for navigational aids that can be used during a\nATC services, even if outside a class of airspace where             diversion. Risk management is explained in greater detail in\ncommunications are required. Regardless of the class of             Chapter 2, Aeronautical Decision-making.\nairspace, monitor the available ATC frequency closely for\ninformation on other aircraft operating in the vicinity. It is      Computing course, time, speed, and distance information in\nalso a good idea to turn on landing light(s) when operating         flight requires the same computations used during preflight\nnear a VFR waypoint to make the aircraft more conspicuous           planning. However, because of the limited flight deck space\nto other pilots, especially when visibility is reduced.             and because attention must be divided between flying the\n                                                                    aircraft, making calculations, and scanning for other aircraft,\nLost Procedures                                                     take advantage of all possible shortcuts and rule-of-thumb\nGetting lost in flight is a potentially dangerous situation,        computations.\nespecially when low on fuel."
+      }
+    },
+    {
+      "section": "Flight Diversion",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "When diverting to an alternate destination in flight, what is a practical method for approximating the new course without taking the time to fully plot it on a sectional chart?",
+      "correct_answer": "Base the approximation on a radial from a nearby VOR or an airway that closely parallels the course.",
+      "distractors": [
+        "Base the approximation on the reciprocal of the radial currently intersecting the aircraft's position.",
+        "Base the approximation on the latitude and longitude lines printed on the sectional chart.",
+        "Base the approximation on doubling the current wind correction angle to find the new magnetic heading."
+      ],
+      "explanation": "According to the PHAK Chapter 16, because an alternate airport is usually not very far from the original course, actual plotting is seldom necessary. A pilot can measure a course with reasonable accuracy using a straightedge and the compass rose around a VOR, or simply approximate the course based on a radial from a nearby VOR or an airway that closely parallels the route to the alternate destination.",
+      "reference": {
+        "page": "16-34",
+        "text": "If a pilot becomes lost, there\nare some good common sense procedures to follow. If a town          When in flight, it is rarely practical to actually plot a course\nor city cannot be seen, the first thing to do is climb, being       on a sectional chart and mark checkpoints and distances.\nmindful of traffic and weather conditions. An increase in           Furthermore, because an alternate airport is usually not very far\naltitude increases radio and navigation reception range and         from your original course, actual plotting is seldom necessary.\nalso increases radar coverage. If flying near a town or city, it\nmay be possible to read the name of the town on a water tower.      The course to an alternate destination can be measured\n                                                                    accurately with a protractor or plotter but can also be\nIf the aircraft has a navigational radio, such as a VOR or ADF      measured with reasonable accuracy using a straightedge\nreceiver, it can be possible to determine position by plotting      and the compass rose depicted around VOR stations. This\nan azimuth from two or more navigational facilities. If GPS         approximation can be made on the basis of a radial from a\nis installed, or a pilot has a portable aviation GPS on board,      nearby VOR or an airway that closely parallels the course\nit can be used to determine the position and the location of        to your alternate destination."
+      }
+    },
+    {
+      "section": "How To Prevent Landing Errors Due to",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "According to the PHAK, which combination of activities represents proper pre-flight navigation planning for a cross-country flight?",
+      "correct_answer": "Plotting the course, selecting checkpoints, measuring distances, obtaining pertinent weather information, and computing flight time, headings, and fuel requirements",
+      "distractors": [
+        "Plotting the course, selecting checkpoints, and obtaining weather and heading information from ATC while en route",
+        "Measuring distances, selecting checkpoints, and computing headings and fuel requirements using GPS once established on course",
+        "Selecting checkpoints, measuring distances, and requesting flight time and fuel calculations from Flight Service"
+      ],
+      "explanation": "The PHAK states that pre-flight navigation planning includes plotting the course on an aeronautical chart, selecting checkpoints, measuring distances, obtaining pertinent weather information, and computing flight time, headings, and fuel requirements. The distractors are incorrect because they either defer planning steps to be done in flight or rely on external sources (ATC, Flight Service) for information that the pilot must obtain or compute during pre-flight planning.",
+      "reference": {
+        "page": "16-1",
+        "text": "Air navigation is the process of piloting an aircraft from\none geographic position to another while monitoring one’s\nposition as the flight progresses. It introduces the need for\nplanning, which includes plotting the course on an aeronautical\nchart, selecting checkpoints, measuring distances, obtaining\npertinent weather information, and computing flight time,\nheadings, and fuel requirements. The methods used in this\nchapter include pilotage—navigating by reference to visible\nlandmarks, dead reckoning—computations of direction and\ndistance from a known position, and radio navigation—by\nuse of radio aids. 16-1"
+      }
+    },
+    {
+      "section": "World Aeronautical Charts",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "Most Sectional Charts and VFR Terminal Area Charts are revised semiannually. Under what condition are these specific charts revised on an annual basis instead?",
+      "correct_answer": "When they cover some areas outside the conterminous United States",
+      "distractors": [
+        "When the chart is primarily used for navigation in Class B airspace",
+        "When the chart covers areas with high-density mountainous terrain",
+        "When the chart is designated as a World Aeronautical Chart"
+      ],
+      "explanation": "According to the Pilot's Handbook of Aeronautical Knowledge (PHAK) Chapter 16, Sectional and VFR Terminal Area Charts are revised semiannually, except for some areas outside the conterminous United States where they are revised annually. Class B airspace usage does not change the revision cycle, and World Aeronautical Charts are a separate type of chart entirely.",
+      "reference": {
+        "page": "16-2",
+        "text": "Aeronautical Charts                                               The charts provide an abundance of information, including\n                                                                  airport data, navigational aids, airspace, and topography.\nAn aeronautical chart is the road map for a pilot flying under\n                                                                  Figure 16-1 is an excerpt from the legend of a sectional\nVFR. The chart provides information that allows pilots to track\n                                                                  chart. By referring to the chart legend, a pilot can interpret\ntheir position and provides available information that enhances\n                                                                  most of the information on the chart. A pilot should also\nsafety. The three aeronautical charts used by VFR pilots are:\n                                                                  check the chart for other legend information, which includes\n  •    Sectional                                                  air traffic control (ATC) frequencies and information on\n  •    VFR Terminal Area                                          airspace. These charts are revised semiannually except for\n                                                                  some areas outside the conterminous United States where\n                                                                  they are revised annually.\nA free catalog listing aeronautical charts and related\npublications including prices and instructions for ordering is\n                                                                  VFR terminal area charts are helpful when flying in or near\navailable at the Aeronautical Navigation Products website:\n                                                                  Class B airspace."
+      }
+    }
+  ]
+}

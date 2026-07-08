@@ -3,201 +3,357 @@
   "chapter": 12,
   "questions": [
     {
-      "section": "Atmosphere",
-      "difficulty": 1,
+      "section": "0 °C",
+      "difficulty": 3,
       "categories": [
         "written_exam",
+        "checkride_oral"
+      ],
+      "question": "Under identical conditions, an aircraft's takeoff ground roll is 745 feet at sea level. What takeoff ground roll should a pilot expect at 8,000 feet pressure altitude, and what does this change demonstrate about the effect of altitude on takeoff performance?",
+      "correct_answer": "Approximately 1,590 feet — the ground roll more than doubles, showing that takeoff distance increases at a greater rate than pressure altitude",
+      "distractors": [
+        "Approximately 1,490 feet — the ground roll roughly doubles, showing takeoff distance increases proportionally with pressure altitude",
+        "Approximately 930 feet — the ground roll increases about 25%, showing altitude has only a modest effect on takeoff performance",
+        "Approximately 1,185 feet — the ground roll increases about 60%, showing a linear relationship between altitude and takeoff distance"
+      ],
+      "explanation": "According to the PHAK Chapter 12 performance table, the takeoff ground roll increases from 745 feet at sea level to 1,590 feet at 8,000 feet pressure altitude — more than doubling. This demonstrates that takeoff distance does not increase linearly with pressure altitude; the thinner air at higher altitudes reduces both engine power output and propeller efficiency while also requiring a higher true airspeed to achieve the same indicated airspeed for liftoff, causing the ground roll to increase at a greater rate than the altitude gain. A pilot who assumes a simple proportional or linear relationship would significantly underestimate the required runway length at high-altitude airports.",
+      "reference": {
+        "page": "12-6",
+        "text": "S.L.       745            1,320\n                                                                                                  1,000       815            1,445\n                                                                                                  2,000       895            1,585\n                                                                                                  3,000       980            1,740\n         745 feet                                                                                 4,000     1,075            1,920\n                                                                                                  5,000     1,185            2,125\n                                                                                                  6,000     1,305            2,360\n                                                                                                  7,000     1,440            2,635\n                                                                                                  8,000     1,590            2,960\n       Pressure Altitude: 8,000 feet 1,590 feet 12-6"
+      }
+    },
+    {
+      "section": "0 °C",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "A pilot is planning a departure from a high-altitude airport at 8,000 feet pressure altitude under standard conditions. Compared to an identical takeoff at sea level, how would the total takeoff distance to clear a 50-foot obstacle change, and what does this reveal about the effect of pressure altitude on takeoff performance?",
+      "correct_answer": "It would more than double, increasing from approximately 1,320 feet to 2,960 feet, demonstrating that takeoff performance degrades nonlinearly with increasing pressure altitude",
+      "distractors": [
+        "It would increase by approximately 50%, requiring about 1,980 feet, showing that takeoff distance scales roughly proportionally with pressure altitude",
+        "It would roughly double, requiring about 2,640 feet, indicating that takeoff distance increases at a steady linear rate with altitude",
+        "It would increase by approximately 75%, requiring about 2,310 feet, showing that performance degradation accelerates only above 5,000 feet"
+      ],
+      "explanation": "According to PHAK Chapter 12, the total takeoff distance over a 50-foot obstacle increases from 1,320 feet at sea level to 2,960 feet at 8,000 feet pressure altitude — an increase of approximately 124%, meaning the distance more than doubles. This demonstrates that the degradation in takeoff performance with increasing pressure altitude is significant and nonlinear, as the thinner air reduces both engine power output and wing lift. Pilots must account for this substantial performance loss when operating from high-elevation airports, as assuming a linear or modest increase could lead to dangerously underestimating the required runway length.",
+      "reference": {
+        "page": "12-6",
+        "text": "S.L.       745            1,320\n                                                                                                  1,000       815            1,445\n                                                                                                  2,000       895            1,585\n                                                                                                  3,000       980            1,740\n         745 feet                                                                                 4,000     1,075            1,920\n                                                                                                  5,000     1,185            2,125\n                                                                                                  6,000     1,305            2,360\n                                                                                                  7,000     1,440            2,635\n                                                                                                  8,000     1,590            2,960\n       Pressure Altitude: 8,000 feet 1,590 feet 12-6"
+      }
+    },
+    {
+      "section": "WI N",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "When flying an approach in mountainous terrain, what condition can cause an aircraft to unexpectedly 'drop in' and become too low to clear obstacles?",
+      "correct_answer": "Turbulent air and downdrafts on the leeward side of the terrain",
+      "distractors": [
+        "Smooth upward currents on the windward side of the mountain",
+        "Reduced air density at high elevation decreasing available lift",
+        "A temperature inversion creating calm air near the surface"
+      ],
+      "explanation": "According to PHAK Chapter 12, wind flowing down the leeward side of a mountain follows the terrain contour and becomes increasingly turbulent, creating severe downdrafts. These turbulent downdrafts can cause an aircraft to 'drop in' during approach, making it too low to clear obstacles. In contrast, the windward side produces upward currents that actually help carry an aircraft over the peak. The stronger the wind, the greater the downward pressure and turbulence on the leeward side.",
+      "reference": {
+        "page": "12-10",
+        "text": "may “drop in” due to the turbulent air and be too low to clear   a similar manner. As the air flows down the leeward side of\nobstacles during the approach.                                   the mountain, the air follows the contour of the terrain and\n                                                                 is increasingly turbulent. This tends to push an aircraft into\nThis same condition is even more noticeable when flying in       the side of a mountain. The stronger the wind, the greater the\nmountainous regions. [Figure 12-16] While the wind flows         downward pressure and turbulence become.\nsmoothly up the windward side of the mountain and the\nupward currents help to carry an aircraft over the peak of       Due to the effect terrain has on the wind in valleys or canyons,\nthe mountain, the wind on the leeward side does not act in       downdrafts can be severe. Before conducting a flight in or 12-10"
+      }
+    },
+    {
+      "section": "WIND",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "A pilot inadvertently departs into a microburst. What sequence of changing wind conditions is the aircraft likely to encounter as it passes through the microburst?",
+      "correct_answer": "A performance-increasing headwind, then performance-decreasing downdrafts, then a rapidly increasing tailwind",
+      "distractors": [
+        "A performance-decreasing tailwind, then performance-decreasing downdrafts, then a rapidly increasing headwind",
+        "A performance-increasing updraft, then performance-decreasing headwind, then a rapidly increasing tailwind",
+        "Performance-decreasing downdrafts, then a performance-increasing headwind, then a rapidly increasing tailwind"
+      ],
+      "explanation": "According to PHAK Chapter 12, during an inadvertent takeoff into a microburst, the aircraft first encounters a performance-increasing headwind (which may mislead the pilot into thinking conditions are favorable), followed by performance-decreasing downdrafts, and finally a rapidly increasing tailwind. Each phase degrades performance further, and the overall sequence can result in terrain impact or flight dangerously close to the ground. Distractor 1 reverses the headwind/tailwind order. Distractor 2 substitutes an updraft for the initial headwind and misplaces the headwind as a decreasing factor. Distractor 3 swaps the order of the first two phases, placing downdrafts before the headwind.",
+      "reference": {
+        "page": "12-11",
+        "text": "near mountainous terrain, it is helpful for a pilot unfamiliar        and headwind losses of 30–90 knots, seriously degrading\nwith a mountainous area to get a checkout with a mountain             performance. It can also produce strong turbulence and\nqualified flight instructor.                                          hazardous wind direction changes. Consider Figure 12-17:\n                                                                      During an inadvertent takeoff into a microburst, the plane\nLow-Level Wind Shear                                                  may first experience a performance-increasing headwind\nWind shear is a sudden, drastic change in wind speed and/or           (1), followed by performance-decreasing downdrafts (2),\ndirection over a very small area. Wind shear can subject an           followed by a rapidly increasing tailwind (3). This can result\naircraft to violent updrafts and downdrafts, as well as abrupt        in terrain impact or flight dangerously close to the ground (4).\nchanges to the horizontal movement of the aircraft. While             An encounter during approach involves the same sequence\nwind shear can occur at any altitude, low-level wind shear is         of wind changes and could force the plane to the ground\nespecially hazardous due to the proximity of an aircraft to the       short of the runway.\nground. Low-level wind shear is commonly associated with\npassing frontal systems, thunderstorms, temperature inversions,       The FAA has made a substantial investment in microburst\nand strong upper level winds (greater than 25 knots).                 accident prevention. The totally redesigned LLWAS-NE, the\n                                                                      TDWR, and the ASR-9 WSP are skillful microburst alerting\nWind shear is dangerous to an aircraft. It can rapidly change         systems installed at major airports. These three systems were\nthe performance of the aircraft and disrupt the normal flight         extensively evaluated over a 3-year period."
+      }
+    },
+    {
+      "section": "WIND",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "During an approach, an aircraft inadvertently encounters a microburst and experiences a performance-increasing headwind, followed by downdrafts, and then a rapidly increasing tailwind. If the pilot does not compensate appropriately, what is the likely outcome?",
+      "correct_answer": "The aircraft could be forced to the ground short of the runway",
+      "distractors": [
+        "The aircraft will be forced above the glidepath and risk a long landing",
+        "The aircraft will experience a reversed sequence of wind changes compared to a takeoff microburst encounter",
+        "The aircraft will encounter only downdrafts without any headwind or tailwind component changes"
+      ],
+      "explanation": "According to PHAK Chapter 12, a microburst encounter during approach involves the same sequence of wind changes as during takeoff: first a performance-increasing headwind, then performance-decreasing downdrafts, followed by a rapidly increasing tailwind. This sequence could force the plane to the ground short of the runway. Distractor A is incorrect because the tailwind component degrades performance and reduces lift, pushing the aircraft below glidepath, not above it. Distractor B is incorrect because the handbook explicitly states the sequence is the same during approach as during takeoff. Distractor C is incorrect because the microburst involves all three wind change phases, not just downdrafts.",
+      "reference": {
+        "page": "12-11",
+        "text": "near mountainous terrain, it is helpful for a pilot unfamiliar        and headwind losses of 30–90 knots, seriously degrading\nwith a mountainous area to get a checkout with a mountain             performance. It can also produce strong turbulence and\nqualified flight instructor.                                          hazardous wind direction changes. Consider Figure 12-17:\n                                                                      During an inadvertent takeoff into a microburst, the plane\nLow-Level Wind Shear                                                  may first experience a performance-increasing headwind\nWind shear is a sudden, drastic change in wind speed and/or           (1), followed by performance-decreasing downdrafts (2),\ndirection over a very small area. Wind shear can subject an           followed by a rapidly increasing tailwind (3). This can result\naircraft to violent updrafts and downdrafts, as well as abrupt        in terrain impact or flight dangerously close to the ground (4).\nchanges to the horizontal movement of the aircraft. While             An encounter during approach involves the same sequence\nwind shear can occur at any altitude, low-level wind shear is         of wind changes and could force the plane to the ground\nespecially hazardous due to the proximity of an aircraft to the       short of the runway.\nground. Low-level wind shear is commonly associated with\npassing frontal systems, thunderstorms, temperature inversions,       The FAA has made a substantial investment in microburst\nand strong upper level winds (greater than 25 knots).                 accident prevention. The totally redesigned LLWAS-NE, the\n                                                                      TDWR, and the ASR-9 WSP are skillful microburst alerting\nWind shear is dangerous to an aircraft. It can rapidly change         systems installed at major airports. These three systems were\nthe performance of the aircraft and disrupt the normal flight         extensively evaluated over a 3-year period."
+      }
+    },
+    {
+      "section": "Relative Humidity",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "Why is moist air generally less stable than dry air?",
+      "correct_answer": "Moist air cools at a slower rate, so it must rise higher before its temperature cools to that of the surrounding air.",
+      "distractors": [
+        "Water vapor is heavier than dry air, causing moist air to sink and create turbulence.",
+        "Moist air cools at a faster rate, causing rapid temperature inversions and instability.",
+        "Water vapor increases air density, forcing moist air to rise violently to equalize pressure."
+      ],
+      "explanation": "According to the PHAK Chapter 12, since moist air cools at a slower rate (moist adiabatic lapse rate of 1.1 °C to 2.8 °C per 1,000 feet) compared to dry air (3 °C per 1,000 feet), the moist air must rise higher before its temperature cools to that of the surrounding air. This delayed cooling means moist air tends to continue rising longer, making it generally less stable than dry air. Distractor B is incorrect because it reverses the cooling rates. Distractor C is incorrect because water vapor is actually lighter than air, decreasing density. Distractor D is incorrect for the same density reason and misattributes the cause to pressure equalization.",
+      "reference": {
+        "page": "12-13",
+        "text": "The adiabatic process takes place in all upward and                Moisture and Temperature\ndownward moving air. When air rises into an area of lower          The atmosphere, by nature, contains moisture in the form\npressure, it expands to a larger volume. As the molecules          of water vapor. The amount of moisture present in the\nof air expand, the temperature of the air lowers. As a result,     atmosphere is dependent upon the temperature of the air.\nwhen a parcel of air rises, pressure decreases, volume             Every 20 °F increase in temperature doubles the amount of\nincreases, and temperature decreases. When air descends,           moisture the air can hold. Conversely, a decrease of 20 °F\nthe opposite is true. The rate at which temperature decreases      cuts the capacity in half.\nwith an increase in altitude is referred to as its lapse rate.\nAs air ascends through the atmosphere, the average rate of         Water is present in the atmosphere in three states: liquid,\ntemperature change is 2 °C (3.5 °F) per 1,000 feet.                solid, and gaseous. All three forms can readily change to\n                                                                   another, and all are present within the temperature ranges of\nSince water vapor is lighter than air, moisture decreases air      the atmosphere. As water changes from one state to another,\ndensity, causing it to rise. Conversely, as moisture decreases,    an exchange of heat takes place. These changes occur through\nair becomes denser and tends to sink. Since moist air cools        the processes of evaporation, sublimation, condensation,\nat a slower rate, it is generally less stable than dry air since   deposition, melting, or freezing. However, water vapor\nthe moist air must rise higher before its temperature cools        is added into the atmosphere only by the processes of\nto that of the surrounding air. The dry adiabatic lapse rate       evaporation and sublimation.\n(unsaturated air) is 3 °C (5.4 °F) per 1,000 feet. The moist\nadiabatic lapse rate varies from 1.1 °C to 2.8 °C (2 °F to         Evaporation is the changing of liquid water to water vapor.\n5 °F) per 1,000 feet.                                              As water vapor forms, it absorbs heat from the nearest\n                                                                   available source. This heat exchange is known as the latent\nThe combination of moisture and temperature determine the          heat of evaporation. A good example is the evaporation of\nstability of the air and the resulting weather. Cool, dry air      human perspiration. The net effect is a cooling sensation\nis very stable and resists vertical movement, which leads to       as heat is extracted from the body. Similarly, sublimation\ngood and generally clear weather. The greatest instability         is the changing of ice directly to water vapor, completely\noccurs when the air is moist and warm, as it is in the tropical    bypassing the liquid stage."
+      }
+    },
+    {
+      "section": "85 °F – 71 °F = 14 °F",
+      "difficulty": 3,
+      "categories": [
+        "written_exam"
+      ],
+      "question": "To find the approximate height of a cloud base, a pilot divides the temperature-dew point spread by the convergence rate of 4.4 °F and multiplies by 1,000. How is this 4.4 °F convergence rate derived?",
+      "correct_answer": "It is the difference between the unsaturated air cooling rate (5.4 °F) and the dew point decrease rate (1.0 °F) per 1,000 feet.",
+      "distractors": [
+        "It is the sum of the unsaturated air cooling rate (5.4 °F) and the dew point decrease rate (1.0 °F) per 1,000 feet.",
+        "It is the standard atmospheric lapse rate of 3.5 °F per 1,000 feet adjusted for standard humidity.",
+        "It is the rate at which saturated air cools as it rises and condenses per 1,000 feet."
+      ],
+      "explanation": "According to the PHAK, when lifted, unsaturated air cools at a rate of 5.4 °F per 1,000 feet, while the dew point temperature decreases at a rate of 1 °F per 1,000 feet. The difference between these two rates (5.4 - 1.0) results in a convergence of temperature and dew point at a rate of 4.4 °F per 1,000 feet. Dividing the temperature-dew point spread by this convergence rate and multiplying by 1,000 provides the approximate height of the cloud base.",
+      "reference": {
+        "page": "12-14",
+        "text": "As moist, unstable air rises, clouds often form at the altitude       Explanation:\nwhere temperature and dew point reach the same value. When            With an outside air temperature (OAT) of 85 °F at the surface\nlifted, unsaturated air cools at a rate of 5.4 °F per 1,000 feet      and dew point at the surface of 71 °F, the spread is 14°. Divide\nand the dew point temperature decreases at a rate of 1 °F per         the temperature dew point spread by the convergence rate of\n1,000 feet. This results in a convergence of temperature and          4.4 °F, and multiply by 1,000 to determine the approximate\ndew point at a rate of 4.4 °F. Apply the convergence rate             height of the cloud base.\nto the reported temperature and dew point to determine the\nheight of the cloud base.                                             Methods by Which Air Reaches the Saturation Point\n                                                                      If air reaches the saturation point while temperature and\nGiven:                                                                dew point are close together, it is highly likely that fog, low\n  Temperature (T) = 85 °F                                             clouds, and precipitation will form. There are four methods\n                                                                      by which air can reach the saturation point. First, when warm\n  Dew point (DP) = 71 °F\n                                                                      air moves over a cold surface, the air temperature drops and\n  Convergence Rate (CR) = 4.4°                                        reaches the saturation point."
+      }
+    },
+    {
+      "section": "85 °F – 71 °F = 14 °F",
+      "difficulty": 3,
+      "categories": [
+        "written_exam"
+      ],
+      "question": "A pilot is preparing for an early morning departure under clear skies with calm winds—conditions typically associated with radiation fog. However, the surface temperature is –30 °F. If fog forms under these conditions, how does its formation differ from typical radiation fog?",
+      "correct_answer": "Water vapor sublimates directly into ice crystals rather than condensing into water droplets",
+      "distractors": [
+        "Water vapor condenses into supercooled water droplets that remain liquid below freezing",
+        "Warm surface water evaporates and rises, resembling smoke over bodies of water",
+        "Moist air is lifted along an advancing cold front, cooling adiabatically to saturation"
+      ],
+      "explanation": "According to PHAK Chapter 12, ice fog occurs in cold weather when the temperature is much below freezing and water vapor forms directly into ice crystals. The conditions favorable for ice fog formation are the same as for radiation fog (clear skies, calm winds, cooling to the dew point) except for the very cold temperature, usually –25 °F or colder. The key distinction is that water vapor transitions directly into ice crystals (sublimation/deposition) rather than condensing into liquid water droplets as occurs with radiation fog. The second distractor describes supercooled water droplets, not ice crystals. The third distractor describes steam fog formation over warm water. The fourth distractor describes frontal fog.",
+      "reference": {
+        "page": "12-15",
+        "text": "An         warm water. As the water evaporates, it rises and resembles\naircraft must be thoroughly cleaned and free of frost prior          smoke. This type of fog is common over bodies of water\nto beginning a flight.                                               during the coldest times of the year. Low-level turbulence\n                                                                     and icing are commonly associated with steam fog.\nFog\nFog is a cloud that is on the surface. It typically occurs when      Ice fog occurs in cold weather when the temperature is\nthe temperature of air near the ground is cooled to the air’s        much below freezing and water vapor forms directly into ice\ndew point. At this point, water vapor in the air condenses and       crystals. Conditions favorable for its formation are the same\nbecomes visible in the form of fog. Fog is classified according      as for radiation fog except for cold temperature, usually –25\nto the manner in which it forms and is dependent upon the            °F or colder. It occurs mostly in the arctic regions but is not\ncurrent temperature and the amount of water vapor in the air.        unknown in middle latitudes during the cold season."
+      }
+    },
+    {
+      "section": "Flight Toward an Approaching Warm Front",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "While preparing for a cross-country flight, you note that the wind is from the south-southeast, the outside temperature is cool with an increasing dew point, and the barometric pressure has been steadily falling. What weather phenomenon is most likely approaching your area?",
+      "correct_answer": "An approaching warm front",
+      "distractors": [
+        "An approaching cold front",
+        "A high pressure system building in",
+        "A stationary front dissipating"
+      ],
+      "explanation": "According to PHAK Chapter 12, the classic signs of an approaching warm front include wind from the south-southeast, cool or cold outside temperature with an increasing dew point, and steadily falling barometric pressure. A cold front typically features shifting, gusty winds and different temperature/dew point trends. A building high pressure system would show rising barometric pressure, not falling. A dissipating stationary front would not produce the consistent pressure fall and dew point increase characteristic of an advancing warm front.",
+      "reference": {
+        "page": "12-19",
+        "text": "Louis, Missouri, toward Pittsburgh, Pennsylvania during\nvisibility. The wind blows from the south-southeast, and the                                                  a flight from Pittsburgh to St. Louis.\noutside temperature is cool or cold with an increasing dew\npoint. Finally, as the warm front approaches, the barometric                                                  At the time of departure from Pittsburgh, the weather is good\npressure continues to fall until the front passes completely.                                                 VFR with a scattered layer of cirrus clouds at 15,000 feet.\n                                                                                                              As the flight progresses westward to Columbus and closer\nDuring the passage of a warm front, stratiform clouds are                                                     to the oncoming warm front, the clouds deepen and become\nvisible and drizzle may be falling. The visibility is generally                                               increasingly stratiform in appearance with a ceiling of 6,000\npoor, but improves with variable winds. The temperature rises                                                 feet. The visibility decreases to six miles in haze with a falling MA\n           WAR"
+      }
+    },
+    {
+      "section": "Comparison of Cold and Warm Fronts",
+      "difficulty": 3,
+      "categories": [
+        "checkride_oral",
         "general_knowledge"
       ],
-      "question": "In the standard atmosphere, what is the average temperature lapse rate in the troposphere?",
-      "correct_answer": "2°C per 1,000 feet",
+      "question": "A VFR pilot is planning a cross-country flight and notices an approaching cold front with a line of thunderstorms along its leading edge. According to the Pilot's Handbook of Aeronautical Knowledge, what is the best course of action?",
+      "correct_answer": "Remain on the ground until the cold front has passed.",
       "distractors": [
-        "3.5°C per 1,000 feet",
-        "1°C per 1,000 feet",
-        "2°F per 1,000 feet"
+        "Fly below the line of thunderstorms to maintain visual meteorological conditions (VMC).",
+        "Climb to an altitude above the cumulonimbus clouds to avoid the weather.",
+        "Fly through the gaps between the thunderstorm cells to cross the front."
       ],
-      "explanation": "The standard lapse rate is approximately 2°C (3.5°F) per 1,000 feet of altitude gain in the troposphere.",
-      "reference": {
-        "page": "12-2",
-        "text": "In the first layer, known as the troposphere, extends from 6 to 20 kilometers (km) (4 to 12 miles) over the northern and southern poles and up to 48,000 feet (14.5 km) over the equatorial regions. The vast majority of weather, clouds, storms, and temperature variances occur within this first layer of the atmosphere. Inside the troposphere, the average temperature decreases at a rate of about 2 °Celsius (C) every 1,000 feet of altitude gain, and the pressure decreases at a rate of about one inch per 1,000 feet of altitude gain."
-      }
-    },
-    {
-      "section": "Wind",
-      "difficulty": 2,
-      "categories": [
-        "written_exam",
-        "checkride_oral"
-      ],
-      "question": "What causes wind?",
-      "correct_answer": "Differences in atmospheric pressure (pressure gradient force)",
-      "distractors": [
-        "Rotation of the earth only",
-        "Heating of the earth's surface only",
-        "Convective currents in the stratosphere"
-      ],
-      "explanation": "Wind is caused by pressure differences in the atmosphere. Air flows from high pressure to low pressure. The Coriolis effect, friction, and other forces then modify wind direction and speed.",
-      "reference": {
-        "page": "12-7",
-        "text": "Air flows from areas of high pressure into areas of low pressure because air always seeks out lower pressure."
-      }
-    },
-    {
-      "section": "Coriolis Effect",
-      "difficulty": 2,
-      "categories": [
-        "written_exam"
-      ],
-      "question": "In the Northern Hemisphere, how does the Coriolis effect influence wind direction?",
-      "correct_answer": "It deflects wind to the right of its path",
-      "distractors": [
-        "It deflects wind to the left of its path",
-        "It has no effect on wind direction",
-        "It causes wind to blow directly from high to low pressure"
-      ],
-      "explanation": "In the Northern Hemisphere, the Coriolis effect (due to Earth's rotation) deflects moving air to the right. In the Southern Hemisphere, it deflects to the left.",
-      "reference": {
-        "page": "12-4",
-        "text": "The Coriolis force deflects air to the right in the Northern Hemisphere, causing it to follow a curved path instead of a straight line."
-      }
-    },
-    {
-      "section": "Fronts",
-      "difficulty": 2,
-      "categories": [
-        "written_exam",
-        "checkride_oral"
-      ],
-      "question": "What type of weather is typically associated with a warm front?",
-      "correct_answer": "Widespread low clouds, steady precipitation, and poor visibility over a large area",
-      "distractors": [
-        "Severe thunderstorms and hail along a narrow band",
-        "Clear skies and unlimited visibility",
-        "Isolated rain showers with rapid clearing"
-      ],
-      "explanation": "Warm fronts feature warm air riding up over cooler air, producing stratiform clouds, steady precipitation, and reduced visibility over a wide area ahead of the front.",
-      "reference": {
-        "page": "12-18",
-        "text": "Warm Front\nWidespread low clouds, steady precipitation, and poor visibility often occur ahead of a warm front. The warm air rides up over the cooler air, producing stratiform clouds and steady precipitation. The precipitation is usually light to moderate and may continue for many hours. The weather associated with a warm front is generally more gradual and prolonged than that of a cold front."
-      }
-    },
-    {
-      "section": "Fronts",
-      "difficulty": 2,
-      "categories": [
-        "written_exam",
-        "checkride_oral"
-      ],
-      "question": "What type of weather is typically associated with a fast-moving cold front?",
-      "correct_answer": "A narrow band of thunderstorms, turbulence, and gusty winds",
-      "distractors": [
-        "Widespread fog and drizzle",
-        "Gradual clearing with light winds",
-        "Steady light rain over a broad area"
-      ],
-      "explanation": "A fast-moving cold front forces warm air up rapidly, creating cumulonimbus clouds, thunderstorms, heavy rain, turbulence, and gusty surface winds in a narrow band along the front.",
+      "explanation": "The PHAK states that a pilot using sound judgment based on the knowledge of frontal conditions will likely remain on the ground until the front has passed. It specifically warns against trying to fly below a line of thunderstorms associated with a cold front due to the severe hazards presented by cumulonimbus clouds, heavy rain, and potential hail or tornadoes.",
       "reference": {
         "page": "12-20",
-        "text": "Fast-Moving Cold Front .....................................12-20\n\nThe fast-moving cold front forces the warm air up rapidly, creating cumulonimbus clouds, thunderstorms, heavy rain, turbulence, and gusty surface winds in a narrow band along the front."
+        "text": "clouds at 3,500 feet. As the flight progresses westward to\n                                                                    Columbus and closer to the oncoming cold front, the clouds\nPrior to the passage of a typical cold front, cirriform or          show signs of vertical development with a broken layer at\ntowering cumulus clouds are present, and cumulonimbus               2,500 feet. The visibility is six miles in haze with a falling\nclouds may develop. Rain showers may also develop due               barometric pressure. Approaching Indianapolis, the weather\nto the rapid development of clouds. A high dew point and            has deteriorated to overcast clouds at 1,000 feet and three\nfalling barometric pressure are indicative of imminent cold         miles visibility with thunderstorms and heavy rain showers.\nfront passage.                                                      At St. Louis, the weather gets better with scattered clouds at\n                                                                    1,000 feet and a ten mile visibility.\nAs the cold front passes, towering cumulus or cumulonimbus\nclouds continue to dominate the sky. Depending on the               A pilot using sound judgment based on the knowledge of\nintensity of the cold front, heavy rain showers form and may        frontal conditions will likely remain in Indianapolis until the\nbe accompanied by lightning, thunder, and/or hail. More             front has passed. Trying to fly below a line of thunderstorms\nsevere cold fronts can also produce tornadoes."
       }
     },
     {
-      "section": "Thunderstorms",
-      "difficulty": 2,
+      "section": "SCT035             24/22     A2989",
+      "difficulty": 3,
       "categories": [
         "written_exam",
         "checkride_oral"
       ],
-      "question": "What three conditions are necessary for a thunderstorm to form?",
-      "correct_answer": "Sufficient moisture, an unstable lapse rate, and a lifting action",
+      "question": "A pilot is planning a flight through a cold front occlusion where the air is relatively stable. What weather conditions should the pilot expect to encounter?",
+      "correct_answer": "A mixture of weather patterns typical of both warm and cold fronts",
       "distractors": [
-        "High pressure, dry air, and wind shear",
-        "Cold front passage, low humidity, and stable air",
-        "Mountain terrain, fog, and temperature inversion"
+        "Weather conditions primarily associated with a stationary front",
+        "Only cold front weather since the cold air mass is the dominant force",
+        "Predominantly warm front weather since the warm front is lifted aloft"
       ],
-      "explanation": "All thunderstorms require: (1) sufficient moisture to form clouds and rain, (2) an unstable atmosphere (steep lapse rate), and (3) a lifting force (fronts, orographic, convection, or convergence).",
+      "explanation": "According to PHAK Chapter 12, a cold front occlusion occurs when a fast-moving cold front is colder than the air ahead of a slow-moving warm front. The cold air replaces the cool air and forces the warm front aloft. When the air is relatively stable, this typically creates a mixture of weather found in both warm and cold fronts—not solely one type or the other. Pilots should be prepared for combined weather hazards from both frontal systems.",
       "reference": {
-        "page": "12-13",
-        "text": "The combination of moisture and temperature determine the stability of the air and the resulting weather. Cool, dry air is very stable and resists vertical movement, which leads to good and generally clear weather. The greatest instability occurs when the air is moist and warm, as it is in the tropical regions in the summer. Typically, thunderstorms appear on a daily basis in these regions due to the instability of the surrounding air."
+        "page": "12-21",
+        "text": "A cold front\nWind around a high-pressure system rotates clockwise, while                                            occlusion occurs when a fast moving cold front is colder\nlow-pressure winds rotate counter-clockwise. When two                                                  than the air ahead of the slow moving warm front. When\nhigh pressure systems are adjacent, the winds are almost in                                            this occurs, the cold air replaces the cool air and forces the\ndirect opposition to each other at the point of contact. Fronts                                        warm front aloft into the atmosphere. Typically, the cold\nare the boundaries between two areas of high pressure, and                                             front occlusion creates a mixture of weather found in both\ntherefore, wind shifts are continually occurring within a front.                                       warm and cold fronts, providing the air is relatively stable.\nShifting wind direction is most pronounced in conjunction                                              A warm front occlusion occurs when the air ahead of the\nwith cold fronts. 12-21"
       }
     },
     {
-      "section": "Fog",
+      "section": "SCT035             24/22     A2989",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "A pilot receives a weather briefing indicating a warm front occlusion is approaching, and the air being forced aloft is unstable. How should the pilot expect these conditions to compare to a typical cold front occlusion?",
+      "correct_answer": "More severe, with embedded thunderstorms, rain, and fog likely",
+      "distractors": [
+        "Less severe, because the warm front slopes over cooler air and suppresses convective activity",
+        "Similar in severity, since both occlusion types produce comparable weather when air is forced aloft",
+        "Less severe, because the cold front riding over the warm front stabilizes the air mass"
+      ],
+      "explanation": "According to PHAK Chapter 12, when a warm front occlusion occurs, the cold front rides up and over the warm front. If the air forced aloft by this process is unstable, the weather is more severe than that found in a cold front occlusion, with embedded thunderstorms, rain, and fog likely to occur. The instability of the lifted air is the key factor that makes this scenario more dangerous than a typical cold front occlusion.",
+      "reference": {
+        "page": "12-22",
+        "text": "warm front is colder than the air of the cold front. When this                                               and instability are present, the clouds continue to increase\nis the case, the cold front rides up and over the warm front. If                                             in vertical height. Continuous, strong updrafts prohibit\nthe air forced aloft by the warm front occlusion is unstable,                                                moisture from falling. Within approximately 15 minutes,\nthe weather is more severe than the weather found in a cold                                                  the thunderstorm reaches the mature stage, which is the most\nfront occlusion. Embedded thunderstorms, rain, and fog are                                                   violent time period of the thunderstorm’s life cycle. At this\nlikely to occur.                                                                                             point, drops of moisture, whether rain or ice, are too heavy\n                                                                                                             for the cloud to support and begin falling in the form of rain\nFigure 12-27 depicts a cross-section of a typical cold                                                       or hail. This creates a downward motion of the air. Warm,\nfront occlusion. The warm front slopes over the prevailing                                                   rising air; cool, precipitation-induced descending air; and\ncooler air and produces the warm front type weather. Prior                                                   violent turbulence all exist within and near the cloud. Below\nto the passage of the typical occluded front, cirriform and                                                  the cloud, the down-rushing air increases surface winds and\nstratiform clouds prevail, light to heavy precipitation falls,                                               decreases the temperature. Once the vertical motion near the\nvisibility is poor, dew point is steady, and barometric pressure                                             top of the cloud slows down, the top of the cloud spreads\ndrops."
+      }
+    },
+    {
+      "section": "Hail                                                             Engine Water Ingestion",
+      "difficulty": 3,
+      "categories": [
+        "written_exam"
+      ],
+      "question": "Under what condition can a thunderstorm produce water concentrations high enough to exceed a turbine engine's water ingestion limits, potentially causing flameout or structural failure?",
+      "correct_answer": "When the updraft velocity approaches or exceeds the terminal velocity of falling raindrops",
+      "distractors": [
+        "When the downdraft velocity exceeds the terminal velocity of falling hailstones",
+        "When the freezing level drops below the altitude of the storm core",
+        "When hailstones melt completely before reaching the surface"
+      ],
+      "explanation": "According to PHAK Chapter 12, if a thunderstorm's updraft velocity approaches or exceeds the terminal velocity of falling raindrops, very high concentrations of water can occur. These concentrations can exceed the quantity of water turbine engines are designed to ingest, potentially resulting in flameout and/or structural failure of one or more engines. The key relationship is between updraft speed and the terminal velocity of raindrops—not downdrafts, freezing level, or hail melt.",
+      "reference": {
+        "page": "12-25",
+        "text": "Hail competes with turbulence as the greatest thunderstorm       Turbine engines have a limit on the amount of water they\nhazard to aircraft. Supercooled drops above the freezing level   can ingest. Updrafts are present in many thunderstorms,\nbegin to freeze. Once a drop has frozen, other drops latch on    particularly those in the developing stages. If the updraft\nand freeze to it, so the hailstone grows—sometimes into a        velocity in the thunderstorm approaches or exceeds the\nhuge ice ball. Large hail occurs with severe thunderstorms       terminal velocity of the falling raindrops, very high\nwith strong updrafts that have built to great heights.           concentrations of water may occur. It is possible that these\nEventually, the hailstones fall, possibly some distance from     concentrations can be in excess of the quantity of water\nthe storm core. Hail may be encountered in clear air several     turbine engines are designed to ingest. Therefore, severe\nmiles from thunderstorm clouds.                                  thunderstorms may contain areas of high water concentration,\n                                                                 which could result in flameout and/or structural failure of\nAs hailstones fall through air whose temperature is above 0      one or more engines.\n°C, they begin to melt and precipitation may reach the ground\nas either hail or rain. Rain at the surface does not mean the    Chapter Summary\nabsence of hail aloft."
+      }
+    },
+    {
+      "section": "Effect on Altimeters",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "The pressure changes associated with a passing thunderstorm can occur in as little as 15 minutes. If a pilot does not obtain a corrected altimeter setting during this time, what is the potential error in the altimeter reading?",
+      "correct_answer": "More than 100 feet",
+      "distractors": [
+        "Less than 50 feet",
+        "Approximately 75 feet",
+        "Exactly 100 feet"
+      ],
+      "explanation": "According to the Pilot's Handbook of Aeronautical Knowledge (PHAK) Chapter 12, the rapid cycle of pressure changes during a thunderstorm can occur in 15 minutes. If the pilot does not receive a corrected altimeter setting during these pressure changes, the altimeter may be more than 100 feet in error.",
+      "reference": {
+        "page": "12-25",
+        "text": "Pressure usually falls rapidly with the approach of a\nthunderstorm, rises sharply with the onset of the first gust\nand arrival of the cold downdraft and heavy rain showers,\nand then falls back to normal as the storm moves on. This\ncycle of pressure change may occur in 15 minutes. If the pilot\ndoes not receive a corrected altimeter setting, the altimeter\nmay be more than 100 feet in error."
+      }
+    },
+    {
+      "section": "Weather Theory",
       "difficulty": 2,
       "categories": [
         "written_exam"
       ],
-      "question": "What type of fog forms when warm, moist air moves over a colder surface?",
-      "correct_answer": "Advection fog",
+      "question": "Nitrogen and oxygen account for 99 percent of the gases that comprise the atmosphere. What makes up the remaining one percent?",
+      "correct_answer": "Argon, carbon dioxide, and traces of other gases",
       "distractors": [
-        "Radiation fog",
-        "Upslope fog",
-        "Steam fog"
+        "Water vapor, ozone, and methane",
+        "Helium, hydrogen, and ozone",
+        "Carbon monoxide, sulfur dioxide, and radon"
       ],
-      "explanation": "Advection fog forms when warm, moist air moves horizontally over a colder surface, cooling the air to its dew point. It is common along coastlines and can persist throughout the day.",
+      "explanation": "According to the Pilot's Handbook of Aeronautical Knowledge (Chapter 12), nitrogen accounts for 78 percent of the atmosphere and oxygen makes up 21 percent. Argon, carbon dioxide, and traces of other gases make up the remaining one percent. It is important to note that water vapor is accounted for separately, varying from zero to about five percent by volume, and is not included in this remaining one percent.",
       "reference": {
-        "page": "12-15",
-        "text": "When a layer of warm, moist air moves over a cold surface, advection fog is likely to occur. Unlike radiation fog, wind is required to form advection fog. Winds of up to 15 knots allow the fog to form and intensify; above a speed of 15 knots, the fog usually lifts and forms low stratus clouds. Advection fog is common in coastal areas where sea breezes can blow the air over cooler landmasses."
+        "page": "12-2",
+        "text": "78% itrogen\nLife on Earth is supported by the atmosphere, solar energy,\nand the planet’s magnetic fields. The atmosphere absorbs\nenergy from the sun, recycles water and other chemicals, and\n                                                                                        N\nworks with the electrical and magnetic forces to provide a\nmoderate climate. The atmosphere also protects life on Earth\nfrom high energy radiation and the frigid vacuum of space.\nComposition of the Atmosphere\nIn any given volume of air, nitrogen accounts for 78 percent      atmosphere have been identified using thermal characteristics\nof the gases that comprise the atmosphere, while oxygen           (temperature changes), chemical composition, movement,\nmakes up 21 percent. Argon, carbon dioxide, and traces            and density. [Figure 12-2]\nof other gases make up the remaining one percent. This\nvolume of air also contains some water vapor, varying from        The first layer, known as the troposphere, extends from 6\nzero to about five percent by volume. This small amount of        to 20 kilometers (km) (4 to 12 miles) over the northern and\nwater vapor is responsible for major changes in the weather.      southern poles and up to 48,000 feet (14.5 km) over the\n[Figure 12-1]                                                     equatorial regions. The vast majority of weather, clouds,\n                                                                  storms, and temperature variances occur within this first\nThe envelope of gases surrounding the Earth changes               layer of the atmosphere. Inside the troposphere, the average\nfrom the ground up. Four distinct layers or spheres of the        temperature decreases at a rate of about 2 °Celsius (C) every"
       }
     },
     {
-      "section": "Stability",
+      "section": "Weather Theory",
+      "difficulty": 2,
+      "categories": [
+        "written_exam"
+      ],
+      "question": "Despite making up only a small fraction of the atmosphere by volume, water vapor has an outsized influence on weather. Approximately what maximum percentage by volume does water vapor represent in a given volume of air?",
+      "correct_answer": "About five percent",
+      "distractors": [
+        "About one percent, matching the combined total of argon, carbon dioxide, and trace gases",
+        "About 21 percent, equal to the proportion of oxygen in the atmosphere",
+        "About 10 percent, as water vapor must exceed trace gas levels to drive weather changes"
+      ],
+      "explanation": "According to the PHAK Chapter 12, the atmosphere is composed of 78 percent nitrogen, 21 percent oxygen, and about 1 percent argon, carbon dioxide, and other trace gases. Water vapor varies from zero to about five percent by volume. Despite this relatively small amount, the handbook emphasizes that water vapor is responsible for major changes in the weather, highlighting how even minor atmospheric components can have significant meteorological effects.",
+      "reference": {
+        "page": "12-2",
+        "text": "78% itrogen\nLife on Earth is supported by the atmosphere, solar energy,\nand the planet’s magnetic fields. The atmosphere absorbs\nenergy from the sun, recycles water and other chemicals, and\n                                                                                        N\nworks with the electrical and magnetic forces to provide a\nmoderate climate. The atmosphere also protects life on Earth\nfrom high energy radiation and the frigid vacuum of space.\nComposition of the Atmosphere\nIn any given volume of air, nitrogen accounts for 78 percent      atmosphere have been identified using thermal characteristics\nof the gases that comprise the atmosphere, while oxygen           (temperature changes), chemical composition, movement,\nmakes up 21 percent. Argon, carbon dioxide, and traces            and density. [Figure 12-2]\nof other gases make up the remaining one percent. This\nvolume of air also contains some water vapor, varying from        The first layer, known as the troposphere, extends from 6\nzero to about five percent by volume. This small amount of        to 20 kilometers (km) (4 to 12 miles) over the northern and\nwater vapor is responsible for major changes in the weather.      southern poles and up to 48,000 feet (14.5 km) over the\n[Figure 12-1]                                                     equatorial regions. The vast majority of weather, clouds,\n                                                                  storms, and temperature variances occur within this first\nThe envelope of gases surrounding the Earth changes               layer of the atmosphere. Inside the troposphere, the average\nfrom the ground up. Four distinct layers or spheres of the        temperature decreases at a rate of about 2 °Celsius (C) every"
+      }
+    },
+    {
+      "section": "Weather Theory",
       "difficulty": 2,
       "categories": [
         "written_exam",
         "checkride_oral"
       ],
-      "question": "What kind of clouds and weather are associated with unstable air?",
-      "correct_answer": "Cumulus clouds, turbulence, good visibility outside of precipitation, and showery precipitation",
+      "question": "Despite making up only 0 to 5 percent of the atmosphere by volume, which gas is responsible for major changes in the weather?",
+      "correct_answer": "Water vapor",
       "distractors": [
-        "Stratus clouds, smooth air, poor visibility, and steady precipitation",
-        "No clouds, calm air, and excellent visibility",
-        "Only high cirrus clouds with light turbulence"
+        "Nitrogen, because it is the most abundant gas at 78 percent",
+        "Oxygen, because it is the second most abundant gas at 21 percent",
+        "Carbon dioxide, because it is a trace gas with significant heat-trapping properties"
       ],
-      "explanation": "Unstable air promotes vertical development: cumulus/cumulonimbus clouds, turbulence, showery precipitation, and generally good visibility between showers.",
+      "explanation": "According to PHAK Chapter 12, nitrogen accounts for 78 percent of the atmosphere and oxygen makes up 21 percent, yet it is the small amount of water vapor (varying from zero to about five percent by volume) that is responsible for major changes in the weather. This tests the understanding that the most abundant gases are not necessarily the most significant drivers of weather phenomena.",
       "reference": {
-        "page": "12-13",
-        "text": "The combination of moisture and temperature determine the stability of the air and the resulting weather. Cool, dry air is very stable and resists vertical movement, which leads to good and generally clear weather. The greatest instability occurs when the air is moist and warm, as it is in the tropical regions in the summer. Typically, thunderstorms appear on a daily basis in these regions due to the instability of the surrounding air."
+        "page": "12-2",
+        "text": "78% itrogen\nLife on Earth is supported by the atmosphere, solar energy,\nand the planet’s magnetic fields. The atmosphere absorbs\nenergy from the sun, recycles water and other chemicals, and\n                                                                                        N\nworks with the electrical and magnetic forces to provide a\nmoderate climate. The atmosphere also protects life on Earth\nfrom high energy radiation and the frigid vacuum of space.\nComposition of the Atmosphere\nIn any given volume of air, nitrogen accounts for 78 percent      atmosphere have been identified using thermal characteristics\nof the gases that comprise the atmosphere, while oxygen           (temperature changes), chemical composition, movement,\nmakes up 21 percent. Argon, carbon dioxide, and traces            and density. [Figure 12-2]\nof other gases make up the remaining one percent. This\nvolume of air also contains some water vapor, varying from        The first layer, known as the troposphere, extends from 6\nzero to about five percent by volume. This small amount of        to 20 kilometers (km) (4 to 12 miles) over the northern and\nwater vapor is responsible for major changes in the weather.      southern poles and up to 48,000 feet (14.5 km) over the\n[Figure 12-1]                                                     equatorial regions. The vast majority of weather, clouds,\n                                                                  storms, and temperature variances occur within this first\nThe envelope of gases surrounding the Earth changes               layer of the atmosphere. Inside the troposphere, the average\nfrom the ground up. Four distinct layers or spheres of the        temperature decreases at a rate of about 2 °Celsius (C) every"
       }
     },
     {
-      "section": "Temperature Inversion",
+      "section": "Weather Theory",
       "difficulty": 2,
       "categories": [
-        "written_exam",
-        "checkride_oral"
+        "written_exam"
       ],
-      "question": "What weather conditions are typically associated with a temperature inversion near the surface?",
-      "correct_answer": "Smooth air, poor visibility, fog or haze, and stable conditions",
+      "question": "When scientists identify the four distinct layers or spheres of the atmosphere, which set of characteristics do they use to differentiate one layer from another?",
+      "correct_answer": "Thermal characteristics, chemical composition, movement, and density",
       "distractors": [
-        "Turbulence, good visibility, and cumulonimbus clouds",
-        "Thunderstorms and wind shear",
-        "Clear skies and gusty winds"
+        "Temperature, pressure, humidity, and wind direction",
+        "Altitude, pressure, visibility, and cloud coverage",
+        "Temperature, moisture content, pressure, and wind speed"
       ],
-      "explanation": "A surface-based temperature inversion traps moisture, pollutants, and haze near the ground, resulting in smooth air, poor visibility, fog, and very stable conditions.",
+      "explanation": "According to the PHAK Chapter 12, the atmosphere is divided into four distinct layers or spheres identified by thermal characteristics (temperature changes), chemical composition, movement, and density. The distractors are incorrect because they substitute weather-related variables (such as humidity, visibility, wind direction, or cloud coverage) that are not the criteria used to define the atmospheric layers. While some distractors include temperature or pressure, the complete and correct set of identifying characteristics is thermal characteristics, chemical composition, movement, and density.",
       "reference": {
-        "page": "12-13",
-        "text": "Surface-based temperature inversions occur on clear, cool nights when the air close to the ground is cooled by the lowering temperature of the ground. The air within a few hundred feet of the surface becomes cooler than the air above it. Frontal inversions occur when warm air spreads over a layer of cooler air, or cooler air is forced under a layer of warmer air. The air at the top of the layer acts as a lid, keeping weather and pollutants trapped below. If the relative humidity of the air is high, it can contribute to the formation of clouds, fog, haze, or smoke resulting in diminished visibility in the inversion layer."
-      }
-    },
-    {
-      "section": "Icing",
-      "difficulty": 2,
-      "categories": [
-        "written_exam",
-        "checkride_oral"
-      ],
-      "question": "What is the most hazardous type of structural icing?",
-      "correct_answer": "Clear ice",
-      "distractors": [
-        "Rime ice",
-        "Mixed ice",
-        "Frost"
-      ],
-      "explanation": "Clear ice (or glaze ice) forms from large supercooled water droplets that spread before freezing. It is hard, heavy, tenacious, and difficult to remove, significantly altering the airfoil shape.",
-      "reference": {
-        "page": "12-15",
-        "text": "Fog is a cloud that is on the surface. It typically occurs when the temperature of air near the ground is cooled to the air’s dew point. At this point, water vapor in the air condenses and becomes visible in the form of fog. Fog is classified according to the manner in which it forms and is dependent upon the current temperature and the amount of water vapor in the air."
+        "page": "12-2",
+        "text": "78% itrogen\nLife on Earth is supported by the atmosphere, solar energy,\nand the planet’s magnetic fields. The atmosphere absorbs\nenergy from the sun, recycles water and other chemicals, and\n                                                                                        N\nworks with the electrical and magnetic forces to provide a\nmoderate climate. The atmosphere also protects life on Earth\nfrom high energy radiation and the frigid vacuum of space.\nComposition of the Atmosphere\nIn any given volume of air, nitrogen accounts for 78 percent      atmosphere have been identified using thermal characteristics\nof the gases that comprise the atmosphere, while oxygen           (temperature changes), chemical composition, movement,\nmakes up 21 percent. Argon, carbon dioxide, and traces            and density. [Figure 12-2]\nof other gases make up the remaining one percent. This\nvolume of air also contains some water vapor, varying from        The first layer, known as the troposphere, extends from 6\nzero to about five percent by volume. This small amount of        to 20 kilometers (km) (4 to 12 miles) over the northern and\nwater vapor is responsible for major changes in the weather.      southern poles and up to 48,000 feet (14.5 km) over the\n[Figure 12-1]                                                     equatorial regions. The vast majority of weather, clouds,\n                                                                  storms, and temperature variances occur within this first\nThe envelope of gases surrounding the Earth changes               layer of the atmosphere. Inside the troposphere, the average\nfrom the ground up. Four distinct layers or spheres of the        temperature decreases at a rate of about 2 °Celsius (C) every"
       }
     }
   ]
