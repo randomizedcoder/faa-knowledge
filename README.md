@@ -11,7 +11,7 @@ A Private Pilot License study tool — interactive CLI quiz backed by a SQLite d
 ```bash
 nix develop          # enter dev shell with go, sqlite, curl
 nix build            # build the binary
-./result/bin/quiz --init     # create DB + import all 106 bundled questions
+./result/bin/quiz --init     # create DB + import all 635 bundled questions
 ./result/bin/quiz --count 5
 ```
 
@@ -19,9 +19,23 @@ nix build            # build the binary
 
 ```bash
 go build -o quiz ./cmd/quiz
-./quiz --init                # create DB + import all 106 bundled questions
+./quiz --init                # create DB + import all 635 bundled questions
 ./quiz --count 10
 ```
+
+### Run the app (web)
+
+Prefer a GUI? Launch the Flutter app in a browser:
+
+```bash
+nix develop .#flutter                 # Flutter + Android SDK + Chrome dev shell
+cd app
+flutter run -d chrome                 # opens the app in Chromium (hot reload)
+# headless/remote instead:
+flutter run -d web-server --web-port 8080 --web-hostname 0.0.0.0   # open http://localhost:8080
+```
+
+See [Mobile / Web App (Flutter)](#mobile--web-app-flutter) for Android/iOS and the emulator.
 
 Run the quiz:
 
@@ -162,8 +176,9 @@ Then import: `./quiz --import database/questions/your_file.json`
 ## Mobile / Web App (Flutter)
 
 `app/` is a Flutter quiz app that mirrors the CLI on **web, Android, and iOS**, with a deliberately
-simple, high-contrast, low-vision-friendly UI (large text, big buttons, light/dark toggle). It bundles
-all 635 questions offline (`app/assets/questions.json`, regenerate with `make app-assets`).
+simple, high-contrast, low-vision-friendly UI (large text in a bundled serif face, big buttons,
+light/dark toggle). It bundles all 635 questions offline (`app/assets/questions.json`, regenerate with
+`make app-assets`).
 
 Features: **Quick Start** (50 random, fresh each time); **3 saved sessions** that let you pick chapters
 to focus on and remember exactly where you left off so you can resume later; per-question immediate
@@ -173,10 +188,23 @@ and shows the score `x/y (%)` against the 70% FAA pass line.
 ```bash
 nix develop .#flutter        # Flutter + Android SDK + Chrome dev shell
 cd app
-flutter run -d chrome        # run on the web
+flutter run -d chrome        # run on the web (hot reload)
+# or headless/remote:
+flutter run -d web-server --web-port 8080 --web-hostname 0.0.0.0   # open http://localhost:8080
 flutter build apk            # Android APK  (build web: flutter build web)
 flutter analyze && flutter test
 ```
+
+### Android emulator
+
+```bash
+nix run .#emulator           # boot an Android emulator (Pixel, API 34, x86_64)
+# then in the Flutter dev shell:
+cd app && flutter run        # runs the app on the booted emulator
+```
+
+The emulator pulls a ~1 GB system image on first run and needs **KVM** (`/dev/kvm`) plus a graphical
+display to boot; on a headless box use the web target instead.
 
 iOS is code-supported (the `ios/` project is scaffolded) but must be built on macOS with Xcode; the
 Nix dev shell covers web + Android on Linux.
