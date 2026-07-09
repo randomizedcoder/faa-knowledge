@@ -192,6 +192,49 @@
             poppler-utils
           ];
         };
+
+        # Flutter + Android toolchain for the quiz app (app/). Web + Android
+        # build here; iOS needs macOS + Xcode. Enter with: nix develop .#flutter
+        devShells.flutter =
+          let
+            # Android SDK is unfree and needs its license accepted, so import a
+            # separately-configured nixpkgs just for it.
+            pkgsAndroid = import nixpkgs {
+              inherit system;
+              config = {
+                allowUnfree = true;
+                android_sdk.accept_license = true;
+              };
+            };
+            androidComposition = pkgsAndroid.androidenv.composeAndroidPackages {
+              platformVersions = [ "36" ]; # Flutter 3.41 compileSdk/targetSdk = 36
+              buildToolsVersions = [ "35.0.0" ];
+              includeEmulator = false;
+              includeNDK = true; # Flutter's Gradle plugin forces NDK resolution
+              ndkVersions = [ "28.2.13676358" ]; # matches app/android/app/build.gradle.kts
+              cmakeVersions = [ "3.22.1" ]; # NDK presence triggers a CMake config step
+            };
+            androidSdk = androidComposition.androidsdk;
+            sdkRoot = "${androidSdk}/libexec/android-sdk";
+          in
+          pkgs.mkShell {
+            buildInputs = [
+              pkgs.flutter
+              pkgs.jdk17
+              pkgs.android-tools
+              pkgs.chromium
+              androidSdk
+            ];
+            ANDROID_SDK_ROOT = sdkRoot;
+            ANDROID_HOME = sdkRoot;
+            ANDROID_NDK_ROOT = "${sdkRoot}/ndk/28.2.13676358";
+            JAVA_HOME = "${pkgs.jdk17}";
+            CHROME_EXECUTABLE = "${pkgs.chromium}/bin/chromium";
+            GRADLE_OPTS = "-Dorg.gradle.project.android.aapt2FromMavenOverride=${sdkRoot}/build-tools/35.0.0/aapt2";
+            shellHook = ''
+              export PATH="$PATH:${sdkRoot}/platform-tools"
+            '';
+          };
       }
     );
 }
