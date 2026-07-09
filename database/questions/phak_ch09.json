@@ -3,358 +3,363 @@
   "chapter": 9,
   "questions": [
     {
-      "section": "FAA Form 8100-2 (04-11) Supersedes Previous Edition",
-      "difficulty": 3,
+      "section": "Airplane Flight Manuals (AFM)",
+      "difficulty": 2,
       "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "What distinguishes an Aircraft Owner/Information Manual from an FAA-approved AFM/POH?",
+      "correct_answer": "The owner/information manual is not FAA-approved, is not specific to an individual aircraft, and cannot be substituted for the AFM/POH",
+      "distractors": [
+        "The owner/information manual is FAA-approved but lacks weight and balance data for the specific aircraft",
+        "The owner/information manual is specific to an individual aircraft by serial number but is not kept current by the manufacturer",
+        "The owner/information manual contains the same information as the AFM/POH but is only valid for the first 90 days after aircraft purchase"
+      ],
+      "explanation": "The chapter states that the aircraft owner/information manual is developed by the manufacturer, is not approved by the FAA, is not specific to an individual aircraft, is not kept current, and cannot be substituted for the AFM/POH.",
+      "reference": {
+        "page": "9-2",
+        "text": "The manual is not approved by the Federal Aviation Administration (FAA) and is not specific to an individual aircraft...is not kept current, and cannot be substituted for the AFM/POH."
+      }
+    },
+    {
+      "section": "Airplane Flight Manuals (AFM)",
+      "difficulty": 1,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "If a flight manual does not indicate a specific aircraft registration and serial number on the title page, how may that manual be used?",
+      "correct_answer": "It is limited to general study purposes only",
+      "distractors": [
+        "It may be used for flight operations for up to 90 days until a proper manual is obtained",
+        "It may be used for flight operations as long as the pilot carries a separate weight and balance document",
+        "It may be used for VFR flight only, since IFR operations require the original manual"
+      ],
+      "explanation": "The chapter explicitly states that manufacturers are required to include the serial number and registration on the title page to identify the aircraft to which the manual belongs, and if a manual does not indicate a specific aircraft registration and serial number, it is limited to general study purposes only.",
+      "reference": {
+        "page": "9-2",
+        "text": "If a manual does not indicate a specific aircraft registration and serial number, it is limited to general study purposes only."
+      }
+    },
+    {
+      "section": "Limitations (Section 2)",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "On a multi-engine airplane's airspeed indicator, what does a blue radial line indicate?",
+      "correct_answer": "Single-engine best rate of climb speed at maximum weight at sea level (VYSE)",
+      "distractors": [
+        "Single-engine minimum controllable airspeed (VMC)",
+        "Maximum structural cruising speed (VNO)",
+        "Maximum flap extended speed (VFE)"
+      ],
+      "explanation": "The chapter states that small multi-engine airplanes have a red radial line to indicate VMC and a blue radial line to indicate VYSE, the single-engine best rate of climb speed at maximum weight at sea level.",
+      "reference": {
+        "page": "9-3",
+        "text": "A blue radial line is used to indicate single-engine best rate of climb speed at maximum weight at sea level (VYSE)."
+      }
+    },
+    {
+      "section": "Limitations (Section 2)",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
         "general_knowledge"
       ],
-      "question": "A pilot is reviewing the paperwork on a Piper Cub that is currently flown under Light-Sport Aircraft (LSA) operating limitations. The pilot is surprised to find it holds a Standard Airworthiness Certificate rather than the pink Special Airworthiness Certificate typically issued for LSAs. What best explains this?",
-      "correct_answer": "The aircraft was certificated as a normal aircraft during its original manufacture, and its certificate type reflects that original certification.",
+      "question": "What airspeed is represented by the lower end of the green arc on an airspeed indicator?",
+      "correct_answer": "Stalling speed at maximum weight with the landing gear and flaps retracted (VS1)",
       "distractors": [
-        "Any vintage aircraft that now meets LSA performance specifications is automatically reissued a Standard Airworthiness Certificate by the FAA.",
-        "The owner applied for and received a FAA waiver allowing the aircraft to operate under LSA limitations while retaining a Standard certificate.",
-        "All aircraft manufactured before the LSA rule was established in 2004 retain Standard certificates regardless of their current operating category."
+        "Stalling speed with the landing gear and flaps in the landing configuration (VS0)",
+        "Maximum structural cruising speed (VNO)",
+        "The airspeed limit beyond which structural damage could occur (VNE)"
       ],
-      "explanation": "According to the Pilot's Handbook of Aeronautical Knowledge (Chapter 9), LSA aircraft typically receive a pink Special Airworthiness Certificate; however, there are exceptions. The Piper Cub is specifically cited as an example: it falls in the LSA category but was certificated as a normal aircraft during manufacture, so it holds a Standard Airworthiness Certificate. The key principle is that the certificate type is determined by how the aircraft was originally certificated, not by the category under which it is currently operated. Distractor 1 is incorrect because there is no automatic reissue process. Distractor 2 is incorrect because no waiver process exists for this purpose. Distractor 3 is incorrect because the manufacturing date alone does not determine certificate type—many older aircraft hold Special certificates depending on their original certification.",
+      "explanation": "The chapter states that a green arc depicts the normal operating speed range, with the upper end at VNO and the lower end at stalling speed at maximum weight with the landing gear and flaps retracted (VS1).",
       "reference": {
-        "page": "9-8",
-        "text": "6.   Terms and Conditions. Indicates the Airworthiness          Under 14 CFR, part 91, subpart E, all civil aircraft are\n       Certificate is in effect indefinitely if the aircraft is   required to be inspected at specific intervals to determine\n       maintained in accordance with 14 CFR parts 21, 43, and     the overall condition. The interval depends upon the type\n       91, and the aircraft is registered in the United States.   of operations in which the aircraft is engaged. All aircraft\n                                                                  need to be inspected at least once every 12 calendar months,\nAlso included are the date the certificate was issued and the     while inspection is required for others after every 100 hours\nsignature and office identification of the FAA representative.    of operation. Some aircraft are inspected in accordance with\n                                                                  an inspection system set up to provide for total inspection\nA Standard Airworthiness Certificate remains in effect            of the aircraft on the basis of calendar time, time in service,\nif the aircraft receives the required maintenance and is          number of system operations, or any combination of these.\nproperly registered in the United States. Flight safety relies\nin part on the condition of the aircraft, which is determined     All inspections should follow the current manufacturer’s\nby inspections performed by mechanics, approved repair            maintenance manual, including the Instructions for\nstations, or manufacturers that meet specific requirements        Continued Airworthiness concerning inspection intervals,\nof 14 CFR part 43.                                                parts replacement, and life-limited items as applicable to\n                                                                  the aircraft.\nA Special Airworthiness Certificate is issued for all aircraft\ncertificated in other than the Standard classifications, such     Annual Inspection\nas Experimental, Restricted, Limited, Provisional, and            Any reciprocating engine or single-engine turbojet/\nLight-Sport Aircraft (LSA). LSA receive a pink special            turbopropeller-powered small aircraft (weighing 12,500\nairworthiness certificate; however, there are exceptions.         pounds or less) flown for business or pleasure and not\nFor example, the Piper Cub is in the LSA category, but it         flown for compensation or hire is required to be inspected\nwas certificated as a normal aircraft during its manufacture.     at least annually. The inspection shall be performed by a\nWhen purchasing an aircraft classified as other than Standard,    certificated airframe and powerplant (A\u0026P) mechanic who\nit is recommended that the local FSDO be contacted for an         holds an inspection authorization (IA) by the manufacturer\nexplanation of the pertinent airworthiness requirements and       of the aircraft or by a certificated and appropriately rated\nthe limitations of such a certificate.                            repair station."
+        "page": "9-2",
+        "text": "A green arc depicts the normal operating speed range, with the upper end at VN0 and the lower end at stalling speed at maximum weight with the landing gear and flaps retracted (VS1)."
       }
     },
     {
-      "section": "FAA Form 8100-2 (04-11) Supersedes Previous Edition",
-      "difficulty": 3,
+      "section": "Limitations (Section 2)",
+      "difficulty": 2,
       "categories": [
         "written_exam",
-        "checkride_oral"
+        "general_knowledge"
       ],
-      "question": "An aircraft is overdue for an annual inspection and needs to be flown to another airport for maintenance under a Special Flight Permit. What must be accomplished before operating the aircraft for this flight?",
-      "correct_answer": "All applicable Airworthiness Directives (ADs) that are due must be complied with.",
+      "question": "What does the white arc on an airplane's airspeed indicator depict?",
+      "correct_answer": "The flap operating range, from VS0 at the lower end to VFE at the upper end",
       "distractors": [
-        "All applicable ADs that are due must be scheduled for completion at the destination airport.",
-        "The aircraft must undergo a modified 100-hour inspection to verify basic flight safety.",
-        "An FAA-certificated mechanic must accompany the flight to monitor aircraft systems."
+        "The caution speed range for smooth air only, from VNO to VNE",
+        "The normal operating range, from VS1 to VNO",
+        "The single-engine operating range, from VMC to VYSE"
       ],
-      "explanation": "According to the Pilot's Handbook of Aeronautical Knowledge (Chapter 9), an aircraft overdue for an annual inspection may be operated under a Special Flight Permit issued by the FAA to fly to a location where the annual inspection can be performed. However, all applicable ADs that are due must be complied with before the flight.",
+      "explanation": "The chapter states that for airplanes, the flap operating range is depicted by the white arc, with the upper end at the maximum flap extended speed (VFE) and the lower end at the stalling speed in the landing configuration (VS0).",
       "reference": {
-        "page": "9-8",
-        "text": "The aircraft may not be operated unless the\n                                                                  annual inspection has been performed within the preceding\nAircraft Maintenance                                              12 calendar months. A period of 12 calendar months extends\nMaintenance is defined as the preservation, inspection,           from any day of a month to the last day of the same month the\noverhaul, and repair of an aircraft, including the replacement    following year. An aircraft overdue for an annual inspection\nof parts. Regular and proper maintenance ensures that             may be operated under a Special Flight Permit issued by\nan aircraft meets an acceptable standard of airworthiness         the FAA for the purpose of flying the aircraft to a location\nthroughout its operational life.                                  where the annual inspection can be performed. However, all\n                                                                  applicable ADs that are due must be complied with before\nAlthough maintenance requirements vary for different              the flight.\ntypes of aircraft, experience shows that aircraft need some\ntype of preventive maintenance every 25 hours of flying           100-Hour Inspection\ntime or less and minor maintenance at least every 100             All aircraft under 12,500 pounds (except turbojet/\nhours. This is influenced by the kind of operation, climatic      turbopropeller-powered multi-engine airplanes and turbine\nconditions, storage facilities, age, and construction of the      powered rotorcraft), used to carry passengers for hire, must\naircraft."
+        "page": "9-2",
+        "text": "For airplanes, the flap operating range is depicted by the white arc, with the upper end at the maximum flap extended speed (VFE), and the lower end at the stalling speed with the landing gear and flaps in the landing configuration (VS0)."
       }
     },
     {
-      "section": "Examples of Preventive Maintenance",
-      "difficulty": 3,
-      "categories": [
-        "written_exam",
-        "checkride_oral"
-      ],
-      "question": "A pilot discovers an inoperative tachometer during preflight. The aircraft operates under an approved Minimum Equipment List (MEL), but the tachometer is not listed as a deferrable item. What action is required?",
-      "correct_answer": "Repairs must be performed prior to departure.",
-      "distractors": [
-        "Placard the tachometer \"INOPERATIVE\" and defer the repair under 14 CFR 91.213(d).",
-        "Deactivate the tachometer and limit the flight to daytime VFR conditions only.",
-        "Obtain a Letter of Authorization (LOA) from the FAA to defer the maintenance."
-      ],
-      "explanation": "According to the PHAK, there are exceptions to the use of the MEL for deferral. If a component fails that is not listed in the MEL as deferrable (such as the tachometer, flaps, or stall warning device), repairs are required to be performed prior to departure. If maintenance or parts are not readily available, a special flight permit can be obtained from the nearest FSDO to fly the aircraft to another location for maintenance.",
-      "reference": {
-        "page": "9-10",
-        "text": "maintenance (removal always will), it must be accomplished      confirming that daytime flight with inoperative position\nby certificated maintenance personnel and recorded in           lights is acceptable in accordance with the provisions of the\naccordance with 14 CFR part 43.                                 MEL, the pilot would leave the position lights switch OFF,\n                                                                open the circuit breaker (or whatever action is called for in\nFor example, if the position lights (installed equipment)       the procedures document), and placard the position light\nwere discovered to be inoperative prior to a daytime flight,    switch as INOPERATIVE.\nthe pilot would follow the requirements of 14 CFR, part 91,\nsection 91.213(d).                                              There are exceptions to the use of the MEL for deferral. For\n                                                                example, should a component fail that is not listed in the MEL\nThe deactivation may be a process as simple as the pilot        as deferrable (the tachometer, flaps, or stall warning device,\npositioning a circuit breaker to the OFF position or as         for example), then repairs are required to be performed prior\ncomplex as rendering instruments or equipment totally           to departure. If maintenance or parts are not readily available\ninoperable. Complex maintenance tasks require a certificated    at that location, a special flight permit can be obtained from\nand appropriately rated maintenance person to perform the       the nearest FSDO. This permit allows the aircraft to be\ndeactivation. In all cases, the item or equipment must be       flown to another location for maintenance. This allows an\nplacarded INOPERATIVE.                                          aircraft that may not currently meet applicable airworthiness\n                                                                requirements, but is capable of safe flight, to be operated\nAll small rotorcraft, non-turbine powered airplanes, gliders,   under the restrictive special terms and conditions attached\nor lighter-than-air aircraft operated under 14 CFR part 91      to the special flight permit.\nare eligible to use the maintenance deferral provisions of 14\nCFR, part 91, section 91.213(d). However, once an operator      Deferral of maintenance is not to be taken lightly, and due\nrequests an MEL, and a Letter of Authorization (LOA)            consideration should be given to the effect an inoperative\nis issued by the FAA, then the use of the MEL becomes           component may have on the operation of an aircraft,\nmandatory for that aircraft. All maintenance deferrals must     particularly if other items are inoperative. Further information\nbe accomplished in accordance with the terms and conditions     regarding MELs and operations with inoperative equipment\nof the MEL and the operator-generated procedures document."
-      }
-    },
-    {
-      "section": "Examples of Preventive Maintenance",
-      "difficulty": 3,
+      "section": "Emergency Procedures (Section 3)",
+      "difficulty": 2,
       "categories": [
         "checkride_oral",
         "general_knowledge"
       ],
-      "question": "A pilot is preparing to defer maintenance on a newly discovered inoperative component under 14 CFR 91.213(d). Upon review, the pilot notices that two other items on the aircraft are already placarded INOPERATIVE. According to the PHAK, what should be the pilot's primary consideration in this situation?",
-      "correct_answer": "The cumulative effect that multiple inoperative components may have on the operation of the aircraft",
+      "question": "What is the recommended procedure regarding immediate action items during an emergency situation?",
+      "correct_answer": "Memorize the immediate action items, complete them, and then refer to the appropriate checklist",
       "distractors": [
-        "Whether the combined repair cost of all inoperative items would be reduced by performing the work simultaneously",
-        "Whether the aircraft's total time in service justifies deferring additional maintenance at this point",
-        "Whether the pilot has sufficient recent flight experience to compensate for each inoperative item individually"
+        "Always locate and read the entire checklist before taking any action",
+        "Memorize and perform only the abbreviated checklist items; the amplified checklist is for post-flight review",
+        "Rely solely on the amplified checklist since it contains more detailed information than the abbreviated version"
       ],
-      "explanation": "The PHAK states that 'deferral of maintenance is not to be taken lightly, and due consideration should be given to the effect an inoperative component may have on the operation of an aircraft, particularly if other items are inoperative.' This emphasizes the importance of evaluating the combined or cumulative impact of multiple inoperative items on aircraft operation, rather than evaluating each item in isolation. The concern is operational safety, not cost, aircraft age, or pilot experience.",
+      "explanation": "The chapter states that manufacturers may first show an emergency checklist in abbreviated form reflecting the sequence of action, followed by amplified checklists. To be prepared for emergency situations, pilots should memorize the immediate action items and, after completion, refer to the appropriate checklist.",
       "reference": {
-        "page": "9-10",
-        "text": "maintenance (removal always will), it must be accomplished      confirming that daytime flight with inoperative position\nby certificated maintenance personnel and recorded in           lights is acceptable in accordance with the provisions of the\naccordance with 14 CFR part 43.                                 MEL, the pilot would leave the position lights switch OFF,\n                                                                open the circuit breaker (or whatever action is called for in\nFor example, if the position lights (installed equipment)       the procedures document), and placard the position light\nwere discovered to be inoperative prior to a daytime flight,    switch as INOPERATIVE.\nthe pilot would follow the requirements of 14 CFR, part 91,\nsection 91.213(d).                                              There are exceptions to the use of the MEL for deferral. For\n                                                                example, should a component fail that is not listed in the MEL\nThe deactivation may be a process as simple as the pilot        as deferrable (the tachometer, flaps, or stall warning device,\npositioning a circuit breaker to the OFF position or as         for example), then repairs are required to be performed prior\ncomplex as rendering instruments or equipment totally           to departure. If maintenance or parts are not readily available\ninoperable. Complex maintenance tasks require a certificated    at that location, a special flight permit can be obtained from\nand appropriately rated maintenance person to perform the       the nearest FSDO. This permit allows the aircraft to be\ndeactivation. In all cases, the item or equipment must be       flown to another location for maintenance. This allows an\nplacarded INOPERATIVE.                                          aircraft that may not currently meet applicable airworthiness\n                                                                requirements, but is capable of safe flight, to be operated\nAll small rotorcraft, non-turbine powered airplanes, gliders,   under the restrictive special terms and conditions attached\nor lighter-than-air aircraft operated under 14 CFR part 91      to the special flight permit.\nare eligible to use the maintenance deferral provisions of 14\nCFR, part 91, section 91.213(d). However, once an operator      Deferral of maintenance is not to be taken lightly, and due\nrequests an MEL, and a Letter of Authorization (LOA)            consideration should be given to the effect an inoperative\nis issued by the FAA, then the use of the MEL becomes           component may have on the operation of an aircraft,\nmandatory for that aircraft. All maintenance deferrals must     particularly if other items are inoperative. Further information\nbe accomplished in accordance with the terms and conditions     regarding MELs and operations with inoperative equipment\nof the MEL and the operator-generated procedures document."
+        "page": "9-4",
+        "text": "To be prepared for emergency situations, memorize the immediate action items and, after completion, refer to the appropriate checklist."
       }
     },
     {
-      "section": "Examples of Preventive Maintenance",
-      "difficulty": 3,
+      "section": "Supplements (Section 9)",
+      "difficulty": 1,
       "categories": [
         "written_exam",
-        "checkride_oral"
-      ],
-      "question": "Prior to a daytime flight, a pilot discovers the position lights are inoperative. If the Minimum Equipment List (MEL) confirms daytime flight is acceptable with inoperative position lights, what action should the pilot take to defer this equipment?",
-      "correct_answer": "Leave the position lights switch OFF, open the circuit breaker, and placard the switch as INOPERATIVE.",
-      "distractors": [
-        "Leave the position lights switch ON, open the circuit breaker, and placard the switch as INOPERATIVE.",
-        "Turn the position lights switch OFF, leave the circuit breaker closed, and placard the switch as INOPERATIVE.",
-        "Turn the position lights switch OFF, open the circuit breaker, and record the deferral in the aircraft maintenance logbook."
-      ],
-      "explanation": "According to the Pilot's Handbook of Aeronautical Knowledge (PHAK), if position lights are found inoperative prior to a daytime flight and the MEL allows it, the pilot defers the equipment under 14 CFR 91.213(d). The deactivation process requires the pilot to leave the switch OFF, open the circuit breaker (or whatever action is called for in the procedures document), and placard the position light switch as INOPERATIVE. Simple pilot maintenance deferrals of this nature do not require a logbook entry under 14 CFR part 43.",
-      "reference": {
-        "page": "9-10",
-        "text": "maintenance (removal always will), it must be accomplished      confirming that daytime flight with inoperative position\nby certificated maintenance personnel and recorded in           lights is acceptable in accordance with the provisions of the\naccordance with 14 CFR part 43.                                 MEL, the pilot would leave the position lights switch OFF,\n                                                                open the circuit breaker (or whatever action is called for in\nFor example, if the position lights (installed equipment)       the procedures document), and placard the position light\nwere discovered to be inoperative prior to a daytime flight,    switch as INOPERATIVE.\nthe pilot would follow the requirements of 14 CFR, part 91,\nsection 91.213(d).                                              There are exceptions to the use of the MEL for deferral. For\n                                                                example, should a component fail that is not listed in the MEL\nThe deactivation may be a process as simple as the pilot        as deferrable (the tachometer, flaps, or stall warning device,\npositioning a circuit breaker to the OFF position or as         for example), then repairs are required to be performed prior\ncomplex as rendering instruments or equipment totally           to departure. If maintenance or parts are not readily available\ninoperable. Complex maintenance tasks require a certificated    at that location, a special flight permit can be obtained from\nand appropriately rated maintenance person to perform the       the nearest FSDO. This permit allows the aircraft to be\ndeactivation. In all cases, the item or equipment must be       flown to another location for maintenance. This allows an\nplacarded INOPERATIVE.                                          aircraft that may not currently meet applicable airworthiness\n                                                                requirements, but is capable of safe flight, to be operated\nAll small rotorcraft, non-turbine powered airplanes, gliders,   under the restrictive special terms and conditions attached\nor lighter-than-air aircraft operated under 14 CFR part 91      to the special flight permit.\nare eligible to use the maintenance deferral provisions of 14\nCFR, part 91, section 91.213(d). However, once an operator      Deferral of maintenance is not to be taken lightly, and due\nrequests an MEL, and a Letter of Authorization (LOA)            consideration should be given to the effect an inoperative\nis issued by the FAA, then the use of the MEL becomes           component may have on the operation of an aircraft,\nmandatory for that aircraft. All maintenance deferrals must     particularly if other items are inoperative. Further information\nbe accomplished in accordance with the terms and conditions     regarding MELs and operations with inoperative equipment\nof the MEL and the operator-generated procedures document."
-      }
-    },
-    {
-      "section": "Examples of Preventive Maintenance",
-      "difficulty": 3,
-      "categories": [
-        "written_exam",
-        "checkride_oral"
-      ],
-      "question": "During a preflight inspection for a daytime flight, a pilot discovers that the aircraft's position lights are inoperative. The aircraft operates under an approved Minimum Equipment List (MEL). What action should the pilot take regarding this inoperative equipment?",
-      "correct_answer": "Make an entry in the maintenance record or discrepancy record, then either repair the item or defer it in accordance with the MEL",
-      "distractors": [
-        "Proceed with the flight without any documentation, since position lights are not required for daytime operations",
-        "Contact an A\u0026P mechanic to repair the position lights before the flight can be legally dispatched",
-        "Notify ATC prior to departure and obtain permission to operate without position lights during the daytime flight"
-      ],
-      "explanation": "According to the Pilot's Handbook of Aeronautical Knowledge (Chapter 9), when operating under an approved MEL and inoperative equipment is discovered, the pilot must make an entry in the maintenance record or discrepancy record provided for that purpose. The item would then either be repaired or deferred in accordance with the MEL. The FAA considers an approved MEL to be a supplemental type certificate (STC), giving the pilot authority to operate the aircraft in a condition other than originally type certificated, but proper documentation is still required. Simply flying without documentation is not permitted, and contacting ATC or a mechanic does not address the MEL deferral process.",
-      "reference": {
-        "page": "9-10",
-        "text": "A description of the work, such as “changed oil (Shell\noperator must be on board the aircraft during each operation.          Aero-50) at 2,345 hours”\nThe FAA considers an approved MEL to be a supplemental            2.   The date of completion of the work performed\ntype certificate (STC) issued to an aircraft by serial number\nand registration number. It, therefore, becomes the authority     3.   The pilot’s name, signature, certificate number, and\nto operate that aircraft in a condition other than originally          type of certificate held\ntype certificated.\nWith an approved MEL, if the position lights were discovered    The following examples of preventive maintenance are taken\ninoperative prior to a daytime flight, the pilot would make     from 14 CFR, part 43, Maintenance, Preventive Maintenance,\nan entry in the maintenance record or discrepancy record        Rebuilding, and Alternation, which should be consulted for a\nprovided for that purpose. The item would then either be        more in-depth look at the preventive maintenance a pilot can\nrepaired or deferred in accordance with the MEL. Upon           perform on an aircraft. Remember, preventive maintenance 9-10"
-      }
-    },
-    {
-      "section": "Examples of Preventive Maintenance",
-      "difficulty": 3,
-      "categories": [
-        "written_exam"
-      ],
-      "question": "A balloon pilot wants to perform a small fabric repair to the envelope and have it qualify as preventive maintenance. Which statement is correct regarding this repair?",
-      "correct_answer": "It qualifies as preventive maintenance if done in accordance with the manufacturer's instructions and does not require load tape repair or replacement.",
-      "distractors": [
-        "It qualifies as preventive maintenance only if the pilot also holds a mechanic certificate with an airframe rating.",
-        "It qualifies as preventive maintenance regardless of whether load tape repair is needed, as long as the manufacturer's instructions are followed.",
-        "It cannot qualify as preventive maintenance under any circumstances because all envelope fabric repairs require a certificated mechanic."
-      ],
-      "explanation": "According to PHAK Chapter 9, the making of small fabric repairs to balloon envelopes is listed as preventive maintenance when done in accordance with the balloon manufacturer's instructions and when the repair does not require load tape repair or replacement. A private pilot may perform preventive maintenance without holding a mechanic certificate. The load tape limitation is a key boundary—once load tape repair or replacement is involved, the work exceeds the scope of preventive maintenance. Distractor A is wrong because preventive maintenance may be performed by a certificated pilot. Distractor B is wrong because it ignores the load tape restriction. Distractor C is wrong because small envelope fabric repairs are explicitly listed as preventive maintenance.",
-      "reference": {
-        "page": "9-11",
-        "text": "is limited to work that does not involve complex assembly        •   Cleaning or replacing fuel and oil strainers or filter\noperations including the following:                                  elements; servicing batteries, cleaning balloon burner\n  •   Removal, installation, and repair of landing gear              pilot and main nozzles in accordance with the balloon\n      tires and shock cords; servicing landing gear shock            manufacturer’s instructions.\n      struts by adding oil, air, or both; servicing gear wheel   •   The interchange of balloon baskets and burners on\n      bearings; replacing defective safety wiring or cotter          envelopes when the basket or burner is designated as\n      keys; lubrication not requiring disassembly other than         interchangeable in the balloon type certificate data\n      removal of nonstructural items, such as cover plates,          and the baskets and burners are specifically designed\n      cowlings, and fairings; making simple fabric patches           for quick removal and installation; adjustment\n      not requiring rib stitching or the removal of structural       of nonstructural standard fasteners incidental to\n      parts or control surfaces. In the case of balloons,            operations.\n      the making of small fabric repairs to envelopes            •   The installations of anti-misfueling devices to reduce\n      (as defined in, and in accordance with, the balloon            the diameter of fuel tank filler openings only if the\n      manufacturer’s instructions) not requiring load tape           specific device has been made a part of the aircraft type\n      repair or replacement.                                         certificate data by the aircraft manufacturer, the aircraft\n  •   Replenishing hydraulic fluid in the hydraulic                  manufacturer has provided FAA-approved instructions\n      reservoir; refinishing decorative coating of fuselage,         for installation of the specific device, and installation\n      balloon baskets, wings, tail group surfaces (excluding         does not involve the disassembly of the existing tank\n      balanced control surfaces), fairings, cowlings,                filler opening; troubleshooting and repairing broken\n      landing gear, cabin, or flight deck interior when              circuits in landing light wiring circuits.\n      removal or disassembly of any primary structure            •   Removing and replacing self-contained, front\n      or operating system is not required; applying                  instrument panel-mounted navigation and\n      preservative or protective material to components              communication devices that employ tray-mounted\n      where no disassembly of any primary structure or               connectors which connect the unit when the unit\n      operating system is involved and where such coating            is installed into the instrument panel (excluding\n      is not prohibited or is not contrary to good practices;        automatic flight control systems, transponders, and\n      repairing upholstery and decorative furnishings of the         microwave frequency distance measuring equipment\n      cabin, flight deck, or balloon basket interior when the        (DME))."
-      }
-    },
-    {
-      "section": "Examples of Preventive Maintenance",
-      "difficulty": 3,
-      "categories": [
-        "written_exam"
-      ],
-      "question": "A private pilot wishes to install an anti-misfueling device on their aircraft to reduce the diameter of the fuel tank filler opening. Under what conditions may this be performed as preventive maintenance?",
-      "correct_answer": "Only if the device is part of the aircraft type certificate data, the manufacturer provides FAA-approved installation instructions, and installation does not involve disassembly of the existing tank filler opening.",
-      "distractors": [
-        "If the device is commercially available and the pilot follows the device manufacturer's generic installation instructions, provided no structural components are removed.",
-        "If a mechanic supervises the installation and the device does not require modification to any primary structure or operating system.",
-        "Whenever the device reduces the filler opening diameter and the pilot holds at least a private pilot certificate with a current flight review."
-      ],
-      "explanation": "Per PHAK Chapter 9, the installation of anti-misfueling devices qualifies as preventive maintenance only when all three conditions are met: the specific device must be part of the aircraft type certificate data, the aircraft manufacturer must provide FAA-approved instructions for installation, and the installation must not involve disassembly of the existing tank filler opening. Generic instructions from the device manufacturer, supervision by a mechanic, or pilot credentials alone do not satisfy these requirements.",
-      "reference": {
-        "page": "9-11",
-        "text": "is limited to work that does not involve complex assembly        •   Cleaning or replacing fuel and oil strainers or filter\noperations including the following:                                  elements; servicing batteries, cleaning balloon burner\n  •   Removal, installation, and repair of landing gear              pilot and main nozzles in accordance with the balloon\n      tires and shock cords; servicing landing gear shock            manufacturer’s instructions.\n      struts by adding oil, air, or both; servicing gear wheel   •   The interchange of balloon baskets and burners on\n      bearings; replacing defective safety wiring or cotter          envelopes when the basket or burner is designated as\n      keys; lubrication not requiring disassembly other than         interchangeable in the balloon type certificate data\n      removal of nonstructural items, such as cover plates,          and the baskets and burners are specifically designed\n      cowlings, and fairings; making simple fabric patches           for quick removal and installation; adjustment\n      not requiring rib stitching or the removal of structural       of nonstructural standard fasteners incidental to\n      parts or control surfaces. In the case of balloons,            operations.\n      the making of small fabric repairs to envelopes            •   The installations of anti-misfueling devices to reduce\n      (as defined in, and in accordance with, the balloon            the diameter of fuel tank filler openings only if the\n      manufacturer’s instructions) not requiring load tape           specific device has been made a part of the aircraft type\n      repair or replacement.                                         certificate data by the aircraft manufacturer, the aircraft\n  •   Replenishing hydraulic fluid in the hydraulic                  manufacturer has provided FAA-approved instructions\n      reservoir; refinishing decorative coating of fuselage,         for installation of the specific device, and installation\n      balloon baskets, wings, tail group surfaces (excluding         does not involve the disassembly of the existing tank\n      balanced control surfaces), fairings, cowlings,                filler opening; troubleshooting and repairing broken\n      landing gear, cabin, or flight deck interior when              circuits in landing light wiring circuits.\n      removal or disassembly of any primary structure            •   Removing and replacing self-contained, front\n      or operating system is not required; applying                  instrument panel-mounted navigation and\n      preservative or protective material to components              communication devices that employ tray-mounted\n      where no disassembly of any primary structure or               connectors which connect the unit when the unit\n      operating system is involved and where such coating            is installed into the instrument panel (excluding\n      is not prohibited or is not contrary to good practices;        automatic flight control systems, transponders, and\n      repairing upholstery and decorative furnishings of the         microwave frequency distance measuring equipment\n      cabin, flight deck, or balloon basket interior when the        (DME))."
-      }
-    },
-    {
-      "section": "Examples of Preventive Maintenance",
-      "difficulty": 3,
-      "categories": [
         "general_knowledge"
       ],
-      "question": "A private pilot holding a current airworthiness certificate plans to perform a modification on their aircraft in accordance with FAA Order 8130.2, Airworthiness Certification of Aircraft and Related Products. What additional step may be required as a result of this modification?",
-      "correct_answer": "Notification of the issuing authority",
+      "question": "What type of information is found in the Supplements section of an AFM/POH?",
+      "correct_answer": "Information necessary to operate the aircraft when equipped with optional systems and equipment not provided with the standard aircraft",
       "distractors": [
-        "Notification of the nearest Air Traffic Control facility",
-        "A new standard airworthiness certificate issued by an A\u0026P mechanic",
-        "Submission of a revised weight and balance report to the FAA Administrator",
-        "A logbook endorsement from an FAA-certificated repair station"
+        "Information about mandatory manufacturer recalls and service bulletins",
+        "Information about the standard aircraft systems such as electrical and fuel systems",
+        "Information about weight and balance computations for various loading configurations"
       ],
-      "explanation": "According to PHAK Chapter 9, modifications made in accordance with FAA Order 8130.2, Airworthiness Certification of Aircraft and Related Products, may require notification of the issuing authority. This means that even when a modification is performed under the provisions of this FAA Order, the pilot or owner may still need to formally notify the authority that issued the aircraft's airworthiness certificate. ATC facilities are not involved in airworthiness matters, an A\u0026P mechanic cannot issue an airworthiness certificate (only the FAA can), and while weight and balance may need updating, the specific requirement referenced in the handbook is notification of the issuing authority.",
+      "explanation": "The chapter states that the Supplements section contains information necessary to safely and efficiently operate the aircraft when equipped with optional systems and equipment not provided with the standard aircraft, such as autopilots, navigation systems, and air-conditioning systems.",
+      "reference": {
+        "page": "9-5",
+        "text": "The Supplements section contains information necessary to safely and efficiently operate the aircraft when equipped with optional systems and equipment (not provided with the standard aircraft)."
+      }
+    },
+    {
+      "section": "Certificate of Aircraft Registration",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "Under which condition is the Certificate of Aircraft Registration invalid for operations?",
+      "correct_answer": "When the ownership of the aircraft is transferred",
+      "distractors": [
+        "When the aircraft is flown outside of its home state for more than 30 days",
+        "When the aircraft undergoes a major repair or alteration",
+        "When the aircraft's annual inspection expires"
+      ],
+      "explanation": "The chapter lists several conditions under which the Certificate of Aircraft Registration cannot be used, including when the aircraft is registered under the laws of a foreign country, when registration is canceled upon written request, when the aircraft is totally destroyed or scrapped, when ownership is transferred, and when the certificate holder loses U.S. citizenship.",
+      "reference": {
+        "page": "9-6",
+        "text": "The Certificate of Aircraft Registration cannot be used for operations when: ...The ownership of the aircraft is transferred"
+      }
+    },
+    {
+      "section": "Airworthiness Certificate",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "Under what condition does a Standard Airworthiness Certificate remain in effect?",
+      "correct_answer": "As long as the aircraft receives the required maintenance and is properly registered in the United States",
+      "distractors": [
+        "For a period of 12 calendar months, at which point it must be renewed by an FAA inspector",
+        "Indefinitely, regardless of maintenance status, as long as the aircraft is not sold to a foreign purchaser",
+        "For the life of the aircraft, provided the owner submits an annual airworthiness report to the FAA"
+      ],
+      "explanation": "The chapter states that a Standard Airworthiness Certificate remains in effect if the aircraft receives the required maintenance and is properly registered in the United States. The Terms and Conditions on the certificate specify it is effective as long as maintenance, preventative maintenance, and alterations are performed in accordance with 14 CFR parts 21, 43, and 91.",
+      "reference": {
+        "page": "9-8",
+        "text": "A Standard Airworthiness Certificate remains in effect if the aircraft receives the required maintenance and is properly registered in the United States."
+      }
+    },
+    {
+      "section": "Aircraft Inspections",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "Which aircraft must receive a 100-hour inspection in addition to an annual inspection?",
+      "correct_answer": "Aircraft under 12,500 pounds used to carry passengers for hire, and aircraft used for flight instruction for hire when provided by the person giving the instruction",
+      "distractors": [
+        "All aircraft regardless of weight or use, if operated under 14 CFR part 91",
+        "Only turbojet and turbopropeller-powered multi-engine airplanes",
+        "All aircraft over 12,500 pounds used for any purpose"
+      ],
+      "explanation": "The chapter states that all aircraft under 12,500 pounds (with certain exceptions) used to carry passengers for hire must receive a 100-hour inspection, and additionally, aircraft used for flight instruction for hire, when provided by the person giving the flight instruction, must also have received a 100-hour inspection.",
+      "reference": {
+        "page": "9-8",
+        "text": "All aircraft under 12,500 pounds...used to carry passengers for hire, must receive a 100-hour inspection...Additionally, an aircraft used for flight instruction for hire, when provided by the person giving the flight instruction, must also have received a 100-hour inspection."
+      }
+    },
+    {
+      "section": "Aircraft Inspections",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "By how much may the 100-hour inspection limitation be exceeded, and what is the purpose for which this excess time may be used?",
+      "correct_answer": "By no more than 10 hours, for the purpose of traveling to a location where the required inspection can be performed",
+      "distractors": [
+        "By no more than 10 hours, for any purpose, as long as the inspection is completed before further flight",
+        "By no more than 25 hours, for the purpose of returning the aircraft to its home base for inspection",
+        "By no more than 5 hours, for the purpose of completing a revenue flight already in progress"
+      ],
+      "explanation": "The chapter states the 100-hour limitation may be exceeded by no more than 10 hours for the purpose of traveling to a location at which the required inspection can be performed, and any excess time used for this purpose must be included in computing the next 100 hours of time in service.",
+      "reference": {
+        "page": "9-9",
+        "text": "The 100-hour limitation may be exceeded by no more than 10 hours for the purpose of traveling to a location at which the required inspection can be performed. Any excess time used for this purpose must be included in computing the next 100 hours of time in service."
+      }
+    },
+    {
+      "section": "Aircraft Inspections",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "Who may perform an annual inspection on a reciprocating-engine-powered aircraft?",
+      "correct_answer": "A certificated A\u0026P mechanic holding an inspection authorization (IA), the manufacturer of the aircraft, or a certificated and appropriately rated repair station",
+      "distractors": [
+        "Any FAA-certificated A\u0026P mechanic, regardless of whether they hold an inspection authorization",
+        "Only an FAA inspector or designated airworthiness representative",
+        "The aircraft owner if they hold at least a private pilot certificate and have completed a maintenance course"
+      ],
+      "explanation": "The chapter specifies that the annual inspection shall be performed by a certificated A\u0026P mechanic who holds an inspection authorization (IA), by the manufacturer of the aircraft, or by a certificated and appropriately rated repair station.",
+      "reference": {
+        "page": "9-8",
+        "text": "The inspection shall be performed by a certificated airframe and powerplant (A\u0026P) mechanic who holds an inspection authorization (IA) by the manufacturer of the aircraft or by a certificated and appropriately rated repair station."
+      }
+    },
+    {
+      "section": "Emergency Locator Transmitter",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "Under what conditions must ELT batteries be replaced or recharged?",
+      "correct_answer": "When the transmitter has been in use for more than 1 cumulative hour, or when 50 percent of the battery useful life (or charge, for rechargeable batteries) has expired",
+      "distractors": [
+        "Every 12 calendar months regardless of use, or after any hard landing",
+        "When the transmitter has been in use for more than 1 cumulative hour, or every 24 calendar months regardless of battery age",
+        "Every 24 calendar months, or whenever the annual inspection is due, whichever occurs first"
+      ],
+      "explanation": "The chapter lists two conditions for battery replacement or recharge: when the transmitter has been in use for more than 1 cumulative hour, and when 50 percent of the battery useful life has expired (or, for rechargeable batteries, 50 percent of the useful life of the charge has expired). An expiration date must be marked on the outside of the transmitter.",
+      "reference": {
+        "page": "9-9",
+        "text": "Batteries used in the ELTs must be replaced (or recharged, if the batteries are rechargeable): When the transmitter has been in use for more than 1 cumulative hour; When 50 percent of the battery useful life or, for rechargeable batteries, 50 percent of useful life of the charge has expired"
+      }
+    },
+    {
+      "section": "Minimum Equipment Lists (MEL) and Operations With Inoperative Equipment",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "When using the deferral provision of 14 CFR part 91, section 91.213(d) for inoperative equipment, what must the pilot do if the inoperative item is not required by type design, 14 CFR, or ADs, and the aircraft can be safely operated without it?",
+      "correct_answer": "Deactivate or remove the item and place an INOPERATIVE placard near the appropriate switch, control, or indicator",
+      "distractors": [
+        "Notify the local FSDO within 24 hours and obtain verbal authorization to defer the repair",
+        "Remove the item from the aircraft's equipment list and file an amended weight and balance document",
+        "Log the inoperative item in the maintenance record and obtain a special flight permit before the next flight"
+      ],
+      "explanation": "The chapter states that under 91.213(d), if the inoperative item is not required and the aircraft can be safely operated without it, the deferral may be made. The inoperative item shall be deactivated or removed and an INOPERATIVE placard placed near the appropriate switch, control, or indicator. If deactivation or removal involves maintenance, it must be accomplished by certificated maintenance personnel and recorded per 14 CFR part 43.",
+      "reference": {
+        "page": "9-9",
+        "text": "If the inoperative item is not required, and the aircraft can be safely operated without it, the deferral may be made. The inoperative item shall be deactivated or removed and an INOPERATIVE placard placed near the appropriate switch, control, or indicator."
+      }
+    },
+    {
+      "section": "Minimum Equipment Lists (MEL) and Operations With Inoperative Equipment",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "Once an operator requests an MEL and a Letter of Authorization (LOA) is issued by the FAA, what is the requirement regarding use of the MEL?",
+      "correct_answer": "Use of the MEL becomes mandatory for that aircraft, and all maintenance deferrals must be accomplished in accordance with the MEL terms and conditions",
+      "distractors": [
+        "The operator may choose between using the MEL or the 91.213(d) deferral provision on a per-flight basis",
+        "The MEL is optional, but once used for a specific deferral, it must be used for all subsequent deferrals on that aircraft",
+        "The MEL replaces the AFM/POH as the primary document for determining aircraft airworthiness"
+      ],
+      "explanation": "The chapter states that once an operator requests an MEL and a LOA is issued by the FAA, the use of the MEL becomes mandatory for that aircraft. All maintenance deferrals must be accomplished in accordance with the terms and conditions of the MEL and the operator-generated procedures document.",
+      "reference": {
+        "page": "9-10",
+        "text": "However, once an operator requests an MEL, and a Letter of Authorization (LOA) is issued by the FAA, then the use of the MEL becomes mandatory for that aircraft. All maintenance deferrals must be accomplished in accordance with the terms and conditions of the MEL and the operator-generated procedures document."
+      }
+    },
+    {
+      "section": "Preventive Maintenance",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "Which pilots are excluded from performing preventive maintenance on an aircraft they own or operate?",
+      "correct_answer": "Student pilots, sport pilots, and recreational pilots",
+      "distractors": [
+        "Private pilots and commercial pilots who do not hold an instrument rating",
+        "Flight instructors and ATP certificate holders who are not aircraft owners",
+        "All pilots except those who hold a current flight review endorsement within the preceding 12 calendar months"
+      ],
+      "explanation": "The chapter states that certificated pilots, excluding student pilots, sport pilots, and recreational pilots, may perform preventive maintenance on any aircraft owned or operated by them, provided the aircraft is not used in air carrier service and does not qualify under parts 121, 129, or 135. Sport pilots may perform preventive maintenance only on LSA-category aircraft they own or operate.",
       "reference": {
         "page": "9-12",
-        "text": "Modifications         or continuing action. For example, an AD may require a\nin accordance with FAA Order 8130.2, Airworthiness                   repetitive inspection each 50 hours of operation, meaning\nCertification of Aircraft and Related Products, may require          the particular inspection shall be accomplished and recorded\nthe notification of the issuing authority.                           every 50 hours of time in service. Owners/operators are\n                                                                     reminded that there is no provision to overfly the maximum\nSpecial Flight Permits                                               hour requirement of an AD unless it is specifically written\nA special flight permit is a Special Airworthiness Certificate       into the AD. To help determine if an AD applies to an\nauthorizing operation of an aircraft that does not currently         amateur-built aircraft, contact the local FSDO.\nmeet applicable airworthiness requirements but is safe\nfor a specific flight. Before the permit is issued, an FAA           14 CFR, part 91, section 91.417 requires a record to be\ninspector may personally inspect the aircraft or require it to       maintained that shows the current status of applicable\nbe inspected by an FAA-certificated A\u0026P mechanic or an               ADs, including the method of compliance; the AD number\nappropriately certificated repair station to determine its safety    and revision date, if recurring; next due date and time; the\nfor the intended flight. The inspection shall be recorded in         signature; type of certificate; and certificate number of the\nthe aircraft records."
+        "text": "Certificated pilots, excluding student pilots, sport pilots, and recreational pilots, may perform preventive maintenance on any aircraft that is owned or operated by them..."
       }
     },
     {
-      "section": "Chapter Summary",
-      "difficulty": 3,
-      "categories": [
-        "written_exam"
-      ],
-      "question": "Under 14 CFR part 47, section 47.41, which of the following events requires a pilot to notify the FAA Aircraft Registry immediately?",
-      "correct_answer": "A change of permanent mailing address, the sale or export of the aircraft, or the loss of eligibility to register an aircraft",
-      "distractors": [
-        "Any modification to the aircraft that affects its airworthiness, such as a major repair or alteration",
-        "Relocation of the aircraft to a different airport or permanent storage facility",
-        "Expiration of the pilot's medical certificate or flight review currency"
-      ],
-      "explanation": "According to PHAK Chapter 9, 14 CFR part 47, section 47.41 requires immediate notification to the FAA Aircraft Registry in three specific situations: a change of permanent mailing address, the sale or export of the aircraft, or the loss of eligibility to register an aircraft. The distractors are incorrect because aircraft modifications fall under maintenance regulations (14 CFR part 43), aircraft relocation does not trigger a registry notification requirement, and pilot medical currency is unrelated to aircraft registration obligations.",
-      "reference": {
-        "page": "9-13",
-        "text": "By learning what preventive maintenance\n  •    Having a current Airworthiness Certificate and a                      is allowed on the aircraft, a pilot can maintain his or her\n       Certificate of Aircraft Registration in the aircraft.                 aircraft in an airworthy condition. The goal of every pilot is\n                                                                             a safe flight. Flight manuals and aircraft documentation are\n  •    Maintaining the aircraft in an airworthy condition,\n                                                                             essential tools used to reach that goal.\n       including compliance with all applicable ADs and\n       assuring that maintenance is properly recorded.\n  •    Keeping abreast of current regulations concerning the\n       operation and maintenance of the aircraft.\n  •    Notifying the FAA Aircraft Registry immediately of\n       any change of permanent mailing address, of the sale\n       or export of the aircraft, or of the loss of the eligibility\n       to register an aircraft. (Refer to 14 CFR, part 47,\n       section 47.41.) 9-13 9-14"
-      }
-    },
-    {
-      "section": "Limitations; Emergency Procedures; Normal Procedures;               Airspeed",
+      "section": "Airworthiness Directives (ADs)",
       "difficulty": 2,
       "categories": [
         "written_exam",
         "checkride_oral"
       ],
-      "question": "A pilot cannot locate the AFM/POH for a flight and notices an aircraft owner/information manual in the cockpit. Why is this document not an acceptable substitute for the AFM/POH?",
-      "correct_answer": "The owner/information manual is not FAA-approved, is not specific to an individual aircraft, and is not kept current.",
+      "question": "What are the two categories into which Airworthiness Directives are divided?",
+      "correct_answer": "Those of an emergency nature requiring immediate compliance prior to further flight, and those of a less urgent nature requiring compliance within a specified period of time",
       "distractors": [
-        "The owner/information manual only covers emergency procedures and omits normal operating limitations.",
-        "The owner/information manual must be signed by an A\u0026P mechanic before it can be used in flight.",
-        "The owner/information manual is only valid for the first 100 hours after an aircraft leaves the factory."
+        "Those applicable to the airframe and those applicable to the engine or propeller",
+        "Those that require one-time compliance and those that require recurring compliance",
+        "Those issued by the manufacturer and those issued by the FAA Administrator"
       ],
-      "explanation": "According to the PHAK, the aircraft owner/information manual is developed by the manufacturer to provide general information about a make and model, but it is not approved by the FAA, is not specific to an individual aircraft, is not kept current, and cannot be substituted for the AFM/POH. The AFM, by contrast, is FAA-approved and specific to a particular aircraft by serial number. 14 CFR part 91 requires pilots to comply with the operating limitations in the approved flight manual, making the AFM/POH the required document for safe and legal operation.",
+      "explanation": "The chapter states that ADs are divided into two categories: those of an emergency nature requiring immediate compliance prior to further flight, and those of a less urgent nature requiring compliance within a specified period of time.",
       "reference": {
-        "page": "9-2",
-        "text": "The aircraft owner/information manual is a document                 Most manufacturers include a table of contents that identifies\ndeveloped by the aircraft manufacturer and contains general         the order of the entire manual by section number and title.\ninformation about the make and model of the aircraft.               Usually, each section also contains a table of contents for that\nThe manual is not approved by the Federal Aviation                  section. Page numbers reflect the section and page within that\nAdministration (FAA) and is not specific to an individual           section (1-1, 1-2, 2-1, 3-1, etc.). If the manual is published\naircraft. The manual provides general information about the         in loose-leaf form, each section is usually marked with a\noperation of an aircraft, is not kept current, and cannot be        divider tab indicating the section number, title, or both. The\nsubstituted for the AFM/POH.                                        Emergency Procedures section may have a red tab for quick\n                                                                    identification and reference.\nAn AFM is a document developed by the aircraft manufacturer\nand approved by the FAA. This book contains the information         General (Section 1)\nand instructions required to operate an aircraft safely. A          The General section provides the basic descriptive\npilot must comply with this information which is specific           information on the airframe and powerplant(s). Some\nto a particular make and model of aircraft, usually by serial       manuals include a three-dimensional drawing of the aircraft\nnumber. An AFM contains the operating procedures and                that provides dimensions of various components. Included\nlimitations of that aircraft. Title 14 of the Code of Federal       are such items as wingspan, maximum height, overall length,\nRegulations (14 CFR) part 91 requires that pilots comply            wheelbase length, main landing gear track width, diameter\nwith the operating limitations specified in the approved flight     of the rotor system, maximum propeller diameter, propeller\nmanuals, markings, and placards.                                    ground clearance, minimum turning radius, and wing area.\n                                                                    This section serves as a quick reference and helps a pilot\nOriginally, flight manuals followed whatever format and             become familiar with the aircraft.\ncontent the manufacturer felt was appropriate, but this\nchanged with the acceptance of Specification No. 1 prepared         The last segment of the General section contains definitions,\nby the General Aviation Manufacturers Association (GAMA).           abbreviations, explanations of symbology, and some of\nSpecification No. 1 established a standardized format for all       the terminology used in the POH. At the discretion of the\ngeneral aviation airplane and helicopter flight manuals.            manufacturer, metric and other conversion tables may also\n                                                                    be included.\nThe POH is a document developed by the aircraft\nmanufacturer and contains FAA-approved AFM information."
+        "page": "9-12",
+        "text": "ADs are divided into two categories: 1. Those of an emergency nature requiring immediate compliance prior to further flight 2. Those of a less urgent nature requiring compliance within a specified period of time"
       }
     },
     {
-      "section": "Limitations; Emergency Procedures; Normal Procedures;               Airspeed",
+      "section": "Special Flight Permits",
       "difficulty": 2,
       "categories": [
         "written_exam",
         "checkride_oral"
       ],
-      "question": "A pilot has access to both an aircraft owner's manual and an AFM for the same aircraft type. What is a key reason the AFM must be used for operating limitations rather than the owner's manual?",
-      "correct_answer": "The AFM is FAA-approved and specific to a particular aircraft, usually by serial number, while the owner's manual is not specific to an individual aircraft and is not FAA-approved.",
+      "question": "For which of the following purposes may a special flight permit be issued?",
+      "correct_answer": "To allow an aircraft to be flown to a base where repairs, alterations, or maintenance can be performed",
       "distractors": [
-        "The owner's manual is FAA-approved but only covers emergency procedures, not normal operations or limitations.",
-        "The AFM provides general information about the aircraft type and is not kept current by the manufacturer.",
-        "The owner's manual is specific to an individual aircraft by serial number but lacks FAA approval."
+        "To allow an aircraft with an expired annual inspection to be operated for compensation or hire on a one-time basis",
+        "To allow an aircraft to be operated indefinitely with inoperative equipment not listed in the MEL",
+        "To allow an unregistered aircraft to be operated within the United States for up to 90 days"
       ],
-      "explanation": "According to PHAK Chapter 9, the AFM is a document developed by the manufacturer and approved by the FAA, containing information and instructions specific to a particular make and model of aircraft, usually by serial number. In contrast, the aircraft owner's manual is not approved by the FAA, is not specific to an individual aircraft, is not kept current, and cannot be substituted for the AFM/POH. Under 14 CFR part 91, pilots must comply with the operating limitations specified in the approved flight manual.",
+      "explanation": "The chapter states that a special flight permit is issued to allow the aircraft to be flown to a base where repairs, alterations, or maintenance can be performed, for delivering or exporting the aircraft, for evacuating an aircraft from an area of impending danger, and for operation of an overweight aircraft for flight beyond its normal range.",
       "reference": {
-        "page": "9-2",
-        "text": "The aircraft owner/information manual is a document                 Most manufacturers include a table of contents that identifies\ndeveloped by the aircraft manufacturer and contains general         the order of the entire manual by section number and title.\ninformation about the make and model of the aircraft.               Usually, each section also contains a table of contents for that\nThe manual is not approved by the Federal Aviation                  section. Page numbers reflect the section and page within that\nAdministration (FAA) and is not specific to an individual           section (1-1, 1-2, 2-1, 3-1, etc.). If the manual is published\naircraft. The manual provides general information about the         in loose-leaf form, each section is usually marked with a\noperation of an aircraft, is not kept current, and cannot be        divider tab indicating the section number, title, or both. The\nsubstituted for the AFM/POH.                                        Emergency Procedures section may have a red tab for quick\n                                                                    identification and reference.\nAn AFM is a document developed by the aircraft manufacturer\nand approved by the FAA. This book contains the information         General (Section 1)\nand instructions required to operate an aircraft safely. A          The General section provides the basic descriptive\npilot must comply with this information which is specific           information on the airframe and powerplant(s). Some\nto a particular make and model of aircraft, usually by serial       manuals include a three-dimensional drawing of the aircraft\nnumber. An AFM contains the operating procedures and                that provides dimensions of various components. Included\nlimitations of that aircraft. Title 14 of the Code of Federal       are such items as wingspan, maximum height, overall length,\nRegulations (14 CFR) part 91 requires that pilots comply            wheelbase length, main landing gear track width, diameter\nwith the operating limitations specified in the approved flight     of the rotor system, maximum propeller diameter, propeller\nmanuals, markings, and placards.                                    ground clearance, minimum turning radius, and wing area.\n                                                                    This section serves as a quick reference and helps a pilot\nOriginally, flight manuals followed whatever format and             become familiar with the aircraft.\ncontent the manufacturer felt was appropriate, but this\nchanged with the acceptance of Specification No. 1 prepared         The last segment of the General section contains definitions,\nby the General Aviation Manufacturers Association (GAMA).           abbreviations, explanations of symbology, and some of\nSpecification No. 1 established a standardized format for all       the terminology used in the POH. At the discretion of the\ngeneral aviation airplane and helicopter flight manuals.            manufacturer, metric and other conversion tables may also\n                                                                    be included.\nThe POH is a document developed by the aircraft\nmanufacturer and contains FAA-approved AFM information."
-      }
-    },
-    {
-      "section": "Limitations; Emergency Procedures; Normal Procedures;               Airspeed",
-      "difficulty": 2,
-      "categories": [
-        "written_exam",
-        "checkride_oral"
-      ],
-      "question": "A pilot notices that the airspeed indicator markings on a recently purchased aircraft differ slightly from those depicted in the AFM/POH. Under 14 CFR part 91, which source must the pilot follow for operating limitations?",
-      "correct_answer": "The operating limitations specified in the approved flight manual, markings, and placards must all be followed as each is regulatory",
-      "distractors": [
-        "The AFM/POH only, since a printed document is considered more authoritative than cockpit markings or placards",
-        "The cockpit markings and placards only, since they are physically present in the aircraft and reflect its current configuration",
-        "Neither source is mandatory; a pilot may use the more conservative of the two values at their discretion",
-        "The aircraft owner's manual, as it contains general information about the make and model"
-      ],
-      "explanation": "According to the Pilot's Handbook of Aeronautical Knowledge (Chapter 9), 14 CFR part 91 requires that pilots comply with the operating limitations specified in the approved flight manuals, markings, and placards. The AFM is FAA-approved and contains operating procedures and limitations specific to a particular aircraft. The markings and placards displayed in the cockpit are equally regulatory. The aircraft owner/information manual, by contrast, is not FAA-approved, is not specific to an individual aircraft, and cannot be substituted for the AFM/POH.",
-      "reference": {
-        "page": "9-2",
-        "text": "The aircraft owner/information manual is a document                 Most manufacturers include a table of contents that identifies\ndeveloped by the aircraft manufacturer and contains general         the order of the entire manual by section number and title.\ninformation about the make and model of the aircraft.               Usually, each section also contains a table of contents for that\nThe manual is not approved by the Federal Aviation                  section. Page numbers reflect the section and page within that\nAdministration (FAA) and is not specific to an individual           section (1-1, 1-2, 2-1, 3-1, etc.). If the manual is published\naircraft. The manual provides general information about the         in loose-leaf form, each section is usually marked with a\noperation of an aircraft, is not kept current, and cannot be        divider tab indicating the section number, title, or both. The\nsubstituted for the AFM/POH.                                        Emergency Procedures section may have a red tab for quick\n                                                                    identification and reference.\nAn AFM is a document developed by the aircraft manufacturer\nand approved by the FAA. This book contains the information         General (Section 1)\nand instructions required to operate an aircraft safely. A          The General section provides the basic descriptive\npilot must comply with this information which is specific           information on the airframe and powerplant(s). Some\nto a particular make and model of aircraft, usually by serial       manuals include a three-dimensional drawing of the aircraft\nnumber. An AFM contains the operating procedures and                that provides dimensions of various components. Included\nlimitations of that aircraft. Title 14 of the Code of Federal       are such items as wingspan, maximum height, overall length,\nRegulations (14 CFR) part 91 requires that pilots comply            wheelbase length, main landing gear track width, diameter\nwith the operating limitations specified in the approved flight     of the rotor system, maximum propeller diameter, propeller\nmanuals, markings, and placards.                                    ground clearance, minimum turning radius, and wing area.\n                                                                    This section serves as a quick reference and helps a pilot\nOriginally, flight manuals followed whatever format and             become familiar with the aircraft.\ncontent the manufacturer felt was appropriate, but this\nchanged with the acceptance of Specification No. 1 prepared         The last segment of the General section contains definitions,\nby the General Aviation Manufacturers Association (GAMA).           abbreviations, explanations of symbology, and some of\nSpecification No. 1 established a standardized format for all       the terminology used in the POH. At the discretion of the\ngeneral aviation airplane and helicopter flight manuals.            manufacturer, metric and other conversion tables may also\n                                                                    be included.\nThe POH is a document developed by the aircraft\nmanufacturer and contains FAA-approved AFM information."
-      }
-    },
-    {
-      "section": "Limitations; Emergency Procedures; Normal Procedures;               Airspeed",
-      "difficulty": 2,
-      "categories": [
-        "written_exam"
-      ],
-      "question": "Prior to the acceptance of Specification No. 1 by the General Aviation Manufacturers Association (GAMA), aircraft flight manuals followed whatever format the manufacturer felt was appropriate. What did GAMA Specification No. 1 establish?",
-      "correct_answer": "A standardized format for all general aviation airplane and helicopter flight manuals.",
-      "distractors": [
-        "A requirement for the FAA to approve all aircraft owner/information manuals.",
-        "A regulation under 14 CFR Part 91 requiring pilots to comply with operating limitations.",
-        "A standard that all emergency procedures must be located in a section marked with a red tab."
-      ],
-      "explanation": "According to the Pilot's Handbook of Aeronautical Knowledge (PHAK), originally flight manuals followed whatever format and content the manufacturer felt was appropriate. This changed with the acceptance of Specification No. 1 prepared by GAMA, which established a standardized format for all general aviation airplane and helicopter flight manuals.",
-      "reference": {
-        "page": "9-2",
-        "text": "The aircraft owner/information manual is a document                 Most manufacturers include a table of contents that identifies\ndeveloped by the aircraft manufacturer and contains general         the order of the entire manual by section number and title.\ninformation about the make and model of the aircraft.               Usually, each section also contains a table of contents for that\nThe manual is not approved by the Federal Aviation                  section. Page numbers reflect the section and page within that\nAdministration (FAA) and is not specific to an individual           section (1-1, 1-2, 2-1, 3-1, etc.). If the manual is published\naircraft. The manual provides general information about the         in loose-leaf form, each section is usually marked with a\noperation of an aircraft, is not kept current, and cannot be        divider tab indicating the section number, title, or both. The\nsubstituted for the AFM/POH.                                        Emergency Procedures section may have a red tab for quick\n                                                                    identification and reference.\nAn AFM is a document developed by the aircraft manufacturer\nand approved by the FAA. This book contains the information         General (Section 1)\nand instructions required to operate an aircraft safely. A          The General section provides the basic descriptive\npilot must comply with this information which is specific           information on the airframe and powerplant(s). Some\nto a particular make and model of aircraft, usually by serial       manuals include a three-dimensional drawing of the aircraft\nnumber. An AFM contains the operating procedures and                that provides dimensions of various components. Included\nlimitations of that aircraft. Title 14 of the Code of Federal       are such items as wingspan, maximum height, overall length,\nRegulations (14 CFR) part 91 requires that pilots comply            wheelbase length, main landing gear track width, diameter\nwith the operating limitations specified in the approved flight     of the rotor system, maximum propeller diameter, propeller\nmanuals, markings, and placards.                                    ground clearance, minimum turning radius, and wing area.\n                                                                    This section serves as a quick reference and helps a pilot\nOriginally, flight manuals followed whatever format and             become familiar with the aircraft.\ncontent the manufacturer felt was appropriate, but this\nchanged with the acceptance of Specification No. 1 prepared         The last segment of the General section contains definitions,\nby the General Aviation Manufacturers Association (GAMA).           abbreviations, explanations of symbology, and some of\nSpecification No. 1 established a standardized format for all       the terminology used in the POH. At the discretion of the\ngeneral aviation airplane and helicopter flight manuals.            manufacturer, metric and other conversion tables may also\n                                                                    be included.\nThe POH is a document developed by the aircraft\nmanufacturer and contains FAA-approved AFM information."
-      }
-    },
-    {
-      "section": "Limitations; Emergency Procedures; Normal Procedures;               Airspeed",
-      "difficulty": 2,
-      "categories": [
-        "general_knowledge"
-      ],
-      "question": "While reviewing an Aircraft Flight Manual (AFM), a pilot encounters an unfamiliar abbreviation and a symbol used in the performance charts. According to the GAMA specification standard format, in which section of the AFM/POH would the pilot find the definitions, abbreviations, and explanations of symbology?",
-      "correct_answer": "General",
-      "distractors": [
-        "Limitations",
-        "Emergency Procedures",
-        "Normal Procedures"
-      ],
-      "explanation": "The General section (Section 1) of an AFM/POH provides basic descriptive information on the airframe and powerplant(s), and its last segment contains definitions, abbreviations, explanations of symbology, and terminology used throughout the POH.",
-      "reference": {
-        "page": "9-2",
-        "text": "The aircraft owner/information manual is a document                 Most manufacturers include a table of contents that identifies\ndeveloped by the aircraft manufacturer and contains general         the order of the entire manual by section number and title.\ninformation about the make and model of the aircraft.               Usually, each section also contains a table of contents for that\nThe manual is not approved by the Federal Aviation                  section. Page numbers reflect the section and page within that\nAdministration (FAA) and is not specific to an individual           section (1-1, 1-2, 2-1, 3-1, etc.). If the manual is published\naircraft. The manual provides general information about the         in loose-leaf form, each section is usually marked with a\noperation of an aircraft, is not kept current, and cannot be        divider tab indicating the section number, title, or both. The\nsubstituted for the AFM/POH.                                        Emergency Procedures section may have a red tab for quick\n                                                                    identification and reference.\nAn AFM is a document developed by the aircraft manufacturer\nand approved by the FAA. This book contains the information         General (Section 1)\nand instructions required to operate an aircraft safely. A          The General section provides the basic descriptive\npilot must comply with this information which is specific           information on the airframe and powerplant(s). Some\nto a particular make and model of aircraft, usually by serial       manuals include a three-dimensional drawing of the aircraft\nnumber. An AFM contains the operating procedures and                that provides dimensions of various components. Included\nlimitations of that aircraft. Title 14 of the Code of Federal       are such items as wingspan, maximum height, overall length,\nRegulations (14 CFR) part 91 requires that pilots comply            wheelbase length, main landing gear track width, diameter\nwith the operating limitations specified in the approved flight     of the rotor system, maximum propeller diameter, propeller\nmanuals, markings, and placards.                                    ground clearance, minimum turning radius, and wing area.\n                                                                    This section serves as a quick reference and helps a pilot\nOriginally, flight manuals followed whatever format and             become familiar with the aircraft.\ncontent the manufacturer felt was appropriate, but this\nchanged with the acceptance of Specification No. 1 prepared         The last segment of the General section contains definitions,\nby the General Aviation Manufacturers Association (GAMA).           abbreviations, explanations of symbology, and some of\nSpecification No. 1 established a standardized format for all       the terminology used in the POH. At the discretion of the\ngeneral aviation airplane and helicopter flight manuals.            manufacturer, metric and other conversion tables may also\n                                                                    be included.\nThe POH is a document developed by the aircraft\nmanufacturer and contains FAA-approved AFM information."
-      }
-    },
-    {
-      "section": "Limitations; Emergency Procedures; Normal Procedures;               Airspeed",
-      "difficulty": 2,
-      "categories": [
-        "written_exam",
-        "checkride_oral"
-      ],
-      "question": "A pilot cannot locate the FAA-approved Airplane Flight Manual (AFM) for a specific aircraft and considers substituting the aircraft owner/information manual. What is a key limitation that makes this substitution unacceptable?",
-      "correct_answer": "The owner/information manual is not kept current and is not specific to an individual aircraft.",
-      "distractors": [
-        "The owner/information manual is FAA-approved but only for day VFR operations",
-        "The owner/information manual is kept current through mandatory manufacturer updates but lacks emergency procedures",
-        "The owner/information manual is specific to an individual aircraft by serial number but contains no operating limitations"
-      ],
-      "explanation": "According to the PHAK, the aircraft owner/information manual is not approved by the FAA, is not specific to an individual aircraft, is not kept current, and cannot be substituted for the AFM/POH. Each distractor is wrong because it attributes a characteristic of the AFM (FAA-approved, current, specific to an aircraft by serial number) to the owner/information manual, which the source text clearly states does not share these qualities.",
-      "reference": {
-        "page": "9-2",
-        "text": "The aircraft owner/information manual is a document                 Most manufacturers include a table of contents that identifies\ndeveloped by the aircraft manufacturer and contains general         the order of the entire manual by section number and title.\ninformation about the make and model of the aircraft.               Usually, each section also contains a table of contents for that\nThe manual is not approved by the Federal Aviation                  section. Page numbers reflect the section and page within that\nAdministration (FAA) and is not specific to an individual           section (1-1, 1-2, 2-1, 3-1, etc.). If the manual is published\naircraft. The manual provides general information about the         in loose-leaf form, each section is usually marked with a\noperation of an aircraft, is not kept current, and cannot be        divider tab indicating the section number, title, or both. The\nsubstituted for the AFM/POH.                                        Emergency Procedures section may have a red tab for quick\n                                                                    identification and reference.\nAn AFM is a document developed by the aircraft manufacturer\nand approved by the FAA. This book contains the information         General (Section 1)\nand instructions required to operate an aircraft safely. A          The General section provides the basic descriptive\npilot must comply with this information which is specific           information on the airframe and powerplant(s). Some\nto a particular make and model of aircraft, usually by serial       manuals include a three-dimensional drawing of the aircraft\nnumber. An AFM contains the operating procedures and                that provides dimensions of various components. Included\nlimitations of that aircraft. Title 14 of the Code of Federal       are such items as wingspan, maximum height, overall length,\nRegulations (14 CFR) part 91 requires that pilots comply            wheelbase length, main landing gear track width, diameter\nwith the operating limitations specified in the approved flight     of the rotor system, maximum propeller diameter, propeller\nmanuals, markings, and placards.                                    ground clearance, minimum turning radius, and wing area.\n                                                                    This section serves as a quick reference and helps a pilot\nOriginally, flight manuals followed whatever format and             become familiar with the aircraft.\ncontent the manufacturer felt was appropriate, but this\nchanged with the acceptance of Specification No. 1 prepared         The last segment of the General section contains definitions,\nby the General Aviation Manufacturers Association (GAMA).           abbreviations, explanations of symbology, and some of\nSpecification No. 1 established a standardized format for all       the terminology used in the POH. At the discretion of the\ngeneral aviation airplane and helicopter flight manuals.            manufacturer, metric and other conversion tables may also\n                                                                    be included.\nThe POH is a document developed by the aircraft\nmanufacturer and contains FAA-approved AFM information."
-      }
-    },
-    {
-      "section": "Limitations; Emergency Procedures; Normal Procedures;               Airspeed",
-      "difficulty": 2,
-      "categories": [
-        "written_exam",
-        "checkride_oral"
-      ],
-      "question": "What is the significance of the red line on an aircraft's airspeed indicator?",
-      "correct_answer": "It indicates the airspeed limit beyond which structural damage could occur.",
-      "distractors": [
-        "It indicates the maximum airspeed at which the flaps may be safely extended.",
-        "It indicates the maximum structural cruising speed for operations in smooth air.",
-        "It indicates the maximum safe airspeed for operating in turbulent air."
-      ],
-      "explanation": "According to the PHAK Chapter 9, the Limitations section states that a red line on the airspeed indicator shows the airspeed limit beyond which structural damage could occur. This is known as the Never-Exceed Speed (Vne). The other choices represent different limitations: the top of the white arc marks the maximum flap extension speed, the top of the green arc marks the maximum structural cruising speed, and maneuvering speed (Va) is generally the maximum speed for turbulent air.",
-      "reference": {
-        "page": "9-2",
-        "text": "Limitations (Section 2)\nIf “POH” is used in the main title, a statement must be             The Limitations section contains only those limitations required\nincluded on the title page indicating that sections of the          by regulation or that are necessary for the safe operation of\ndocument are FAA approved as the AFM.                               the aircraft, powerplant, systems, and equipment. It includes\n                                                                    operating limitations, instrument markings, color-coding,\nThe POH for most light aircraft built after 1975 is also            and basic placards. Some of the limitation areas are airspeed,\ndesignated as the FAA-approved flight manual. The typical           powerplant, weight and loading distribution, and flight.\nAFM/POH contains the following nine sections: General;\nPerformance; Weight and Balance/Equipment List; Systems             Airspeed limitations are shown on the airspeed indicator\nDescription; Handling, Service, and Maintenance; and                (ASI) by color coding and on placards or graphs in the\nSupplements. Manufacturers also have the option of including        aircraft. [Figure 9-1] A red line on the ASI shows the airspeed\nadditional sections, such as one on Safety and Operational          limit beyond which structural damage could occur. This is\nTips or an alphabetical index at the end of the POH."
-      }
-    },
-    {
-      "section": "Limitations; Emergency Procedures; Normal Procedures;               Airspeed",
-      "difficulty": 2,
-      "categories": [
-        "written_exam",
-        "general_knowledge"
-      ],
-      "question": "If an aircraft manufacturer uses \"Pilot's Operating Handbook\" (POH) in the main title of the manual, what is required on the title page?",
-      "correct_answer": "A statement indicating which sections of the document are FAA approved as the Airplane Flight Manual (AFM).",
-      "distractors": [
-        "A statement verifying that the entire POH is FAA approved as the AFM.",
-        "A list of operating limitations and instrument markings necessary for safe operation.",
-        "A placard showing the airspeed limits beyond which structural damage could occur."
-      ],
-      "explanation": "According to the PHAK, if 'POH' is used in the main title of the manual, a statement must be included on the title page indicating which sections of the document are FAA approved as the AFM. The entire POH is not necessarily FAA approved, only specific sections. Operating limitations and instrument markings are found in the Limitations section, and airspeed limits are displayed on the airspeed indicator.",
-      "reference": {
-        "page": "9-2",
-        "text": "Limitations (Section 2)\nIf “POH” is used in the main title, a statement must be             The Limitations section contains only those limitations required\nincluded on the title page indicating that sections of the          by regulation or that are necessary for the safe operation of\ndocument are FAA approved as the AFM.                               the aircraft, powerplant, systems, and equipment. It includes\n                                                                    operating limitations, instrument markings, color-coding,\nThe POH for most light aircraft built after 1975 is also            and basic placards. Some of the limitation areas are airspeed,\ndesignated as the FAA-approved flight manual. The typical           powerplant, weight and loading distribution, and flight.\nAFM/POH contains the following nine sections: General;\nPerformance; Weight and Balance/Equipment List; Systems             Airspeed limitations are shown on the airspeed indicator\nDescription; Handling, Service, and Maintenance; and                (ASI) by color coding and on placards or graphs in the\nSupplements. Manufacturers also have the option of including        aircraft. [Figure 9-1] A red line on the ASI shows the airspeed\nadditional sections, such as one on Safety and Operational          limit beyond which structural damage could occur. This is\nTips or an alphabetical index at the end of the POH."
+        "page": "9-12",
+        "text": "The special flight permit is issued to allow the aircraft to be flown to a base where repairs, alterations, or maintenance can be performed; for delivering or exporting the aircraft; or for evacuating an aircraft from an area of impending danger."
       }
     }
   ]

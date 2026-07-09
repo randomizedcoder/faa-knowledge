@@ -3,338 +3,355 @@
   "chapter": 4,
   "questions": [
     {
-      "section": "Effect of Temperature on Density",
-      "difficulty": 3,
+      "section": "Structure of the Atmosphere",
+      "difficulty": 1,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "Why is most of the atmosphere's oxygen concentrated below 35,000 feet?",
+      "correct_answer": "Oxygen is heavier than other atmospheric gases, so it settles toward the Earth's surface.",
+      "distractors": [
+        "Oxygen is generated primarily at the Earth's surface by plant life and has not had time to rise higher.",
+        "Oxygen molecules are too large to remain suspended above 35,000 feet.",
+        "Oxygen is lighter than nitrogen and rises to fill the upper atmosphere first."
+      ],
+      "explanation": "The chapter explains that the atmosphere is a mixture of gases, and the heavier elements, such as oxygen, settle to the surface of the Earth, while the lighter elements are lifted up to the region of higher altitude.",
+      "reference": {
+        "page": "4-1",
+        "text": "The heavier elements, such as oxygen, settle to the surface of the Earth, while the lighter elements are lifted up to the region of higher altitude. Most of the atmosphere's oxygen is contained below 35,000 feet altitude."
+      }
+    },
+    {
+      "section": "Air is a Fluid",
+      "difficulty": 1,
+      "categories": [
+        "general_knowledge"
+      ],
+      "question": "When air flows over a wing, what two properties working together create drag?",
+      "correct_answer": "Friction (air adhering to the surface) and viscosity (air sticking to itself)",
+      "distractors": [
+        "Pressure and temperature differences between the upper and lower wing surfaces",
+        "Gravity and the weight of the air flowing over the wing",
+        "Compressibility and density of the air at the leading edge"
+      ],
+      "explanation": "The chapter describes how the boundary layer of air adheres to the wing by friction, and then further resistance is caused by viscosity—the tendency of air to stick to itself. When these two forces act together to resist airflow over a wing, it is called drag.",
+      "reference": {
+        "page": "4-3",
+        "text": "Once the boundary layer of the air adheres to the wing by friction, further resistance to the airflow is caused by the viscosity, the tendency of the air to stick to itself. When these two forces act together to resist airflow over a wing, it is called drag."
+      }
+    },
+    {
+      "section": "Atmospheric Pressure",
+      "difficulty": 2,
       "categories": [
         "written_exam",
         "checkride_oral"
       ],
-      "question": "As altitude increases in the atmosphere, both temperature and pressure decrease. Why does air density still decrease with altitude even though decreasing temperature would normally increase density?",
-      "correct_answer": "The decrease in pressure as altitude increases has a dominating effect over the temperature decrease",
+      "question": "Under standard atmospheric conditions, approximately what percentage of the atmosphere's weight is below 18,000 feet?",
+      "correct_answer": "50 percent",
       "distractors": [
-        "Both the temperature and pressure decreases work together to reduce density at higher altitudes",
-        "The temperature decrease has a dominating effect over the pressure decrease, causing density to fall",
-        "The decrease in temperature causes air to expand at altitude, which reduces density faster than pressure does"
+        "25 percent",
+        "75 percent",
+        "90 percent"
       ],
-      "explanation": "According to PHAK Chapter 4, temperature and pressure have conflicting effects on air density as altitude increases. Decreasing temperature would tend to increase density, while decreasing pressure tends to decrease it. However, the handbook states that 'a fairly rapid drop in pressure as altitude increases usually has a dominating effect,' which is why pilots can expect density to decrease with altitude.",
+      "explanation": "The chapter states that the thickness of the atmosphere is limited, so the higher the altitude, the less air there is above. At 18,000 feet, the weight of the atmosphere is one-half what it is at sea level.",
       "reference": {
-        "page": "4-4",
-        "text": "As the density of the air increases (lower\n                                                                     density. Conversely, decreasing the temperature increases\ndensity altitude), aircraft performance increases; conversely\n                                                                     the density. Thus, the density of air varies inversely with\nas air density decreases (higher density altitude), aircraft\n                                                                     temperature. This statement is true only at a constant pressure.\nperformance decreases. A decrease in air density means\na high density altitude; an increase in air density means a\n                                                                     In the atmosphere, both temperature and pressure decrease\nlower density altitude. Density altitude is used in calculating\n                                                                     with altitude and have conflicting effects upon density.\naircraft performance because under standard atmospheric\n                                                                     However, a fairly rapid drop in pressure as altitude increases\nconditions, air at each level in the atmosphere not only has\n                                                                     usually has a dominating effect. Hence, pilots can expect the\na specific density, its pressure altitude and density altitude\n                                                                     density to decrease with altitude.\nidentify the same level. 4-4"
+        "page": "4-3",
+        "text": "The thickness of the atmosphere is limited; therefore, the higher the altitude, the less air there is above. For this reason, the weight of the atmosphere at 18,000 feet is one-half what it is at sea level."
       }
     },
     {
-      "section": "Effect of Temperature on Density",
+      "section": "Standard Atmosphere",
+      "difficulty": 2,
+      "categories": [
+        "written_exam"
+      ],
+      "question": "A pilot is flying at 10,000 feet on a standard day. What temperature should the pilot expect according to the standard atmosphere model?",
+      "correct_answer": "23.3 °F",
+      "distractors": [
+        "44.7 °F",
+        "37.6 °F",
+        "30.5 °F"
+      ],
+      "explanation": "The standard atmosphere table in Figure 4-3 lists the temperature at 10,000 feet as 23.3 °F. This is consistent with the standard temperature lapse rate of approximately 3.5 °F per thousand feet from the sea level value of 59 °F.",
+      "reference": {
+        "page": "4-3",
+        "text": "10,000 ... 20.57 ... -4.8 ... 23.3"
+      }
+    },
+    {
+      "section": "Pressure Altitude",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "A pilot wants to determine pressure altitude using the altimeter. What setting should be entered in the Kollsman window?",
+      "correct_answer": "29.92 \"Hg",
+      "distractors": [
+        "The current field elevation corrected for nonstandard temperature",
+        "The current altimeter setting reported by ATIS",
+        "30.00 \"Hg to correct for standard sea level pressure"
+      ],
+      "explanation": "The chapter states that pressure altitude can be determined by setting the barometric scale of the altimeter to 29.92 \"Hg and reading the indicated altitude. Pressure altitude is the height above the standard datum plane where atmospheric pressure is 29.92 \"Hg.",
+      "reference": {
+        "page": "4-4",
+        "text": "The pressure altitude can be determined by one of the following methods: 1. Setting the barometric scale of the altimeter to 29.92 and reading the indicated altitude"
+      }
+    },
+    {
+      "section": "Density Altitude",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "Which scenario would result in the highest density altitude?",
+      "correct_answer": "High elevation, high temperature, high humidity, and low atmospheric pressure",
+      "distractors": [
+        "Low elevation, high temperature, low humidity, and high atmospheric pressure",
+        "High elevation, low temperature, low humidity, and high atmospheric pressure",
+        "Low elevation, low temperature, high humidity, and low atmospheric pressure"
+      ],
+      "explanation": "The chapter states that high density altitude refers to thin air, and the conditions that result in a high density altitude are high elevations, low atmospheric pressures, high temperatures, high humidity, or some combination of these factors.",
+      "reference": {
+        "page": "4-4",
+        "text": "The conditions that result in a high density altitude are high elevations, low atmospheric pressures, high temperatures, high humidity, or some combination of these factors."
+      }
+    },
+    {
+      "section": "Density Altitude",
+      "difficulty": 2,
+      "categories": [
+        "checkride_oral"
+      ],
+      "question": "As air density decreases, how are engine power, thrust, and lift affected?",
+      "correct_answer": "All three decrease because the engine takes in less air, the propeller is less efficient, and thin air exerts less force on the airfoils.",
+      "distractors": [
+        "Engine power and thrust decrease, but lift increases because less drag is produced in thin air",
+        "Only lift decreases; engine power and thrust remain unchanged because the engine compensates for density changes",
+        "Engine power increases due to reduced air resistance, but thrust and lift decrease"
+      ],
+      "explanation": "The chapter explicitly lists the three effects of decreased air density: power is reduced because the engine takes in less air, thrust is reduced because a propeller is less efficient in thin air, and lift is reduced because thin air exerts less force on the airfoils.",
+      "reference": {
+        "page": "4-4",
+        "text": "Power because the engine takes in less air... Thrust because a propeller is less efficient in thin air... Lift because the thin air exerts less force on the airfoils"
+      }
+    },
+    {
+      "section": "Effect of Pressure on Density",
       "difficulty": 3,
       "categories": [
         "written_exam"
       ],
-      "question": "According to the Pilot's Handbook of Aeronautical Knowledge, basic physical laws alone do not fully explain how lift is formulated. What must be considered to understand this limitation?",
-      "correct_answer": "Many airfoils are symmetrical, yet produce significant lift.",
+      "question": "The chapter states that air density is directly proportional to pressure and inversely proportional to temperature. In the real atmosphere, both pressure and temperature decrease with altitude. Why does density still decrease with altitude?",
+      "correct_answer": "The rapid drop in pressure as altitude increases usually has a dominating effect over the temperature decrease.",
       "distractors": [
-        "The physical laws were developed centuries before the first successful human flight.",
-        "Symmetrical airfoils require a relative humidity of 100 percent to generate lift.",
-        "The laws of motion only account for the generation of drag, not lift."
+        "The temperature decrease actually increases density, which amplifies the pressure effect, causing density to increase with altitude",
+        "Both effects cancel each other out, so density remains roughly constant with altitude",
+        "The temperature decrease has a dominating effect because cold air is always denser regardless of pressure changes"
       ],
-      "explanation": "The PHAK states that while basic physical laws seem applicable to all aspects of lift, they do not fully explain how lift is formulated. The handbook specifically points out that one must consider the many airfoils that are symmetrical, yet produce significant lift, as evidence of this limitation.",
+      "explanation": "The chapter explains that in the atmosphere, both temperature and pressure decrease with altitude and have conflicting effects upon density. However, a fairly rapid drop in pressure as altitude increases usually has a dominating effect, so pilots can expect density to decrease with altitude.",
+      "reference": {
+        "page": "4-4",
+        "text": "In the atmosphere, both temperature and pressure decrease with altitude and have conflicting effects upon density. However, a fairly rapid drop in pressure as altitude increases usually has a dominating effect. Hence, pilots can expect the density to decrease with altitude."
+      }
+    },
+    {
+      "section": "Effect of Humidity (Moisture) on Density",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "Why does high humidity decrease air density and increase density altitude?",
+      "correct_answer": "Water vapor is lighter than dry air, so replacing dry air molecules with water vapor molecules reduces the overall mass of the air.",
+      "distractors": [
+        "Water vapor is heavier than dry air, which compresses the air column and reduces its volume",
+        "Humidity increases air temperature, which in turn increases density altitude independently of the water vapor itself",
+        "Water vapor displaces oxygen molecules, reducing the amount of combustible air available to the engine"
+      ],
+      "explanation": "The chapter states that water vapor is lighter than air; consequently, moist air is lighter than dry air. As the water content of the air increases, the air becomes less dense, increasing density altitude and decreasing performance.",
       "reference": {
         "page": "4-5",
-        "text": "Humidity, also called relative humidity, refers to the amount     Newton’s Basic Laws of Motion\nof water vapor contained in the atmosphere and is expressed\n                                                                  The formulation of lift has historically been an adaptation\nas a percentage of the maximum amount of water vapor the\n                                                                  over the past few centuries of basic physical laws. These\nair can hold. This amount varies with temperature. Warm air\n                                                                  laws, although seemingly applicable to all aspects of lift,\nholds more water vapor, while cold air holds less. Perfectly\n                                                                  do not explain how lift is formulated. In fact, one must\ndry air that contains no water vapor has a relative humidity\n                                                                  consider the many airfoils that are symmetrical, yet produce\nof zero percent, while saturated air, which cannot hold any\n                                                                  significant lift.\nmore water vapor, has a relative humidity of 100 percent.\nHumidity alone is usually not considered an important factor\n                                                                  The fundamental physical laws governing the forces acting\nin calculating density altitude and aircraft performance, but\n                                                                  upon an aircraft in flight were adopted from postulated\nit is a contributing factor.\n                                                                  theories developed before any human successfully flew\n                                                                  an aircraft. The use of these physical laws grew out of the\nAs temperature increases, the air can hold greater amounts\n                                                                  Scientific Revolution, which began in Europe in the 1600s.\nof water vapor. When comparing two separate air masses,\n                                                                  Driven by the belief the universe operated in a predictable\nthe first warm and moist (both qualities tending to lighten\n                                                                  manner open to human understanding, many philosophers,\nthe air) and the second cold and dry (both qualities making\n                                                                  mathematicians, natural scientists, and inventors spent their\nit heavier), the first must be less dense than the second.\n                                                                  lives unlocking the secrets of the universe. One of the most\nPressure, temperature, and humidity have a great influence\n                                                                  well-known was Sir Isaac Newton, who not only formulated\non aircraft performance because of their effect upon density.\n                                                                  the law of universal gravitation, but also described the three\nThere are no rules of thumb that can be easily applied, but\n                                                                  basic laws of motion.\nthe affect of humidity can be determined using several online\nformulas."
+        "text": "Water vapor is lighter than air; consequently, moist air is lighter than dry air. Therefore, as the water content of the air increases, the air becomes less dense, increasing density altitude and decreasing performance."
+      }
+    },
+    {
+      "section": "Newton's Basic Laws of Motion",
+      "difficulty": 1,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "A propeller pushes air backward. Which principle explains why the airplane moves forward, and which of Newton's laws directly applies?",
+      "correct_answer": "The air pushes back on the propeller with equal and opposite force, as described by Newton's Third Law.",
+      "distractors": [
+        "The propeller creates a pressure differential that pulls the airplane forward, as described by Bernoulli's Principle",
+        "The airplane's mass resists changes in motion until thrust overcomes inertia, as described by Newton's First Law",
+        "The acceleration of the airplane is proportional to its mass and the force applied, as described by Newton's Second Law"
+      ],
+      "explanation": "The chapter uses the propeller as a direct example of Newton's Third Law: 'For every action, there is an equal and opposite reaction.' The propeller moves and pushes back the air; consequently, the air pushes the propeller (and thus the airplane) in the opposite direction—forward.",
+      "reference": {
+        "page": "4-6",
+        "text": "In an airplane, the propeller moves and pushes back the air; consequently, the air pushes the propeller (and thus the airplane) in the opposite direction—forward."
+      }
+    },
+    {
+      "section": "Bernoulli's Principle of Differential Pressure",
+      "difficulty": 2,
+      "categories": [
+        "written_exam"
+      ],
+      "question": "In a venturi tube, what happens to air pressure at the constriction (throat) compared to the inlet?",
+      "correct_answer": "Pressure decreases because the velocity increases at the constriction.",
+      "distractors": [
+        "Pressure increases because the air is compressed at the narrow throat",
+        "Pressure remains constant because the same mass of air enters and exits the tube",
+        "Pressure decreases because the air cools as it passes through the constriction"
+      ],
+      "explanation": "The chapter explains that in a venturi tube, the mass of air entering must equal the mass exiting. At the constriction, speed must increase to allow the same amount of air to pass. Bernoulli's Principle states that as velocity increases, pressure decreases. So at the constriction, pressure drops.",
+      "reference": {
+        "page": "4-6",
+        "text": "At the constriction, the speed must increase to allow the same amount of air to pass in the same amount of time as in all other parts of the tube. When the air speeds up, the pressure also decreases."
+      }
+    },
+    {
+      "section": "Airfoil Design",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "What is the chord line of an airfoil?",
+      "correct_answer": "A straight line connecting the leading edge to the trailing edge",
+      "distractors": [
+        "A line equidistant at all points from the upper and lower surfaces of the airfoil",
+        "A line drawn from the leading edge to the point of maximum camber on the upper surface",
+        "A line representing the direction of the oncoming airflow relative to the airfoil"
+      ],
+      "explanation": "The chapter defines the chord line as a straight line drawn through the profile connecting the extremities of the leading and trailing edges. The line equidistant from upper and lower surfaces is the mean camber line, which is a different reference.",
+      "reference": {
+        "page": "4-6",
+        "text": "A reference line often used in discussing the airfoil is the chord line, a straight line drawn through the profile connecting the extremities of the leading and trailing edges."
+      }
+    },
+    {
+      "section": "Airfoil Design",
+      "difficulty": 3,
+      "categories": [
+        "general_knowledge"
+      ],
+      "question": "Why don't modern high-speed jet aircraft use a concave (scooped-out lower surface) airfoil as a fixed design, despite it being the most efficient at producing lift?",
+      "correct_answer": "A concave airfoil sacrifices too much speed while producing lift, making it unsuitable for high-speed flight.",
+      "distractors": [
+        "A concave airfoil produces too much drag at high angles of attack, making stalls uncontrollable",
+        "A concave airfoil cannot generate enough lift at the high angles of attack required for high-speed flight",
+        "A concave airfoil is structurally too weak to withstand the forces encountered at high speeds"
+      ],
+      "explanation": "The chapter states that the most efficient airfoil for producing the greatest lift is one with a concave lower surface, but as a fixed design, this type of airfoil sacrifices too much speed while producing lift and is not suitable for high-speed flight. Modern jets instead use leading and trailing edge flaps to temporarily change the airfoil shape into a concave form for slow flight.",
+      "reference": {
+        "page": "4-7",
+        "text": "The most efficient airfoil for producing the greatest lift is one that has a concave or 'scooped out' lower surface. As a fixed design, this type of airfoil sacrifices too much speed while producing lift and is not suitable for high-speed flight."
       }
     },
     {
       "section": "Low Pressure Above",
-      "difficulty": 3,
+      "difficulty": 2,
       "categories": [
-        "written_exam"
+        "checkride_oral"
       ],
-      "question": "A teardrop-shaped airfoil profile is placed in a moving stream of air at zero angle of attack. How would the air speed and pressure compare between the top and bottom surfaces?",
-      "correct_answer": "Air speed and pressure changes would be equal on both the top and bottom surfaces",
+      "question": "If a teardrop-shaped airfoil is cut in half lengthwise and inclined so airflow strikes it at an angle, what causes the reduced pressure on the upper surface?",
+      "correct_answer": "Air moving over the upper surface is forced to move faster than air along the bottom, and the increased velocity reduces the pressure per Bernoulli's Principle.",
       "distractors": [
-        "Air speed would be greater on top, creating lower pressure above the airfoil",
-        "Air speed would be greater on the bottom, creating lower pressure below the airfoil",
-        "Air speed would be equal, but pressure would be lower on top due to the curved surface"
+        "The angled airfoil deflects air downward from the upper surface, creating a vacuum above the wing",
+        "The lower surface blocks airflow, compressing air below and forcing air above to expand and cool",
+        "Friction between the air and the upper surface heats the air, causing it to rise and reduce pressure"
       ],
-      "explanation": "According to PHAK Chapter 4, if the airfoil profile were in the shape of a teardrop, the speed and pressure changes of the air passing over the top and bottom would be the same on both sides. This is because the teardrop shape is symmetrical, unlike a typical airfoil which is created by cutting the teardrop in half lengthwise to produce an asymmetrical shape that forces air to move faster over the upper surface, thereby reducing pressure above the airfoil (Bernoulli's Principle).",
+      "explanation": "The chapter describes how cutting a teardrop airfoil in half produces a basic wing section. When inclined at an angle, air moving over the upper surface is forced to move faster than air along the bottom. Applying Bernoulli's Principle, this increased velocity reduces the pressure above the airfoil, contributing to lift.",
       "reference": {
         "page": "4-7",
-        "text": "This\ndevelops two actions from the air mass: a positive pressure          In a wind tunnel or in flight, an airfoil is simply a streamlined\nlifting action from the air mass below the wing, and a negative      object inserted into a moving stream of air. If the airfoil\npressure lifting action from lowered pressure above the wing.        profile were in the shape of a teardrop, the speed and the\n                                                                     pressure changes of the air passing over the top and bottom\nAs the air stream strikes the relatively flat lower surface of       would be the same on both sides. But if the teardrop shaped\na wing or rotor blade when inclined at a small angle to its          airfoil were cut in half lengthwise, a form resembling the\ndirection of motion, the air is forced to rebound downward,          basic airfoil (wing) section would result. If the airfoil were\ncausing an upward reaction in positive lift. At the same time,       then inclined so the airflow strikes it at an angle, the air\nthe air stream striking the upper curved section of the leading      moving over the upper surface would be forced to move\nedge is deflected upward. An airfoil is shaped to cause an           faster than the air moving along the bottom of the airfoil.\naction on the air, and forces air downward, which provides           This increased velocity reduces the pressure above the airfoil.\nan equal reaction from the air, forcing the airfoil upward. If\na wing is constructed in such form that it causes a lift force       Applying Bernoulli’s Principle of Pressure, the increase in\ngreater than the weight of the aircraft, the aircraft will fly.      the speed of the air across the top of an airfoil produces a"
+        "text": "If the airfoil were then inclined so the airflow strikes it at an angle, the air moving over the upper surface would be forced to move faster than the air moving along the bottom of the airfoil. This increased velocity reduces the pressure above the airfoil."
       }
     },
     {
-      "section": "",
+      "section": "High Pressure Below",
+      "difficulty": 2,
+      "categories": [
+        "checkride_oral"
+      ],
+      "question": "At a point near the leading edge of the lower surface of an airfoil, the airflow is virtually stopped. What is this point called, and what is the pressure effect beneath the airfoil?",
+      "correct_answer": "It is called the stagnation point, and the slowed airflow creates a positive upward pressure beneath the airfoil.",
+      "distractors": [
+        "It is called the boundary layer, and the slowed airflow creates a negative pressure that reduces lift",
+        "It is called the center of pressure, and the slowed airflow creates equal pressure on both surfaces",
+        "It is called the downwash point, and the slowed airflow creates drag that opposes thrust"
+      ],
+      "explanation": "The chapter identifies the stagnation point near the leading edge where airflow is virtually stopped. As the airflow slows beneath the airfoil, Bernoulli's principle dictates that pressure must increase, creating a positive upward pressure that contributes to total lift.",
+      "reference": {
+        "page": "4-8",
+        "text": "At a point close to the leading edge, the airflow is virtually stopped (stagnation point) and then gradually increases speed... In conformance with Bernoulli's principle, where the airflow was slowed beneath the airfoil, a positive upward pressure was created"
+      }
+    },
+    {
+      "section": "Pressure Distribution",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "How does the center of pressure (CP) move as the angle of attack of an airfoil changes from low to high?",
+      "correct_answer": "The CP moves forward as angle of attack increases and moves aft as angle of attack decreases.",
+      "distractors": [
+        "The CP moves aft as angle of attack increases and forward as angle of attack decreases",
+        "The CP remains fixed at the aerodynamic center regardless of changes in angle of attack",
+        "The CP moves in a circular pattern around the chord line as angle of attack changes"
+      ],
+      "explanation": "The chapter states that at high angles of attack, the CP moves forward, while at low angles of attack, the CP moves aft. This CP travel is important in wing structure design and affects the airplane's aerodynamic balance and controllability.",
+      "reference": {
+        "page": "4-8",
+        "text": "At high angles of attack, the CP moves forward, while at low angles of attack the CP moves aft."
+      }
+    },
+    {
+      "section": "Airfoil Behavior",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "Symmetrical airfoils and flat plates (like a paper airplane) can produce lift even though their upper and lower surfaces are identical. What does this demonstrate about the production of lift?",
+      "correct_answer": "Lift can be produced by flow turning—the deflection of air caused by the airfoil's angle relative to the oncoming airstream—not just by pressure differences from unequal surface curvature.",
+      "distractors": [
+        "Symmetrical airfoils produce lift only at supersonic speeds where compressibility effects create pressure differences",
+        "Symmetrical airfoils cannot actually produce lift; they require asymmetric flaps to function",
+        "Symmetrical airfoils produce lift because the stagnation point shifts to the lower surface at all angles of attack"
+      ],
+      "explanation": "The chapter notes that many lifting airfoils, including symmetrical airfoils and flat plates, do not have an upper surface longer than the bottom. The only difference is the relationship of the airfoil with the oncoming airstream (angle). Flow turning—deflection of the air—is partly or fully responsible for creating lift in these cases.",
+      "reference": {
+        "page": "4-9",
+        "text": "many lifting airfoils do not have an upper surface longer than the bottom, as in the case of symmetrical airfoils... Yet, these airfoils do produce lift, and 'flow turning' is partly (or fully) responsible for creating lift."
+      }
+    },
+    {
+      "section": "A Third Dimension",
       "difficulty": 2,
       "categories": [
         "written_exam",
         "general_knowledge"
       ],
-      "question": "Why does the concentration of oxygen in the atmosphere decrease as a pilot climbs to higher altitudes?",
-      "correct_answer": "Oxygen is a heavier atmospheric element that settles toward Earth's surface, while lighter elements are lifted to higher altitudes",
+      "question": "What causes a tip vortex to form at the end of a wing, and what is its effect on the airfoil's performance?",
+      "correct_answer": "High-pressure air from beneath the wing flows around the tip to the low-pressure area on top, creating a rotating vortex that produces downwash and reduces lift for the affected portion of the airfoil.",
       "distractors": [
-        "Oxygen molecules are broken apart by solar radiation at higher altitudes, reducing their concentration",
-        "Oxygen is lighter than nitrogen and is dispersed by upper-level winds away from the surface",
-        "Decreasing temperature at altitude causes oxygen to condense and precipitate back to the surface"
+        "Air stagnating at the leading edge spills over the tip, creating a vortex that increases lift at the wingtip",
+        "Friction between the wingtip and the air creates a vortex that increases drag but has no effect on lift",
+        "The boundary layer separates at the trailing edge and curls around the tip, creating turbulence that increases lift at the wingtip"
       ],
-      "explanation": "According to PHAK Chapter 4, the atmosphere contains elements of different weights. Heavier elements like oxygen settle to the surface of the Earth, while lighter elements are lifted to higher altitudes. This is why most of the atmosphere's oxygen is contained below 35,000 feet. The decrease in oxygen concentration at altitude is a physical result of this stratification by molecular weight, not due to solar radiation, wind dispersion, or temperature-driven condensation.",
+      "explanation": "The chapter explains that the high-pressure area on the bottom of an airfoil pushes around the tip to the low-pressure area on top, creating a rotating flow called a tip vortex. The vortex flows behind the airfoil creating a downwash that results in an overall reduction in lift for the affected portion of the airfoil.",
       "reference": {
-        "page": "4-1",
-        "text": "The atmosphere is composed of 78 percent nitrogen, 21\npercent oxygen, and 1 percent other gases, such as argon\nor helium. Some of these elements are heavier than others.\nThe heavier elements, such as oxygen, settle to the surface\nof the Earth, while the lighter elements are lifted up to the\nregion of higher altitude. Most of the atmosphere’s oxygen\nis contained below 35,000 feet altitude. 4-1"
-      }
-    },
-    {
-      "section": "",
-      "difficulty": 2,
-      "categories": [
-        "written_exam"
-      ],
-      "question": "What determines how much a fluid resists flow, a property known as viscosity?",
-      "correct_answer": "The way individual molecules of the fluid adhere to each other",
-      "distractors": [
-        "The amount of friction between the fluid and the surface over which it flows",
-        "The overall density of the fluid",
-        "The fluid's ability to take the shape of its container"
-      ],
-      "explanation": "According to the Pilot's Handbook of Aeronautical Knowledge (PHAK) Chapter 4, viscosity is the property of a fluid that causes it to resist flowing. The text specifically states that the way individual molecules of the fluid tend to adhere, or stick, to each other determines how much a fluid resists flow. Friction is a separate factor that occurs between two contacting materials, while density and taking the shape of a container are general fluid properties not responsible for viscosity.",
-      "reference": {
-        "page": "4-2",
-        "text": "Air is a Fluid                                                       the viscosity of air. However, since air is a fluid and has\nWhen most people hear the word “fluid,” they usually think           viscosity properties, it resists flow around any object to\nof liquid. However, gasses, like air, are also fluids. Fluids        some extent.\ntake on the shape of their containers. Fluids generally do not\nresist deformation when even the smallest stress is applied,         Friction\nor they resist it only slightly. We call this slight resistance      Another factor at work when a fluid flows over or around\nviscosity. Fluids also have the ability to flow. Just as a liquid    an object is called friction. Friction is the resistance that one\nflows and fills a container, air will expand to fill the available   surface or object encounters when moving over another.\nvolume of its container. Both liquids and gasses display these       Friction exists between any two materials that contact each\nunique fluid properties, even though they differ greatly in          other.\ndensity. Understanding the fluid properties of air is essential\nto understanding the principles of flight.                           The effects of friction can be demonstrated using a similar\n                                                                     example as before. If identical fluids are poured down two\nViscosity                                                            identical ramps, they flow in the same manner and at the\nViscosity is the property of a fluid that causes it to resist        same speed. If the surface of one ramp is rough, and the other\nflowing. The way individual molecules of the fluid tend to           smooth, the flow down the two ramps differs significantly.\nadhere, or stick, to each other determines how much a fluid          The rough surface ramp impedes the flow of the fluid due\nresists flow. High-viscosity fluids are “thick” and resist flow;     to resistance from the surface (friction)."
-      }
-    },
-    {
-      "section": "",
-      "difficulty": 2,
-      "categories": [
-        "written_exam",
-        "checkride_oral"
-      ],
-      "question": "When air flows around an object such as an aircraft wing, it resists flow to some extent. What property of air accounts for this resistance?",
-      "correct_answer": "Viscosity, which is the property of a fluid that causes it to resist flowing",
-      "distractors": [
-        "Friction, which is the resistance that one surface encounters when moving over another",
-        "Density, which is the mass of air contained per unit volume",
-        "Pressure, which is the force air exerts perpendicular to a surface"
-      ],
-      "explanation": "According to the PHAK Chapter 4, viscosity is the property of a fluid that causes it to resist flowing. Since air is a fluid and has viscosity properties, it resists flow around any object to some extent. Friction, while also present when a fluid flows over an object, is a separate concept defined as the resistance between two surfaces in contact with each other — not an inherent property of the fluid itself.",
-      "reference": {
-        "page": "4-2",
-        "text": "Air is a Fluid                                                       the viscosity of air. However, since air is a fluid and has\nWhen most people hear the word “fluid,” they usually think           viscosity properties, it resists flow around any object to\nof liquid. However, gasses, like air, are also fluids. Fluids        some extent.\ntake on the shape of their containers. Fluids generally do not\nresist deformation when even the smallest stress is applied,         Friction\nor they resist it only slightly. We call this slight resistance      Another factor at work when a fluid flows over or around\nviscosity. Fluids also have the ability to flow. Just as a liquid    an object is called friction. Friction is the resistance that one\nflows and fills a container, air will expand to fill the available   surface or object encounters when moving over another.\nvolume of its container. Both liquids and gasses display these       Friction exists between any two materials that contact each\nunique fluid properties, even though they differ greatly in          other.\ndensity. Understanding the fluid properties of air is essential\nto understanding the principles of flight.                           The effects of friction can be demonstrated using a similar\n                                                                     example as before. If identical fluids are poured down two\nViscosity                                                            identical ramps, they flow in the same manner and at the\nViscosity is the property of a fluid that causes it to resist        same speed. If the surface of one ramp is rough, and the other\nflowing. The way individual molecules of the fluid tend to           smooth, the flow down the two ramps differs significantly.\nadhere, or stick, to each other determines how much a fluid          The rough surface ramp impedes the flow of the fluid due\nresists flow. High-viscosity fluids are “thick” and resist flow;     to resistance from the surface (friction)."
-      }
-    },
-    {
-      "section": "",
-      "difficulty": 2,
-      "categories": [
-        "written_exam"
-      ],
-      "question": "If identical fluids are poured down two identical ramps—one with a rough surface and one with a smooth surface—the fluid flows more slowly down the rough ramp. What is the primary reason for this difference?",
-      "correct_answer": "The rough surface creates friction that resists the movement of the fluid over it",
-      "distractors": [
-        "The rough surface increases the fluid's viscosity, causing it to resist flow internally",
-        "The rough surface increases the fluid's density, making it heavier and slower to move",
-        "The rough surface causes the fluid molecules to adhere more strongly to each other"
-      ],
-      "explanation": "According to PHAK Chapter 4, friction is the resistance that one surface or object encounters when moving over another. When a fluid flows over a rough surface, the surface impedes the flow due to this friction. This is distinct from viscosity, which is the property of a fluid that causes it to resist flowing based on how individual molecules adhere to each other—an inherent property of the fluid itself, not something changed by the surface it flows over.",
-      "reference": {
-        "page": "4-2",
-        "text": "Air is a Fluid                                                       the viscosity of air. However, since air is a fluid and has\nWhen most people hear the word “fluid,” they usually think           viscosity properties, it resists flow around any object to\nof liquid. However, gasses, like air, are also fluids. Fluids        some extent.\ntake on the shape of their containers. Fluids generally do not\nresist deformation when even the smallest stress is applied,         Friction\nor they resist it only slightly. We call this slight resistance      Another factor at work when a fluid flows over or around\nviscosity. Fluids also have the ability to flow. Just as a liquid    an object is called friction. Friction is the resistance that one\nflows and fills a container, air will expand to fill the available   surface or object encounters when moving over another.\nvolume of its container. Both liquids and gasses display these       Friction exists between any two materials that contact each\nunique fluid properties, even though they differ greatly in          other.\ndensity. Understanding the fluid properties of air is essential\nto understanding the principles of flight.                           The effects of friction can be demonstrated using a similar\n                                                                     example as before. If identical fluids are poured down two\nViscosity                                                            identical ramps, they flow in the same manner and at the\nViscosity is the property of a fluid that causes it to resist        same speed. If the surface of one ramp is rough, and the other\nflowing. The way individual molecules of the fluid tend to           smooth, the flow down the two ramps differs significantly.\nadhere, or stick, to each other determines how much a fluid          The rough surface ramp impedes the flow of the fluid due\nresists flow. High-viscosity fluids are “thick” and resist flow;     to resistance from the surface (friction)."
-      }
-    },
-    {
-      "section": "",
-      "difficulty": 2,
-      "categories": [
-        "written_exam",
-        "general_knowledge"
-      ],
-      "question": "A student pilot argues that viscosity is not a factor in airflow over a wing because air flows so easily that its resistance to flow cannot be observed. Which statement best explains why this reasoning is incorrect?",
-      "correct_answer": "All fluids, including air, have viscosity and a resistance to flow, whether or not that resistance is easily observed.",
-      "distractors": [
-        "Viscosity only applies to liquids such as oil and water; gases like air do not exhibit viscosity.",
-        "Air has no viscosity of its own, but the microscopic roughness of the wing surface creates an effect identical to viscosity.",
-        "Air only becomes viscous when it flows over a rough surface; in free flight away from surfaces, air has no viscosity."
-      ],
-      "explanation": "According to PHAK Chapter 4, all fluids are viscous and have a resistance to flow, whether or not we observe this resistance. Air is specifically described as a low-viscosity fluid that flows easily, but it still has viscosity. This viscosity is aerodynamically significant because air molecules adhere to the wing surface due to friction, forming the boundary layer. The first distractor is wrong because viscosity applies to all fluids, not just liquids. The second distractor is wrong because it confuses surface roughness (which impedes flow) with viscosity (an inherent fluid property)—both contribute to drag but are distinct concepts. The third distractor is wrong because viscosity is an intrinsic property of air at all times, not something induced only by surface contact.",
-      "reference": {
-        "page": "4-2",
-        "text": "It is important to\nlow-viscosity fluids are “thin” and flow easily. Air has a low       remember that all surfaces, no matter how smooth they\nviscosity and flows easily.                                          appear, are not smooth on a microscopic level and impede\n                                                                     the flow of a fluid.\nUsing two liquids as an example, similar amounts of oil and\nwater poured down two identical ramps will flow at different         The surface of a wing, like any other surface, has a certain\nrates due to their different viscosity. The water seems to flow      roughness at the microscopic level. The surface roughness\nfreely while the oil flows much more slowly.                         causes resistance and slows the velocity of the air flowing\n                                                                     over the wing. [Figure 4-1]\nAs another example, different types of similar liquids will\ndisplay different behaviors because of different viscosities.        Molecules of air pass over the surface of the wing and actually\nGrease is very viscous. Given time, grease will flow, even           adhere (stick, or cling) to the surface because of friction. Air\nthough the flow rate will be slow. Motor oil is less viscous         molecules near the surface of the wing resist motion and have\nthan grease and flows much more easily, but it is more viscous       a relative velocity near zero. The roughness of the surface\nand flows more slowly than gasoline.                                 impedes their motion. The layer of molecules that adhere to\n                                                                     the wing surface is referred to as the boundary layer.\nAll fluids are viscous and have a resistance to flow, whether\nor not we observe this resistance. We cannot easily observe Leading edge of wing under 1,500x magnification 4-2"
-      }
-    },
-    {
-      "section": "",
-      "difficulty": 2,
-      "categories": [
-        "written_exam",
-        "checkride_oral"
-      ],
-      "question": "Even on a wing that appears perfectly smooth, air molecules in direct contact with the wing surface have a relative velocity near zero. What is the primary cause of this velocity reduction?",
-      "correct_answer": "Microscopic surface roughness creates resistance that impedes the motion of air molecules at the surface.",
-      "distractors": [
-        "The viscosity of air increases as it approaches the wing surface, thickening and slowing the flow.",
-        "Pressure differences between the upper and lower wing surfaces compress air molecules at the boundary.",
-        "Temperature gradients at the wing surface increase air density, reducing local airspeed."
-      ],
-      "explanation": "According to PHAK Chapter 4, all surfaces—including a wing—have a certain roughness at the microscopic level, no matter how smooth they appear. This surface roughness causes resistance and slows the velocity of the air flowing over the wing. Air molecules adhere to the wing surface because of friction, and their relative velocity near zero forms what is called the boundary layer. The viscosity of air itself does not change near the surface, and pressure differentials or temperature gradients are not the cause of this boundary layer effect.",
-      "reference": {
-        "page": "4-2",
-        "text": "It is important to\nlow-viscosity fluids are “thin” and flow easily. Air has a low       remember that all surfaces, no matter how smooth they\nviscosity and flows easily.                                          appear, are not smooth on a microscopic level and impede\n                                                                     the flow of a fluid.\nUsing two liquids as an example, similar amounts of oil and\nwater poured down two identical ramps will flow at different         The surface of a wing, like any other surface, has a certain\nrates due to their different viscosity. The water seems to flow      roughness at the microscopic level. The surface roughness\nfreely while the oil flows much more slowly.                         causes resistance and slows the velocity of the air flowing\n                                                                     over the wing. [Figure 4-1]\nAs another example, different types of similar liquids will\ndisplay different behaviors because of different viscosities.        Molecules of air pass over the surface of the wing and actually\nGrease is very viscous. Given time, grease will flow, even           adhere (stick, or cling) to the surface because of friction. Air\nthough the flow rate will be slow. Motor oil is less viscous         molecules near the surface of the wing resist motion and have\nthan grease and flows much more easily, but it is more viscous       a relative velocity near zero. The roughness of the surface\nand flows more slowly than gasoline.                                 impedes their motion. The layer of molecules that adhere to\n                                                                     the wing surface is referred to as the boundary layer.\nAll fluids are viscous and have a resistance to flow, whether\nor not we observe this resistance. We cannot easily observe Leading edge of wing under 1,500x magnification 4-2"
-      }
-    },
-    {
-      "section": "",
-      "difficulty": 2,
-      "categories": [
-        "written_exam",
-        "checkride_oral"
-      ],
-      "question": "What causes air molecules to adhere to a wing's surface, forming the boundary layer?",
-      "correct_answer": "Friction between the air and the microscopic roughness of the wing's surface",
-      "distractors": [
-        "The pressure difference above and below the wing forces molecules against the surface",
-        "The viscosity of air increases as it approaches a solid surface",
-        "Compressibility effects at the leading edge trap molecules against the wing"
-      ],
-      "explanation": "According to PHAK Chapter 4, even a wing that appears smooth has microscopic surface roughness. Air molecules passing over the wing adhere (stick or cling) to the surface because of friction caused by this roughness. These molecules resist motion and have a relative velocity near zero, forming the boundary layer. The other choices incorrectly attribute the boundary layer to pressure differences, changes in viscosity, or compressibility effects.",
-      "reference": {
-        "page": "4-2",
-        "text": "It is important to\nlow-viscosity fluids are “thin” and flow easily. Air has a low       remember that all surfaces, no matter how smooth they\nviscosity and flows easily.                                          appear, are not smooth on a microscopic level and impede\n                                                                     the flow of a fluid.\nUsing two liquids as an example, similar amounts of oil and\nwater poured down two identical ramps will flow at different         The surface of a wing, like any other surface, has a certain\nrates due to their different viscosity. The water seems to flow      roughness at the microscopic level. The surface roughness\nfreely while the oil flows much more slowly.                         causes resistance and slows the velocity of the air flowing\n                                                                     over the wing. [Figure 4-1]\nAs another example, different types of similar liquids will\ndisplay different behaviors because of different viscosities.        Molecules of air pass over the surface of the wing and actually\nGrease is very viscous. Given time, grease will flow, even           adhere (stick, or cling) to the surface because of friction. Air\nthough the flow rate will be slow. Motor oil is less viscous         molecules near the surface of the wing resist motion and have\nthan grease and flows much more easily, but it is more viscous       a relative velocity near zero. The roughness of the surface\nand flows more slowly than gasoline.                                 impedes their motion. The layer of molecules that adhere to\n                                                                     the wing surface is referred to as the boundary layer.\nAll fluids are viscous and have a resistance to flow, whether\nor not we observe this resistance. We cannot easily observe Leading edge of wing under 1,500x magnification 4-2"
-      }
-    },
-    {
-      "section": "",
-      "difficulty": 2,
-      "categories": [
-        "written_exam",
-        "checkride_oral"
-      ],
-      "question": "Why do air molecules in direct contact with a wing's surface have a relative velocity near zero?",
-      "correct_answer": "The molecules adhere to the surface due to friction caused by microscopic surface roughness",
-      "distractors": [
-        "The molecules are compressed against the surface by high dynamic pressure at the leading edge",
-        "The molecules lose velocity due to temperature changes at the skin-to-air interface",
-        "The molecules are deflected downward by the wing's angle of attack, momentarily stopping their forward motion"
-      ],
-      "explanation": "According to the PHAK Chapter 4, molecules of air pass over the surface of the wing and actually adhere to the surface because of friction. The surface of a wing has a certain roughness at the microscopic level, which causes resistance and slows the velocity of the air flowing over the wing. Air molecules near the surface resist motion and have a relative velocity near zero. This layer of molecules adhering to the wing surface is called the boundary layer. The near-zero velocity is not caused by compression, temperature effects, or angle of attack deflection, but by friction between the air and the microscopic roughness of the wing surface.",
-      "reference": {
-        "page": "4-2",
-        "text": "It is important to\nlow-viscosity fluids are “thin” and flow easily. Air has a low       remember that all surfaces, no matter how smooth they\nviscosity and flows easily.                                          appear, are not smooth on a microscopic level and impede\n                                                                     the flow of a fluid.\nUsing two liquids as an example, similar amounts of oil and\nwater poured down two identical ramps will flow at different         The surface of a wing, like any other surface, has a certain\nrates due to their different viscosity. The water seems to flow      roughness at the microscopic level. The surface roughness\nfreely while the oil flows much more slowly.                         causes resistance and slows the velocity of the air flowing\n                                                                     over the wing. [Figure 4-1]\nAs another example, different types of similar liquids will\ndisplay different behaviors because of different viscosities.        Molecules of air pass over the surface of the wing and actually\nGrease is very viscous. Given time, grease will flow, even           adhere (stick, or cling) to the surface because of friction. Air\nthough the flow rate will be slow. Motor oil is less viscous         molecules near the surface of the wing resist motion and have\nthan grease and flows much more easily, but it is more viscous       a relative velocity near zero. The roughness of the surface\nand flows more slowly than gasoline.                                 impedes their motion. The layer of molecules that adhere to\n                                                                     the wing surface is referred to as the boundary layer.\nAll fluids are viscous and have a resistance to flow, whether\nor not we observe this resistance. We cannot easily observe Leading edge of wing under 1,500x magnification 4-2"
-      }
-    },
-    {
-      "section": "Sea Level",
-      "difficulty": 2,
-      "categories": [
-        "written_exam",
-        "checkride_oral"
-      ],
-      "question": "According to aerodynamic principles, drag is created when which two forces act together to resist airflow over a wing?",
-      "correct_answer": "Friction from the boundary layer adhering to the wing and viscosity, the air's tendency to stick to itself.",
-      "distractors": [
-        "Pressure applied perpendicular to the wing's surface and the density of the air mass.",
-        "Inertia resisting the aircraft's forward motion and the momentum of the relative wind.",
-        "Temperature variations along the wing's surface and humidity in the boundary layer."
-      ],
-      "explanation": "The PHAK states that once the boundary layer of the air adheres to the wing by friction, further resistance to the airflow is caused by viscosity, which is the tendency of the air to stick to itself. When these two forces act together to resist airflow over a wing, it is called drag.",
-      "reference": {
-        "page": "4-3",
-        "text": "Once the boundary layer of the air adheres to the wing by\nfriction, further resistance to the airflow is caused by the\nviscosity, the tendency of the air to stick to itself. When                               Inches of\nthese two forces act together to resist airflow over a wing,             Sea Level\n                                                                                           Mercury\nit is called drag.                                                       Pressure         30                        1016   Pressure\n                                                                         29.92 Hg         25                         847   1013 mb\nPressure                                                                                  20                         677\nPressure is the force applied in a perpendicular direction to the\n                                                                                          15                         508\nsurface of an object. Often, pressure is measured in pounds of\nforce exerted per square inch of an object, or PSI. An object                             10                         339"
-      }
-    },
-    {
-      "section": "Sea Level",
-      "difficulty": 2,
-      "categories": [
-        "written_exam",
-        "checkride_oral"
-      ],
-      "question": "Which physical property causes the boundary layer of air to adhere to the surface of an aircraft wing?",
-      "correct_answer": "Friction",
-      "distractors": [
-        "Viscosity",
-        "Air pressure",
-        "Drag"
-      ],
-      "explanation": "According to the Pilot's Handbook of Aeronautical Knowledge, the boundary layer of air adheres to the wing by friction. Viscosity (the tendency of air to stick to itself) causes further resistance to the airflow, and when friction and viscosity act together to resist the airflow over the wing, the resulting force is called drag.",
-      "reference": {
-        "page": "4-3",
-        "text": "Once the boundary layer of the air adheres to the wing by\nfriction, further resistance to the airflow is caused by the\nviscosity, the tendency of the air to stick to itself. When                               Inches of\nthese two forces act together to resist airflow over a wing,             Sea Level\n                                                                                           Mercury\nit is called drag.                                                       Pressure         30                        1016   Pressure\n                                                                         29.92 Hg         25                         847   1013 mb\nPressure                                                                                  20                         677\nPressure is the force applied in a perpendicular direction to the\n                                                                                          15                         508\nsurface of an object. Often, pressure is measured in pounds of\nforce exerted per square inch of an object, or PSI. An object                             10                         339"
-      }
-    },
-    {
-      "section": "Sea Level",
-      "difficulty": 2,
-      "categories": [
-        "written_exam",
-        "checkride_oral"
-      ],
-      "question": "According to the principles of aerodynamics, if an object is completely immersed in a fluid and the pressure on one of its surfaces becomes less than the pressure exerted on the other surfaces, in which direction will the object move?",
-      "correct_answer": "In the direction of the lower pressure.",
-      "distractors": [
-        "In the direction of the higher pressure.",
-        "Perpendicular to the pressure differential.",
-        "It remains stationary until the pressure equalizes."
-      ],
-      "explanation": "According to the Pilot's Handbook of Aeronautical Knowledge (Chapter 4), an object immersed in a fluid normally feels pressure uniformly around its entire surface. However, if the pressure on one surface becomes less than the pressure exerted on the other surfaces, a force is created that causes the object to move in the direction of the lower pressure. This principle is the fundamental basis for how an airfoil generates lift.",
-      "reference": {
-        "page": "4-3",
-        "text": "completely immersed in a fluid will feel pressure uniformly                                5              170\naround the entire surface of the object. If the pressure on one                          Atmospheric Pressure\n                                                                                           0                0\nsurface of the object becomes less than the pressure exerted\non the other surfaces, the object will move in the direction\nof the lower pressure."
-      }
-    },
-    {
-      "section": "The International Civil Aviation Organization (ICAO) has",
-      "difficulty": 2,
-      "categories": [
-        "written_exam",
-        "general_knowledge"
-      ],
-      "question": "Why does atmospheric pressure decrease as altitude increases, according to the principles of aerodynamics?",
-      "correct_answer": "The atmosphere has limited thickness, so at higher altitudes there is less air above to exert weight downward",
-      "distractors": [
-        "Gravity's pull weakens significantly with altitude, reducing the force on air molecules",
-        "Air molecules spread farther apart at altitude, reducing their individual kinetic energy against surfaces",
-        "Temperature decreases with altitude, causing air molecules to contract and exert less pressure"
-      ],
-      "explanation": "The PHAK states that air has mass and is affected by gravity, giving it weight and force. Because the atmosphere has limited thickness, the higher the altitude, the less air there is above to exert weight. This is why at 18,000 feet the weight of the atmosphere is one-half of what it is at sea level. The pressure decrease is caused by the reduced weight of the air column above, not by changes in gravity, molecular spacing, or temperature.",
-      "reference": {
-        "page": "4-3",
-        "text": "Although there are various kinds of pressure, pilots are\nmainly concerned with atmospheric pressure. It is one of\nthe basic factors in weather changes, helps to lift an aircraft,\nand actuates some of the important flight instruments. These\ninstruments are the altimeter, airspeed indicator, vertical\nspeed indicator, and manifold pressure gauge.\n                                                                                                                 Temperature\nAir is very light, but it has mass and is affected by the                Altitude (ft)    Pressure (Hg)\nattraction of gravity. Therefore, like any other substance,\nit has weight, and because of its weight, it has force. Since                   0              29.92         15.0            59.0\n                                                                            1,000              28.86         13.0            55.4\nair is a fluid substance, this force is exerted equally in all\n                                                                            2,000              27.82         11.0            51.9\ndirections. Its effect on bodies within the air is called pressure.         3,000              26.82          9.1            48.3\nUnder standard conditions at sea level, the average pressure                4,000              25.84          7.1            44.7\nexerted by the weight of the atmosphere is approximately                    5,000              24.89          5.1            41.2\n14.70 pounds per square inch (psi) of surface, or 1,013.2                   6,000              23.98          3.1            37.6\nmillibars (mb). The thickness of the atmosphere is limited;                 7,000              23.09          1.1            34.0\ntherefore, the higher the altitude, the less air there is above.            8,000              22.22         -0.9            30.5\nFor this reason, the weight of the atmosphere at 18,000 feet                9,000              21.38         -2.8            26.9\n                                                                           10,000              20.57         -4.8            23.3\nis one-half what it is at sea level.\n                                                                           11,000              19.79         -6.8            19.8\n                                                                           12,000              19.02         -8.8            16.2\nThe pressure of the atmosphere varies with time and location."
-      }
-    },
-    {
-      "section": "The International Civil Aviation Organization (ICAO) has",
-      "difficulty": 2,
-      "categories": [
-        "general_knowledge"
-      ],
-      "question": "Why is air able to exert pressure on bodies within it, and how is that force distributed?",
-      "correct_answer": "Air has mass and weight, and as a fluid substance, it exerts force equally in all directions",
-      "distractors": [
-        "Air is weightless but creates pressure through rapid molecular movement in one direction",
-        "Air has mass but only exerts force downward due to the pull of gravity",
-        "Air is a solid substance at altitude that compresses against nearby surfaces"
-      ],
-      "explanation": "The PHAK states that air is very light but has mass and is affected by the attraction of gravity, giving it weight and therefore force. Because air is a fluid substance, this force is exerted equally in all directions—not just downward—and its effect on bodies within the air is called pressure. This pressure is fundamental to lifting aircraft and actuating flight instruments such as the altimeter and airspeed indicator.",
-      "reference": {
-        "page": "4-3",
-        "text": "Although there are various kinds of pressure, pilots are\nmainly concerned with atmospheric pressure. It is one of\nthe basic factors in weather changes, helps to lift an aircraft,\nand actuates some of the important flight instruments. These\ninstruments are the altimeter, airspeed indicator, vertical\nspeed indicator, and manifold pressure gauge.\n                                                                                                                 Temperature\nAir is very light, but it has mass and is affected by the                Altitude (ft)    Pressure (Hg)\nattraction of gravity. Therefore, like any other substance,\nit has weight, and because of its weight, it has force. Since                   0              29.92         15.0            59.0\n                                                                            1,000              28.86         13.0            55.4\nair is a fluid substance, this force is exerted equally in all\n                                                                            2,000              27.82         11.0            51.9\ndirections. Its effect on bodies within the air is called pressure.         3,000              26.82          9.1            48.3\nUnder standard conditions at sea level, the average pressure                4,000              25.84          7.1            44.7\nexerted by the weight of the atmosphere is approximately                    5,000              24.89          5.1            41.2\n14.70 pounds per square inch (psi) of surface, or 1,013.2                   6,000              23.98          3.1            37.6\nmillibars (mb). The thickness of the atmosphere is limited;                 7,000              23.09          1.1            34.0\ntherefore, the higher the altitude, the less air there is above.            8,000              22.22         -0.9            30.5\nFor this reason, the weight of the atmosphere at 18,000 feet                9,000              21.38         -2.8            26.9\n                                                                           10,000              20.57         -4.8            23.3\nis one-half what it is at sea level.\n                                                                           11,000              19.79         -6.8            19.8\n                                                                           12,000              19.02         -8.8            16.2\nThe pressure of the atmosphere varies with time and location."
-      }
-    },
-    {
-      "section": "The International Civil Aviation Organization (ICAO) has",
-      "difficulty": 2,
-      "categories": [
-        "written_exam",
-        "checkride_oral"
-      ],
-      "question": "Under the International Standard Atmosphere (ISA), how much does temperature decrease per thousand feet up to 36,000 feet?",
-      "correct_answer": "Approximately 3.5 °F or 2 °C",
-      "distractors": [
-        "Approximately 1 \"Hg",
-        "Approximately 59 °F or 15 °C",
-        "Approximately 3.5 °F or 2 °C per 500 feet"
-      ],
-      "explanation": "According to the Pilot's Handbook of Aeronautical Knowledge (PHAK) Chapter 4, a standard temperature lapse rate is when the temperature decreases at a rate of approximately 3.5 °F or 2 °C per thousand feet up to 36,000 feet. The 1 \"Hg per 1,000 feet refers to the standard pressure lapse rate, while 59 °F or 15 °C represents the standard sea level temperature.",
-      "reference": {
-        "page": "4-3",
-        "text": "13,000              18.29        -10.8            12.6\nDue to the changing atmospheric pressure, a standard                       14,000              17.57        -12.7             9.1\nreference was developed. The standard atmosphere at sea                    15,000              16.88        -14.7             5.5\nlevel is a surface temperature of 59 °F or 15 °C and a surface             16,000              16.21        -16.7             1.9\npressure of 29.92 inches of mercury (\"Hg) or 1,013.2 mb.                   17,000              15.56        -18.7            -1.6\n[Figure 4-2]                                                               18,000              14.94        -20.7            -5.2\n                                                                           19,000              14.33        -22.6            -8.8\n                                                                           20,000              13.74        -24.6           -12.3\nA standard temperature lapse rate is when the temperature\ndecreases at the rate of approximately 3.5 °F or 2 °C per             Figure 4-3. Properties of standard atmosphere.\nthousand feet up to 36,000 feet, which is approximately –65\n°F or –55 °C. Above this point, the temperature is considered         referred to as International Standard Atmosphere (ISA) or\nconstant up to 80,000 feet. A standard pressure lapse rate is         ICAO Standard Atmosphere. Any temperature or pressure\nwhen pressure decreases at a rate of approximately 1 \"Hg              that differs from the standard lapse rates is considered\nper 1,000 feet of altitude gain to 10,000 feet. [Figure 4-3]          nonstandard temperature and pressure.\nestablished this as a worldwide standard, and it is often 4-3"
+        "page": "4-9",
+        "text": "The high-pressure area on the bottom of an airfoil pushes around the tip to the low-pressure area on the top. This action creates a rotating flow called a tip vortex. The vortex flows behind the airfoil creating a downwash that extends back to the trailing edge of the airfoil. This downwash results in an overall reduction in lift for the affected portion of the airfoil."
       }
     }
   ]

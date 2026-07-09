@@ -3,362 +3,363 @@
   "chapter": 10,
   "questions": [
     {
-      "section": "Effects of Adverse Balance",
-      "difficulty": 3,
+      "section": "Effects of Weight",
+      "difficulty": 1,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "Which of the following is NOT listed as a performance deficiency of an overloaded aircraft?",
+      "correct_answer": "Increased maneuverability",
+      "distractors": [
+        "Higher stalling speed",
+        "Longer takeoff run",
+        "Reduced rate and angle of climb"
+      ],
+      "explanation": "The chapter lists 'Reduced maneuverability' as a deficiency of an overloaded aircraft, not increased maneuverability. Higher stalling speed, longer takeoff run, and reduced rate and angle of climb are all explicitly listed as performance deficiencies.",
+      "reference": {
+        "page": "10-2",
+        "text": "The most important performance deficiencies of an overloaded aircraft are: Higher takeoff speed, Longer takeoff run, Reduced rate and angle of climb, Lower maximum altitude, Shorter range, Reduced cruising speed, Reduced maneuverability, Higher stalling speed, Higher approach and landing speed, Longer landing roll, Excessive weight on the nose wheel or tail wheel"
+      }
+    },
+    {
+      "section": "Weight Changes",
+      "difficulty": 2,
       "categories": [
         "written_exam",
         "checkride_oral"
       ],
-      "question": "A pilot is on short final and attempts to flare for landing, but despite applying full aft elevator, the nose does not rise sufficiently to arrest the descent. Which weight and balance condition is most likely causing this situation?",
-      "correct_answer": "The CG is located beyond the forward limit, resulting in nose heaviness",
+      "question": "A pilot reduces the fuel load to lower the aircraft's weight during flight planning. What consequence must be taken into consideration?",
+      "correct_answer": "The range of the airplane will decrease",
       "distractors": [
-        "The CG is located beyond the aft limit, resulting in nose heaviness",
-        "The CG is located beyond the aft limit, reducing elevator effectiveness at low airspeed",
-        "The lateral CG is unbalanced, creating unequal lift that prevents proper flare"
+        "The CG will shift forward proportionally",
+        "The aircraft's structural integrity will be compromised",
+        "The stalling speed will increase"
       ],
-      "explanation": "According to the PHAK Chapter 10, a CG location beyond the forward limit may result in nose heaviness, making it difficult or impossible to flare for landing. The forward CG limit is established based on landing characteristics because sufficient elevator control deflection must be available at minimum airspeed. An aft CG limit would produce the opposite problem—very light control forces and potential overstress—not nose heaviness. A lateral CG imbalance causes a wing-heavy condition, not an inability to flare.",
+      "explanation": "The chapter states that reducing fuel to lower weight results in a decrease in range that must be considered. The CG does not necessarily shift forward proportionally, structural integrity is not compromised by reducing weight, and stalling speed would decrease, not increase, with lower weight.",
+      "reference": {
+        "page": "10-2",
+        "text": "If a pilot lowers airplane weight by reducing fuel, the resulting decrease in the range of the airplane must be taken into consideration during flight planning."
+      }
+    },
+    {
+      "section": "Balance, Stability, and Center of Gravity",
+      "difficulty": 1,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "The center of gravity (CG) of an aircraft is best described as:",
+      "correct_answer": "The point at which the aircraft would balance if it were suspended at that point",
+      "distractors": [
+        "The fixed point at which the aircraft's lift is concentrated",
+        "The geometric center of the wing's mean aerodynamic chord",
+        "The location of the reference datum established by the manufacturer"
+      ],
+      "explanation": "The chapter defines CG as the point at which the aircraft would balance if suspended at that point. It is not fixed (it shifts with weight distribution), is not the MAC center, and is not the datum.",
+      "reference": {
+        "page": "10-2",
+        "text": "The CG is a point at which the aircraft would balance if it were possible to suspend it at that point."
+      }
+    },
+    {
+      "section": "Effects of Adverse Balance — Stability",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "Why is the forward CG limit often established based on an aircraft's landing characteristics?",
+      "correct_answer": "Exceeding the forward CG limit during landing may result in excessive loads on the nosewheel and higher stalling speeds",
+      "distractors": [
+        "A forward CG improves landing performance by increasing approach speed",
+        "The forward CG limit determines the maximum landing weight of the aircraft",
+        "A forward CG during landing reduces elevator effectiveness during cruise flight"
+      ],
+      "explanation": "The chapter states the forward CG limit is determined by landing characteristics, and exceeding it may cause excessive nosewheel loads, nose-over tendency in tailwheel aircraft, decreased performance, higher stalling speeds, and higher control forces. The distractors describe incorrect relationships between forward CG and landing.",
       "reference": {
         "page": "10-3",
-        "text": "the fuselage centerline, there is an equal weight existing at       The forward CG limit is often established at a location that\na corresponding location on the right. This may be upset            is determined by the landing characteristics of an aircraft.\nby unbalanced lateral loading. The position of the lateral          During landing, one of the most critical phases of flight,\nCG is not computed in all aircraft, but the pilot must be           exceeding the forward CG limit may result in excessive loads\naware that adverse effects arise as a result of a laterally         on the nosewheel, a tendency to nose over on tailwheel type\nunbalanced condition. In an airplane, lateral unbalance occurs      airplanes, decreased performance, higher stalling speeds, and\nif the fuel load is mismanaged by supplying the engine(s)           higher control forces.\nunevenly from tanks on one side of the airplane. The pilot\ncan compensate for the resulting wing-heavy condition by            Control\nadjusting the trim or by holding a constant control pressure.\n                                                                    In extreme cases, a CG location that is beyond the forward\nThis action places the aircraft controls in an out-of-streamline\n                                                                    limit may result in nose heaviness, making it difficult or\ncondition, increases drag, and results in decreased operating\n                                                                    impossible to flare for landing. Manufacturers purposely\nefficiency. Since lateral balance is addressed when needed in\n                                                                    place the forward CG limit as far rearward as possible to\nthe aircraft flight manual (AFM) and longitudinal balance is\n                                                                    aid pilots in avoiding damage when landing. In addition to\nmore critical, further reference to balance in this handbook\n                                                                    decreased static and dynamic longitudinal stability, other\nmeans longitudinal location of the CG.\n                                                                    undesirable effects caused by a CG location aft of the\n                                                                    allowable range may include extreme control difficulty,\nFlying an aircraft that is out of balance can produce increased\n                                                                    violent stall characteristics, and very light control forces\npilot fatigue with obvious effects on the safety and efficiency\n                                                                    which make it easy to overstress an aircraft inadvertently.\nof flight. The pilot’s natural correction for longitudinal\nunbalance is a change of trim to remove the excessive control\n                                                                    A restricted forward CG limit is also specified to assure\npressure. Excessive trim, however, has the effect of reducing\n                                                                    that sufficient elevator/control deflection is available at\nnot only aerodynamic efficiency but also primary control\n                                                                    minimum airspeed."
+        "text": "The forward CG limit is often established at a location that is determined by the landing characteristics of an aircraft. During landing, one of the most critical phases of flight, exceeding the forward CG limit may result in excessive loads on the nosewheel, a tendency to nose over on tailwheel type airplanes, decreased performance, higher stalling speeds, and higher control forces."
       }
     },
     {
-      "section": "Effects of Adverse Balance",
-      "difficulty": 3,
+      "section": "Effects of Adverse Balance — Control",
+      "difficulty": 2,
       "categories": [
-        "written_exam"
+        "written_exam",
+        "checkride_oral"
       ],
-      "question": "A multi-engine aircraft operated under 14 CFR Part 135 is generally required to be weighed every 36 calendar months. Under what condition may such an aircraft be exempt from this weighing requirement?",
-      "correct_answer": "If the aircraft is operated under a weight and balance system approved in the operations specifications of the certificate holder",
+      "question": "Which undesirable characteristic may result from a CG located aft of the allowable range?",
+      "correct_answer": "Violent stall characteristics and very light control forces",
       "distractors": [
-        "If the aircraft has fewer than 20 seats and a maximum payload capacity under 6,000 pounds",
-        "If the operator submits an annual weight and balance audit to the FAA in lieu of physical weighing",
-        "If the aircraft is single-engine rather than multi-engine, as the 36-month requirement applies only to multi-engine aircraft"
+        "Excessive nose-down tendency during takeoff",
+        "Increased structural loads on the nosewheel during landing",
+        "Difficulty raising the nose for landing flare"
       ],
-      "explanation": "According to the PHAK Chapter 10, multi-engine aircraft operated under 14 CFR Part 135 are required to be weighed every 36 months, but they are exempt from this requirement if operated under a weight and balance system approved in the operations specifications of the certificate holder. The 20-seat/6,000-pound threshold referenced in the first distractor applies to aircraft operated under 14 CFR Part 125, not to the Part 135 exemption. The second distractor describes a process that does not exist in the regulations. The third distractor incorrectly states the exemption is based on engine count; in fact, the 36-month requirement applies specifically to multi-engine Part 135 aircraft, and the exemption is based on having an approved weight and balance system in the operations specifications.",
+      "explanation": "The chapter lists extreme control difficulty, violent stall characteristics, and very light control forces as effects of an aft CG. The distractors describe forward CG effects: nose-heavy takeoff difficulty, nosewheel loads, and inability to flare are all associated with a forward CG, not aft.",
+      "reference": {
+        "page": "10-3",
+        "text": "other undesirable effects caused by a CG location aft of the allowable range may include extreme control difficulty, violent stall characteristics, and very light control forces which make it easy to overstress an aircraft inadvertently."
+      }
+    },
+    {
+      "section": "Balance, Stability, and Center of Gravity",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "In an airplane, lateral unbalance can occur if:",
+      "correct_answer": "Fuel is mismanaged by supplying the engine(s) unevenly from tanks on one side of the airplane",
+      "distractors": [
+        "Baggage is loaded too far aft in the baggage compartment",
+        "Heavy passengers are placed in the rear seats",
+        "Fuel is burned from wing tanks located very near the CG"
+      ],
+      "explanation": "The chapter specifically identifies uneven fuel management from tanks on one side as the cause of lateral unbalance. Loading baggage aft or heavy passengers in rear seats affects longitudinal balance, not lateral. Fuel tanks near the CG have little effect on CG when burned.",
+      "reference": {
+        "page": "10-3",
+        "text": "In an airplane, lateral unbalance occurs if the fuel load is mismanaged by supplying the engine(s) unevenly from tanks on one side of the airplane."
+      }
+    },
+    {
+      "section": "Management of Weight and Balance Control",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "Under 14 CFR part 91, what is required of the pilot in command regarding weight and balance?",
+      "correct_answer": "The PIC must comply with the operating limits, including weight and balance, in the approved AFM",
+      "distractors": [
+        "The PIC must conduct weight and balance calculations prior to each flight as specifically required by Part 91",
+        "The PIC must have the aircraft weighed every 36 calendar months",
+        "The PIC must obtain a weight and balance sign-off from a mechanic before each flight"
+      ],
+      "explanation": "The chapter states that while Part 91 does not specifically require weight and balance calculations before each flight, section 91.9 requires the PIC to comply with operating limits in the approved AFM, which include weight and balance. The 36-month weighing requirement applies to Part 125 and Part 135 operations, not Part 91.",
       "reference": {
         "page": "10-4",
-        "text": "Management of Weight and Balance Control                          Before any flight, the pilot should determine the weight\nTitle 14 of the Code of Federal Regulations (14 CFR) part 23,     and balance condition of the aircraft. Simple and orderly\nsection 23.23 requires establishment of the ranges of weights     procedures based on sound principles have been devised\nand CGs within which an aircraft may be operated safely. The      by the manufacturer for the determination of loading\nmanufacturer provides this information, which is included in      conditions. The pilot uses these procedures and exercises\nthe approved AFM, TCDS, or aircraft specifications.               good judgment when determining weight and balance. In\n                                                                  many modern aircraft, it is not possible to fill all seats,\nWhile there are no specified requirements for a pilot operating   baggage compartments, and fuel tanks, and still remain within\nunder 14 CFR part 91 to conduct weight and balance                the approved weight and balance limits. If the maximum\ncalculations prior to each flight, 14 CFR part 91, section        passenger load is carried, the pilot must often reduce the fuel\n91.9 requires the pilot in command (PIC) to comply with the       load or reduce the amount of baggage.\noperating limits in the approved AFM. These limits include\nthe weight and balance of the aircraft. To enable pilots to       14 CFR part 125 requires aircraft with 20 or more seats\nmake weight and balance computations, charts and graphs           or maximum payload capacity of 6,000 pounds or more\nare provided in the approved AFM.                                 to be weighed every 36 calendar months. Multi-engine\n                                                                  aircraft operated under 14 CFR part 135 are also required\nWeight and balance control should be a matter of concern to       to be weighed every 36 months. Aircraft operated under 14\nall pilots. The pilot controls loading and fuel management        CFR part 135 are exempt from the 36 month requirement\n(the two variable factors that can change both total weight       if operated under a weight and balance system approved in\nand CG location) of a particular aircraft. The aircraft owner     the operations specifications of the certificate holder. For\nor operator should make certain that up-to-date information       additional information on approved weight and balance\nis available for pilot use, and should ensure that appropriate    control programs for operations under parts 121 and 135,\nentries are made in the records when repairs or modifications     reference the current edition of AC 120-27, Aircraft Weight\nhave been accomplished. The removal or addition of                and Balance Control. AC 43.13-l, Acceptable Methods,\nequipment results in changes to the CG.                           Techniques and Practices—Aircraft Inspection and Repair\n                                                                  also requires that the aircraft mechanic ensure that the weight\nWeight changes must be accounted for and the proper               and balance data in the aircraft records is current and accurate\nnotations made in weight and balance records."
+        "text": "While there are no specified requirements for a pilot operating under 14 CFR part 91 to conduct weight and balance calculations prior to each flight, 14 CFR part 91, section 91.9 requires the pilot in command (PIC) to comply with the operating limits in the approved AFM. These limits include the weight and balance of the aircraft."
       }
     },
     {
-      "section": "Arm                          Arm",
-      "difficulty": 3,
+      "section": "Terms and Definitions",
+      "difficulty": 1,
       "categories": [
         "written_exam",
-        "checkride_oral",
         "general_knowledge"
       ],
-      "question": "During preflight planning, a pilot verifies that the aircraft is loaded to exactly its certified maximum gross takeoff weight. What should the pilot understand about this loading condition?",
-      "correct_answer": "The aircraft may not safely take off at this weight under all conditions, even though it is within certified limits.",
+      "question": "In weight and balance terminology, the 'arm' is defined as:",
+      "correct_answer": "The horizontal distance in inches from the reference datum line to the CG of an item",
       "distractors": [
-        "The aircraft will safely take off at this weight under all conditions since it is within certified limits.",
-        "The aircraft must be loaded below maximum gross weight before any takeoff is legal.",
-        "The certified maximum gross takeoff weight applies only to landing operations, not takeoff."
+        "The weight of an item multiplied by its distance from the datum",
+        "The maximum weight the floor can sustain per square inch or foot",
+        "The distance between the forward and aft CG limits"
       ],
-      "explanation": "According to PHAK Chapter 10, although an aircraft is certified for a specified maximum gross takeoff weight, it may not safely take off at this weight under all conditions. The certified maximum is a limit, not a guarantee of safe performance in every situation. Pilots must evaluate additional factors such as density altitude, runway length, obstacles, and environmental conditions. Distractor A is incorrect because it falsely assumes certification guarantees safety under all conditions. Distractor B is incorrect because taking off at maximum gross weight is legal—just not always safe. Distractor C is incorrect because the maximum gross takeoff weight specifically applies to takeoff, not landing.",
+      "explanation": "The chapter defines arm as the horizontal distance from the datum to the CG of an item. The first distractor defines moment, the second defines floor load limit, and the third defines CG range.",
+      "reference": {
+        "page": "10-4",
+        "text": "Arm (moment arm)—the horizontal distance in inches from the reference datum line to the CG of an item."
+      }
+    },
+    {
+      "section": "Principles of Weight and Balance Computations",
+      "difficulty": 1,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "How is the moment of an item calculated?",
+      "correct_answer": "By multiplying the weight of the item by its arm",
+      "distractors": [
+        "By dividing the weight by the arm",
+        "By adding the arm to the total weight",
+        "By subtracting the datum distance from the station number"
+      ],
+      "explanation": "The chapter states that moment is the product of weight multiplied by arm. Dividing weight by arm, adding arm to weight, or subtracting distances do not produce a moment.",
       "reference": {
         "page": "10-6",
-        "text": "The distance from the datum to any component part or any          in Figure 10-4), if a 100-pound weight is placed at a point\nobject loaded on the aircraft is called the arm. When the         (station) 25 inches from the datum, and another 50-pound\nobject or component is located aft of the datum, it is measured   weight is placed at a point (station) 50 inches from the datum,\nin positive inches; if located forward of the datum, it is        the sum of the product of the two weights and their distances\nmeasured as negative inches or minus inches. The location         total a moment of 5,000 in-lb, which will balance the board.\nof the object or part is often referred to as the station. If\nthe weight of any object or component is multiplied by the        Weight and Balance Restrictions\ndistance from the datum (arm), the product is the moment.         An aircraft’s weight and balance restrictions should be\nThe moment is the measurement of the gravitational force          closely followed. The loading conditions and empty weight\nthat causes a tendency of the weight to rotate about a point      of a particular aircraft may differ from that found in the\nor axis and is expressed in inch-pounds (in-lb).                  AFM/POH because modifications or equipment changes\n                                                                  may have been made. Sample loading problems in the\nTo illustrate, assume a weight of 50 pounds is placed on          AFM/POH are intended for guidance only; therefore, each\nthe board at a station or point 100 inches from the datum.        aircraft must be treated separately. Although an aircraft is\nThe downward force of the weight can be determined by             certified for a specified maximum gross takeoff weight, it\nmultiplying 50 pounds by 100 inches, which produces a             may not safely take off at this weight under all conditions.\nmoment of 5,000 in-lb."
+        "text": "If the weight of any object or component is multiplied by the distance from the datum (arm), the product is the moment."
       }
     },
     {
-      "section": "Sample Loading Problem                 Weight                     170",
-      "difficulty": 3,
+      "section": "Terms and Definitions",
+      "difficulty": 1,
       "categories": [
         "written_exam",
-        "checkride_oral"
+        "general_knowledge"
       ],
-      "question": "If an aircraft's loaded weight is 2,700 pounds, which falls between the specified weights of 2,525 pounds and 2,950 pounds on the CG limits chart, what must a pilot do to determine the exact applicable forward CG limit?",
-      "correct_answer": "Interpolate between the CG limits listed for 2,525 pounds and 2,950 pounds.",
+      "question": "What is the standard weight of aviation gasoline per U.S. gallon?",
+      "correct_answer": "6 lb/US gal",
       "distractors": [
-        "Use the forward CG limit listed for 2,525 pounds, because it is the most restrictive.",
-        "Use the forward CG limit listed for 2,950 pounds, because it is the closest maximum weight.",
-        "Calculate the average of the forward and aft CG limits for 2,525 pounds."
+        "6.8 lb/US gal",
+        "7.5 lb/US gal",
+        "8.35 lb/US gal"
       ],
-      "explanation": "According to the PHAK Chapter 10, when an aircraft's weight falls between specified CG limit weights (e.g., between 2,525 lb and 2,950 lb), interpolation may be required to determine the exact applicable CG limits for that specific weight, rather than simply using the limits of the closest listed weight.",
+      "explanation": "The chapter lists standard weights: gasoline at 6 lb/gal, Jet A at 6.8 lb/gal, oil at 7.5 lb/gal, and water at 8.35 lb/gal. The distractors correspond to other substances.",
       "reference": {
-        "page": "10-9",
-        "text": "90          126                                      1,894\n                                                                                               2,210         1,702                 2,780   2,232   2,366\n       Weight             Forward        AFT                         100          140          2,220         1,709         1,903   2,790   2,243   2,374\n      Condition           CG Limit      CG Limit                     110          154          2,230         1,717         1,911\n  2,950 lb (takeoff         82.1         84.7                        120          168          2,240         1,725         1,920   2,800   2,254   2,381\n  or landing)                                                        130          182          2,250         1,733         1,928   2,810   2,265   2,389\n  2,525 lb                   77.5          85.7                      140          196          2,260         1,740         1,937   2,820   2,276   2,397\n  2,475 lb or less           77.0          85.7                      150          210          2,270         1,748         1,945   2,830   2,287   2,405\n                                                                     160          224          2,280         1,756         1,954   2,840   2,298   2,413\n                                                                  Moment          238          2,290         1,763         1,963   2,850   2,309   2,421\n                                                                     180          252          2,300         1,771         1,971   2,860   2,320   2,426\n    Basic empty weight                      2,015                    1,554\n                                                                     190          266          2,310         1,779         1,980   2,870   2,332   2,436\n    Fuel main tanks (44 gal)                  264                    200\n                                                                       198        280          2,320         1,786         1,988   2,880   2,343   2,444\n                                                                     210          294          2,330         1,794         1,997   2,890   2,354   2,452\n   *Front seat passengers                     300                      254        308\n                                                                     220                       2,340         1,802         2,005   2,900   2,365   3,460\n   *Rear seat passengers                      190                      230\n                                                                     230          322          2,350         1,810         2,014   2,910   2,377   2,468\n    Baggage                                    30                    240 42       336          2,360         1,817         2,023   2,920   2,388   2,475\n                                                                     250          350          2,370         1,825         2,031   2,930   2,399   2,483\n                                                                     260          364          2,380         1,833         2,040   2,940   2,411   2,491\n    Total                                   2,799                2,278/100\n                                                                     270          378          2,390         1,840         2,048   2,950   2,422   2,499\n   * Interpolate or, as in this case, add appropriate numbers. 10-9"
+        "page": "10-5",
+        "text": "Gasoline.................................................. 6 lb/US gal"
       }
     },
     {
-      "section": "100    ∆CG",
-      "difficulty": 3,
-      "categories": [
-        "written_exam",
-        "checkride_oral"
-      ],
-      "question": "During preflight planning, a pilot calculates the aircraft's CG to be 81.4 inches. The aircraft's specified aft CG limit is 80.5 inches. Based on this information, what is the operational status of this flight?",
-      "correct_answer": "The flight is unsafe because the CG is located beyond the aft limit.",
-      "distractors": [
-        "The flight is safe as long as the total aircraft weight is under maximum gross weight.",
-        "The flight is safe because the forward CG limit has not been exceeded.",
-        "The flight is unsafe because the CG is located too far forward."
-      ],
-      "explanation": "According to the Pilot's Handbook of Aeronautical Knowledge (PHAK) Chapter 10, a calculated CG of 81.4 inches exceeds the aircraft's aft CG limit of 80.5 inches. Operating an aircraft outside of its CG limits, whether too far forward or too far aft, compromises stability and control, making the aircraft unsafe for flight.",
-      "reference": {
-        "page": "10-11",
-        "text": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7,800 lb         Add ∆CG to old CG\n  CG station. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 81.5 in      New CG = 80 in + 1.4 in = 81.4 in\n  Aft CG limit . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 80.5 in"
-      }
-    },
-    {
-      "section": "100    ∆CG",
-      "difficulty": 3,
-      "categories": [
-        "written_exam"
-      ],
-      "question": "Using the proportional formula for CG shift, if 100 lb is moved in a 6,000 lb aircraft over a distance of 70 inches, the CG shifts approximately 1.2 inches. If the same 100 lb were moved in a 3,000 lb aircraft over the same 70-inch distance, the CG would shift:",
-      "correct_answer": "Approximately 2.4 inches, because the CG shift is inversely proportional to total aircraft weight",
-      "distractors": [
-        "Approximately 0.6 inches, because the CG shift is directly proportional to total aircraft weight",
-        "Approximately 1.2 inches, because the CG shift is independent of total aircraft weight",
-        "Approximately 4.8 inches, because the CG shift is proportional to the square of total aircraft weight"
-      ],
-      "explanation": "According to PHAK Chapter 10, the proportional formula is: weight shifted / total aircraft weight = CG shift / distance weight is shifted. Since total aircraft weight is in the denominator, the CG shift is inversely proportional to total weight. Halving the total weight from 6,000 lb to 3,000 lb doubles the CG shift from approximately 1.2 inches to approximately 2.4 inches (100 ÷ 3,000 × 70 = 2.33 inches).",
-      "reference": {
-        "page": "10-11",
-        "text": "100 lb                          ∆CG\nA simpler solution may be obtained by using a computer                                                                                      =\n                                                                                                                6,100 lb − 100 lb                150 in − 80 in\nor calculator and a proportional formula. This can be done                                                                   100 lb               ∆CG\n                                                                                                                                            =\nbecause the CG will shift a distance that is proportional to                                                                6,000 lb              70 in\nthe distance the weight is shifted.                                                                                                 CG =         1.2 in forward"
-      }
-    },
-    {
-      "section": "100    ∆CG",
-      "difficulty": 3,
-      "categories": [
-        "written_exam"
-      ],
-      "question": "An aircraft weighing 6,000 pounds has 100 pounds of baggage shifted 70 inches aft in the cargo compartment. Using the proportional formula for weight shifting, how far does the CG move?",
-      "correct_answer": "1.2 inches",
-      "distractors": [
-        "0.7 inches",
-        "1.4 inches",
-        "7.0 inches"
-      ],
-      "explanation": "The proportional formula for weight shifting is: (weight shifted / total aircraft weight) = (∆CG / distance weight is shifted). Rearranging: ∆CG = (100 lb × 70 in) / 6,000 lb = 1.17 ≈ 1.2 inches. The distractor 0.7 inches results from simply dividing 70 by 100 without incorporating total aircraft weight. 1.4 inches would result from using an incorrect total weight of 5,000 lb. 7.0 inches results from dividing by 1,000 instead of the aircraft's total weight of 6,000 lb. The PHAK states that the CG shifts a distance proportional to the distance the weight is shifted.",
-      "reference": {
-        "page": "10-11",
-        "text": "100 lb                          ∆CG\nA simpler solution may be obtained by using a computer                                                                                      =\n                                                                                                                6,100 lb − 100 lb                150 in − 80 in\nor calculator and a proportional formula. This can be done                                                                   100 lb               ∆CG\n                                                                                                                                            =\nbecause the CG will shift a distance that is proportional to                                                                6,000 lb              70 in\nthe distance the weight is shifted.                                                                                                 CG =         1.2 in forward"
-      }
-    },
-    {
-      "section": "Weight Control",
+      "section": "Terms and Definitions",
       "difficulty": 2,
       "categories": [
         "written_exam",
         "general_knowledge"
       ],
-      "question": "In the context of aircraft weight and balance, what determines the force with which gravity attracts the aircraft toward the center of the Earth?",
-      "correct_answer": "The mass of the aircraft and the acceleration acting on it",
+      "question": "Useful load is defined as the weight of:",
+      "correct_answer": "The pilot, copilot, passengers, baggage, usable fuel, and drainable oil",
       "distractors": [
-        "The volume of the aircraft and the density of the air",
-        "The mass of the aircraft and its airspeed",
-        "The thrust produced and the aerodynamic drag acting on the aircraft"
+        "The airframe, engines, and all permanently installed operating equipment",
+        "The maximum weight exclusive of usable fuel",
+        "Only the expendable part of the aircraft's load, including usable fuel"
       ],
-      "explanation": "According to the Pilot's Handbook of Aeronautical Knowledge (Chapter 10, Weight Control), weight is the force with which gravity attracts a body toward the center of the Earth. It is a product of the mass of a body and the acceleration acting on the body.",
+      "explanation": "The chapter defines useful load as the weight of the pilot, copilot, passengers, baggage, usable fuel, and drainable oil. The first distractor describes standard empty weight, the second describes maximum zero fuel weight, and the third describes only fuel load.",
       "reference": {
-        "page": "10-1",
-        "text": "As discussed in Chapter 5, Aerodynamics of Flight, weight\nis the force with which gravity attracts a body toward the\ncenter of the Earth. It is a product of the mass of a body and\nthe acceleration acting on the body. Weight is a major factor\nin aircraft construction and operation and demands respect\nfrom all pilots."
+        "page": "10-5",
+        "text": "Useful load—the weight of the pilot, copilot, passengers, baggage, usable fuel, and drainable oil."
       }
     },
     {
-      "section": "Weight Control",
-      "difficulty": 2,
-      "categories": [
-        "written_exam",
-        "checkride_oral"
-      ],
-      "question": "According to the Pilot's Handbook of Aeronautical Knowledge, loading an aircraft beyond the manufacturer's recommended weight must be avoided primarily to ensure that:",
-      "correct_answer": "the lift generated is sufficient to counteract the aircraft's weight.",
-      "distractors": [
-        "the force of gravity does not exceed the aircraft's structural load limits.",
-        "the angle of attack remains within design limits during high-airspeed conditions.",
-        "the center of gravity stays within acceptable limits during maneuvers."
-      ],
-      "explanation": "The PHAK Chapter 10 states that lift is the only force that counteracts weight. Because the maximum lift an airfoil can produce is limited by factors such as airfoil design, angle of attack, airspeed, and air density, an aircraft must not be loaded beyond its recommended weight. If the weight is greater than the lift generated, the aircraft may be incapable of flight.",
-      "reference": {
-        "page": "10-1",
-        "text": "The force of gravity continuously attempts to pull an aircraft\ndown toward Earth. The force of lift is the only force that\ncounteracts weight and sustains an aircraft in flight. The\namount of lift produced by an airfoil is limited by the airfoil\ndesign, angle of attack (AOA), airspeed, and air density. To\nassure that the lift generated is sufficient to counteract weight,\nloading an aircraft beyond the manufacturer’s recommended\nweight must be avoided. If the weight is greater than the lift\ngenerated, the aircraft may be incapable of flight. 10-1"
-      }
-    },
-    {
-      "section": "Weight Control",
+      "section": "Terms and Definitions",
       "difficulty": 2,
       "categories": [
         "written_exam",
         "general_knowledge"
       ],
-      "question": "Why must a pilot avoid loading an aircraft beyond the manufacturer's recommended weight?",
-      "correct_answer": "The lift generated may be insufficient to counteract the aircraft's weight, making flight impossible.",
+      "question": "Under GAMA standardization, basic empty weight consists of:",
+      "correct_answer": "The standard empty weight plus the weight of optional and special equipment that have been installed",
       "distractors": [
-        "The additional weight will permanently deform the airfoil, limiting future lift production.",
-        "The aircraft's thrust will automatically decrease due to the increased payload, preventing takeoff.",
-        "The extra weight shifts the center of gravity aft, which directly reduces the aircraft's angle of attack."
+        "The airframe weight plus engine weight and usable fuel only",
+        "The maximum takeoff weight minus the useful load",
+        "The aircraft weight with full fuel but no passengers or baggage"
       ],
-      "explanation": "According to the PHAK, lift is the only force that counteracts weight. Because the amount of lift an airfoil can produce is limited by factors such as airfoil design, angle of attack, airspeed, and air density, loading an aircraft beyond its recommended weight risks creating a situation where the weight is greater than the lift generated, rendering the aircraft incapable of flight.",
+      "explanation": "The chapter defines basic empty weight (GAMA) as standard empty weight plus optional and special equipment. Standard empty weight includes the airframe, engines, fixed ballast, hydraulic fluid, unusable fuel, and full engine oil. The distractors incorrectly include usable fuel or describe unrelated calculations.",
       "reference": {
-        "page": "10-1",
-        "text": "The force of gravity continuously attempts to pull an aircraft\ndown toward Earth. The force of lift is the only force that\ncounteracts weight and sustains an aircraft in flight. The\namount of lift produced by an airfoil is limited by the airfoil\ndesign, angle of attack (AOA), airspeed, and air density. To\nassure that the lift generated is sufficient to counteract weight,\nloading an aircraft beyond the manufacturer’s recommended\nweight must be avoided. If the weight is greater than the lift\ngenerated, the aircraft may be incapable of flight. 10-1"
+        "page": "10-4",
+        "text": "Basic empty weight (GAMA)—the standard empty weight plus the weight of optional and special equipment that have been installed."
       }
     },
     {
-      "section": "Weight Control",
+      "section": "Determining Loaded Weight and CG — Computational Method",
       "difficulty": 2,
       "categories": [
         "written_exam",
         "checkride_oral"
       ],
-      "question": "What is a likely consequence of attempting to fly an overloaded aircraft?",
-      "correct_answer": "If it becomes airborne, it may exhibit unexpected and unusually poor flight characteristics.",
+      "question": "When using the computational method, how is the CG location of a loaded aircraft determined?",
+      "correct_answer": "By dividing the total moment by the total weight",
       "distractors": [
-        "It will require a lower takeoff speed to generate the necessary lift.",
-        "The initial indication of poor performance will not occur until the aircraft reaches cruise flight.",
-        "The aircraft will experience improved performance due to increased stability from the extra weight."
+        "By multiplying the total weight by the total moment",
+        "By subtracting the empty weight CG from the loaded weight",
+        "By dividing the total weight by the total moment"
       ],
-      "explanation": "According to the PHAK Chapter 10, an overloaded aircraft may not be able to leave the ground, or if it does become airborne, it may exhibit unexpected and unusually poor flight characteristics. The text also notes that excessive weight reduces flight performance in almost every respect, including requiring a higher (not lower) takeoff speed, and that the initial indication of poor performance usually takes place during takeoff.",
+      "explanation": "The chapter's computational method states: list weights and moments, find totals, then divide total moment by total weight to find CG. Multiplying weight by moment or dividing weight by moment do not yield CG location.",
       "reference": {
-        "page": "10-2",
-        "text": "Effects of Weight                                                  change that takes place. As fuel is used, an aircraft becomes\nAny item aboard an aircraft that increases the total weight is     lighter and performance is improved.\nundesirable for performance. Manufacturers attempt to make\nan aircraft as light as possible without sacrificing strength      Changes of fixed equipment have a major effect upon the\nor safety.                                                         weight of an aircraft. The installation of extra radios or\n                                                                   instruments, as well as repairs or modifications, may also\nThe pilot should always be aware of the consequences of            affect the weight of an aircraft.\noverloading. An overloaded aircraft may not be able to leave\nthe ground, or if it does become airborne, it may exhibit          Balance, Stability, and Center of Gravity\nunexpected and unusually poor flight characteristics. If not       Balance refers to the location of the CG of an aircraft, and is\nproperly loaded, the initial indication of poor performance        important to stability and safety in flight. The CG is a point\nusually takes place during takeoff.                                at which the aircraft would balance if it were suspended at\n                                                                   that point.\nExcessive weight reduces the flight performance in almost\nevery respect. For example, the most important performance         The primary concern in balancing an aircraft is the fore\ndeficiencies of an overloaded aircraft are:                        and aft location of the CG along the longitudinal axis. The\n  •    Higher takeoff speed                                        CG is not necessarily a fixed point; its location depends on\n                                                                   the distribution of weight in the aircraft."
+        "page": "10-7",
+        "text": "To determine the CG, divide the total moment by the total weight."
       }
     },
     {
-      "section": "Weight Control",
+      "section": "Weight and Balance Restrictions",
       "difficulty": 2,
       "categories": [
         "written_exam",
         "checkride_oral"
       ],
-      "question": "A pilot is preparing to fly an aircraft that may be loaded near or beyond its limits. If the aircraft is not properly loaded, during which phase of flight should the pilot expect the initial indication of poor performance to appear?",
-      "correct_answer": "During takeoff",
+      "question": "Which set of environmental conditions may require a reduction in aircraft weight before flight is attempted, even if the aircraft is certified for maximum gross takeoff weight?",
+      "correct_answer": "High elevation, high temperature, and high humidity",
       "distractors": [
-        "During cruise flight, as fuel burn shifts the center of gravity",
-        "During landing approach, when drag and airspeed management become critical",
-        "During descent, when stability is most affected by weight distribution"
+        "Low elevation, low temperature, and low humidity",
+        "Sea level pressure, standard temperature, and clear skies",
+        "Cold temperatures, dry air, and calm winds"
       ],
-      "explanation": "According to the Pilot's Handbook of Aeronautical Knowledge (Chapter 10, Weight Control), if an aircraft is not properly loaded, the initial indication of poor performance usually takes place during takeoff. This makes sense because takeoff demands the highest power output and lift production relative to the aircraft's weight. An overloaded or improperly loaded aircraft may require a higher takeoff speed, use more runway, or struggle to become airborne — all of which would be noticed first during the takeoff roll. Waiting to discover performance problems until cruise, descent, or landing would be too late, as the handbook emphasizes that excessive weight reduces flight performance in almost every respect.",
+      "explanation": "The chapter identifies high elevations, high temperatures, and high humidity (high density altitudes) as conditions that may require weight reduction. The distractors all describe favorable density altitude conditions that would not typically require weight reduction.",
       "reference": {
-        "page": "10-2",
-        "text": "Effects of Weight                                                  change that takes place. As fuel is used, an aircraft becomes\nAny item aboard an aircraft that increases the total weight is     lighter and performance is improved.\nundesirable for performance. Manufacturers attempt to make\nan aircraft as light as possible without sacrificing strength      Changes of fixed equipment have a major effect upon the\nor safety.                                                         weight of an aircraft. The installation of extra radios or\n                                                                   instruments, as well as repairs or modifications, may also\nThe pilot should always be aware of the consequences of            affect the weight of an aircraft.\noverloading. An overloaded aircraft may not be able to leave\nthe ground, or if it does become airborne, it may exhibit          Balance, Stability, and Center of Gravity\nunexpected and unusually poor flight characteristics. If not       Balance refers to the location of the CG of an aircraft, and is\nproperly loaded, the initial indication of poor performance        important to stability and safety in flight. The CG is a point\nusually takes place during takeoff.                                at which the aircraft would balance if it were suspended at\n                                                                   that point.\nExcessive weight reduces the flight performance in almost\nevery respect. For example, the most important performance         The primary concern in balancing an aircraft is the fore\ndeficiencies of an overloaded aircraft are:                        and aft location of the CG along the longitudinal axis. The\n  •    Higher takeoff speed                                        CG is not necessarily a fixed point; its location depends on\n                                                                   the distribution of weight in the aircraft."
+        "page": "10-7",
+        "text": "Conditions that affect takeoff and climb performance, such as high elevations, high temperatures, and high humidity (high density altitudes), may require a reduction in weight before flight is attempted."
       }
     },
     {
-      "section": "Weight Control",
-      "difficulty": 2,
-      "categories": [
-        "general_knowledge",
-        "checkride_oral"
-      ],
-      "question": "A pilot has a new GPS navigator and an extra communication radio permanently installed in their aircraft. How should the pilot view these modifications in terms of weight and performance?",
-      "correct_answer": "Changes of fixed equipment, such as extra radios, can have a major effect on the aircraft's weight and must be considered.",
-      "distractors": [
-        "The installation of extra radios primarily affects aircraft balance but does not change the overall weight.",
-        "Minor avionics installations are already accounted for in the manufacturer's original empty weight calculations.",
-        "Adding radios only increases electrical load and drag, having no measurable effect on the aircraft's weight."
-      ],
-      "explanation": "According to the Pilot's Handbook of Aeronautical Knowledge, changes of fixed equipment have a major effect upon the weight of an aircraft. The installation of extra radios or instruments, as well as repairs or modifications, may affect the overall weight, which directly impacts flight performance.",
-      "reference": {
-        "page": "10-2",
-        "text": "Effects of Weight                                                  change that takes place. As fuel is used, an aircraft becomes\nAny item aboard an aircraft that increases the total weight is     lighter and performance is improved.\nundesirable for performance. Manufacturers attempt to make\nan aircraft as light as possible without sacrificing strength      Changes of fixed equipment have a major effect upon the\nor safety.                                                         weight of an aircraft. The installation of extra radios or\n                                                                   instruments, as well as repairs or modifications, may also\nThe pilot should always be aware of the consequences of            affect the weight of an aircraft.\noverloading. An overloaded aircraft may not be able to leave\nthe ground, or if it does become airborne, it may exhibit          Balance, Stability, and Center of Gravity\nunexpected and unusually poor flight characteristics. If not       Balance refers to the location of the CG of an aircraft, and is\nproperly loaded, the initial indication of poor performance        important to stability and safety in flight. The CG is a point\nusually takes place during takeoff.                                at which the aircraft would balance if it were suspended at\n                                                                   that point.\nExcessive weight reduces the flight performance in almost\nevery respect. For example, the most important performance         The primary concern in balancing an aircraft is the fore\ndeficiencies of an overloaded aircraft are:                        and aft location of the CG along the longitudinal axis. The\n  •    Higher takeoff speed                                        CG is not necessarily a fixed point; its location depends on\n                                                                   the distribution of weight in the aircraft."
-      }
-    },
-    {
-      "section": "Weight Control",
+      "section": "Shifting, Adding, and Removing Weight — Weight Shifting",
       "difficulty": 2,
       "categories": [
         "written_exam",
         "checkride_oral"
       ],
-      "question": "During preflight weight and balance calculations, a pilot determines the aircraft's total weight is within limits. What must the pilot primarily verify regarding balance to ensure safe flight?",
-      "correct_answer": "The fore and aft location of the CG along the longitudinal axis",
+      "question": "When weight is shifted from one location to another within an aircraft, what happens to the total weight and total moments?",
+      "correct_answer": "The total weight remains unchanged, but the total moments change in proportion to the distance the weight is moved",
       "distractors": [
-        "The lateral position of the CG along the lateral axis",
-        "The vertical location of the CG along the vertical axis",
-        "The total distance of the CG from the datum reference point"
+        "Both the total weight and total moments remain unchanged",
+        "The total weight changes proportionally to the distance the weight is moved",
+        "The total moments remain unchanged, but the total weight changes"
       ],
-      "explanation": "According to PHAK Chapter 10, Weight Control, the primary concern in balancing an aircraft is the fore and aft location of the CG along the longitudinal axis. While the CG is a point at which the aircraft would balance if suspended, and its location depends on the distribution of weight, the FAA specifically identifies fore and aft positioning as the primary balance concern. The lateral and vertical axes are not the primary focus, and while the datum is used as a reference for measurement, the key balance concern is the CG's longitudinal position relative to allowable limits, not merely its distance from the datum.",
+      "explanation": "The chapter states that when weight is shifted, total weight is unchanged, but total moments change in proportion to the direction and distance the weight is moved. The distractors incorrectly claim moments stay the same, weight changes, or both remain unchanged.",
       "reference": {
-        "page": "10-2",
-        "text": "Effects of Weight                                                  change that takes place. As fuel is used, an aircraft becomes\nAny item aboard an aircraft that increases the total weight is     lighter and performance is improved.\nundesirable for performance. Manufacturers attempt to make\nan aircraft as light as possible without sacrificing strength      Changes of fixed equipment have a major effect upon the\nor safety.                                                         weight of an aircraft. The installation of extra radios or\n                                                                   instruments, as well as repairs or modifications, may also\nThe pilot should always be aware of the consequences of            affect the weight of an aircraft.\noverloading. An overloaded aircraft may not be able to leave\nthe ground, or if it does become airborne, it may exhibit          Balance, Stability, and Center of Gravity\nunexpected and unusually poor flight characteristics. If not       Balance refers to the location of the CG of an aircraft, and is\nproperly loaded, the initial indication of poor performance        important to stability and safety in flight. The CG is a point\nusually takes place during takeoff.                                at which the aircraft would balance if it were suspended at\n                                                                   that point.\nExcessive weight reduces the flight performance in almost\nevery respect. For example, the most important performance         The primary concern in balancing an aircraft is the fore\ndeficiencies of an overloaded aircraft are:                        and aft location of the CG along the longitudinal axis. The\n  •    Higher takeoff speed                                        CG is not necessarily a fixed point; its location depends on\n                                                                   the distribution of weight in the aircraft."
+        "page": "10-10",
+        "text": "When weight is shifted from one location to another, the total weight of the aircraft is unchanged. The total moments, however, do change in relation and proportion to the direction and distance the weight is moved."
       }
     },
     {
-      "section": "Weight Control",
-      "difficulty": 2,
+      "section": "Shifting, Adding, and Removing Weight — Weight Addition or Removal",
+      "difficulty": 3,
       "categories": [
         "written_exam",
         "checkride_oral"
       ],
-      "question": "Which statement accurately describes the center of gravity (CG) of an aircraft?",
-      "correct_answer": "Its location is variable and depends on the distribution of weight throughout the aircraft.",
+      "question": "When weight is added to an aircraft at a known station, how is the change in CG (∆CG) calculated?",
+      "correct_answer": "Divide the added weight by the new total weight, then multiply by the distance between the added weight and the old CG",
       "distractors": [
-        "It is a fixed point established by the manufacturer that only changes if the total weight exceeds maximum gross.",
-        "Its location is determined solely by the total gross weight of the aircraft, not how that weight is distributed.",
-        "It remains constant during flight as long as fuel is burned evenly from all tanks."
+        "Divide the added weight by the distance between the weight and the old CG",
+        "Multiply the added weight by the new total weight, then divide by the distance",
+        "Subtract the old CG from the added weight's station and divide by the total weight"
       ],
-      "explanation": "According to the Pilot's Handbook of Aeronautical Knowledge (PHAK) Chapter 10, the CG is the point at which an aircraft would balance if suspended at that point. The handbook explicitly states that the CG is not necessarily a fixed point; its location depends on the distribution of weight in the aircraft. As fuel burns, passengers move, or equipment is added, the weight distribution changes, thereby moving the CG.",
+      "explanation": "The chapter presents the formula: Added weight / New total weight = ∆CG / Distance between weight and old CG. Rearranging: ∆CG = (Added weight / New total weight) × Distance. The distractors do not match this proportional relationship.",
       "reference": {
-        "page": "10-2",
-        "text": "Effects of Weight                                                  change that takes place. As fuel is used, an aircraft becomes\nAny item aboard an aircraft that increases the total weight is     lighter and performance is improved.\nundesirable for performance. Manufacturers attempt to make\nan aircraft as light as possible without sacrificing strength      Changes of fixed equipment have a major effect upon the\nor safety.                                                         weight of an aircraft. The installation of extra radios or\n                                                                   instruments, as well as repairs or modifications, may also\nThe pilot should always be aware of the consequences of            affect the weight of an aircraft.\noverloading. An overloaded aircraft may not be able to leave\nthe ground, or if it does become airborne, it may exhibit          Balance, Stability, and Center of Gravity\nunexpected and unusually poor flight characteristics. If not       Balance refers to the location of the CG of an aircraft, and is\nproperly loaded, the initial indication of poor performance        important to stability and safety in flight. The CG is a point\nusually takes place during takeoff.                                at which the aircraft would balance if it were suspended at\n                                                                   that point.\nExcessive weight reduces the flight performance in almost\nevery respect. For example, the most important performance         The primary concern in balancing an aircraft is the fore\ndeficiencies of an overloaded aircraft are:                        and aft location of the CG along the longitudinal axis. The\n  •    Higher takeoff speed                                        CG is not necessarily a fixed point; its location depends on\n                                                                   the distribution of weight in the aircraft."
+        "page": "10-11",
+        "text": "Added weight / New total weight = ∆CG / Distance between weight and old CG"
       }
     },
     {
-      "section": "Weight Control",
-      "difficulty": 2,
+      "section": "Effects of Adverse Balance — Control",
+      "difficulty": 3,
       "categories": [
         "written_exam",
         "checkride_oral"
       ],
-      "question": "A pilot calculates weight and balance before departure and confirms the CG is within limits. Why must the pilot understand that the CG location may change during the course of the flight?",
-      "correct_answer": "Variable load items shifted or expended during flight cause a resultant shift in CG location",
+      "question": "A restricted forward CG limit is specified in order to assure that:",
+      "correct_answer": "Sufficient elevator/control deflection is available at minimum airspeed",
       "distractors": [
-        "The manufacturer's certified CG range shifts based on altitude and airspeed during flight",
-        "The aircraft's longitudinal axis physically moves as fuel burns off, relocating the CG",
-        "Atmospheric density changes alter the distribution of mass along the fuselage"
+        "The aircraft can rotate earlier during the takeoff roll",
+        "The stall speed is minimized for approach",
+        "The structural load on the tailwheel is reduced"
       ],
-      "explanation": "According to PHAK Chapter 10, as variable load items are shifted or expended, there is a resultant shift in CG location. This is why a pilot must consider not just the pre-departure CG, but how it will change as fuel is consumed or items are repositioned. The manufacturer certifies a fixed CG range with forward and aft limits, and if the CG is displaced too far in either direction during flight, it can produce a nose-heavy or tail-heavy condition that could make the aircraft uncontrollable.",
+      "explanation": "The chapter states the forward CG limit is restricted to assure sufficient elevator/control deflection at minimum airspeed. A forward CG makes rotation harder, not earlier; it increases stall speed rather than minimizing it; and it affects nosewheel loads, not tailwheel loads.",
       "reference": {
-        "page": "10-2",
-        "text": "As variable load\n  •    Longer takeoff run\n                                                                   items are shifted or expended, there is a resultant shift in\n  •    Reduced rate and angle of climb                             CG location. The distance between the forward and back\n  •    Lower maximum altitude                                      limits for the position of the center for gravity or CG range\n                                                                   is certified for an aircraft by the manufacturer. The pilot\n  •    Shorter range                                               should realize that if the CG is displaced too far forward\n  •    Reduced cruising speed                                      on the longitudinal axis, a nose-heavy condition will\n  •    Reduced maneuverability                                     result. Conversely, if the CG is displaced too far aft on the\n                                                                   longitudinal axis, a tail heavy condition results. It is possible\n  •    Higher stalling speed                                       that the pilot could not control the aircraft if the CG location\n  •    Higher approach and landing speed                           produced an unstable condition. [Figure 10-1]\n  •    Longer landing roll\n                                                                   Location of the CG with reference to the lateral axis is also\n  •    Excessive weight on the nose wheel or tail wheel            important. For each item of weight existing to the left of"
+        "page": "10-3",
+        "text": "A restricted forward CG limit is also specified to assure that sufficient elevator/control deflection is available at minimum airspeed."
       }
     },
     {
-      "section": "Weight Control",
+      "section": "Terms and Definitions",
       "difficulty": 2,
       "categories": [
         "written_exam",
-        "checkride_oral",
         "general_knowledge"
       ],
-      "question": "If an aircraft's center of gravity (CG) is displaced too far forward or aft, it can create an unstable condition. What is the most severe potential consequence of this unstable condition?",
-      "correct_answer": "The pilot could not control the aircraft.",
+      "question": "Maximum zero fuel weight (GAMA) is defined as:",
+      "correct_answer": "The maximum weight exclusive of usable fuel",
       "distractors": [
-        "The aircraft will experience a longer takeoff run.",
-        "The aircraft will have a higher stalling speed.",
-        "The aircraft will suffer from reduced maneuverability."
+        "The maximum allowable weight for takeoff",
+        "The greatest weight an aircraft is normally allowed to have at landing",
+        "The weight of the aircraft with no fuel on board, including unusable fuel"
       ],
-      "explanation": "According to the Pilot's Handbook of Aeronautical Knowledge, if the CG is displaced too far forward or aft, a nose-heavy or tail-heavy condition results. While this can cause performance penalties like a longer takeoff run or higher stalling speed, the most severe consequence is that it is possible the pilot could not control the aircraft if the CG location produced an unstable condition.",
+      "explanation": "The chapter defines maximum zero fuel weight as the maximum weight exclusive of usable fuel. The distractors define maximum takeoff weight, maximum landing weight, or describe a state rather than a maximum limit.",
       "reference": {
-        "page": "10-2",
-        "text": "As variable load\n  •    Longer takeoff run\n                                                                   items are shifted or expended, there is a resultant shift in\n  •    Reduced rate and angle of climb                             CG location. The distance between the forward and back\n  •    Lower maximum altitude                                      limits for the position of the center for gravity or CG range\n                                                                   is certified for an aircraft by the manufacturer. The pilot\n  •    Shorter range                                               should realize that if the CG is displaced too far forward\n  •    Reduced cruising speed                                      on the longitudinal axis, a nose-heavy condition will\n  •    Reduced maneuverability                                     result. Conversely, if the CG is displaced too far aft on the\n                                                                   longitudinal axis, a tail heavy condition results. It is possible\n  •    Higher stalling speed                                       that the pilot could not control the aircraft if the CG location\n  •    Higher approach and landing speed                           produced an unstable condition. [Figure 10-1]\n  •    Longer landing roll\n                                                                   Location of the CG with reference to the lateral axis is also\n  •    Excessive weight on the nose wheel or tail wheel            important. For each item of weight existing to the left of"
-      }
-    },
-    {
-      "section": "Weight Control",
-      "difficulty": 2,
-      "categories": [
-        "written_exam",
-        "checkride_oral"
-      ],
-      "question": "A pilot determines that the aircraft will be overloaded for an upcoming flight. Which combination of performance effects should the pilot expect as a result of the overloading?",
-      "correct_answer": "Higher stalling speed, reduced rate of climb, and longer landing roll",
-      "distractors": [
-        "Lower stalling speed, increased rate of climb, and shorter landing roll",
-        "Higher stalling speed, increased rate of climb, and shorter landing roll",
-        "Lower stalling speed, reduced rate of climb, and longer landing roll"
-      ],
-      "explanation": "According to PHAK Chapter 10, Weight Control, an overloaded aircraft experiences multiple performance degradations across all phases of flight. Specifically, the handbook lists higher stalling speed, reduced rate and angle of climb, and longer landing roll among the effects. Each distractor is incorrect because it reverses the direction of at least one performance change: overloading raises (not lowers) stalling speed, reduces (not increases) rate of climb, and lengthens (not shortens) landing roll. A pilot must understand that excess weight degrades performance in every phase of flight, not just one.",
-      "reference": {
-        "page": "10-2",
-        "text": "As variable load\n  •    Longer takeoff run\n                                                                   items are shifted or expended, there is a resultant shift in\n  •    Reduced rate and angle of climb                             CG location. The distance between the forward and back\n  •    Lower maximum altitude                                      limits for the position of the center for gravity or CG range\n                                                                   is certified for an aircraft by the manufacturer. The pilot\n  •    Shorter range                                               should realize that if the CG is displaced too far forward\n  •    Reduced cruising speed                                      on the longitudinal axis, a nose-heavy condition will\n  •    Reduced maneuverability                                     result. Conversely, if the CG is displaced too far aft on the\n                                                                   longitudinal axis, a tail heavy condition results. It is possible\n  •    Higher stalling speed                                       that the pilot could not control the aircraft if the CG location\n  •    Higher approach and landing speed                           produced an unstable condition. [Figure 10-1]\n  •    Longer landing roll\n                                                                   Location of the CG with reference to the lateral axis is also\n  •    Excessive weight on the nose wheel or tail wheel            important. For each item of weight existing to the left of"
+        "page": "10-5",
+        "text": "Maximum zero fuel weight (GAMA)—the maximum weight, exclusive of usable fuel."
       }
     }
   ]

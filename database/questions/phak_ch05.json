@@ -3,356 +3,365 @@
   "chapter": 5,
   "questions": [
     {
-      "section": "Rela                  Lift",
-      "difficulty": 3,
+      "section": "Forces Acting on the Aircraft",
+      "difficulty": 2,
       "categories": [
-        "written_exam"
+        "written_exam",
+        "checkride_oral"
       ],
-      "question": "During a steady glide, a portion of the weight vector is directed forward along the flight path and acts as thrust. What broader aerodynamic principle does this demonstrate?",
-      "correct_answer": "Any time the flight path is not horizontal, lift, weight, thrust, and drag vectors must each be broken down into two components.",
+      "question": "In straight-and-level, unaccelerated flight, which statement correctly describes the relationship between the four forces acting on an aircraft?",
+      "correct_answer": "The sum of all upward components of forces equals the sum of all downward components, and the sum of all forward components equals the sum of all backward components",
       "distractors": [
-        "In steady flight, the four forces are only equal to each other when the flight path is horizontal.",
-        "The center of gravity shifts forward during a descent, requiring thrust to be broken down into vertical and horizontal components.",
-        "Weight always acts perpendicular to the lift vector, regardless of the aircraft's flight path."
+        "All four forces—thrust, drag, lift, and weight—are equal in magnitude",
+        "Thrust is always greater than drag, while lift is always greater than weight",
+        "Weight is always the greatest force, with lift being slightly less than weight"
       ],
-      "explanation": "According to the PHAK, in glides, a portion of the weight vector is directed along the forward flight path and acts as thrust. This illustrates the broader principle that any time the flight path of the aircraft is not horizontal, lift, weight, thrust, and drag vectors must each be broken down into two components to properly analyze the forces acting on the aircraft.",
+      "explanation": "The chapter clarifies that the old 'thrust equals drag; lift equals weight' formula can be misleading. In steady flight, the opposing lift/weight forces are equal AND greater than the opposing thrust/drag forces, which are equal only to each other. The correct principle is that the sum of all upward force components equals the sum of all downward force components, and the sum of all forward components equals the sum of all backward components.",
       "reference": {
         "page": "5-2",
-        "text": "•    Weight—the combined load of the aircraft itself, the           thrust has an upward component. But because the aircraft is in\n       crew, the fuel, and the cargo or baggage. Weight is            level flight, weight does not contribute to drag. [Figure 5-2]\n       a force that pulls the aircraft downward because of\n       the force of gravity. It opposes lift and acts vertically      In glides, a portion of the weight vector is directed along\n       downward through the aircraft’s center of gravity (CG).        the forward flight path and, therefore, acts as thrust. In other\n                                                                      words, any time the flight path of the aircraft is not horizontal,\nIn steady flight, the sum of these opposing forces is always          lift, weight, thrust, and drag vectors must each be broken down\nzero. There can be no unbalanced forces in steady, straight           into two components.\nflight based upon Newton’s Third Law, which states that for\nevery action or force there is an equal, but opposite, reaction       Another important concept to understand is angle of attack\nor force. This is true whether flying level or when climbing          (AOA). Since the early days of flight, AOA is fundamental to\nor descending.                                                        understanding many aspects of airplane performance, stability,\n                                                                      and control. The AOA is defined as the acute angle between the\nIt does not mean the four forces are equal. It means the              chord line of the airfoil and the direction of the relative wind.\nopposing forces are equal to, and thereby cancel, the effects of\neach other. In Figure 5-1, the force vectors of thrust, drag, lift,   Discussions of the preceding concepts are frequently omitted\nand weight appear to be equal in value. The usual explanation         in aeronautical texts/handbooks/manuals. The reason is\nstates (without stipulating that thrust and drag do not equal         not that they are inconsequential, but because the main\nweight and lift) that thrust equals drag and lift equals weight.      ideas with respect to the aerodynamic forces acting upon\nAlthough true, this statement can be misleading. It should be         an aircraft in flight can be presented in their most essential\nunderstood that in straight, level, unaccelerated flight, it is       elements without being involved in the technicalities of the\ntrue that the opposing lift/weight forces are equal."
+        "text": "The sum of all upward components of forces (not just lift) equals the sum of all downward components of forces (not just weight). The sum of all forward components of forces (not just thrust) equals the sum of all backward components of forces (not just drag)."
       }
     },
     {
-      "section": "Rela                  Lift",
-      "difficulty": 3,
+      "section": "Lift",
+      "difficulty": 2,
       "categories": [
-        "checkride_oral"
+        "written_exam",
+        "general_knowledge"
       ],
-      "question": "While in level flight, a pilot increases thrust and wishes to maintain altitude. How should the pilot adjust the angle of attack (AOA) to achieve this?",
-      "correct_answer": "Decrease the AOA, coordinating the timing with the increase in thrust and airspeed.",
+      "question": "If an aircraft's airspeed doubles while the angle of attack and all other factors remain constant, what happens to the lift produced?",
+      "correct_answer": "Lift increases by a factor of four",
       "distractors": [
-        "Decrease the AOA immediately and rapidly to counteract the increased lift before it can cause a climb.",
-        "Increase the AOA slightly to maximize the benefit of the increased airflow over the wing.",
-        "Hold the AOA constant, as the increased thrust will only affect airspeed and not lift."
+        "Lift doubles",
+        "Lift increases by a factor of three",
+        "Lift remains the same because AOA hasn't changed"
       ],
-      "explanation": "According to the PHAK, when thrust is increased in level flight, the aircraft speeds up and lift increases, which will cause the aircraft to climb unless the AOA is decreased. The timing of this decrease in AOA must be coordinated with the increase in thrust and airspeed to maintain level flight. If the AOA is decreased too fast, the aircraft will descend, and if decreased too slowly, it will climb.",
+      "explanation": "The lift equation (L = CL · ρ · V² · S / 2) shows that lift is proportional to the square of velocity. The chapter explicitly states that an airplane traveling at 200 knots has four times the lift as the same airplane traveling at 100 knots, if AOA and other factors remain constant.",
       "reference": {
-        "page": "5-3",
-        "text": "constant airspeed, thrust and drag must remain equal, just as      In level flight, when thrust is increased, the aircraft speeds\nlift and weight must be equal to maintain a constant altitude.     up and the lift increases. The aircraft will start to climb\nIf in level flight, the engine power is reduced, the thrust is     unless the AOA is decreased just enough to maintain the\nlessened, and the aircraft slows down. As long as the thrust       relationship between lift and weight. The timing of this\nis less than the drag, the aircraft continues to decelerate. To    decrease in AOA needs to be coordinated with the increase\na point, as the aircraft slows down, the drag force will also      in thrust and airspeed. Otherwise, if the AOA is decreased too\ndecrease. The aircraft will continue to slow down until thrust     fast, the aircraft will descend, and if the AOA is decreased\nagain equals drag at which point the airspeed will stabilize.      too slowly, the aircraft will climb."
+        "page": "5-4",
+        "text": "Lift is proportional to the square of the aircraft's velocity. For example, an airplane traveling at 200 knots has four times the lift as the same airplane traveling at 100 knots, if the AOA and other factors remain constant."
       }
     },
     {
-      "section": "Rela                  Lift",
-      "difficulty": 3,
+      "section": "Lift/Drag Ratio",
+      "difficulty": 2,
       "categories": [
         "written_exam",
         "checkride_oral"
       ],
-      "question": "In level flight, a pilot gradually reduces thrust, causing airspeed to decrease. To maintain altitude, the pilot increases the angle of attack (AOA). What ultimately limits how slow the aircraft can fly while remaining in level flight?",
-      "correct_answer": "The airspeed at which the required AOA reaches the critical AOA, beyond which any further increase causes a stall",
+      "question": "At the angle of attack where the lift-to-drag ratio (L/D) is at its maximum, what condition exists?",
+      "correct_answer": "The total drag is at its minimum",
       "distractors": [
-        "The airspeed at which drag exceeds available thrust, making it impossible to maintain altitude",
-        "The airspeed at which the aircraft's weight exceeds the maximum lift the wing can produce at any AOA",
-        "The airspeed at which the flight controls become ineffective due to insufficient airflow over the surfaces"
+        "The coefficient of lift is at its maximum",
+        "The coefficient of drag is at its minimum",
+        "The aircraft is flying at its maximum speed"
       ],
-      "explanation": "According to PHAK Chapter 5, as thrust is reduced and airspeed decreases, the AOA must increase to maintain altitude in level flight. If speed decreases enough, the required AOA will reach the critical AOA. Any further increase in AOA will result in the wing stalling. This is why extra vigilance is required at reduced thrust settings and low speeds—to avoid exceeding the critical angle of attack. The limiting factor is the critical AOA, not thrust, weight, or control effectiveness.",
-      "reference": {
-        "page": "5-3",
-        "text": "Likewise, if the engine power is increased, thrust becomes         As the airspeed varies due to thrust, the AOA must also vary\ngreater than drag and the airspeed increases. As long as           to maintain level flight. At very high speeds and level flight,\nthe thrust continues to be greater than the drag, the aircraft     it is even possible to have a slightly negative AOA. As thrust\ncontinues to accelerate. When drag equals thrust, the aircraft     is reduced and airspeed decreases, the AOA must increase\nflies at a constant airspeed.                                      in order to maintain altitude. If speed decreases enough, the\n                                                                   required AOA will increase to the critical AOA. Any further\nStraight-and-level flight may be sustained at a wide range         increase in the AOA will result in the wing stalling. Therefore,\nof speeds. The pilot coordinates AOA and thrust in all             extra vigilance is required at reduced thrust settings and low\nspeed regimes if the aircraft is to be held in level flight. An    speeds so as not to exceed the critical angle of attack. If the\nimportant fact related to the principal of lift (for a given       airplane is equipped with an AOA indicator, it should be\nairfoil shape) is that lift varies with the AOA and airspeed.      referenced to help monitor the proximity to the critical AOA.\nTherefore, a large AOA at low airspeeds produces an equal\namount of lift at high airspeeds with a low AOA. The speed         Some aircraft have the ability to change the direction of the\nregimes of flight can be grouped in three categories: low-         thrust rather than changing the AOA. This is accomplished\nspeed flight, cruising flight, and high-speed flight.              either by pivoting the engines or by vectoring the exhaust\n                                                                   gases. [Figure 5-4]\nWhen the airspeed is low, the AOA must be relatively high\nif the balance between lift and weight is to be maintained."
-      }
-    },
-    {
-      "section": "Rela                  Lift",
-      "difficulty": 3,
-      "categories": [
-        "written_exam",
-        "checkride_oral"
-      ],
-      "question": "During straight-and-level flight in the slow-speed regime, the aircraft is in a nose-high attitude. What effect does this have on the forces supporting the aircraft, and why might wing loading be less than expected?",
-      "correct_answer": "A vertical component of thrust helps support the aircraft, reducing the lift required from the wing.",
-      "distractors": [
-        "A vertical component of drag helps support the aircraft, reducing the lift required from the wing.",
-        "The nose-high attitude reduces the aircraft's effective weight, requiring less lift.",
-        "The horizontal component of lift increases at slow speeds, offsetting a portion of the aircraft's weight."
-      ],
-      "explanation": "According to PHAK Chapter 5, in straight-and-level flight at slow speeds with a nose-high attitude, the thrust vector is angled upward and produces a vertical component that helps support the aircraft. This means wing loading tends to be less than would be expected because lift no longer has to equal the entire weight of the aircraft alone—thrust contributes vertically. Drag acts opposite the flight path and does not provide vertical support, weight is not reduced by attitude or airspeed, and lift acts perpendicular to the relative wind (not horizontally in a way that offsets weight).",
-      "reference": {
-        "page": "5-3",
-        "text": "Lift\n[Figure 5-3] If thrust decreases and airspeed decreases, lift      The pilot can control the lift. Any time the control yoke\nwill become less than weight and the aircraft will start to        or stick is moved fore or aft, the AOA is changed. As the\ndescend. To maintain level flight, the pilot can increase the      AOA increases, lift increases (all other factors being equal).\nAOA an amount that generates a lift force again equal to the       When the aircraft reaches the maximum AOA, lift begins\nweight of the aircraft. While the aircraft will be flying more     to diminish rapidly. This is the stalling AOA, known as\nslowly, it will still maintain level flight. The AOA is adjusted   CL-MAX critical AOA. Examine Figure 5-5, noting how the\nto maintain lift equal weight. The airspeed will naturally         CL increases until the critical AOA is reached, then decreases\nadjust until drag equals thrust and then maintain that airspeed    rapidly with any further increase in the AOA.\n(assumes the pilot is not trying to hold an exact speed).\n                                                                   Before proceeding further with the topic of lift and how it\nStraight-and-level flight in the slow-speed regime provides        can be controlled, velocity must be discussed. The shape of\nsome interesting conditions relative to the equilibrium of         the wing or rotor cannot be effective unless it continually\nforces. With the aircraft in a nose-high attitude, there is a      keeps “attacking” new air. If an aircraft is to keep flying, the\nvertical component of thrust that helps support it. For one        lift-producing airfoil must keep moving. In a helicopter or\nthing, wing loading tends to be less than would be expected.       gyroplane, this is accomplished by the rotation of the rotor\n                                                                   blades. For other types of aircraft, such as airplanes, weight-"
-      }
-    },
-    {
-      "section": "Rela                  Lift",
-      "difficulty": 3,
-      "categories": [
-        "written_exam"
-      ],
-      "question": "During straight-and-level flight in the slow-speed regime with a nose-high attitude, why does wing loading tend to be less than one might expect?",
-      "correct_answer": "A vertical component of thrust helps support the aircraft's weight, reducing the lift the wings must produce",
-      "distractors": [
-        "The increased angle of attack makes the wing more efficient, so it carries less load at the same airspeed",
-        "Drag is reduced at high angles of attack, which offsets the weight the wings must support",
-        "The nose-high attitude shifts the center of gravity aft, reducing the load on the wings"
-      ],
-      "explanation": "According to PHAK Chapter 5, in the slow-speed regime with a nose-high attitude, there is a vertical component of thrust that helps support the aircraft. Because thrust is partially directed upward, it contributes to holding the aircraft up, meaning the wings do not need to generate lift equal to the entire weight. As a result, wing loading is less than would be expected. This is distinct from angle of attack efficiency, drag effects, or CG shifts.",
-      "reference": {
-        "page": "5-3",
-        "text": "Lift\n[Figure 5-3] If thrust decreases and airspeed decreases, lift      The pilot can control the lift. Any time the control yoke\nwill become less than weight and the aircraft will start to        or stick is moved fore or aft, the AOA is changed. As the\ndescend. To maintain level flight, the pilot can increase the      AOA increases, lift increases (all other factors being equal).\nAOA an amount that generates a lift force again equal to the       When the aircraft reaches the maximum AOA, lift begins\nweight of the aircraft. While the aircraft will be flying more     to diminish rapidly. This is the stalling AOA, known as\nslowly, it will still maintain level flight. The AOA is adjusted   CL-MAX critical AOA. Examine Figure 5-5, noting how the\nto maintain lift equal weight. The airspeed will naturally         CL increases until the critical AOA is reached, then decreases\nadjust until drag equals thrust and then maintain that airspeed    rapidly with any further increase in the AOA.\n(assumes the pilot is not trying to hold an exact speed).\n                                                                   Before proceeding further with the topic of lift and how it\nStraight-and-level flight in the slow-speed regime provides        can be controlled, velocity must be discussed. The shape of\nsome interesting conditions relative to the equilibrium of         the wing or rotor cannot be effective unless it continually\nforces. With the aircraft in a nose-high attitude, there is a      keeps “attacking” new air. If an aircraft is to keep flying, the\nvertical component of thrust that helps support it. For one        lift-producing airfoil must keep moving. In a helicopter or\nthing, wing loading tends to be less than would be expected.       gyroplane, this is accomplished by the rotation of the rotor\n                                                                   blades. For other types of aircraft, such as airplanes, weight-"
-      }
-    },
-    {
-      "section": ".2000                                                                      CL",
-      "difficulty": 3,
-      "categories": [
-        "written_exam",
-        "checkride_oral"
-      ],
-      "question": "An aircraft is in steady flight at the AOA that produces L/DMAX, where total drag is at a minimum. If the pilot decreases the AOA slightly while maintaining the same amount of lift, what happens to total drag?",
-      "correct_answer": "It increases because any AOA other than L/DMAX reduces the L/D ratio",
-      "distractors": [
-        "It decreases because a lower AOA always produces less total drag",
-        "It remains unchanged because the aircraft is still producing the same lift",
-        "It decreases because the aircraft operates more efficiently at lower angles of attack"
-      ],
-      "explanation": "According to PHAK Chapter 5, L/DMAX occurs at one specific CL and AOA, and at this point total drag is at a minimum. The handbook states that any AOA lower or higher than that for L/DMAX reduces the L/D and consequently increases the total drag for a given aircraft's lift. A common misconception is that lower AOA always means less drag, but operating below the L/DMAX AOA requires higher airspeed to maintain the same lift, which increases parasite drag enough to raise total drag above its minimum.",
+      "explanation": "The chapter states that the maximum L/D ratio (L/DMAX) occurs at one specific CL and AOA. If the aircraft is operated in steady flight at L/DMAX, the total drag is at a minimum. CL-MAX occurs at the critical (stalling) AOA, which is a different point. The coefficient of drag being at its minimum is not the same as total drag being at its minimum.",
       "reference": {
         "page": "5-5",
-        "text": "The coefficient of drag curve (orange)\nare lift and airspeed because they can be controlled readily           increases very rapidly from 14° AOA and completely\nand accurately. Of course, the pilot can also control density by       overcomes the lift curve at 21° AOA. The lift/drag ratio\nadjusting the altitude and can control wing area if the aircraft       (green) reaches its maximum at 6° AOA, meaning that at this\nhappens to have flaps of the type that enlarge wing area.              angle, the most lift is obtained for the least amount of drag.\nHowever, for most situations, the pilot controls lift and airspeed\nto maneuver an aircraft. For instance, in straight-and-level flight,   Note that the maximum lift/drag ratio (L/DMAX) occurs at\ncruising along at a constant altitude, altitude is maintained by       one specific CL and AOA. If the aircraft is operated in steady\nadjusting lift to match the aircraft’s velocity or cruise airspeed,    flight at L/DMAX, the total drag is at a minimum. Any AOA\nwhile maintaining a state of equilibrium in which lift equals          lower or higher than that for L/DMAX reduces the L/D and\nweight. In an approach to landing, when the pilot wishes to            consequently increases the total drag for a given aircraft’s\nland as slowly as practical, it is necessary to increase AOA near\nmaximum to maintain lift equal to the weight of the aircraft."
+        "text": "Note that the maximum lift/drag ratio (L/DMAX) occurs at one specific CL and AOA. If the aircraft is operated in steady flight at L/DMAX, the total drag is at a minimum."
       }
     },
     {
-      "section": "Skin Friction Drag",
-      "difficulty": 3,
-      "categories": [
-        "written_exam"
-      ],
-      "question": "A jet fighter carries two identical external wing tanks. Tests show the total drag produced is greater than the sum of the drag each tank would produce individually. What explains this increase?",
-      "correct_answer": "The intersection of airflow around each tank and the wing generates interference drag",
-      "distractors": [
-        "The combined surface area of both tanks increases skin friction drag disproportionately",
-        "The added weight of the second tank requires more lift, increasing induced drag",
-        "The altered shape of the aircraft with both tanks increases form drag beyond what each produces alone"
-      ],
-      "explanation": "According to PHAK Chapter 5, interference drag comes from the intersection of airstreams that creates eddy currents, turbulence, or restricts smooth airflow. The handbook specifically states that if a jet fighter carries two identical wing tanks, the overall drag is greater than the sum of the individual tanks because both create and generate interference drag. The other answer choices describe skin friction drag, induced drag, and form drag respectively—each a real type of drag, but not the explanation for why combined drag exceeds the sum of individual drags.",
-      "reference": {
-        "page": "5-6",
-        "text": "lift. Figure 5-6 depicts the L/DMAX by the lowest portion of        drag is the easiest to reduce when designing an aircraft. The\nthe blue line labeled “total drag.” The configuration of an         solution is to streamline as many of the parts as possible.\naircraft has a great effect on the L/D.\nDrag                                                                Interference drag comes from the intersection of airstreams\nDrag is the force that resists movement of an aircraft through      that creates eddy currents, turbulence, or restricts smooth\nthe air. There are two basic types: parasite drag and induced       airflow. For example, the intersection of the wing and the\ndrag. The first is called parasite because it in no way functions   fuselage at the wing root has significant interference drag.\nto aid flight, while the second, induced drag, is a result of an    Air flowing around the fuselage collides with air flowing over\nairfoil developing lift.                                            the wing, merging into a current of air different from the two\n                                                                    original currents. The most interference drag is observed when\nParasite Drag                                                       two surfaces meet at perpendicular angles. Fairings are used\nParasite drag is comprised of all the forces that work to slow      to reduce this tendency. If a jet fighter carries two identical\nan aircraft’s movement. As the term parasite implies, it is the     wing tanks, the overall drag is greater than the sum of the\ndrag that is not associated with the production of lift. This       individual tanks because both of these create and generate\nincludes the displacement of the air by the aircraft, turbulence    interference drag. Fairings and distance between lifting\ngenerated in the airstream, or a hindrance of air moving over       surfaces and external components (such as radar antennas\nthe surface of the aircraft and airfoil. There are three types of   hung from wings) reduce interference drag. [Figure 5-8]\nparasite drag: form drag, interference drag, and skin friction.\nForm Drag                                                           Skin friction drag is the aerodynamic resistance due to the\nForm drag is the portion of parasite drag generated by the          contact of moving air with the surface of an aircraft."
-      }
-    },
-    {
-      "section": "Skin Friction Drag",
-      "difficulty": 3,
-      "categories": [
-        "written_exam"
-      ],
-      "question": "On a chart plotting total drag against airspeed, how is the point of maximum lift-to-drag ratio (L/DMAX) depicted?",
-      "correct_answer": "The lowest portion of the total drag curve",
-      "distractors": [
-        "The highest portion of the total drag curve",
-        "The point where the total drag curve intersects the parasite drag curve",
-        "The steepest upward slope of the total drag curve"
-      ],
-      "explanation": "According to the Pilot's Handbook of Aeronautical Knowledge (PHAK) Chapter 5, L/DMAX is depicted by the lowest portion of the total drag curve. This represents the speed at which the aircraft is operating at its maximum aerodynamic efficiency, where the ratio of lift to total drag is at its greatest value.",
-      "reference": {
-        "page": "5-6",
-        "text": "lift. Figure 5-6 depicts the L/DMAX by the lowest portion of        drag is the easiest to reduce when designing an aircraft. The\nthe blue line labeled “total drag.” The configuration of an         solution is to streamline as many of the parts as possible.\naircraft has a great effect on the L/D.\nDrag                                                                Interference drag comes from the intersection of airstreams\nDrag is the force that resists movement of an aircraft through      that creates eddy currents, turbulence, or restricts smooth\nthe air. There are two basic types: parasite drag and induced       airflow. For example, the intersection of the wing and the\ndrag. The first is called parasite because it in no way functions   fuselage at the wing root has significant interference drag.\nto aid flight, while the second, induced drag, is a result of an    Air flowing around the fuselage collides with air flowing over\nairfoil developing lift.                                            the wing, merging into a current of air different from the two\n                                                                    original currents. The most interference drag is observed when\nParasite Drag                                                       two surfaces meet at perpendicular angles. Fairings are used\nParasite drag is comprised of all the forces that work to slow      to reduce this tendency. If a jet fighter carries two identical\nan aircraft’s movement. As the term parasite implies, it is the     wing tanks, the overall drag is greater than the sum of the\ndrag that is not associated with the production of lift. This       individual tanks because both of these create and generate\nincludes the displacement of the air by the aircraft, turbulence    interference drag. Fairings and distance between lifting\ngenerated in the airstream, or a hindrance of air moving over       surfaces and external components (such as radar antennas\nthe surface of the aircraft and airfoil. There are three types of   hung from wings) reduce interference drag. [Figure 5-8]\nparasite drag: form drag, interference drag, and skin friction.\nForm Drag                                                           Skin friction drag is the aerodynamic resistance due to the\nForm drag is the portion of parasite drag generated by the          contact of moving air with the surface of an aircraft."
-      }
-    },
-    {
-      "section": "Skin Friction Drag",
-      "difficulty": 3,
+      "section": "Drag",
+      "difficulty": 2,
       "categories": [
         "written_exam",
-        "checkride_oral"
+        "general_knowledge"
       ],
-      "question": "A student pilot is studying the boundary layer and observes that air molecules in direct contact with the wing surface are virtually motionless, while molecules farther up move faster until reaching free-stream velocity. What determines the actual speed at which the molecules move within this boundary layer?",
-      "correct_answer": "The shape of the wing, the viscosity of the air, and its compressibility",
+      "question": "How does induced drag vary with changes in airspeed?",
+      "correct_answer": "Induced drag varies inversely with the square of the airspeed",
       "distractors": [
-        "The free-stream velocity, the surface roughness of the wing, and the air density",
-        "The aircraft's weight, the angle of attack, and the outside air temperature",
-        "The wing's chord length, the Reynolds number, and the relative humidity"
+        "Induced drag increases as the square of the airspeed",
+        "Induced drag varies directly and proportionally with airspeed",
+        "Induced drag remains constant regardless of airspeed"
       ],
-      "explanation": "According to PHAK Chapter 5, the actual speed at which molecules move within the boundary layer depends upon three specific factors: the shape of the wing, the viscosity (stickiness) of the air, and its compressibility (how much it can be compacted). While free-stream velocity and surface roughness are discussed in the surrounding text, they are not listed as factors determining molecular speed within the boundary layer. The other distractors introduce plausible-sounding aerodynamic and atmospheric variables that are not identified in the source material.",
+      "explanation": "The chapter states that as AOA increases (which happens at lower airspeeds to maintain lift), induced drag increases proportionally. Specifically, 'the amount of induced drag varies inversely with the square of the airspeed.' This is the opposite of parasite drag, which increases as the square of airspeed.",
       "reference": {
-        "page": "5-6",
-        "text": "Every\naircraft due to its shape and airflow around it. Examples include   surface, no matter how apparently smooth, has a rough,\nthe engine cowlings, antennas, and the aerodynamic shape of         ragged surface when viewed under a microscope. The air\nother components. When the air has to separate to move around       molecules, which come in direct contact with the surface of\na moving aircraft and its components, it eventually rejoins         the wing, are virtually motionless. Each layer of molecules\nafter passing the body. How quickly and smoothly it rejoins is      above the surface moves slightly faster until the molecules\nrepresentative of the resistance that it creates, which requires    are moving at the velocity of the air moving around the\nadditional force to overcome. [Figure 5-7]                          aircraft. This speed is called the free-stream velocity. The area\n                                                                    between the wing and the free-stream velocity level is about as\nNotice how the flat plate in Figure 5-7 causes the air to swirl     wide as a playing card and is called the boundary layer. At the\naround the edges until it eventually rejoins downstream. Form       top of the boundary layer, the molecules increase velocity and\n                                                                    move at the same speed as the molecules outside the boundary\n                                                                    layer. The actual speed at which the molecules move depends\n                                                                    upon the shape of the wing, the viscosity (stickiness) of\n                                               FLAT PLATE           the air through which the wing or airfoil is moving, and its\n                                                                    compressibility (how much it can be compacted). 5-6"
+        "page": "5-8",
+        "text": "The amount of induced drag varies inversely with the square of the airspeed."
       }
     },
     {
-      "section": "A HOUSING",
-      "difficulty": 3,
+      "section": "Wingtip Vortices",
+      "difficulty": 1,
       "categories": [
         "written_exam",
         "checkride_oral",
         "general_knowledge"
       ],
-      "question": "Why does an airfoil experience a dramatic decrease in lift and an increase in drag when it stalls?",
-      "correct_answer": "The boundary layer separates from the body, creating an effective shape much different from the physical shape",
+      "question": "Under what conditions are wingtip vortices the strongest from a generating aircraft?",
+      "correct_answer": "When the generating aircraft is heavy, clean, and slow",
       "distractors": [
-        "The boundary layer transitions from laminar to turbulent flow, disrupting smooth airflow over the surface",
-        "The boundary layer thickens beyond a critical dimension, physically blocking airflow over the upper surface",
-        "The airflow outside the boundary layer accelerates beyond the airfoil's design limits, causing shock waves"
+        "When the generating aircraft is light, dirty, and fast",
+        "When the generating aircraft is at high altitude in thin air",
+        "When the generating aircraft has full flaps extended at cruise speed"
       ],
-      "explanation": "According to PHAK Chapter 5, the boundary layer gives an object an 'effective' shape that is usually slightly different from the physical shape. When the boundary layer separates from the body, it creates an effective shape much different from the physical shape of the object. This change in the physical shape of the boundary layer causes a dramatic decrease in lift and an increase in drag—this is what happens when an airfoil stalls. Laminar-to-turbulent transition, boundary layer thickening, or airflow acceleration are not the defining causes of a stall.",
+      "explanation": "The chapter explicitly states that wingtip vortices are greatest when the generating aircraft is 'heavy, clean, and slow.' This condition is most commonly encountered during approaches or departures because the aircraft's AOA is at its highest to produce the lift necessary to land or take off.",
       "reference": {
-        "page": "5-7",
-        "text": "The airflow outside of the boundary layer reacts to the\nshape of the edge of the boundary layer just as it would\nto the physical surface of an object. The boundary layer\ngives any object an “effective” shape that is usually slightly\ndifferent from the physical shape. The boundary layer may\nalso separate from the body, thus creating an effective shape\nmuch different from the physical shape of the object. This\nchange in the physical shape of the boundary layer causes a\ndramatic decrease in lift and an increase in drag. When this\nhappens, the airfoil has stalled."
-      }
-    },
-    {
-      "section": "A HOUSING",
-      "difficulty": 3,
-      "categories": [
-        "written_exam"
-      ],
-      "question": "How does the downwash produced by wingtip vortices contribute to induced drag?",
-      "correct_answer": "By tilting the relative wind downward, which rotates the aerodynamic force vector rearward",
-      "distractors": [
-        "By increasing skin friction along the wing surface as the vortices spiral inward",
-        "By disrupting the smooth airflow needed to produce the downwash that generates lift",
-        "By creating a high-pressure zone directly above the wing that pushes the aircraft down"
-      ],
-      "explanation": "According to the PHAK Chapter 5, wingtip vortices induce a downwash flow behind the wing's trailing edge. This downwash is distinct from the downwash necessary to produce lift. The vortex-induced downwash points the relative wind downward, which effectively tilts the aerodynamic force rearward, creating a rearward-acting component known as induced drag. The distractors are incorrect because: skin friction is a form of parasite drag, not induced drag; the vortex downwash is explicitly stated to have 'nothing in common with' the downwash that produces lift; and induced drag is not caused by a high-pressure zone above the wing.",
-      "reference": {
-        "page": "5-7",
-        "text": "In order to reduce the effect of skin friction drag, aircraft\ndesigners utilize flush mount rivets and remove any\nirregularities that may protrude above the wing surface. In\naddition, a smooth and glossy finish aids in transition of\nair across the surface of the wing. Since dirt on an aircraft\ndisrupts the free flow of air and increases drag, keep the\nsurfaces of an aircraft clean and waxed.\n                                                                      altitude versus near the ground. Bearing in mind the direction\nInduced Drag                                                          of rotation of these vortices, it can be seen that they induce\n                                                                      an upward flow of air beyond the tip and a downwash flow\nThe second basic type of drag is induced drag. It is an\n                                                                      behind the wing’s trailing edge. This induced downwash has\nestablished physical fact that no system that does work in the\n                                                                      nothing in common with the downwash that is necessary to\nmechanical sense can be 100 percent efficient. This means\n                                                                      produce lift. It is, in fact, the source of induced drag.\nthat whatever the nature of the system, the required work\nis obtained at the expense of certain additional work that is\n                                                                      Downwash points the relative wind downward, so the more\ndissipated or lost in the system."
-      }
-    },
-    {
-      "section": "A HOUSING",
-      "difficulty": 3,
-      "categories": [
-        "written_exam",
-        "checkride_oral"
-      ],
-      "question": "Why do aircraft designers fix the aft CG limit forward of the center of pressure (CP) for a corresponding flight speed?",
-      "correct_answer": "To retain flight equilibrium by ensuring a natural nose-down pitching tendency",
-      "distractors": [
-        "To maximize pitch authority by allowing the CP to move forward of the CG at high speeds",
-        "To reduce trim drag by aligning the CG directly with the CP",
-        "To create a nose-up pitching moment that helps the aircraft maintain altitude"
-      ],
-      "explanation": "According to PHAK Chapter 5, weight is concentrated at the CG and lift forces occur at the CP. When the CG is forward of the CP, the aircraft has a natural nose-down pitching tendency. If the CP moves forward of the CG, a nose-up pitching moment is created, which is destabilizing. Designers therefore fix the aft limit of the CG forward of the CP to retain flight equilibrium, ensuring the aircraft maintains a stable nose-down tendency that can be balanced by the horizontal tail.",
-      "reference": {
-        "page": "5-8",
-        "text": "It is important\n                                                                   to understand that an aircraft’s weight is concentrated at the\n                                                                   CG and the aerodynamic forces of lift occur at the CP. When\n                                                                   the CG is forward of the CP, there is a natural tendency for\n                                                                   the aircraft to want to pitch nose down. If the CP is forward\n                                                                   of the CG, a nose up pitching moment is created. Therefore,\n                                                                   designers fix the aft limit of the CG forward of the CP for the\n                                                                   corresponding flight speed in order to retain flight equilibrium."
-      }
-    },
-    {
-      "section": "Formation of Vortices",
-      "difficulty": 3,
-      "categories": [
-        "written_exam"
-      ],
-      "question": "Which statement best explains why a symmetrical airfoil at zero angle of attack produces no induced drag?",
-      "correct_answer": "Without a positive AOA, no pressure differential exists between the upper and lower surfaces, so no downwash component is generated.",
-      "distractors": [
-        "A symmetrical airfoil's shape eliminates wingtip vortices at all angles of attack, preventing induced drag entirely.",
-        "At zero AOA, induced drag is replaced entirely by parasite drag due to the alignment of the relative wind.",
-        "The relative wind aligns perfectly with the chord line, preventing the formation of any pressure differential across the airfoil's thickness."
-      ],
-      "explanation": "According to PHAK Chapter 5, induced drag is created when a pressure differential exists between the upper and lower surfaces of an airfoil, causing a downwash component that bends the lift vector rearward. At zero AOA on a symmetrical airfoil, there is no pressure differential, and consequently no downwash component and no induced drag. Distractor A is incorrect because a symmetrical airfoil can still produce wingtip vortices and induced drag at a positive AOA. Distractor B is incorrect because drag types do not 'replace' one another. Distractor C is incorrect because it describes a condition related to form drag, not the pressure differential that causes induced drag.",
-      "reference": {
-        "page": "5-8",
-        "text": "Weight has a definite relationship to lift. This relationship\n                                                                   is simple, but important in understanding the aerodynamics\nthe ground.\n                                                                   perpendicular to the relative wind and perpendicular to\n                                                                   the aircraft’s lateral axis. Lift is required to counteract the\nThe greater the size and strength of the vortices and              aircraft’s weight. In stabilized level flight, when the lift force is\nconsequent downwash component on the net airflow over              equal to the weight force, the aircraft is in a state of equilibrium\nthe airfoil, the greater the induced drag effect becomes. This     and neither accelerates upward or downward. If lift becomes\ndownwash over the top of the airfoil at the tip has the same       less than weight, the vertical speed will decrease. When lift is\neffect as bending the lift vector rearward; therefore, the lift    greater than weight, the vertical speed will increase.\nis slightly aft of perpendicular to the relative wind, creating\na rearward lift component. This is induced drag.                   Wingtip Vortices\nIn order to create a greater negative pressure on the top of an\n                                                                   The action of the airfoil that gives an aircraft lift also causes\nairfoil, the airfoil can be inclined to a higher AOA. If the AOA\n                                                                   induced drag. When an airfoil is flown at a positive AOA,\nof a symmetrical airfoil were zero, there would be no pressure\n                                                                   a pressure differential exists between the upper and lower\ndifferential, and consequently, no downwash component and\n                                                                   surfaces of the airfoil. The pressure above the wing is less\nno induced drag. In any case, as AOA increases, induced\n                                                                   than atmospheric pressure and the pressure below the wing\ndrag increases proportionally. To state this another way—the\n                                                                   is equal to or greater than atmospheric pressure. Since air\nlower the airspeed, the greater the AOA required to produce\n                                                                   always moves from high pressure toward low pressure,\nlift equal to the aircraft’s weight and, therefore, the greater\n                                                                   and the path of least resistance is toward the airfoil’s tips,\ninduced drag."
-      }
-    },
-    {
-      "section": "Formation of Vortices",
-      "difficulty": 3,
-      "categories": [
-        "written_exam",
-        "checkride_oral"
-      ],
-      "question": "As an aircraft decelerates toward its stalling speed, total drag increases. What is the primary reason for this increase?",
-      "correct_answer": "Induced drag rises sharply because it varies inversely with the square of airspeed",
-      "distractors": [
-        "Parasite drag rises sharply because it varies inversely with the square of airspeed",
-        "Parasite drag rises sharply because it varies directly with the square of airspeed",
-        "Form drag increases due to the larger frontal area presented at the high angle of attack required for slow flight"
-      ],
-      "explanation": "According to the PHAK Chapter 5, induced drag varies inversely with the square of airspeed, meaning it increases dramatically as airspeed decreases. Conversely, parasite drag increases as the square of airspeed, so it actually decreases at lower speeds. As the aircraft slows toward stalling speed, the sharp rise in induced drag dominates, causing total drag to increase despite the reduction in parasite drag.",
-      "reference": {
-        "page": "5-8",
-        "text": "The amount of induced drag varies inversely\n                                                                   there is a spanwise movement of air from the bottom of the\nwith the square of the airspeed.\n                                                                   airfoil outward from the fuselage around the tips. This flow\n                                                                   of air results in “spillage” over the tips, thereby setting up a\nConversely, parasite drag increases as the square of the\n                                                                   whirlpool of air called a vortex. [Figure 5-12]\nairspeed. Thus, in steady state, as airspeed decreases to\nnear the stalling speed, the total drag becomes greater, due\n                                                                   At the same time, the air on the upper surface has a tendency\nmainly to the sharp rise in induced drag. Similarly, as the\n                                                                   to flow in toward the fuselage and off the trailing edge."
+        "page": "5-9",
+        "text": "Wingtip vortices are greatest when the generating aircraft is 'heavy, clean, and slow.'"
       }
     },
     {
       "section": "Ground Effect",
-      "difficulty": 3,
-      "categories": [
-        "written_exam"
-      ],
-      "question": "A pilot on short final notices their airspeed indication reads slightly lower than expected. How might ground effect contribute to this discrepancy?",
-      "correct_answer": "Altered upwash, downwash, and wingtip vortices change the pressure at the static source, causing the airspeed indicator to under-read",
-      "distractors": [
-        "Ground effect increases ram air pressure at the pitot tube, causing the airspeed indicator to over-read",
-        "Ground effect disrupts the pitot heat system, causing the airspeed indicator to under-read",
-        "Altered downwash impacts the dynamic pressure port, causing the airspeed indicator to under-read"
-      ],
-      "explanation": "According to PHAK Chapter 5, ground effect alters the wing's upwash, downwash, and wingtip vortices, which can change the position (installation) error of the airspeed system. In the majority of cases, this causes an increase in local pressure at the static source—not the pitot tube—producing a lower indication of airspeed and altitude. The distractors are incorrect because they reference the pitot tube or dynamic pressure port rather than the static source, or they introduce an unrelated pitot heat system issue.",
-      "reference": {
-        "page": "5-11",
-        "text": "14\nthat just before touchdown it would suddenly feel like the\naircraft did not want to go lower, and it would just want to go       Figure 5-16. Ground effect changes airflow.\non and on. This is due to the air that is trapped between the\nwing and the landing surface, as if there were an air cushion.\nThis phenomenon is called ground effect.                              the spanwise lift distribution and reduces the induced AOA\n                                                                      and induced drag. Therefore, the wing will require a lower\nWhen an aircraft in flight comes within several feet of the           AOA in ground effect to produce the same CL. If a constant\nsurface, ground or water, a change occurs in the three-               AOA is maintained, an increase in CL results. [Figure 5-17]\ndimensional flow pattern around the aircraft because the\nvertical component of the airflow around the wing is                  Ground effect also alters the thrust required versus velocity.\nrestricted by the surface. This alters the wing’s upwash,             Since induced drag predominates at low speeds, the reduction\ndownwash, and wingtip vortices. [Figure 5-16] Ground                  of induced drag due to ground effect will cause a significant\neffect, then, is due to the interference of the ground (or water)     reduction of thrust required (parasite plus induced drag) at low\nsurface with the airflow patterns about the aircraft in flight.       speeds. Due to the change in upwash, downwash, and wingtip\nWhile the aerodynamic characteristics of the tail surfaces            vortices, there may be a change in position (installation) error\nand the fuselage are altered by ground effect, the principal          of the airspeed system associated with ground effect. In the\neffects due to proximity of the ground are the changes in             majority of cases, ground effect causes an increase in the local\nthe aerodynamic characteristics of the wing. As the wing              pressure at the static source and produces a lower indication\nencounters ground effect and is maintained at a constant              of airspeed and altitude."
-      }
-    },
-    {
-      "section": "Ground Effect",
-      "difficulty": 3,
-      "categories": [
-        "written_exam"
-      ],
-      "question": "A pilot is floating in ground effect just above the runway and notices the airspeed indicator reads slightly lower than expected. What explains this discrepancy?",
-      "correct_answer": "Ground effect increases local pressure at the static source, causing a lower airspeed indication",
-      "distractors": [
-        "Ground effect decreases pressure at the static port, causing a lower airspeed indication",
-        "Ground effect increases ram air pressure at the pitot tube, causing a lower airspeed indication",
-        "Ground effect has no effect on instrument indications; only lift and drag are affected"
-      ],
-      "explanation": "According to PHAK Chapter 5, ground effect alters the upwash, downwash, and wingtip vortices, which can change the position (installation) error of the airspeed system. In the majority of cases, ground effect causes an increase in local pressure at the static source. Since the airspeed indicator measures the difference between pitot pressure and static pressure, a higher static pressure reduces this differential, resulting in a lower indication of both airspeed and altitude. A pilot should be aware that the airspeed indicator may under-read while in ground effect.",
-      "reference": {
-        "page": "5-11",
-        "text": "14\nthat just before touchdown it would suddenly feel like the\naircraft did not want to go lower, and it would just want to go       Figure 5-16. Ground effect changes airflow.\non and on. This is due to the air that is trapped between the\nwing and the landing surface, as if there were an air cushion.\nThis phenomenon is called ground effect.                              the spanwise lift distribution and reduces the induced AOA\n                                                                      and induced drag. Therefore, the wing will require a lower\nWhen an aircraft in flight comes within several feet of the           AOA in ground effect to produce the same CL. If a constant\nsurface, ground or water, a change occurs in the three-               AOA is maintained, an increase in CL results. [Figure 5-17]\ndimensional flow pattern around the aircraft because the\nvertical component of the airflow around the wing is                  Ground effect also alters the thrust required versus velocity.\nrestricted by the surface. This alters the wing’s upwash,             Since induced drag predominates at low speeds, the reduction\ndownwash, and wingtip vortices. [Figure 5-16] Ground                  of induced drag due to ground effect will cause a significant\neffect, then, is due to the interference of the ground (or water)     reduction of thrust required (parasite plus induced drag) at low\nsurface with the airflow patterns about the aircraft in flight.       speeds. Due to the change in upwash, downwash, and wingtip\nWhile the aerodynamic characteristics of the tail surfaces            vortices, there may be a change in position (installation) error\nand the fuselage are altered by ground effect, the principal          of the airspeed system associated with ground effect. In the\neffects due to proximity of the ground are the changes in             majority of cases, ground effect causes an increase in the local\nthe aerodynamic characteristics of the wing. As the wing              pressure at the static source and produces a lower indication\nencounters ground effect and is maintained at a constant              of airspeed and altitude."
-      }
-    },
-    {
-      "section": "Ground Effect",
-      "difficulty": 3,
+      "difficulty": 2,
       "categories": [
         "written_exam",
         "checkride_oral"
       ],
-      "question": "During takeoff, an aircraft may become airborne at an indicated airspeed lower than would be required out of ground effect. What primarily allows this to occur?",
-      "correct_answer": "Reduction of induced drag when the wing operates near the ground",
+      "question": "What happens when an aircraft leaves ground effect after takeoff with a deficiency of airspeed?",
+      "correct_answer": "The aircraft experiences an increase in induced drag, requires an increase in AOA to maintain the same CL, and may have marginal initial climb performance",
       "distractors": [
-        "Reduction of parasite drag when the wing operates near the ground",
-        "Increase in dynamic pressure under the wing due to ground proximity",
-        "Decrease in the aircraft's stall speed due to ground proximity"
+        "The aircraft experiences a decrease in induced drag and improved climb performance",
+        "The aircraft experiences a nose-down pitch change and increased stability",
+        "The aircraft requires less thrust and a lower AOA to maintain flight"
       ],
-      "explanation": "According to the PHAK, when a wing operates close to the ground, ground effect reduces the wingtip vortices, upwash, and downwash. This significantly reduces induced drag, which predominates at low airspeeds. With less induced drag, less thrust is required to sustain flight, allowing the aircraft to become airborne at an indicated airspeed lower than would be possible out of ground effect. Ground effect does not reduce parasite drag, increase dynamic pressure, or alter the aircraft's inherent stall speed.",
-      "reference": {
-        "page": "5-11",
-        "text": "Thus, an aircraft may be airborne at\nAOA, there is consequent reduction in the upwash,                     an indicated airspeed less than that normally required.\ndownwash, and wingtip vortices.\n                                                                      In order for ground effect to be of significant magnitude, the\nInduced drag is a result of the airfoil’s work of sustaining          wing must be quite close to the ground. One of the direct\nthe aircraft, and a wing or rotor lifts the aircraft simply by        results of ground effect is the variation of induced drag with\naccelerating a mass of air downward. It is true that reduced          wing height above the ground at a constant CL. When the\npressure on top of an airfoil is essential to lift, but that is       wing is at a height equal to its span, the reduction in induced\nonly one of the things contributing to the overall effect of          drag is only 1.4 percent. However, when the wing is at a\npushing an air mass downward. The more downwash there                 height equal to one-fourth its span, the reduction in induced\nis, the harder the wing pushes the mass of air down. At high          drag is 23.5 percent and, when the wing is at a height equal\nangles of attack, the amount of induced drag is high; since this      to one-tenth its span, the reduction in induced drag is 47.6\ncorresponds to lower airspeeds in actual flight, it can be said       percent. Thus, a large reduction in induced drag takes place\nthat induced drag predominates at low speed. However, the             only when the wing is very close to the ground. Because of\nreduction of the wingtip vortices due to ground effect alters         this variation, ground effect is most usually recognized during\n                                                                      the liftoff for takeoff or just prior to touchdown when landing. In ground effect Out of ground effect\n          Thrust required Out of ground effect In ground effect"
-      }
-    },
-    {
-      "section": "Lift coefficient CL",
-      "difficulty": 3,
-      "categories": [
-        "written_exam",
-        "checkride_oral"
-      ],
-      "question": "A pilot carries excess airspeed into the flare during landing. What is the primary reason this results in a considerable float distance?",
-      "correct_answer": "Reduced drag and lack of power-off deceleration in ground effect",
-      "distractors": [
-        "Increased induced drag in ground effect prolongs the deceleration",
-        "A decrease in CL requires the aircraft to remain airborne longer",
-        "A nose-up change in moment delays touchdown",
-        "Ground effect increases static source pressure, causing a false airspeed reading"
-      ],
-      "explanation": "According to PHAK Chapter 5, during landing the aircraft experiences an increase in CL and a reduction in thrust required when entering ground effect. Because of the reduced drag and lack of power-off deceleration in ground effect, any excess speed at the point of flare may incur a considerable float distance. The distractors describe effects associated with leaving ground effect during takeoff (increased induced drag, decreased CL, nose-up moment change, and static pressure changes), not entering ground effect during landing.",
+      "explanation": "The chapter explains that an aircraft leaving ground effect will require an increase in AOA to maintain the same CL, experience an increase in induced drag and thrust required, and experience a decrease in stability and a nose-up change in moment. With a deficiency of speed, the greater induced drag may result in marginal initial climb performance, and in extreme conditions the aircraft may settle back to the runway.",
       "reference": {
         "page": "5-12",
-        "text": "During the takeoff phase of flight, ground effect produces             establishing a positive rate of climb and only after achieving\nsome important relationships. An aircraft leaving ground               a safe altitude.\neffect after takeoff encounters just the reverse of an aircraft\nentering ground effect during landing. The aircraft leaving            If, during the landing phase of flight, the aircraft is brought\nground effect will:                                                    into ground effect with a constant AOA, the aircraft\n  •    Require an increase in AOA to maintain the same CL              experiences an increase in CL and a reduction in the thrust\n                                                                       required, and a “floating” effect may occur. Because of the\n  •    Experience an increase in induced drag and thrust               reduced drag and lack of power-off deceleration in ground\n       required                                                        effect, any excess speed at the point of flare may incur a\n  •    Experience a decrease in stability and a nose-up                considerable “float” distance. As the aircraft nears the point\n       change in moment                                                of touchdown, ground effect is most realized at altitudes less\n                                                                       than the wingspan. During the final phases of the approach\n  •    Experience a reduction in static source pressure and\n                                                                       as the aircraft nears the ground, a reduction of power is\n       increase in indicated airspeed\n                                                                       necessary to offset the increase in lift caused from ground\n                                                                       effect otherwise the aircraft will have a tendency to climb\nGround effect must be considered during takeoffs and landings.\n                                                                       above the desired glidepath (GP).\nFor example, if a pilot fails to understand the relationship\nbetween the aircraft and ground effect during takeoff, a\n                                                                       Axes of an Aircraft\nhazardous situation is possible because the recommended\ntakeoff speed may not be achieved."
+        "text": "The aircraft leaving ground effect will: Require an increase in AOA to maintain the same CL, Experience an increase in induced drag and thrust required, Experience a decrease in stability and a nose-up change in moment."
+      }
+    },
+    {
+      "section": "Axes of an Aircraft",
+      "difficulty": 1,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "Which motion of an aircraft occurs about its lateral axis?",
+      "correct_answer": "Pitch",
+      "distractors": [
+        "Roll",
+        "Yaw",
+        "Sideslip"
+      ],
+      "explanation": "The chapter defines the three axes and their associated motions: motion about the longitudinal axis is 'roll,' motion about the lateral axis is 'pitch,' and motion about the vertical axis is 'yaw.' The lateral axis passes through the CG parallel to a line from wingtip to wingtip.",
+      "reference": {
+        "page": "5-13",
+        "text": "The motion about the aircraft's longitudinal axis is 'roll,' the motion about its lateral axis is 'pitch,' and the motion about its vertical axis is 'yaw.'"
+      }
+    },
+    {
+      "section": "Aircraft Design Characteristics",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "An aircraft that, after being disturbed from equilibrium, initially tends to remain in its new displaced condition rather than returning or continuing away, is exhibiting which type of static stability?",
+      "correct_answer": "Neutral static stability",
+      "distractors": [
+        "Positive static stability",
+        "Negative static stability",
+        "Dynamic stability"
+      ],
+      "explanation": "The chapter defines three types of static stability. Positive static stability is the initial tendency to return to equilibrium. Negative static stability is the initial tendency to continue moving away from equilibrium. Neutral static stability is the initial tendency to remain in the new condition after being disturbed. Dynamic stability refers to the aircraft's response over time, not the initial tendency.",
+      "reference": {
+        "page": "5-14",
+        "text": "Neutral static stability—the initial tendency of the aircraft to remain in a new condition after its equilibrium has been disturbed."
+      }
+    },
+    {
+      "section": "Longitudinal Stability (Pitching)",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "Why do aircraft designers typically place the center of gravity (CG) forward of the center of lift (CL)?",
+      "correct_answer": "To create a nose-heavy tendency that is counterbalanced by a downward force on the horizontal stabilizer, providing longitudinal stability",
+      "distractors": [
+        "To align the thrust line with the flight path and reduce drag in cruise",
+        "To eliminate the need for a horizontal stabilizer entirely",
+        "To increase maneuverability by making the aircraft less stable in pitch"
+      ],
+      "explanation": "The chapter explains that when the CG is forward of the CL, the aircraft is 'nose heavy' and requires a downward force on the horizontal stabilizer to balance it. This arrangement provides longitudinal stability: if the aircraft pitches nose up or down, the changing moments from the wing and tail work to restore the original attitude. Designers fix the aft limit of the CG forward of the CP to retain flight equilibrium.",
+      "reference": {
+        "page": "5-16",
+        "text": "Most aircraft are designed so that the wing's CL is to the rear of the CG. This makes the aircraft 'nose heavy' and requires that there be a slight downward force on the horizontal stabilizer in order to balance the aircraft and keep the nose from continually pitching downward."
+      }
+    },
+    {
+      "section": "Lateral Stability (Rolling)",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "How does dihedral contribute to lateral stability when an aircraft is disturbed by a gust causing a roll?",
+      "correct_answer": "The resulting sideslip increases the AOA on the wing being lowered, generating more lift on that wing and rolling the aircraft back toward level",
+      "distractors": [
+        "The sideslip causes both wings to generate equal lift, stabilizing the aircraft",
+        "The fuselage weight acts as a pendulum below the wings to return the aircraft to level",
+        "The sweepback of the wing creates more drag on the low wing, pulling it back up"
+      ],
+      "explanation": "The chapter explains that when a gust causes a roll, a sideslip results. The relative wind from the side causes the wing slipping into the wind (the lowered wing) to experience an increased AOA and more lift, while the wing on the other side experiences decreased AOA and less lift. This rolling moment tends to raise the lowered wing, restoring the aircraft to level flight. The pendulum effect described in option B is the keel effect, and option C describes sweepback, not dihedral.",
+      "reference": {
+        "page": "5-18",
+        "text": "When a gust causes a roll, a sideslip will result. This sideslip causes the relative wind affecting the entire airplane to be from the direction of the slip... the wing slipping into the wind is subject to an increase in AOA and develops an increase in lift."
+      }
+    },
+    {
+      "section": "Aerodynamic Forces in Flight Maneuvers",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "In a coordinated, banked turn, what force actually causes the aircraft to deviate from a straight flight path?",
+      "correct_answer": "The horizontal component of lift",
+      "distractors": [
+        "The rudder pushing the tail in the desired direction of turn",
+        "Centrifugal force pulling the aircraft toward the center of the turn",
+        "The vertical component of lift acting opposite to weight"
+      ],
+      "explanation": "The chapter explains that when an aircraft banks, lift acts inward toward the center of the turn as well as upward. The horizontal component of lift (centripetal force) is what pulls the aircraft from a straight flight path to make it turn. The rudder is used only to keep the nose and tail tracking along the same path, not to turn the aircraft. Centrifugal force is the equal and opposite reaction, acting outward, not inward.",
+      "reference": {
+        "page": "5-22",
+        "text": "The horizontal component of lift is the force that pulls the aircraft from a straight flight path to make it turn."
+      }
+    },
+    {
+      "section": "Stalls",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral",
+        "general_knowledge"
+      ],
+      "question": "Which statement about stalls is correct according to the chapter?",
+      "correct_answer": "A given aircraft always stalls at the same AOA regardless of airspeed, weight, load factor, or density altitude",
+      "distractors": [
+        "An aircraft stalls at a fixed airspeed that does not change with weight or bank angle",
+        "Stalls can only occur at low airspeeds below the published stall speed",
+        "The critical AOA changes depending on the aircraft's weight and density altitude"
+      ],
+      "explanation": "The chapter explicitly states that each aircraft has a particular AOA where airflow separates and the stall occurs, and this critical AOA does not change with weight, bank angle, temperature, density altitude, or CG. The stalling speed, however, does vary with these factors. An aircraft can be stalled at any airspeed if the critical AOA is exceeded.",
+      "reference": {
+        "page": "5-25",
+        "text": "a given aircraft always stalls at the same AOA regardless of airspeed, weight, load factor, or density altitude. Each aircraft has a particular AOA where the airflow separates from the upper surface of the wing and the stall occurs."
+      }
+    },
+    {
+      "section": "Basic Propeller Principles",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "Why are propeller blades twisted along their length, with greater blade angle near the hub and lesser blade angle near the tip?",
+      "correct_answer": "To maintain a relatively constant AOA along the entire blade length despite differences in rotational velocity from hub to tip",
+      "distractors": [
+        "To reduce noise generated by the propeller tips at high RPM",
+        "To increase the geometric pitch at the hub for better climb performance",
+        "To balance the propeller dynamically for smoother operation at cruise RPM"
+      ],
+      "explanation": "The chapter explains that the outer parts of propeller blades travel faster than portions near the hub. If blades had the same geometric pitch throughout, portions near the hub could have negative AOAs while the tips would be stalled at cruise speed. Twisting the blades varies the blade angle in proportion to the speed differences, keeping the AOA relatively constant and thrust more equalized along the blade length.",
+      "reference": {
+        "page": "5-30",
+        "text": "If the blades had the same geometric pitch throughout their lengths, portions near the hub could have negative AOAs while the propeller tips would be stalled at cruise speed. Twisting or variations in the geometric pitch of the blades permits the propeller to operate with a relatively constant AOA along its length when in cruising flight."
+      }
+    },
+    {
+      "section": "Torque and P-Factor",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "At a high angle of attack, why does asymmetric loading (P-factor) cause a left yawing tendency in aircraft with clockwise-rotating propellers (as viewed from the cockpit)?",
+      "correct_answer": "The downward-moving blade on the right side has a higher resultant velocity and produces more thrust than the upward-moving blade",
+      "distractors": [
+        "The upward-moving blade stalls first, reducing thrust on the left side of the propeller disc",
+        "Gyroscopic precession deflects the propeller force 90° ahead in the direction of rotation",
+        "The corkscrew slipstream strikes the left side of the vertical fin, pushing the nose left"
+      ],
+      "explanation": "The chapter explains that at high AOA, the downward-moving (right) blade has a greater resultant velocity because the aircraft's forward velocity adds to the blade's rotational velocity. Since the propeller blade is an airfoil, increased velocity means increased lift (thrust). This moves the center of thrust to the right, causing a yawing moment toward the left. Option B describes gyroscopic precession, option C describes the corkscrew effect—both are separate elements of left-turning tendency.",
+      "reference": {
+        "page": "5-32",
+        "text": "When an aircraft is flying with a high AOA, the 'bite' of the downward moving blade is greater than the 'bite' of the upward moving blade. This moves the center of thrust to the right of the prop disc area, causing a yawing moment toward the left around the vertical axis."
+      }
+    },
+    {
+      "section": "Load Factors",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "In a coordinated, constant-altitude turn, what is the load factor at a 60° bank angle?",
+      "correct_answer": "2 Gs",
+      "distractors": [
+        "1.41 Gs",
+        "1.73 Gs",
+        "3 Gs"
+      ],
+      "explanation": "The chapter states that the load factor for any aircraft in a coordinated level turn at 60° bank is 2 Gs. The load factor increases rapidly after 45°–50° of bank. At 80° bank, the load factor would be 5.76 Gs. A 90° banked, constant-altitude turn is not mathematically possible.",
+      "reference": {
+        "page": "5-34",
+        "text": "The load factor for any aircraft in a coordinated level turn at 60° bank is 2 Gs. The load factor in an 80° bank is 5.76 Gs."
+      }
+    },
+    {
+      "section": "Load Factors and Stalling Speeds",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "If an aircraft has a normal unaccelerated stalling speed of 50 knots, at approximately what airspeed would it stall if subjected to a load factor of 4 Gs?",
+      "correct_answer": "100 knots",
+      "distractors": [
+        "75 knots",
+        "150 knots",
+        "200 knots"
+      ],
+      "explanation": "The chapter states that stalling speed increases in proportion to the square root of the load factor. The square root of 4 is 2, so the stalling speed doubles from 50 to 100 knots. The chapter uses this exact example: 'an aircraft with a normal unaccelerated stalling speed of 50 knots can be stalled at 100 knots by inducing a load factor of 4 Gs.'",
+      "reference": {
+        "page": "5-34",
+        "text": "an aircraft's stalling speed increases in proportion to the square root of the load factor. This means that an aircraft with a normal unaccelerated stalling speed of 50 knots can be stalled at 100 knots by inducing a load factor of 4 Gs."
+      }
+    },
+    {
+      "section": "Vg Diagram",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "What is the significance of the maneuvering speed (VA) as depicted on the Vg diagram?",
+      "correct_answer": "Below this speed, the aircraft will stall before it can produce a damaging positive flight load",
+      "distractors": [
+        "It is the maximum speed at which the aircraft can be flown in smooth air",
+        "It is the speed at which the aircraft reaches its maximum coefficient of lift",
+        "It is the minimum speed at which the aircraft can sustain level flight"
+      ],
+      "explanation": "The chapter explains that the maneuvering speed is the intersection of the positive limit load factor and the line of maximum positive lift capability on the Vg diagram. Below this speed, the aircraft cannot produce enough lift to exceed the limit load factor—it will stall first. The chapter states, 'an aircraft operating below this point cannot produce a damaging positive flight load.' VA is not the never-exceed speed (VNE), nor is it CL-MAX or minimum level flight speed.",
+      "reference": {
+        "page": "5-37",
+        "text": "The usual term given to this speed is 'maneuvering speed,' since consideration of subsonic aerodynamics would predict minimum usable turn radius or maneuverability to occur at this condition. The maneuver speed is a valuable reference point, since an aircraft operating below this point cannot produce a damaging positive flight load."
+      }
+    },
+    {
+      "section": "Radius of Turn",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "If an aircraft doubles its airspeed while maintaining the same bank angle, what happens to the radius of turn?",
+      "correct_answer": "The radius quadruples",
+      "distractors": [
+        "The radius doubles",
+        "The radius remains the same because bank angle is unchanged",
+        "The radius is halved"
+      ],
+      "explanation": "The chapter's radius of turn formula (R = V² / 11.26 × tangent of bank angle) shows that radius is proportional to velocity squared. The chapter provides a concrete example: at 120 knots with 30° bank, the radius is 2,215 feet; at 240 knots with the same 30° bank, the radius is 8,861 feet—four times greater. The chapter emphasizes that 'airspeed is the most influential factor in determining how much distance is required to turn.'",
+      "reference": {
+        "page": "5-40",
+        "text": "Note that if the speed is doubled, the radius is quadrupled."
       }
     }
   ]

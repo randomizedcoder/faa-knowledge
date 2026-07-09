@@ -3,182 +3,161 @@
   "chapter": 4,
   "questions": [
     {
-      "section": "Chapter 4: Energy Management: Mastering Altitude and Airspeed Control",
-      "difficulty": 3,
+      "section": "Viewing the Airplane as an Energy System",
+      "difficulty": 1,
       "categories": [
         "written_exam",
-        "checkride_oral"
+        "general_knowledge"
       ],
-      "question": "During a poorly managed approach, an aircraft's airspeed continues to decrease while its sink rate increases to the point where recovery is no longer possible. In the context of energy management, what is the fundamental danger of this energy state?",
-      "correct_answer": "Irreversible deceleration and/or sink rate are energy states that can result in a crash if not properly managed.",
+      "question": "The total mechanical energy of an airplane in flight is the sum of which two forms of energy?",
+      "correct_answer": "Potential energy from altitude and kinetic energy from airspeed",
       "distractors": [
-        "The aircraft will automatically enter a flat spin that cannot be recovered regardless of control inputs",
-        "The engine will flame out due to disrupted airflow at the intake caused by the high sink rate",
-        "The wings will suffer permanent structural deformation from the excessive descent angle, making future flight unsafe"
+        "Potential energy from airspeed and kinetic energy from altitude",
+        "Thrust energy from the engine and drag energy from the airframe",
+        "Chemical energy from fuel and thermal energy from combustion"
       ],
-      "explanation": "According to AFH Chapter 4 on Energy Management, one of the pilot's fundamental responsibilities is to prevent irreversible deceleration and/or sink rate that results in a crash. These are dangerous energy states—not structural, engine, or spin issues—where the aircraft no longer possesses sufficient energy (airspeed and/or altitude) to arrest the descent before ground impact. The key concept is that energy management requires the pilot to detect, correct, and prevent unintentional altitude-airspeed deviations before they become irreversible.",
+      "explanation": "The chapter defines total mechanical energy as the sum of potential energy (mgh, from altitude) and kinetic energy (½mV², from airspeed). Potential energy is tied to altitude, and kinetic energy is tied to airspeed.",
       "reference": {
         "page": "4-1",
-        "text": "1. Attain and maintain desired vertical flightpath-airspeed profiles.\n    2. Detect, correct, and prevent unintentional altitude-airspeed deviations from the desired energy state.\n    3. Prevent irreversible deceleration and/or sink rate that results in a crash."
+        "text": "The total mechanical energy of an airplane in flight is the sum of its potential energy from altitude and kinetic energy from airspeed."
       }
     },
     {
-      "section": "A Frame of Reference for Managing Energy State",
-      "difficulty": 3,
+      "section": "Viewing the Airplane as an Energy System",
+      "difficulty": 1,
       "categories": [
-        "checkride_oral",
         "general_knowledge"
       ],
-      "question": "When confronted with rising terrain, which energy management strategy should a pilot employ?",
-      "correct_answer": "Manipulate the airplane's energy state to maximize energy gains and minimize energy losses",
+      "question": "The handbook describes a flying airplane as an \"open\" energy system. What does this mean?",
+      "correct_answer": "The airplane can gain energy from a source such as fuel and lose energy to the environment such as the surrounding air",
       "distractors": [
-        "Maintain the current energy state, since terrain elevation is an external factor the pilot cannot alter",
-        "Minimize energy gains to conserve fuel for a potential diversion to a safer heading",
-        "Rely on wind changes to naturally improve the airplane's energy state relative to the terrain"
+        "The airplane's energy state is constantly changing and cannot be controlled by the pilot",
+        "The energy system is open to inspection by maintenance personnel during flight",
+        "The airplane can only gain energy but cannot lose it during normal flight"
       ],
-      "explanation": "According to AFH Chapter 4, while terrain elevation is an external factor the pilot cannot alter, the pilot should actively manipulate the airplane's energy state to minimize risks associated with terrain. Specifically, when faced with rising terrain, the pilot should seek to maximize the airplane's energy gains and minimize energy losses. The pilot's direct control inputs determine the airplane's ability to climb or accelerate, and these should be used proactively rather than passively maintaining the current state or waiting for external conditions to change.",
+      "explanation": "An open energy system means energy can be added (e.g., from fuel via thrust) or removed (e.g., to the surrounding air via drag). The pilot can add or remove energy from the total mechanical energy stored as altitude and airspeed.",
       "reference": {
-        "page": "4-2",
-        "text": "Note that changes in indicated altitude and airspeed are attained through forces resulting from the pilot’s direct manipulation of the\ncontrols. These direct control inputs determine the airplane’s ability to climb/descend or accelerate/decelerate. In contrast,\nchanges in AGL-altitude and groundspeed are affected by “external” factors, such as varying terrain elevation and wind, which\nthe pilot cannot alter. Of course, the pilot should manipulate the airplane’s energy in such way as to minimize any risks\nassociated with terrain or wind. For example, the pilot may seek to manipulate energy state so as to maximize the airplane’s energy\ngains and minimize energy loses when faced with rising terrain. A safer heading may also be an option."
+        "page": "4-1",
+        "text": "A flying airplane is an \"open\" energy system, which means that the airplane can gain energy from some source (e.g., the fuel tanks) and lose energy to the environment (e.g., the surrounding air)."
       }
     },
     {
       "section": "A Frame of Reference for Managing Energy State",
-      "difficulty": 3,
-      "categories": [
-        "checkride_oral",
-        "general_knowledge"
-      ],
-      "question": "A pilot on approach encounters a situation where drag exceeds thrust, causing the airplane's total mechanical energy to decrease. Which two sources of stored energy can the pilot draw upon to manage this energy deficit?",
-      "correct_answer": "Altitude and airspeed",
-      "distractors": [
-        "Altitude and fuel reserves",
-        "Airspeed and engine RPM",
-        "Fuel reserves and battery capacity"
-      ],
-      "explanation": "According to AFH Chapter 4, when drag exceeds thrust (T – D \u003c 0), the airplane's total mechanical energy decreases. The pilot has two sources of stored energy available to tap into: altitude and airspeed. For example, the pilot may choose to let the airplane descend at a constant airspeed (withdrawing stored energy from altitude) or slow down while maintaining altitude (withdrawing stored energy from airspeed). Fuel reserves and battery capacity are not considered stored mechanical energy in this context, and engine RPM is a power setting, not a stored energy source.",
-      "reference": {
-        "page": "4-2",
-        "text": "When drag exceeds thrust, (T – D \u003c 0), the airplane's total mechanical energy decreases. The pilot has two sources of stored energy to\ntap into. For example, the pilot may choose to let the airplane descend at a constant airspeed [Figure 4-1C)] or slow down while\nmaintaining altitude [Figure 4-1D] as stored energy is withdrawn to deal with the energy deficit. When energy gained equals that lost\n(T – D = 0), all thrust is spent on drag. In this case, the total amount of mechanical energy and its distribution over altitude and\nairspeed does not change. Both remain constant as the airplane maintains a constant altitude and airspeed. [Figure 4-1E]"
-      }
-    },
-    {
-      "section": "A Frame of Reference for Managing Energy State",
-      "difficulty": 3,
+      "difficulty": 2,
       "categories": [
         "written_exam",
         "checkride_oral"
       ],
-      "question": "During a maneuver where a pilot trades airspeed for altitude, under what condition can the total amount of mechanical energy remain the same at the end of the exchange?",
-      "correct_answer": "Thrust is adjusted to match drag as drag varies with changes in airspeed.",
+      "question": "When managing the airplane's energy state, what is the pilot's frame of reference for altitude and airspeed?",
+      "correct_answer": "Indicated altitude (MSL) and indicated airspeed, not height above ground or groundspeed",
       "distractors": [
-        "Pitch is adjusted to maintain a constant angle of attack throughout the maneuver.",
-        "The pilot maintains a constant throttle setting, allowing thrust and drag to equalize naturally.",
-        "Thrust is reduced proportionally as altitude increases to compensate for the decrease in airspeed."
+        "Height above ground level (AGL) and groundspeed, since terrain and wind are the primary hazards",
+        "True altitude and true airspeed, since these reflect the actual energy available",
+        "Density altitude and calibrated airspeed, since these account for non-standard atmospheric conditions"
       ],
-      "explanation": "According to the Airplane Flying Handbook (AFH) Chapter 4, while energy can be exchanged between altitude and airspeed (as one goes up, the other comes down), the total amount of mechanical energy can only remain the same at the end of the exchange maneuver if thrust is adjusted to match drag as drag varies with changes in airspeed. If thrust is not adjusted or is reduced, the total mechanical energy would not remain constant.",
+      "explanation": "The chapter explicitly states that the pilot's frame of reference is airplane-centric, based on indicated altitude (MSL) and indicated airspeed. AGL altitude and groundspeed are affected by external factors like terrain and wind, which the pilot cannot directly alter.",
       "reference": {
-        "page": "4-2",
-        "text": "Energy can also be exchanged between altitude and airspeed. For example, when a pilot trades airspeed for altitude, as altitude\nincreases, airspeed decreases. In other words, when energy is exchanged, altitude and airspeed always change in opposite directions\n(absent any other energy or control inputs). As one goes up, the other one comes down. Also note that even though the distribution of\nenergy over altitude and airspeed may change dramatically during energy exchange, the total amount of mechanical energy can\nremain the same at the end of the exchange maneuver [Figure 4-1F], as long as thrust is adjusted to match drag as the latter varies\nwith changes in airspeed."
+        "page": "4-1",
+        "text": "the pilot's frame of reference for managing the airplane's energy state is airplane-centric—being a function of indicated altitude and indicated airspeed, and not on the height above ground level (AGL), which changes with variations in terrain elevation."
       }
     },
     {
-      "section": "Role of the Controls to Manage Energy State",
-      "difficulty": 3,
+      "section": "Viewing the Airplane as an Energy System",
+      "difficulty": 2,
       "categories": [
         "written_exam",
         "checkride_oral"
       ],
-      "question": "According to the energy-centered approach to flight control, how should a pilot reframe the problem of managing vertical flight path and airspeed?",
-      "correct_answer": "Ask what controls total energy and what controls its distribution over altitude and airspeed.",
+      "question": "When thrust exceeds drag (T – D \u003e 0), what can the pilot do with the surplus energy?",
+      "correct_answer": "Store the surplus energy as increased altitude or airspeed, or a combination of both",
       "distractors": [
-        "Ask what controls altitude and what controls airspeed.",
-        "Ask what controls pitch attitude and what controls engine RPM.",
-        "Ask what controls kinetic energy and what controls potential energy."
+        "The surplus energy is automatically lost to the surrounding air and cannot be used",
+        "The surplus energy can only be stored as altitude, not airspeed",
+        "The pilot must immediately reduce throttle to restore the energy balance"
       ],
-      "explanation": "According to AFH Chapter 4, the energy-centered approach models how throttle and elevator inputs affect the airplane's total mechanical energy. Rather than asking the traditional question of what controls altitude and airspeed, a pilot should ask what controls the total amount of energy and what controls its distribution over altitude and speed.",
+      "explanation": "When T – D \u003e 0, total mechanical energy increases. The pilot can store the surplus as altitude (climb at constant airspeed), airspeed (accelerate in level flight), or a combination. The elevator determines how the surplus is distributed.",
       "reference": {
-        "page": "4-3",
-        "text": "An energy-centered approach clarifies the roles of the engine and flight controls beyond the simple “pitch for airspeed and power for\naltitude” by modeling how throttle and elevator inputs affect the airplane’s total mechanical energy. From an energy perspective, the\nproblem of controlling vertical flight path and airspeed becomes one of handling the airplane’s energy state—the total amount\nof energy and its distribution over altitude and speed. Thus, rather than asking what controls altitude and what controls airspeed, a\npilot can now ask what controls total energy and what controls its distribution over altitude and airspeed. 4-3"
+        "page": "4-2",
+        "text": "When thrust exceeds drag (T – D \u003e 0), the airplane's total mechanical energy increases. The pilot can store the surplus energy as increased altitude or airspeed."
+      }
+    },
+    {
+      "section": "Viewing the Airplane as an Energy System",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "During a pure energy exchange between altitude and airspeed (with no other energy inputs), how do altitude and airspeed change relative to each other?",
+      "correct_answer": "They always change in opposite directions—as one goes up, the other comes down",
+      "distractors": [
+        "They always change in the same direction—both increase or both decrease together",
+        "Altitude changes first, then airspeed follows after a brief delay",
+        "Only airspeed changes while altitude remains fixed during an energy exchange"
+      ],
+      "explanation": "The chapter states that during energy exchange, altitude and airspeed always change in opposite directions. For example, trading airspeed for altitude means altitude increases while airspeed decreases. The total mechanical energy can remain the same at the end of the exchange.",
+      "reference": {
+        "page": "4-2",
+        "text": "when energy is exchanged, altitude and airspeed always change in opposite directions (absent any other energy or control inputs). As one goes up, the other one comes down."
       }
     },
     {
       "section": "Primary Energy Role of the Throttle and Elevator",
-      "difficulty": 3,
+      "difficulty": 2,
       "categories": [
         "written_exam",
         "checkride_oral"
       ],
-      "question": "A pilot has established a stabilized approach at a specific airspeed and descent rate. According to the concept of total energy management, what is the throttle's role once this path-speed profile is set?",
-      "correct_answer": "To set engine thrust to match the total energy demanded by the vertical flight path and airspeed combined",
+      "question": "From an energy management perspective, what is the primary role of the throttle?",
+      "correct_answer": "It regulates changes in total mechanical energy by increasing or decreasing engine thrust against drag",
       "distractors": [
-        "To independently control airspeed by adjusting thrust to equal drag at the current flight path angle",
-        "To independently control the vertical flight path by adjusting thrust regardless of airspeed requirements",
-        "To regulate drag so that thrust matches only the energy needed to maintain the current airspeed"
+        "It independently controls altitude while the elevator independently controls airspeed",
+        "It exchanges energy between altitude and airspeed by adjusting pitch attitude",
+        "It controls the distribution of energy between potential and kinetic energy"
       ],
-      "explanation": "According to AFH Chapter 4, once the desired path-speed profile is established, the throttle sets engine thrust to match the total energy demanded by vertical flight path and airspeed combined. The throttle is the total energy controller — it does not independently control just airspeed or just altitude, but rather the combined energy requirement of both. This is why changes in total mechanical energy are normally initiated by changing thrust, since drag mainly varies long-term due to airspeed changes or by using high lift/drag devices.",
+      "explanation": "The throttle is the total energy controller. By changing thrust relative to drag, it determines whether total mechanical energy increases, decreases, or remains the same. The elevator, not the throttle, handles energy distribution.",
       "reference": {
         "page": "4-4",
-        "text": "The throttle, by increasing or decreasing engine thrust against drag, regulates changes in total mechanical energy. As illustrated\nabove, changing total energy is a function of both thrust and drag (T – D). However, drag mainly varies long-term due to airspeed\nchanges, or by using high lift/drag devices which can only increase drag. Therefore, changes in total energy are normally initiated by\nchanging thrust, not drag. When the throttle setting makes thrust greater than drag, an increase of total mechanical energy is the result.\nWhen the throttle setting makes thrust less than drag, a decrease of total mechanical energy is the result. Once the desired path-speed\nprofile is established, the throttle sets engine thrust to match the total energy demanded by vertical flight path and airspeed combined.\nThe throttle then is the total energy controller."
+        "text": "The throttle, by increasing or decreasing engine thrust against drag, regulates changes in total mechanical energy... The throttle then is the total energy controller."
       }
     },
     {
-      "section": "Additional Role for the Elevator",
-      "difficulty": 3,
+      "section": "Primary Energy Role of the Throttle and Elevator",
+      "difficulty": 2,
       "categories": [
         "written_exam",
         "checkride_oral"
       ],
-      "question": "A pilot cruising at high speed on the front side of the power required curve pitches up, exchanging airspeed for altitude. As the airplane slows toward the middle of the curve, why does positive excess power become available?",
-      "correct_answer": "The decrease in airspeed reduces total drag, causing thrust to exceed drag",
+      "question": "From an energy management perspective, what is the primary role of the elevator?",
+      "correct_answer": "It acts as an energy exchanger and distribution device, allocating changes in total energy between vertical flight path and airspeed",
       "distractors": [
-        "The decrease in airspeed increases engine thrust output, causing thrust to exceed drag",
-        "The decrease in airspeed increases angle of attack, producing additional lift that acts as excess power",
-        "The decrease in airspeed moves the airplane to the back side of the power curve where drag is minimized"
+        "It regulates total mechanical energy by adjusting engine thrust to match drag",
+        "It independently controls airspeed without any effect on altitude",
+        "It increases total drag to help the airplane slow down in all flight conditions"
       ],
-      "explanation": "According to AFH Chapter 4, on the front side of the power required curve, slowing down from a high cruise speed results in a reduction in total drag. This creates positive excess power (PS \u003e 0) where thrust exceeds drag (T – D \u003e 0). The excess power comes from the reduction in drag, not from an increase in engine thrust or additional lift. The airplane remains on the front side of the curve during this slowdown; it does not move to the back side. With this excess power, the airplane can climb at a constant airspeed or turn in level flight while maintaining a constant airspeed at an increased load factor.",
+      "explanation": "The elevator is the energy distribution controller. Its primary job is to allocate changes in total energy between altitude and airspeed by adjusting pitch attitude. The throttle, not the elevator, controls total energy.",
       "reference": {
-        "page": "4-5",
-        "text": "On the front side of the power required curve, where the airplane cruises at high speed (1 in Figure 4-4) and a low angle of attack\n(AOA) with little or no excess power or excess thrust (A in Figure 4-4), pulling back on the yoke or stick (elevator up) will result in a\nbrief energy exchange climb, causing the airplane to slow down from 1 to 2 toward the center of the power curve [Figure 4-4]. This\ndecrease in airspeed results in a reduction in total drag; hence available energy in the form of positive excess power (PS \u003e 0) where\nthrust exceeds drag (T – D \u003e 0). With this excess power (B in Figure 4-4) the airplane can now climb at a constant airspeed or turn in\nlevel flight while maintaining a constant airspeed at an increased load factor."
+        "page": "4-4",
+        "text": "the elevator is an energy exchanger and distribution device whose primary job is to allocate changes in total energy between vertical flight path and airspeed by adjusting pitch attitude... the elevator is the energy distribution controller."
       }
     },
     {
-      "section": "Additional Role for the Elevator",
-      "difficulty": 3,
-      "categories": [
-        "written_exam",
-        "checkride_oral"
-      ],
-      "question": "An airplane is cruising on the front side of the power curve at high speed. The pilot pulls back on the yoke, causing the airplane to slow toward the center of the power curve where excess power becomes available. What does this excess power enable the airplane to do that was not possible before?",
-      "correct_answer": "Climb at a constant airspeed or turn in level flight while maintaining a constant airspeed at an increased load factor",
-      "distractors": [
-        "Climb only by continuously trading airspeed for altitude in an energy exchange",
-        "Accelerate in level flight to a higher cruise speed with reduced total drag",
-        "Descend at a constant airspeed while reducing the load factor on the wings"
-      ],
-      "explanation": "According to AFH Chapter 4, when the pilot pulls back on the yoke on the front side of the power curve, the airplane initially slows in a brief energy exchange climb. As airspeed decreases, total drag reduces, creating positive excess power (PS \u003e 0) where thrust exceeds drag. It is this excess power that now enables the airplane to either climb at a constant airspeed or turn in level flight while maintaining a constant airspeed at an increased load factor—maneuvers not possible without excess power. Distractor A describes the initial energy exchange climb before excess power is available. Distractor B confuses excess power with acceleration rather than maintaining constant airspeed. Distractor C incorrectly suggests descending rather than climbing or turning.",
-      "reference": {
-        "page": "4-5",
-        "text": "On the front side of the power required curve, where the airplane cruises at high speed (1 in Figure 4-4) and a low angle of attack\n(AOA) with little or no excess power or excess thrust (A in Figure 4-4), pulling back on the yoke or stick (elevator up) will result in a\nbrief energy exchange climb, causing the airplane to slow down from 1 to 2 toward the center of the power curve [Figure 4-4]. This\ndecrease in airspeed results in a reduction in total drag; hence available energy in the form of positive excess power (PS \u003e 0) where\nthrust exceeds drag (T – D \u003e 0). With this excess power (B in Figure 4-4) the airplane can now climb at a constant airspeed or turn in\nlevel flight while maintaining a constant airspeed at an increased load factor."
-      }
-    },
-    {
-      "section": "Additional Role for the Elevator",
+      "section": "Managing Energy is a Balancing Act",
       "difficulty": 3,
       "categories": [
         "written_exam"
       ],
-      "question": "While operating on the backside of the power required curve, a pilot pushes forward on the elevator, resulting in a brief energy exchange descent and an increase in airspeed. How does this acceleration affect the airplane's total drag and excess power?",
-      "correct_answer": "Total drag decreases, creating positive excess power where thrust exceeds drag.",
+      "question": "According to the energy balance equation, how do the two sides of the equation relate to each other during flight?",
+      "correct_answer": "The net energy flow from thrust minus drag always matches the change in energy redistributed over altitude and airspeed, regardless of flight condition",
       "distractors": [
-        "Total drag increases, requiring a significant increase in thrust to maintain altitude.",
-        "Total drag decreases, but the energy exchange descent prevents the creation of excess power.",
-        "Total drag remains constant, but the lower angle of attack temporarily increases excess power."
+        "The two sides only balance when the airplane is in steady, level flight at constant airspeed",
+        "The left side represents potential energy and the right side represents kinetic energy, and they must be equal",
+        "The equation only applies during climbs and descents, not during level acceleration or deceleration"
       ],
-      "explanation": "According to the Airplane Flying Handbook, on the backside of the power required curve, pushing forward on the elevator causes a brief energy exchange descent that accelerates the airplane toward the center of the power curve. This increase in airspeed results in a reduction in total drag, which creates positive excess power (T - D \u003e 0) that can then be used to climb or turn.",
+      "explanation": "The energy balance equation is inexorably balanced at all times. The left side (net energy flow, a function of T – D) always matches the right side (change in energy stored as altitude and airspeed), whether the airplane is climbing, descending, accelerating, decelerating, or maintaining constant altitude and airspeed.",
       "reference": {
-        "page": "4-5",
-        "text": "On the backside of the power required curve, where the airplane flies at low speed (3 in Figure 4-4) and high AOA with little or no\nexcess power or excess thrust (C in Figure 4-4), pushing forward on the yoke or stick (elevator down) will result in a brief energy\nexchange descent, causing the airplane to accelerate from 3 to 2 toward the center of the power curve [Figure 4-4]. This increase in\nairspeed results in a reduction in total drag; hence available energy in the form of positive excess power (PS \u003e0) where thrust exceeds\ndrag (T – D \u003e 0). With this excess power (B in Figure 4-4) the airplane can now climb at a constant airspeed or turn in level flight\nwhile maintaining a constant airspeed at an increased load factor. This role of the elevator is critical to prevent unintentional,\nexcessive deceleration or sink rate as illustrated later in the chapter (refer to Preventing Irreversible Deceleration and/or Sink Rate\nsection)."
+        "page": "4-3",
+        "text": "a change in total energy resulting from the difference between thrust and drag (left side) always matches the change in total energy redistributed over altitude and airspeed (right side)... both sides of the equation are inexorably balanced regardless of whether the airplane is accelerating, decelerating, climbing, descending, or maintaining constant altitude and airspeed."
       }
     },
     {
@@ -188,177 +167,216 @@
         "written_exam",
         "checkride_oral"
       ],
-      "question": "During a level turn, why can pulling back on the elevator to increase angle of attack decrease total energy more rapidly than simply reducing the throttle to idle?",
-      "correct_answer": "The increased AOA required to maintain altitude in the turn raises induced drag, directly increasing the 'D' in T–D at any given speed.",
+      "question": "On the backside of the power required curve, what happens when the pilot pushes forward on the yoke/stick (elevator down)?",
+      "correct_answer": "A brief energy exchange descent causes acceleration, which reduces total drag and can create positive excess power",
       "distractors": [
-        "The elevator disrupts airflow over the propeller, reducing thrust output more effectively than closing the throttle.",
-        "The elevator increases parasite drag by exposing more fuselage surface area to the relative wind during the bank.",
-        "The elevator converts airspeed into altitude, trading kinetic energy for potential energy rather than bleeding off total energy."
+        "The airplane immediately stalls because the angle of attack decreases too rapidly",
+        "Total energy increases immediately without any change in airspeed or altitude",
+        "The airplane climbs because lower angle of attack always produces more lift"
       ],
-      "explanation": "According to AFH Chapter 4, during a level turn, load factor increases because total lift must increase to both pull the airplane into the turn and balance its weight. Pulling back on the yoke increases AOA, which raises induced drag and power required at any given speed. This directly increases the 'D' in T–D, bleeding off total energy more rapidly than reducing throttle alone. Distractor A is incorrect because the mechanism is increased drag, not reduced thrust. Distractor B incorrectly attributes the energy loss to parasite drag rather than induced drag. Distractor C describes energy exchange between kinetic and potential energy, which does not reduce total energy, rather than the direct drag increase that actually occurs.",
+      "explanation": "On the backside of the power curve, pushing forward causes a brief energy exchange descent that accelerates the airplane toward the center of the power curve. This increased airspeed reduces total drag, potentially creating positive excess power (PS \u003e 0) where thrust exceeds drag, enabling a climb or turn.",
       "reference": {
-        "page": "4-6",
-        "text": "While the elevator can assist the throttle in changing T – D and PS through changes in airspeed via energy exchange as described\nabove, occasionally the elevator can directly increase the “D” in T – D at any given speed during a level turn, thus helping the\nairplane rapidly bleed off total energy. As the airplane banks, load factor (lift/weight) increases because total lift has to increase to\npull the airplane into the turn while simultaneously balancing its weight. This is accomplished by pulling back on the yoke (or stick)\nto increase AOA which results in increased induced drag and power required at any given speed. This action will quickly slow\nthe airplane down and decrease total energy more rapidly than by just reducing the throttle setting to idle. This additional role of the\nelevator is shown on the power curve. [Figure 4-5]"
+        "page": "4-5",
+        "text": "On the backside of the power required curve... pushing forward on the yoke or stick (elevator down) will result in a brief energy exchange descent, causing the airplane to accelerate from 3 to 2 toward the center of the power curve. This increase in airspeed results in a reduction in total drag; hence available energy in the form of positive excess power (PS \u003e0)."
       }
     },
     {
-      "section": "Additional Role for the Elevator",
+      "section": "Three Basic Rules of Energy Control",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "According to the energy control rules, what control inputs are needed to transition to a higher altitude at a constant airspeed?",
+      "correct_answer": "Increase throttle and use up-elevator to stay on speed",
+      "distractors": [
+        "Decrease throttle and use up-elevator to trade speed for altitude",
+        "Increase throttle and use down-elevator to stay on path",
+        "Keep throttle the same and use up-elevator to exchange speed for altitude"
+      ],
+      "explanation": "Rule #1 applies: moving to a higher energy state requires increased throttle (thrust greater than drag). To climb at constant speed, the pilot uses up-elevator to distribute the energy gain into altitude rather than airspeed. This is a total energy increase with distribution favoring altitude.",
+      "reference": {
+        "page": "4-10",
+        "text": "transitioning to a higher altitude at a constant speed (1-to-2) requires increased throttle and up-elevator to stay on speed"
+      }
+    },
+    {
+      "section": "Three Basic Rules of Energy Control",
+      "difficulty": 2,
+      "categories": [
+        "written_exam"
+      ],
+      "question": "According to the energy control rules, what control inputs are needed to transition to a faster airspeed at a constant altitude?",
+      "correct_answer": "Increase throttle and use gradual down-elevator to stay on path",
+      "distractors": [
+        "Decrease throttle and use up-elevator to maintain altitude",
+        "Keep throttle the same and use down-elevator to trade altitude for speed",
+        "Increase throttle and use up-elevator to maintain altitude"
+      ],
+      "explanation": "Rule #1 applies: more total energy is needed. Increased throttle provides the energy, and gradual down-elevator distributes it into airspeed rather than altitude, keeping the airplane on path while it accelerates. Re-trimming is needed as airspeed changes.",
+      "reference": {
+        "page": "4-10",
+        "text": "transitioning to a faster airspeed at a constant altitude (1-to-3) demands increased throttle and (gradual) down-elevator to stay on path, re-trimming as needed to relieve elevator control pressures."
+      }
+    },
+    {
+      "section": "Three Basic Rules of Energy Control",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "A pilot wants to trade speed for altitude without initially changing the throttle setting. Which energy control rule applies?",
+      "correct_answer": "Rule #3: No change in total energy—use the elevator to exchange energy between altitude and airspeed",
+      "distractors": [
+        "Rule #1: Increase total energy—advance throttle and pitch up",
+        "Rule #2: Decrease total energy—reduce throttle and pitch up",
+        "No rule applies; trading speed for altitude always requires a throttle adjustment"
+      ],
+      "explanation": "Rule #3 covers energy exchange with no change in total energy. The pilot does not change throttle initially but uses pitch up to trade kinetic energy (airspeed) for potential energy (altitude). After the exchange, throttle is adjusted to match drag at the new speed.",
+      "reference": {
+        "page": "4-10",
+        "text": "Rule #3: If you want to move to a new energy state that demands no change in total energy, then: Throttle: do not change initially, but adjust to match drag at the end of maneuver as needed to maintain total energy constant; Elevator: adjust pitch attitude to exchange energy between altitude and airspeed: a. To trade speed for altitude, pitch up"
+      }
+    },
+    {
+      "section": "Managing Energy Errors",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "How can a pilot distinguish between a total energy error and an energy distribution error?",
+      "correct_answer": "In a total energy error, altitude and airspeed deviate in the same direction; in a distribution error, they deviate in opposite directions",
+      "distractors": [
+        "A total energy error only occurs during climbs, while a distribution error only occurs during descents",
+        "A total energy error affects airspeed only, while a distribution error affects altitude only",
+        "A total energy error is always caused by throttle mismanagement, while a distribution error is always caused by trim failure"
+      ],
+      "explanation": "The chapter explains that in total energy errors, the pilot notices altitude and speed deviate in the same direction ('lower-and-slower' or 'higher-and-faster'). In energy distribution errors, the total energy is correct but distribution is wrong, so altitude and speed deviate in opposite directions ('higher-and-slower' or 'lower-and-faster').",
+      "reference": {
+        "page": "4-12",
+        "text": "In total energy errors, the airplane has too much energy (blue boxes) or too little energy (red boxes). The pilot will notice that altitude and speed deviate in the same direction... On the other hand, in energy distribution errors the airplane may have the correct amount of total energy (green boxes) but its distribution over altitude and speed is incorrect. Here, altitude and speed deviate in opposite directions"
+      }
+    },
+    {
+      "section": "Managing Energy Errors",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "An airplane on final approach is below the desired glideslope and slower than the target airspeed. What type of energy error is this, and what is the proper correction?",
+      "correct_answer": "Total energy error (too little energy)—advance the throttle to regain total energy",
+      "distractors": [
+        "Energy distribution error—pull back on the yoke/stick to exchange speed for altitude",
+        "Total energy error (too much energy)—reduce throttle and pitch down",
+        "Combination error—reduce throttle while pulling back on the yoke/stick"
+      ],
+      "explanation": "Lower-and-slower means altitude and airspeed deviate in the same direction, indicating a total energy error with too little energy. The correction is to advance the throttle to increase total energy. However, this only works if excess thrust is available (PS \u003e 0).",
+      "reference": {
+        "page": "4-12",
+        "text": "Lower-and-slower (B) is fundamentally different from lower-and-faster (D). The former requires advancing the throttle forward to regain total energy"
+      }
+    },
+    {
+      "section": "Managing Energy Errors",
       "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "An airplane on final approach is below the desired glideslope but faster than the target airspeed. What type of energy error is this, and what is the proper correction?",
+      "correct_answer": "Energy distribution error—pull back on the yoke/stick to null the distribution error",
+      "distractors": [
+        "Total energy error (too little energy)—advance the throttle to increase total energy",
+        "Total energy error (too much energy)—reduce throttle and accept the lower altitude",
+        "Combination error—advance throttle while pushing forward on the yoke/stick"
+      ],
+      "explanation": "Lower-and-faster means altitude and airspeed deviate in opposite directions, indicating an energy distribution error. The total energy is approximately correct but poorly distributed. The correction is to pull back on the yoke/stick to exchange speed for altitude, redistributing the energy correctly.",
+      "reference": {
+        "page": "4-12",
+        "text": "the latter requires pulling back on the yoke/stick to null the energy distribution error (9 in Figure 4-12)."
+      }
+    },
+    {
+      "section": "Managing Energy Errors",
+      "difficulty": 3,
+      "categories": [
+        "checkride_oral",
+        "general_knowledge"
+      ],
+      "question": "An airplane on final approach has descended below the desired flight path but is flying at the correct airspeed. What control inputs are needed to correct this?",
+      "correct_answer": "Advance the throttle forward while easing aft on the yoke/stick simultaneously",
+      "distractors": [
+        "Advance the throttle only, since airspeed is already correct",
+        "Pull back on the yoke/stick only, since the problem is purely an altitude deviation",
+        "Reduce throttle and pitch down to regain the glideslope from below"
+      ],
+      "explanation": "When below the desired path but at the correct speed, there is a combination of total energy and distribution errors. Regaining altitude without changing speed requires decoupling altitude and airspeed, which demands the use of both controls simultaneously—advancing the throttle for more total energy while easing aft on the yoke/stick to direct that energy into altitude.",
+      "reference": {
+        "page": "4-13",
+        "text": "Regaining altitude without changing speed requires advancing the throttle forward while easing aft on the yoke/stick (6 in Figure 4-12). In other words, decoupling altitude and airspeed (i.e. changing one without changing the other) demands the use of both controls simultaneously."
+      }
+    },
+    {
+      "section": "Visualizing the Airplane's Ability to \"Move\" Between Energy States",
+      "difficulty": 3,
+      "categories": [
+        "written_exam"
+      ],
+      "question": "What does \"energy height\" (total specific energy) represent in the energy map?",
+      "correct_answer": "The maximum height an airplane would reach from its current altitude if it were to trade all its speed for altitude",
+      "distractors": [
+        "The airplane's current altitude above mean sea level at any given moment",
+        "The altitude at which the airplane has zero specific excess power available",
+        "The height above ground level at which the airplane can safely maintain level flight"
+      ],
+      "explanation": "Energy height (ES) is the total specific energy—potential plus kinetic energy divided by weight—expressed in units of height. It represents the maximum altitude the airplane would reach if it traded all its kinetic energy (airspeed) for potential energy (altitude). Points along the same energy height line have the same total energy.",
+      "reference": {
+        "page": "4-8",
+        "text": "energy height is the maximum height that an airplane would reach from its current altitude, if it were to trade all its speed for altitude."
+      }
+    },
+    {
+      "section": "Preventing Irreversible Deceleration and/or Sink Rate",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral",
+        "general_knowledge"
+      ],
+      "question": "In the rising terrain scenario, the airplane has slowed to where PS \u003c 0 and the stall horn is sounding. What should the pilot do to recover?",
+      "correct_answer": "Push forward on the yoke/stick to trade altitude for speed until reaching an airspeed where PS \u003e 0, then climb",
+      "distractors": [
+        "Pitch up further to gain altitude while accepting additional airspeed loss, since altitude is needed to clear terrain",
+        "Apply full throttle and maintain the current pitch attitude until the airplane begins climbing",
+        "Extend flaps to increase lift and improve climb performance at the current airspeed"
+      ],
+      "explanation": "The recovery requires doing something counterintuitive: trading altitude for speed by pushing forward on the yoke/stick. This reduces AOA and induced drag, allowing acceleration to an airspeed where PS \u003e 0. Only then can the airplane climb. If the pilot pitches up instead, the airplane goes deeper into the region where PS \u003c 0, making recovery impossible.",
+      "reference": {
+        "page": "4-16",
+        "text": "The pilot then has to do something that is not intuitive; consider gaining speed at the expense of some altitude initially to improve climbing performance with full throttle. Once the airplane accelerates to an airspeed in which the PS \u003e 0, it can begin to climb again."
+      }
+    },
+    {
+      "section": "Preventing Irreversible Deceleration and/or Sink Rate",
+      "difficulty": 2,
       "categories": [
         "written_exam",
         "general_knowledge"
       ],
-      "question": "During a level turn, how does pulling back on the yoke help the airplane rapidly bleed off total energy more effectively than reducing the throttle to idle?",
-      "correct_answer": "It increases the angle of attack, which directly increases induced drag at any given speed.",
+      "question": "What defines an irreversible deceleration and/or sink rate?",
+      "correct_answer": "Unrecoverable depletion of mechanical energy from continuous airspeed and/or altitude loss coupled with insufficient excess power",
       "distractors": [
-        "It decreases the load factor, which reduces the total lift required to maintain altitude.",
-        "It increases parasite drag by disrupting the airflow over the horizontal stabilizer.",
-        "It changes the thrust curve, allowing the engine to produce less thrust at a given RPM."
+        "Any situation where the stall horn sounds during normal flight operations",
+        "A temporary airspeed deviation that can be corrected by increasing throttle alone",
+        "An engine failure at low altitude that results in a forced landing"
       ],
-      "explanation": "According to the Airplane Flying Handbook, as an airplane banks, load factor increases. Pulling back on the yoke increases the angle of attack (AOA) to maintain altitude, which directly increases induced drag (the 'D' in T - D) at any given speed. This rapid increase in drag helps bleed off total energy much faster than just reducing the throttle to idle.",
+      "explanation": "Irreversible deceleration and/or sink rate occurs when there is continuous loss of airspeed and/or altitude coupled with insufficient excess power. If the pilot fails to recover above a certain critical altitude, the airplane will hit the ground regardless of what the pilot does. This can happen even without stalling—the airplane can be unstalled and still experience unrecoverable sink rates.",
       "reference": {
-        "page": "4-6",
-        "text": "While the elevator can assist the throttle in changing T – D and PS through changes in airspeed via energy exchange as described\nabove, occasionally the elevator can directly increase the “D” in T – D at any given speed during a level turn, thus helping the\nairplane rapidly bleed off total energy. As the airplane banks, load factor (lift/weight) increases because total lift has to increase to\npull the airplane into the turn while simultaneously balancing its weight. This is accomplished by pulling back on the yoke (or stick)\nto increase AOA which results in increased induced drag and power required at any given speed. This action will quickly slow\nthe airplane down and decrease total energy more rapidly than by just reducing the throttle setting to idle. This additional role of the\nelevator is shown on the power curve. [Figure 4-5]"
-      }
-    },
-    {
-      "section": "Visualizing the Airplane’s Ability to “Move” Between Energy States",
-      "difficulty": 3,
-      "categories": [
-        "written_exam",
-        "checkride_oral"
-      ],
-      "question": "In the short term, when an airplane rapidly exchanges altitude and airspeed, how does it move on an energy diagram and what happens to its total energy?",
-      "correct_answer": "It follows along an energy height line while maintaining constant total energy.",
-      "distractors": [
-        "It follows along an energy height line while total energy steadily decreases due to drag.",
-        "It departs from the energy height line as total energy rapidly increases.",
-        "It follows along an energy height line while total energy fluctuates depending on airspeed."
-      ],
-      "explanation": "According to the Airplane Flying Handbook, if an airplane rapidly exchanges altitude and airspeed, it follows along the energy height line while, in the short term, maintaining constant total energy. This represents an idealized trajectory moving from one energy state to another solely through energy exchange.",
-      "reference": {
-        "page": "4-8",
-        "text": "Thus, even though the airplane in point A is cruising at 100 knots and 6,000 feet, it has the same total specific energy expressed in\nheight (6,500 feet) when cruising at 240 knots and 4,000 feet (B). This also means that the airplane in either position, A or B, would\nbe able to “zoom” to the same maximum altitude of 6,500 feet by trading all its speed for altitude. The lines of constant energy height\ncan be used as idealized trajectories to depict an airplane moving from one energy state to another solely through energy\nexchange (e.g., A to B). If the airplane rapidly exchanges altitude and airspeed, it would follow along the energy height line while, in\nthe short term, maintaining constant total energy."
-      }
-    },
-    {
-      "section": "Visualizing the Airplane’s Ability to “Move” Between Energy States",
-      "difficulty": 3,
-      "categories": [
-        "written_exam",
-        "checkride_oral"
-      ],
-      "question": "A pilot at 4,000 feet and 150 knots needs to transition to a higher energy state. According to energy management principles, what determines how swiftly the airplane can climb or descend at a steady speed, or accelerate or decelerate in level flight?",
-      "correct_answer": "Specific excess power, which is positive when thrust exceeds drag and negative when drag exceeds thrust",
-      "distractors": [
-        "The airplane's lift-to-drag ratio, which governs all energy transitions regardless of thrust setting",
-        "The airplane's static stability, which determines how quickly it responds to energy changes",
-        "The airplane's wing loading, which sets the maximum rate of energy exchange between altitude and airspeed"
-      ],
-      "explanation": "According to AFH Chapter 4, the rate at which an airplane can move from one energy height to another—how swiftly it can climb or descend at a steady speed, or accelerate or decelerate in level flight—is a function of specific excess power (Ps). When an airplane needs to move to a higher energy state, thrust must exceed drag (Ps \u003e 0); when moving to a lower energy state, thrust must be below drag (Ps \u003c 0). The lift-to-drag ratio is a measure of aerodynamic efficiency, not the rate of energy transition. Static stability relates to handling characteristics, not energy management. Wing loading affects stall speed and maneuvering envelope, not the rate of energy exchange.",
-      "reference": {
-        "page": "4-8",
-        "text": "Examine the energy positions depicted in Figure 4-7. The airplane in position A is flying at 4,000 feet and 150 knots with a total\nenergy equivalent to 5,000 feet. Since positions C, D and E are located at higher energy heights (11,000, 9,500, and 6,500 feet\nrespectively), the only way for the airplane to reach them from position A is by increasing its total energy (i.e., increasing\nthrust above drag, or PS \u003e 0). The reverse is also true. If the airplane is in position C, D or E, the only way for it to get back to\nposition A is by decreasing its total energy (i.e., decreasing thrust below drag, or PS \u003c 0). In other words, the rate at which the\nairplane can move from one energy height to another—e.g., how swiftly it can climb/descend at a steady speed, or accelerate/\ndecelerate in level flight—is a function of specific excess power, which can be positive (PS \u003e 0) or negative (PS \u003c 0) depending on\nwhether the airplane needs to move to an energy height that demands more or less total energy."
-      }
-    },
-    {
-      "section": "Three Basic Rules of Energy Control",
-      "difficulty": 3,
-      "categories": [
-        "written_exam",
-        "checkride_oral"
-      ],
-      "question": "What condition exists at the edge of an airplane's sustainable energy state envelope?",
-      "correct_answer": "Specific excess power is zero at full throttle (PS = 0)",
-      "distractors": [
-        "Specific excess power is at its maximum value at full throttle",
-        "Specific excess power is zero at idle throttle (PS = 0)",
-        "Specific excess power is negative at full throttle (PS \u003c 0)"
-      ],
-      "explanation": "According to AFH Chapter 4, the edge of the sustainable energy state envelope occurs where PS = 0 at full throttle. At this boundary, the airplane is producing maximum available power but has no excess power remaining to climb or accelerate further—the energy state is only barely sustainable. PS at maximum would indicate the airplane is well within the envelope with energy to spare, not at its edge. PS = 0 at idle throttle would describe a much lower, unrelated energy state. PS negative at full throttle would place the airplane outside the sustainable envelope entirely, meaning it cannot maintain its current energy state even with maximum power available.",
-      "reference": {
-        "page": "4-9",
-        "text": "An “energy-control” map can help visualize the basic energy control rules. [Figure 4-8] The energy-control map depicts not only the\ntrajectories of an airplane transitioning from an arbitrary initial energy state (1) to other target states (2, 3, 4, 5, 6, and 7), but also the\nchanges in energy caused by the throttle (blue/red arrows) and the elevator (green arrows). In other words, it allows pilots to visualize\nthe basic control rules for moving an airplane from any state to another. The edge of the sustainable energy state envelope (where PS\n= 0 at full throttle) is also illustrated."
-      }
-    },
-    {
-      "section": "Three Basic Rules of Energy Control",
-      "difficulty": 3,
-      "categories": [
-        "written_exam",
-        "checkride_oral"
-      ],
-      "question": "Two flight trajectories start at the same energy state and end at the same higher total energy state. Despite the identical total energy change, one trajectory gains more altitude while the other gains more airspeed. According to the AFH, what creates this difference between the two trajectories?",
-      "correct_answer": "The elevator, through changes in pitch attitude, distributes the total energy change differently",
-      "distractors": [
-        "The throttle, because it determines whether the added energy becomes altitude or airspeed",
-        "The rate of power application, because faster throttle changes direct energy toward airspeed",
-        "The initial pitch attitude, because it sets the baseline for how energy is allocated"
-      ],
-      "explanation": "According to AFH Chapter 4, the throttle controls total energy (changes across lines of constant total energy), while the elevator controls energy distribution (changes along lines of constant total energy). When two trajectories have the same total energy change, the difference lies in how the elevator distributes that energy between kinetic (airspeed) and potential (altitude) through changes in pitch attitude. Distractor A is wrong because throttle controls total energy magnitude, not distribution. Distractor B is wrong because the rate of throttle application does not determine energy distribution. Distractor C is wrong because it is the active elevator inputs during the trajectory, not the initial pitch attitude, that determine energy distribution.",
-      "reference": {
-        "page": "4-9",
-        "text": "As illustrated in Figure 4-8, moving the airplane from position 1 to the energy states in 2 and 3 calls for a higher throttle setting to\nincrease total energy by the same amount (in this example, positions 2 and 3 are located at the same higher-energy height).\nThe difference between these two energy trajectories (1-to-2 and 1-to-3) lies in the way the total energy change is distributed\nby the elevator through changes in pitch attitude. As can be seen in Figure 4-8, changes in total energy by adjusting throttle setting\n(blue/red arrows) extend across lines of constant total energy (dashed line), while changes in energy distribution by adjusting\nthe elevator deflection (green arrows) extend along the lines of constant total energy (equal energy height). Appropriate changes in\ntotal energy via the throttle and/or changes in energy distribution via the elevator, depicted by their respective energy “arrows,”\ndetermine the direction of a given energy trajectory between two energy states. To visualize this effect, compare the\ntrajectory from 1-to-2 with that from 1-to-3 and notice the way the corresponding elevator energy arrows (left green arrow =\nup-elevator; right green arrow = down-elevator) are positioned in relation to the throttle energy arrow (blue arrow = increased\nthrottle). 4-9"
-      }
-    },
-    {
-      "section": "Three Basic Rules of Energy Control",
-      "difficulty": 3,
-      "categories": [
-        "written_exam",
-        "checkride_oral"
-      ],
-      "question": "A pilot is cruising in straight-and-level flight and needs to descend to a lower altitude while maintaining the current indicated airspeed. After reducing the throttle, what elevator input should the pilot use to stay on speed, and why?",
-      "correct_answer": "Down-elevator, because reducing power alone would tend to slow the aircraft below the target speed",
-      "distractors": [
-        "Up-elevator, because the nose must be raised slightly to maintain airspeed during a descent",
-        "No elevator input is needed; reduced throttle alone naturally maintains the original airspeed in a descent",
-        "Up-elevator, because the same elevator input is required whether descending at constant speed or slowing at constant altitude"
-      ],
-      "explanation": "According to AFH Chapter 4, transitioning to a lower altitude at a constant speed (1-to-4) requires decreased throttle and down-elevator to stay on speed. This is because reducing power without an elevator input would cause the aircraft to slow. Down-elevator is needed to hold the target speed during the descent. This contrasts with transitioning to a slower airspeed at constant altitude (1-to-5), which requires decreased throttle and up-elevator to stay on path.",
-      "reference": {
-        "page": "4-10",
-        "text": "Transitioning to a lower altitude at a constant speed (1-to-4) requires decreased throttle and down-elevator to stay on speed, while\ntransitioning to a slower airspeed at a constant altitude (1-to-5) demands decreased throttle and (gradual) up-elevator to stay on path,\nre-trimming as needed to relieve elevator control pressures."
-      }
-    },
-    {
-      "section": "Three Basic Rules of Energy Control",
-      "difficulty": 3,
-      "categories": [
-        "written_exam",
-        "checkride_oral"
-      ],
-      "question": "A pilot is established in straight-and-level flight and needs to transition to a slower airspeed while maintaining the same altitude. After reducing throttle, what elevator input should the pilot use to stay on the original flight path during the transition?",
-      "correct_answer": "Gradual up-elevator, re-trimming as needed to relieve control pressures",
-      "distractors": [
-        "Down-elevator, since reduced power naturally lowers the nose and helps bleed off airspeed",
-        "Neutral elevator, relying solely on trim to maintain altitude as airspeed decreases",
-        "Alternating up and down elevator inputs to hold altitude while bleeding off airspeed"
-      ],
-      "explanation": "According to AFH Chapter 4, transitioning to a slower airspeed at a constant altitude requires decreased throttle and gradual up-elevator to stay on path, with re-trimming as needed to relieve elevator control pressures. The up-elevator increases angle of attack to compensate for reduced power, maintaining altitude as airspeed decreases. Down-elevator is used in the opposite scenario—transitioning to a lower altitude at a constant speed. Neutral elevator would not compensate for the tendency to descend after power reduction, and alternating inputs would be unstable and inefficient.",
-      "reference": {
-        "page": "4-10",
-        "text": "Transitioning to a lower altitude at a constant speed (1-to-4) requires decreased throttle and down-elevator to stay on speed, while\ntransitioning to a slower airspeed at a constant altitude (1-to-5) demands decreased throttle and (gradual) up-elevator to stay on path,\nre-trimming as needed to relieve elevator control pressures."
-      }
-    },
-    {
-      "section": "Three Basic Rules of Energy Control",
-      "difficulty": 3,
-      "categories": [
-        "written_exam",
-        "checkride_oral"
-      ],
-      "question": "Once an energy exchange maneuver is complete and the aircraft reaches the new altitude-airspeed target, what action is required to maintain total energy constant?",
-      "correct_answer": "Re-trim the elevator and adjust the throttle setting to match drag at the new speed.",
-      "distractors": [
-        "Maintain the original throttle setting and use elevator pressure to hold the altitude.",
-        "Adjust the throttle to regain the original airspeed while holding the new altitude.",
-        "Leave the elevator untrimmed and only adjust the throttle setting to match drag."
-      ],
-      "explanation": "According to the Airplane Flying Handbook, at the end of an energy exchange maneuver, the elevator will need to be re-trimmed and the throttle setting adjusted to match drag at the new speed. This is necessary to maintain total energy constant while remaining at the new altitude-airspeed target.",
-      "reference": {
-        "page": "4-10",
-        "text": "Finally, transitioning to a higher altitude by trading speed for altitude (1-to-6) requires up-elevator without initially changing throttle\nsetting, while transitioning to a faster airspeed by trading altitude for speed (1-to-7) requires down-elevator without initially changing\nthrottle setting. In both cases, at the end of the energy exchange maneuver, the elevator will need to be re-trimmed and throttle\nsetting adjusted to match drag at the new speed in order to maintain total energy constant while remaining at the new altitude-airspeed\ntarget."
+        "page": "4-14",
+        "text": "Unrecoverable depletion of mechanical energy as a result of continuous loss of airspeed and/or altitude coupled with insufficient excess power available under a given flight condition. Failure to recover above a certain critical AGL altitude results in the airplane hitting the ground regardless of what the pilot does."
       }
     }
   ]

@@ -3,162 +3,23 @@
   "chapter": 17,
   "questions": [
     {
-      "section": "Sport Pilot Certificate",
-      "difficulty": 3,
+      "section": "Light-Sport Aircraft Background",
+      "difficulty": 1,
       "categories": [
         "written_exam",
-        "checkride_oral"
-      ],
-      "question": "A commercial pilot holds an airplane multiengine land rating and a rotorcraft gyroplane rating, but has no single-engine land rating. Without receiving supervision from an authorized instructor, what is this pilot's eligibility to act as PIC of a light-sport airplane?",
-      "correct_answer": "The pilot is not qualified to act as PIC, because light-sport airplanes are single-engine aircraft and the pilot lacks a single-engine land class rating.",
-      "distractors": [
-        "The pilot is qualified to act as PIC, because light-sport aircraft operating under sport pilot rules do not require any specific category or class ratings.",
-        "The pilot is qualified to act as PIC, because the multiengine land rating automatically covers all single-engine aircraft within the same category.",
-        "The pilot is qualified to act as PIC, because holding a commercial certificate with any airplane rating satisfies the class requirement for all light-sport aircraft."
-      ],
-      "explanation": "According to AFH Chapter 17, pilots holding higher-level certificates may fly light-sport aircraft provided they possess the appropriate category and class rating. The handbook specifically uses this exact scenario as an example, stating that a commercial pilot rated in airplane multiengine land and rotorcraft gyroplane is not qualified to act as PIC of a light-sport airplane without supervision from an authorized instructor, because sport airplanes are single-engine. The pilot must hold a single-engine land rating to act as PIC of a light-sport airplane.",
-      "reference": {
-        "page": "17-3",
-        "text": "In addition to the LSA rules, the FAA created a new sport pilot certificate in 2004 that lowered the minimum training time\nrequirements, in comparison to other pilot certificates, for newly certificated pilots wishing to exercise privileges only in LSA\naircraft. Pilots who hold recreational, private, commercial, or airline transport pilot certificates may pilot light-sport airplanes\nprovided they possess the appropriate category/class rating and a U.S. driver's license or medical certificate that meets the\nrequirements for the aircraft displayed in the 14 CFR part 61, section 61.303 table. For example, a commercial pilot rated in airplane\nmultiengine land and rotorcraft gyroplane is qualified to fly a light-sport gyroplane as pilot in command (PIC) if also holding a\nmedical certificate or a U.S. driver’s license. However, that pilot is not qualified to act as PIC of a light-sport airplane (sport airplanes\nare single-engine) without supervision from an authorized instructor. 17-3"
-      }
-    },
-    {
-      "section": "Sport Pilot Certificate",
-      "difficulty": 3,
-      "categories": [
-        "written_exam",
-        "checkride_oral"
-      ],
-      "question": "A private pilot whose most recent FAA medical certificate was denied plans to fly a light-sport aircraft (LSA). What must the pilot possess to serve as pilot in command?",
-      "correct_answer": "A valid FAA medical certificate",
-      "distractors": [
-        "A valid U.S. driver's license, since LSA operations do not require a medical certificate",
-        "A valid U.S. driver's license along with a logbook endorsement from a CFI",
-        "A valid state-issued photo ID and a statement of health from a personal physician"
-      ],
-      "explanation": "According to AFH Chapter 17, while pilots holding higher-level certificates may normally use a valid U.S. driver's license as evidence of medical eligibility to fly an LSA, this exception does not apply if the pilot's most recent medical certificate was denied, revoked, suspended, or withdrawn. In that case, a U.S. driver's license is not sufficient, and the pilot must hold a valid FAA medical certificate to operate an LSA. This rule prevents pilots who have had a medical deficiency identified by the FAA from bypassing the medical certification process via the driver's license alternative.",
-      "reference": {
-        "page": "17-4",
-        "text": "Pilots holding higher level certificates with the appropriate category and class ratings may fly LSAs as long as the pilot holds a valid\nU.S. driver’s license as evidence of medical eligibility. However, if the pilot’s most recent medical certificate was denied, revoked,\nsuspended, or withdrawn, a U.S. driver’s license is not sufficient. The pilot would then need to hold a valid FAA medical certificate\nto fly an LSA."
-      }
-    },
-    {
-      "section": "Flight Instructors",
-      "difficulty": 3,
-      "categories": [
-        "checkride_oral",
         "general_knowledge"
       ],
-      "question": "When selecting a flight instructor for a transition into a light-sport airplane (LSA), how should a pilot evaluate their options between a flight instructor-A (CFI-A) and a flight instructor-S (CFI-S)?",
-      "correct_answer": "The pilot should prioritize verifiable LSA teaching experience, as a CFI-S with this experience may provide better instruction than a CFI-A with minimal LSA experience.",
+      "question": "Which of the following is a defining characteristic of a light-sport aircraft (LSA) under 14 CFR part 1, section 1.1?",
+      "correct_answer": "A maximum speed in level flight at maximum continuous power of 120 knots CAS",
       "distractors": [
-        "The pilot should always choose a CFI-A because their broader certificate privileges automatically make them more qualified to teach in an LSA than a CFI-S.",
-        "The pilot must choose a CFI-S because FAA regulations prohibit a CFI-A from providing instruction in light-sport airplanes.",
-        "The pilot should choose a CFI-S because, unlike a CFI-A, they are specifically authorized to provide instruction in non-LSA aircraft like a Cessna 150."
+        "A maximum takeoff weight of 1,500 pounds for all landplanes",
+        "A maximum stall speed of 55 knots",
+        "A pressurized cabin with a maximum of two occupants"
       ],
-      "explanation": "According to the Airplane Flying Handbook, a transitioning pilot should choose a flight instructor with verifiable experience in LSA instruction. While a CFI-A is legally allowed to instruct in both LSA and non-LSA aircraft, a CFI-S with specific LSA teaching experience might provide better instruction than a CFI-A who has minimal LSA teaching experience. Additionally, a CFI-S is limited to instructing only in LSAs and cannot teach in non-LSA aircraft like a Cessna 150.",
+      "explanation": "The chapter lists the LSA defining standards from 14 CFR part 1, section 1.1, including a maximum speed of 120 knots CAS in level flight at maximum continuous power and a maximum stall speed of 45 knots. The max takeoff weight is 1,320 lb for landplanes, and LSAs must be non-pressurized.",
       "reference": {
-        "page": "17-4",
-        "text": "The flight instructor is an important link in a successful LSA transition. A transitioning pilot should choose a flight instructor that has\nverifiable experience in LSA instruction. The Sport Pilot rule allows for a Sport Pilot flight instructor certificate, the flight instructor-\nS. 14 CFR part 61, section 61.413 limits a flight instructor-S to instruction in LSAs—a flight instructor-S cannot give instruction in a\nnon-LSA airplane (e.g., a Cessna 150). While FAA policy allows a flight instructor certificated as a flight instructor-A to give\ninstruction in both a light-sport airplane and a non-light-sport airplane, a flight instructor-S with teaching experience in LSA might\nprovide better instruction than a flight instructor-A who has minimal teaching experience in light-sport airplanes."
-      }
-    },
-    {
-      "section": "Airframe and Systems",
-      "difficulty": 3,
-      "categories": [
-        "checkride_oral",
-        "general_knowledge"
-      ],
-      "question": "A pilot transitioning to a light-sport airplane is advised to fully understand the engine controls, procedures, and limitations. What is the primary reason this is especially important compared to transitioning to most standard type-certificated aircraft?",
-      "correct_answer": "Most light-sport airplanes use non-FAA-certificated engines that may employ significantly different technologies and operating characteristics.",
-      "distractors": [
-        "Most light-sport airplane engines operate at lower rpm than standard aircraft engines, requiring different power management techniques.",
-        "Most light-sport airplane engines are air-cooled and require the pilot to manage cooling differently than water-cooled certificated engines.",
-        "Most light-sport airplane engines are fuel-injected and require different starting procedures than carbureted certificated engines."
-      ],
-      "explanation": "According to AFH Chapter 17, since most light-sport airplanes use non-FAA-certificated engines, a transitioning pilot should fully understand the engine controls, procedures, and limitations. The source text notes that engine technology varies significantly from conventional air-cooled to high-rpm/water-cooled designs, and that most LSA engines are water-cooled, 4-cycle, and carbureted with higher operating rpm. Each distractor is incorrect because it misstates a characteristic: LSA engines operate at higher (not lower) rpm, are mostly water-cooled (not air-cooled), and are mostly carbureted (not fuel-injected).",
-      "reference": {
-        "page": "17-6",
-        "text": "Engines\nLSAs use a variety of engines that range from FAA-certificated to non-FAA-certificated. Engine technology varies significantly from\nconventional air-cooled to high revolutions per minute (rpm)/water-cooled designs. [Figure 17-4] These different technologies\npresent a transitioning pilot new training opportunities and challenges. Since most light-sport airplanes use non-FAA-certificated\nengines, a transitioning pilot should fully understand the engine controls, procedures, and limitations. In most light-sport airplanes,\nengines are water-cooled, 4-cycle, and carbureted. These engines have much higher operating rpm and require a gear-box to reduce\npropeller rpm to the proper range. Because of the higher engine operating rpm, vibration and noise signatures are quite different in\nmost light-sport airplanes when compared to most standard type certificated designs. 17-6"
-      }
-    },
-    {
-      "section": "Weather Considerations",
-      "difficulty": 3,
-      "categories": [
-        "written_exam",
-        "checkride_oral"
-      ],
-      "question": "A pilot of a light sport airplane notices pronounced sinking and lifting sensations while flying across a terrain boundary where the surface changes from water to a hard surface area. What is the primary cause of this effect?",
-      "correct_answer": "Differential heating from the varying terrain surfaces creates thermal air currents that affect lighter aircraft to a greater degree than heavier aircraft",
-      "distractors": [
-        "Wind shear at the boundary between water and land disrupts the lighter airplane's flight path more than a heavier airplane's",
-        "Mechanical turbulence generated by the terrain change creates updrafts and downdrafts that impact lighter airplanes more severely",
-        "The temperature difference between surfaces creates density altitude changes that reduce the lighter airplane's climb performance"
-      ],
-      "explanation": "According to AFH Chapter 17, differential heating from varying terrain boundaries, such as grass or water to hard surfaces, can cause lighter weight airplanes to experience sinking and lifting to a greater degree than heavier airplanes. The effect is caused by thermal differences (differential heating) between surface types, not by wind shear, mechanical turbulence, or density altitude changes. The handbook specifically emphasizes that pilots of lighter weight aircraft should carefully manage this weather-related risk when crossing varying terrain boundaries.",
-      "reference": {
-        "page": "17-8",
-        "text": "Due to an LSA’s lighter weight, even greater distances from convective weather should be considered the norm. While low-level\nwinds that enter and exit a thunderstorm should be avoided by all airplanes, operations in the vicinity of convection should not be\nattempted in lightweight airplanes. Since it is not always possible to fly in clear, calm air, pilots of lighter weight LSAs should\ncarefully manage all weather-related risks. For example, some consideration should be given to flight activity that crosses varying\nterrain boundaries, such as grass or water to hard surfaces. Differential heating can cause lighter weight airplanes to experience\nsinking and lifting to a greater degree than heavier airplanes. Careful planning, knowledge, experience, and an understanding of the\nflying environment assists in mitigating weather-related risks."
-      }
-    },
-    {
-      "section": "Inside the Airplane",
-      "difficulty": 3,
-      "categories": [
-        "checkride_oral"
-      ],
-      "question": "While transitioning to a Light Sport Aircraft (LSA) equipped with an Electronic Flight Instrument System (EFIS), a pilot learns the Primary Flight Display (PFD) has failed. What determines whether the critical flight information can be routed to the Multi-Function Display (MFD)?",
-      "correct_answer": "The presence of a reversionary mode, which is not available on all EFIS systems.",
-      "distractors": [
-        "The pilot's ability to manually switch the display inputs using the audio panel.",
-        "The EFIS battery backup providing emergency power to both displays simultaneously.",
-        "An FAA requirement that all EFIS-equipped aircraft must have dual display redundancy."
-      ],
-      "explanation": "According to the Airplane Flying Handbook, some EFIS systems have a 'reversionary' mode where information from one display, such as a failed PFD, can be routed to another display like the MFD. However, the AFH explicitly notes that not all LSA EFIS systems are equipped with an MFD or reversionary capability, making it critical for a transitioning pilot to understand the specific system and its limitations.",
-      "reference": {
-        "page": "17-11",
-        "text": "If the LSA is equipped with an EFIS, the manufacturer’s EFIS Pilot Guide should be available for reference. In addition, the airplane\nPOH likely has specific EFIS preflight procedures that should be completed. These checks are to verify that all internal tests are\npassed, that no red “Xs” are displayed, and that appropriate annunciators are illuminated. Some systems have a “reversionary” mode\nwhere the information from one display can be sent to another display. For example, should the Primary Flight Display (PFD) fail,\ninformation can be routed to the Multi-Function Display (MFD). Not all LSA EFIS systems are equipped with a MFD or reversionary\ncapability, so it is important for a transitioning pilot to understand the system and its limitations."
-      }
-    },
-    {
-      "section": "Chapter 17: Transition to Light Sport Airplanes (LSA)",
-      "difficulty": 2,
-      "categories": [
-        "checkride_oral",
-        "general_knowledge"
-      ],
-      "question": "A pilot preparing to transition to a light-sport airplane (LSA) believes that because the aircraft is \"simple-to-operate\" and \"easy-to-fly,\" formal training is unnecessary. Which statement accurately reflects FAA guidance on this topic?",
-      "correct_answer": "The terms \"simple-to-operate\" and \"easy-to-fly\" do not negate the need for proper and effective training.",
-      "distractors": [
-        "Because LSAs are inherently easy to fly, pilots can safely self-instruct during the transition.",
-        "Formal training is only required if the LSA is equipped with complex avionics or retractable landing gear.",
-        "The FAA allows pilots to bypass transition training for LSAs if they already hold a private pilot certificate."
-      ],
-      "explanation": "According to the Airplane Flying Handbook (AFH) Chapter 17, while light-sport aircraft (LSA) have been defined as simple-to-operate and easy-to-fly, these characteristics do not negate the need for proper and effective training.",
-      "reference": {
-        "page": "17-1",
-        "text": "Introduction\nThe light-sport aircraft (LSA) concept broadens the access of flight to more people. LSA have been defined as a simple-to-operate,\neasy-to-fly aircraft; however, “simple-to-operate” and “easy-to-fly” do not negate the need for proper and effective training. This\nchapter introduces the light-sport category of airplanes and places emphasis on transition to a light-sport airplane."
-      }
-    },
-    {
-      "section": "Chapter 17: Transition to Light Sport Airplanes (LSA)",
-      "difficulty": 2,
-      "categories": [
-        "checkride_oral",
-        "general_knowledge"
-      ],
-      "question": "A pilot preparing to transition into a light-sport airplane (LSA) is evaluating potential instructors. One instructor holds a CFI certificate and has flown several different LSA models years ago, but not the specific make and model to be used for training. Another instructor has fewer total LSA hours but has flown the specific training airplane recently. According to the Airplane Flying Handbook, which instructor better meets the recommended criteria?",
-      "correct_answer": "The instructor with recent experience in the specific training airplane, because transition training should be guided by someone familiar with that particular aircraft",
-      "distractors": [
-        "Either instructor is acceptable, since any CFI with light-sport airplane experience can provide transition training",
-        "The instructor with more total LSA hours, because broad experience across multiple LSA models is more valuable than familiarity with one aircraft",
-        "The instructor with a CFI certificate is sufficient regardless of recent experience, because the fundamental principles of instruction transfer across all aircraft types"
-      ],
-      "explanation": "The Airplane Flying Handbook (Chapter 17) states that a pilot transitioning into a light-sport airplane should follow a systematic, structured training course under the guidance of a competent instructor with recent experience in the specific training airplane. The handbook emphasizes that even though LSA flight may appear simple to an experienced pilot, the transition should include the same methodical training approach as transitioning into any other airplane. The key requirement is recent experience in the specific training airplane, not just general LSA experience or a CFI certificate alone.",
-      "reference": {
-        "page": "17-1",
-        "text": "Even though light-sport airplane flight may appear simple to an experienced pilot, a transition to a light-sport airplane should include\nthe same methodical training approach as transitioning into any other airplane. A pilot seeking a transition into light-sport airplane\nflying should follow a systematic, structured light-sport airplane training course under the guidance of a competent instructor with\nrecent experience in the specific training airplane."
+        "page": "17-2",
+        "text": "Maximum speed in level flight at maximum continuous power of 120 knots calibrated airspeed (CAS). Maximum stall speed of 45 knots."
       }
     },
     {
@@ -168,196 +29,337 @@
         "written_exam",
         "checkride_oral"
       ],
-      "question": "A student pilot is reviewing the light-sport aircraft classification and notices that one common aircraft category is notably absent from the six LSA categories established by the FAA in 2004. Which of the following is NOT one of the six LSA categories?",
-      "correct_answer": "Rotorcraft",
-      "distractors": [
-        "Weight-shift-control",
-        "Powered parachute",
-        "Glider"
-      ],
-      "explanation": "According to AFH Chapter 17, the FAA's 2004 rule created six light-sport aircraft categories: airplane, gyroplane, lighter-than-air, weight-shift-control, glider, and powered parachute. While gyroplane (a type of rotorcraft) is included as its own LSA category, the broader standard aircraft category of 'rotorcraft' is not one of the six LSA classifications. This distinction tests the understanding that LSA categories are specifically defined and do not simply mirror standard aircraft categories.",
-      "reference": {
-        "page": "17-1",
-        "text": "Several groups were instrumental in the development and success of the LSA concept. These included the Federal\nAviation Administration (FAA), Light Aircraft Manufacturers Association, American Society for Testing and Materials (ASTM)\nInternational, and countless individuals who promoted the concept since the early 1990s. In 2004, the FAA released a rule that\ncreated a light-sport classification for airplane, gyroplane, lighter-than-air, weight-shift-control, glider, and powered parachute.\n[Figure 17-1]"
-      }
-    },
-    {
-      "section": "(CAS).",
-      "difficulty": 2,
-      "categories": [
-        "written_exam",
-        "checkride_oral"
-      ],
-      "question": "Can an aircraft holding a standard airworthiness certificate, such as a Piper J-3, qualify as a Light Sport Aircraft (LSA)?",
-      "correct_answer": "Yes, if it continues to meet the 14 CFR part 1, section 1.1 definition of LSA.",
-      "distractors": [
-        "No, the LSA category is limited exclusively to aircraft specifically manufactured for the LSA market.",
-        "Yes, but only if the owner voluntarily re-certificates the aircraft under the Experimental (E-LSA) designation.",
-        "No, any aircraft with a standard airworthiness certificate is permanently disqualified from LSA operations."
-      ],
-      "explanation": "According to the Airplane Flying Handbook, the LSA category includes standard, special, and experimental designations. A standard airworthiness certificated aircraft, such as a Piper J-2 or J-3, may meet the 14 CFR part 1, section 1.1 definition of LSA. If a type certificated aircraft continues to meet this definition, it may be flown by a sport pilot with the appropriate endorsements.",
-      "reference": {
-        "page": "17-2",
-        "text": "The LSA category includes standard, special, and experimental designations. Some standard airworthiness certificated aircraft (i.e., a\nPiper J-2 or J-3) may meet the Title 14 of the Code of Federal Regulation (14 CFR) part 1, section 1 definition of LSA. Type\ncertificated aircraft that continue to meet the section 1.1 definition of LSA may be flown by a pilot who holds a sport pilot certificate\nwith the appropriate endorsement for the aircraft (14 CFR part 61, section 61.315(a)). The sport pilot certificate is discussed later in\nthis chapter. Aircraft that are specifically manufactured for the LSA market are included in either the Special (S-LSA) or\nExperimental (E-LSA) designations. An approved S-LSA is manufactured in a ready-to-fly condition and an E-LSA is either a kit or\nplans-built aircraft based on an approved S-LSA model."
-      }
-    },
-    {
-      "section": "(CAS).",
-      "difficulty": 2,
-      "categories": [
-        "written_exam",
-        "checkride_oral"
-      ],
-      "question": "A pilot holding a sport pilot certificate with the appropriate endorsements wants to fly a type certificated Piper J-3 Cub. Under what condition may this pilot legally operate this aircraft?",
-      "correct_answer": "The aircraft must continue to meet the 14 CFR Part 1, section 1.1 definition of a light-sport aircraft.",
-      "distractors": [
-        "The aircraft must be re-certificated under a Special Light-Sport Aircraft (S-LSA) designation before a sport pilot may operate it.",
-        "The aircraft must be re-certificated under an Experimental Light-Sport Aircraft (E-LSA) designation before a sport pilot may operate it.",
-        "A sport pilot may never operate a type certificated aircraft regardless of its weight or performance characteristics."
-      ],
-      "explanation": "According to AFH Chapter 17, type certificated aircraft that continue to meet the 14 CFR Part 1, section 1.1 definition of LSA may be flown by a pilot holding a sport pilot certificate with the appropriate endorsement, per 14 CFR Part 61, section 61.315(a). The J-3 Cub is an example of a standard airworthiness certificated aircraft that may meet the LSA definition. It does not need to be re-certificated as S-LSA or E-LSA; those designations apply to aircraft specifically manufactured for the LSA market.",
-      "reference": {
-        "page": "17-2",
-        "text": "The LSA category includes standard, special, and experimental designations. Some standard airworthiness certificated aircraft (i.e., a\nPiper J-2 or J-3) may meet the Title 14 of the Code of Federal Regulation (14 CFR) part 1, section 1 definition of LSA. Type\ncertificated aircraft that continue to meet the section 1.1 definition of LSA may be flown by a pilot who holds a sport pilot certificate\nwith the appropriate endorsement for the aircraft (14 CFR part 61, section 61.315(a)). The sport pilot certificate is discussed later in\nthis chapter. Aircraft that are specifically manufactured for the LSA market are included in either the Special (S-LSA) or\nExperimental (E-LSA) designations. An approved S-LSA is manufactured in a ready-to-fly condition and an E-LSA is either a kit or\nplans-built aircraft based on an approved S-LSA model."
-      }
-    },
-    {
-      "section": "(CAS).",
-      "difficulty": 2,
-      "categories": [
-        "written_exam",
-        "checkride_oral"
-      ],
-      "question": "A pilot is considering building an Experimental Light Sport Aircraft (E-LSA) from a kit. According to the FAA definition, what must be true about this aircraft's design lineage?",
-      "correct_answer": "It must be a kit or plans-built aircraft based on an approved S-LSA model",
-      "distractors": [
-        "It must be a type-certificated aircraft that continues to meet the 14 CFR part 1 definition of a light sport aircraft",
-        "It must be manufactured in a ready-to-fly condition and meet consensus standards for the LSA market",
-        "It must be built from scratch using an original design that has never been previously certificated in any LSA category"
-      ],
-      "explanation": "According to AFH Chapter 17, an E-LSA is specifically defined as either a kit or plans-built aircraft based on an approved S-LSA model. This distinguishes it from an S-LSA, which is manufactured in a ready-to-fly condition, and from standard airworthiness certificated aircraft (like a Piper J-3) that simply happen to meet the part 1 definition of LSA. The E-LSA designation is not for original designs—it requires the aircraft to be based on an already-approved S-LSA model.",
-      "reference": {
-        "page": "17-2",
-        "text": "The LSA category includes standard, special, and experimental designations. Some standard airworthiness certificated aircraft (i.e., a\nPiper J-2 or J-3) may meet the Title 14 of the Code of Federal Regulation (14 CFR) part 1, section 1 definition of LSA. Type\ncertificated aircraft that continue to meet the section 1.1 definition of LSA may be flown by a pilot who holds a sport pilot certificate\nwith the appropriate endorsement for the aircraft (14 CFR part 61, section 61.315(a)). The sport pilot certificate is discussed later in\nthis chapter. Aircraft that are specifically manufactured for the LSA market are included in either the Special (S-LSA) or\nExperimental (E-LSA) designations. An approved S-LSA is manufactured in a ready-to-fly condition and an E-LSA is either a kit or\nplans-built aircraft based on an approved S-LSA model."
-      }
-    },
-    {
-      "section": "(CAS).",
-      "difficulty": 2,
-      "categories": [
-        "written_exam",
-        "checkride_oral"
-      ],
-      "question": "A pilot is researching the design and certification standards of a light sport aircraft. Since S-LSAs and E-LSAs are not type certificated by the FAA and do not need to meet 14 CFR part 23, what standards govern their design and manufacture?",
+      "question": "S-LSA and E-LSA aircraft are designed and manufactured to which set of standards instead of 14 CFR part 23?",
       "correct_answer": "ASTM Committee F-37 Industry Consensus Standards",
       "distractors": [
-        "FAA standard airworthiness certification requirements",
-        "14 CFR part 91 general operating and flight rules",
-        "Manufacturer-defined specifications with no external oversight"
+        "14 CFR part 23 certification requirements, identical to standard airworthiness aircraft",
+        "FAA Type Certificate Data Sheets specific to light-sport aircraft",
+        "European Aviation Safety Agency (EASA) CS-LSA standards"
       ],
-      "explanation": "According to AFH Chapter 17, S-LSAs and E-LSAs are not type certificated by the FAA and are not required to meet any airworthiness requirements of 14 CFR part 23. Instead, they are designed and manufactured in accordance with ASTM Committee F-37 Industry Consensus Standards, which were accepted by the FAA in 2005. These standards are intended to be less costly and less restrictive than part 23 certification requirements, giving manufacturers greater design latitude while still providing a structured framework — not unregulated manufacturer-defined specifications.",
+      "explanation": "The chapter states that S-LSAs and E-LSAs are not type certificated by the FAA and are not required to meet 14 CFR part 23. Instead, they are designed and manufactured in accordance with ASTM Committee F-37 Industry Consensus Standards, which the FAA accepted in 2005.",
       "reference": {
         "page": "17-2",
-        "text": "It is important to note that S-LSAs or E-LSAs are not type certificated by the FAA and are not required to meet any airworthiness\nrequirements of 14 CFR part 23. Instead, S-LSAs and E-LSAs are designed and manufactured in accordance with ASTM Committee\nF-37 Industry Consensus Standards. Therefore, LSA designs are not subjected to the scrutiny, demands, and testing of FAA standard\nairworthiness certification. Industry Consensus Standards are intended to be less costly and less restrictive than 14 CFR part 23\ncertification requirements and, as a result, LSA manufacturers have greater latitude with their designs. ASTM Industry Consensus\nStandards were accepted by the FAA in 2005, which established FAA-accepted industry-developed standards for the design and\nmanufacture of aircraft for the first time. 17-2"
+        "text": "S-LSAs and E-LSAs are designed and manufactured in accordance with ASTM Committee F-37 Industry Consensus Standards. Therefore, LSA designs are not subjected to the scrutiny, demands, and testing of FAA standard airworthiness certification."
       }
     },
     {
-      "section": "(CAS).",
-      "difficulty": 2,
-      "categories": [
-        "written_exam"
-      ],
-      "question": "Unlike traditionally certified aircraft, S-LSAs and E-LSAs are not type certificated by the FAA under 14 CFR Part 23. Instead, what standards govern their design and manufacture?",
-      "correct_answer": "ASTM Committee F-37 Industry Consensus Standards",
-      "distractors": [
-        "14 CFR Part 23 airworthiness requirements",
-        "FAA standard airworthiness certification requirements",
-        "14 CFR Part 21 type certification procedures"
-      ],
-      "explanation": "According to AFH Chapter 17, S-LSAs and E-LSAs are not type certificated by the FAA and are not required to meet 14 CFR Part 23 airworthiness requirements. Instead, they are designed and manufactured in accordance with ASTM Committee F-37 Industry Consensus Standards, which the FAA accepted in 2005. These standards are less costly and less restrictive than Part 23 certification, giving manufacturers greater design latitude while still ensuring safety through industry-developed consensus standards.",
-      "reference": {
-        "page": "17-2",
-        "text": "It is important to note that S-LSAs or E-LSAs are not type certificated by the FAA and are not required to meet any airworthiness\nrequirements of 14 CFR part 23. Instead, S-LSAs and E-LSAs are designed and manufactured in accordance with ASTM Committee\nF-37 Industry Consensus Standards. Therefore, LSA designs are not subjected to the scrutiny, demands, and testing of FAA standard\nairworthiness certification. Industry Consensus Standards are intended to be less costly and less restrictive than 14 CFR part 23\ncertification requirements and, as a result, LSA manufacturers have greater latitude with their designs. ASTM Industry Consensus\nStandards were accepted by the FAA in 2005, which established FAA-accepted industry-developed standards for the design and\nmanufacture of aircraft for the first time. 17-2"
-      }
-    },
-    {
-      "section": "(CAS).",
-      "difficulty": 2,
-      "categories": [
-        "written_exam",
-        "general_knowledge"
-      ],
-      "question": "Why do LSA manufacturers have greater latitude with their designs compared to manufacturers of aircraft certified under 14 CFR part 23?",
-      "correct_answer": "Industry Consensus Standards are intentionally less costly and less restrictive than part 23 certification requirements",
-      "distractors": [
-        "LSAs are type certificated by the FAA under a streamlined process that skips most testing",
-        "LSAs are exempt from all FAA oversight and may be designed without any certification standards",
-        "ASTM Industry Consensus Standards require more rigorous testing than part 23, allowing innovative designs"
-      ],
-      "explanation": "According to AFH Chapter 17, S-LSAs and E-LSAs are not type certificated by the FAA and are not required to meet 14 CFR part 23 airworthiness requirements. Instead, they are designed and manufactured to ASTM Committee F-37 Industry Consensus Standards, which are intentionally less costly and less restrictive than part 23 certification. This reduced restrictiveness is what gives manufacturers greater design latitude. Distractor A is incorrect because LSAs are not FAA type certificated at all. Distractor B is wrong because LSAs must still meet ASTM standards accepted by the FAA. Distractor C is incorrect because ASTM standards are less restrictive, not more rigorous, than part 23.",
-      "reference": {
-        "page": "17-2",
-        "text": "It is important to note that S-LSAs or E-LSAs are not type certificated by the FAA and are not required to meet any airworthiness\nrequirements of 14 CFR part 23. Instead, S-LSAs and E-LSAs are designed and manufactured in accordance with ASTM Committee\nF-37 Industry Consensus Standards. Therefore, LSA designs are not subjected to the scrutiny, demands, and testing of FAA standard\nairworthiness certification. Industry Consensus Standards are intended to be less costly and less restrictive than 14 CFR part 23\ncertification requirements and, as a result, LSA manufacturers have greater latitude with their designs. ASTM Industry Consensus\nStandards were accepted by the FAA in 2005, which established FAA-accepted industry-developed standards for the design and\nmanufacture of aircraft for the first time. 17-2"
-      }
-    },
-    {
-      "section": "(CAS).",
+      "section": "Light-Sport Airplane Synopsis",
       "difficulty": 2,
       "categories": [
         "written_exam",
         "checkride_oral"
       ],
-      "question": "Why do Light Sport Aircraft (LSA) manufacturers have greater design latitude compared to manufacturers of aircraft with standard FAA type certificates?",
-      "correct_answer": "LSAs are designed and manufactured to ASTM Industry Consensus Standards, which are less costly and less restrictive than 14 CFR Part 23 certification requirements.",
+      "question": "A private pilot holding a valid U.S. driver's license wishes to fly an LSA as PIC. Under what condition is the driver's license NOT sufficient for medical eligibility?",
+      "correct_answer": "If the pilot's most recent FAA medical certificate was denied, revoked, suspended, or withdrawn",
       "distractors": [
-        "LSAs meet 14 CFR Part 23 requirements but with reduced testing and documentation demands due to their lower weight and speed limitations.",
-        "LSAs are self-certified by their manufacturers without adherence to any FAA-accepted industry standards or oversight.",
-        "LSAs are granted blanket exemptions from all FAA design and manufacturing regulations due to their limited performance and payload capabilities."
+        "If the pilot has never applied for an FAA medical certificate",
+        "If the pilot's most recent FAA medical certificate was issued more than 24 months ago",
+        "If the pilot holds only a student pilot certificate"
       ],
-      "explanation": "According to AFH Chapter 17, S-LSAs and E-LSAs are not type certificated by the FAA and are not required to meet 14 CFR Part 23 airworthiness requirements. Instead, they are designed and manufactured in accordance with ASTM Committee F-37 Industry Consensus Standards, which the FAA accepted in 2005. These standards are intentionally less costly and less restrictive than Part 23, giving manufacturers greater design latitude. Distractor A is incorrect because LSAs do not meet Part 23 at all. Distractor B is incorrect because LSAs must adhere to FAA-accepted ASTM standards—they are not unregulated. Distractor C is incorrect because LSAs are not exempt from all regulations; they follow established industry consensus standards.",
+      "explanation": "The chapter specifies that pilots holding higher level certificates may fly LSAs using a valid U.S. driver's license as evidence of medical eligibility. However, if the pilot's most recent medical certificate was denied, revoked, suspended, or withdrawn, the driver's license is not sufficient and the pilot must hold a valid FAA medical certificate.",
       "reference": {
-        "page": "17-2",
-        "text": "It is important to note that S-LSAs or E-LSAs are not type certificated by the FAA and are not required to meet any airworthiness\nrequirements of 14 CFR part 23. Instead, S-LSAs and E-LSAs are designed and manufactured in accordance with ASTM Committee\nF-37 Industry Consensus Standards. Therefore, LSA designs are not subjected to the scrutiny, demands, and testing of FAA standard\nairworthiness certification. Industry Consensus Standards are intended to be less costly and less restrictive than 14 CFR part 23\ncertification requirements and, as a result, LSA manufacturers have greater latitude with their designs. ASTM Industry Consensus\nStandards were accepted by the FAA in 2005, which established FAA-accepted industry-developed standards for the design and\nmanufacture of aircraft for the first time. 17-2"
+        "page": "17-4",
+        "text": "However, if the pilot's most recent medical certificate was denied, revoked, suspended, or withdrawn, a U.S. driver's license is not sufficient. The pilot would then need to hold a valid FAA medical certificate to fly an LSA."
       }
     },
     {
-      "section": "(CAS).",
+      "section": "Sport Pilot Certificate",
       "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "A commercial pilot rated in airplane multiengine land and rotorcraft gyroplane wants to act as PIC of a light-sport airplane. What additional requirement must be met?",
+      "correct_answer": "Supervision from an authorized instructor, since the pilot lacks an airplane single-engine class rating",
+      "distractors": [
+        "No additional requirements; the commercial certificate allows PIC in any LSA",
+        "Obtaining a sport pilot certificate with an airplane category rating",
+        "Completing a flight review in a light-sport airplane within the preceding 24 calendar months"
+      ],
+      "explanation": "The chapter gives this exact example: a commercial pilot rated in airplane multiengine land and rotorcraft gyroplane is qualified to fly a light-sport gyroplane as PIC, but is not qualified to act as PIC of a light-sport airplane (sport airplanes are single-engine) without supervision from an authorized instructor, because the pilot does not hold the appropriate single-engine class rating.",
+      "reference": {
+        "page": "17-3",
+        "text": "However, that pilot is not qualified to act as PIC of a light-sport airplane (sport airplanes are single-engine) without supervision from an authorized instructor."
+      }
+    },
+    {
+      "section": "Light-Sport Airplane Synopsis",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "Under what conditions may an LSA be operated at night under VFR?",
+      "correct_answer": "The aircraft must be equipped per 14 CFR 91.205(c), night operations must be allowed by the airplane's operating limitations, and the pilot must hold at least a recreational pilot certificate",
+      "distractors": [
+        "Any pilot with a sport pilot certificate may fly at night if the aircraft is equipped per 14 CFR 91.205(c)",
+        "The aircraft may fly at night if equipped with a ballistic parachute system, regardless of pilot certificate",
+        "Only private pilots with a current flight review may operate LSAs at night"
+      ],
+      "explanation": "The chapter states LSAs may be operated VFR at night if equipped per 14 CFR 91.205(c) and if the airplane's operating limitations allow it. However, sport pilots may not fly at night per 14 CFR 61.315(c)(5). Recreational pilots may operate between sunset and sunrise as sole occupant under specific conditions for additional training.",
+      "reference": {
+        "page": "17-3",
+        "text": "LSAs may be operated by VFR at night if the aircraft is equipped with the instruments and equipment specified in 14 CFR part 91, section 91.205(c), and if night operations are allowed by the airplane's operating limitations. However, sport pilots may not fly at night."
+      }
+    },
+    {
+      "section": "Transition Training Considerations – Flight Instructors",
+      "difficulty": 1,
       "categories": [
         "written_exam",
         "general_knowledge"
       ],
-      "question": "Which of the following elements are established under aircraft consensus standards?",
-      "correct_answer": "Design and performance, required equipment, quality assurance, and production acceptance tests",
+      "question": "What is a limitation of a flight instructor-S (Sport Pilot flight instructor) compared to a flight instructor-A?",
+      "correct_answer": "A flight instructor-S may only provide instruction in LSAs and cannot instruct in non-LSA airplanes",
       "distractors": [
-        "Pilot certification minimums, medical certificate validity, and flight review intervals",
-        "Type certificate data sheets, airworthiness directives, and supplemental type certificates",
-        "Airspace classifications, weather minimums, and air traffic control procedures"
+        "A flight instructor-S may only provide ground instruction, not flight instruction",
+        "A flight instructor-S may instruct in any airplane but cannot endorse students for solo flight",
+        "A flight instructor-S may instruct in non-LSA airplanes but only if the student holds a private pilot certificate"
       ],
-      "explanation": "According to the Airplane Flying Handbook (AFH), aircraft consensus standards include specific requirements for an aircraft's design and performance, required equipment, quality assurance, and production acceptance tests. These standards focus on the aircraft's construction and safety rather than pilot certification, traditional type certification processes, or operational rules.",
+      "explanation": "The chapter states that 14 CFR part 61, section 61.413 limits a flight instructor-S to instruction in LSAs—a flight instructor-S cannot give instruction in a non-LSA airplane such as a Cessna 150. A flight instructor-A, by contrast, may give instruction in both LSA and non-LSA airplanes.",
       "reference": {
-        "page": "17-3",
-        "text": "•   Design and performance\n   •   Required equipment\n   •   Quality assurance\n   •   Production acceptance tests\n   •   Aircraft operating instructions\n   •   Maintenance and inspection procedures\n   •   Identification and recording of major repairs and major alterations\n   •   Continued airworthiness\n   •   Manufacturer's assembly instructions (E-LSA aircraft)"
+        "page": "17-4",
+        "text": "14 CFR part 61, section 61.413 limits a flight instructor-S to instruction in LSAs—a flight instructor-S cannot give instruction in a non-LSA airplane (e.g., a Cessna 150)."
       }
     },
     {
-      "section": "(CAS).",
+      "section": "LSA Maintenance",
       "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "How does the FAA handle Airworthiness Directives (ADs) for S-LSA and E-LSA aircraft?",
+      "correct_answer": "The FAA does not issue ADs for S-LSAs or E-LSAs, but will issue ADs for any FAA-certificated components installed on them",
+      "distractors": [
+        "The FAA issues ADs for S-LSAs and E-LSAs in the same manner as for standard airworthiness aircraft",
+        "ADs are issued by the LSA manufacturer and enforced by the FAA for all S-LSA and E-LSA aircraft",
+        "No ADs apply to S-LSAs or E-LSAs under any circumstances, including installed FAA-certificated components"
+      ],
+      "explanation": "The chapter clearly states the FAA does not issue ADs for S-LSAs or E-LSAs. However, if an FAA-certificated component is installed on an LSA, the FAA issues any pertaining ADs for that specific component. S-LSA owners should also comply with manufacturer safety directives.",
+      "reference": {
+        "page": "17-5",
+        "text": "The FAA does not issue Airworthiness Directives (ADs) for S-LSAs or E-LSAs. If an FAA-certified component is installed on an LSA, the FAA issues any pertaining ADs for that specific component."
+      }
+    },
+    {
+      "section": "LSA Maintenance",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "Which of the following individuals is NOT listed in the chapter as someone who may maintain and inspect an S-LSA?",
+      "correct_answer": "An FAA-certificated A\u0026P mechanic with an Inspection Authorization (IA) only",
+      "distractors": [
+        "An LSA Repairman with a Maintenance rating",
+        "An FAA-certificated Airframe and Powerplant Mechanic (A\u0026P)",
+        "An owner performing limited maintenance as permitted on their S-LSA"
+      ],
+      "explanation": "The chapter lists four categories of those who may maintain S-LSAs: an LSA Repairman with a Maintenance rating, an FAA-certificated A\u0026P, as specified by the aircraft manufacturer, or owners performing limited maintenance. An A\u0026P with an IA is not listed as a separate requirement—S-LSA inspections can typically be signed off by an A\u0026P or LSA repairman with a Maintenance rating without needing an IA.",
+      "reference": {
+        "page": "17-5",
+        "text": "S-LSAs may be maintained and inspected by: 1. An LSA Repairman with a Maintenance rating; or, 2. An FAA-certificated Airframe and Powerplant Mechanic (A\u0026P); or, 3. As specified by the aircraft manufacturer; or 4. As permitted, owners performing limited maintenance on their S-LSA."
+      }
+    },
+    {
+      "section": "Airframe and Systems – Engines",
+      "difficulty": 2,
+      "categories": [
+        "general_knowledge",
+        "checkride_oral"
+      ],
+      "question": "Why do most light-sport airplanes with high-rpm engines require a gear-box?",
+      "correct_answer": "To reduce the propeller rpm to the proper range while allowing the engine to operate at higher rpm",
+      "distractors": [
+        "To increase the propeller rpm above the engine rpm for better climb performance",
+        "To provide reverse thrust capability for shorter landings on unprepared surfaces",
+        "To convert the engine's rotary motion into a reciprocating motion for the propeller"
+      ],
+      "explanation": "The chapter explains that most light-sport airplane engines are water-cooled, 4-cycle, and carbureted with much higher operating rpm. These engines require a gear-box to reduce propeller rpm to the proper range. Because of the higher engine operating rpm, vibration and noise signatures differ from standard type certificated designs.",
+      "reference": {
+        "page": "17-6",
+        "text": "These engines have much higher operating rpm and require a gear-box to reduce propeller rpm to the proper range."
+      }
+    },
+    {
+      "section": "Airframe and Systems – Instrumentation",
+      "difficulty": 2,
+      "categories": [
+        "general_knowledge",
+        "checkride_oral"
+      ],
+      "question": "What is a potential hazard identified with EFIS systems in LSAs if the pilot is not properly trained?",
+      "correct_answer": "A 'heads down' syndrome causing loss of situational awareness",
+      "distractors": [
+        "The EFIS automatically disconnects the autopilot during turns greater than 30 degrees of bank",
+        "The EFIS creates excessive heat in the cockpit that can lead to pilot fatigue",
+        "The EFIS interferes with VHF radio communications when displaying weather data"
+      ],
+      "explanation": "The chapter warns that EFIS systems can cause a 'heads down' syndrome and loss of situational awareness if the pilot is not trained to quickly and properly configure, access, program, and interpret the information provided. Transition training should include instruction in the use of the specific EFIS installed.",
+      "reference": {
+        "page": "17-7",
+        "text": "EFIS systems can cause a 'heads down' syndrome and loss of situation awareness if the pilot is not trained to quickly and properly configure, access, program, and interpret the information provided."
+      }
+    },
+    {
+      "section": "Weather Considerations",
+      "difficulty": 1,
       "categories": [
         "written_exam",
         "general_knowledge"
       ],
-      "question": "Aircraft consensus standards (CAS) establish requirements across several key areas. Which of the following best represents the types of requirements included in a consensus standard?",
-      "correct_answer": "Aircraft operating instructions, maintenance and inspection procedures, and continued airworthiness",
+      "question": "Why does the chapter advise that even greater distances from convective weather should be considered the norm for LSAs?",
+      "correct_answer": "Because an LSA's lighter weight makes it more susceptible to the effects of winds associated with convection",
       "distractors": [
-        "Pilot certification minimums, medical certificate duration, and flight time limitations",
-        "Airworthiness directive issuance, service bulletin distribution, and type certificate data sheet preparation",
-        "Airport design specifications, airspace classification criteria, and ATC separation minimums"
+        "Because LSAs lack the electrical systems needed to detect convective weather",
+        "Because LSA engines are more likely to ingest water and quit in humid air near thunderstorms",
+        "Because LSAs cannot climb fast enough to get above convective cloud tops"
       ],
-      "explanation": "According to AFH Chapter 17, aircraft consensus standards include requirements for aircraft operating instructions, maintenance and inspection procedures, and continued airworthiness, among other items such as design and performance, required equipment, quality assurance, and production acceptance tests. The distractors are incorrect because they describe personnel certification requirements (A), FAA regulatory oversight documents (B), and infrastructure/ATC standards (C)—none of which fall under the scope of aircraft consensus standards.",
+      "explanation": "The chapter explains that managing weather factors becomes more significant as airplane weight decreases. Due to an LSA's lighter weight, even greater distances from convective weather should be considered the norm. Operations in the vicinity of convection should not be attempted in lightweight airplanes.",
       "reference": {
-        "page": "17-3",
-        "text": "•   Design and performance\n   •   Required equipment\n   •   Quality assurance\n   •   Production acceptance tests\n   •   Aircraft operating instructions\n   •   Maintenance and inspection procedures\n   •   Identification and recording of major repairs and major alterations\n   •   Continued airworthiness\n   •   Manufacturer's assembly instructions (E-LSA aircraft)"
+        "page": "17-8",
+        "text": "Due to an LSA's lighter weight, even greater distances from convective weather should be considered the norm... operations in the vicinity of convection should not be attempted in lightweight airplanes."
+      }
+    },
+    {
+      "section": "Flight Environment – Inside the Airplane",
+      "difficulty": 1,
+      "categories": [
+        "general_knowledge",
+        "checkride_oral"
+      ],
+      "question": "When performing a full range of motion check of flight controls on an LSA, what should a pilot verify regarding aileron movement?",
+      "correct_answer": "The direction of control surface movement, noting that differential aileron geometry may show very little 'down' aileron compared to 'up' aileron",
+      "distractors": [
+        "That both ailerons move equal distances up and down simultaneously",
+        "That the ailerons remain fixed during ground checks and only move in flight",
+        "That the ailerons move in the same direction as the elevator during the check"
+      ],
+      "explanation": "The chapter states that on some LSAs, aileron control geometry moves ailerons in a highly differential manner to minimize adverse yaw, so a pilot may see very little 'down' aileron compared to the 'up' aileron. Pilots should always verify the direction of control surface movement during the full range of motion check.",
+      "reference": {
+        "page": "17-10",
+        "text": "On some LSAs, aileron control geometry, in an attempt to minimize adverse yaw, moves ailerons in a highly differential manner; a pilot may see very little 'down' aileron when compared to the 'up' aileron. Pilots should always verify the direction of control surface movement."
+      }
+    },
+    {
+      "section": "Flight Environment – Inside the Airplane",
+      "difficulty": 2,
+      "categories": [
+        "checkride_oral",
+        "general_knowledge"
+      ],
+      "question": "During preflight of an LSA with electric elevator trim, what should the pilot verify regarding the trim system?",
+      "correct_answer": "Actuate the trim in both nose-up and nose-down directions, verify the trim disconnect functions if equipped, and set takeoff trim position",
+      "distractors": [
+        "Verify that the trim is in the full nose-down position to ensure proper takeoff rotation",
+        "Disconnect the trim system entirely before flight to prevent trim runaway",
+        "Check that the trim operates only in the nose-up direction for go-around capability"
+      ],
+      "explanation": "The chapter specifies that preflight should include actuating the trim switch in both nose-up and nose-down directions, verifying that the trim disconnect (if equipped) is properly functioning, and then properly setting the takeoff trim position. Pilots should understand how to respond to a trim-runaway condition.",
+      "reference": {
+        "page": "17-10",
+        "text": "Part of the preflight inspection should include actuating the trim switch in both nose-up and nose-down directions, verifying that the trim disconnect (if equipped) is properly functioning, and then properly setting the takeoff trim position."
+      }
+    },
+    {
+      "section": "Flight Environment – Outside the Airplane",
+      "difficulty": 2,
+      "categories": [
+        "checkride_oral",
+        "general_knowledge"
+      ],
+      "question": "When preflighting a ground-adjustable composite propeller on an LSA, what specific check should be performed?",
+      "correct_answer": "Snugly twist the blade at the root to verify there is no rotation of the blade at the hub",
+      "distractors": [
+        "Measure the blade angle with a protractor to confirm factory pitch setting",
+        "Tap the blade with a metal hammer to listen for a hollow sound indicating delamination",
+        "Apply lubricant to the hub to ensure smooth blade rotation during flight"
+      ],
+      "explanation": "The chapter states that on ground adjustable propellers, the pilot should ensure that the blades are tight against the hub by snugly twisting the blade at the root to verify that there is no rotation of the blade at the hub. This is an additional check specific to composite, ground-adjustable propellers.",
+      "reference": {
+        "page": "17-11",
+        "text": "On ground adjustable propellers, ensure that the blades are tight against the hub by snugly twisting the blade at the root to verify that there is no rotation of the blade at the hub."
+      }
+    },
+    {
+      "section": "Flight Environment – Taxi",
+      "difficulty": 2,
+      "categories": [
+        "checkride_oral",
+        "general_knowledge"
+      ],
+      "question": "When taxiing an LSA equipped with a full-castoring nose wheel, what technique is required for steering?",
+      "correct_answer": "Differential braking, which requires practice to maintain centerline while minimizing brake and tire wear",
+      "distractors": [
+        "Rudder pedal deflection alone, which mechanically steers the nose wheel through cables",
+        "Differential thrust using the throttle to create yawing moments for directional control",
+        "Asymmetric braking on the main wheels combined with full rudder deflection in the direction of turn"
+      ],
+      "explanation": "The chapter explains that to taxi a full-castoring nose-wheel equipped airplane, the use of differential brakes is required. This type of nose-wheel can require practice to keep the airplane on the centerline while minimizing brake application or damage to the tires. If taxi speed is too slow, brake application can cause the aircraft to pivot to a stop.",
+      "reference": {
+        "page": "17-12",
+        "text": "In order to taxi a full-castoring nose-wheel equipped airplane, the use of differential brakes is required. This type of nose-wheel can require practice to keep the airplane on the centerline while minimizing brake application or damage to the tires."
+      }
+    },
+    {
+      "section": "Flight Environment – Cruise",
+      "difficulty": 2,
+      "categories": [
+        "general_knowledge",
+        "checkride_oral"
+      ],
+      "question": "A transitioning pilot notices cruise rpm of 4,800 on an LSA and is concerned the engine is turning too fast. What explains this reading?",
+      "correct_answer": "The engine has a gear-reduction drive, so the propeller is turning much slower than the engine",
+      "distractors": [
+        "The tachometer is miscalibrated and needs to be replaced with a mechanical gauge",
+        "The high rpm indicates the mixture is too lean and the engine is overspeeding",
+        "The propeller governor has failed and the propeller is in fine pitch, requiring immediate power reduction"
+      ],
+      "explanation": "The chapter addresses this directly, noting that the first time a transitioning pilot sees a cruise rpm setting of 4,800 rpm, they may sense the engine is turning too fast. However, the engine has a gear-reduction drive and the propeller is turning much slower. If equipped with a standard aircraft engine, rpm would be in a comparable range to what the pilot is used to.",
+      "reference": {
+        "page": "17-13",
+        "text": "The first time a transitioning pilot sees cruise rpm setting of 4,800 rpm (or as recommended), they may have a sense that the engine is turning too fast; however, remember that the engine has gear-reduction drive and the propeller is turning much slower."
+      }
+    },
+    {
+      "section": "Flight Environment – Approach and Landing",
+      "difficulty": 3,
+      "categories": [
+        "checkride_oral",
+        "general_knowledge"
+      ],
+      "question": "According to the Key Points section, why is it important to maintain airspeed during a crosswind approach in a high-drag LSA rather than allowing a rapid power reduction?",
+      "correct_answer": "A rapid reduction in airspeed prior to touchdown may result in loss of rudder and/or aileron control, pushing the aircraft off runway heading",
+      "distractors": [
+        "A rapid power reduction will cause the LSA to float excessively, resulting in a long landing",
+        "A rapid power reduction will overspeed the flaps and cause structural damage to the wing",
+        "A rapid power reduction will cause the engine to quit and cannot be restarted during the approach"
+      ],
+      "explanation": "The Key Points section explains that LSAs with high drag, low mass, and low inertia tend to decelerate rapidly when power is reduced. During a crosswind landing, a rapid reduction in airspeed prior to touchdown may result in loss of rudder and/or aileron control, which may push the aircraft off the runway heading. The chapter advises maintaining airspeed and, when power is reduced, lowering the nose to maintain airspeed.",
+      "reference": {
+        "page": "17-15",
+        "text": "When combined with their low mass and inertia, these LSAs tend to decelerate rapidly when power is reduced. When attempting a crosswind landing in a high-drag LSA, a rapid reduction in airspeed prior to touchdown may result in a loss of rudder and/or aileron control, which may push the aircraft off of the runway heading."
+      }
+    },
+    {
+      "section": "Key Points",
+      "difficulty": 3,
+      "categories": [
+        "checkride_oral",
+        "general_knowledge"
+      ],
+      "question": "In the event of an engine failure in an LSA at low altitude, why is excessive pitch attitude during climb particularly dangerous?",
+      "correct_answer": "The higher the pitch attitude when failure occurs, the quicker the aircraft loses airspeed, making a stall more likely with less altitude available for recovery",
+      "distractors": [
+        "The higher pitch attitude makes it harder for ATC to see the aircraft on radar for rescue coordination",
+        "The higher pitch attitude increases fuel flow to the engine, making restart impossible due to flooding",
+        "The higher pitch attitude causes the ballistic parachute to deploy inadvertently due to G-forces"
+      ],
+      "explanation": "The Key Points section states that in an engine failure, the pilot should quickly transition to the required nose-down attitude to maintain airspeed. The higher the pitch attitude when failure occurs, the quicker the aircraft will lose airspeed and the more likely it is to stall. Stalls at low altitudes are especially dangerous because the closer to the ground the stall occurs, the less time there is to recover. Excessive pitch attitude during low-altitude climbs is discouraged.",
+      "reference": {
+        "page": "17-15",
+        "text": "The higher the pitch attitude is when the engine failure occurs, the quicker the aircraft will lose airspeed and the more likely the aircraft is to stall. Stalls that occur at low altitudes are especially dangerous because the closer to the ground the stall occurs, the less time there is to recover."
       }
     }
   ]

@@ -4,363 +4,361 @@
   "questions": [
     {
       "section": "Use of Flaps",
-      "difficulty": 3,
+      "difficulty": 2,
       "categories": [
         "written_exam",
         "checkride_oral"
       ],
-      "question": "While the increased camber from flap deflection creates a nose-down pitching moment, what secondary aerodynamic effect contributes to the overall pitch behavior when flaps are deployed?",
-      "correct_answer": "Flap deployment affects wing downwash on the horizontal tail and alters the tail-down force.",
+      "question": "A pilot extends flaps in increments on downwind, base, and final rather than making one large extension. What is the primary advantage of this technique?",
+      "correct_answer": "It allows smaller adjustments of pitch and power, supporting a stabilized approach",
       "distractors": [
-        "Flap deployment shifts the center of gravity aft, reducing longitudinal stability.",
-        "Flap deployment increases boundary layer airflow over the vertical stabilizer.",
-        "Flap deployment redirects propeller slipstream directly onto the rudder."
+        "It reduces total drag on the approach, allowing a steeper descent angle",
+        "It prevents the nose-down pitching moment that occurs with any flap extension",
+        "It eliminates the need to re-trim the airplane after each flap change"
       ],
-      "explanation": "According to the Airplane Flying Handbook, the increased camber from flap deflection increases lift on the rear portion of the wing, producing a nose-down pitching moment. Additionally, flap deployment may affect the wing's downwash on the horizontal tail and alter the tail-down force. Because this interaction varies, the overall pitch behavior from flap extension depends on the design of the particular airplane.",
+      "explanation": "The chapter states that large changes in flap deflection at one point produce large lift changes requiring significant pitch and power changes. Incremental deflection allows smaller adjustments and supports a stabilized approach. Flap extension still requires re-trimming, and deflection beyond 15° produces large drag increases.",
       "reference": {
         "page": "9-2",
-        "text": "The increased camber from flap deflection increases lift, primarily on the rear portion of the wing. This produces a nose-down pitching\nmoment which may cause the airplane to pitch down. Flap deployment may also affect wing downwash on the horizontal tail and alter\nthe tail-down force. Consequently, pitch behavior from flap extension depends on the design of the particular airplane.\n990"
+        "text": "Consequently, there is an advantage to extending flaps in increments while in the landing pattern. Incremental deflection of flaps on downwind, base leg, and final approach allow smaller adjustments of pitch and power and support a stabilized approach."
       }
     },
     {
-      "section": "Use of Flaps",
-      "difficulty": 3,
+      "section": "Normal Approach and Landing",
+      "difficulty": 1,
       "categories": [
         "written_exam",
-        "checkride_oral"
+        "general_knowledge"
       ],
-      "question": "Why do certain high-wing airplanes experience a significant nose-up pitching moment when flaps are deflected beyond 15°?",
-      "correct_answer": "The downwash from the flaps changes the airflow over the horizontal tail",
+      "question": "On the base leg, the pilot should use a target airspeed of approximately what multiple of VSO?",
+      "correct_answer": "1.4 VSO",
       "distractors": [
-        "The increased drag behind the wings reduces elevator effectiveness",
-        "The center of pressure moves aft due to increased lift on the flapped portion of the wing",
-        "The increased lift causes the airplane to balloon, creating a perceived nose-up pitch"
+        "1.3 VSO",
+        "1.2 VSO",
+        "1.5 VSO"
       ],
-      "explanation": "According to AFH Chapter 9, flap deflection beyond 15° produces a significant nose-up pitching moment in certain high-wing airplanes because the resulting downwash changes the airflow over the horizontal tail. This is a physical aerodynamic effect on the tail, not a reduction in elevator effectiveness from drag, not a center of pressure shift (which would tend to cause nose-down anyway), and not a perceived pitch change from ballooning (which is associated with initial flap deflection of up to 15°, not beyond).",
+      "explanation": "The chapter specifies that after turning onto the base leg, the pilot starts or continues the descent with a target airspeed of approximately 1.4 VSO. The 1.3 VSO speed is referenced for final approach, not base leg.",
       "reference": {
         "page": "9-2",
-        "text": "Flap deflection of up to 15° primarily produces lift with minimal drag. The airplane has a tendency to balloon up with initial flap\ndeflection because of the lift increase. The nose-down pitching moment, however, tends to offset the balloon. Flap deflection beyond\n15° produces a large increase in drag. Deflection beyond 15° also produces a significant nose-up pitching moment in certain high-wing\nairplanes because the resulting downwash changes the airflow over the horizontal tail.\n991"
+        "text": "After turning onto the base leg, the pilot starts or continues the descent with reduced power and a target airspeed of approximately 1.4 VSO—the stalling speed in the landing configuration."
       }
     },
     {
       "section": "Stabilized Approach Concept",
-      "difficulty": 3,
+      "difficulty": 2,
       "categories": [
         "written_exam",
         "checkride_oral"
       ],
-      "question": "While descending on final approach, a pilot notices that the perceived aiming point appears to be moving down, away from the horizon. What does this visual cue indicate about the aircraft's actual flight path?",
-      "correct_answer": "The true aiming point is farther down the runway than where the pilot is perceiving it.",
+      "question": "During a stabilized approach, how does the aiming point appear to the pilot?",
+      "correct_answer": "It appears stationary—it does not move under or away from the airplane",
       "distractors": [
-        "The aircraft is too high on the glide path and the true aiming point is closer than perceived.",
-        "The aircraft is on the correct glide path and the perceived aiming point is the true aiming point.",
-        "The visual cue is unreliable and the pilot should reference instruments to determine the actual aiming point."
+        "It appears to move forward away from the airplane as the airplane descends",
+        "It appears to move backward under the airplane as distance is closed",
+        "It appears to move up toward the horizon as the airplane descends"
       ],
-      "explanation": "According to AFH Chapter 9, on a constant-angle glide path, the distance between the horizon and the aiming point remains constant. If that distance appears to increase (aiming point moving down away from the horizon), the true aiming point is actually farther down the runway than perceived. Conversely, if the distance decreases (aiming point moving up toward the horizon), the true aiming point is closer than perceived. This visual cue helps pilots recognize when they are low or high relative to the desired glide path without relying solely on instruments.",
+      "explanation": "The chapter explains that the aiming point is identified by the fact that it does not move. Objects in front of and beyond the aiming point appear to move in opposite directions, but the aiming point itself remains stationary for a constant-angle glide path.",
       "reference": {
-        "page": "9-5",
-        "text": "To the pilot, the aiming point appears to be stationary. It does not appear to move under the nose of the aircraft and does not appear to\nmove forward away from the aircraft. This feature identifies the aiming point—it does not move. However, objects in front of and beyond\nthe aiming point do appear to move as the distance is closed, and they appear to move in opposite directions! For a constant angle glide\npath, the distance between the horizon and the aiming point remains constant. If descending at a constant angle and the distance between\nthe perceived aiming point and the horizon appears to increase (aiming point moving down away from the horizon), then the true aiming\npoint is farther down the runway. If the distance between the perceived aiming point and the horizon decreases, meaning that the aiming\npoint is moving up toward the horizon, the true aiming point is closer than perceived.\n1031"
+        "page": "9-4",
+        "text": "To the pilot, the aiming point appears to be stationary. It does not appear to move under the nose of the aircraft and does not appear to move forward away from the aircraft. This feature identifies the aiming point—it does not move."
       }
     },
     {
       "section": "Stabilized Approach Concept",
-      "difficulty": 3,
+      "difficulty": 2,
       "categories": [
         "written_exam",
         "checkride_oral"
       ],
-      "question": "While on final approach, a pilot notices that the perceived aiming point appears to be moving up toward the horizon, causing the distance between them to decrease. What does this indicate about where the aircraft will actually touch down?",
-      "correct_answer": "The aircraft will touch down closer than the perceived aiming point",
+      "question": "For a typical general aviation piston aircraft in a traffic pattern, at what altitude should an immediate go-around be initiated if the approach becomes unstabilized?",
+      "correct_answer": "300 ft AGL",
       "distractors": [
-        "The aircraft will touch down farther down the runway than the perceived aiming point",
-        "The aircraft is correctly maintaining a constant-angle glidepath to the perceived aiming point",
-        "The perceived aiming point is moving forward away from the aircraft, indicating the approach is too low"
+        "500 ft AGL",
+        "1,000 ft AGL",
+        "100 ft AGL"
       ],
-      "explanation": "According to AFH Chapter 9 (Stabilized Approach Concept), on a constant-angle glidepath, the distance between the horizon and the aiming point remains constant. If the distance between the perceived aiming point and the horizon decreases—meaning the aiming point appears to move up toward the horizon—the true aiming point is closer than perceived. This means the aircraft is descending below the desired glidepath and will touch down short of the intended point. Conversely, if the aiming point appears to move down away from the horizon (distance increasing), the true aiming point is farther down the runway. The pilot should recognize this visual cue and adjust to re-establish the proper glidepath to the intended aiming point.",
-      "reference": {
-        "page": "9-5",
-        "text": "To the pilot, the aiming point appears to be stationary. It does not appear to move under the nose of the aircraft and does not appear to\nmove forward away from the aircraft. This feature identifies the aiming point—it does not move. However, objects in front of and beyond\nthe aiming point do appear to move as the distance is closed, and they appear to move in opposite directions! For a constant angle glide\npath, the distance between the horizon and the aiming point remains constant. If descending at a constant angle and the distance between\nthe perceived aiming point and the horizon appears to increase (aiming point moving down away from the horizon), then the true aiming\npoint is farther down the runway. If the distance between the perceived aiming point and the horizon decreases, meaning that the aiming\npoint is moving up toward the horizon, the true aiming point is closer than perceived.\n1031"
-      }
-    },
-    {
-      "section": "Stabilized Approach Concept",
-      "difficulty": 3,
-      "categories": [
-        "written_exam",
-        "checkride_oral"
-      ],
-      "question": "A pilot on final approach recognizes the aircraft is undershooting the desired glide path while properly configured and operating on the backside of the power curve. Why might correcting this undershoot require a substantial increase in power rather than just a small adjustment?",
-      "correct_answer": "On the backside of the power curve, additional drag from the increased pitch attitude needed to level off means significantly more thrust is required to maintain airspeed while arresting the descent.",
-      "distractors": [
-        "The backside of the power curve indicates the aircraft is above best L/D speed, so drag is already minimal and only a small power change is actually needed despite appearances.",
-        "Operating on the backside of the power curve means the engine is producing maximum thrust, so the pilot must first reduce power before adding it back to regain glide path.",
-        "A substantial power increase is only necessary if the pilot retracts flaps to correct the undershoot, since flap retraction on the backside causes drag to increase dramatically."
-      ],
-      "explanation": "According to AFH Chapter 9, when an airplane is undershooting, the pilot may intercept the desired glide path by increasing pitch attitude and adding power to level off while maintaining the correct airspeed. The handbook specifically notes that this 'may necessitate a substantial increase in power if the aircraft is operating on the backside of the power curve.' On the backside of the power curve, the aircraft is in the region of reversed command where induced drag rises sharply with increased angle of attack, meaning the power required to maintain airspeed while raising the nose is disproportionately greater than in normal cruise flight. The handbook also warns that retracting flaps to correct an undershoot creates unnecessary risk of a sudden lift decrease and excessive sink rate, making that an incorrect corrective action.",
+      "explanation": "The chapter states that typically pilots go-around if unable to establish a stabilized approach by 500 ft above airport elevation in VMC or 1,000 ft in IMC. However, for a typical GA piston aircraft in a traffic pattern, an immediate go-around should be initiated if the approach becomes unstabilized below 300 ft AGL.",
       "reference": {
         "page": "9-6",
-        "text": "Pilots normally establish a stabilized approach before short final. The round out, touchdown, and landing roll are much easier to\naccomplish when preceded by a stabilized final approach, which reduces the chance of a landing mishap. Therefore, deviations from the\ndesired glide path should be detected and corrected early so that the magnitude of corrections during the later portion of the approach is\nsmall. If the approach is very high or very low, it may not be possible to establish a stabilized approach, and the pilot normally executes a\ngo-around. If the airplane is initially low and undershooting the aiming point, the pilot may intercept the desired glide path by increasing\npitch attitude and adding power to level off while maintaining the correct airspeed. This may necessitate a substantial increase in power\nif the aircraft is operating on the backside of the power curve. As the airplane intercepts the desired glide path, the pilot reduces power\nand pitches down to remain on the glide path. Retracting the flaps to correct for an undershoot creates an unnecessary risk. It may cause\na sudden decrease in lift, an excessive sink rate, and an aggravated unstable condition.\n43316"
+        "text": "For a typical GA piston aircraft in a traffic pattern, an immediate go-around should be initiated if the approach becomes unstabilized below 300 ft AGL."
       }
     },
     {
       "section": "Estimating Airplane Movement and Height",
-      "difficulty": 3,
-      "categories": [
-        "written_exam",
-        "checkride_oral"
-      ],
-      "question": "During the landing flare, a pilot is maintaining a steady viewing angle of 10° to 15° relative to the runway. If the pilot notices the visual interception point on the runway moving further down the runway rather than appearing progressively closer, what does this indicate?",
-      "correct_answer": "The airplane is gaining altitude because the pitch angle was increased too rapidly",
-      "distractors": [
-        "The airplane is descending too quickly and the pilot should increase pitch attitude further",
-        "The flare is progressing normally and the pilot should maintain the current pitch attitude",
-        "The airplane is below the desired glidepath and the pilot should add power"
-      ],
-      "explanation": "According to AFH Chapter 9, when using a steady viewing angle of 10° to 15° relative to the runway, the point of visual interception with the runway appears progressively closer as the airplane loses altitude. This rate of closure is an important visual cue for assessing altitude loss. Conversely, movement of the visual interception point further down the runway indicates an increase in altitude, meaning the pitch angle was increased too rapidly during the flare. Distractor 1 is incorrect because the point moving down the runway indicates altitude gain, not excessive descent. Distractor 2 is incorrect because normal flare progression would show the interception point moving closer, not further away. Distractor 3 is incorrect because the cue relates to pitch rate during flare, not glidepath position, and adding power is not the corrective action for this situation.",
-      "reference": {
-        "page": "9-7",
-        "text": "Visual cues are important in flaring at the proper height and maintaining the wheels a few inches above the runway until eventual\ntouchdown. Flare cues are primarily dependent on the angle at which the pilot’s central vision intersects the ground (or runway) ahead\nand slightly to the side. Proper depth perception is a factor in a successful flare, but the visual cues used most are those related to changes\nin runway or terrain perspective and to changes in the size and texture of familiar objects near the landing area. The pilot should focus\ndirect central vision at a shallow downward angle from 10° to 15° relative to the runway as the round out/flare is initiated. [Figure 9-9]\nWhen using this steady viewing angle, the point of visual interception with the runway appears progressively closer as the airplane\nloses altitude. This rate of closure is an important visual cue in assessing the rate of altitude loss. Conversely, movement of the visual\ninterception point further down the runway indicates an increase in altitude and means that the pitch angle was increased too rapidly\nduring the flare. Location of the visual interception point in conjunction with assessment of flow velocity of nearby off-runway terrain,\nas well as the similarity of appearance of height above the runway ahead of the airplane (in comparison to the way it looked when the\nairplane was taxied prior to takeoff), is also used to judge when the wheels are just a few inches above the runway.\n1011 9-7 1002"
-      }
-    },
-    {
-      "section": "Estimating Airplane Movement and Height",
-      "difficulty": 3,
+      "difficulty": 2,
       "categories": [
         "checkride_oral",
         "general_knowledge"
       ],
-      "question": "During the landing flare, a pilot is having difficulty judging when the wheels are just a few inches above the runway. Which technique does the Airplane Flying Handbook recommend to help make this judgment?",
-      "correct_answer": "Compare the appearance of height above the runway ahead to how it looked when the airplane was taxied prior to takeoff",
+      "question": "If a pilot focuses too close to the airplane during the round out, what is the likely result?",
+      "correct_answer": "Over-controlling, rounding out high, and making full-stall, drop-in landings",
       "distractors": [
-        "Compare the current pitch attitude to the attitude used during the takeoff rotation",
-        "Watch for the visual interception point to stop moving closer along the runway surface",
-        "Cross-check the altimeter for a rate of altitude loss approaching zero"
+        "Flying the airplane into the ground nose first due to a too-slow reaction",
+        "A late flare resulting in a hard landing on the main gear",
+        "Excessive floating past the desired touchdown point"
       ],
-      "explanation": "The Airplane Flying Handbook (Chapter 9) states that the similarity of appearance of height above the runway ahead of the airplane, in comparison to the way it looked when the airplane was taxied prior to takeoff, is used to judge when the wheels are just a few inches above the runway. This leverages the pilot's stored visual memory from taxiing. Comparing pitch attitude to takeoff rotation is not a described technique. Watching for the visual interception point to stop moving closer would indicate altitude loss has stopped, but does not specifically identify being inches above the runway. The altimeter lacks the precision and immediacy needed for judging height of mere inches during the flare.",
+      "explanation": "The chapter explains that focusing too close blurs the reference, causing the pilot's reaction to be too abrupt or too late, with a tendency to over-control, round out high, and make full-stall, drop-in landings. Focusing too far ahead causes the pilot to lose accuracy in judging closeness of the ground, sometimes resulting in flying into the ground nose first.",
       "reference": {
         "page": "9-7",
-        "text": "Visual cues are important in flaring at the proper height and maintaining the wheels a few inches above the runway until eventual\ntouchdown. Flare cues are primarily dependent on the angle at which the pilot’s central vision intersects the ground (or runway) ahead\nand slightly to the side. Proper depth perception is a factor in a successful flare, but the visual cues used most are those related to changes\nin runway or terrain perspective and to changes in the size and texture of familiar objects near the landing area. The pilot should focus\ndirect central vision at a shallow downward angle from 10° to 15° relative to the runway as the round out/flare is initiated. [Figure 9-9]\nWhen using this steady viewing angle, the point of visual interception with the runway appears progressively closer as the airplane\nloses altitude. This rate of closure is an important visual cue in assessing the rate of altitude loss. Conversely, movement of the visual\ninterception point further down the runway indicates an increase in altitude and means that the pitch angle was increased too rapidly\nduring the flare. Location of the visual interception point in conjunction with assessment of flow velocity of nearby off-runway terrain,\nas well as the similarity of appearance of height above the runway ahead of the airplane (in comparison to the way it looked when the\nairplane was taxied prior to takeoff), is also used to judge when the wheels are just a few inches above the runway.\n1011 9-7 1002"
+        "text": "If the pilot attempts to focus on a reference that is too close or looks directly down, the reference becomes blurred, and the reaction is either too abrupt or too late. In this case, the pilot's tendency is to over-control, round out high, and make full-stall, drop-in landings."
       }
     },
     {
       "section": "Round Out (Flare)",
-      "difficulty": 3,
+      "difficulty": 2,
       "categories": [
         "checkride_oral",
         "general_knowledge"
       ],
-      "question": "A student pilot is surprised that during the flare, applying increasing back-elevator pressure does not fully stop the airplane's descent toward the runway. What best explains this behavior?",
-      "correct_answer": "The airplane is already close to its stalling speed, so the added back-elevator pressure can only slow the settling, not stop it completely",
+      "question": "During a full-flap approach compared to a no-flap approach, how should the rate of pitch increase during the round out differ?",
+      "correct_answer": "The pitch should be increased at a faster rate because the nose must travel through a greater pitch change",
       "distractors": [
-        "The elevator loses effectiveness in ground effect, reducing its ability to arrest the descent",
-        "The reduction to idle power means there is insufficient thrust to maintain the lift needed to stop the descent",
-        "The nose-high attitude increases induced drag, which offsets any additional lift generated by the elevator"
+        "The pitch should be increased at a slower rate because the steeper descent angle provides more time",
+        "The rate should be the same since the round out always starts at the same height regardless of flap setting",
+        "The pitch should be increased at a slower rate because full flaps already provide a nose-high attitude"
       ],
-      "explanation": "According to AFH Chapter 9, during the flare the airplane is already close to its stalling speed and is settling. Because of this, the added back-elevator pressure only slows the settling instead of stopping it. The goal is to retard the descent enough so the airplane touches down in the proper landing attitude with the main wheels first. The distractors introduce plausible but incorrect aerodynamic explanations—ground effect, thrust, and induced drag—that are not the reason given in the source material.",
+      "explanation": "The chapter states that the pitch attitude in a full-flap approach is considerably lower than in a no-flap approach, so the nose needs to travel through a greater pitch change. Since the round out starts at approximately the same height, the pitch attitude should be increased at a faster rate when full flaps are used, while still accounting for the airplane's downward motion.",
       "reference": {
-        "page": "9-9",
-        "text": "Some pilots try to force or fly the airplane onto the ground without establishing proper landing attitude. The airplane should never be\nflown onto the runway with excessive speed. A common technique to making a smooth touchdown is to actually focus on holding the\nwheels of the aircraft a few inches off the ground as long as possible using the elevators while the power is smoothly reduced to idle. In\nmost cases, when the wheels are within 2 or 3 feet of the ground, the airplane is still settling too fast for a gentle touchdown. Therefore,\nthis descent is retarded by increasing back-elevator pressure. Since the airplane is already close to its stalling speed and is settling, this\nadded back-elevator pressure only slows the settling instead of stopping it. At the same time, it results in the airplane touching the ground\nin the proper landing attitude and the main wheels touching down first so that little or no weight is on the nose-wheel. [Figure 9-11]\n1014 1015"
-      }
-    },
-    {
-      "section": "Round Out (Flare)",
-      "difficulty": 3,
-      "categories": [
-        "written_exam",
-        "checkride_oral"
-      ],
-      "question": "During the landing roll, a pilot gradually relaxes back-elevator pressure to settle the nose-wheel onto the runway. What is the primary aerodynamic purpose of this action?",
-      "correct_answer": "It decreases the angle of attack and reduces wing lift, allowing the airplane's full weight to rest on the wheels for better mechanical braking",
-      "distractors": [
-        "It increases the angle of attack to maintain aerodynamic braking as the airplane decelerates below effective rudder control speed",
-        "It shifts the center of gravity forward to improve directional stability and enhance nose-wheel steering authority during the rollout",
-        "It increases lift on the wings to reduce the normal force on the main landing gear, preventing excessive tire wear during braking"
-      ],
-      "explanation": "According to AFH Chapter 9, as the airplane's momentum decreases during the rollout, back-elevator pressure is gradually relaxed to lower the nose-wheel onto the runway. This decreases the angle of attack and reduces lift on the wings, which prevents floating or skipping and allows the full weight of the airplane to rest on the wheels for better mechanical braking action. Aerodynamic braking is most effective while the nose-wheel is still held off and a positive AOA is maintained; settling the nose transitions the aircraft from aerodynamic braking to mechanical braking as the airplane slows.",
-      "reference": {
-        "page": "9-9",
-        "text": "After the main wheels make initial contact with the ground, back-elevator pressure is held to maintain a positive AOA for aerodynamic\nbraking and to hold the nose-wheel off the ground as the airplane decelerates. The pilot should be certain not to inadvertently have brake\npressure engaged as touchdown occurs. Early use of brakes can result in a sudden drop in the nose and a loss of aerodynamic braking. As\nthe airplane’s momentum decreases, back-elevator pressure is gradually relaxed to allow the nose-wheel to gently settle onto the runway.\nThis permits steering if the airplane has a steerable nose-wheel. At the same time, it decreases the AOA and reduces lift on the wings to\nprevent floating or skipping and allows the full weight of the airplane to rest on the wheels for better mechanical braking action. As the\nairplane slows, the mechanical braking becomes more effective.\n1016"
+        "page": "9-8",
+        "text": "The pitch attitude of the airplane in a full-flap approach is considerably lower than in a no-flap approach. To attain the proper landing attitude before touching down, the nose needs to travel through a greater pitch change when flaps are fully extended. Since the round out is usually started at approximately the same height above the ground regardless of the degree of flaps used, the pitch attitude should be increased at a faster rate when full flaps are used."
       }
     },
     {
       "section": "Go-Arounds (Rejected Landings)",
-      "difficulty": 3,
+      "difficulty": 2,
       "categories": [
         "written_exam",
         "checkride_oral"
       ],
-      "question": "When executing a go-around with insufficient airspeed, what action might a pilot need to take to ensure the airplane can climb safely?",
-      "correct_answer": "Lower the nose briefly to gain airspeed and avoid being on the backside of the power curve.",
+      "question": "During a go-around, why is it generally recommended to retract flaps (at least partially) before retracting the landing gear?",
+      "correct_answer": "Full flaps produce more drag than the gear on most airplanes, and the gear should remain down in case of an inadvertent touchdown",
       "distractors": [
-        "Pitch up immediately to take advantage of the newly applied full power.",
-        "Reduce power to the minimum required to maintain altitude while accelerating.",
-        "Maintain the landing pitch attitude until the airplane naturally accelerates to climb speed."
+        "Retracting flaps first prevents the airplane from ballooning due to increased lift",
+        "The landing gear cannot be retracted until the flaps are in the takeoff position on most airplanes",
+        "Retracting flaps first reduces the workload of trimming the airplane during the go-around"
       ],
-      "explanation": "According to the Airplane Flying Handbook, a pilot executing a go-around should resist any impulse to pitch-up for a climb if airspeed is insufficient, as an airplane cannot climb below minimum power required speed. In some circumstances, it may be desirable to lower the nose briefly to gain airspeed and avoid being on the backside of the power curve.",
-      "reference": {
-        "page": "9-11",
-        "text": "A pilot executing a go-around needs to accept the fact that an airplane cannot fly below stall speed, and it cannot climb below minimum\npower required speed. The pilot should resist any impulse to pitch-up for a climb if airspeed is insufficient. In some circumstances, it\nmay be desirable to lower the nose briefly to gain airspeed and not be on the backside of the power curve.\n1058"
-      }
-    },
-    {
-      "section": "Go-Arounds (Rejected Landings)",
-      "difficulty": 3,
-      "categories": [
-        "written_exam",
-        "checkride_oral"
-      ],
-      "question": "During a go-around, the sudden addition of power at a low-airspeed trim setting tends to raise the nose and cause left yaw. What is the pilot's first consideration during this high-workload phase?",
-      "correct_answer": "Maintaining airplane control by applying forward elevator and right rudder pressure.",
-      "distractors": [
-        "Rough trimming the airplane immediately to relieve the adverse control pressures.",
-        "Retracting the flaps to reduce drag before the airplane's nose can rise too high.",
-        "Reducing power slightly to mitigate the yaw and pitch changes until the airplane is trimmed."
-      ],
-      "explanation": "The Airplane Flying Handbook states that airplane control is the first consideration during the high-workload phase of a go-around. Because the sudden addition of power raises the nose and causes left yaw—which could lead to an unrecoverable stall at low altitudes—the pilot must first apply forward elevator and right rudder pressure. Configuration changes, such as rough trimming or retracting flaps, are secondary and should only be done after a safe pitch attitude and appropriate airspeed are established.",
-      "reference": {
-        "page": "9-11",
-        "text": "At the time a pilot decides to go around, a trim setting for low airspeed is in place. The sudden addition of power tends to raise the\nairplane’s nose and causes left yaw. Allowing the nose to rise too early could result in an unrecoverable stall when the go-around occurs\nat a low altitude. The pilot should anticipate the need for considerable forward elevator pressure to hold the nose level or in a safe\nclimb attitude. The pilot applies sufficient right rudder pressure to counteract torque and P-factor. Trim helps to relieve adverse control\npressures and assists in maintaining a proper pitch attitude. After attaining the appropriate airspeed and adjusting pitch attitude for a\nclimb, the pilot should “rough trim” the airplane to relieve any adverse control pressures. More precise trim adjustments can be made\nwhen flight conditions have stabilized. On airplanes that produce high control pressures when using maximum power on go-arounds, the\npilot should use caution when reaching for the flap handle. Airplane control is the first consideration during this high-workload phase. Configuration\n1055"
-      }
-    },
-    {
-      "section": "Ground Effect",
-      "difficulty": 3,
-      "categories": [
-        "written_exam",
-        "checkride_oral"
-      ],
-      "question": "A pilot executing a go-around close to the ground attempts to climb prematurely and finds the airplane cannot climb or even maintain altitude at full power. What explains this loss of performance?",
-      "correct_answer": "Ground effect had temporarily reduced induced drag, and climbing out of it restores the full induced drag that the airplane cannot overcome at its low airspeed.",
-      "distractors": [
-        "Ground effect creates a physical cushion of air beneath the wings, and leaving this cushion removes the physical support holding the airplane up.",
-        "The propeller cannot produce adequate thrust in ground effect because the disrupted airflow reduces propeller efficiency.",
-        "Ground effect temporarily increases engine power output, and leaving it causes a sudden drop in available power."
-      ],
-      "explanation": "According to the AFH Chapter 9, the apparent performance increase in ground effect is due to a reduction in induced drag, not a physical cushion of air. This is 'borrowed' performance that is repaid when the airplane climbs out of the ground effect area. If a pilot attempts to climb prematurely during a go-around close to the ground, the full induced drag returns and the airplane may not have enough power to climb or even maintain altitude at its low airspeed. The handbook explicitly states the 'cushion of air' is imaginary, and the performance increase comes solely from reduced induced drag.",
+      "explanation": "The chapter gives two reasons for retracting flaps before gear: first, full flaps produce more drag than the landing gear on most airplanes; second, in case the airplane inadvertently touches down during the go-around, it is desirable to have the landing gear down and locked.",
       "reference": {
         "page": "9-12",
-        "text": "Ground effect is a factor in every landing and every takeoff in fixed-wing airplanes. Ground effect can also be an important factor in go-\narounds. If the go-around is made close to the ground, the airplane may be in the ground effect area. Pilots are often lulled into a sense of\nfalse security by the apparent “cushion of air” under the wings that initially assists in the transition from an approach descent to a climb.\nThis “cushion of air,” however, is imaginary. The apparent increase in airplane performance is, in fact, due to a reduction in induced\ndrag in the ground effect area. It is “borrowed” performance that is repaid when the airplane climbs out of the ground effect area. The\npilot needs to factor in ground effect when initiating a go-around close to the ground. An attempt to climb prematurely may result in the\nairplane not being able to climb or even maintain altitude at full power. 1062"
+        "text": "it is generally recommended that the flaps be retracted (at least partially) before retracting the landing gear for two reasons. First, on most airplanes full flaps produce more drag than the landing gear; and second, in case the airplane inadvertently touches down as the go-around is initiated, it is desirable to have the landing gear in the down-and-locked position."
+      }
+    },
+    {
+      "section": "Go-Arounds (Rejected Landings)",
+      "difficulty": 3,
+      "categories": [
+        "checkride_oral",
+        "general_knowledge"
+      ],
+      "question": "If a go-around is initiated close to the ground, what effect does ground effect have on the maneuver?",
+      "correct_answer": "It temporarily reduces induced drag, creating a false sense of performance that is lost when climbing out of ground effect",
+      "distractors": [
+        "It increases induced drag, requiring more power to maintain altitude during the go-around",
+        "It provides a permanent boost in performance that helps the airplane climb more rapidly",
+        "It reduces lift, requiring the pilot to pitch up more aggressively to maintain altitude"
+      ],
+      "explanation": "The chapter explains that ground effect reduces induced drag, creating an apparent 'cushion of air' that gives borrowed performance. This performance is repaid when the airplane climbs out of ground effect. An attempt to climb prematurely may result in the airplane not being able to climb or even maintain altitude at full power.",
+      "reference": {
+        "page": "9-12",
+        "text": "The apparent increase in airplane performance is, in fact, due to a reduction in induced drag in the ground effect area. It is 'borrowed' performance that is repaid when the airplane climbs out of the ground effect area."
       }
     },
     {
       "section": "Intentional Slips",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "What is the primary difference between a forward slip and a sideslip?",
+      "correct_answer": "In a forward slip the airplane's nose is yawed away from the flightpath; in a sideslip the longitudinal axis remains parallel to the original flightpath",
+      "distractors": [
+        "A forward slip is used for crosswind landings; a sideslip is used to lose altitude",
+        "A forward slip requires full flaps; a sideslip is performed with flaps retracted",
+        "A forward slip increases airspeed; a sideslip decreases airspeed"
+      ],
+      "explanation": "The chapter describes a forward slip as one where the nose is yawed opposite to the flightpath while the airplane remains on its original ground track, used to dissipate altitude. A sideslip keeps the longitudinal axis parallel to the original flightpath with the airplane moving sideways toward the low wing, and is frequently used for crosswind landings.",
+      "reference": {
+        "page": "9-12",
+        "text": "In a forward slip, the airplane's direction of motion continues the same as before the slip was begun... the nose of the airplane will no longer point in the direction of flightpath. ... In a sideslip, the airplane's longitudinal axis remains parallel to the original flightpath, but the airplane no longer flies straight ahead."
+      }
+    },
+    {
+      "section": "Intentional Slips",
+      "difficulty": 3,
+      "categories": [
+        "checkride_oral",
+        "general_knowledge"
+      ],
+      "question": "What determines the practical slip limit in most light airplanes?",
+      "correct_answer": "The point where full rudder is required to prevent a turn despite ailerons being capable of further steepening the bank",
+      "distractors": [
+        "The point where the airspeed indicator reaches its maximum allowable speed in the slip",
+        "The point where the stall warning horn activates due to the high angle of attack",
+        "The point where the airplane begins to spin if the bank is increased further"
+      ],
+      "explanation": "The chapter states that the steepness of a slip is limited by rudder travel. The practical slip limit is reached when full rudder is required to maintain heading even though ailerons could steepen the bank further. Any additional bank would cause the airplane to turn. If more descent is needed, lowering the nose increases airspeed and rudder effectiveness, permitting a steeper slip.",
+      "reference": {
+        "page": "9-13",
+        "text": "In both sideslips and forward slips, the point may be reached where full rudder is required to maintain heading even though the ailerons are capable of further steepening the bank angle. This is the practical slip limit because any additional bank would cause the airplane to turn even though full opposite rudder is being applied."
+      }
+    },
+    {
+      "section": "Crosswind Approach and Landing",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "During the crosswind after-landing roll, as the airplane decelerates, how should aileron and rudder inputs be adjusted?",
+      "correct_answer": "More aileron into the wind is needed as the airplane slows, while rudder effectiveness decreases with speed",
+      "distractors": [
+        "Less aileron is needed as the airplane slows because the crosswind effect diminishes",
+        "Aileron should be neutralized and only rudder used for directional control below 30 knots",
+        "Aileron should be applied away from the wind to prevent the upwind wing from rising"
+      ],
+      "explanation": "The chapter explains that as the airplane slows, ailerons become less effective while the relative wind becomes more of a crosswind, exerting greater lifting force on the upwind wing. Therefore, more and more aileron must be applied into the wind. When the airplane is coming to a stop, the aileron control should be held fully toward the wind.",
+      "reference": {
+        "page": "9-18",
+        "text": "While the airplane is decelerating during the after-landing roll, more and more aileron is applied to keep the upwind wing from rising. Since the airplane is slowing down, there is less airflow around the ailerons and they become less effective. At the same time, the relative wind becomes more of a crosswind and exerts a greater lifting force on the upwind wing."
+      }
+    },
+    {
+      "section": "Maximum Safe Crosswind Velocities",
+      "difficulty": 2,
+      "categories": [
+        "written_exam"
+      ],
+      "question": "What is the FAA's demonstrated crosswind velocity for type certification of an airplane?",
+      "correct_answer": "A 90° crosswind up to a velocity equal to 0.2 VSO",
+      "distractors": [
+        "A 90° crosswind up to a velocity equal to 0.3 VSO",
+        "A 45° crosswind up to a velocity equal to 0.2 VSO",
+        "A 90° crosswind up to a velocity equal to the airplane's stall speed in clean configuration"
+      ],
+      "explanation": "The chapter states that before type certification, the FAA requires demonstration that the airplane is satisfactorily controllable in 90° crosswinds up to a velocity equal to 0.2 VSO—two-tenths of the stalling speed with power off in landing configuration. This demonstrated crosswind velocity is included on a placard in airplanes certificated after May 3, 1962.",
+      "reference": {
+        "page": "9-19",
+        "text": "it is flight tested to ensure it meets certain requirements. Among these is the demonstration of being satisfactorily controllable with no exceptional degree of skill or alertness on the part of the pilot in 90° crosswinds up to a velocity equal to 0.2 VSO."
+      }
+    },
+    {
+      "section": "Turbulent Air Approach and Landing",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "When landing in turbulent air with gusty crosswind conditions, why should the pilot use partial flaps rather than full flaps?",
+      "correct_answer": "With less than full flaps, the airplane is in a higher pitch attitude, requiring less pitch change to establish the landing attitude at a higher airspeed for more positive control",
+      "distractors": [
+        "Full flaps create excessive drag that could cause the airplane to stall in turbulent conditions",
+        "Partial flaps prevent the nose-down pitching moment that would worsen control in gusts",
+        "Full flaps reduce the stall margin too much for safe operation in turbulence"
+      ],
+      "explanation": "The chapter states that with less than full flaps, the airplane is in a higher pitch attitude, requiring less of a pitch change to establish the landing attitude. This allows touchdown at a higher airspeed, ensuring more positive control in turbulent, gusty conditions.",
+      "reference": {
+        "page": "9-20",
+        "text": "With less than full flaps, the airplane is in a higher pitch attitude. Thus, it requires less of a pitch change to establish the landing attitude and touchdown at a higher airspeed to ensure more positive control."
+      }
+    },
+    {
+      "section": "Short-Field Approach and Landing",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "After touchdown on a short-field landing, what technique provides maximum braking effectiveness?",
+      "correct_answer": "Hold full back pressure on the controls while smoothly applying brakes to the point just short of a skid",
+      "distractors": [
+        "Apply maximum brake pressure immediately upon touchdown to lock the wheels for shortest stopping distance",
+        "Relax back pressure to put full weight on the nose-wheel, then apply brakes firmly",
+        "Apply brakes in rapid pulses to prevent skidding and maximize friction"
+      ],
+      "explanation": "The chapter states that the pilot increases braking effectiveness by holding the wheel or stick full back while smoothly applying brakes. Back pressure is needed because the airplane tends to lean forward with heavy braking. Best braking results are achieved with the wheels in an 'incipient skid condition'—just short of locking up. If wheels lock, braking effectiveness drops dramatically.",
+      "reference": {
+        "page": "9-23",
+        "text": "The pilot increases braking effectiveness by holding the wheel or stick full back while smoothly applying brakes. Back pressure is needed because the airplane tends to lean forward with heavy braking. Best braking results are always achieved with the wheels in an 'incipient skid condition.'"
+      }
+    },
+    {
+      "section": "Soft-Field Approach and Landing",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "During a soft-field landing, what is the primary reason for using power throughout the level-off and touchdown?",
+      "correct_answer": "To allow the airspeed to slowly dissipate while the airplane is flown in ground effect, keeping the wings supporting the weight as long as practical",
+      "distractors": [
+        "To increase the approach speed so the airplane touches down before sinking into the soft surface",
+        "To provide additional elevator authority for the flare since the propeller airflow increases elevator effectiveness",
+        "To prevent the engine from cooling too rapidly during the descent on final approach"
+      ],
+      "explanation": "The chapter explains that a degree of power is used throughout the level-off and touchdown for soft-field landings. This allows the airspeed to slowly dissipate while the airplane is flown 1 to 2 feet off the surface in ground effect. When the wheels touch, the wings continue to support much of the weight, minimizing stresses on the landing gear and preventing sinking into the soft surface.",
+      "reference": {
+        "page": "9-23",
+        "text": "a degree of power is used throughout the level-off and touchdown for the soft-field landing. This allows the airspeed to slowly dissipate while the airplane is flown 1 to 2 feet off the surface in ground effect. When the wheels first touch the ground, the wings continue to support much of the weight of the airplane."
+      }
+    },
+    {
+      "section": "Power-Off Accuracy Approaches",
+      "difficulty": 3,
+      "categories": [
+        "checkride_oral",
+        "general_knowledge"
+      ],
+      "question": "On a power-off approach, if the airplane's airspeed is below best glide and the pilot raises the nose, what happens to the descent angle?",
+      "correct_answer": "The descent angle steepens greatly because airspeed decreases and lift is insufficient",
+      "distractors": [
+        "The descent angle shallows because the increased pitch attitude increases lift temporarily",
+        "The descent angle remains constant because pitch only affects airspeed, not glide angle",
+        "The descent angle steepens slightly but airspeed increases to compensate"
+      ],
+      "explanation": "The chapter explains that on a power-off approach with airspeed below best glide, pitching up reduces airspeed further and greatly steepens the descent angle. If airspeed is too low, the pilot should lower the nose. The pilot should never try to stretch a glide by raising the pitch attitude, as the airplane settles rapidly due to slow airspeed and insufficient lift.",
+      "reference": {
+        "page": "9-24",
+        "text": "if the airspeed is below best glide, then pitching down will increase the airspeed and shallow the descent angle, while pitching up will reduce the airspeed and will greatly steepen the descent angle."
+      }
+    },
+    {
+      "section": "Faulty Approaches and Landings",
+      "difficulty": 2,
+      "categories": [
+        "checkride_oral",
+        "general_knowledge"
+      ],
+      "question": "When a pilot recognizes the airplane is well below the proper final approach path, what should the pilot NOT do to correct the situation?",
+      "correct_answer": "Retract the flaps to reduce drag and extend the glide",
+      "distractors": [
+        "Apply power immediately to maintain airspeed while raising the pitch attitude",
+        "Execute an immediate go-around if there is doubt about completing the approach safely",
+        "Reestablish the correct approach attitude after intercepting the proper approach path"
+      ],
+      "explanation": "The chapter explicitly warns against retracting flaps to correct for a low final approach, as this causes a sudden decrease in lift and causes the airplane to sink more rapidly. The correct action is to apply power, raise the pitch attitude to stop the descent, and reestablish the approach path—or go around if in doubt.",
+      "reference": {
+        "page": "9-30",
+        "text": "the pilot should not retract the flaps since this causes a sudden decrease in lift and causes the airplane to sink more rapidly."
+      }
+    },
+    {
+      "section": "Hydroplaning",
       "difficulty": 3,
       "categories": [
         "written_exam",
         "checkride_oral"
       ],
-      "question": "A pilot is performing a forward slip to lose altitude on final approach with a crosswind from the right. Which wing should the pilot lower, and what is the primary reason for doing so?",
-      "correct_answer": "Lower the upwind (right) wing, because banking into the crosswind makes it easier to remain on the original flightpath.",
+      "question": "What is the formula for calculating the minimum dynamic hydroplaning speed (Vp) of a tire?",
+      "correct_answer": "8.6 times the square root of the tire pressure in PSI",
       "distractors": [
-        "Lower the downwind (left) wing, because banking away from the crosswind increases the sink rate more effectively.",
-        "Lower the downwind (left) wing, because banking away from the wind helps counteract drift and stay aligned with the runway.",
-        "Keep the wings level, because the crosswind is already being countered by the rudder input used to yaw the nose."
+        "9.0 times the square root of the tire pressure in PSI",
+        "8.6 times the tire pressure in PSI",
+        "The square root of 8.6 times the tire pressure in PSI"
       ],
-      "explanation": "According to AFH Chapter 9, when a crosswind is present during a forward slip, the pilot should lower the upwind wing so the airplane is banked into the crosswind. The handbook states that 'slipping into the wind makes it easier to remain on the original flightpath.' Lowering the downwind wing would bank the airplane away from the wind, making drift control more difficult. Keeping wings level ignores the need to bank into the wind to maintain the desired ground track.",
+      "explanation": "The chapter states that the minimum dynamic hydroplaning speed is 8.6 times the square root of the tire pressure in PSI. For example, an airplane with 24 PSI main tire pressure would have a calculated hydroplaning speed of approximately 42 knots. This is the speed for the start of dynamic hydroplaning; once started, it may persist to slower speeds.",
       "reference": {
-        "page": "9-13",
-        "text": "A forward slip is used to dissipate altitude and increase descent rate without increasing airspeed. In a forward slip, the airplane’s direction\nof motion continues the same as before the slip was begun. Assuming the airplane is originally in straight coordinated flight, the wing on\none side is lowered by use of the ailerons. Simultaneously, sufficient opposite rudder is used to yaw the airplane’s nose in the opposite\ndirection such that the airplane remains on its original flightpath. However, the nose of the airplane will no longer point in the direction\nof flightpath. [Figure 9-14] In a forward slip, the amount of slip, and therefore the sink rate, is determined by the bank angle. The steeper\nthe bank, the steeper the descent. In order to use the maneuver to lose altitude, power is normally reduced to idle. The pilot controls\nairspeed using elevator control. When a crosswind is present, the pilot should lower the upwind wing such that the airplane is banked\ninto the crosswind since slipping into the wind makes it easier to remain on the original flightpath.\n1047\n048"
-      }
-    },
-    {
-      "section": "Intentional Slips",
-      "difficulty": 3,
-      "categories": [
-        "written_exam",
-        "checkride_oral"
-      ],
-      "question": "A pilot is executing a forward slip to lose altitude on final approach with a crosswind from the right. Which configuration will make it easiest to remain on the original flightpath?",
-      "correct_answer": "Lower the upwind (right) wing, banking the airplane into the crosswind",
-      "distractors": [
-        "Lower the downwind (left) wing, banking the airplane away from the crosswind",
-        "Keep the wings level and use only rudder to yaw the nose into the wind",
-        "Lower the wing on whichever side provides the steeper descent angle needed",
-        "Bank in the direction that aligns the nose with the runway centerline"
-      ],
-      "explanation": "According to AFH Chapter 9, when a crosswind is present during a forward slip, the pilot should lower the upwind wing so that the airplane is banked into the crosswind. The handbook states that 'slipping into the wind makes it easier to remain on the original flightpath.' Since the crosswind is from the right, the right wing is the upwind wing and should be lowered. This technique combines the slip with the crosswind correction, making it easier for the pilot to track the intended flightpath.",
-      "reference": {
-        "page": "9-13",
-        "text": "A forward slip is used to dissipate altitude and increase descent rate without increasing airspeed. In a forward slip, the airplane’s direction\nof motion continues the same as before the slip was begun. Assuming the airplane is originally in straight coordinated flight, the wing on\none side is lowered by use of the ailerons. Simultaneously, sufficient opposite rudder is used to yaw the airplane’s nose in the opposite\ndirection such that the airplane remains on its original flightpath. However, the nose of the airplane will no longer point in the direction\nof flightpath. [Figure 9-14] In a forward slip, the amount of slip, and therefore the sink rate, is determined by the bank angle. The steeper\nthe bank, the steeper the descent. In order to use the maneuver to lose altitude, power is normally reduced to idle. The pilot controls\nairspeed using elevator control. When a crosswind is present, the pilot should lower the upwind wing such that the airplane is banked\ninto the crosswind since slipping into the wind makes it easier to remain on the original flightpath.\n1047\n048"
-      }
-    },
-    {
-      "section": "Intentional Slips",
-      "difficulty": 3,
-      "categories": [
-        "written_exam",
-        "checkride_oral"
-      ],
-      "question": "A pilot is performing a forward slip to lose altitude and inadvertently allows the airplane to stall. What characteristic behavior should the pilot expect compared to a stall entered from a skidding turn?",
-      "correct_answer": "Very little yawing tendency, with a tendency to roll toward a wings-level attitude",
-      "distractors": [
-        "A strong yawing tendency in the direction of the slip that could develop into a spin",
-        "A sudden pitch-down motion with no change in bank attitude",
-        "Rapid rolling in the direction of the lowered wing, similar to a skidding stall",
-        "The nose will snap abruptly to the center with a significant increase in airspeed"
-      ],
-      "explanation": "According to AFH Chapter 9, unlike a skidding stall—which displays a yawing tendency that can develop into a spin—an airplane in a slip that is made to stall displays very little yawing tendency and may do little more than tend to roll into a wings-level attitude. This is an important distinction between slips and skids: the slip is actually the safer of the two uncoordinated flight attitudes when it comes to stall-spin behavior. A skidding stall is dangerous because the yawing moment can progress into a spin entry, whereas the slipping stall tends to self-correct toward wings level.",
-      "reference": {
-        "page": "9-13",
-        "text": "Discontinuing a slip is accomplished by leveling the wings and simultaneously releasing the rudder pressure while readjusting the pitch\nattitude to the normal glide attitude. If the pressure on the rudder is released abruptly, the nose swings too quickly into line and the\nairplane tends to acquire excess speed. Because of the location of the pitot tube and static vents, airspeed indicators in some airplanes may\nhave considerable error when the airplane is in a slip. The pilot needs to be aware of this possibility and recognize a properly performed\nslip by the attitude of the airplane, the sound of the airflow, and the feel of the flight controls. Unlike skids, however, if an airplane in a\nslip is made to stall, it displays very little of the yawing tendency that causes a skidding stall to develop into a spin. The airplane in a slip\nmay do little more than tend to roll into a wings-level attitude.\n7807"
-      }
-    },
-    {
-      "section": "Intentional Slips",
-      "difficulty": 3,
-      "categories": [
-        "written_exam",
-        "checkride_oral"
-      ],
-      "question": "Why does a skidding stall tend to develop into a spin more readily than a stall encountered while in a slip?",
-      "correct_answer": "A skidding stall exhibits a strong yawing tendency, whereas a slipping stall displays very little yaw and tends to roll wings-level.",
-      "distractors": [
-        "A skidding stall introduces excess speed that overloads the rudder, whereas a slipping stall relies on ailerons to maintain roll.",
-        "A skidding stall causes an abrupt pitch change due to pitot-static errors, whereas a slip causes an airspeed indication error.",
-        "A skidding stall creates a rolling tendency toward the high wing, whereas a slipping stall creates a rolling tendency toward the low wing."
-      ],
-      "explanation": "According to the Airplane Flying Handbook, an airplane in a slip that is made to stall displays very little of the yawing tendency that causes a skidding stall to develop into a spin. Instead of spinning, an airplane in a slipping stall may do little more than tend to roll into a wings-level attitude.",
-      "reference": {
-        "page": "9-13",
-        "text": "Discontinuing a slip is accomplished by leveling the wings and simultaneously releasing the rudder pressure while readjusting the pitch\nattitude to the normal glide attitude. If the pressure on the rudder is released abruptly, the nose swings too quickly into line and the\nairplane tends to acquire excess speed. Because of the location of the pitot tube and static vents, airspeed indicators in some airplanes may\nhave considerable error when the airplane is in a slip. The pilot needs to be aware of this possibility and recognize a properly performed\nslip by the attitude of the airplane, the sound of the airflow, and the feel of the flight controls. Unlike skids, however, if an airplane in a\nslip is made to stall, it displays very little of the yawing tendency that causes a skidding stall to develop into a spin. The airplane in a slip\nmay do little more than tend to roll into a wings-level attitude.\n7807"
-      }
-    },
-    {
-      "section": "Intentional Slips",
-      "difficulty": 3,
-      "categories": [
-        "checkride_oral"
-      ],
-      "question": "During an actual engine-out emergency requiring a forward slip to reach a landing area, when would the airplane's slip duration or fuel limitations still be a relevant concern?",
-      "correct_answer": "If a prolonged slip may have caused the engine issue",
-      "distractors": [
-        "If the slip is performed with flaps extended",
-        "If the airplane is being operated with low fuel quantity",
-        "If the slip must be held for longer than the published time limit"
-      ],
-      "explanation": "According to AFH Chapter 9, slip time and fuel limitations exist to preclude fuel starvation caused when fuel is forced to one side of a tank in uncoordinated flight. However, in an actual engine-out emergency where a forward slip is being used to reach a landing area, these limitations are irrelevant—unless a prolonged slip caused the engine issue in the first place. Flap-related slip limitations are a separate aerodynamic concern and do not affect the relevance of time or fuel limitations during an engine-out slip.",
-      "reference": {
-        "page": "9-13",
-        "text": "Note that some airplanes have limitations regarding slips. In some cases slips are limited in duration or by fuel quantity. These limitations\nare meant to preclude fuel starvation caused when fuel is forced to one side of a tank in uncoordinated flight. If a forward slip is being\nused to reach a landing area in an actual engine-out emergency, the time limitation or fuel limitation is irrelevant (unless a prolonged slip\ncaused the engine issue). For aerodynamic reasons, there may also be recommendations or limitations related to slips with flaps extended.\nConsult the manufacturer's AFM/POH for specific airplane information. 9-13 112570"
-      }
-    },
-    {
-      "section": "Intentional Slips",
-      "difficulty": 3,
-      "categories": [
-        "written_exam",
-        "checkride_oral"
-      ],
-      "question": "During a forward slip to a landing, a pilot has applied full rudder deflection but notices the aircraft is drifting slightly off the intended ground track. How can the pilot make lateral corrections while maintaining the slip?",
-      "correct_answer": "By increasing or decreasing aileron deflection",
-      "distractors": [
-        "By partially releasing rudder pressure to steer back toward the centerline",
-        "By adjusting elevator pitch to modify the descent angle and drift",
-        "By briefly exiting the slip, re-establishing alignment, then re-entering the slip"
-      ],
-      "explanation": "According to AFH Chapter 9, even with full rudder displacement during a forward slip, the pilot can adjust left and right of the intended ground track by increasing and decreasing aileron deflection. This means the pilot does not need to reduce rudder input or exit the slip to make lateral corrections. Releasing rudder pressure would reduce the slip's effectiveness, elevator adjustments affect pitch and airspeed rather than ground track, and exiting the slip entirely is unnecessary when aileron inputs alone can refine the ground track.",
-      "reference": {
-        "page": "9-14",
-        "text": "Some pilots try to avoid using forward slips. An approach with flaps allows for coordinated and more familiar flight orientation, while\nthe sideways force on the occupants of the aircraft during a forward slip may seem uncomfortable. However, in a real emergency that\ninvolves engine failure, the ability to use a forward slip provides a pilot with a technique contributing to a better outcome. In that\nsituation, a pilot may initiate a descent using a forward slip much more quickly than by deploying flaps. To reduce the descent, the pilot\ncan remove the slip without penalty. On the other hand, retracting flaps on an approach could lead to an unwanted loss of altitude. Even\nwith full rudder displacement during a forward slip, the pilot can adjust to the left and right of the intended ground track by increasing\nand decreasing aileron deflection. The value of the maneuver explains its inclusion as a task in the Private Pilot Airman Certification\nStandards (ACS). 9-14 12571"
+        "page": "9-37",
+        "text": "Data obtained during hydroplaning tests have shown the minimum dynamic hydroplaning speed (Vp) of a tire to be 8.6 times the square root of the tire pressure in pounds per square inch (PSI)."
       }
     }
   ]

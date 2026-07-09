@@ -3,353 +3,363 @@
   "chapter": 11,
   "questions": [
     {
-      "section": "F      0° 10° 20° 30° 40° 50° 60° 70° 80° 90° 100°",
-      "difficulty": 3,
+      "section": "Importance of Performance Data",
+      "difficulty": 1,
       "categories": [
         "written_exam",
         "checkride_oral"
       ],
-      "question": "As altitude increases, both atmospheric pressure and temperature decrease, which have conflicting effects on air density. Why does density still decrease with altitude?",
-      "correct_answer": "The decrease in pressure as altitude increases has the dominant effect on density compared to the decrease in temperature.",
+      "question": "Why must a pilot understand the basis on which performance data in the AFM/POH is presented before using it for flight planning?",
+      "correct_answer": "Manufacturers' data is not standardized; it may be presented in tables or graphs and based on pressure altitude, density altitude, or standard atmospheric conditions",
       "distractors": [
-        "The decrease in temperature has the dominant effect, which lowers density because air contracts and holds less mass at colder temperatures.",
-        "Pressure and temperature decreases have equal and opposite effects, but humidity increases with altitude and drives density down.",
-        "The decrease in pressure and the decrease in temperature combine additively, both working to reduce density as altitude increases."
+        "The FAA requires all AFM/POH data to be presented in identical formats so pilots can use any aircraft's charts interchangeably",
+        "Performance data is always based on standard day conditions at sea level, so pilots only need to adjust for field elevation",
+        "Manufacturers provide data only for maximum gross weight, requiring the pilot to calculate all reductions manually"
       ],
-      "explanation": "According to the PHAK Chapter 11, density is directly proportional to pressure (at constant temperature) and inversely proportional to temperature (at constant pressure). As altitude increases, pressure decreases (reducing density) while temperature also decreases (which would increase density). These are conflicting effects. However, the handbook states that 'the fairly rapid drop in pressure as altitude is increased usually has the dominant effect,' so pilots can expect density to decrease with altitude. Distractor B is incorrect because it reverses the dominant relationship. Distractor C incorrectly introduces humidity as the deciding factor and misstates that the effects are equal. Distractor D is wrong because the two effects are opposing, not additive.",
+      "explanation": "The chapter states that manufacturers' information and data furnished in the AFM/POH is not standardized. Some provide data in tabular form, others use graphs, and the data may be presented on the basis of standard atmospheric conditions, pressure altitude, or density altitude. The pilot must recognize these variations and make necessary adjustments.",
       "reference": {
-        "page": "11-5",
-        "text": "contains a smaller mass of air. In other words, the density is       consideration. Expect a decrease in overall performance in\ndecreased. In fact, density is directly proportional to pressure.    high humidity conditions.\nIf the pressure is doubled, the density is doubled, and if the\npressure is lowered, so is the density. This statement is true       Performance\nonly at a constant temperature.                                      Performance is a term used to describe the ability of an\n                                                                     aircraft to accomplish certain things that make it useful for\nEffects of Temperature on Density                                    certain purposes. For example, the ability of an aircraft to land\nIncreasing the temperature of a substance decreases its              and take off in a very short distance is an important factor\ndensity. Conversely, decreasing the temperature increases            to the pilot who operates in and out of short, unimproved\nthe density. Thus, the density of air varies inversely with          airfields. The ability to carry heavy loads, fly at high altitudes\ntemperature. This statement is true only at a constant pressure.     at fast speeds, and/or travel long distances is essential for the\n                                                                     performance of airline and executive type aircraft.\nIn the atmosphere, both temperature and pressure decrease\nwith altitude and have conflicting effects upon density.             The primary factors most affected by performance are the\nHowever, the fairly rapid drop in pressure as altitude is            takeoff and landing distance, rate of climb, ceiling, payload,\nincreased usually has the dominant effect. Hence, pilots can         range, speed, maneuverability, stability, and fuel economy.\nexpect the density to decrease with altitude.                        Some of these factors are often directly opposed: for example,\n                                                                     high speed versus short landing distance, long range versus\nEffects of Humidity (Moisture) on Density                            great payload, and high rate of climb versus fuel economy.\nThe preceding paragraphs are based on the presupposition of          It is the preeminence of one or more of these factors that\nperfectly dry air. In reality, it is never completely dry. The       dictates differences between aircraft and explains the high\nsmall amount of water vapor suspended in the atmosphere              degree of specialization found in modern aircraft.\nmay be negligible under certain conditions, but in other\nconditions humidity may become an important factor in the            The various items of aircraft performance result from the\nperformance of an aircraft. Water vapor is lighter than air;         combination of aircraft and powerplant characteristics. The\nconsequently, moist air is lighter than dry air. Therefore, as the   aerodynamic characteristics of the aircraft generally define\nwater content of the air increases, the air becomes less dense,      the power and thrust requirements at various conditions of\nincreasing density altitude and decreasing performance."
+        "page": "11-2",
+        "text": "It must be emphasized that the manufacturers' information and data furnished in the AFM/POH is not standardized. Some provide the data in tabular form, while others use graphs. In addition, the performance data may be presented on the basis of standard atmospheric conditions, pressure altitude, or density altitude."
       }
     },
     {
-      "section": "F      0° 10° 20° 30° 40° 50° 60° 70° 80° 90° 100°",
-      "difficulty": 3,
-      "categories": [
-        "written_exam"
-      ],
-      "question": "An aircraft is in steady, level flight at 100 knots. If the aircraft accelerates to 200 knots, how does the power required to overcome parasite drag change, and why does this differ from the change in parasite drag itself?",
-      "correct_answer": "Power required increases eightfold because drag increases with the square of speed, and power is drag multiplied by speed",
-      "distractors": [
-        "Power required increases fourfold, matching the parasite drag increase since power and drag scale identically with speed",
-        "Power required increases twofold because power required is directly proportional to airspeed",
-        "Power required increases sixteenfold because both drag and power each scale with the square of speed"
-      ],
-      "explanation": "According to PHAK Chapter 11, when an aircraft in steady flight is accelerated from 100 knots to 200 knots, the parasite drag becomes four times as great (proportional to velocity squared), but the power required to overcome that drag is eight times the original value. This is because power equals drag multiplied by velocity—so doubling speed quadruples drag and then doubling the velocity on top of that results in an eightfold increase in power required. The common error of selecting 'fourfold' confuses drag with power required.",
-      "reference": {
-        "page": "11-5",
-        "text": "Thus, the aircraft\nessential factor in calculating density altitude and aircraft        drag defines the thrust required to maintain steady, level\nperformance; however, it does contribute.                            flight. As presented in Chapter 4, Aerodynamics of Flight,\n                                                                     all parts of an aircraft contribute to the drag, either induced\nThe higher the temperature, the greater amount of water              (from lifting surfaces) or parasite drag.\nvapor that the air can hold. When comparing two separate air\nmasses, the first warm and moist (both qualities making air          While parasite drag predominates at high speed, induced drag\nlighter) and the second cold and dry (both qualities making          predominates at low speed. [Figure 11-5] For example, if\nit heavier), the first must be less dense than the second.           an aircraft in a steady flight condition at 100 knots is then\nPressure, temperature, and humidity have a great influence           accelerated to 200 knots, the parasite drag becomes four\non aircraft performance because of their effect upon density.        times as great, but the power required to overcome that\nThere is no rule-of-thumb or chart used to compute the effects       drag is eight times the original value. Conversely, when the\nof humidity on density altitude, but it must be taken into 11-5"
-      }
-    },
-    {
-      "section": "Climb Performance",
-      "difficulty": 3,
-      "categories": [
-        "written_exam",
-        "checkride_oral"
-      ],
-      "question": "In a situation where an aircraft must clear an obstacle shortly after takeoff, how do maximum Rate of Climb (ROC) and maximum Angle of Climb (AOC) compare in terms of obstacle clearance?",
-      "correct_answer": "Maximum AOC may be sufficient to clear the obstacle because it maximizes altitude gained relative to distance traveled, whereas maximum ROC may not be sufficient.",
-      "distractors": [
-        "Maximum ROC may be sufficient to clear the obstacle because it maximizes altitude gained relative to distance traveled, whereas maximum AOC may not be sufficient.",
-        "Maximum AOC may be sufficient to clear the obstacle because it maximizes altitude gained over time, whereas maximum ROC only maximizes airspeed.",
-        "Both maximum ROC and maximum AOC provide the same inclination of the flight path, but maximum AOC achieves it at a slower airspeed."
-      ],
-      "explanation": "According to the PHAK, maximum ROC may not be sufficient to avoid obstacles in some situations, while maximum AOC may be sufficient to avoid the same obstacles. This is because AOC is a comparison of altitude gained relative to distance traveled (the inclination of the flight path), making it the critical metric for clearing an obstacle over a specific distance. ROC, by contrast, is a measure of altitude gained over time.",
-      "reference": {
-        "page": "11-7",
-        "text": "Maximum ROC may not be sufficient to avoid obstacles                  (AOA) combination which allows the maximum excess\nin some situations, while maximum AOC may be sufficient                     thrust. The airspeed and AOA combination where excess\nto avoid the same obstacles. [Figure 11-7]                                  thrust exists varies amongst aircraft types. As an example,\n                                                                            Figure 11-8 provides a comparison between jet and propeller\nAngle of Climb (AOC)                                                        airplanes as to where maximum excess thrust (for maximum\nAOC is a comparison of altitude gained relative to distance                 AOC) occurs. In a jet, maximum excess thrust normally\ntraveled. AOC is the inclination (angle) of the flight path. For            occurs at the airspeed where the thrust required is at a\nmaximum AOC performance, a pilot flies the aircraft at VX                   minimum (approximately L/DMAX). In a propeller airplane,\n                                                                            maximum excess thrust normally occurs at an airspeed below\n                                                                            L/DMAX and frequently just above stall speed."
-      }
-    },
-    {
-      "section": "ratio                                 L/D MAX                                               L/D MAX",
-      "difficulty": 3,
-      "categories": [
-        "written_exam"
-      ],
-      "question": "A pilot of a typical jet airplane is planning to achieve the maximum rate of climb (ROC). How does the airspeed and angle of attack (AOA) for maximum ROC compare to the L/DMAX airspeed and AOA?",
-      "correct_answer": "Maximum ROC occurs at an airspeed greater than L/DMAX and an AOA less than L/DMAX AOA",
-      "distractors": [
-        "Maximum ROC occurs at an airspeed less than L/DMAX and an AOA greater than L/DMAX AOA",
-        "Maximum ROC occurs at the same airspeed and AOA as L/DMAX",
-        "Maximum ROC occurs at an airspeed greater than L/DMAX and an AOA greater than L/DMAX AOA"
-      ],
-      "explanation": "According to PHAK Chapter 11, maximum ROC depends upon excess power. For a typical jet airplane, the airspeed and AOA combination that produces maximum excess power occurs at an airspeed greater than L/DMAX and at an AOA less than L/DMAX AOA. This is because a jet's power available increases with airspeed, so more excess power is available at higher speeds. In contrast, the text notes that for a typical propeller airplane, maximum ROC occurs at an airspeed and AOA combination closer to L/DMAX, highlighting a key performance difference between jet and propeller aircraft.",
-      "reference": {
-        "page": "11-8",
-        "text": "to 1,500 feet in 30 seconds but covers 6,000 feet across the         to minimize the weight, since it has such a marked effect on\nground. Note that both ROC and AOC maximum climb                     the factors pertaining to performance.\nprofiles use the aircraft’s maximum throttle setting. Any\ndifferences between max ROC and max AOC lie primarily                A change in an aircraft’s weight produces a twofold effect\nin the velocity (airspeed) and AOA combination the aircraft          on climb performance. First, a change in weight changes the\nmanual specifies. [Figure 11-7]                                      drag and the power required. This alters the reserve power\n                                                                     available, which in turn, affects both the climb angle and\nROC performance depends upon excess power. Since                     the climb rate. Secondly, an increase in weight reduces the\nclimbing is work and power is the rate of performing work,           maximum ROC, but the aircraft must be operated at a higher\na pilot can increase the climb rate by using any power not           climb speed to achieve the smaller peak climb rate.\nused to maintain level flight. Maximum ROC occurs at an\nairspeed and AOA combination that produces the maximum               An increase in altitude also increases the power required\nexcess power. Therefore, maximum ROC for a typical jet               and decreases the power available. Therefore, the climb\nairplane occurs at an airspeed greater than L/DMAX and at an         performance of an aircraft diminishes with altitude. The\nAOA less than L/DMAX AOA. In contrast, maximum ROC for               speeds for maximum ROC, maximum AOC, and maximum\na typical propeller airplane occurs at an airspeed and AOA           and minimum level flight airspeeds vary with altitude. As\ncombination closer to L/DMAX. [Figure 11-9]                          altitude is increased, these various speeds finally converge\n                                                                     at the absolute ceiling of the aircraft. At the absolute ceiling,\nClimb Performance Factors                                            there is no excess of power and only one speed allows steady,\nSince weight, altitude and configuration changes affect              level flight."
-      }
-    },
-    {
-      "section": "ratio                                 L/D MAX                                               L/D MAX",
-      "difficulty": 3,
-      "categories": [
-        "written_exam"
-      ],
-      "question": "A pilot transitioning from a jet to a typical propeller-driven airplane notices that to achieve maximum rate of climb, the propeller airplane must be flown at a significantly different airspeed and AOA than the jet. Compared to the jet's max ROC profile, how does the propeller airplane's max ROC airspeed and AOA relate to L/D MAX, and what is the reason?",
-      "correct_answer": "The propeller airplane's max ROC occurs at an airspeed and AOA closer to L/D MAX because the power available curve shape results in maximum excess power near that combination",
-      "distractors": [
-        "The propeller airplane's max ROC occurs at an airspeed greater than L/D MAX and an AOA less than L/D MAX AOA, identical to a jet, because excess thrust is maximized there",
-        "The propeller airplane's max ROC occurs at an airspeed well below L/D MAX and an AOA above L/D MAX AOA, because lower airspeed directs more power into vertical climb",
-        "The propeller airplane's max ROC occurs at the same airspeed and AOA as maximum angle of climb, since both use maximum throttle and propellers produce constant thrust"
-      ],
-      "explanation": "According to PHAK Chapter 11, maximum ROC for a typical jet airplane occurs at an airspeed greater than L/D MAX and at an AOA less than L/D MAX AOA. In contrast, maximum ROC for a typical propeller airplane occurs at an airspeed and AOA combination closer to L/D MAX. This difference arises because ROC depends on excess power, and the shape of the power-available curve for propeller airplanes (versus jet airplanes) results in maximum excess power occurring nearer the L/D MAX airspeed and AOA. The jet's relatively flat power-available curve with airspeed shifts its best ROC to a higher speed, while the propeller's power-available decreases with airspeed, pulling best ROC closer to L/D MAX.",
-      "reference": {
-        "page": "11-8",
-        "text": "to 1,500 feet in 30 seconds but covers 6,000 feet across the         to minimize the weight, since it has such a marked effect on\nground. Note that both ROC and AOC maximum climb                     the factors pertaining to performance.\nprofiles use the aircraft’s maximum throttle setting. Any\ndifferences between max ROC and max AOC lie primarily                A change in an aircraft’s weight produces a twofold effect\nin the velocity (airspeed) and AOA combination the aircraft          on climb performance. First, a change in weight changes the\nmanual specifies. [Figure 11-7]                                      drag and the power required. This alters the reserve power\n                                                                     available, which in turn, affects both the climb angle and\nROC performance depends upon excess power. Since                     the climb rate. Secondly, an increase in weight reduces the\nclimbing is work and power is the rate of performing work,           maximum ROC, but the aircraft must be operated at a higher\na pilot can increase the climb rate by using any power not           climb speed to achieve the smaller peak climb rate.\nused to maintain level flight. Maximum ROC occurs at an\nairspeed and AOA combination that produces the maximum               An increase in altitude also increases the power required\nexcess power. Therefore, maximum ROC for a typical jet               and decreases the power available. Therefore, the climb\nairplane occurs at an airspeed greater than L/DMAX and at an         performance of an aircraft diminishes with altitude. The\nAOA less than L/DMAX AOA. In contrast, maximum ROC for               speeds for maximum ROC, maximum AOC, and maximum\na typical propeller airplane occurs at an airspeed and AOA           and minimum level flight airspeeds vary with altitude. As\ncombination closer to L/DMAX. [Figure 11-9]                          altitude is increased, these various speeds finally converge\n                                                                     at the absolute ceiling of the aircraft. At the absolute ceiling,\nClimb Performance Factors                                            there is no excess of power and only one speed allows steady,\nSince weight, altitude and configuration changes affect              level flight."
-      }
-    },
-    {
-      "section": "ratio                                 L/D MAX                                               L/D MAX",
-      "difficulty": 3,
-      "categories": [
-        "written_exam"
-      ],
-      "question": "As an aircraft climbs to higher altitudes, what happens to the speeds for maximum ROC, maximum AOC, and maximum and minimum level flight airspeeds?",
-      "correct_answer": "They converge at the absolute ceiling, where there is no excess power and only one speed allows steady, level flight.",
-      "distractors": [
-        "They converge at the service ceiling, where the aircraft can still maintain a 100 fpm rate of climb at a single airspeed.",
-        "They diverge further apart as altitude increases, requiring a wider range of airspeeds to maintain each performance parameter.",
-        "They converge at L/DMAX, which remains at a constant indicated airspeed regardless of altitude."
-      ],
-      "explanation": "According to PHAK Chapter 11, as altitude increases, power required increases while power available decreases, diminishing climb performance. The speeds for maximum ROC, maximum AOC, and maximum and minimum level flight airspeeds all vary with altitude and ultimately converge at the aircraft's absolute ceiling. At this point, there is no excess power available, and only one speed permits steady, level flight. The service ceiling (distractor 1) is a lower altitude where 100 fpm climb is still possible, meaning excess power still exists and the speeds have not yet converged. The speeds do not diverge (distractor 2), nor does the text identify L/DMAX as the specific convergence point (distractor 3).",
-      "reference": {
-        "page": "11-8",
-        "text": "to 1,500 feet in 30 seconds but covers 6,000 feet across the         to minimize the weight, since it has such a marked effect on\nground. Note that both ROC and AOC maximum climb                     the factors pertaining to performance.\nprofiles use the aircraft’s maximum throttle setting. Any\ndifferences between max ROC and max AOC lie primarily                A change in an aircraft’s weight produces a twofold effect\nin the velocity (airspeed) and AOA combination the aircraft          on climb performance. First, a change in weight changes the\nmanual specifies. [Figure 11-7]                                      drag and the power required. This alters the reserve power\n                                                                     available, which in turn, affects both the climb angle and\nROC performance depends upon excess power. Since                     the climb rate. Secondly, an increase in weight reduces the\nclimbing is work and power is the rate of performing work,           maximum ROC, but the aircraft must be operated at a higher\na pilot can increase the climb rate by using any power not           climb speed to achieve the smaller peak climb rate.\nused to maintain level flight. Maximum ROC occurs at an\nairspeed and AOA combination that produces the maximum               An increase in altitude also increases the power required\nexcess power. Therefore, maximum ROC for a typical jet               and decreases the power available. Therefore, the climb\nairplane occurs at an airspeed greater than L/DMAX and at an         performance of an aircraft diminishes with altitude. The\nAOA less than L/DMAX AOA. In contrast, maximum ROC for               speeds for maximum ROC, maximum AOC, and maximum\na typical propeller airplane occurs at an airspeed and AOA           and minimum level flight airspeeds vary with altitude. As\ncombination closer to L/DMAX. [Figure 11-9]                          altitude is increased, these various speeds finally converge\n                                                                     at the absolute ceiling of the aircraft. At the absolute ceiling,\nClimb Performance Factors                                            there is no excess of power and only one speed allows steady,\nSince weight, altitude and configuration changes affect              level flight."
-      }
-    },
-    {
-      "section": "ratio                                 L/D MAX                                               L/D MAX",
-      "difficulty": 3,
-      "categories": [
-        "written_exam",
-        "checkride_oral"
-      ],
-      "question": "According to the PHAK, conditions such as increased weight, increased altitude, lowered landing gear, and lowered flaps all decrease both maximum angle of climb and maximum rate of climb. What is the common underlying reason for this performance decrease across all these conditions?",
-      "correct_answer": "These conditions all decrease the excess thrust and excess power available for all aircraft",
-      "distractors": [
-        "These conditions all increase parasite drag, which reduces rate of climb but not angle of climb",
-        "These conditions all reduce engine thrust output directly, limiting the aircraft's ability to produce thrust",
-        "These conditions all increase stall speed, requiring a higher climb airspeed that degrades climb performance"
-      ],
-      "explanation": "The PHAK states that climb performance is directly dependent upon the ability to produce either excess thrust or excess power. An increase in weight, an increase in altitude, lowering the landing gear, or lowering the flaps all decrease both excess thrust and excess power for all aircraft. Therefore, maximum AOC and maximum ROC performance decrease under any of these conditions. Distractor 1 is incorrect because not all listed conditions increase parasite drag (e.g., increased altitude does not), and both AOC and ROC are affected, not just one. Distractor 2 is incorrect because these conditions do not all reduce engine output directly—rather, they reduce the excess thrust and power available through various aerodynamic and environmental means. Distractor 3 is incorrect because the handbook attributes the performance decrease to reduced excess thrust and power, not to increased stall speeds.",
-      "reference": {
-        "page": "11-8",
-        "text": "Consequently, the absolute ceiling of an aircraft\nexcess thrust and power, they also affect climb performance.         produces zero ROC. The service ceiling is the altitude at\nClimb performance is directly dependent upon the ability to          which the aircraft is unable to climb at a rate greater than 100\nproduce either excess thrust or excess power. Earlier in the         feet per minute (fpm). Usually, these specific performance\nbook it was shown that an increase in weight, an increase in         reference points are provided for the aircraft at a specific\naltitude, lowering the landing gear, or lowering the flaps all       design configuration. [Figure 11-10]\ndecrease both excess thrust and excess power for all aircraft.\nTherefore, maximum AOC and maximum ROC performance                   The terms “power loading,” “wing loading,” “blade loading,”\ndecreases under any of these conditions.                             and “disk loading” are commonly used in reference to\n                                                                     performance."
-      }
-    },
-    {
-      "section": "Lo B",
-      "difficulty": 3,
-      "categories": [
-        "written_exam"
-      ],
-      "question": "At altitude, a propeller-driven aircraft has the same drag as at sea level, yet requires proportionately greater power for optimum range. What explains this relationship?",
-      "correct_answer": "Power required is a function of drag times velocity, so the higher TAS at altitude increases power required even though drag is unchanged.",
-      "distractors": [
-        "The lower air density at altitude increases total drag on the airframe, requiring more power to overcome it.",
-        "The propeller becomes less efficient in thin air, so more engine power is needed to produce the same thrust.",
-        "The aircraft must fly at a higher angle of attack at altitude, which increases induced drag and thus power required."
-      ],
-      "explanation": "According to PHAK Chapter 11, the drag of a propeller-driven aircraft at altitude is the same as the drag at sea level. However, power required is the product of drag and velocity (TAS). Since TAS is higher at altitude for the same equivalent airspeed, the power required increases proportionally. The distractors are incorrect because they attribute the increased power requirement to changes in drag or propeller efficiency, when in fact drag is unchanged and the increase comes solely from the higher velocity component of the power equation.",
-      "reference": {
-        "page": "11-11",
-        "text": "The variations of speed and power required must be                   specific fuel consumption for values of brake horsepower\nmonitored by the pilot as part of the cruise control procedure       below the maximum cruise power rating of the engine that\nto maintain the L/DMAX. When the aircraft’s fuel weight is a         is the lean range of engine operation. Thus, an increase in\nsmall part of the gross weight and the aircraft’s range is small,    altitude produces a decrease in specific range only when the\nthe cruise control procedure can be simplified to essentially        increased power requirement exceeds the maximum cruise\nmaintaining a constant speed and power setting throughout            power rating of the engine. One advantage of supercharging\nthe time of cruise flight. However, a long-range aircraft has a      is that the cruise power may be maintained at high altitude,\nfuel weight that is a considerable part of the gross weight, and     and the aircraft may achieve the range at high altitude with\ncruise control procedures must employ scheduled airspeed             the corresponding increase in TAS. The principal differences\nand power changes to maintain optimum range conditions.              in the high altitude cruise and low altitude cruise are the TAS\n                                                                     and climb fuel requirements.\nThe effect of altitude on the range of a propeller-driven\naircraft is illustrated in Figure 11-13. A flight conducted at       Region of Reversed Command\nhigh altitude has a greater true airspeed (TAS), and the power       The aerodynamic properties of an aircraft generally determine\nrequired is proportionately greater than when conducted at           the power requirements at various conditions of flight, while\nsea level. The drag of the aircraft at altitude is the same as the   the powerplant capabilities generally determine the power\ndrag at sea level, but the higher TAS causes a proportionately       available at various conditions of flight. When an aircraft\ngreater power required.                                              is in steady, level flight, a condition of equilibrium must\n                                                                     prevail. An unaccelerated condition of flight is achieved\nNOTE: The straight line that is tangent to the sea level power       when lift equals weight, and the powerplant is set for thrust\ncurve is also tangent to the altitude power curve."
-      }
-    },
-    {
-      "section": "Lo B",
-      "difficulty": 3,
-      "categories": [
-        "written_exam"
-      ],
-      "question": "For a propeller-driven aircraft, under what specific condition does an increase in altitude produce a decrease in specific range?",
-      "correct_answer": "When the increased power requirement exceeds the maximum cruise power rating of the engine",
-      "distractors": [
-        "Any time altitude increases, because the higher TAS always causes a proportionately greater power required",
-        "When the aircraft's fuel weight becomes a considerable part of the gross weight during cruise",
-        "When the aircraft is operated at an airspeed above that which corresponds to L/DMAX"
-      ],
-      "explanation": "According to PHAK Chapter 11, an increase in altitude produces a decrease in specific range only when the increased power requirement exceeds the maximum cruise power rating of the engine. While it is true that higher altitude results in a greater TAS and proportionately greater power required, specific range does not decrease unless that power requirement pushes beyond what the engine can deliver at its maximum cruise rating. This is why supercharging is advantageous—it allows cruise power to be maintained at high altitude, preserving range while gaining the benefit of higher TAS.",
-      "reference": {
-        "page": "11-11",
-        "text": "The variations of speed and power required must be                   specific fuel consumption for values of brake horsepower\nmonitored by the pilot as part of the cruise control procedure       below the maximum cruise power rating of the engine that\nto maintain the L/DMAX. When the aircraft’s fuel weight is a         is the lean range of engine operation. Thus, an increase in\nsmall part of the gross weight and the aircraft’s range is small,    altitude produces a decrease in specific range only when the\nthe cruise control procedure can be simplified to essentially        increased power requirement exceeds the maximum cruise\nmaintaining a constant speed and power setting throughout            power rating of the engine. One advantage of supercharging\nthe time of cruise flight. However, a long-range aircraft has a      is that the cruise power may be maintained at high altitude,\nfuel weight that is a considerable part of the gross weight, and     and the aircraft may achieve the range at high altitude with\ncruise control procedures must employ scheduled airspeed             the corresponding increase in TAS. The principal differences\nand power changes to maintain optimum range conditions.              in the high altitude cruise and low altitude cruise are the TAS\n                                                                     and climb fuel requirements.\nThe effect of altitude on the range of a propeller-driven\naircraft is illustrated in Figure 11-13. A flight conducted at       Region of Reversed Command\nhigh altitude has a greater true airspeed (TAS), and the power       The aerodynamic properties of an aircraft generally determine\nrequired is proportionately greater than when conducted at           the power requirements at various conditions of flight, while\nsea level. The drag of the aircraft at altitude is the same as the   the powerplant capabilities generally determine the power\ndrag at sea level, but the higher TAS causes a proportionately       available at various conditions of flight. When an aircraft\ngreater power required.                                              is in steady, level flight, a condition of equilibrium must\n                                                                     prevail. An unaccelerated condition of flight is achieved\nNOTE: The straight line that is tangent to the sea level power       when lift equals weight, and the powerplant is set for thrust\ncurve is also tangent to the altitude power curve."
-      }
-    },
-    {
-      "section": "Lo B",
-      "difficulty": 3,
-      "categories": [
-        "written_exam"
-      ],
-      "question": "The Pilot's Handbook of Aeronautical Knowledge notes that the straight line tangent to the sea level power curve is also tangent to the altitude power curve. What does this geometric relationship indicate about the aircraft's performance?",
-      "correct_answer": "The aircraft experiences the same drag at altitude as it does at sea level.",
-      "distractors": [
-        "The aircraft requires less power to maintain altitude at higher elevations.",
-        "The total drag on the aircraft increases proportionally with true airspeed.",
-        "The induced drag decreases, requiring a shallower tangent line."
-      ],
-      "explanation": "The PHAK states that the drag of the aircraft at altitude is the same as the drag at sea level, but the higher TAS causes a proportionately greater power required. Because the slope of the line from the origin to the power curve represents drag, the fact that the same straight line is tangent to both curves visually demonstrates that the aircraft's drag remains constant even as altitude changes.",
-      "reference": {
-        "page": "11-11",
-        "text": "The variations of speed and power required must be                   specific fuel consumption for values of brake horsepower\nmonitored by the pilot as part of the cruise control procedure       below the maximum cruise power rating of the engine that\nto maintain the L/DMAX. When the aircraft’s fuel weight is a         is the lean range of engine operation. Thus, an increase in\nsmall part of the gross weight and the aircraft’s range is small,    altitude produces a decrease in specific range only when the\nthe cruise control procedure can be simplified to essentially        increased power requirement exceeds the maximum cruise\nmaintaining a constant speed and power setting throughout            power rating of the engine. One advantage of supercharging\nthe time of cruise flight. However, a long-range aircraft has a      is that the cruise power may be maintained at high altitude,\nfuel weight that is a considerable part of the gross weight, and     and the aircraft may achieve the range at high altitude with\ncruise control procedures must employ scheduled airspeed             the corresponding increase in TAS. The principal differences\nand power changes to maintain optimum range conditions.              in the high altitude cruise and low altitude cruise are the TAS\n                                                                     and climb fuel requirements.\nThe effect of altitude on the range of a propeller-driven\naircraft is illustrated in Figure 11-13. A flight conducted at       Region of Reversed Command\nhigh altitude has a greater true airspeed (TAS), and the power       The aerodynamic properties of an aircraft generally determine\nrequired is proportionately greater than when conducted at           the power requirements at various conditions of flight, while\nsea level. The drag of the aircraft at altitude is the same as the   the powerplant capabilities generally determine the power\ndrag at sea level, but the higher TAS causes a proportionately       available at various conditions of flight. When an aircraft\ngreater power required.                                              is in steady, level flight, a condition of equilibrium must\n                                                                     prevail. An unaccelerated condition of flight is achieved\nNOTE: The straight line that is tangent to the sea level power       when lift equals weight, and the powerplant is set for thrust\ncurve is also tangent to the altitude power curve."
-      }
-    },
-    {
-      "section": "Lo B",
-      "difficulty": 3,
-      "categories": [
-        "written_exam"
-      ],
-      "question": "Which statement accurately describes the relationship between power and airspeed when an aircraft is flying in the region of reversed command?",
-      "correct_answer": "A lower airspeed requires a higher power setting to maintain altitude, but a decrease in power does not necessarily produce a lower airspeed.",
-      "distractors": [
-        "A lower airspeed requires a lower power setting to maintain altitude, and a decrease in power inherently produces a lower airspeed.",
-        "A higher airspeed requires a higher power setting to maintain altitude, and a decrease in power inherently produces a higher airspeed.",
-        "A lower airspeed requires a higher power setting to maintain altitude, and a decrease in power inherently produces a lower airspeed."
-      ],
-      "explanation": "According to the PHAK, flight in the region of reversed command means a higher airspeed requires a lower power setting and a lower airspeed requires a higher power setting to hold altitude. The handbook explicitly states that this relationship 'does not imply that a decrease in power produces lower airspeed.' Distractor 3 is plausible but incorrect because it falsely applies the 'normal command' expectation to the 'reversed command' region.",
-      "reference": {
-        "page": "11-11",
-        "text": "The majority of aircraft flying (climb, cruise, and\nnegligible, any variation of specific range with altitude is         maneuvers) is conducted in the region of normal command.\nstrictly a function of engine/propeller performance.\n                                                                     Flight in the region of reversed command means flight in\nAn aircraft equipped with a reciprocating engine experiences         which a higher airspeed requires a lower power setting\nvery little, if any, variation of specific range up to its           and a lower airspeed requires a higher power setting to\nabsolute altitude. There is negligible variation of brake            hold altitude. It does not imply that a decrease in power\n                                                                     produces lower airspeed. The region of reversed command is\n                                                                     encountered in the low speed phases of flight. Flight speeds\n                                                                     below the speed for maximum endurance (lowest point\n                                                              e"
-      }
-    },
-    {
-      "section": "L/DMAX",
-      "difficulty": 3,
-      "categories": [
-        "written_exam",
-        "checkride_oral"
-      ],
-      "question": "While performing a short-field landing approach, an airplane is operating in the region of reversed command and develops an unacceptably high sink rate. If the pilot chooses to lower the nose to regain flying speed without the use of power, what will be the likely result?",
-      "correct_answer": "A rapid sink rate and corresponding loss of altitude",
-      "distractors": [
-        "A reduction in sink rate and stabilized descent due to increased airflow over the wings",
-        "An immediate stall caused by the sudden decrease in angle of attack",
-        "The airplane will exit the region of reversed command and maintain altitude"
-      ],
-      "explanation": "According to the PHAK Chapter 11, when operating in the region of reversed command (such as during a short-field landing approach), merely lowering the nose of the airplane to regain flying speed without the use of power will result in a rapid sink rate and a corresponding loss of altitude. To safely recover from an unacceptably high sink rate in this regime, the pilot must use power.",
-      "reference": {
-        "page": "11-12",
-        "text": "An airplane performing a low airspeed, high pitch attitude          Runway Surface and Gradient\npower approach for a short-field landing is an example              Runway conditions affect takeoff and landing performance.\nof operating in the region of reversed command. If an               Typically, performance chart information assumes paved,\nunacceptably high sink rate should develop, it may be               level, smooth, and dry runway surfaces. Since no two\npossible for the pilot to reduce or stop the descent by applying    runways are alike, the runway surface differs from one\npower. But without further use of power, the airplane would         runway to another, as does the runway gradient or slope.\nprobably stall or be incapable of flaring for the landing.          [Figure 11-15]\nMerely lowering the nose of the airplane to regain flying\nspeed in this situation, without the use of power, would            Runway surfaces vary widely from one airport to another.\nresult in a rapid sink rate and corresponding loss of altitude.     The runway surface encountered may be concrete, asphalt,\n                                                                    gravel, dirt, or grass. The runway surface for a specific\nIf during a soft-field takeoff and climb, for example, the pilot    airport is noted in the Chart Supplement U.S. (formerly\nattempts to climb out of ground effect without first attaining      Airport/Facility Directory). Any surface that is not hard\nnormal climb pitch attitude and airspeed, the airplane may          and smooth increases the ground roll during takeoff. This\ninadvertently enter the region of reversed command at a             is due to the inability of the tires to roll smoothly along the\ndangerously low altitude. Even with full power, the airplane        runway. Tires can sink into soft, grassy, or muddy runways.\nmay be incapable of climbing or even maintaining altitude."
-      }
-    },
-    {
-      "section": "L/DMAX",
-      "difficulty": 3,
-      "categories": [
-        "written_exam",
-        "checkride_oral"
-      ],
-      "question": "A pilot performs a soft-field takeoff and rotates to a high pitch attitude while in ground effect. If the pilot attempts to climb out of ground effect before attaining normal climb pitch attitude and airspeed, what is the most likely result?",
-      "correct_answer": "The airplane may enter the region of reversed command at a dangerously low altitude, where even full power may be insufficient to climb or maintain altitude.",
-      "distractors": [
-        "The airplane will experience an immediate aerodynamic stall because ground effect was the primary source of lift",
-        "The airplane will descend briefly but can recover safely by lowering the nose to regain airspeed without adding power",
-        "The airplane will experience a temporary loss of climb rate but can maintain altitude until it accelerates to normal climb speed"
-      ],
-      "explanation": "According to PHAK Chapter 11, if during a soft-field takeoff the pilot attempts to climb out of ground effect without first attaining normal climb pitch attitude and airspeed, the airplane may inadvertently enter the region of reversed command at a dangerously low altitude. The text emphasizes that even with full power, the airplane may be incapable of climbing or even maintaining altitude. Distractor 1 is wrong because the danger is the region of reversed command (back side of the power curve), not an immediate stall. Distractor 2 is wrong because the text states even full power may be insufficient, so recovery without power would be inadequate. Distractor 3 is wrong because the airplane may be incapable of even maintaining altitude, not just climbing.",
-      "reference": {
-        "page": "11-12",
-        "text": "An airplane performing a low airspeed, high pitch attitude          Runway Surface and Gradient\npower approach for a short-field landing is an example              Runway conditions affect takeoff and landing performance.\nof operating in the region of reversed command. If an               Typically, performance chart information assumes paved,\nunacceptably high sink rate should develop, it may be               level, smooth, and dry runway surfaces. Since no two\npossible for the pilot to reduce or stop the descent by applying    runways are alike, the runway surface differs from one\npower. But without further use of power, the airplane would         runway to another, as does the runway gradient or slope.\nprobably stall or be incapable of flaring for the landing.          [Figure 11-15]\nMerely lowering the nose of the airplane to regain flying\nspeed in this situation, without the use of power, would            Runway surfaces vary widely from one airport to another.\nresult in a rapid sink rate and corresponding loss of altitude.     The runway surface encountered may be concrete, asphalt,\n                                                                    gravel, dirt, or grass. The runway surface for a specific\nIf during a soft-field takeoff and climb, for example, the pilot    airport is noted in the Chart Supplement U.S. (formerly\nattempts to climb out of ground effect without first attaining      Airport/Facility Directory). Any surface that is not hard\nnormal climb pitch attitude and airspeed, the airplane may          and smooth increases the ground roll during takeoff. This\ninadvertently enter the region of reversed command at a             is due to the inability of the tires to roll smoothly along the\ndangerously low altitude. Even with full power, the airplane        runway. Tires can sink into soft, grassy, or muddy runways.\nmay be incapable of climbing or even maintaining altitude."
-      }
-    },
-    {
-      "section": "L/DMAX",
-      "difficulty": 3,
-      "categories": [
-        "written_exam",
-        "checkride_oral"
-      ],
-      "question": "What is a primary danger if an airplane inadvertently enters the region of reversed command at a dangerously low altitude, such as during a poorly executed soft-field takeoff?",
-      "correct_answer": "Even with full power applied, the airplane may be incapable of climbing or maintaining altitude.",
-      "distractors": [
-        "Lowering the nose to regain airspeed will stop the descent without requiring additional power.",
-        "The airplane will experience an accelerated stall due to a sudden, uncontrollable increase in airspeed.",
-        "Applying full power will cause the airplane to immediately transition to a normal climb attitude."
-      ],
-      "explanation": "According to the PHAK, if a pilot attempts to climb out of ground effect without attaining normal climb pitch attitude and airspeed, the airplane may enter the region of reversed command at a dangerously low altitude. In this situation, drag is so high that even with full power, the airplane may be incapable of climbing or even maintaining altitude. Lowering the nose without power will only result in a rapid sink rate and loss of altitude.",
-      "reference": {
-        "page": "11-12",
-        "text": "An airplane performing a low airspeed, high pitch attitude          Runway Surface and Gradient\npower approach for a short-field landing is an example              Runway conditions affect takeoff and landing performance.\nof operating in the region of reversed command. If an               Typically, performance chart information assumes paved,\nunacceptably high sink rate should develop, it may be               level, smooth, and dry runway surfaces. Since no two\npossible for the pilot to reduce or stop the descent by applying    runways are alike, the runway surface differs from one\npower. But without further use of power, the airplane would         runway to another, as does the runway gradient or slope.\nprobably stall or be incapable of flaring for the landing.          [Figure 11-15]\nMerely lowering the nose of the airplane to regain flying\nspeed in this situation, without the use of power, would            Runway surfaces vary widely from one airport to another.\nresult in a rapid sink rate and corresponding loss of altitude.     The runway surface encountered may be concrete, asphalt,\n                                                                    gravel, dirt, or grass. The runway surface for a specific\nIf during a soft-field takeoff and climb, for example, the pilot    airport is noted in the Chart Supplement U.S. (formerly\nattempts to climb out of ground effect without first attaining      Airport/Facility Directory). Any surface that is not hard\nnormal climb pitch attitude and airspeed, the airplane may          and smooth increases the ground roll during takeoff. This\ninadvertently enter the region of reversed command at a             is due to the inability of the tires to roll smoothly along the\ndangerously low altitude. Even with full power, the airplane        runway. Tires can sink into soft, grassy, or muddy runways.\nmay be incapable of climbing or even maintaining altitude."
-      }
-    },
-    {
-      "section": "L/DMAX",
-      "difficulty": 3,
-      "categories": [
-        "written_exam",
-        "checkride_oral"
-      ],
-      "question": "To achieve the minimum possible takeoff distance for a given lift-off speed, what condition must be satisfied during the takeoff roll?",
-      "correct_answer": "The forces acting on the aircraft must provide the maximum acceleration.",
-      "distractors": [
-        "The pilot must rotate at the slowest possible airspeed to break ground contact.",
-        "The forces acting on the aircraft must provide the maximum climb angle immediately after liftoff.",
-        "The aircraft must maintain the highest possible lift coefficient throughout the ground roll."
-      ],
-      "explanation": "According to the Pilot's Handbook of Aeronautical Knowledge (Chapter 11), to obtain minimum takeoff distance at a specific lift-off speed, the forces that act on the aircraft must provide the maximum acceleration during the takeoff roll. The pilot may need to use specific procedures to maintain this acceleration at its highest value.",
-      "reference": {
-        "page": "11-14",
-        "text": "As such, the lift-off is\nOn wet runways, directional control can be maximized               accomplished at some particular value of lift coefficient and\nby landing into the wind. Abrupt control inputs should be          AOA. Depending on the aircraft characteristics, the lift-off\navoided. When the runway is wet, anticipate braking problems       speed is anywhere from 1.05 to 1.25 times the stall speed or\n                                                                   minimum control speed.\n    Minimum dynamic hydroplaning speed (rounded off) =\n                                                                   To obtain minimum takeoff distance at the specific lift-off\n                                                                   speed, the forces that act on the aircraft must provide the\n                                                                   maximum acceleration during the takeoff roll. The various\n                                                                   forces acting on the aircraft may or may not be under the\n                9x    Tire pressure (in psi)                       control of the pilot, and various procedures may be necessary\n                                                                   in certain aircraft to maintain takeoff acceleration at the\n                                                                   highest value."
-      }
-    },
-    {
-      "section": "L/DMAX",
-      "difficulty": 3,
-      "categories": [
-        "written_exam"
-      ],
-      "question": "A pilot increases the takeoff weight of a Cessna 182 from 2,400 to 2,700 pounds under ISA conditions. If the original takeoff distance was 440 feet, approximately how much takeoff distance should the pilot expect at the new weight, and what does this reveal about the relationship between weight and takeoff distance?",
-      "correct_answer": "Approximately 575 feet; takeoff distance increases at a greater rate than weight because added weight reduces acceleration and increases takeoff velocity",
-      "distractors": [
-        "Approximately 484 feet; takeoff distance increases proportionally with weight, so an 11 percent weight gain yields an 11 percent distance increase",
-        "Approximately 665 feet; takeoff distance increases at double the rate of weight increase due to the squared relationship between mass and lift required",
-        "Approximately 506 feet; takeoff distance increases by about 15 percent because the higher weight only marginally affects acceleration on the runway"
-      ],
-      "explanation": "According to PHAK Chapter 11, increasing the takeoff weight of an average Cessna 182 from 2,400 to 2,700 pounds (an 11 percent increase) under ISA conditions results in takeoff distance increasing from 440 feet to 575 feet (a 23 percent increase). This demonstrates that takeoff distance increases at a disproportionately greater rate than weight. The FAA explains this is because a 10 percent weight increase causes a 5 percent increase in takeoff velocity, at least a 9 percent decrease in rate of acceleration, and at least a 21 percent increase in takeoff distance—making the relationship non-linear and highly sensitive to weight changes.",
-      "reference": {
-        "page": "11-15",
-        "text": "er\n                                                                                                                           ef\n                                                                               in takeoff or                             R\n                                                                             landing distance       50\nFor example, a 10 percent increase in takeoff gross weight                                          40\nwould cause:                                                                                        30\n                                                                          Ratio of wind\n  •    A 5 percent increase in takeoff velocity                         velocity to takeoff         20\n                                                                        or landing speed\n  •    At least a 9 percent decrease in rate of acceleration                                        10                    Tailwind\n                                                                      30%       20%           10%\n  •    At least a 21 percent increase in takeoff distance                                                     10%       20%          30%\n                                                                         Headwind\n                                                                                                         10\n                                                                                                                   Ratio of wind\nWith ISA conditions, increasing the takeoff weight of the                                                20      velocity to takeoff\naverage Cessna 182 from 2,400 pounds to 2,700 pounds (11                                                 30\n                                                                                                                 or landing speed\npercent increase) results in an increased takeoff distance from\n                                                                                                         40\n440 feet to 575 feet (23 percent increase).\n                                                                                                         50   Percent decrease\n                                                                                                                 in takeoff or\nFor the aircraft with a high thrust-to-weight ratio, the increase                                        60    landing distance\nin takeoff distance might be approximately 21 to 22 percent,\nbut for the aircraft with a relatively low thrust-to-weight         Figure 11-19."
-      }
-    },
-    {
-      "section": "L/DMAX",
-      "difficulty": 3,
+      "section": "Structure of the Atmosphere",
+      "difficulty": 1,
       "categories": [
         "written_exam",
         "general_knowledge"
       ],
-      "question": "Two identical aircraft models are loaded with a 10 percent increase in takeoff gross weight. Aircraft A has a high thrust-to-weight ratio, while Aircraft B has a relatively low thrust-to-weight ratio. How would the expected increase in takeoff distance typically compare?",
-      "correct_answer": "Aircraft B (low thrust-to-weight ratio) would see a greater increase in takeoff distance than Aircraft A",
+      "question": "What are the standard sea level temperature and pressure values defined by the International Standard Atmosphere (ISA)?",
+      "correct_answer": "15 °C and 29.92 \"Hg",
       "distractors": [
-        "Aircraft A (high thrust-to-weight ratio) would see a greater increase because higher thrust output amplifies the effect of added weight",
-        "Both aircraft would see approximately the same increase in takeoff distance since the percentage weight increase is identical",
-        "Aircraft B would see a smaller increase because the lower thrust output results in a lower takeoff velocity"
+        "0 °C and 29.92 \"Hg",
+        "15 °C and 30.00 \"Hg",
+        "59 °C and 1013.2 millibars"
       ],
-      "explanation": "According to PHAK Chapter 11, an aircraft with a high thrust-to-weight ratio may see a takeoff distance increase of approximately 21 to 22 percent for a 10 percent increase in gross weight, but an aircraft with a relatively low thrust-to-weight ratio may see a greater increase. This is because a lower thrust-to-weight ratio means less excess thrust is available for acceleration, compounding the negative effects of added weight on both takeoff velocity and acceleration rate. Distractor 1 is incorrect because high thrust-to-weight ratios help mitigate, not amplify, the distance increase. Distractor 2 is incorrect because thrust-to-weight ratio is a key variable. Distractor 3 is incorrect because takeoff velocity increases (not decreases) with weight, and lower thrust further worsens acceleration.",
+      "explanation": "The chapter defines the standard atmosphere at sea level as having a surface temperature of 59 °F or 15 °C and a surface pressure of 29.92 \"Hg or 1013.2 millibars. 59 °C would be far too hot and is not a standard value; 59 °F is the correct Fahrenheit equivalent.",
+      "reference": {
+        "page": "11-2",
+        "text": "The standard atmosphere at sea level has a surface temperature of 59 degrees Fahrenheit (°F) or 15 degrees Celsius (°C) and a surface pressure of 29.92 inches of mercury (\"Hg) or 1013.2 millibars (mb)."
+      }
+    },
+    {
+      "section": "Structure of the Atmosphere",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "As air becomes less dense, which three aircraft performance factors are directly reduced?",
+      "correct_answer": "Power, thrust, and lift",
+      "distractors": [
+        "Range, endurance, and fuel economy",
+        "Indicated airspeed, true airspeed, and calibrated airspeed",
+        "Propeller RPM, manifold pressure, and oil pressure"
+      ],
+      "explanation": "The chapter explicitly lists the three factors reduced by less dense air: power (engine takes in less air), thrust (propeller is less efficient in thin air), and lift (thin air exerts less force on the airfoils). Range and endurance are secondary effects, not the direct reductions listed.",
+      "reference": {
+        "page": "11-2",
+        "text": "As air becomes less dense, it reduces: • Power, because the engine takes in less air • Thrust, because the propeller is less efficient in thin air • Lift, because the thin air exerts less force on the airfoils"
+      }
+    },
+    {
+      "section": "Pressure Altitude",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "A pilot needs to determine pressure altitude before computing density altitude. Which method can be used to find pressure altitude?",
+      "correct_answer": "Set the barometric scale of the altimeter to 29.92 \"Hg and read the indicated altitude",
+      "distractors": [
+        "Set the altimeter to the current local altimeter setting and read the indicated altitude",
+        "Set the altimeter to field elevation and subtract the difference from 29.92",
+        "Set the altimeter to 30.00 \"Hg and subtract 80 feet from the indicated altitude"
+      ],
+      "explanation": "The chapter lists three methods for determining pressure altitude, the first being setting the barometric scale of the altimeter to 29.92 \"Hg and reading the indicated altitude. Setting the altimeter to the current local altimeter setting gives indicated altitude, not pressure altitude.",
+      "reference": {
+        "page": "11-3",
+        "text": "The pressure altitude can be determined by any of the three following methods: 1. By setting the barometric scale of the altimeter to 29.92 \"Hg and reading the indicated altitude"
+      }
+    },
+    {
+      "section": "Density Altitude",
+      "difficulty": 1,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "How is density altitude defined?",
+      "correct_answer": "Pressure altitude corrected for nonstandard temperature",
+      "distractors": [
+        "The altitude indicated when the altimeter is set to the local altimeter setting",
+        "The height above the standard datum plane where pressure is 29.92 \"Hg",
+        "The altitude at which the aircraft's weight equals the lift produced at a given airspeed"
+      ],
+      "explanation": "The chapter defines density altitude as pressure altitude corrected for nonstandard temperature. The second distractor describes pressure altitude, not density altitude. Density altitude is the altitude in the standard atmosphere corresponding to a particular value of air density.",
+      "reference": {
+        "page": "11-3",
+        "text": "Density altitude is pressure altitude corrected for nonstandard temperature. As the density of the air increases (lower density altitude), aircraft performance increases."
+      }
+    },
+    {
+      "section": "Effects of Humidity (Moisture) on Density",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "Why does high humidity reduce aircraft performance?",
+      "correct_answer": "Water vapor is lighter than dry air, so moist air is less dense, increasing density altitude",
+      "distractors": [
+        "Water vapor increases atmospheric pressure, which raises the density altitude",
+        "Water vapor adds mass to the air column, increasing parasite drag on the aircraft",
+        "Humidity causes the engine to run excessively rich, reducing available power output"
+      ],
+      "explanation": "The chapter explains that water vapor is lighter than air; consequently, moist air is lighter than dry air. As the water content of the air increases, the air becomes less dense, increasing density altitude and decreasing performance. The mechanism is not about increased pressure, added mass, or mixture issues.",
+      "reference": {
+        "page": "11-5",
+        "text": "Water vapor is lighter than air; consequently, moist air is lighter than dry air. Therefore, as the water content of the air increases, the air becomes less dense, increasing density altitude and decreasing performance."
+      }
+    },
+    {
+      "section": "Straight-and-Level Flight",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "If an aircraft in steady, level flight at 100 knots is accelerated to 200 knots, what happens to the parasite drag and the power required to overcome it?",
+      "correct_answer": "Parasite drag becomes four times as great, and the power required is eight times the original value",
+      "distractors": [
+        "Parasite drag doubles, and the power required doubles",
+        "Parasite drag becomes four times as great, and the power required is four times the original value",
+        "Parasite drag becomes eight times as great, and the power required is four times the original value"
+      ],
+      "explanation": "The chapter states that when speed doubles from 100 to 200 knots, parasite drag becomes four times as great (drag proportional to velocity squared), but the power required to overcome that drag is eight times the original value (power proportional to velocity cubed). The distinction between drag and power is critical.",
+      "reference": {
+        "page": "11-5",
+        "text": "if an aircraft in a steady flight condition at 100 knots is then accelerated to 200 knots, the parasite drag becomes four times as great, but the power required to overcome that drag is eight times the original value."
+      }
+    },
+    {
+      "section": "Angle of Climb (AOC)",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "A pilot is taking off from a short airfield surrounded by high obstacles such as trees and power lines. Which climb speed should be used to clear the obstacles while traveling the least horizontal distance?",
+      "correct_answer": "VX, because it provides maximum angle of climb for the greatest altitude gain over a given horizontal distance",
+      "distractors": [
+        "VY, because it provides the greatest altitude gain over a given period of time",
+        "VNE, because maximum speed generates the most lift for clearing obstacles",
+        "VA, because maneuvering speed provides the best structural margin during the climb"
+      ],
+      "explanation": "The chapter states that maximum Angle of Climb (AOC), obtained at VX, may provide climb performance to ensure an aircraft will clear obstacles. A good use of maximum AOC is when taking off from a short airfield surrounded by high obstacles, with the objective of gaining sufficient altitude while traveling the least horizontal distance.",
+      "reference": {
+        "page": "11-7",
+        "text": "Maximum Angle of Climb (AOC), obtained at VX, may provide climb performance to ensure an aircraft will clear obstacles... A good use of maximum AOC is when taking off from a short airfield surrounded by high obstacles, such as trees or power lines."
+      }
+    },
+    {
+      "section": "Rate of Climb (ROC)",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "Maximum rate of climb (ROC) depends primarily on which factor?",
+      "correct_answer": "Excess power",
+      "distractors": [
+        "Excess thrust",
+        "Maximum lift coefficient",
+        "Minimum parasite drag"
+      ],
+      "explanation": "The chapter distinguishes between AOC (which depends on excess thrust) and ROC (which depends on excess power). It states that ROC performance depends upon excess power, since climbing is work and power is the rate of performing work. A pilot can increase climb rate by using any power not used to maintain level flight.",
+      "reference": {
+        "page": "11-8",
+        "text": "ROC performance depends upon excess power. Since climbing is work and power is the rate of performing work, a pilot can increase the climb rate by using any power not used to maintain level flight."
+      }
+    },
+    {
+      "section": "Climb Performance Factors",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "What defines the service ceiling of an aircraft?",
+      "correct_answer": "The altitude at which the aircraft is unable to climb at a rate greater than 100 feet per minute",
+      "distractors": [
+        "The altitude at which there is no excess power and only one speed allows steady, level flight",
+        "The maximum altitude at which the aircraft can maintain straight and level flight at maximum power",
+        "The altitude at which the aircraft's engine produces its maximum rated horsepower"
+      ],
+      "explanation": "The chapter defines the service ceiling as the altitude at which the aircraft is unable to climb at a rate greater than 100 fpm. The first distractor describes the absolute ceiling, where there is no excess power and zero ROC. The service ceiling is a practical operational limit, not the theoretical maximum.",
+      "reference": {
+        "page": "11-8",
+        "text": "The service ceiling is the altitude at which the aircraft is unable to climb at a rate greater than 100 feet per minute (fpm)."
+      }
+    },
+    {
+      "section": "Range Performance",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "What is the fundamental difference between range and endurance?",
+      "correct_answer": "Range involves consideration of flying distance, while endurance involves consideration of flying time",
+      "distractors": [
+        "Range is measured in hours and endurance is measured in nautical miles",
+        "Range and endurance are both maximized at the same airspeed and power setting",
+        "Range applies only to cruise flight, while endurance applies only to climbs and descents"
+      ],
+      "explanation": "The chapter explicitly distinguishes the two: range must be clearly distinguished from endurance. Range involves consideration of flying distance, while endurance involves consideration of flying time. Specific range is nautical miles per pound of fuel, while specific endurance is flight hours per pound of fuel.",
+      "reference": {
+        "page": "11-9",
+        "text": "Range must be clearly distinguished from the item of endurance. Range involves consideration of flying distance, while endurance involves consideration of flying time."
+      }
+    },
+    {
+      "section": "Range Performance",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "At what flight condition is maximum range obtained for a given aircraft configuration, and how is this condition affected by changes in weight or altitude?",
+      "correct_answer": "At maximum lift/drag ratio (L/DMAX), which occurs at a particular AOA and lift coefficient unaffected by weight or altitude",
+      "distractors": [
+        "At minimum power required, which shifts to a lower airspeed as weight increases",
+        "At maximum continuous power, which varies with altitude but not weight",
+        "At the speed for maximum endurance, which is unaffected by weight or altitude changes"
+      ],
+      "explanation": "The chapter states that the maximum range condition is obtained at L/DMAX, and it is important to note that for a given aircraft configuration, L/DMAX occurs at a particular AOA and lift coefficient and is unaffected by weight or altitude. A variation in weight alters the airspeed and power required to obtain L/DMAX, but not the L/DMAX itself.",
+      "reference": {
+        "page": "11-10",
+        "text": "The maximum range condition is obtained at maximum lift/drag ratio (L/DMAX), and it is important to note that for a given aircraft configuration, the L/DMAX occurs at a particular AOA and lift coefficient and is unaffected by weight or altitude."
+      }
+    },
+    {
+      "section": "Region of Reversed Command",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "A pilot is performing a short-field landing approach at a low airspeed and high pitch attitude. If an unacceptably high sink rate develops, what should the pilot understand about operating in the region of reversed command?",
+      "correct_answer": "It may be possible to reduce or stop the descent by applying power, but lowering the nose without power would result in a rapid sink rate and loss of altitude",
+      "distractors": [
+        "Lowering the nose will immediately restore normal command and stop the sink rate without power",
+        "Reducing power further will decrease the sink rate because less power means less drag in this regime",
+        "The aircraft will stall regardless of power application, so the pilot must lower the nose immediately"
+      ],
+      "explanation": "The chapter describes the region of reversed command using the short-field landing example. It states it may be possible to reduce or stop the descent by applying power, but without power, lowering the nose to regain flying speed would result in a rapid sink rate and corresponding loss of altitude. In this regime, lower airspeed requires more power, not less.",
+      "reference": {
+        "page": "11-12",
+        "text": "An airplane performing a low airspeed, high pitch attitude power approach for a short-field landing is an example of operating in the region of reversed command. If an unacceptably high sink rate should develop, it may be possible for the pilot to reduce or stop the descent by applying power."
+      }
+    },
+    {
+      "section": "Runway Surface and Gradient",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "How does an upsloping runway affect takeoff and landing performance respectively?",
+      "correct_answer": "It impedes acceleration resulting in a longer takeoff ground run, but typically reduces the landing roll",
+      "distractors": [
+        "It aids acceleration on takeoff and also reduces the landing roll",
+        "It impedes acceleration on takeoff and also increases the landing distance",
+        "It aids acceleration on takeoff but increases the landing distance"
+      ],
+      "explanation": "The chapter states that an upsloping runway impedes acceleration and results in a longer ground run during takeoff. However, landing on an upsloping runway typically reduces the landing roll. A downsloping runway has the opposite effects: aiding takeoff acceleration but increasing landing distances.",
+      "reference": {
+        "page": "11-13",
+        "text": "An upsloping runway impedes acceleration and results in a longer ground run during takeoff. However, landing on an upsloping runway typically reduces the landing roll."
+      }
+    },
+    {
+      "section": "Water on the Runway and Dynamic Hydroplaning",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "Using the hydroplaning speed formula, at what minimum speed would an aircraft with main gear tire pressure of 64 psi begin to hydroplane on a wet runway?",
+      "correct_answer": "72 knots",
+      "distractors": [
+        "54 knots",
+        "64 knots",
+        "90 knots"
+      ],
+      "explanation": "The chapter provides the formula: minimum hydroplaning speed = 9 × √(tire pressure in psi). For 64 psi: √64 = 8, and 9 × 8 = 72 knots. The 54-knot distractor is the example from the book using 36 psi. Simply using the tire pressure number (64) or multiplying by 10 instead of 9 gives incorrect results.",
+      "reference": {
+        "page": "11-14",
+        "text": "the minimum hydroplaning speed is determined by multiplying the square root of the main gear tire pressure in psi by nine. For example, if the main gear tire pressure is at 36 psi, the aircraft would begin hydroplaning at 54 knots."
+      }
+    },
+    {
+      "section": "Takeoff Performance",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "A headwind that is 10 percent of the takeoff airspeed reduces the takeoff distance by approximately what percentage?",
+      "correct_answer": "19 percent",
+      "distractors": [
+        "10 percent",
+        "21 percent",
+        "50 percent"
+      ],
+      "explanation": "The chapter states that a headwind that is 10 percent of the takeoff airspeed reduces the takeoff distance approximately 19 percent. The 21 percent distractor is the increase caused by a tailwind of 10 percent. A 50 percent headwind would reduce distance by 75 percent, not 10 percent.",
       "reference": {
         "page": "11-15",
-        "text": "er\n                                                                                                                           ef\n                                                                               in takeoff or                             R\n                                                                             landing distance       50\nFor example, a 10 percent increase in takeoff gross weight                                          40\nwould cause:                                                                                        30\n                                                                          Ratio of wind\n  •    A 5 percent increase in takeoff velocity                         velocity to takeoff         20\n                                                                        or landing speed\n  •    At least a 9 percent decrease in rate of acceleration                                        10                    Tailwind\n                                                                      30%       20%           10%\n  •    At least a 21 percent increase in takeoff distance                                                     10%       20%          30%\n                                                                         Headwind\n                                                                                                         10\n                                                                                                                   Ratio of wind\nWith ISA conditions, increasing the takeoff weight of the                                                20      velocity to takeoff\naverage Cessna 182 from 2,400 pounds to 2,700 pounds (11                                                 30\n                                                                                                                 or landing speed\npercent increase) results in an increased takeoff distance from\n                                                                                                         40\n440 feet to 575 feet (23 percent increase).\n                                                                                                         50   Percent decrease\n                                                                                                                 in takeoff or\nFor the aircraft with a high thrust-to-weight ratio, the increase                                        60    landing distance\nin takeoff distance might be approximately 21 to 22 percent,\nbut for the aircraft with a relatively low thrust-to-weight         Figure 11-19."
+        "text": "A headwind that is 10 percent of the takeoff airspeed reduces the takeoff distance approximately 19 percent. However, a tailwind that is 10 percent of the takeoff airspeed increases the takeoff distance approximately 21 percent."
       }
     },
     {
       "section": "Landing Performance",
-      "difficulty": 3,
+      "difficulty": 2,
       "categories": [
-        "written_exam"
+        "written_exam",
+        "checkride_oral"
       ],
-      "question": "An aircraft departs from a high-elevation airport on a hot day. Assuming the same weight and configuration as a sea-level takeoff, why does the aircraft require a greater true airspeed to become airborne?",
-      "correct_answer": "The same dynamic pressure is required to become airborne at the takeoff lift coefficient, so the lower air density at altitude necessitates a higher true airspeed to achieve that pressure.",
+      "question": "A pilot touches down approximately 10 percent faster than the recommended landing speed. Approximately how much does this increase the landing distance?",
+      "correct_answer": "At least 21 percent",
       "distractors": [
-        "The takeoff lift coefficient increases with altitude, requiring the aircraft to fly faster to generate the necessary lift at the higher coefficient.",
-        "The dynamic pressure required to become airborne increases with altitude because the thinner air is less effective at generating lift per unit of airspeed.",
-        "The aircraft's stall speed decreases at altitude, so the pilot must increase takeoff speed to maintain the same margin above stall."
+        "Approximately 10 percent",
+        "Approximately 5 percent",
+        "Approximately 50 percent"
       ],
-      "explanation": "According to PHAK Chapter 11, an aircraft of given weight and configuration requires the same dynamic pressure to become airborne at the takeoff lift coefficient regardless of altitude above standard sea level. Since dynamic pressure (q) is a function of air density and the square of velocity (q = ½ρV²), a decrease in air density (higher density altitude) must be offset by an increase in true airspeed to maintain the same dynamic pressure. This is why an increase in density altitude produces a greater takeoff speed. Distractor A is wrong because the takeoff lift coefficient is fixed for a given weight and configuration. Distractor B is wrong because the required dynamic pressure stays the same, not increases. Distractor C incorrectly states that stall speed decreases at altitude; the calibrated/indicated stall speed remains constant for a given weight, while true airspeed increases.",
+      "explanation": "The chapter states that a ten percent excess landing speed causes at least a 21 percent increase in landing distance. The excess speed places a greater working load on the brakes because of the additional kinetic energy to be dissipated, and the increased lift reduces the normal force on the braking surfaces. The relationship follows the square of the velocity.",
       "reference": {
-        "page": "11-16",
-        "text": "excessive AOA may not allow the aircraft to climb out of            In the prediction of takeoff distance from the AFM/POH\nground effect. On the other hand, an excessive airspeed at          data, the following primary considerations must be given:\ntakeoff may improve the initial ROC and “feel” of the aircraft        •    Pressure altitude and temperature—to define the effect\nbut produces an undesirable increase in takeoff distance.                  of density altitude on distance\nAssuming that the acceleration is essentially unaffected, the\ntakeoff distance varies with the square of the takeoff velocity.      •    Gross weight—a large effect on distance\n                                                                      •    Wind—a large effect due to the wind or wind\nThus, ten percent excess airspeed would increase the takeoff               component along the runway\ndistance 21 percent. In most critical takeoff conditions, such\n                                                                      •    Runway slope and condition—the effect of an incline\nan increase in takeoff distance would be prohibitive, and the\n                                                                           and retarding effect of factors such as snow or ice\npilot must adhere to the recommended takeoff speeds.\nThe effect of pressure altitude and ambient temperature\n                                                                    In many cases, the landing distance of an aircraft defines the\nis to define the density altitude and its effect on takeoff\n                                                                    runway requirements for flight operations. The minimum\nperformance. While subsequent corrections are appropriate\n                                                                    landing distance is obtained by landing at some minimum safe\nfor the effect of temperature on certain items of powerplant\n                                                                    speed, that allows sufficient margin above stall and provides\nperformance, density altitude defines specific effects on\n                                                                    satisfactory control and capability for a go-around. Generally,\ntakeoff performance. An increase in density altitude can\n                                                                    the landing speed is some fixed percentage of the stall speed\nproduce a twofold effect on takeoff performance:\n                                                                    or minimum control speed for the aircraft in the landing\n  1.    Greater takeoff speed                                       configuration. As such, the landing is accomplished at some\n  2.    Decreased thrust and reduced net accelerating force         particular value of lift coefficient and AOA. The exact values\n                                                                    depend on the aircraft characteristics but, once defined, the\nIf an aircraft of given weight and configuration is operated at     values are independent of weight, altitude, and wind.\ngreater heights above standard sea level, the aircraft requires\nthe same dynamic pressure to become airborne at the takeoff         To obtain minimum landing distance at the specified landing\nlift coefficient."
+        "page": "11-17",
+        "text": "A ten percent excess landing speed causes at least a 21 percent increase in landing distance. The excess speed places a greater working load on the brakes because of the additional kinetic energy to be dissipated."
+      }
+    },
+    {
+      "section": "Performance Speeds",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "What is the significance of VA (design maneuvering airspeed)?",
+      "correct_answer": "It is the maximum speed at which full deflection of the control surfaces can be imposed without causing structural damage",
+      "distractors": [
+        "It is the maximum speed at which the landing gear can be safely extended or retracted",
+        "It is the maximum structural cruising speed for normal operations",
+        "It is the speed that should never be exceeded under any circumstances"
+      ],
+      "explanation": "The chapter defines VA as the calibrated design maneuvering airspeed—the maximum speed at which the limit load can be imposed (either by gusts or full deflection of the control surfaces) without causing structural damage. The chapter also notes that operating at or below VA does not provide structural protection against multiple full control inputs in one axis or full control inputs in more than one axis simultaneously.",
+      "reference": {
+        "page": "11-18",
+        "text": "VA—the calibrated design maneuvering airspeed. This is the maximum speed at which the limit load can be imposed (either by gusts or full deflection of the control surfaces) without causing structural damage."
       }
     }
   ]

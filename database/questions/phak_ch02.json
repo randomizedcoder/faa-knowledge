@@ -3,366 +3,363 @@
   "chapter": 2,
   "questions": [
     {
-      "section": "Hazard and Risk",
-      "difficulty": 3,
+      "section": "Introduction",
+      "difficulty": 1,
       "categories": [
         "written_exam",
         "general_knowledge"
       ],
-      "question": "During preflight, a pilot discovers a small, blunt nick in the leading edge at the middle of the propeller blade. An experienced pilot assesses this as low risk. What is the primary reasoning behind this assessment?",
-      "correct_answer": "This type of nick diffuses stress over a large area and is located in the strongest portion of the propeller",
+      "question": "According to the chapter, approximately what percentage of all aviation accidents are related to human factors?",
+      "correct_answer": "80 percent",
       "distractors": [
-        "The middle of the propeller blade experiences the lowest centrifugal forces during operation, minimizing stress on the nick",
-        "Blunt nicks cannot propagate into cracks regardless of their size or location on the propeller blade",
-        "The nick's small size means it will not significantly affect propeller balance or engine performance"
+        "50 percent",
+        "65 percent",
+        "95 percent"
       ],
-      "explanation": "According to PHAK Chapter 2, a seasoned pilot may see a small, blunt nick in the leading edge at the middle of the prop as low risk because this type of nick diffuses stress over a large area and is located in the strongest portion of the propeller. The pilot does not expect it to propagate a crack that could lead to high risk problems. This is an example of applying Aeronautical Decision-Making (ADM) principles—specifically, assessing risk level based on the specific characteristics of the hazard. The distractors are incorrect because: (1) the reasoning is not about centrifugal force distribution, (2) location and type of nick absolutely matter for crack propagation, and (3) the concern being evaluated is prop fracture risk, not balance or performance issues.",
+      "explanation": "The chapter states that approximately 80 percent of all aviation accidents are related to human factors, and the vast majority of these occur during landing (24.1%) and takeoff (23.4%).",
+      "reference": {
+        "page": "2-2",
+        "text": "It is estimated that approximately 80 percent of all aviation accidents are related to human factors and the vast majority of these accidents occur during landing (24.1 percent) and takeoff (23.4 percent)."
+      }
+    },
+    {
+      "section": "Risk Management",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "A pilot is planning to fly an unfamiliar aircraft for the first time and decides to wait for a day with good weather rather than flying in low IFR conditions. Which fundamental principle of risk management does this best illustrate?",
+      "correct_answer": "Accept risk when benefits outweigh dangers (costs)",
+      "distractors": [
+        "Accept no unnecessary risk",
+        "Make risk decisions at the appropriate level",
+        "Integrate risk management into planning at all levels"
+      ],
+      "explanation": "The chapter's third principle states to accept risk when benefits outweigh dangers. The example given is nearly identical: 'A day with good weather, for example, is a much better time to fly an unfamiliar airplane for the first time than a day with low IFR conditions.'",
       "reference": {
         "page": "2-4",
-        "text": "Accept risk when benefits outweigh dangers (costs).         differently. For example, the pilot arrives to preflight and\n        In any flying activity, it is necessary to accept some      discovers a small, blunt type nick in the leading edge at the\n        degree of risk. A day with good weather, for example,       middle of the aircraft’s prop. Since the aircraft is parked on\n        is a much better time to fly an unfamiliar airplane for     the tarmac, the nick was probably caused by another aircraft’s\n        the first time than a day with low IFR conditions.          prop wash blowing some type of debris into the propeller.\n  4.    Integrate risk management into planning at all levels.      The nick is the hazard (a present condition). The risk is prop\n        Because risk is an unavoidable part of every flight,        fracture if the engine is operated with damage to a prop blade.\n        safety requires the use of appropriate and effective risk\n        management not just in the preflight planning stage,        The seasoned pilot may see the nick as a low risk. He\n        but in all stages of the flight.                            realizes this type of nick diffuses stress over a large area, is\n                                                                    located in the strongest portion of the propeller, and based\nWhile poor decision-making in everyday life does not always         on experience; he does not expect it to propagate a crack that\nlead to tragedy, the margin for error in aviation is thin. Since    can lead to high risk problems. He does not cancel his flight.\nADM enhances management of an aeronautical environment,\nall pilots should become familiar with and employ ADM. 2-4"
+        "text": "Accept risk when benefits outweigh dangers (costs). In any flying activity, it is necessary to accept some degree of risk. A day with good weather, for example, is a much better time to fly an unfamiliar airplane for the first time than a day with low IFR conditions."
       }
     },
     {
-      "section": "Hazard and Risk",
-      "difficulty": 3,
+      "section": "Hazardous Attitudes and Antidotes",
+      "difficulty": 2,
       "categories": [
-        "general_knowledge",
+        "written_exam",
         "checkride_oral"
       ],
-      "question": "A pilot has successfully flown through forecast icing conditions several times in the past and landed without incident. When facing similar icing conditions on a future flight, why might this pilot be at greater risk of making a poor decision?",
-      "correct_answer": "Past success can lead the pilot to underestimate the risk and fail to properly assess the hazard",
+      "question": "A pilot notices a small nick in the propeller leading edge before a flight. An experienced pilot assesses it as low risk because the nick is blunt, in the strongest portion of the propeller, and unlikely to propagate a crack. An inexperienced pilot sees the same nick as high risk and cancels the flight. What does this scenario best illustrate about hazard and risk?",
+      "correct_answer": "Risk is an assessment that varies by pilot because different pilots see hazards differently",
       "distractors": [
-        "Past experience automatically improves a pilot's ability to handle icing, making the flight safer",
-        "The pilot's previous flights prove the aircraft is certified for flight in known icing conditions",
-        "Each successful flight through icing guarantees the conditions will remain consistent on future flights"
+        "Hazard and risk are identical concepts that depend on the aircraft type",
+        "Risk is an objective measurement that does not change between pilots",
+        "The hazard only exists if the pilot identifies it as a problem"
       ],
-      "explanation": "According to PHAK Chapter 2, a pilot's past success in flying through hazardous conditions can lead to poor risk assessment and future poor decision-making. The handbook describes a scenario where a pilot deliberately flew into moderate to severe icing because they had done so repeatedly before, even though a prudent pilot would assess the risk as high and beyond the capabilities of the aircraft. This demonstrates how prior success can create a false sense of security, causing a pilot to normalize a hazardous situation rather than properly evaluating the current risk.",
+      "explanation": "The chapter defines hazard as a real or perceived condition, and risk as an assessment of that hazard. It explicitly states 'different pilots see hazards differently,' using this exact propeller nick example to show how experience changes risk assessment.",
+      "reference": {
+        "page": "2-4",
+        "text": "Therefore, risk is an assessment of the single or cumulative hazard facing a pilot; however, different pilots see hazards differently."
+      }
+    },
+    {
+      "section": "Hazardous Attitudes and Antidotes",
+      "difficulty": 1,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "A pilot consistently feels that accidents happen to other people but never to him, and this belief leads him to take chances and increase risk. Which hazardous attitude does this describe, and what is the correct antidote?",
+      "correct_answer": "Invulnerability — \"It could happen to me.\"",
+      "distractors": [
+        "Macho — \"Taking chances is foolish.\"",
+        "Impulsivity — \"Not so fast. Think first.\"",
+        "Resignation — \"I'm not helpless. I can make a difference.\""
+      ],
+      "explanation": "The chapter describes invulnerability as the attitude that 'accidents happen to others, but never to them.' The antidote to memorize is 'It could happen to me.'",
       "reference": {
         "page": "2-5",
-        "text": "invulnerability, macho, and resignation. [Figure 2-4]\nThe pilot deliberately flew into moderate to severe icing\nconditions while ducking under cloud cover. A prudent pilot               Hazardous attitudes contribute to poor pilot judgment but\nwould assess the risk as high and beyond the capabilities of              can be effectively counteracted by redirecting the hazardous\nthe aircraft, yet this pilot did the opposite. Why did the pilot          attitude so that correct action can be taken. Recognition of\ntake this action?                                                         hazardous thoughts is the first step toward neutralizing them.\n                                                                          After recognizing a thought as hazardous, the pilot should\nPast experience prompted the action. The pilot had                        label it as hazardous, then state the corresponding antidote.\nsuccessfully flown into these conditions repeatedly although              Antidotes should be memorized for each of the hazardous\nthe icing conditions were previously forecast 2,000 feet above            attitudes so they automatically come to mind when needed.\nthe surface. This time, the conditions were forecast from the\nsurface. Since the pilot was in a hurry and failed to factor"
+        "text": "Invulnerability: \"It won't happen to me.\" Many people falsely believe that accidents happen to others, but never to them… Pilots who think this way are more likely to take chances and increase risk."
       }
     },
     {
-      "section": "Examining National Transportation Safety Board (NTSB)",
-      "difficulty": 3,
+      "section": "Assessing Risk",
+      "difficulty": 2,
       "categories": [
         "written_exam",
         "checkride_oral"
       ],
-      "question": "A VFR-only private pilot without an instrument rating is conducting a risk assessment before a cross-country flight. There is a chance of scattered clouds along the route that could create conditions for inadvertent flight into IMC. According to the PHAK risk assessment matrix, how should the severity of this event be categorized?",
-      "correct_answer": "Catastrophic, because a non-instrument rated pilot lacks the skills to safely fly in IMC conditions",
+      "question": "Using the risk assessment matrix, a non-instrument-rated pilot assigns a likelihood of 'occasional' for encountering IMC and a severity of 'catastrophic.' What risk level results, and what action is appropriate?",
+      "correct_answer": "High risk — the pilot must either not fly or mitigate, eliminate, or control the risk",
       "distractors": [
-        "Critical, because the pilot could use basic attitude instrument skills learned during primary training to maintain control",
-        "Marginal, since the pilot could contact ATC for assistance and request vectors out of IMC",
-        "Serious, but only if the inadvertent IMC encounter occurs at night or over mountainous terrain"
+        "Serious risk — the pilot may continue with extra caution",
+        "Medium risk — the pilot should proceed but monitor conditions",
+        "Low risk — no special action is required"
       ],
-      "explanation": "According to PHAK Chapter 2, when assessing risk using the risk matrix, the severity or consequence of an event relates to injury and/or damage. The handbook specifically states that if a pilot is not instrument rated, the consequences of encountering inadvertent IMC conditions are catastrophic. This is because a non-instrument rated pilot has not demonstrated the ability to control an aircraft solely by reference to instruments, making spatial disorientation and loss of control highly likely. The risk matrix combines this catastrophic severity with the likelihood of occurrence to determine overall risk level. Distractors are incorrect because: basic attitude instrument training from primary instruction is insufficient to change the severity assessment; ATC assistance does not reduce the immediate danger of spatial disorientation; and the catastrophic classification applies regardless of time of day or terrain.",
+      "explanation": "The chapter's risk matrix shows that 'occasional' likelihood combined with 'catastrophic' severity falls in the high risk area. The text states: 'the risk is high and the pilot must either not fly or fly only after finding ways to mitigate, eliminate, or control the risk.'",
       "reference": {
         "page": "2-6",
-        "text": "in making decisions. If a fatigued pilot who has flown 16\nhours is asked if he or she is too tired to continue flying, the      Figure 2-5. This risk matrix can be used for almost any operation\nanswer may be “no.” Most pilots are goal oriented and when            by assigning likelihood and consequence. In the case presented,\nasked to accept a flight, there is a tendency to deny personal        the pilot assigned a likelihood of occasional and the severity as\nlimitations while adding weight to issues not germane to the          catastrophic. As one can see, this falls in the high risk area.\nmission. For example, pilots of helicopter emergency services\n(EMS) have been known (more than other groups) to make\nflight decisions that add significant weight to the patient’s         cause the pilot to assign “occasional” to determine the\nwelfare. These pilots add weight to intangible factors (the           probability of encountering IMC.\npatient in this case) and fail to appropriately quantify actual\nhazards, such as fatigue or weather, when making flight               The following are guidelines for making assignments.\ndecisions. The single pilot who has no other crew member                •     Probable—an event will occur several times\nfor consultation must wrestle with the intangible factors that          •     Occasional—an event will probably occur sometime\ndraw one into a hazardous position. Therefore, he or she has\na greater vulnerability than a full crew.                               •     Remote—an event is unlikely to occur, but is possible\n                                                                        •     Improbable—an event is highly unlikely to occur\nreports and other accident research can help a pilot learn to         Severity of an Event\nassess risk more effectively. For example, the accident rate          The next element is the severity or consequence of a pilot’s\nduring night visual flight rules (VFR) decreases by nearly            action(s). It can relate to injury and/or damage. If the\n50 percent once a pilot obtains 100 hours and continues to            individual in the example above is not an instrument rated\ndecrease until the 1,000 hour level. The data suggest that for        pilot, what are the consequences of him or her encountering\nthe first 500 hours, pilots flying VFR at night might want to         inadvertent IMC conditions? In this case, because the pilot\nestablish higher personal limitations than are required by the        is not IFR rated, the consequences are catastrophic."
+        "text": "Simply connecting the two factors as shown in Figure 2-5 indicates the risk is high and the pilot must either not fly or fly only after finding ways to mitigate, eliminate, or control the risk."
       }
     },
     {
-      "section": "The PAVE Checklist",
-      "difficulty": 3,
+      "section": "Mitigating Risk",
+      "difficulty": 1,
       "categories": [
         "written_exam",
         "checkride_oral"
       ],
-      "question": "A pilot is reviewing the PAVE checklist and notes that the AFM for their aircraft lists a maximum crosswind component of 15 knots. The pilot has only ever landed in direct crosswinds up to 10 knots. What is the most appropriate application of personal minimums in this scenario?",
-      "correct_answer": "Set a personal crosswind minimum of 10 knots until additional training with a CFI expands the pilot's demonstrated experience",
+      "question": "A pilot uses the IMSAFE checklist before a flight. Under which letter does the checklist address psychological pressure from the job, money, health, or family problems?",
+      "correct_answer": "Stress",
       "distractors": [
-        "Operate up to 15 knots of crosswind since the AFM limitation legally permits it and represents the aircraft's safe capability",
-        "Set a personal minimum of 15 knots to match the AFM, because personal minimums must always equal the published aircraft limitations",
-        "Set a personal minimum above 15 knots only after completing additional solo crosswind practice in varying conditions"
+        "Emotion",
+        "Illness",
+        "Fatigue"
       ],
-      "explanation": "The PHAK states that personal minimums are limits unique to that individual pilot's current level of experience and proficiency, and may be lower than aircraft limitations listed in the AFM. The handbook specifically uses the crosswind example: an aircraft may have a 15-knot crosswind limit in the AFM, but a pilot who has only experienced 10 knots of crosswind should set 10 knots as a personal limitation until additional training with a CFI provides more experience. The first distractor confuses what is 'legal' with what is 'smart' or 'safe' for the pilot. The second distractor incorrectly claims personal minimums must match AFM limitations. The third distractor incorrectly suggests personal minimums should exceed AFM limitations and that solo practice, rather than CFI training, is the appropriate path.",
+      "explanation": "The IMSAFE checklist's 'S' stands for Stress. The chapter defines it as: 'Am I under psychological pressure from the job? Do I have money, health, or family problems? Stress causes concentration and performance problems.'",
       "reference": {
         "page": "2-8",
-        "text": "capabilities, etc. The scores are added and the overall score        Once a pilot identifies the risks of a flight, he or she needs\nfalls into various ranges, with the range representative of          to decide whether the risk, or combination of risks, can be\nactions that a pilot imposes upon himself or herself.                managed safely and successfully. If not, make the decision to\n                                                                     cancel the flight. If the pilot decides to continue with the flight,\nMitigating Risk                                                      he or she should develop strategies to mitigate the risks. One\nRisk assessment is only part of the equation. After                  way a pilot can control the risks is to set personal minimums\ndetermining the level of risk, the pilot needs to mitigate the       for items in each risk category. These are limits unique to that\nrisk. For example, the pilot flying from point A to point B (50      individual pilot’s current level of experience and proficiency.\nmiles) in MVFR conditions has several ways to reduce risk:\n                                                                     For example, the aircraft may have a maximum crosswind\n  •    Wait for the weather to improve to good visual flight\n                                                                     component of 15 knots listed in the aircraft flight manual\n       rules (VFR) conditions.\n                                                                     (AFM), and the pilot has experience with 10 knots of direct\n  •    Take an instrument-rated pilot.                               crosswind. It could be unsafe to exceed a 10 knot crosswind\n  •    Delay the flight.                                             component without additional training. Therefore, the 10 knot\n                                                                     crosswind experience level is that pilot’s personal limitation\n  •    Cancel the flight.                                            until additional training with a certificated flight instructor\n  •    Drive.                                                        (CFI) provides the pilot with additional experience for flying\n                                                                     in crosswinds that exceed 10 knots.\nOne of the best ways single pilots can mitigate risk is to use\nthe IMSAFE checklist to determine physical and mental                One of the most important concepts that safe pilots\nreadiness for flying:                                                understand is the difference between what is “legal” in terms\n  1.   Illness—Am I sick? Illness is an obvious pilot risk.          of the regulations, and what is “smart” or “safe” in terms of\n                                                                     pilot experience and proficiency.\n  2."
+        "text": "Stress—Am I under psychological pressure from the job? Do I have money, health, or family problems? Stress causes concentration and performance problems."
       }
     },
     {
       "section": "The PAVE Checklist",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "The chapter identifies management of which PAVE risk category as the single most important key to risk management, because it can cause a pilot to ignore all other risk factors?",
+      "correct_answer": "External pressures",
+      "distractors": [
+        "Pilot in command",
+        "Aircraft",
+        "EnVironment"
+      ],
+      "explanation": "The chapter states: 'Management of external pressure is the single most important key to risk management because it is the one risk factor category that can cause a pilot to ignore all the other risk factors.'",
+      "reference": {
+        "page": "2-10",
+        "text": "Management of external pressure is the single most important key to risk management because it is the one risk factor category that can cause a pilot to ignore all the other risk factors."
+      }
+    },
+    {
+      "section": "Human Factors",
       "difficulty": 3,
       "categories": [
         "written_exam",
-        "checkride_oral",
         "general_knowledge"
       ],
-      "question": "An aircraft's AFM lists a maximum crosswind component of 15 knots. A pilot's personal experience with direct crosswinds is limited to 10 knots. What should this pilot use as a personal crosswind limitation, and why?",
-      "correct_answer": "10 knots, because personal minimums should reflect the pilot's actual experience and proficiency, not just the aircraft's certified capabilities",
+      "question": "According to the FAA research study described in the chapter, which of the following was NOT identified as a trait found in pilots prone to having accidents?",
+      "correct_answer": "Strong reliance on checklists and established procedures",
       "distractors": [
-        "15 knots, because the AFM certifies the aircraft to safely handle that crosswind component",
-        "5 knots, to maintain a wide safety margin below both the aircraft limit and personal experience level",
-        "12 knots, as a reasonable compromise between the aircraft's certified maximum and the pilot's demonstrated experience"
+        "Disdain toward rules",
+        "High correlation between flying accidents and driving safety violations",
+        "Impulsive rather than methodical information gathering and action selection"
       ],
-      "explanation": "The PHAK emphasizes that safe pilots understand the difference between what is 'legal' under the regulations and what is 'smart' or 'safe' given pilot experience and proficiency. While the AFM's 15-knot limit is legally permissible, the pilot has only demonstrated competence in 10 knots of crosswind. The 10-knot experience level becomes that pilot's personal minimum until additional training with a CFI provides experience beyond that threshold. Choosing 15 knots confuses legal limits with safe limits; choosing 5 knots is arbitrarily conservative rather than experience-based; and choosing 12 knots has no logical basis in either the aircraft's certification or the pilot's demonstrated proficiency.",
-      "reference": {
-        "page": "2-8",
-        "text": "capabilities, etc. The scores are added and the overall score        Once a pilot identifies the risks of a flight, he or she needs\nfalls into various ranges, with the range representative of          to decide whether the risk, or combination of risks, can be\nactions that a pilot imposes upon himself or herself.                managed safely and successfully. If not, make the decision to\n                                                                     cancel the flight. If the pilot decides to continue with the flight,\nMitigating Risk                                                      he or she should develop strategies to mitigate the risks. One\nRisk assessment is only part of the equation. After                  way a pilot can control the risks is to set personal minimums\ndetermining the level of risk, the pilot needs to mitigate the       for items in each risk category. These are limits unique to that\nrisk. For example, the pilot flying from point A to point B (50      individual pilot’s current level of experience and proficiency.\nmiles) in MVFR conditions has several ways to reduce risk:\n                                                                     For example, the aircraft may have a maximum crosswind\n  •    Wait for the weather to improve to good visual flight\n                                                                     component of 15 knots listed in the aircraft flight manual\n       rules (VFR) conditions.\n                                                                     (AFM), and the pilot has experience with 10 knots of direct\n  •    Take an instrument-rated pilot.                               crosswind. It could be unsafe to exceed a 10 knot crosswind\n  •    Delay the flight.                                             component without additional training. Therefore, the 10 knot\n                                                                     crosswind experience level is that pilot’s personal limitation\n  •    Cancel the flight.                                            until additional training with a certificated flight instructor\n  •    Drive.                                                        (CFI) provides the pilot with additional experience for flying\n                                                                     in crosswinds that exceed 10 knots.\nOne of the best ways single pilots can mitigate risk is to use\nthe IMSAFE checklist to determine physical and mental                One of the most important concepts that safe pilots\nreadiness for flying:                                                understand is the difference between what is “legal” in terms\n  1.   Illness—Am I sick? Illness is an obvious pilot risk.          of the regulations, and what is “smart” or “safe” in terms of\n                                                                     pilot experience and proficiency.\n  2."
-      }
-    },
-    {
-      "section": "The PAVE Checklist",
-      "difficulty": 3,
-      "categories": [
-        "written_exam",
-        "checkride_oral"
-      ],
-      "question": "While using the PAVE checklist to evaluate a planned flight route, a pilot notes that a segment crosses open water where the horizon could become difficult to distinguish. What does the checklist require the pilot to be prepared for in this situation?",
-      "correct_answer": "Flying IFR",
-      "distractors": [
-        "Carrying survival gear and water in case of a forced landing",
-        "Filing a VFR flight plan for the over-water segment",
-        "Maintaining a minimum altitude of 3,000 feet AGL"
-      ],
-      "explanation": "According to the PAVE checklist in PHAK Chapter 2, under the EnVironment (Airspace) section, 'If the trip includes flying over water or unpopulated areas with the chance of losing visual reference to the horizon, the pilot must be prepared to fly IFR.' The concern is spatial disorientation from losing the horizon, which requires instrument flying skills. The survival gear consideration is a separate bullet point addressing remote areas and forced landings, not the specific hazard of losing visual reference. Neither a VFR flight plan nor a specific minimum altitude is mentioned as a requirement for this scenario.",
-      "reference": {
-        "page": "2-9",
-        "text": "•    Does the fuel quantity delivered match the fuel                 guidance? Is the terminal airport equipped with them?\n       quantity ordered?                                               Are they working? Will the pilot need to use the radio\n                                                                       to activate the airport lights?\nV = EnVironment                                                    •   Check the Notices to Airmen (NOTAM) for closed\nWeather                                                                runways or airports. Look for runway or beacon lights\nWeather is a major environmental consideration. Earlier it was         out, nearby towers, etc.\nsuggested pilots set their own personal minimums, especially       •   Choose the flight route wisely. An engine failure gives\nwhen it comes to weather. As pilots evaluate the weather for           the nearby airports supreme importance.\na particular flight, they should consider the following:\n                                                                   •   Are there shorter or obstructed fields at the destination\n  •    What is the current ceiling and visibility? In                  and/or alternate airports?\n       mountainous terrain, consider having higher\n       minimums for ceiling and visibility, particularly if      Airspace\n       the terrain is unfamiliar.\n                                                                   •   If the trip is over remote areas, is there appropriate\n  •    Consider the possibility that the weather may be\n                                                                       clothing, water, and survival gear onboard in the event\n       different than forecast. Have alternative plans and\n                                                                       of a forced landing?\n       be ready and willing to divert, should an unexpected\n       change occur.                                               •   If the trip includes flying over water or unpopulated\n                                                                       areas with the chance of losing visual reference to the\n  •    Consider the winds at the airports being used and the\n                                                                       horizon, the pilot must be prepared to fly IFR.\n       strength of the crosswind component.\n                                                                   •   Check the airspace and any temporary flight restriction\n  •    If flying in mountainous terrain, consider whether\n                                                                       (TFRs) along the route of flight.\n       there are strong winds aloft."
-      }
-    },
-    {
-      "section": "Pilot                                                                 Aircraft",
-      "difficulty": 3,
-      "categories": [
-        "written_exam",
-        "checkride_oral"
-      ],
-      "question": "During a cross-country flight, a pilot recalculates groundspeed and fuel burn, determining the aircraft will arrive at its destination with approximately 10 minutes of fuel remaining. The pilot is trying to stay on schedule for an important meeting. What is the most appropriate action?",
-      "correct_answer": "Land at a nearby airport to refuel, accepting the schedule delay rather than risk an emergency landing",
-      "distractors": [
-        "Continue to the destination since 10 minutes of fuel remaining exceeds the minimum required reserve for daytime VFR flight",
-        "Reduce power and lean the mixture to stretch the remaining fuel supply to the destination",
-        "Contact ATC to request direct routing and priority handling to minimize additional fuel burn en route"
-      ],
-      "explanation": "The PHAK Chapter 2 describes a scenario where a pilot calculated only 10 minutes of fuel remaining at destination and chose to 'stretch' the fuel supply rather than land to refuel. Afterward, the pilot realized this decision could have easily resulted in an emergency landing in deteriorating weather conditions. The handbook states this was 'a chance that was not worth taking to keep the planned schedule.' Even if 10 minutes technically satisfies a regulatory reserve, sound decision-making dictates landing and refueling when fuel state becomes marginal, especially when weather or other variables could further degrade the situation.",
-      "reference": {
-        "page": "2-10",
-        "text": "Weather is one element that         groundspeed and determined that the airplane would arrive at\n   can change drastically over time and distance.                        the destination with only 10 minutes of fuel remaining. The pilot\n                                                                         was determined to keep on schedule by trying to “stretch” the\n   A pilot was landing a small airplane just after a heavy jet had       fuel supply instead of landing to refuel. After landing with low\n   departed a parallel runway. The pilot assumed that wake               fuel state, the pilot realized that this could have easily resulted\n   turbulence would not be a problem since landings had been             in an emergency landing in deteriorating weather conditions.\n   performed under similar circumstances. Due to a combination           This was a chance that was not worth taking to keep the\n   of prevailing winds and wake turbulence from the heavy jet            planned schedule.\n   drifting across the landing runway, the airplane made a hard\n   landing. The pilot made an error when assessing the flight\n   environment. 2-10"
-      }
-    },
-    {
-      "section": "Pilot                                                                 Aircraft",
-      "difficulty": 3,
-      "categories": [
-        "written_exam",
-        "checkride_oral"
-      ],
-      "question": "A pilot calculates that the airplane will arrive at its destination with only 10 minutes of fuel remaining, and weather along the route is deteriorating. The pilot decides to continue rather than land and refuel in order to stay on schedule. According to PHAK Chapter 2, what is the most significant risk of this decision?",
-      "correct_answer": "An emergency landing may become necessary in deteriorating weather conditions",
-      "distractors": [
-        "The engine may suffer mechanical damage from operating with minimal fuel in the lines",
-        "ATC will require the pilot to declare an emergency before being cleared to land",
-        "The aircraft may experience a forward center of gravity shift as fuel is depleted"
-      ],
-      "explanation": "PHAK Chapter 2 describes a scenario where a pilot calculated arrival with only 10 minutes of fuel remaining and chose to 'stretch' the fuel supply instead of landing to refuel. After landing safely, the pilot realized this decision could have easily resulted in an emergency landing in deteriorating weather conditions. The handbook emphasizes that taking such a chance is not worth it to maintain a planned schedule. The distractors are incorrect because low fuel quantity does not cause mechanical engine damage, ATC does not automatically require an emergency declaration based on fuel state alone, and fuel depletion does not create a problematic CG shift.",
-      "reference": {
-        "page": "2-10",
-        "text": "Weather is one element that         groundspeed and determined that the airplane would arrive at\n   can change drastically over time and distance.                        the destination with only 10 minutes of fuel remaining. The pilot\n                                                                         was determined to keep on schedule by trying to “stretch” the\n   A pilot was landing a small airplane just after a heavy jet had       fuel supply instead of landing to refuel. After landing with low\n   departed a parallel runway. The pilot assumed that wake               fuel state, the pilot realized that this could have easily resulted\n   turbulence would not be a problem since landings had been             in an emergency landing in deteriorating weather conditions.\n   performed under similar circumstances. Due to a combination           This was a chance that was not worth taking to keep the\n   of prevailing winds and wake turbulence from the heavy jet            planned schedule.\n   drifting across the landing runway, the airplane made a hard\n   landing. The pilot made an error when assessing the flight\n   environment. 2-10"
-      }
-    },
-    {
-      "section": "Pilot                                                                 Aircraft",
-      "difficulty": 3,
-      "categories": [
-        "written_exam",
-        "checkride_oral"
-      ],
-      "question": "A pilot on a cross-country flight in a light twin notices a gradual roll tendency to the right and corrects it with aileron trim. Two hours later, the right engine quits. What was the most likely root cause of the roll tendency that the pilot failed to diagnose?",
-      "correct_answer": "Both engines were feeding from the left tank due to an inadvertent cross-feed selection, making the left wing progressively lighter and causing a roll toward the heavier right wing",
-      "distractors": [
-        "The right wing was producing less lift due to contamination on the right wing's leading edge, which also eventually starved the right engine of fuel",
-        "The left wing was heavier because fuel was cross-feeding into it from the right tank, and the right engine quit when the right tank ran dry",
-        "An imbalance in the fuel tanks was caused by a failed engine-driven fuel pump on the right side, which simultaneously reduced right wing lift and starved the right engine"
-      ],
-      "explanation": "According to PHAK Chapter 2, Captain Everyman left the right fuel selector in the cross-feed position after being interrupted during preflight. This caused both engines to feed from the left wing's tank, making the left wing lighter and creating a right roll tendency. He incorrectly corrected the symptom with aileron trim rather than diagnosing the underlying fuel system issue. When the left tank was depleted, the right engine quit. This scenario illustrates how a pilot's failure to methodically complete checklists and investigate the root cause of a flight control issue—instead applying a superficial fix—can lead to a dangerous in-flight emergency.",
+      "explanation": "The chapter lists five traits of accident-prone pilots: disdain toward rules, correlation between flying and driving violations, thrill and adventure seeking, impulsivity, and disregard for outside sources of information. Reliance on checklists is the opposite of the identified traits.",
       "reference": {
         "page": "2-12",
-        "text": "In the case of Captain                   records\nEveryman, after a gear-up landing accident, he became                   •    Frequently fall into the “thrill and adventure seeking”\ninvolved in another accident while taxiing a Beech 58P Baron                 personality category\nout of the ramp. Interrupted by a radio call from the dispatcher,\n                                                                        •    Are impulsive rather than methodical and disciplined,\nEveryman neglected to complete the fuel cross-feed check\n                                                                             both in their information gathering and in the speed\nbefore taking off. Everyman, who was flying solo, left the\n                                                                             and selection of actions to be taken\nright-fuel selector in the cross-feed position. Once aloft and\ncruising, he noticed a right roll tendency and corrected with           •    Have a disregard for or tend to under utilize outside\naileron trim. He did not realize that both engines were feeding              sources of information, including copilots, flight\noff the left wing’s tank, making the wing lighter.                           attendants, flight service personnel, flight instructors,\n                                                                             and ATC\nAfter two hours of flight, the right engine quit when\nEveryman was flying along a deep canyon gorge."
+        "text": "Five traits were discovered in pilots prone to having accidents. These pilots: Have disdain toward rules… Have very high correlation between accidents on their flying records and safety violations on their driving records… Frequently fall into the 'thrill and adventure seeking' personality category… Are impulsive rather than methodical and disciplined… Have a disregard for or tend to under utilize outside sources of information"
       }
     },
     {
-      "section": "Pilot                                                                 Aircraft",
-      "difficulty": 3,
+      "section": "Single-Pilot Resource Management (SRM)",
+      "difficulty": 2,
       "categories": [
-        "checkride_oral",
-        "general_knowledge"
+        "written_exam",
+        "checkride_oral"
       ],
-      "question": "According to the 5 Ps single-pilot resource management framework, how do each of the five elements (Plan, Plane, Pilot, Passengers, and Programming) relate to the risk of completing a flight successfully?",
-      "correct_answer": "Each element presents both challenges and opportunities that can increase or decrease risk depending on the pilot's ability to make informed and timely decisions",
+      "question": "The 5 Ps check recommends reviewing the Plan, the Plane, the Pilot, the Passengers, and the Programming at key decision points. According to the chapter, what is the easiest point to cancel a flight due to bad weather?",
+      "correct_answer": "During preflight in the flight planning room, before walking out to the aircraft",
       "distractors": [
-        "Each element represents a hazard that must be eliminated before beginning the flight to ensure an acceptable level of risk",
-        "Each element independently determines the overall risk of the flight regardless of the pilot's decision-making ability",
-        "Each element affects risk only after the flight has begun and conditions change from what was planned"
+        "Just prior to takeoff, after all passengers are loaded",
+        "At the midpoint of the flight when ATIS weather is available",
+        "Just prior to descent into the terminal area"
       ],
-      "explanation": "According to PHAK Chapter 2, each of the 5 Ps areas consists of a set of challenges and opportunities that every pilot encounters. Each challenge and opportunity can substantially increase or decrease the risk of successfully completing the flight based on the pilot's ability to make informed and timely decisions. This means the 5 Ps are not simply hazards to eliminate, nor do they operate independently of pilot input. The framework emphasizes that the pilot's decision-making ability is the key variable that determines whether these elements increase or decrease risk. The source also illustrates this by noting that the easiest decision point, such as canceling due to bad weather, is during preflight planning before leaving the FBO.",
+      "explanation": "The chapter states: 'the easiest point to cancel a flight due to bad weather is before the pilot and passengers walk out the door and load the aircraft. So the first decision point is preflight in the flight planning room.'",
       "reference": {
         "page": "2-13",
-        "text": "review of the critical variables at points in the flight where\n                                                                   decisions are most likely to be effective. For instance, the\nThe 5 Ps Check                                                     easiest point to cancel a flight due to bad weather is before the\nSRM sounds good on paper, but it requires a way for pilots         pilot and passengers walk out the door and load the aircraft.\nto understand and use it in their daily flights. One practical     So the first decision point is preflight in the flight planning\napplication is called the “Five Ps (5 Ps).” [Figure 2-9] The       room, where all the information is readily available to make\n5 Ps consist of “the Plan, the Plane, the Pilot, the Passengers,   a sound decision, and where communication and Fixed\nand the Programming.” Each of these areas consists of a set        Base Operator (FBO) services are readily available to make\nof challenges and opportunities that every pilot encounters.       alternate travel plans.\nEach challenge and opportunity can substantially increase or\ndecrease the risk of successfully completing the flight based      The second easiest point in the flight to make a critical safety\non the pilot’s ability to make informed and timely decisions."
+        "text": "the easiest point to cancel a flight due to bad weather is before the pilot and passengers walk out the door and load the aircraft. So the first decision point is preflight in the flight planning room, where all the information is readily available to make a sound decision"
       }
     },
     {
-      "section": "Pilot                                                                 Aircraft",
-      "difficulty": 3,
+      "section": "Perceive, Process, Perform (3P) Model",
+      "difficulty": 2,
       "categories": [
         "written_exam",
-        "checkride_oral",
-        "general_knowledge"
+        "checkride_oral"
       ],
-      "question": "A pilot who is experienced with Garmin avionics is planning to fly an aircraft equipped with a different manufacturer's glass panel system. How should this difference influence the pilot's preflight and in-flight decision-making?",
-      "correct_answer": "The pilot should adopt more conservative planning and decisions due to the lack of standardization between manufacturers' avionics formats.",
+      "question": "In the 3P model, a pilot uses the CARE checklist during the 'Process' step. What does the 'A' in CARE stand for, and what question does it address?",
+      "correct_answer": "Alternatives — what other options are available",
       "distractors": [
-        "The pilot can proceed normally since all glass panel systems share a common interface standard mandated by the FAA.",
-        "The pilot should rely primarily on memorized button sequences from the previous system, as most manufacturers use similar menu structures.",
-        "The pilot should only be concerned if the new system has fewer features than the one they are accustomed to using."
+        "Aircraft — is the aircraft suitable for the flight",
+        "Attitude — what hazardous attitudes might affect judgment",
+        "Assessment — what is the overall risk level"
       ],
-      "explanation": "According to the Pilot's Handbook of Aeronautical Knowledge (Chapter 2), because avionics formats are not standardized across manufacturers, simply moving from one manufacturer's equipment to another should give the pilot pause and require more conservative planning and decisions. The pilot must consider their capabilities in response to tasks such as reprogramming during approach changes or executing large-scale reroutes while hand flying. Distractor A is incorrect because no common interface standard exists. Distractor B is incorrect because manufacturers use different menu structures and logic. Distractor C is incorrect because the concern applies regardless of feature count—it is the unfamiliar format itself that introduces risk.",
-      "reference": {
-        "page": "2-15",
-        "text": "Alternatives, Reality, External factors. Finally, pilots can\n                                                                            perform risk management by using the TEAM choice list\nThe pilot should also consider what his or her capabilities                 of: Transfer, Eliminate, Accept, or Mitigate.\nare in response to last minute changes of the approach (and\nthe reprogramming required) and ability to make large-scale                 PAVE Checklist: Identify Hazards and Personal\nchanges (a reroute for instance) while hand flying the aircraft.            Minimums\nSince formats are not standardized, simply moving from one                  In the first step, the goal is to develop situational awareness\nmanufacturer’s equipment to another should give the pilot                   by perceiving hazards, which are present events, objects, or\npause and require more conservative planning and decisions.                 circumstances that could contribute to an undesired future\n                                                                            event. In this step, the pilot will systematically identify and Purpose"
-      }
-    },
-    {
-      "section": "Strategic                                    Deliberate                                 Time-Critical",
-      "difficulty": 3,
-      "categories": [
-        "checkride_oral",
-        "general_knowledge"
-      ],
-      "question": "A pilot is planning a flight to attend an important business meeting at the destination. According to the PAVE and CARE checklists, why is it important to recognize this external pressure during the processing phase of risk management?",
-      "correct_answer": "The pressure to attend the meeting can negatively influence not only the initial go/no-go decision, but also inflight decisions to continue the flight or divert.",
-      "distractors": [
-        "External pressures only affect the initial go/no-go decision and have no bearing on decisions made once the flight is underway.",
-        "External pressures are considered under the Aircraft element of the PAVE checklist and should be evaluated primarily for their effect on aircraft performance.",
-        "External pressures should be ignored during risk management because they are unrelated to the pilot, aircraft, or environment.",
-        "The CARE checklist recommends that external pressures be addressed only after the flight is completed as part of a post-flight debrief."
-      ],
-      "explanation": "According to the Pilot's Handbook of Aeronautical Knowledge (Chapter 2), external pressures—such as a business meeting at the destination—are part of the PAVE checklist. The CARE checklist's processing phase emphasizes that a pilot must be realistic about how external pressures will affect not just the initial go/no-go decision, but also inflight decisions to continue the flight or divert. The handbook specifically warns that if you find yourself saying it will 'probably' be okay, it is time for a solid reality check.",
+      "explanation": "The CARE checklist stands for Consequences, Alternatives, Reality, External factors. The chapter explains it is used to process hazards by evaluating their impact on flight safety, with 'Alternatives' addressing what other options exist.",
       "reference": {
         "page": "2-16",
-        "text": "list hazards associated with all aspects of the flight: Pilot,              Alternatives—delay until morning; reschedule\nAircraft, enVironment, and External pressures, which makes                  meeting; drive\nup the PAVE checklist. [Figure 2-11] For each element,                      Reality —dangers and distractions of fatigue could\nask “what could hurt me, my passengers, or my aircraft?”                    lead to an accident\nAll four elements combine and interact to create a unique\nsituation for any flight. Pay special attention to the pilot-               External pressures—business meeting at destination\naircraft combination, and consider whether the combined                     might influence me\n“pilot-aircraft team” is capable of the mission you want to fly.\nFor example, you may be a very experienced and proficient            A good rule of thumb for the processing phase: if you find\npilot, but your weather flying ability is still limited if you       yourself saying that it will “probably” be okay, it is definitely\nare flying a 1970s-model aircraft with no weather avoidance          time for a solid reality check. If you are worried about missing\ngear. On the other hand, you may have a new technically              a meeting, be realistic about how that pressure will affect\nadvanced aircraft with moving map GPS, weather datalink,             not just your initial go/no-go decision, but also your inflight\nand autopilot—but if you do not have much weather flying             decisions to continue the flight or divert.\nexperience or practice in using this kind of equipment, you\ncannot rely on the airplane’s capability to compensate for           TEAM Checklist: Choose and Implement Risk\nyour own lack of experience.                                         Controls\n                                                                     Once you have perceived a hazard (step one) and processed\nCARE Checklist: Review Hazards and Evaluate Risks                    its impact on flight safety (step two), it is time to move to the\nIn the second step, the goal is to process this information to       third step, perform."
+        "text": "process by using the CARE checklist of: Consequences, Alternatives, Reality, External factors."
       }
     },
     {
-      "section": "Pilot                                                               Aircraft",
-      "difficulty": 3,
+      "section": "Perceive, Process, Perform (3P) Model",
+      "difficulty": 2,
       "categories": [
         "written_exam",
         "checkride_oral"
       ],
-      "question": "A pilot identifies a maintenance discrepancy with her aircraft and considers renting a different aircraft from her flight school to complete her planned trip. What should she recognize about this alternative?",
-      "correct_answer": "The alternative may introduce new hazards, such as flying an unfamiliar aircraft with different avionics",
+      "question": "In the 3P model's TEAM checklist, a pilot decides to hire a CFI to accompany her on a cross-country flight to mitigate risk from her lack of experience. Which TEAM action does this represent?",
+      "correct_answer": "Mitigate",
       "distractors": [
-        "Renting a different aircraft eliminates all risk because it avoids the maintenance issue entirely",
-        "Any alternative that avoids a maintenance discrepancy is inherently safer than the original plan",
-        "The alternative carries no additional risk as long as the rental aircraft has a current inspection"
+        "Transfer",
+        "Eliminate",
+        "Accept"
       ],
-      "explanation": "According to PHAK Chapter 2, alternatives chosen to mitigate risk sometimes create new hazards. The handbook specifically uses the example of renting another aircraft to avoid a maintenance problem, noting that 'there may be hazards associated with flying an unfamiliar aircraft with different avionics.' Sound risk management requires evaluating not just the original risk, but also any new hazards introduced by the chosen alternative. The distractors are incorrect because they use absolute language ('eliminates all risk,' 'inherently safer,' 'no additional risk') that contradicts the principle that alternatives can themselves introduce new hazards.",
+      "explanation": "The chapter shows that hiring a CFI to accompany the pilot is listed under 'Mitigate' in the TEAM checklist example. Transfer would mean having another pilot act as PIC; Eliminate would mean canceling the trip entirely.",
       "reference": {
-        "page": "2-17",
-        "text": "• Consequences: Gayle’s inexperience and lack of recent              • Consequences: This area presents low risk because the\n     flight time create some risks for an accident, primarily because     aircraft is in excellent mechanical condition and Gayle is\n     she plans to travel over mountains on a hazy day and land            familiar with its avionics.\n     at an unfamiliar mountain airport that is still in IMC             • Alternatives: Had there been a problem with her aircraft,\n     conditions.                                                          Gayle might have considered renting another plane from her\n   • Alternatives: Gayle might mitigate the pilot-related risk by         flight school. Bear in mind, however, that alternatives\n     hiring a CFI to accompany her and provide dual cross-                sometimes create new hazards. In this instance, there may\n     country instruction. An added benefit is the opportunity to          be hazards associated with flying an unfamiliar aircraft with\n     broaden her flying experience in safe conditions.                    different avionics.\n   • Reality: Accepting the reality that limited experience can         • Reality: It is important to recognize the reality of an aircraft’s\n     create additional risks is a key part of sound risk management       mechanical condition. If you find a maintenance discrepancy\n     and mitigation.                                                      and then find yourself saying that it is “probably” okay to fly\n   • External Factors: Like many pilots, Gayle must contend with          with it anyway, you need to revisit the consequences part of\n     the emotional pressure associated with acknowledging that            this checklist.\n     her skill and experience levels may be lower than she would        • External Factors: Pilot decision-making can sometimes be\n     like them to be. Pride can be a powerful external factor!            influenced by the external pressure of needing to return the\n                                                                          airplane to the FBO by a certain date and time. Because\n        Environment                                                       Gayle owns the airplane, there was no such pressure in this\n                                                                          case.\n   • Consequences: For a pilot whose experience consists\n     mostly of local flights in good VMC, launching a long cross-\n     country flight over mountainous terrain in hazy conditions           External pressures\n     could lead to pilot disorientation and increase the risk of an     • Consequences: Any number of factors can create the risk of\n     accident."
+        "page": "2-18",
+        "text": "Gayle chooses to mitigate the major risk by hiring a CFI to accompany her and provide dual cross-country instruction."
       }
     },
     {
-      "section": "Pilot                                                               Aircraft",
-      "difficulty": 3,
+      "section": "The DECIDE Model",
+      "difficulty": 2,
       "categories": [
         "written_exam",
         "checkride_oral"
       ],
-      "question": "A pilot whose experience consists mostly of local flights in good VMC is planning a long cross-country flight over mountainous terrain in hazy conditions. According to risk management principles, what consequence does this environment primarily present?",
-      "correct_answer": "Pilot disorientation and an increased risk of an accident",
+      "question": "In the DECIDE model, what is the first step a pilot should take when faced with a changing situation, such as an engine failure?",
+      "correct_answer": "Detect — recognize that a change occurred or an expected change did not occur",
       "distractors": [
-        "Engine performance degradation from hazy air reducing combustion efficiency",
-        "Radio signal interference from mountainous terrain causing communication loss",
-        "Increased structural stress on the airframe from mountain wave turbulence"
+        "Estimate — determine the need to react to the situation",
+        "Choose — select a course of action to reach the desired outcome",
+        "Identify — formulate solutions that lead to the objective"
       ],
-      "explanation": "According to PHAK Chapter 2, the Environment section of the risk assessment checklist states that for a pilot whose experience consists mostly of local flights in good VMC, launching a long cross-country flight over mountainous terrain in hazy conditions could lead to pilot disorientation and increase the risk of an accident. The hazard here is the combination of challenging environmental conditions with a pilot whose experience level does not adequately prepare them for that environment. The distractors are incorrect because they describe aircraft mechanical or structural issues, whereas the identified risk is specifically pilot-related disorientation.",
-      "reference": {
-        "page": "2-17",
-        "text": "• Consequences: Gayle’s inexperience and lack of recent              • Consequences: This area presents low risk because the\n     flight time create some risks for an accident, primarily because     aircraft is in excellent mechanical condition and Gayle is\n     she plans to travel over mountains on a hazy day and land            familiar with its avionics.\n     at an unfamiliar mountain airport that is still in IMC             • Alternatives: Had there been a problem with her aircraft,\n     conditions.                                                          Gayle might have considered renting another plane from her\n   • Alternatives: Gayle might mitigate the pilot-related risk by         flight school. Bear in mind, however, that alternatives\n     hiring a CFI to accompany her and provide dual cross-                sometimes create new hazards. In this instance, there may\n     country instruction. An added benefit is the opportunity to          be hazards associated with flying an unfamiliar aircraft with\n     broaden her flying experience in safe conditions.                    different avionics.\n   • Reality: Accepting the reality that limited experience can         • Reality: It is important to recognize the reality of an aircraft’s\n     create additional risks is a key part of sound risk management       mechanical condition. If you find a maintenance discrepancy\n     and mitigation.                                                      and then find yourself saying that it is “probably” okay to fly\n   • External Factors: Like many pilots, Gayle must contend with          with it anyway, you need to revisit the consequences part of\n     the emotional pressure associated with acknowledging that            this checklist.\n     her skill and experience levels may be lower than she would        • External Factors: Pilot decision-making can sometimes be\n     like them to be. Pride can be a powerful external factor!            influenced by the external pressure of needing to return the\n                                                                          airplane to the FBO by a certain date and time. Because\n        Environment                                                       Gayle owns the airplane, there was no such pressure in this\n                                                                          case.\n   • Consequences: For a pilot whose experience consists\n     mostly of local flights in good VMC, launching a long cross-\n     country flight over mountainous terrain in hazy conditions           External pressures\n     could lead to pilot disorientation and increase the risk of an     • Consequences: Any number of factors can create the risk of\n     accident."
-      }
-    },
-    {
-      "section": "Environment                                                       External pressures",
-      "difficulty": 3,
-      "categories": [
-        "written_exam",
-        "checkride_oral"
-      ],
-      "question": "During a multi-engine flight, the right engine has failed. When power is increased to maximum on both engines to identify the failed engine, why does the yaw to the right increase?",
-      "correct_answer": "Only the left engine is delivering thrust, creating greater asymmetric thrust toward the right",
-      "distractors": [
-        "The failed right engine windmills faster at high power, increasing drag on the right side",
-        "The yaw to the left increases because the operating left engine's torque effect intensifies at full power",
-        "The increased airflow over the left wing from the operating engine reduces lift on the right wing, rolling the aircraft right"
-      ],
-      "explanation": "According to the PHAK Chapter 2, when identifying a failed engine, power is adjusted to maximum controllable level on both engines. Because the left engine is the only engine delivering thrust, the yaw increases to the right, necessitating additional left rudder application. The yaw increase is caused by the growing asymmetry in thrust output between the operating and failed engines, not by drag, torque, or roll effects.",
-      "reference": {
-        "page": "2-19",
-        "text": "was receiving a checkride from the ATP (who was also a                      engine failure by reducing power on the right engine to zero\ndesignated examiner) for a commercial pilot certificate with                thrust. This caused the aircraft to yaw right.\na multi-engine rating. After performing airwork at altitude,\nthey returned to the airport and the private pilot performed a              The procedure to identify the failed engine is a two-step\nsingle-engine approach to a full stop landing. He then taxied               process. First, adjust the power to the maximum controllable\nback for takeoff, performed a short field takeoff, and then                 level on both engines. Because the left engine is the only\njoined the traffic pattern to return for another landing. During            engine delivering thrust, the yaw increases to the right, which\nthe approach for the second landing, the ATP simulated a right              necessitates application of additional left rudder application."
-      }
-    },
-    {
-      "section": "The DECIDE model",
-      "difficulty": 3,
-      "categories": [
-        "written_exam",
-        "checkride_oral"
-      ],
-      "question": "A cabin door suddenly opens in flight. Using the DECIDE model's Estimate step, how should a pilot assess the risk of this problem when flying in IMC with turbulence and an amended ATC clearance, compared to a clear VFR day?",
-      "correct_answer": "The risk is higher in IMC because the operating environment increases the overall risk level, even though the open door problem itself is unchanged.",
-      "distractors": [
-        "The risk level remains the same in both environments because the mechanical problem of the open door has not changed.",
-        "The risk is determined primarily by the pilot's experience level rather than by the operating environment or conditions of flight.",
-        "The open door presents a lower risk in IMC because ATC can provide priority handling and vectors to the nearest airport."
-      ],
-      "explanation": "The PHAK's DECIDE model uses the cabin door example to illustrate that a problem's risk level can change based on the operating environment. On a clear VFR day, an open cabin door is assessed as a low risk because it does not impact safe flight. However, the same open door becomes a higher risk factor when encountered during an IFR climb out in IMC with turbulence and an amended clearance. The problem itself—the open door—has not changed, but the increased workload and reduced margin for safety in the more demanding environment elevate the risk. This highlights the importance of estimating risk in context, not in isolation.",
+      "explanation": "The DECIDE model begins with Detect: 'Problem detection is the first step in the decision-making process. It begins with recognizing a change occurred or an expected change did not occur.'",
       "reference": {
         "page": "2-20",
-        "text": "The failed engine is the side that requires no rudder pressure,      detecting the problem. In the previous example, the change\nin this case the right engine. Second, having identified the         that occurred was a yaw.\nfailed right engine, the procedure is to feather the right engine\nand adjust power to maintain descent angle to a landing.             Estimate (the Need To React)\n                                                                     In the engine-out example, the aircraft yawed right, the pilot\nHowever, in this case the pilot feathered the left engine because    was on final approach, and the problem warranted a prompt\nhe assumed the engine failure was a left engine failure. During      solution. In many cases, overreaction and fixation excludes\ntwin-engine training, the left engine out is emphasized more         a safe outcome. For example, what if the cabin door of a\nthan the right engine because the left engine on most light          Mooney suddenly opened in flight while the aircraft climbed\ntwins is the critical engine. This is due to multiengine airplanes   through 1,500 feet on a clear sunny day? The sudden opening\nbeing subject to P-factor, as are single-engine airplanes.           would be alarming, but the perceived hazard the open door\nThe descending propeller blade of each engine will produce           presents is quickly and effectively assessed as minor. In\ngreater thrust than the ascending blade when the airplane is         fact, the door’s opening would not impact safe flight and\noperated under power and at positive angles of attack. The           can almost be disregarded. Most likely, a pilot would return\ndescending propeller blade of the right engine is also a greater     to the airport to secure the door after landing.\ndistance from the center of gravity, and therefore has a longer\nmoment arm than the descending propeller blade of the left           The pilot flying on a clear day faced with this minor problem\nengine. As a result, failure of the left engine will result in the   may rank the open cabin door as a low risk. What about\nmost asymmetrical thrust (adverse yaw) because the right             the pilot on an IFR climb out in IMC conditions with light\nengine will be providing the remaining thrust. Many twins are        intermittent turbulence in rain who is receiving an amended\ndesigned with a counter-rotating right engine. With this design,     clearance from ATC? The open cabin door now becomes\nthe degree of asymmetrical thrust is the same with either engine     a higher risk factor. The problem has not changed, but the\ninoperative. Neither engine is more critical than the other."
+        "text": "Detect (the Problem) Problem detection is the first step in the decision-making process. It begins with recognizing a change occurred or an expected change did not occur."
       }
     },
     {
-      "section": "The DECIDE model",
+      "section": "Decision-Making in a Dynamic Environment",
       "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "When an expert pilot faces an emergency with no time for analytical decision-making, what type of decision-making does the chapter describe them using?",
+      "correct_answer": "Automatic or naturalistic decision-making, taking the first workable option they can find",
+      "distractors": [
+        "Analytical decision-making, comparing the pros and cons of all available approaches",
+        "The DECIDE model, working through all six steps systematically",
+        "The 5 Ps check, reviewing all five variables before acting"
+      ],
+      "explanation": "The chapter describes automatic/naturalistic decision-making: 'Rather than comparing the pros and cons of different approaches, they quickly imagine how one or a few possible courses of action in such situations will play out. Experts take the first workable option they can find.'",
+      "reference": {
+        "page": "2-21",
+        "text": "Rather than comparing the pros and cons of different approaches, they quickly imagine how one or a few possible courses of action in such situations will play out. Experts take the first workable option they can find."
+      }
+    },
+    {
+      "section": "Operational Pitfalls",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "A pilot on an IFR approach is tempted to descend below minimums, believing there is a built-in margin of error in every approach procedure. Which operational pitfall does this describe?",
+      "correct_answer": "Duck-under syndrome",
+      "distractors": [
+        "Scud running",
+        "Get-there-itis",
+        "Getting behind the aircraft"
+      ],
+      "explanation": "The chapter defines duck-under syndrome as: 'A pilot may be tempted to make it into an airport by descending below minimums during an approach. There may be a belief that there is a built-in margin of error in every approach procedure.'",
+      "reference": {
+        "page": "2-22",
+        "text": "Duck-under syndrome. A pilot may be tempted to make it into an airport by descending below minimums during an approach. There may be a belief that there is a built-in margin of error in every approach procedure"
+      }
+    },
+    {
+      "section": "Stress Management",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "According to the chapter, how does performance typically change as stress levels increase?",
+      "correct_answer": "Performance increases with stress, peaks, then falls off rapidly as stress exceeds the ability to cope",
+      "distractors": [
+        "Performance decreases steadily as soon as any stress is present",
+        "Performance remains constant until stress reaches a critical threshold, then stops entirely",
+        "Performance increases linearly with stress and never decreases"
+      ],
+      "explanation": "The chapter states: 'Performance generally increases with the onset of stress, peaks, and then begins to fall off rapidly as stress levels exceed a person's ability to cope.'",
+      "reference": {
+        "page": "2-21",
+        "text": "Performance generally increases with the onset of stress, peaks, and then begins to fall off rapidly as stress levels exceed a person's ability to cope."
+      }
+    },
+    {
+      "section": "Situational Awareness",
+      "difficulty": 2,
       "categories": [
         "written_exam",
         "checkride_oral"
       ],
-      "question": "Under the DECIDE model's \"Estimate\" step, why does an open cabin door rank as a higher risk during IFR climb out in IMC with turbulence and rain, compared to a low risk on a clear sunny day?",
-      "correct_answer": "The operational environment and workload have changed, increasing the overall risk even though the problem itself is unchanged",
+      "question": "A pilot is being vectored by ATC but is simply making turns without understanding why. According to the chapter, what problem does this create?",
+      "correct_answer": "The pilot has added an additional burden to risk management in the event of an emergency",
       "distractors": [
-        "The open door creates greater aerodynamic drag in IMC than in VMC, making it inherently more dangerous",
-        "The door's mechanical failure becomes more severe in turbulent conditions, requiring immediate corrective action",
-        "The DECIDE model automatically upgrades all in-flight anomalies to high risk during IFR flight regardless of context"
+        "The pilot is demonstrating good CRM by trusting ATC completely",
+        "The pilot is reducing workload by not analyzing the vectoring",
+        "The pilot is maintaining situational awareness by following instructions"
       ],
-      "explanation": "The PHAK illustrates in the DECIDE model's \"Estimate\" step that the open cabin door problem itself has not changed between scenarios, but the risk level changes because the operational environment has changed. On a clear day, the door can almost be disregarded and ranked as low risk. During IFR climb out in IMC with turbulence and rain while receiving an amended clearance, the added workload and environmental factors cause the same problem to become a higher risk factor. This demonstrates that risk assessment under the Estimate step is contextual—the pilot must evaluate not just the problem, but the conditions in which it occurs.",
+      "explanation": "The chapter states: 'A pilot who is simply making turns without understanding why has added an additional burden to his or her management in the event of an emergency.' Understanding why vectors are given is part of maintaining situational awareness.",
       "reference": {
-        "page": "2-20",
-        "text": "The failed engine is the side that requires no rudder pressure,      detecting the problem. In the previous example, the change\nin this case the right engine. Second, having identified the         that occurred was a yaw.\nfailed right engine, the procedure is to feather the right engine\nand adjust power to maintain descent angle to a landing.             Estimate (the Need To React)\n                                                                     In the engine-out example, the aircraft yawed right, the pilot\nHowever, in this case the pilot feathered the left engine because    was on final approach, and the problem warranted a prompt\nhe assumed the engine failure was a left engine failure. During      solution. In many cases, overreaction and fixation excludes\ntwin-engine training, the left engine out is emphasized more         a safe outcome. For example, what if the cabin door of a\nthan the right engine because the left engine on most light          Mooney suddenly opened in flight while the aircraft climbed\ntwins is the critical engine. This is due to multiengine airplanes   through 1,500 feet on a clear sunny day? The sudden opening\nbeing subject to P-factor, as are single-engine airplanes.           would be alarming, but the perceived hazard the open door\nThe descending propeller blade of each engine will produce           presents is quickly and effectively assessed as minor. In\ngreater thrust than the ascending blade when the airplane is         fact, the door’s opening would not impact safe flight and\noperated under power and at positive angles of attack. The           can almost be disregarded. Most likely, a pilot would return\ndescending propeller blade of the right engine is also a greater     to the airport to secure the door after landing.\ndistance from the center of gravity, and therefore has a longer\nmoment arm than the descending propeller blade of the left           The pilot flying on a clear day faced with this minor problem\nengine. As a result, failure of the left engine will result in the   may rank the open cabin door as a low risk. What about\nmost asymmetrical thrust (adverse yaw) because the right             the pilot on an IFR climb out in IMC conditions with light\nengine will be providing the remaining thrust. Many twins are        intermittent turbulence in rain who is receiving an amended\ndesigned with a counter-rotating right engine. With this design,     clearance from ATC? The open cabin door now becomes\nthe degree of asymmetrical thrust is the same with either engine     a higher risk factor. The problem has not changed, but the\ninoperative. Neither engine is more critical than the other."
+        "page": "2-24",
+        "text": "A pilot who is simply making turns without understanding why has added an additional burden to his or her management in the event of an emergency."
       }
     },
     {
-      "section": "The DECIDE model",
-      "difficulty": 3,
+      "section": "Workload Management",
+      "difficulty": 2,
       "categories": [
         "written_exam",
         "checkride_oral"
       ],
-      "question": "A multiengine pilot perceives an engine failure but skips the 'Identify' step of the DECIDE model, feathering the left engine when the simulated failure was actually on the right. What is the most likely consequence when the pilot later increases power on both engines?",
-      "correct_answer": "An enormous yaw toward the feathered left engine, as only the right engine produces usable thrust",
+      "question": "When a pilot becomes task saturated due to high workload, what does the chapter say is the primary effect on decision-making?",
+      "correct_answer": "There is no awareness of input from various sources, so decisions may be made on incomplete information",
       "distractors": [
-        "A yaw toward the operating right engine, because the feathered left propeller produces less drag",
-        "Balanced thrust from both engines, since the feathered propeller unfeathers when throttle is increased",
-        "A pitch-down moment, as the operating engine's thrust overcomes drag from the feathered propeller"
+        "The pilot automatically defaults to using checklists more frequently",
+        "The pilot becomes more efficient by focusing on multiple tasks simultaneously",
+        "The pilot instinctively slows down and prioritizes tasks without conscious effort"
       ],
-      "explanation": "According to PHAK Chapter 2, the DECIDE model's first step is to identify the problem. In the handbook's scenario, the pilot never identified which engine had actually failed and feathered the wrong engine. When power was later applied to both engines, the feathered left propeller could not produce thrust while the right engine could, creating an enormous yaw to the left and resulting in loss of control and substantial aircraft damage. This case illustrates why the 'Identify' step is critical before taking action.",
+      "explanation": "The chapter states: 'When a pilot becomes task saturated, there is no awareness of input from various sources, so decisions may be made on incomplete information and the possibility of error increases.'",
       "reference": {
-        "page": "2-20",
-        "text": "perception of risk a pilot assigns it changes because of the\n                                                                     multitude of ongoing tasks and the environment. Experience,\nSince the pilot never executed the first step of identifying         discipline, awareness, and knowledge influences how a pilot\nwhich engine failed, he feathered the left engine and set the        ranks a problem.\nright engine at zero thrust. This essentially restricted the\naircraft to a controlled glide. Upon realizing that he was           Choose (a Course of Action)\nnot going to make the runway, the pilot increased power to\n                                                                     After the problem has been identified and its impact\nboth engines causing an enormous yaw to the left (the left\n                                                                     estimated, the pilot must determine the desirable outcome\npropeller was feathered) whereupon the aircraft started to turn\n                                                                     and choose a course of action. In the case of the multiengine\nleft. In desperation, the instructor closed both throttles and\n                                                                     pilot given the simulated failed engine, the desired objective\nthe aircraft hit the ground and was substantially damaged.\n                                                                     is to safely land the airplane.\nThis case is interesting because it highlights two particular\n                                                                     Identify (Solutions)\nissues."
+        "page": "2-24",
+        "text": "When a pilot becomes task saturated, there is no awareness of input from various sources, so decisions may be made on incomplete information and the possibility of error increases."
+      }
+    },
+    {
+      "section": "Managing Aircraft Automation",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "A study described in the chapter compared pilots flying EFIS-equipped aircraft with pilots flying analog-equipped aircraft. What key finding emerged about the EFIS pilots when required to fly maneuvers manually without a flight director?",
+      "correct_answer": "They exhibited erosion of flying skills, with greater deviations especially during abnormal and emergency maneuvers",
+      "distractors": [
+        "They performed identically to the analog group in all maneuvers",
+        "They performed better than the analog group due to greater overall situational awareness",
+        "They performed better in normal maneuvers but worse only in IFR approaches"
+      ],
+      "explanation": "The chapter reports: 'When pilots who had flown EFIS for several years were required to fly various maneuvers manually, the aircraft parameters and flight control inputs clearly showed some erosion of flying skills.' The differences became more significant during abnormal and emergency maneuvers.",
+      "reference": {
+        "page": "2-27",
+        "text": "When pilots who had flown EFIS for several years were required to fly various maneuvers manually, the aircraft parameters and flight control inputs clearly showed some erosion of flying skills."
       }
     }
   ]

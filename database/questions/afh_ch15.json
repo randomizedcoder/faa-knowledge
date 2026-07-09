@@ -3,357 +3,363 @@
   "chapter": 15,
   "questions": [
     {
-      "section": "Turboprop Engine Types",
+      "section": "Gas Turbine Engine",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "How does the combustion process in a gas turbine engine differ from that in a piston (reciprocating) engine?",
+      "correct_answer": "In a gas turbine engine, the phases of induction, compression, combustion, expansion, and exhaust occur simultaneously and continuously, with ignition occurring during starting and remaining continuous thereafter.",
+      "distractors": [
+        "In a gas turbine engine, combustion occurs once per revolution of the main shaft, while in a piston engine it occurs every other revolution.",
+        "In a gas turbine engine, combustion occurs only during the starting cycle and is then maintained by residual heat, while in a piston engine ignition occurs each cycle.",
+        "Both engines have identical combustion cycles, but the gas turbine operates at higher compression ratios to achieve continuous power."
+      ],
+      "explanation": "The chapter states that unlike reciprocating engines, where each event is a separate distinct occurrence in each cylinder, gas turbine engines conduct all phases of power simultaneously and continuously. Ignition occurs during the starting cycle and is continuous thereafter.",
+      "reference": {
+        "page": "15-1",
+        "text": "Unlike reciprocating engines, in gas turbine engines these phases of power occur simultaneously and continuously instead of successively one cycle at a time. Additionally, ignition occurs during the starting cycle and is continuous thereafter."
+      }
+    },
+    {
+      "section": "Turboprop Engines",
+      "difficulty": 1,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "At what speed and altitude range are turboprop engines most efficient?",
+      "correct_answer": "Between 250 and 400 mph and between 18,000 and 30,000 feet.",
+      "distractors": [
+        "Between 150 and 250 mph and between 10,000 and 18,000 feet.",
+        "Between 400 and 500 mph and between 30,000 and 40,000 feet.",
+        "Between 250 and 400 mph and between 10,000 and 18,000 feet."
+      ],
+      "explanation": "The chapter explicitly states the efficient speed and altitude ranges for turboprop engines, noting that the minimum specific fuel consumption is normally available in the altitude range of 25,000 feet up to the tropopause.",
+      "reference": {
+        "page": "15-2",
+        "text": "Turboprop engines are most efficient at speeds between 250 and 400 mph and altitudes between 18,000 and 30,000 feet."
+      }
+    },
+    {
+      "section": "Turboprop Engines",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "What is equivalent shaft horsepower (eshp) in a turboprop engine?",
+      "correct_answer": "Shaft horsepower plus jet thrust produced by exhaust leaving the engine.",
+      "distractors": [
+        "Shaft horsepower minus the power required to drive the engine's compressor section.",
+        "The total horsepower measured at the propeller shaft before reduction gearing.",
+        "Shaft horsepower multiplied by the propeller's efficiency percentage."
+      ],
+      "explanation": "The chapter explains that shaft horsepower is determined by rpm and torque applied to the propeller shaft. Since turboprops are gas turbine engines, some jet thrust is also produced, and this thrust is added to shaft horsepower to determine eshp. Jet thrust usually accounts for less than 10 percent of total engine power.",
+      "reference": {
+        "page": "15-2",
+        "text": "This thrust is added to the shaft horsepower to determine the total engine power or equivalent shaft horsepower (eshp). Jet thrust usually accounts for less than 10 percent of the total engine power."
+      }
+    },
+    {
+      "section": "Turboprop Engines",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "In cold weather conditions, which engine operating limit is most likely to be exceeded first when advancing the power lever on a turboprop engine?",
+      "correct_answer": "Torque limits can be exceeded while temperature limits are still within acceptable range.",
+      "distractors": [
+        "Temperature limits may be exceeded without exceeding torque limits.",
+        "Fuel flow limits will be reached before any other operating limit.",
+        "RPM limits will be exceeded before torque or temperature limits."
+      ],
+      "explanation": "The chapter explains that in cold weather, dense air allows the engine to produce more torque, so torque limits can be exceeded while temperature limits remain acceptable. In hot weather, the opposite occurs—temperature limits may be exceeded without exceeding torque limits. Reaching one operating limit normally occurs before the throttle reaches full forward.",
+      "reference": {
+        "page": "15-2",
+        "text": "In cold weather conditions, torque limits can be exceeded while temperature limits are still within acceptable range. In hot weather conditions, the maximum temperature limits may be exceeded without exceeding torque limits."
+      }
+    },
+    {
+      "section": "Turboprop Engine Types - Fixed-Shaft",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "In a fixed-shaft constant-speed turboprop engine, how are power changes accomplished during flight?",
+      "correct_answer": "By increasing fuel flow and propeller blade angle while engine speed remains constant.",
+      "distractors": [
+        "By varying engine rpm within a wide range from 70 to 100 percent.",
+        "By adjusting the condition lever to change the fuel metering rate.",
+        "By increasing engine rpm and decreasing propeller blade angle simultaneously."
+      ],
+      "explanation": "The chapter explains that in the fixed-shaft constant-speed engine, the engine operates at a constant speed maintained by the propeller governor. Power changes are made by increasing fuel flow, which increases temperature and energy to the turbine, producing more torque. The increased torque forces the propeller blade angle to increase to maintain constant speed.",
+      "reference": {
+        "page": "15-3",
+        "text": "Power changes are made by increasing fuel flow and propeller blade angle rather than engine speed. An increase in fuel flow causes an increase in temperature and a corresponding increase in energy available to the turbine."
+      }
+    },
+    {
+      "section": "Turboprop Engine Types - Fixed-Shaft",
       "difficulty": 3,
       "categories": [
         "written_exam",
         "checkride_oral"
       ],
-      "question": "In a failed, windmilling turboprop engine, which component is primarily responsible for potentially producing very high drag?",
-      "correct_answer": "The compressor",
+      "question": "What is the purpose of the negative torque sensing (NTS) system on a fixed-shaft turboprop engine?",
+      "correct_answer": "To limit the torque the engine can extract from the propeller during windmilling by automatically moving the blades toward their feathered position.",
       "distractors": [
-        "The turbine section, due to unrestricted exhaust gas flow",
-        "The combustion chamber, because of unburned fuel accumulation",
-        "The accessory gearbox, due to mechanical resistance from driven components"
+        "To automatically feather the propeller when the engine loses oil pressure during flight.",
+        "To prevent the propeller from overspeeding during a sudden power reduction.",
+        "To provide reverse thrust capability during landing rollout if the condition lever fails."
       ],
-      "explanation": "According to the Airplane Flying Handbook, over half of the engine's power is devoted to driving the compressor. In the event of a failed, windmilling engine, it is the compressor that can potentially produce very high drag.",
-      "reference": {
-        "page": "15-3",
-        "text": "Most of the air passing through the engine provides internal cooling. Only about 10 percent of the air that passes through the engine is\nactually used in the combustion process. Up to approximately 20 percent of the compressed air may be bled off for the purpose of\nheating, cooling, cabin pressurization, and pneumatic systems. Over half the engine power is devoted to driving the compressor, and\nit is the compressor that can potentially produce very high drag in the case of a failed, windmilling engine."
-      }
-    },
-    {
-      "section": "Turboprop Engine Types",
-      "difficulty": 3,
-      "categories": [
-        "written_exam"
-      ],
-      "question": "In a fixed-shaft constant-speed turboprop engine, when a pilot requests more power in flight, how is the additional energy from increased fuel flow absorbed while maintaining a constant engine RPM?",
-      "correct_answer": "The turbine transmits increased torque to the propeller, and the governing section increases propeller blade angle to absorb that torque while holding RPM constant",
-      "distractors": [
-        "The engine RPM increases proportionally with fuel flow, and the propeller blade angle remains unchanged since the governor only reacts to underspeed conditions",
-        "The compressor stages absorb the extra energy by increasing internal bleed air flow, which prevents RPM from rising beyond limits",
-        "The fuel control unit automatically limits fuel flow so that torque remains constant, requiring no change in propeller blade angle"
-      ],
-      "explanation": "According to AFH Chapter 15, in a fixed-shaft constant-speed turboprop, power changes are made by increasing fuel flow and propeller blade angle rather than engine speed. Increased fuel flow raises turbine temperature, making more energy available to the turbine. The turbine transmits this as increased torque to the propeller. To maintain constant speed, the propeller's governing section increases the blade angle, absorbing the additional torque. The engine RPM stays within a narrow range (96–100 percent in flight). The distractors are incorrect because: the first wrongly suggests RPM increases with fuel flow and the governor only reacts to underspeed; the second incorrectly attributes energy absorption to compressor bleed air rather than propeller blade angle; the third incorrectly claims torque remains constant and blade angle does not change.",
-      "reference": {
-        "page": "15-3",
-        "text": "In the fixed-shaft constant-speed engine, the engine rpm may be varied within a narrow range of 96 percent to 100 percent. During\nground operation, the rpm may be reduced to 70 percent. In flight, the engine operates at a constant speed that is maintained by the\ngoverning section of the propeller. Power changes are made by increasing fuel flow and propeller blade angle rather than engine\nspeed. An increase in fuel flow causes an increase in temperature and a corresponding increase in energy available to the turbine. The\nturbine absorbs more energy and transmits it to the propeller in the form of torque. The increased torque forces the propeller blade\nangle to be increased to maintain the constant speed. Turbine temperature is a very important factor to be considered in power\nproduction. It is directly related to fuel flow and thus to the power produced. It needs to be limited because of strength and durability\nof the material in the combustion and turbine section. The control system schedules fuel flow to produce specific temperatures and to\nlimit those temperatures so that the temperature tolerances of the combustion and turbine sections are not exceeded. The engine is\ndesigned to operate for its entire life at 100 percent. All of its components, such as compressors and turbines, are most efficient when\noperated at or near the rpm design point."
-      }
-    },
-    {
-      "section": "Split-Shaft/Free Turbine Engine",
-      "difficulty": 3,
-      "categories": [
-        "written_exam",
-        "checkride_oral"
-      ],
-      "question": "In a split-shaft/free turbine engine, how does propeller speed behavior in the beta range differ from operation within the governing range?",
-      "correct_answer": "The propeller governor does not maintain constant propeller speed when operating in the beta range",
-      "distractors": [
-        "The propeller governor maintains constant propeller speed in the beta range, but fuel flow is controlled manually instead of by the pneumatic fuel control system",
-        "The pneumatic fuel control system takes over propeller speed governing from the propeller governor when in the beta range",
-        "The propeller governor maintains constant propeller speed in the beta range, but only at the maximum RPM setting selected by the propeller control lever"
-      ],
-      "explanation": "According to AFH Chapter 15, in a split-shaft/free turbine engine, a pneumatic fuel control system schedules fuel flow to maintain the power set by the gas generator power lever. The propeller governor maintains constant propeller speed within the governing range at any selected propeller control lever position — except in the beta range. This means that when operating in beta, the governor's constant-speed function is not active, distinguishing it from normal governing range operation.",
+      "explanation": "The chapter describes NTS as an emergency backup system that activates when the engine suddenly loses power. It limits the torque the failed engine can extract from the windmilling propeller, moving blades toward feather to reduce drag. It is not a substitute for the feathering device controlled by the condition lever.",
       "reference": {
         "page": "15-5",
-        "text": "A pneumatic fuel control system schedules fuel flow to maintain the power set by the gas generator power lever. Except in the beta\nrange, propeller speed within the governing range remains constant at any selected propeller control lever position through the action\nof a propeller governor. 15-5"
+        "text": "The function of the negative torque sensing system is to limit the torque the engine can extract from the propeller during windmilling and thereby prevent large drag forces on the airplane. The NTS system causes a movement of the propeller blades automatically toward their feathered position should the engine suddenly lose power while in flight."
       }
     },
     {
       "section": "Split-Shaft/Free Turbine Engine",
-      "difficulty": 3,
+      "difficulty": 2,
       "categories": [
         "written_exam",
         "checkride_oral"
       ],
-      "question": "In the Pratt \u0026 Whitney PT-6 engine, 100 percent N1 corresponds to 37,000 RPM. What is the maximum continuous gas generator speed limit for this engine?",
-      "correct_answer": "38,100 RPM or 101.5 percent N1",
+      "question": "What is a key operational advantage of the split-shaft/free turbine engine design over the fixed-shaft design?",
+      "correct_answer": "The propeller can be feathered in flight or on the ground with the basic engine still running.",
       "distractors": [
-        "37,000 RPM or 100 percent N1",
-        "38,100 RPM or 100 percent N1",
-        "37,000 RPM or 101.5 percent N1"
+        "The engine operates at a higher maximum rpm, producing significantly more thrust.",
+        "The propeller is directly connected to the compressor for faster power response.",
+        "The engine has fewer moving parts and is lighter than a fixed-shaft engine."
       ],
-      "explanation": "According to AFH Chapter 15, the PT-6 gas generator tachometer (N1) is read in percent of rpm, with 100 percent based on 37,000 RPM. The maximum continuous gas generator speed is limited to 38,100 RPM, which equates to 101.5 percent N1. The distractors are incorrect because: 37,000 RPM/100% N1 is the baseline reference figure, not the maximum continuous limit; 38,100 RPM/100% N1 pairs the correct RPM with the wrong percentage; and 37,000 RPM/101.5% N1 pairs the correct percentage with the wrong RPM.",
+      "explanation": "The chapter states that in a free power-turbine engine, the propeller is driven by a separate turbine and is not on the same shaft as the engine turbine and compressor. This design allows the propeller to be feathered while the basic engine continues to run, and allows the pilot to select a desired propeller governing rpm independent of basic engine rpm.",
       "reference": {
-        "page": "15-8",
-        "text": "The ITT indicator gives an instantaneous reading of engine gas temperature between the compressor turbine and the power turbines.\nThe torquemeter responds to power lever movement and gives an indication in foot-pounds (ft/lb) of the torque being applied to the\npropeller. Because in the free turbine engine the propeller is not attached physically to the shaft of the gas turbine engine, two\ntachometers are justified—one for the propeller and one for the gas generator. The propeller tachometer is read directly in revolutions\nper minute. The N1 or gas generator is read in percent of rpm. In the Pratt \u0026 Whitney PT-6 engine, it is based on a figure of 37,000\nrpm at 100 percent. Maximum continuous gas generator is limited to 38,100 rpm or 101.5 percent N1."
+        "page": "15-5",
+        "text": "Unlike the fixed-shaft engine, in the split-shaft engine the propeller can be feathered in flight or on the ground with the basic engine still running. The free power-turbine design allows the pilot to select a desired propeller governing rpm, regardless of basic engine rpm."
+      }
+    },
+    {
+      "section": "Split-Shaft/Free Turbine Engine",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "On a split-shaft/free turbine engine, what is the function of the condition lever?",
+      "correct_answer": "It acts as an on/off valve for fuel delivery to the engine, with HIGH IDLE and LOW IDLE positions for ground operations, but has no metering function.",
+      "distractors": [
+        "It meters fuel to the engine like a mixture control on a piston engine, allowing the pilot to lean the mixture.",
+        "It sets the desired propeller governing rpm through the primary governor.",
+        "It directly controls propeller blade angle when operating in the beta range."
+      ],
+      "explanation": "The chapter explains that the condition lever on a free turbine engine controls fuel flow but is really just an on/off valve. It has HIGH IDLE and LOW IDLE positions for ground operations but no metering function. Leaning is not required in turbine engines; this function is performed automatically by a dedicated fuel control unit. The propeller lever controls propeller rpm, and the power lever controls beta range blade angle.",
+      "reference": {
+        "page": "15-6",
+        "text": "the condition lever on a turboprop engine is really just an on/off valve for delivering fuel. There are HIGH IDLE and LOW IDLE positions for ground operations, but condition levers have no metering function. Leaning is not required in turbine engines; this function is performed automatically by a dedicated fuel control unit."
       }
     },
     {
       "section": "Reverse Thrust and Beta Range Operations",
-      "difficulty": 3,
+      "difficulty": 2,
       "categories": [
         "written_exam",
         "checkride_oral"
       ],
-      "question": "When a turboprop pilot selects reverse thrust, how does the engine's power delivery and rotation compare to normal forward thrust operations?",
-      "correct_answer": "The engine continues to rotate and deliver power in the same direction; only the propeller blade angle changes to the other side of flat pitch",
+      "question": "What characterizes the beta range of propeller operation in a turboprop engine?",
+      "correct_answer": "The power lever directly controls propeller blade angle, with positions ranging from flight idle to maximum reverse.",
       "distractors": [
-        "The engine reverses its rotational direction to push air away from the airplane, creating braking action",
-        "The engine maintains the same rotation but reduces power output to idle, allowing the reversed blade angle to create drag",
-        "The engine maintains rotation direction but power delivery is reversed through a gearbox, causing thrust to act backward"
+        "The propeller governor maintains constant rpm while the power lever controls fuel flow to the engine.",
+        "The propeller is in its maximum pitch angle to minimize drag during engine-out conditions.",
+        "The propeller blades are positioned for maximum forward thrust efficiency at high airspeeds."
       ],
-      "explanation": "According to AFH Chapter 15, reverse pitch does not mean reverse rotation of the engine. The engine delivers power just the same, no matter which side of flat pitch the propeller blades are positioned. The engine/propeller turns in the same direction as in normal forward pitch, but the propeller blade angle is positioned to the other side of flat pitch, causing air to be pushed away from the airplane rather than being drawn over it. This creates braking action rather than forward thrust. The distractors are incorrect because they suggest either engine reversal, power reduction, or a gearbox-based reversal—none of which occur. The key insight is that reverse thrust is achieved solely through propeller blade angle changes, not engine mechanical changes.",
+      "explanation": "The chapter explains that when the power lever is positioned aft of flight idle, it directly controls propeller blade angle rather than engine fuel flow. This is the beta range, consisting of positions from flight idle to maximum reverse. In contrast, forward of flight idle is the alpha or governing mode, where the propeller governor selects pitch to maintain constant speed.",
       "reference": {
         "page": "15-9",
-        "text": "In the “reverse” pitch position, the engine/propeller turns in the same direction as in the normal (forward) pitch position, but the\npropeller blade angle is positioned to the other side of flat pitch. [Figure 15-8D] In reverse pitch, air is pushed away from the\nairplane rather than being drawn over it. Reverse pitch results in braking action, rather than forward thrust of the airplane. It is used\nfor backing away from obstacles when taxiing, controlling taxi speed, or to aid in bringing the airplane to a stop during the landing\nroll. Reverse pitch does not mean reverse rotation of the engine. The engine delivers power just the same, no matter which side of flat\npitch the propeller blades are positioned."
+        "text": "When positioned aft of flight idle, however, the power lever directly controls propeller blade angle. This is known as the 'beta' range of operation. The beta range of operation consists of power lever positions from flight idle to maximum reverse."
       }
     },
     {
       "section": "Reverse Thrust and Beta Range Operations",
-      "difficulty": 3,
+      "difficulty": 1,
       "categories": [
-        "written_exam"
+        "written_exam",
+        "general_knowledge"
       ],
-      "question": "On a split-shaft PT-6 engine, as the power lever is moved aft into reverse thrust, N1 rpm begins to increase at the negative 5° blade angle position. At what blade angle and N1 value is maximum reverse thrust achieved?",
-      "correct_answer": "Negative 11° blade angle and 85 percent N1",
+      "question": "When a turboprop propeller is placed in reverse pitch, what occurs?",
+      "correct_answer": "The engine continues to turn in the same direction, but the propeller blade angle is positioned to the other side of flat pitch, pushing air away from the airplane.",
       "distractors": [
-        "Negative 5° blade angle and 85 percent N1",
-        "Negative 11° blade angle and 100 percent N1",
-        "Negative 5° blade angle and 100 percent N1"
+        "The engine reverses its rotation direction, causing the propeller to push air forward.",
+        "The propeller is placed in flat pitch to create maximum drag without delivering engine power.",
+        "The propeller blades are feathered to stop rotation and maximize drag on the airplane."
       ],
-      "explanation": "According to AFH Chapter 15, on a split-shaft PT-6 engine, the negative 5° blade angle position is where N1 rpm begins to progressively increase with further aft movement of the power lever. Maximum reverse thrust is achieved at approximately negative 11° of blade angle and 85 percent N1. The distractors using negative 5° confuse the transition point where N1 begins increasing with the point of maximum reverse thrust, while the 100 percent N1 distractors present a plausible but incorrect maximum rpm value.",
+      "explanation": "The chapter clarifies that reverse pitch does not mean reverse rotation. The engine delivers power in the same direction, but the propeller blade angle is positioned to the other side of flat pitch, causing air to be pushed away from the airplane rather than drawn over it, resulting in braking action.",
       "reference": {
         "page": "15-9",
-        "text": "The beta range of operation consists of power lever positions from flight idle to maximum reverse. Beginning at power lever positions\njust aft of flight idle, propeller blade pitch angles become progressively flatter with aft movement of the power lever until they go\nbeyond maximum flat pitch and into negative pitch, resulting in reverse thrust. While in a fixed-shaft/constant-speed engine, the\nengine speed remains largely unchanged as the propeller blade angles achieve their negative values. On the split-shaft PT-6 engine, as\nthe negative 5° position is reached, further aft movement of the power lever also results in a progressive increase in engine (N1) rpm\nuntil a maximum value of about negative 11° of blade angle and 85 percent N1 are achieved. 15-9"
+        "text": "In the 'reverse' pitch position, the engine/propeller turns in the same direction as in the normal (forward) pitch position, but the propeller blade angle is positioned to the other side of flat pitch... Reverse pitch does not mean reverse rotation of the engine."
+      }
+    },
+    {
+      "section": "Turboprop Airplane Electrical Systems",
+      "difficulty": 1,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "How does a starter/generator function in a turboprop airplane's electrical system?",
+      "correct_answer": "It uses electrical power to produce mechanical torque to start the engine, then uses the engine's mechanical torque to produce electrical power after the engine is running.",
+      "distractors": [
+        "It uses electrical power to start the engine and is then physically disconnected from the engine by a clutch.",
+        "It uses hydraulic pressure to start the engine and then switches to producing electrical power from the engine.",
+        "It uses battery power to start the engine and is then replaced in operation by a separate, dedicated generator."
+      ],
+      "explanation": "The chapter describes starter/generators as DC generators that double as starter motors. They use electrical power to produce mechanical torque for engine starting, then reverse roles to use the engine's mechanical torque to produce electrical power once the engine is running.",
+      "reference": {
+        "page": "15-10",
+        "text": "The starter/generator uses electrical power to produce mechanical torque to start the engine and then uses the engine's mechanical torque to produce electrical power after the engine is running."
+      }
+    },
+    {
+      "section": "Turboprop Airplane Electrical Systems",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "What is the function of a current limiter in a turboprop airplane's electrical power distribution system?",
+      "correct_answer": "It protects buses from short circuits by opening the circuit to isolate the affected power source and separate the affected bus from the system when excessive current is supplied.",
+      "distractors": [
+        "It reduces the current supplied to essential buses during normal operations to prevent equipment overload.",
+        "It limits the maximum current output of the battery during engine start to prevent battery damage.",
+        "It automatically transfers power from the main buses to the essential buses when generator output decreases."
+      ],
+      "explanation": "The chapter describes current limiters as a type of fuse that protects power distribution buses from short circuits and malfunctions. When excessive current is supplied by any power source, the current limiter opens the circuit, isolating that power source and separating the affected bus from the system.",
+      "reference": {
+        "page": "15-11",
+        "text": "Power distribution buses are protected from short circuits and other malfunctions by a type of fuse called a current limiter. In the case of excessive current supplied by any power source, the current limiter opens the circuit and thereby isolates that power source and separates the affected bus from the system."
       }
     },
     {
       "section": "Operational Considerations",
-      "difficulty": 3,
+      "difficulty": 2,
       "categories": [
         "written_exam",
         "checkride_oral"
       ],
-      "question": "A pilot flying a split-shaft/free turbine engine at low RPM during agricultural operations advances the power lever slightly but notices minimal thrust response. What explains this observation?",
-      "correct_answer": "Below the last 30 percent of engine RPM, power application has very little effect",
+      "question": "What should a transitioning pilot understand about power response when flying an airplane equipped with a split-shaft/free turbine engine?",
+      "correct_answer": "Power output lags for several seconds when the power lever is moved from flight idle to a high power setting, and the last 30 percent of engine rpm represents the majority of engine thrust.",
       "distractors": [
-        "The power lever is disconnected from the fuel control unit at flight idle",
-        "Free turbine engines cannot produce any thrust below 50 percent of rated RPM",
-        "Compressor stall prevents thrust production at low RPM settings"
+        "Power response is instantaneous, similar to a piston engine with a constant-speed propeller.",
+        "Power output temporarily decreases when the power lever is advanced rapidly, then recovers.",
+        "The engine responds immediately, but the propeller takes several seconds to adjust its blade angle."
       ],
-      "explanation": "According to AFH Chapter 15, in a split-shaft/free turbine engine, the last 30 percent of engine RPM represents the majority of engine thrust. Below that setting, the application of power has very little effect. This is why pilots transitioning from piston engines must anticipate power changes more and understand that greater physical movement of the power levers is required, especially during operations like agricultural application or firefighting that require maneuvering close to the ground at or near flight idle.",
+      "explanation": "The chapter explains that in a split-shaft/free turbine engine, power output lags for several seconds when the power lever is moved from flight idle to high power. This may surprise pilots transitioning from piston or fixed-shaft turboprop engines. The pilot should anticipate power changes and understand that the last 30 percent of engine rpm produces the majority of thrust.",
       "reference": {
         "page": "15-11",
-        "text": "The first issue concerns the split-shaft/free turbine engine, where power output lags for several seconds when the pilot moves the\npower lever from flight idle to a high power setting. This delay may surprise a pilot who has only flown airplanes with a piston\nengine (or a fixed-shaft turboprop). Certain operations such as firefighting and agricultural application require maneuvering close to\nthe ground while operating at or near flight idle. Although smooth power applications are still the rule, the pilot should be aware that\na greater physical movement of the power levers is required as compared to throttle movement in a piston engine. The pilot should\nunderstand the lag and anticipate and lead the power changes more than in the past and should keep in mind that the last 30 percent of\nengine rpm represents the majority of the engine thrust. Below that setting, the application of power has very little effect. 15-11"
+        "text": "the split-shaft/free turbine engine, where power output lags for several seconds when the pilot moves the power lever from flight idle to a high power setting... the pilot should understand the lag and anticipate and lead the power changes more than in the past and should keep in mind that the last 30 percent of engine rpm represents the majority of the engine thrust."
       }
     },
     {
       "section": "Operational Considerations",
-      "difficulty": 3,
-      "categories": [
-        "general_knowledge"
-      ],
-      "question": "A pilot transitioning from piston aircraft to a split-shaft/free turbine turboprop plans to conduct agricultural application. While maneuvering close to the ground near flight idle, what must the pilot understand about power management compared to their previous piston experience?",
-      "correct_answer": "Power output lags for several seconds when advancing from flight idle, so the pilot must anticipate and lead power changes more than in a piston engine, while still applying power smoothly.",
-      "distractors": [
-        "Power response is nearly instantaneous at all settings, but greater physical lever movement is needed because the last 30 percent of RPM produces little thrust.",
-        "The pilot should make abrupt power lever inputs to overcome the inherent lag, since smooth applications are ineffective below 70 percent of engine RPM.",
-        "Operating near flight idle is not permitted in free turbine engines, so the pilot must maintain at least 50 percent power during low-level agricultural maneuvers."
-      ],
-      "explanation": "According to AFH Chapter 15, a split-shaft/free turbine engine experiences a power output lag of several seconds when the power lever is moved from flight idle to a high power setting. This is particularly critical for operations like firefighting and agricultural application that require maneuvering close to the ground at or near flight idle. Although smooth power applications remain the rule, the pilot must understand the lag, anticipate and lead power changes more than in a piston engine, and recognize that the last 30 percent of engine RPM represents the majority of engine thrust. Distractor A is wrong because power response is not instantaneous and the last 30 percent of RPM produces the majority of thrust, not little thrust. Distractor B is wrong because smooth power applications are still the rule, not abrupt inputs. Distractor C is wrong because the handbook explicitly states these operations require operating at or near flight idle.",
-      "reference": {
-        "page": "15-11",
-        "text": "The first issue concerns the split-shaft/free turbine engine, where power output lags for several seconds when the pilot moves the\npower lever from flight idle to a high power setting. This delay may surprise a pilot who has only flown airplanes with a piston\nengine (or a fixed-shaft turboprop). Certain operations such as firefighting and agricultural application require maneuvering close to\nthe ground while operating at or near flight idle. Although smooth power applications are still the rule, the pilot should be aware that\na greater physical movement of the power levers is required as compared to throttle movement in a piston engine. The pilot should\nunderstand the lag and anticipate and lead the power changes more than in the past and should keep in mind that the last 30 percent of\nengine rpm represents the majority of the engine thrust. Below that setting, the application of power has very little effect. 15-11"
-      }
-    },
-    {
-      "section": "Aviation Administration (FAA)-approved Airplane Flight Manual and/or the Pilot’s Operating Handbook (AFM/POH). The",
-      "difficulty": 3,
+      "difficulty": 2,
       "categories": [
         "written_exam",
         "checkride_oral"
       ],
-      "question": "A pilot is departing from a high-elevation airport on a hot day and notices engine temperatures approaching maximum limits during a high-power takeoff. Why does this occur, and what must the pilot do?",
-      "correct_answer": "Engine temperature climbs as altitude increases at constant power, and the compressor works harder in decreased air density, so power may need to be modulated to keep temperature within limits.",
+      "question": "What is a 'hot start' in a turbine engine, and what may be the first indication that one is occurring?",
+      "correct_answer": "A condition where the engine tends to exceed maximum starting temperature limits, which may be preceded by unusually high initial fuel flow.",
       "distractors": [
-        "Reduced air density at high-density altitude causes the compressor to produce less thrust, so power must be reduced to match the available airflow.",
-        "High-density altitude causes fuel-to-air mixtures to become excessively rich at full power, so power must be reduced to lean the mixture properly.",
-        "Engine oil pressure drops at high-density altitude, so power must be reduced to protect the lubrication system from excessive wear."
+        "A start where engine temperature rises gradually but exceeds limits after the engine stabilizes at idle.",
+        "A start where the engine accelerates too quickly due to excessive battery voltage supplied to the starter.",
+        "A start where the engine reaches normal temperature but exhaust gas temperature exceeds cruise limits after takeoff."
       ],
-      "explanation": "According to AFH Chapter 15, at any given high-horsepower operation, engine temperature climbs as altitude increases at constant power. On a warm or hot day, maximum temperature limits may be reached at a rather low altitude. Additionally, the engine's compressor section has to work harder with decreased air density. Power capability is reduced by high-density altitude, and power use may have to be modulated to keep engine temperature within limits. The distractors are incorrect because they cite wrong causes: the compressor working harder (not producing less thrust) is the issue, mixture richness is not the stated concern, and oil pressure is not mentioned as the limiting factor.",
+      "explanation": "The chapter defines a hot start as an engine tendency to exceed maximum starting temperature limits. After fuel is introduced during the start sequence, light-off and heat rise occur very quickly, and temperatures may approach maximum in 2 or 3 seconds. Unusually high initial fuel flow may be the first indication of a hot start, and serious engine damage occurs if it is allowed to continue.",
+      "reference": {
+        "page": "15-12",
+        "text": "An engine tendency to exceed maximum starting temperature limits is termed a hot start. The temperature rise may be preceded by unusually high initial fuel flow, which may be the first indication the pilot has that the engine start is not proceeding normally."
+      }
+    },
+    {
+      "section": "Operational Considerations",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "What characterizes a 'hung start' or 'false start' in a turbine engine?",
+      "correct_answer": "The engine accelerates more slowly than normal and may stabilize at an rpm too low for the engine to continue running without help from the starter.",
+      "distractors": [
+        "The engine starts normally but then loses power shortly after the starter disengages.",
+        "The engine temperature rises rapidly while the rpm remains fixed at the initial starting value.",
+        "The engine starts but produces significantly less than rated power due to a malfunctioning fuel control unit."
+      ],
+      "explanation": "The chapter describes a hung start as a condition where the engine is accelerating more slowly than normal. The engine may stabilize at an rpm that is not high enough for it to continue running without starter assistance. This is usually caused by low battery power or the starter not turning the engine fast enough.",
+      "reference": {
+        "page": "15-12",
+        "text": "A condition where the engine is accelerating more slowly than normal is termed a hung start or false start. During a hung start/false start, the engine may stabilize at an engine rpm that is not high enough for the engine to continue to run without help from the starter. This is usually the result of low battery power or the starter not turning the engine fast enough for it to start properly."
+      }
+    },
+    {
+      "section": "Operational Considerations",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "How is takeoff power typically set in a turboprop airplane?",
+      "correct_answer": "Takeoff power may be limited by either torque or engine temperature, and the power lever position is normally somewhat aft of full forward.",
+      "distractors": [
+        "The power lever is advanced full forward to the stops to ensure maximum available power is delivered.",
+        "Takeoff power is set by advancing the power lever until fuel flow reaches its maximum indicated value.",
+        "The condition lever is advanced to set takeoff rpm while the power lever modulates fuel flow."
+      ],
+      "explanation": "The chapter explicitly states that takeoffs in turboprop airplanes are not made by automatically pushing the power lever full forward. Depending on conditions, takeoff power may be limited by torque or engine temperature. The power lever position on takeoff is normally somewhat aft of full forward because reaching an operating limit typically occurs before the throttle reaches the full forward position.",
+      "reference": {
+        "page": "15-12",
+        "text": "Takeoffs in turboprop airplanes are not made by automatically pushing the power lever full forward to the stops. As stated earlier, depending on conditions, takeoff power may be limited by either torque or by engine temperature. Normally, the power lever position on takeoff is somewhat aft of full forward."
+      }
+    },
+    {
+      "section": "Operational Considerations",
+      "difficulty": 2,
+      "categories": [
+        "checkride_oral",
+        "general_knowledge"
+      ],
+      "question": "Why might it be preferable to maintain power through the flare and touchdown when landing some turboprop airplanes?",
+      "correct_answer": "Large propellers spinning rapidly in low pitch create considerable drag, and idling the engines too soon can result in a hard, premature touchdown.",
+      "distractors": [
+        "The engines must be at operating temperature to ensure proper beta range operation after landing.",
+        "Maintaining power prevents the constant-speed propeller from automatically feathering during the flare.",
+        "The propeller needs engine power to maintain the correct blade angle for touchdown."
+      ],
+      "explanation": "The chapter explains that large propellers in low pitch create considerable drag. If the engines are idled too soon during landing, this drag can cause a hard, premature touchdown. In some turboprop airplanes, it may be preferable to maintain power throughout the flare and touchdown, then use beta range operation once on the ground to reduce landing roll.",
       "reference": {
         "page": "15-13",
-        "text": "For any given high-horsepower operation, the pilot can expect that the engine temperature will climb as altitude increases at a\nconstant power. On a warm or hot day, maximum temperature limits may be reached at a rather low altitude, making it impossible to\nmaintain high horsepower to higher altitudes. Also, the engine’s compressor section has to work harder with decreased air density.\nPower capability is reduced by high-density altitude and power use may have to be modulated to keep engine temperature within\nlimits."
+        "text": "Landing some turboprop airplanes (as well as some piston twins) can result in a hard, premature touchdown if the engines are idled too soon. This is because large propellers spinning rapidly in low pitch create considerable drag. In such airplanes, it may be preferable to maintain power throughout the landing flare and touchdown."
       }
     },
     {
-      "section": "Aviation Administration (FAA)-approved Airplane Flight Manual and/or the Pilot’s Operating Handbook (AFM/POH). The",
-      "difficulty": 3,
+      "section": "Training Considerations",
+      "difficulty": 1,
       "categories": [
         "written_exam",
-        "checkride_oral"
+        "general_knowledge"
       ],
-      "question": "A pilot is flying an airplane equipped with a split shaft/free turbine engine. What characteristic of this engine requires the pilot to anticipate power demands during approach and landing?",
-      "correct_answer": "A delay in engine response due to lag in \"spool-up\" time.",
+      "question": "What topics should thorough ground training cover for a pilot transitioning to turboprop airplanes?",
+      "correct_answer": "High-altitude flight environment, weather, flight planning and navigation, physiological aspects of high-altitude flight, oxygen and pressurization system operation, and high-altitude emergencies.",
       "distractors": [
-        "The engine is prone to cooling too rapidly if power is not applied promptly.",
-        "The propellers automatically feather when power is reduced, requiring time to unfeather.",
-        "The engine experiences unstable fuel flow at low RPMs, causing power fluctuations."
+        "Only aircraft systems and emergency procedures specific to the turboprop engine type being flown.",
+        "Basic aerodynamics, weight and balance calculations, and standard traffic pattern procedures.",
+        "Type-specific procedures for beta range operation, reverse thrust, and engine starting only."
       ],
-      "explanation": "According to the Airplane Flying Handbook (AFH Chapter 15), when flying an airplane equipped with a split shaft/free turbine engine, the pilot should anticipate the demand for power and account for any lag in 'spool-up' time. Unlike piston engines, the AFH notes that turboprop pilots can close the throttles at any time without concern for cooling the engine too rapidly, but the free turbine design inherently takes longer to accelerate to the required RPM when power is reapplied.",
+      "explanation": "The chapter emphasizes that the medium and high altitudes at which turboprops operate provide an entirely different environment. Ground training should cover all aspects of high/medium altitude flight, including the flight environment, weather, flight planning and navigation, physiological aspects, oxygen and pressurization system operation, and high-altitude emergencies.",
       "reference": {
         "page": "15-13",
-        "text": "In a turboprop airplane, the pilot can close the throttles(s) at any time without concern for cooling the engine too rapidly.\nConsequently, rapid descents with the propellers in low pitch can be dramatically steep. Like takeoffs and departures, approach and\nlanding should be accomplished in accordance with a standard approach and landing profile. [Figure 15-12] However, when flying\nan airplane equipped with a split shaft/free turbine engine, the pilot should anticipate the demand for power and account for any lag in\n“spool-up” time."
-      }
-    },
-    {
-      "section": "Gas Turbine Engine",
-      "difficulty": 2,
-      "categories": [
-        "written_exam"
-      ],
-      "question": "A student pilot is comparing piston and gas turbine engines. How would you describe the key difference in how the cycle events (induction, compression, combustion, expansion, and exhaust) occur in each engine type?",
-      "correct_answer": "In a piston engine, each event is a separate distinct occurrence in each cylinder, while in a gas turbine engine, all phases occur simultaneously and continuously",
-      "distractors": [
-        "In a piston engine, all phases occur simultaneously and continuously, while in a gas turbine engine, each event is a separate distinct occurrence in each section",
-        "Both engines have cycle events that occur simultaneously and continuously, but piston engines require a separate ignition event for each cycle while gas turbines do not",
-        "In a piston engine, cycle events occur simultaneously within each cylinder but sequentially between cylinders, while in a gas turbine engine, events occur continuously throughout"
-      ],
-      "explanation": "According to AFH Chapter 15, in a piston engine, each cycle event (induction, compression, combustion, expansion, exhaust) is a separate distinct occurrence in each cylinder. In contrast, gas turbine engines have these phases of power occur simultaneously and continuously instead of successively one cycle at a time. This is a fundamental difference between the two internal combustion engine types, despite both sharing the same basic cycle of operation.",
-      "reference": {
-        "page": "15-1",
-        "text": "Both piston (reciprocating) engines and gas turbine engines are internal combustion engines. They have a similar cycle of operation\nthat consists of induction, compression, combustion, expansion, and exhaust. In a piston engine, each of these events is a separate\ndistinct occurrence in each cylinder. Also in a piston engine, an ignition event occurs during each cycle in each cylinder. Unlike\nreciprocating engines, in gas turbine engines these phases of power occur simultaneously and continuously instead of successively\none cycle at a time. Additionally, ignition occurs during the starting cycle and is continuous thereafter. The basic gas turbine engine\ncontains four sections: intake, compression, combustion, and exhaust. [Figure 15-1]"
-      }
-    },
-    {
-      "section": "Gas Turbine Engine",
-      "difficulty": 2,
-      "categories": [
-        "written_exam"
-      ],
-      "question": "How does the ignition process differ between a reciprocating piston engine and a gas turbine engine?",
-      "correct_answer": "A piston engine has an ignition event during each cycle in each cylinder, while a gas turbine engine ignites during starting and continuously thereafter.",
-      "distractors": [
-        "A piston engine ignites continuously after starting, while a gas turbine engine has an ignition event during each cycle in each cylinder.",
-        "Both engine types require an ignition event during each cycle, but a gas turbine engine ignites simultaneously across all cylinders.",
-        "A piston engine only requires ignition during the starting cycle, while a gas turbine engine requires ignition during each successive cycle."
-      ],
-      "explanation": "According to the Airplane Flying Handbook, in a piston engine, an ignition event occurs during each cycle in each cylinder. In contrast, a gas turbine engine's phases of power occur simultaneously and continuously, and ignition occurs during the starting cycle and is continuous thereafter.",
-      "reference": {
-        "page": "15-1",
-        "text": "Both piston (reciprocating) engines and gas turbine engines are internal combustion engines. They have a similar cycle of operation\nthat consists of induction, compression, combustion, expansion, and exhaust. In a piston engine, each of these events is a separate\ndistinct occurrence in each cylinder. Also in a piston engine, an ignition event occurs during each cycle in each cylinder. Unlike\nreciprocating engines, in gas turbine engines these phases of power occur simultaneously and continuously instead of successively\none cycle at a time. Additionally, ignition occurs during the starting cycle and is continuous thereafter. The basic gas turbine engine\ncontains four sections: intake, compression, combustion, and exhaust. [Figure 15-1]"
-      }
-    },
-    {
-      "section": "Gas Turbine Engine",
-      "difficulty": 2,
-      "categories": [
-        "written_exam"
-      ],
-      "question": "A piston engine and a gas turbine engine both use a cycle of induction, compression, combustion, expansion, and exhaust. What is the key difference in how these phases occur in a gas turbine engine compared to a reciprocating engine?",
-      "correct_answer": "The phases occur simultaneously and continuously rather than one at a time in sequence",
-      "distractors": [
-        "The phases occur in the same successive sequence but at a much higher rate due to increased RPM",
-        "The engine combines compression and combustion into a single continuous phase, eliminating the need for separate induction",
-        "The phases occur in reverse order to maintain continuous airflow through the engine sections"
-      ],
-      "explanation": "According to AFH Chapter 15, in a piston engine each event (induction, compression, combustion, expansion, exhaust) is a separate and distinct occurrence in each cylinder. In contrast, a gas turbine engine performs all of these phases simultaneously and continuously rather than successively one cycle at a time. This is a fundamental operational difference between the two engine types, even though both are internal combustion engines with the same basic cycle of operation.",
-      "reference": {
-        "page": "15-1",
-        "text": "Both piston (reciprocating) engines and gas turbine engines are internal combustion engines. They have a similar cycle of operation\nthat consists of induction, compression, combustion, expansion, and exhaust. In a piston engine, each of these events is a separate\ndistinct occurrence in each cylinder. Also in a piston engine, an ignition event occurs during each cycle in each cylinder. Unlike\nreciprocating engines, in gas turbine engines these phases of power occur simultaneously and continuously instead of successively\none cycle at a time. Additionally, ignition occurs during the starting cycle and is continuous thereafter. The basic gas turbine engine\ncontains four sections: intake, compression, combustion, and exhaust. [Figure 15-1]"
-      }
-    },
-    {
-      "section": "Gas Turbine Engine",
-      "difficulty": 2,
-      "categories": [
-        "written_exam",
-        "checkride_oral"
-      ],
-      "question": "How does the ignition process in a gas turbine engine differ from that of a reciprocating engine?",
-      "correct_answer": "Ignition occurs during the starting cycle and is continuous thereafter, whereas a reciprocating engine has a separate ignition event during each cycle in each cylinder.",
-      "distractors": [
-        "Ignition occurs only during the starting cycle and then shuts off completely, similar to a reciprocating engine.",
-        "Ignition is manually controlled by the pilot and activated only when combustion needs to be restarted.",
-        "Ignition occurs once per complete engine cycle, just as in a reciprocating engine, but across all combustion chambers simultaneously."
-      ],
-      "explanation": "According to AFH Chapter 15, a key difference between reciprocating and gas turbine engines is that in a piston engine, an ignition event occurs during each cycle in each cylinder as a separate distinct occurrence. In contrast, gas turbine engines operate with simultaneous and continuous phases of power, and ignition occurs during the starting cycle and is continuous thereafter.",
-      "reference": {
-        "page": "15-1",
-        "text": "Both piston (reciprocating) engines and gas turbine engines are internal combustion engines. They have a similar cycle of operation\nthat consists of induction, compression, combustion, expansion, and exhaust. In a piston engine, each of these events is a separate\ndistinct occurrence in each cylinder. Also in a piston engine, an ignition event occurs during each cycle in each cylinder. Unlike\nreciprocating engines, in gas turbine engines these phases of power occur simultaneously and continuously instead of successively\none cycle at a time. Additionally, ignition occurs during the starting cycle and is continuous thereafter. The basic gas turbine engine\ncontains four sections: intake, compression, combustion, and exhaust. [Figure 15-1]"
-      }
-    },
-    {
-      "section": "Gas Turbine Engine",
-      "difficulty": 2,
-      "categories": [
-        "written_exam",
-        "general_knowledge"
-      ],
-      "question": "In a gas turbine engine, some compressed air bypasses the burner section rather than participating in combustion. What is the primary purpose of this bypass air?",
-      "correct_answer": "To provide internal cooling of the engine",
-      "distractors": [
-        "To supply additional oxygen for more complete fuel combustion",
-        "To maintain compressor rpm during the starting sequence",
-        "To preheat the fuel/air mixture before it enters the combustion chamber"
-      ],
-      "explanation": "According to AFH Chapter 15, not all compressed air in a gas turbine engine is used to support combustion. Some compressed air bypasses the burner section to provide internal cooling. This is critical because the combustion chamber reaches temperatures around 4,000°F, and when the bypass air mixes with the hot combustion gases, the temperature drops to 1,600–2,400°F before passing through the turbine blades. The bypass air does not supply additional oxygen for combustion, does not maintain compressor rpm, and does not preheat the fuel/air mixture.",
-      "reference": {
-        "page": "15-1",
-        "text": "To start a gas turbine engine, the compressor section is normally rotated by an electric starter. As compressor revolutions per minute\n(rpm) increase, air flowing through the inlet is compressed to a high pressure, delivered to the combustion section, and ignited. In gas\nturbine engines, not all of the compressed air is used to support combustion. Some of the compressed air bypasses the burner section\nwithin the engine to provide internal cooling. The fuel/air mixture in the combustion chamber burns in a continuous combustion\nprocess and produces a very high temperature, typically around 4,000° Fahrenheit (F). When this hot air mixes with bypass air, the\ntemperature of the mixed air mass drops to 1,600 – 2,400 °F. The mixture of hot air and gases expands and passes through the turbine\nblades forcing the turbine section to rotate. The turbine drives the compressor section by means of a direct shaft, a concentric shaft, or\na combination of both. After powering the turbine section, the combustion gases and bypass air flow out of the engine through the\nexhaust. Once the hot gases from the burner section provide sufficient power to maintain engine operation through the turbine, the\nstarter is de-energized, and the starting sequence ends. Combustion continues until the engine is shut down by cutting off the fuel\nsupply."
-      }
-    },
-    {
-      "section": "Gas Turbine Engine",
-      "difficulty": 2,
-      "categories": [
-        "written_exam",
-        "general_knowledge"
-      ],
-      "question": "A student pilot is comparing gas turbine engines to reciprocating engines. Which statement correctly describes the combustion process in a gas turbine engine?",
-      "correct_answer": "Combustion is continuous once started, producing temperatures of approximately 4,000°F in the combustion chamber",
-      "distractors": [
-        "Combustion occurs intermittently with each power stroke, producing temperatures of approximately 4,000°F in the combustion chamber",
-        "Combustion is continuous once started, producing temperatures of approximately 1,600–2,400°F in the combustion chamber",
-        "Combustion occurs intermittently with each power stroke, producing temperatures of approximately 1,600–2,400°F in the combustion chamber"
-      ],
-      "explanation": "According to AFH Chapter 15, the fuel/air mixture in a gas turbine combustion chamber burns in a continuous combustion process, unlike the intermittent combustion of a reciprocating engine. This continuous combustion produces a temperature typically around 4,000°F. The lower temperature range of 1,600–2,400°F mentioned in the source refers to the temperature after the hot combustion gases mix with bypass air, not the temperature within the combustion chamber itself. The distractors are incorrect because they either describe intermittent combustion (confusing turbine operation with reciprocating engine power strokes) or cite the post-mixing temperature rather than the actual combustion chamber temperature.",
-      "reference": {
-        "page": "15-1",
-        "text": "To start a gas turbine engine, the compressor section is normally rotated by an electric starter. As compressor revolutions per minute\n(rpm) increase, air flowing through the inlet is compressed to a high pressure, delivered to the combustion section, and ignited. In gas\nturbine engines, not all of the compressed air is used to support combustion. Some of the compressed air bypasses the burner section\nwithin the engine to provide internal cooling. The fuel/air mixture in the combustion chamber burns in a continuous combustion\nprocess and produces a very high temperature, typically around 4,000° Fahrenheit (F). When this hot air mixes with bypass air, the\ntemperature of the mixed air mass drops to 1,600 – 2,400 °F. The mixture of hot air and gases expands and passes through the turbine\nblades forcing the turbine section to rotate. The turbine drives the compressor section by means of a direct shaft, a concentric shaft, or\na combination of both. After powering the turbine section, the combustion gases and bypass air flow out of the engine through the\nexhaust. Once the hot gases from the burner section provide sufficient power to maintain engine operation through the turbine, the\nstarter is de-energized, and the starting sequence ends. Combustion continues until the engine is shut down by cutting off the fuel\nsupply."
-      }
-    },
-    {
-      "section": "Gas Turbine Engine",
-      "difficulty": 2,
-      "categories": [
-        "written_exam",
-        "general_knowledge"
-      ],
-      "question": "In a gas turbine engine, some compressed air bypasses the burner section rather than supporting combustion. What is the effect when this bypass air mixes with the hot combustion gases produced in the burner section?",
-      "correct_answer": "The temperature of the mixed air mass drops to approximately 1,600–2,400°F",
-      "distractors": [
-        "The temperature of the mixed air mass drops to approximately 800–1,200°F",
-        "The temperature of the mixed air mass remains at approximately 4,000°F",
-        "The temperature of the mixed air mass increases to approximately 5,000–6,000°F"
-      ],
-      "explanation": "According to AFH Chapter 15, the fuel/air mixture in the combustion chamber burns continuously and produces temperatures of approximately 4,000°F. Not all compressed air is used for combustion; some bypasses the burner section to provide internal cooling. When this cooler bypass air mixes with the hot combustion gases, the temperature of the combined air mass drops to approximately 1,600–2,400°F before expanding through the turbine blades. This cooling is critical to prevent damage to the turbine section.",
-      "reference": {
-        "page": "15-1",
-        "text": "To start a gas turbine engine, the compressor section is normally rotated by an electric starter. As compressor revolutions per minute\n(rpm) increase, air flowing through the inlet is compressed to a high pressure, delivered to the combustion section, and ignited. In gas\nturbine engines, not all of the compressed air is used to support combustion. Some of the compressed air bypasses the burner section\nwithin the engine to provide internal cooling. The fuel/air mixture in the combustion chamber burns in a continuous combustion\nprocess and produces a very high temperature, typically around 4,000° Fahrenheit (F). When this hot air mixes with bypass air, the\ntemperature of the mixed air mass drops to 1,600 – 2,400 °F. The mixture of hot air and gases expands and passes through the turbine\nblades forcing the turbine section to rotate. The turbine drives the compressor section by means of a direct shaft, a concentric shaft, or\na combination of both. After powering the turbine section, the combustion gases and bypass air flow out of the engine through the\nexhaust. Once the hot gases from the burner section provide sufficient power to maintain engine operation through the turbine, the\nstarter is de-energized, and the starting sequence ends. Combustion continues until the engine is shut down by cutting off the fuel\nsupply."
-      }
-    },
-    {
-      "section": "Gas Turbine Engine",
-      "difficulty": 2,
-      "categories": [
-        "written_exam",
-        "checkride_oral"
-      ],
-      "question": "In a gas turbine engine, how is rotational power transmitted from the turbine section to drive the compressor section during normal operation?",
-      "correct_answer": "By means of a direct shaft, a concentric shaft, or a combination of both",
-      "distractors": [
-        "Through a hydraulic coupling that automatically adjusts for varying engine speeds",
-        "Via a gear reduction system similar to a turboprop propeller gearbox",
-        "By an electric motor that remains engaged throughout engine operation"
-      ],
-      "explanation": "According to AFH Chapter 15, the hot gases from combustion expand and pass through the turbine blades, forcing the turbine section to rotate. The turbine then drives the compressor section by means of a direct shaft, a concentric shaft, or a combination of both. The electric starter is only used to initially rotate the compressor for starting and is de-energized once the turbine provides sufficient power to maintain engine operation. There is no hydraulic coupling or gear reduction system described between the turbine and compressor.",
-      "reference": {
-        "page": "15-1",
-        "text": "To start a gas turbine engine, the compressor section is normally rotated by an electric starter. As compressor revolutions per minute\n(rpm) increase, air flowing through the inlet is compressed to a high pressure, delivered to the combustion section, and ignited. In gas\nturbine engines, not all of the compressed air is used to support combustion. Some of the compressed air bypasses the burner section\nwithin the engine to provide internal cooling. The fuel/air mixture in the combustion chamber burns in a continuous combustion\nprocess and produces a very high temperature, typically around 4,000° Fahrenheit (F). When this hot air mixes with bypass air, the\ntemperature of the mixed air mass drops to 1,600 – 2,400 °F. The mixture of hot air and gases expands and passes through the turbine\nblades forcing the turbine section to rotate. The turbine drives the compressor section by means of a direct shaft, a concentric shaft, or\na combination of both. After powering the turbine section, the combustion gases and bypass air flow out of the engine through the\nexhaust. Once the hot gases from the burner section provide sufficient power to maintain engine operation through the turbine, the\nstarter is de-energized, and the starting sequence ends. Combustion continues until the engine is shut down by cutting off the fuel\nsupply."
+        "text": "Thorough ground training should cover all aspects of high/medium altitude flight, including the flight environment, weather, flight planning and navigation, physiological aspects of high-altitude flight, oxygen and pressurization system operation, and high-altitude emergencies."
       }
     }
   ]

@@ -4,261 +4,343 @@
   "questions": [
     {
       "section": "Effect and Use of Flight Controls",
-      "difficulty": 3,
+      "difficulty": 2,
       "categories": [
         "written_exam",
         "checkride_oral"
       ],
-      "question": "A VFR pilot inadvertently flies into instrument meteorological conditions (IMC) and attempts to maintain aircraft control using only the physical \"feel\" of the airplane's movement. According to the Airplane Flying Handbook, what is the likely outcome of this approach?",
-      "correct_answer": "Disorientation and loss of aircraft control, because the kinesthetic sense has limits when relied upon without visual information",
+      "question": "While maneuvering an airplane, what should the pilot focus on rather than the amount of control surface displacement?",
+      "correct_answer": "The application of flight control pressures that give the desired result",
       "distractors": [
-        "The pilot can safely maintain control for a limited time, since kinesthesis provides reliable direction and speed information for short periods",
-        "The pilot can maintain straight-and-level flight but will be unable to execute turns, as kinesthesis only supports limited maneuvering",
-        "The kinesthetic sense will gradually adapt to the lack of visual references, allowing the pilot to regain full control within several minutes"
+        "The physical position of the control surface relative to its streamlined position",
+        "The rate at which the control surface returns to neutral after input",
+        "The total range of travel available for the control surface being used"
       ],
-      "explanation": "The Airplane Flying Handbook (Chapter 3) states that while kinesthesis (the ability to sense movement through the body) can provide critical information about changes in direction and speed when properly developed, there are limits to the kinesthetic sense when relied upon solely without visual information, such as in IMC. The handbook explicitly states that sole reliance on the kinesthetic sense ultimately leads to disorientation and loss of aircraft control. This is why pilots need flight instruments to provide visual information when outside visual references are lost.",
+      "explanation": "The chapter states that resistance to movement increases with airspeed and as controls move from streamlined position, but the pilot should focus on control pressures, not displacement. 'It is not the amount of control surface displacement the pilot needs to consider, but rather the application of flight control pressures that give the desired result.'",
       "reference": {
         "page": "3-3",
-        "text": "Humans sense “feel” through kinesthesis (the ability to sense movement through the body) and proprioception (unconscious\nperception of movement and spatial orientation). These stimuli are detected by nerves and by the semicircular canals of the inner ear.\nWhen properly developed, kinesthesis can provide the pilot with critical information about changes in the airplane’s direction and\nspeed; however, there are limits in kinesthetic sense when relied upon solely without visual information, as when flying in instrument\nmeteorological conditions (IMC). Sole reliance on the kinesthetic sense ultimately leads to disorientation and loss of aircraft control."
+        "text": "While maneuvering the airplane, it is not the amount of control surface displacement the pilot needs to consider, but rather the application of flight control pressures that give the desired result."
+      }
+    },
+    {
+      "section": "Feel of the Airplane",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "What is the risk of relying solely on kinesthetic sense without visual information when flying?",
+      "correct_answer": "It ultimately leads to disorientation and loss of aircraft control",
+      "distractors": [
+        "It can only detect changes in airspeed and cannot sense changes in direction",
+        "It is only reliable during instrument meteorological conditions with no outside references",
+        "It requires constant engine sound feedback to function properly"
+      ],
+      "explanation": "The chapter explains that kinesthesis can provide critical information about changes in direction and speed, but has limits when relied upon solely without visual information. 'Sole reliance on the kinesthetic sense ultimately leads to disorientation and loss of aircraft control.'",
+      "reference": {
+        "page": "3-3",
+        "text": "Sole reliance on the kinesthetic sense ultimately leads to disorientation and loss of aircraft control."
+      }
+    },
+    {
+      "section": "Attitude Flying",
+      "difficulty": 1,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "How is an airplane's pitch attitude defined?",
+      "correct_answer": "The angle formed between the airplane's longitudinal axis and the natural horizon",
+      "distractors": [
+        "The angle formed between the airplane's lateral axis and the natural horizon",
+        "The angle formed between the airplane's vertical axis and the natural horizon",
+        "The angle formed between the airplane's flight path and the natural horizon"
+      ],
+      "explanation": "The chapter defines pitch attitude as the angle between the longitudinal axis (nose to tail) and the natural horizon. Bank attitude is the angle between the lateral axis (wingtip to wingtip) and the horizon. Yaw is relative to direction of flight, not the natural horizon.",
+      "reference": {
+        "page": "3-4",
+        "text": "Pitch attitude is the angle formed between the airplane's longitudinal axis, which extends from the nose to the tail of the airplane, and the natural horizon."
       }
     },
     {
       "section": "Integrated Flight Instruction",
-      "difficulty": 3,
+      "difficulty": 1,
       "categories": [
         "written_exam",
         "checkride_oral"
       ],
-      "question": "A private pilot who has received integrated flight instruction encounters conditions where airplane attitude can no longer be established or maintained by reference to the natural horizon. How does the Airplane Flying Handbook classify this situation?",
-      "correct_answer": "A genuine emergency",
+      "question": "When using integrated flight instruction, approximately what percentage of the pilot's attention should be devoted to outside visual references and scanning for traffic?",
+      "correct_answer": "90 percent",
       "distractors": [
-        "A normal situation that integrated flight instruction has prepared the pilot to handle",
-        "A minor inconvenience manageable by making prompt instrument corrections",
-        "A situation requiring the pilot to rely on larger instrument indications than the horizon provides"
+        "50 percent",
+        "75 percent",
+        "100 percent"
       ],
-      "explanation": "According to AFH Chapter 3, integrated flight instruction does not prepare pilots for flight in IMC. The handbook states plainly that anytime airplane attitude by reference to the natural horizon cannot be established or maintained, the situation has become a genuine emergency. Distractor A is incorrect because integrated flight instruction explicitly does not prepare pilots for IMC. Distractor B is incorrect because it downplays the severity and because beginning pilots tend to make excessive corrections and 'chase the instruments' rather than manage the situation effectively. Distractor C is incorrect because the natural horizon presents indications many times larger than any instrument, not the other way around.",
+      "explanation": "The chapter specifies that approximately 90 percent of attention should be outside, with no more than about 10 percent inside the flight deck. The 100 percent distractor is wrong because instruments must be checked to validate performance.",
       "reference": {
-        "page": "3-6",
-        "text": "The beginning pilot, not being familiar with the intricacies of flight by references to instruments, including such things as instrument\nlag and gyroscopic precession, will invariably make excessive attitude corrections and end up “chasing the instruments.” Airplane\nattitude by reference to the natural horizon, however, presents immediate and accurate indications many times larger than on any\ninstrument. The beginning pilot should understand that anytime airplane attitude by reference to the natural horizon cannot be\nestablished or maintained, the situation has become a genuine emergency and that the use of integrated flight instruction does not\nprepare pilots for flight in IMC."
+        "page": "3-5",
+        "text": "Approximately 90 percent of the pilot's attention should be devoted to outside visual references and scanning for airborne traffic."
+      }
+    },
+    {
+      "section": "Straight-and-Level Flight",
+      "difficulty": 1,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "What is the correct method for maintaining straight flight when minor bank corrections are needed?",
+      "correct_answer": "The coordinated use of ailerons and rudder",
+      "distractors": [
+        "Using ailerons independently to level the wings",
+        "Using rudder independently to maintain heading",
+        "Alternating between aileron and rudder inputs as needed"
+      ],
+      "explanation": "The chapter states that while it is possible to maintain straight flight using ailerons or rudder independently, 'the practice of using the ailerons and rudder independently is not correct and makes precise control of the airplane difficult.' The correct method is coordinated use of both.",
+      "reference": {
+        "page": "3-8",
+        "text": "The correct bank flight control movement requires the coordinated use of ailerons and rudder."
       }
     },
     {
       "section": "Trim Control",
-      "difficulty": 3,
+      "difficulty": 2,
       "categories": [
         "written_exam",
         "checkride_oral"
       ],
-      "question": "A pilot has just leveled off at cruise altitude, but the airspeed is still increasing. According to correct trim procedure, when should the pilot begin trimming the rudder and aileron?",
-      "correct_answer": "Only after a constant airspeed and pitch attitude have been established",
+      "question": "In an airplane equipped with multiple trim axes, what is the correct sequence for trimming once a constant airspeed and pitch attitude are established?",
+      "correct_answer": "Rudder first, then elevator, then aileron",
       "distractors": [
-        "Immediately upon leveling off, to minimize pilot workload during the transition",
-        "As soon as the pitch attitude is set, since rudder trim compensates for propeller left-turning tendencies",
-        "After using aileron trim to level the wings, then proceed to trim the rudder"
+        "Elevator first, then rudder, then aileron",
+        "Aileron first, then rudder, then elevator",
+        "All three axes should be trimmed simultaneously"
       ],
-      "explanation": "According to AFH Chapter 3, if the airspeed is varying, continuous attempts to trim the rudder and aileron produce unnecessary pilot workload and distraction. The correct procedure is to first establish a constant airspeed and pitch attitude, then hold the wings level with aileron pressure while trimming out rudder pressure, and finally adjust aileron trim. Distractor 1 is wrong because trimming during varying airspeed increases workload rather than reducing it. Distractor 2 misinterprets the role of built-in compensation for left-turning tendencies—the handbook states this compensation makes rudder trimming at varying airspeeds impractical, not that rudder trim should be used to counteract those tendencies. Distractor 3 reverses the correct sequence; rudder must be trimmed before aileron.",
+      "explanation": "The chapter specifies that the rudder should be trimmed first, then elevator, then aileron. The pilot should hold wings level with aileron pressure while rudder pressure is trimmed out, and finally aileron trim is adjusted to relieve aileron pressure.",
       "reference": {
         "page": "3-10",
-        "text": "In airplanes where multiple trim axes are available, the rudder should be trimmed first. Rudder, elevator, and then aileron should be\ntrimmed next in sequence. However, if the airspeed is varying, continuous attempts to trim the rudder and aileron produce\nunnecessary pilot workload and distraction. Attempts to trim the rudder at varying airspeeds are impractical in many propeller\nairplanes because of the built-in compensation for the effect of a propeller’s left turning tendencies. The correct procedure is when the\npilot has established a constant airspeed and pitch attitude, the pilot should then hold the wings level with aileron flight control\npressure while rudder control pressure is trimmed out. Finally, aileron trim should be adjusted to relieve any aileron flight control\npressure."
+        "text": "In airplanes where multiple trim axes are available, the rudder should be trimmed first. Rudder, elevator, and then aileron should be trimmed next in sequence."
       }
     },
     {
       "section": "Level Turns",
-      "difficulty": 3,
+      "difficulty": 1,
       "categories": [
         "written_exam",
-        "checkride_oral",
-        "general_knowledge"
+        "checkride_oral"
       ],
-      "question": "Why is maintaining uncoordinated flight particularly dangerous when operating in the airport traffic pattern?",
-      "correct_answer": "Uncoordinated control deflections can create the potential for a spin, and there may be insufficient altitude to recover.",
+      "question": "What causes an airplane to begin turning when banked?",
+      "correct_answer": "The horizontal component of lift",
       "distractors": [
-        "Uncoordinated flight increases drag on the lowering wing, making it impossible to maintain altitude in the pattern.",
-        "The rudder becomes ineffective at low airspeeds typically flown in the traffic pattern, making coordination impossible.",
-        "Adverse yaw is amplified at low altitudes due to ground effect, requiring larger rudder inputs than normal."
+        "The rudder deflecting airflow to one side",
+        "The vertical component of lift acting perpendicular to the earth",
+        "Increased thrust directed toward the banked direction"
       ],
-      "explanation": "According to AFH Chapter 3, when a pilot maintains certain uncoordinated flight control deflections, the potential for a spin develops. This is especially hazardous at low altitudes, such as in the airport traffic pattern, because there is little altitude available for spin recovery. The rudder's purpose in a turn is to coordinate it by counteracting adverse yaw caused by increased drag on the rising wing. Failing to coordinate leaves the airplane vulnerable to spin entry at precisely the time when recovery is least likely to be possible.",
+      "explanation": "The chapter clearly states that when an airplane is banked, total lift divides into vertical and horizontal components. 'It is the horizontal lift component that begins to turn the airplane and not the rudder.' The rudder's purpose is to coordinate the turn by offsetting adverse yaw.",
       "reference": {
         "page": "3-12",
-        "text": "The purpose of the rudder in a turn is to coordinate the turn. As lift increases, so does drag. When the pilot deflects the ailerons to\nbank the airplane, both lift and drag are increased on the rising wing and, simultaneously, lift and drag are decreased on the lowering\nwing. [Figure 3-12] This increased drag on the rising wing and decreased drag on the lowering wing results in the airplane yawing\nopposite to the direction of turn. To counteract this adverse yaw, rudder pressure is applied simultaneously with the aileron deflection\nin the desired direction of turn. This action is required to produce a coordinated turn. Coordinated flight is an important part of\nairplane control. Situations can develop when a pilot maintains certain uncoordinated flight control deflections, which create the\npotential for a spin. This is especially hazardous when operating at low altitudes, such as when operating in the airport traffic pattern. 3-12"
+        "text": "It is the horizontal lift component that begins to turn the airplane and not the rudder."
       }
     },
     {
-      "section": "Establishing a Turn",
-      "difficulty": 3,
+      "section": "Descents and Descending Turns",
+      "difficulty": 1,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "What is the recommended target descent rate for a partial power (cruise or en route) descent?",
+      "correct_answer": "500 fpm",
+      "distractors": [
+        "1,000 fpm",
+        "300 fpm",
+        "1,500 fpm"
+      ],
+      "explanation": "The chapter describes partial power descent as the normal method of losing altitude and states: 'The target descent rate should be 500 fpm.' The 1,000 fpm figure appears in level-off examples, not as a target descent rate.",
+      "reference": {
+        "page": "3-21",
+        "text": "The target descent rate should be 500 fpm."
+      }
+    },
+    {
+      "section": "Level Turns",
+      "difficulty": 2,
       "categories": [
         "written_exam",
         "checkride_oral"
       ],
-      "question": "A pilot flying an airplane with side-by-side seating initiates a left turn and notices the nose appears to rise. What explains this visual illusion?",
-      "correct_answer": "The pilot sits left of the longitudinal axis and lowers in relation to it during roll, creating a parallax error that makes the nose appear to rise",
+      "question": "At a given angle of bank, what is the effect of higher airspeed on the radius of turn?",
+      "correct_answer": "The radius of turn becomes larger because the airplane turns at a slower rate",
       "distractors": [
-        "The nose physically pitches up due to asymmetric lift on the left wing during the roll, requiring forward elevator pressure",
-        "The pilot sits right of the longitudinal axis, and the left roll causes an optical illusion from the pilot's offset viewing angle",
-        "The turning motion shifts the pilot's body in the seat, changing the eye-level reference to the instrument panel and creating a false impression of a nose-up attitude"
+        "The radius of turn becomes smaller because the horizontal lift component is greater",
+        "The radius of turn remains the same because bank angle is the only determining factor",
+        "The radius of turn becomes larger because the airplane turns at a faster rate"
       ],
-      "explanation": "According to AFH Chapter 3, because most airplanes have side-by-side seating, the pilot does not sit on the airplane's longitudinal axis—the line about which the airplane rotates in roll. The pilot typically sits slightly to the left of this axis. Due to parallax error, when making a left turn the pilot lowers in relation to the longitudinal axis, causing the nose to appear to rise. Conversely, in right turns the pilot elevates in relation to the axis, making the nose appear to descend. The nose does not actually pitch up; this is strictly a visual illusion caused by the pilot's offset seating position.",
+      "explanation": "The chapter explains that at higher airspeed, inertia is greater and more horizontal lift is required, causing the turning rate to become slower. 'At a given angle of bank, a higher airspeed makes the radius of turn larger because the airplane turns at a slower rate.'",
       "reference": {
-        "page": "3-15",
-        "text": "Because most airplanes have side-by-side seating, a pilot does not sit on the airplane’s longitudinal axis, which is where the airplane\nrotates in roll. The pilot sits slightly off to one side, typically the left, of the longitudinal axis. Due to parallax error, this makes the\nnose of the airplane appear to rise when making a left turn (due to pilot lowering in relation to the longitudinal axis) and the nose of\nthe airplane appear to descend when making right turns (due to pilot elevating in relation to the longitudinal axis). [Figure 3-18]"
+        "page": "3-14",
+        "text": "At a given angle of bank, a higher airspeed makes the radius of turn larger because the airplane turns at a slower rate."
       }
     },
     {
-      "section": "Establishing a Turn",
-      "difficulty": 3,
+      "section": "Level Turns",
+      "difficulty": 1,
       "categories": [
         "written_exam",
         "checkride_oral"
       ],
-      "question": "For a pilot using the right hand on a stick control, what is the primary reason that lowering the nose tends to induce a right turn?",
-      "correct_answer": "The arm rotates from the elbow joint, inducing a secondary arc motion in the stick",
+      "question": "What is the rule of thumb for leading the rollout from a turn to arrive at the desired heading?",
+      "correct_answer": "Lead by one-half the angle of bank",
       "distractors": [
-        "The elevator and ailerons are mechanically linked within the stick, causing simultaneous deflection",
-        "Engine torque effect shifts right as the nose is lowered due to changes in relative wind",
-        "The stick's design inherently cross-couples pitch and roll inputs when moved forward or aft"
+        "Lead by the full angle of bank",
+        "Lead by one-third the angle of bank",
+        "Lead by 10 degrees regardless of bank angle"
       ],
-      "explanation": "According to the Airplane Flying Handbook (Chapter 3, Establishing a Turn), the tendency to inadvertently bank when making pitch inputs with a stick control occurs because the pilot's arm rotates from the elbow joint, which induces a secondary arc motion. This is a biomechanical issue, not a mechanical linkage or inherent design feature of the stick itself. The handbook notes that lowering the nose tends to induce a right turn and raising the nose tends to induce a left turn for a pilot using the right hand. Practice is the appropriate measure to isolate undesired motion and achieve smooth, precise control inputs.",
+      "explanation": "The chapter provides a specific rule of thumb: 'A rule of thumb is to lead by one-half the angle of bank. For example, if the bank is 30°, lead the rollout by 15°.' The airplane continues turning as long as there is any bank.",
       "reference": {
-        "page": "3-17",
-        "text": "Because the elevator and ailerons are on one control, practice is required to ensure that only the intended pressure is applied to the\nintended flight control. For example, a beginner pilot is likely to unintentionally add pressure to the pitch control when the only bank\nwas intended. This cross-coupling may be diminished or enhanced by the design of the flight controls; however, practice is the\nappropriate measure for smooth, precise, and accurate flight control inputs. For example, diving when turning right and climbing\nwhen turning left in airplanes is common with stick controls, because the arm tends to rotate from the elbow joint, which induces a\nsecondary arc control motion if the pilot is not extremely careful. Likewise, lowering the nose is likely to induce a right turn, and\nraising the nose to climb tends to induce a left turn. These actions would apply for a pilot using the right hand to move the stick.\nAirplanes with a control wheel may be less prone to these inadvertent actions, depending on control positions and pilot seating. In any\ncase, the pilot should retain the proper sight picture of the nose following the horizon, whether up, down, left, or right and\nisolate undesired motion. Common errors in level turns are:"
+        "page": "3-16",
+        "text": "A rule of thumb is to lead by one-half the angle of bank. For example, if the bank is 30°, lead the rollout by 15°."
       }
     },
     {
       "section": "Climbs and Climbing Turns",
-      "difficulty": 3,
+      "difficulty": 1,
       "categories": [
         "written_exam",
         "checkride_oral"
       ],
-      "question": "As altitude increases, the airspeed for best angle of climb (Vx) increases while the airspeed for best rate of climb (Vy) decreases. At what point do these two airspeeds converge?",
-      "correct_answer": "The absolute ceiling, where the airplane is incapable of climbing any higher",
+      "question": "Which climb airspeed produces the most altitude gained over a given amount of time?",
+      "correct_answer": "Best rate of climb (VY)",
       "distractors": [
-        "The service ceiling, where the climb rate drops below 100 fpm",
-        "The maximum operating altitude specified in the AFM/POH limitations",
-        "The critical altitude, where engine turbocharger output reaches its limit"
+        "Best angle of climb (VX)",
+        "Normal climb (cruise climb) speed",
+        "Minimum sink speed"
       ],
-      "explanation": "According to AFH Chapter 3, as altitude increases, Vx increases and Vy decreases. These two airspeeds intersect at the absolute ceiling—the altitude at which the airplane is incapable of climbing any higher. The service ceiling (100 fpm climb rate) is a lower altitude where Vx and Vy have not yet converged. The maximum operating altitude is an AFM/POH limitation, not a performance boundary. Critical altitude relates to turbocharger performance, not the intersection of Vx and Vy.",
+      "explanation": "The chapter defines VY as producing 'the most altitude gained over a given amount of time.' VX produces the most altitude over a given horizontal distance. Normal climb is generally higher than VY and provides better cooling and visibility but not the best rate.",
       "reference": {
         "page": "3-17",
-        "text": "It should be noted that as altitude increases, the airspeed for best angle of climb increases and the airspeed for best rate of climb\ndecreases. Performance charts contained in the Airplane Flight Manual or Pilot’s Operating Handbook (AFM/POH) should be\nconsulted to ensure that the correct airspeed is used for the desired climb profile at the given environmental conditions. There is a\npoint at which the best angle of climb airspeed and the best rate of climb airspeed intersect. This occurs at the absolute ceiling at\nwhich the airplane is incapable of climbing any higher. [Figure 3-20] 3-17 3-18"
+        "text": "Best rate of climb (VY)—produces the most altitude gained over a given amount of time."
       }
     },
     {
-      "section": "Establishing a Climb",
-      "difficulty": 3,
+      "section": "Climbs and Climbing Turns",
+      "difficulty": 2,
       "categories": [
-        "checkride_oral",
-        "general_knowledge"
+        "written_exam",
+        "checkride_oral"
       ],
-      "question": "What is the likely result if a pilot decreases pitch attitude too rapidly during level-off from a climb without allowing airspeed to increase proportionately?",
-      "correct_answer": "A loss of altitude",
+      "question": "As altitude increases, what happens to the airspeeds for best angle of climb (VX) and best rate of climb (VY)?",
+      "correct_answer": "VX increases and VY decreases until they intersect at the absolute ceiling",
       "distractors": [
-        "An excessive gain in airspeed",
-        "An inadvertent stall",
-        "Climbing above the target altitude"
+        "Both VX and VY increase with altitude",
+        "Both VX and VY decrease with altitude",
+        "VX decreases and VY increases with altitude"
       ],
-      "explanation": "According to the Airplane Flying Handbook (Chapter 3, Establishing a Climb), the pitch attitude should be decreased smoothly and slowly during level-off to allow the airspeed to increase. A loss of altitude may result if the pitch attitude is changed too rapidly without allowing the airspeed to increase proportionately. The distractors are incorrect because: an excessive gain in airspeed is the opposite of the problem (insufficient airspeed buildup); an inadvertent stall is unlikely since decreasing pitch reduces angle of attack; and climbing above the target altitude contradicts the described outcome of losing altitude.",
+      "explanation": "The chapter states that as altitude increases, VX increases and VY decreases. They eventually intersect at the absolute ceiling, where the airplane is incapable of climbing any higher.",
+      "reference": {
+        "page": "3-17",
+        "text": "As altitude increases, the airspeed for best angle of climb increases and the airspeed for best rate of climb decreases... This occurs at the absolute ceiling at which the airplane is incapable of climbing any higher."
+      }
+    },
+    {
+      "section": "Climbs and Climbing Turns",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "Using the chapter's guidance, when should a pilot begin the level-off from a climb with a rate of climb of 500 fpm?",
+      "correct_answer": "50 feet prior to reaching the desired altitude",
+      "distractors": [
+        "At the desired altitude",
+        "100 feet prior to reaching the desired altitude",
+        "500 feet prior to reaching the desired altitude"
+      ],
+      "explanation": "The chapter states that level-off should begin at approximately 10 percent of the rate of climb. For 500 fpm, that is 50 feet. Beginning at the desired altitude is too late, and 100 or 500 feet are incorrect calculations.",
       "reference": {
         "page": "3-20",
-        "text": "To return to straight-and-level flight from a climb, it is necessary to begin leveling-off prior to reaching the desired altitude. Level-off\nshould begin at approximately 10 percent of the rate of climb. For example, if the airplane is climbing at 500 feet per minute (fpm),\nleveling off should begin 50 feet prior to reaching the desired altitude. The pitch attitude should be decreased smoothly and slowly to\nallow for the airspeed to increase. A loss of altitude may result if the pitch attitude is changed too rapidly without allowing the\nairspeed to increase proportionately."
+        "text": "Level-off should begin at approximately 10 percent of the rate of climb. For example, if the airplane is climbing at 500 feet per minute (fpm), leveling off should begin 50 feet prior to reaching the desired altitude."
       }
     },
     {
-      "section": "Climbing Turns",
-      "difficulty": 3,
+      "section": "Climbs and Climbing Turns",
+      "difficulty": 2,
       "categories": [
         "written_exam",
         "checkride_oral"
       ],
-      "question": "During a climbing turn, a pilot maintains a nose-high pitch attitude but notices the airplane is gaining almost no altitude. According to the Airplane Flying Handbook, what is the most likely cause of this situation?",
-      "correct_answer": "Improper coordination has resulted in a slip that is counteracting the rate of climb",
+      "question": "Why can the same pitch attitude and airspeed not be maintained in a climbing turn as in a straight climb at a constant power setting?",
+      "correct_answer": "The total lift required increases because some lift is being used to turn the airplane",
       "distractors": [
-        "The bank angle is too steep, reducing the vertical component of lift available for the climb",
-        "Excessive airspeed is preventing the airplane from achieving its best angle of climb",
-        "Propeller slipstream is creating excessive drag during the turn that opposes the climb"
+        "The increased drag from the turn requires a lower pitch attitude to maintain airspeed",
+        "The rudder input reduces the effectiveness of the elevator during the turn",
+        "The bank angle reduces stall speed, allowing a lower airspeed"
       ],
-      "explanation": "The Airplane Flying Handbook (Chapter 3, Climbing Turns) specifically identifies improper coordination during a climbing turn as a common error that can result in a slip. This slip counteracts the rate of climb, resulting in little or no altitude gain—even if the pilot has established a nose-high pitch attitude. While bank angle and airspeed can affect climb performance, the handbook identifies the uncoordinated slip as the specific cause of this symptom.",
+      "explanation": "The chapter explains that in a climbing turn, the same pitch attitude and airspeed cannot be maintained 'due to the increase in the total lift required.' Some lift is diverted to turn the airplane, so the airplane climbs at a slightly shallower angle.",
       "reference": {
         "page": "3-20",
-        "text": "1. Attempting to establish climb pitch attitude by primarily referencing the airspeed indicator and chasing the airspeed.\n    2. Applying elevator pressure too aggressively resulting in an excessive climb angle.\n    3. Inadequate or inappropriate rudder pressure during climbing turns.\n    4. Allowing the airplane to yaw during climbs usually due to inadequate right rudder pressure.\n    5. Fixation on the airplane’s nose during straight climbs, resulting in climbing with one wing low.\n    6. Initiating a climbing turn without coordinated use of flight controls, resulting in no turn and a climb with one wing low.\n    7. Improper coordination resulting in a slip that counteracts the rate of climb, resulting in little or no altitude gain.\n    8. Inability to keep pitch and bank attitude constant during climbing turns.\n    9. Attempting to exceed the airplane’s climb capability.\n    10. Using excessive forward elevator pressure during level-off resulting in a loss of altitude or excessive low G-force."
+        "text": "With a constant power setting, the same pitch attitude and airspeed cannot be maintained in a bank as in a straight climb due to the increase in the total lift required. The airplane climbs at a slightly shallower climb angle because some of the lift is being used to turn the airplane."
       }
     },
     {
-      "section": "Climbing Turns",
-      "difficulty": 3,
+      "section": "Glides",
+      "difficulty": 2,
       "categories": [
-        "written_exam"
+        "written_exam",
+        "checkride_oral"
       ],
-      "question": "During a climbing turn, a pilot notices the aircraft is slipping. What effect does this slip have on the climb performance, and why is this particularly problematic?",
-      "correct_answer": "The slip counteracts the rate of climb, potentially resulting in little or no altitude gain despite the climb attitude.",
+      "question": "At what aerodynamic condition does the best glide airspeed occur?",
+      "correct_answer": "At the highest lift-to-drag ratio (L/DMAX)",
       "distractors": [
-        "The slip increases the rate of climb because the increased angle of attack on the inside wing generates additional lift.",
-        "The slip has minimal effect on climb performance as long as the airspeed remains within the normal climb range.",
-        "The slip temporarily reduces climb rate but actually improves overall climb efficiency by reducing induced drag."
+        "At the minimum sink speed",
+        "At 1.3 VSO",
+        "At the airspeed for best rate of climb"
       ],
-      "explanation": "According to AFH Chapter 3, improper coordination during climbing turns can result in a slip that counteracts the rate of climb, resulting in little or no altitude gain. This is a common error because the pilot may appear to be in a climb attitude but the uncoordinated flight creates drag that offsets the climb performance. The pilot may not recognize the problem unless they cross-check flight instruments and visual references outside the cockpit, as the nose-high attitude can create a false impression that the aircraft is climbing effectively.",
+      "explanation": "The chapter states that the best glide airspeed occurs at the highest L/D ratio. Minimum sink speed is a different airspeed that maximizes time in flight, not distance. 1.3 VSO relates to minimum safe airspeed descent, not best glide.",
       "reference": {
-        "page": "3-20",
-        "text": "1. Attempting to establish climb pitch attitude by primarily referencing the airspeed indicator and chasing the airspeed.\n    2. Applying elevator pressure too aggressively resulting in an excessive climb angle.\n    3. Inadequate or inappropriate rudder pressure during climbing turns.\n    4. Allowing the airplane to yaw during climbs usually due to inadequate right rudder pressure.\n    5. Fixation on the airplane’s nose during straight climbs, resulting in climbing with one wing low.\n    6. Initiating a climbing turn without coordinated use of flight controls, resulting in no turn and a climb with one wing low.\n    7. Improper coordination resulting in a slip that counteracts the rate of climb, resulting in little or no altitude gain.\n    8. Inability to keep pitch and bank attitude constant during climbing turns.\n    9. Attempting to exceed the airplane’s climb capability.\n    10. Using excessive forward elevator pressure during level-off resulting in a loss of altitude or excessive low G-force."
+        "page": "3-22",
+        "text": "This best glide airspeed occurs at the highest lift-to-drag ratio (L/D)."
       }
     },
     {
-      "section": "Descents and Descending Turns",
-      "difficulty": 3,
-      "categories": [
-        "written_exam"
-      ],
-      "question": "Two identical aircraft are at 5,000 feet and begin a power-off glide at their best glide speed. Aircraft A is at maximum gross weight, while Aircraft B is 400 pounds lighter. Assuming both pilots maintain the proper airspeed for their respective weights to achieve the same L/D ratio, what will be the result?",
-      "correct_answer": "Both aircraft will glide the same distance over the ground, but the heavier aircraft will reach the ground in less time.",
-      "distractors": [
-        "The lighter aircraft will glide farther because it has less weight to support, and both will arrive at the same time.",
-        "The heavier aircraft will glide farther because it carries more momentum, and it will arrive in less time.",
-        "Both aircraft will glide the same distance and arrive at the ground at the same time since they have the same L/D ratio."
-      ],
-      "explanation": "According to AFH Chapter 3, the L/D ratio determines glide distance, not weight. If two airplanes have the same L/D ratio but different weights, they cover the same distance from the same altitude. However, the heavier airplane must fly at a higher airspeed to achieve that same L/D ratio, so it arrives at the touchdown point in a shorter time. The lighter airplane takes longer to cover the same distance. This is why a pilot must adjust best glide speed for actual aircraft weight — the glide distance remains the same, but the time airborne changes.",
-      "reference": {
-        "page": "3-23",
-        "text": "Variations in weight do not affect the glide angle provided the pilot uses the proper airspeed. Since it is the L/D ratio that determines\nthe distance the airplane can glide, weight does not affect the distance flown; however, a heavier airplane needs to fly at a higher\nairspeed to obtain the same glide ratio. For example, if two airplanes having the same L/D ratio but different weights start a glide\nfrom the same altitude, the heavier airplane gliding at a higher airspeed arrives at the same touchdown point in a shorter time. Both\nairplanes cover the same distance, only the lighter airplane takes a longer time."
-      }
-    },
-    {
-      "section": "Descents and Descending Turns",
-      "difficulty": 3,
-      "categories": [
-        "checkride_oral",
-        "general_knowledge"
-      ],
-      "question": "During an engine-out emergency requiring a forced landing, how does a headwind affect the airplane's gliding distance over the ground compared to a no-wind condition?",
-      "correct_answer": "The gliding distance decreases because the lower groundspeed results in less distance covered during descent.",
-      "distractors": [
-        "The gliding distance increases because the headwind provides additional lift, allowing the airplane to stay airborne longer.",
-        "The gliding distance remains the same because the airplane's airspeed and descent rate through the air are unaffected by wind.",
-        "The gliding distance increases because the headwind reduces the airplane's rate of descent, producing a flatter glide angle."
-      ],
-      "explanation": "According to AFH Chapter 3, wind affects gliding distance. With a headwind, the airplane does not glide as far because of the slower groundspeed. While it is true that the airplane's airspeed and rate of descent through the air mass are not directly changed by wind, the groundspeed is reduced, meaning less horizontal distance is covered during the descent. This is why understanding wind effect is critical for managing engine-related emergencies and forced landings.",
-      "reference": {
-        "page": "3-23",
-        "text": "Wind affects the gliding distance. With a tailwind, the airplane glides farther because of the higher groundspeed. Conversely, with a\nheadwind, the airplane does not glide as far because of the slower groundspeed. This is important for a pilot to understand and\nmanage when dealing with engine-related emergencies and any subsequent forced landing."
-      }
-    },
-    {
-      "section": "Descents and Descending Turns",
+      "section": "Glides",
       "difficulty": 3,
       "categories": [
         "written_exam",
         "checkride_oral"
       ],
-      "question": "A pilot must ditch at sea and needs to maximize time aloft for emergency preparations and rescue coordination. What characterizes minimum sink speed compared to best glide speed?",
-      "correct_answer": "It is a lower airspeed that results in the lowest rate of altitude loss, though less distance is traveled",
+      "question": "How does airplane weight affect the glide distance if the pilot uses the proper airspeed for that weight?",
+      "correct_answer": "Weight does not affect the distance flown, but a heavier airplane flies at a higher airspeed to achieve the same glide ratio",
       "distractors": [
-        "It is a higher airspeed that results in the lowest rate of altitude loss and the greatest distance traveled",
-        "It is the same airspeed as best glide but flown at a higher angle of attack to reduce sink rate",
-        "It is a lower airspeed that results in the greatest distance traveled per unit of altitude lost"
+        "A heavier airplane glides less distance because it descends faster",
+        "A heavier airplane glides more distance because it has more momentum",
+        "A heavier airplane has a steeper glide angle regardless of the airspeed used"
       ],
-      "explanation": "According to AFH Chapter 3, minimum sink speed maximizes the time the airplane remains in flight by producing the lowest rate of altitude loss. It occurs at a lower airspeed than best glide speed and results in less distance traveled. This makes it useful when time in flight is more important than distance flown, such as ditching at sea. Distractor 1 is incorrect because minimum sink speed is lower, not higher, than best glide and does not maximize distance. Distractor 2 is incorrect because minimum sink is a different, lower airspeed than best glide. Distractor 3 is incorrect because maximizing distance per altitude lost is the characteristic of best glide speed, not minimum sink speed.",
+      "explanation": "The chapter explains that since the L/D ratio determines glide distance, weight does not affect distance flown if the proper airspeed is used. However, a heavier airplane needs a higher airspeed to obtain the same glide ratio and arrives at the same point in less time.",
       "reference": {
         "page": "3-23",
-        "text": "Minimum sink speed is used to maximize the time that the airplane remains in flight. It results in the airplane losing altitude at the\nlowest rate. Minimum sink speed occurs at a lower airspeed than the best glide speed. Flight at the minimum sink airspeed results in\nless distance traveled. Minimum sink speed is useful in flight situations where time in flight is more important than distance flown. An\nexample is ditching an airplane at sea. Minimum sink speed is not an often published airspeed but generally is a few knots less than\nbest glide speed."
+        "text": "Since it is the L/D ratio that determines the distance the airplane can glide, weight does not affect the distance flown; however, a heavier airplane needs to fly at a higher airspeed to obtain the same glide ratio."
+      }
+    },
+    {
+      "section": "Glides",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral",
+        "general_knowledge"
+      ],
+      "question": "Why should a pilot not attempt to 'stretch' a glide by applying back-elevator pressure?",
+      "correct_answer": "It likely leads to landing short and may cause loss of control if the airplane stalls",
+      "distractors": [
+        "It increases parasite drag and reduces the glide ratio",
+        "It causes the airplane to descend faster due to increased weight on the lifting surfaces",
+        "It overcomes the propeller's designed aerodynamic compensation"
+      ],
+      "explanation": "The chapter identifies stretching a glide as a cardinal rule violation: 'attempting to apply elevator back pressure to stretch a glide back to the runway is likely to lead the airplane landing short and may even lead to loss of control if the airplane stalls.' The purpose of pitch control during a glide is to maintain maximum L/D.",
+      "reference": {
+        "page": "3-23",
+        "text": "Attempting to apply elevator back pressure to stretch a glide back to the runway is likely to lead the airplane landing short and may even lead to loss of control if the airplane stalls."
       }
     },
     {
@@ -268,99 +350,17 @@
         "written_exam",
         "checkride_oral"
       ],
-      "question": "When performing a gliding turn, a pilot may inadvertently apply excessive rudder pressure if they rely on their experience with powered flight. What is the primary hazard of this overcontrol?",
-      "correct_answer": "It may cause slips and skids, resulting in potentially hazardous flight control conditions.",
+      "question": "Which three elements tend to force the nose down and increase glide speed during gliding turns?",
+      "correct_answer": "Decrease in lift due to lifting force direction, excessive rudder inputs from reduced control pressures, and inherent nose-down tendency with power off",
       "distractors": [
-        "It may cause the aircraft to enter an accelerated stall due to disrupted airflow over the rudder.",
-        "It may cause the nose to pitch down uncontrollably due to increased elevator effectiveness.",
-        "It may cause the turn to tighten into a spiral dive due to overbanking tendencies."
+        "Increase in lift, adverse yaw from aileron deflection, and P-factor from the propeller",
+        "Loss of thrust, increased induced drag, and forward trim forces",
+        "Adverse yaw, engine torque, and spiral instability from the bank"
       ],
-      "explanation": "The Airplane Flying Handbook states that required rudder pedal pressures are reduced in a gliding turn due to decreased forces acting on the control surfaces. A pilot applying pressures based on powered flight experience will overcontrol the rudder, which may cause slips and skids and result in potentially hazardous flight control conditions.",
+      "explanation": "The chapter lists three specific elements: (1) decrease in lift due to the direction of the lifting force, (2) excessive rudder inputs as a result of reduced flight control pressures, and (3) the normal stability and inherent characteristics of the airplane to nose-down with power off. These require more back pressure than a straight glide or level turn.",
       "reference": {
-        "page": "3-24",
-        "text": "These three factors make it necessary to use more back pressure on the elevator than is required for a straight glide or a level turn, and\nthey have an effect on control coordination. The rudder compensates for yawing tendencies when rolling in or out of a gliding turn;\nhowever, the required rudder pedal pressures are reduced as a result of the reduced forces acting on the control surfaces. A learner\nmay apply excessive rudder pedal pressures based on experience with powered flight. This overcontrol of the aircraft may cause slips\nand skids and result in potentially hazardous flight control conditions. Some examples of this hazard are:"
-      }
-    },
-    {
-      "section": "Gliding Turns",
-      "difficulty": 3,
-      "categories": [
-        "written_exam",
-        "checkride_oral",
-        "general_knowledge"
-      ],
-      "question": "During an engine failure emergency, a pilot is executing a low-level gliding steep turn and attempts to retain altitude by increasing elevator back pressure. What additional control input would most rapidly create a spin that could become unrecoverable?",
-      "correct_answer": "Excessive rudder deflection in the direction of bank",
-      "distractors": [
-        "Excessive rudder deflection opposite the direction of bank",
-        "Excessive aileron deflection in the direction of bank",
-        "Excessive rudder deflection in the direction of bank combined with forward elevator pressure"
-      ],
-      "explanation": "According to AFH Chapter 3, during a low-level gliding steep turn, excessive rudder deflection in the direction of bank combined with increasing elevator back pressure to retain altitude can rapidly turn into an unrecoverable spin. Rudder opposite the bank would correct coordination rather than aggravate spin entry. Aileron deflection does not produce the same yawing moment toward spin entry. Forward elevator pressure would reduce angle of attack rather than increase it, making a spin less likely. The critical danger is the combination of pro-bank rudder (which increases yaw rate) with increasing back pressure (which raises angle of attack) — together these satisfy the conditions for spin entry at a critically low altitude.",
-      "reference": {
-        "page": "3-24",
-        "text": "⦁ A low-level gliding steep turn during an engine failure emergency. If the rudder is excessively deflected in\n      the direction of the bank while the pilot is increasing elevator back pressure in an attempt to retain altitude,\n      the situation can rapidly turn into an unrecoverable spin."
-      }
-    },
-    {
-      "section": "Gliding Turns",
-      "difficulty": 3,
-      "categories": [
-        "checkride_oral",
-        "general_knowledge"
-      ],
-      "question": "During a low-level gliding steep turn following an engine failure, what pilot action is most likely to result in an unrecoverable spin?",
-      "correct_answer": "Applying excessive rudder in the direction of bank while increasing elevator back pressure to retain altitude.",
-      "distractors": [
-        "Reducing bank angle while maintaining coordinated flight to increase the gliding distance.",
-        "Increasing airspeed by lowering the nose while using coordinated rudder and aileron.",
-        "Applying rudder opposite to the direction of bank to compensate for an overbanking tendency."
-      ],
-      "explanation": "According to the Airplane Flying Handbook, during a low-level gliding steep turn in an engine failure emergency, if the rudder is excessively deflected in the direction of the bank while the pilot is increasing elevator back pressure in an attempt to retain altitude, the situation can rapidly turn into an unrecoverable spin.",
-      "reference": {
-        "page": "3-24",
-        "text": "⦁ A low-level gliding steep turn during an engine failure emergency. If the rudder is excessively deflected in\n      the direction of the bank while the pilot is increasing elevator back pressure in an attempt to retain altitude,\n      the situation can rapidly turn into an unrecoverable spin."
-      }
-    },
-    {
-      "section": "Gliding Turns",
-      "difficulty": 3,
-      "categories": [
-        "written_exam",
-        "checkride_oral",
-        "general_knowledge"
-      ],
-      "question": "If an airplane enters a fully developed cross-control condition during a power-off landing approach and a stall occurs, what is the most likely result?",
-      "correct_answer": "A rapid and unrecoverable spin",
-      "distractors": [
-        "A steep spiral dive that can be corrected with opposite aileron",
-        "A secondary stall caused by the excessive elevator back pressure",
-        "An accelerated stall in the direction of the applied aileron"
-      ],
-      "explanation": "According to the Airplane Flying Handbook, if a pilot improperly uses rudder and opposite aileron while applying elevator back pressure during a power-off landing approach, a fully developed cross-control condition can occur. A stall in this specific situation almost certainly results in a rapid and unrecoverable spin due to the low altitude and uncoordinated flight state.",
-      "reference": {
-        "page": "3-24",
-        "text": "⦁ During a power-off landing approach. The pilot depresses the rudder pedal with excessive pressure that\n      leads to increased lift on the outside wing, banking the airplane in the direction of the rudder deflection.\n      The pilot may improperly apply the opposite aileron to prevent the bank from increasing while applying\n      elevator back pressure. If allowed to progress, this situation may result in a fully developed cross-control\n      condition. A stall in this situation almost certainly results in a rapid and unrecoverable spin."
-      }
-    },
-    {
-      "section": "Gliding Turns",
-      "difficulty": 3,
-      "categories": [
-        "written_exam",
-        "checkride_oral"
-      ],
-      "question": "After a complete engine failure, a pilot is established in a power-off descent at 800 feet per minute. Using the recommended lead factor for slowing the descent before landing, at approximately what altitude above the ground should the pilot begin slowing the descent?",
-      "correct_answer": "80 feet",
-      "distractors": [
-        "100 feet",
-        "8 feet",
-        "800 feet"
-      ],
-      "explanation": "According to AFH Chapter 3, a 10 percent lead factor should be used to slow the descent before landing after a power failure. The handbook gives the example of 100 feet for a 1,000 fpm descent rate, illustrating that the lead factor is 10 percent of the descent rate. For a descent rate of 800 fpm, the pilot should use a lead factor of 80 feet (10 percent of 800). Answering 100 feet incorrectly applies the handbook's specific example rather than calculating 10 percent of the actual descent rate.",
-      "reference": {
-        "page": "3-24",
-        "text": "⦁ First, in the event of a complete power failure, the best glide speed should be held until necessary to\n      reconfigure for the landing. The pilot should plan for a steeper approach than usual. A 10 percent lead (100\n      feet if the descent rate is 1,000 feet per minute) factor should be sufficient to slow the descent before\n      landing."
+        "page": "3-23",
+        "text": "Three elements in gliding turns that tend to force the nose down and increase glide speed are: 1. Decrease in lift due to the direction of the lifting force. 2. Excessive rudder inputs as a result of reduced flight control pressures. 3. The normal stability and inherent characteristics of the airplane to nose-down with the power off."
       }
     }
   ]

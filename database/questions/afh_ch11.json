@@ -3,142 +3,343 @@
   "chapter": 11,
   "questions": [
     {
-      "section": "Night Blind Spot",
-      "difficulty": 3,
+      "section": "Anatomy of the Eye",
+      "difficulty": 1,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "Which photosensitive cells in the eye are primarily responsible for night vision, and where are they concentrated?",
+      "correct_answer": "Rods, located mainly in the periphery of the retina",
+      "distractors": [
+        "Cones, concentrated in the fovea",
+        "Both rods and cones equally distributed across the retina",
+        "The iris, which adjusts pupil size in response to dim light"
+      ],
+      "explanation": "The chapter states that rods are located mainly in the periphery of the retina and are used for low light intensity or night vision. Cones, concentrated in the fovea, are used for day or high-intensity light vision.",
+      "reference": {
+        "page": "11-1",
+        "text": "The rods are located mainly in the periphery of the retina—an area that is about 10,000 times more sensitive to light than the fovea. Rods are used for low light intensity or night vision and are involved with peripheral vision"
+      }
+    },
+    {
+      "section": "Types of Vision",
+      "difficulty": 2,
       "categories": [
         "written_exam",
         "checkride_oral"
       ],
-      "question": "If a pilot views an object directly at night, how does the \"night blind spot\" affect visibility as the distance to the object increases?",
-      "correct_answer": "It can hide larger objects that would otherwise be visible.",
+      "question": "Under scotopic vision conditions, what happens if a pilot looks directly at a dim object for more than a few seconds?",
+      "correct_answer": "The image of the object fades away completely due to the night blind spot",
       "distractors": [
-        "It becomes less effective, making larger objects easier to see at a distance.",
-        "It only affects small objects, leaving larger objects clearly visible regardless of distance.",
-        "It shifts the blind spot from central vision to peripheral vision as distance increases."
+        "The object becomes sharper as the cones adapt to the darkness",
+        "The object's color becomes distinguishable after several seconds",
+        "The object appears to move, creating the autokinesis illusion"
       ],
-      "explanation": "According to the Airplane Flying Handbook, the night blind spot is caused by the absence of rods in the fovea, affecting the central 5 to 10 degrees of the visual field. When an object is viewed directly at night, it may go undetected or fade away. Specifically, the night blind spot can hide larger objects as the distance between the pilot and the object increases.",
+      "explanation": "The chapter explains that under scotopic conditions, central vision (foveal cones) becomes ineffective. If looking directly at an object for more than a few seconds, the image fades away completely due to the night blind spot. Autokinesis is a separate illusion involving a stationary light appearing to move.",
       "reference": {
         "page": "11-3",
-        "text": "The “Night Blind Spot” appears under conditions of low ambient illumination due to the absence of rods in the fovea. [Figure 11-3]\nThis absence of rods affects the central 5 to 10 degrees of the visual field. If an object is viewed directly at night, it may go\nundetected or it may fade away after initial detection. The night blind spot can hide larger objects as the distance between the pilot\nand an object increases."
+        "text": "Under these conditions, if looking directly at an object for more than a few seconds, the image of the object fades away completely (night blind spot). Peripheral vision (off center scanning) provides the only means of seeing very dim objects in the dark."
+      }
+    },
+    {
+      "section": "The Night Blind Spot",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "What causes the night blind spot, and how much of the visual field does it affect?",
+      "correct_answer": "Absence of rods in the fovea, affecting the central 5 to 10 degrees of the visual field",
+      "distractors": [
+        "Absence of cones in the periphery, affecting 30 to 40 degrees of the visual field",
+        "Damage to the optic nerve, affecting the entire peripheral field",
+        "Blood vessels blocking the macula, affecting the central 1 to 2 degrees"
+      ],
+      "explanation": "The night blind spot appears under low ambient illumination due to the absence of rods in the fovea. This affects the central 5 to 10 degrees of the visual field, meaning objects viewed directly may go undetected or fade away.",
+      "reference": {
+        "page": "11-3",
+        "text": "The \"Night Blind Spot\" appears under conditions of low ambient illumination due to the absence of rods in the fovea. This absence of rods affects the central 5 to 10 degrees of the visual field."
+      }
+    },
+    {
+      "section": "Vision Under Dim and Bright Illumination",
+      "difficulty": 1,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "Approximately how long does it take for the eyes to achieve maximum dark adaptation?",
+      "correct_answer": "Up to 30 minutes",
+      "distractors": [
+        "5 to 10 minutes",
+        "1 to 2 hours",
+        "Approximately 15 minutes"
+      ],
+      "explanation": "The chapter states that in darkness, vision gradually becomes more sensitive to light and maximum dark adaptation can take up to 30 minutes. Exposure to bright light for 1 second or more can temporarily impair this adaptation.",
+      "reference": {
+        "page": "11-3",
+        "text": "In darkness, vision gradually becomes more sensitive to light. Maximum dark adaptation can take up to 30 minutes."
+      }
+    },
+    {
+      "section": "Factors Affecting Vision",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "At what altitude does the chapter state that inflight exposure to low barometric pressure without supplemental oxygen can result in hypoxia impairing visual performance at night?",
+      "correct_answer": "Above 5,000 feet",
+      "distractors": [
+        "Above 10,000 feet",
+        "Above 12,500 feet",
+        "Above 8,000 feet"
+      ],
+      "explanation": "The chapter specifies that hypoxia can impair visual performance above 10,000 feet during the day and above 5,000 feet at night. The lower nighttime altitude reflects the eye's greater sensitivity to oxygen deprivation in low-light conditions.",
+      "reference": {
+        "page": "11-4",
+        "text": "Inflight exposure to low barometric pressure without the use of supplemental oxygen (above 10,000 feet during the day and above 5,000 feet at night) can result in hypoxia, which impairs visual performance."
+      }
+    },
+    {
+      "section": "Autokinesis",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "What is the visual illusion known as autokinesis?",
+      "correct_answer": "A stationary light appears to move when stared at for many seconds in the dark",
+      "distractors": [
+        "Ground lights blend with stars, making it difficult to distinguish the actual horizon",
+        "A runway appears to slope up or down due to a lack of surrounding visual cues",
+        "Bright lights make the runway appear closer than it actually is"
+      ],
+      "explanation": "The chapter describes autokinesis as an illusion where a stationary light appears to move about when stared at for many seconds in the dark. A disoriented pilot could lose control attempting to align the aircraft with the false movements.",
+      "reference": {
+        "page": "11-4",
+        "text": "In the dark, a stationary light will appear to move about when stared at for many seconds. The disoriented pilot could lose control of the aircraft in attempting to align it with the false movements of this light."
+      }
+    },
+    {
+      "section": "Featureless Terrain Illusion",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "During a black-hole approach, what is the most likely hazardous outcome if the pilot does not recognize the illusion?",
+      "correct_answer": "Landing short of the runway",
+      "distractors": [
+        "Landing long on the runway",
+        "Flaring too high above the runway",
+        "Overshooting the final approach course"
+      ],
+      "explanation": "The chapter states that a black-hole approach occurs when landing from over water or non-lighted terrain where runway lights are the only source of light. Without peripheral visual cues, the runway can seem out of position and, in the worst case, results in landing short of the runway.",
+      "reference": {
+        "page": "11-5",
+        "text": "Without peripheral visual cues to help, orientation is difficult. The runway can seem out of position (down-sloping or up-sloping) and in the worst case, results in landing short of the runway."
       }
     },
     {
       "section": "Ground Lighting Illusions",
-      "difficulty": 3,
+      "difficulty": 2,
       "categories": [
         "written_exam",
         "checkride_oral"
       ],
-      "question": "While turning to final at night, approach lights create an illusion that makes the aircraft appear higher than it actually is. If a pilot reacts to this illusion, what is the most likely dangerous outcome?",
-      "correct_answer": "The pilot may descend prematurely, resulting in an approach that is dangerously low",
+      "question": "When bright runway and approach lighting systems create the illusion of being closer to the runway than actual, what tendency does this create for the pilot?",
+      "correct_answer": "Flying a higher-than-normal approach",
       "distractors": [
-        "The pilot may climb unnecessarily, resulting in an approach that is too high",
-        "The pilot may level the wings early to eliminate the illusion, causing runway misalignment",
-        "The pilot may mistake approach lights for runway boundary lights and land long"
+        "Flying a lower-than-normal approach",
+        "Landing short of the runway threshold",
+        "Overcorrecting with excessive bank on final approach"
       ],
-      "explanation": "According to AFH Chapter 11, under certain conditions, approach lights can make the aircraft seem higher in a turn to final than when its wings are level. This illusion creates a false perception of being too high. If the pilot trusts this visual cue and descends based on it, they will fly an approach that is lower than intended, potentially creating a hazardous situation. The other options are incorrect because a pilot perceiving themselves as too high would not climb, would not level wings to fix a height illusion, and while confusing approach and runway lights is a separate problem mentioned in the same section, it is a different issue from the height illusion described.",
+      "explanation": "The chapter explains that bright runway and approach lighting systems, especially where few lights illuminate the surrounding terrain, may create the illusion of less distance to the runway. The pilot who does not recognize this illusion will often fly a higher approach.",
       "reference": {
         "page": "11-5",
-        "text": "Illusions created by runway lights result in a variety of problems. Bright lights or bold colors advance the runway, making it appear\ncloser. Night landings are further complicated by the difficulty of judging distance and the possibility of confusing approach and\nrunway lights. For example, when a double row of approach lights joins the boundary lights of the runway, there can be confusion as\nto where the approach lights terminate and runway lights begin. Under certain conditions, approach lights can make the aircraft seem\nhigher in a turn to final, than when its wings are level."
+        "text": "Bright runway and approach lighting systems, especially where few lights illuminate the surrounding terrain, may create the illusion of less distance to the runway. The pilot who does not recognize this illusion will often fly a higher approach."
+      }
+    },
+    {
+      "section": "Pilot Equipment",
+      "difficulty": 1,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "According to the chapter, what color flashlight light is recommended for use during flight deck operations at night, and why?",
+      "correct_answer": "Red light, because it is non-glaring and will not impair night vision",
+      "distractors": [
+        "White light, because it provides the best detail for instrument reading",
+        "Green light, because it preserves color perception on aeronautical charts",
+        "Blue light, because it reduces eye strain during prolonged use"
+      ],
+      "explanation": "The chapter recommends a dimmable flashlight able to produce white/red light. White light is used for preflight inspection, red light is used for flight deck operations because it is non-glaring and will not impair night vision, and dim white light may be used for chart reading.",
+      "reference": {
+        "page": "11-5",
+        "text": "Since the red light is non-glaring, it will not impair night vision."
+      }
+    },
+    {
+      "section": "Airplane Equipment and Lighting",
+      "difficulty": 1,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "How are airplane position lights arranged according to the chapter?",
+      "correct_answer": "Red on the left wingtip, green on the right wingtip, and white on the tail",
+      "distractors": [
+        "Green on the left wingtip, red on the right wingtip, and white on the tail",
+        "Red on the left wingtip, white on the right wingtip, and green on the tail",
+        "White on the left wingtip, green on the right wingtip, and red on the tail"
+      ],
+      "explanation": "The chapter states that airplane position lights are arranged similar to those of boats and ships: a red light on the left wingtip, a green light on the right wingtip, and a white light on the tail. This arrangement helps pilots determine the general direction of movement of other aircraft.",
+      "reference": {
+        "page": "11-6",
+        "text": "A red light is positioned on the left wingtip, a green light on the right wingtip, and a white light on the tail."
+      }
+    },
+    {
+      "section": "Airplane Equipment and Lighting",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "Under what authority may a pilot-in-command turn off the aircraft's anti-collision light system at night?",
+      "correct_answer": "14 CFR part 91, section 91.209(b) allows the PIC to turn them off in the interest of safety",
+      "distractors": [
+        "The PIC may never turn off anti-collision lights during night flight under any circumstances",
+        "The PIC may turn them off only after receiving ATC approval",
+        "The PIC may turn them off only when operating below 10,000 feet MSL"
+      ],
+      "explanation": "While 14 CFR 91.205(c)(3) requires an approved anti-collision light system for VFR night flight, 14 CFR 91.209(b) gives the pilot-in-command leeway to turn off the anti-collision lights in the interest of safety.",
+      "reference": {
+        "page": "11-6",
+        "text": "14 CFR part 91, section 91.209(b) gives the pilot-in-command leeway to turn off the anti-collision lights in the interest of safety."
       }
     },
     {
       "section": "Airport and Navigation Lighting Aids",
-      "difficulty": 3,
+      "difficulty": 1,
       "categories": [
-        "checkride_oral",
+        "written_exam",
         "general_knowledge"
       ],
-      "question": "A pilot is approaching an airport at night and notices the runway lights are already illuminated. Why should the pilot still key the microphone when overflying the airport or just prior to entering the final approach segment?",
-      "correct_answer": "To confirm the aircraft is close enough to activate the system and ensure a full 15-minute lighting duration is available",
+      "question": "What color pattern does a rotating beacon display to identify a lighted civilian land airport?",
+      "correct_answer": "Alternating white and green lights",
       "distractors": [
-        "To extinguish the previously activated lights and restart the 15-minute timer with a fresh activation cycle",
-        "To cycle the runway edge lights from aviation yellow to aviation white, indicating the runway is active for landing",
-        "To test whether the airport's radio-controlled lighting receiver is set to low or high sensitivity mode"
+        "Alternating white and yellow lights",
+        "Dual peaked white flashes, then green",
+        "Alternating white and red flashes"
       ],
-      "explanation": "According to AFH Chapter 11, radio-controlled lighting receivers may be set at a low sensitivity due to the close proximity of airports using the same frequency, requiring the aircraft to be relatively close to activate the system. Even if lights appear to already be on, keying the mike when overflying or entering the final segment ensures the aircraft is close enough to activate the system and that a full 15-minute lighting duration is available from that most recent activation. The lights cannot be extinguished prior to the end of a 15-minute period, so the distractor about extinguishing and restarting is incorrect. Runway edge light colors (white and yellow) are fixed and not pilot-selectable, and the system is not used to test receiver sensitivity.",
+      "explanation": "The chapter lists beacon color patterns for different airport types. Civilian land airports use alternating white and green lights. Civilian water airports use alternating white and yellow. Military airports use dual peaked white flashes then green. Red flashes indicate obstructions.",
       "reference": {
         "page": "11-7",
-        "text": "The basic runway lighting system consists of two straight parallel lines of runway edge lights defining the lateral limits of the runway.\nThese lights are aviation white, although aviation yellow may be substituted for a distance of 2,000 feet from the far end of the\nrunway to indicate a caution zone. At some airports, the intensity of the runway edge lights can be activated and adjusted by radio\ncontrol. The control system consists of a 3-step control responsive to 7, 5, and/or 3 microphone clicks. This 3-step control turns on\nlighting facilities capable of either 3-step, 2-step, or 1-step operation. The 3-step and 2-step lighting facilities can be altered in\nintensity, while the 1-step cannot. All lighting is illuminated for a period of 15 minutes from the most recent time of activation and\nmay not be extinguished prior to end of the 15-minute period. Suggested use is to always initially key the mike 7 times; this assures\nthat all controlled lights are turned on to the maximum available intensity. If desired, adjustment can then be made, where the\ncapability is provided, to a lower intensity by keying 5 and/or 3 times. Due to the close proximity of airports using the same\nfrequency, radio-controlled lighting receivers may be set at a low sensitivity requiring the aircraft to be relatively close to activate the\nsystem. Consequently, even when lights are on, the pilot should always key the mike as directed when overflying an airport of\nintended landing or just prior to entering the final segment of an approach. This assures the aircraft is close enough to activate the\nsystem and a full 15-minute lighting duration is available."
+        "text": "Lighted civilian land airports—alternating white and green lights"
       }
     },
     {
-      "section": "Orientation and Navigation",
-      "difficulty": 3,
+      "section": "Airport and Navigation Lighting Aids",
+      "difficulty": 2,
       "categories": [
         "written_exam",
-        "checkride_oral"
-      ],
-      "question": "A VFR pilot on a cross-country flight unexpectedly encounters instrument meteorological conditions (IMC). According to the Airplane Flying Handbook, under what circumstances does the risk associated with this situation increase dramatically?",
-      "correct_answer": "Unless the pilot and aircraft are both equipped for IFR flight and an IFR flight plan has been prepared and filed that can be activated if needed",
-      "distractors": [
-        "Unless the pilot has received a standard weather briefing within the past 24 hours and has a VFR flight plan on file",
-        "Unless the aircraft is equipped with a functioning autopilot and the pilot has completed an instrument proficiency check within the last 6 calendar months",
-        "Unless the pilot immediately contacts ATC to request VFR flight following and begins a 180-degree turn to reverse course"
-      ],
-      "explanation": "The Airplane Flying Handbook (Chapter 11, Orientation and Navigation) states that if encountering IMC, risk increases dramatically unless both the pilot and aircraft are equipped for flight under IFR, and the pilot has prepared and filed an IFR flight plan that can be activated if needed. This emphasizes that all three conditions must be met: pilot qualification, aircraft equipment, and a filed IFR flight plan. A VFR flight plan, VFR flight following, or having received a weather briefing do not substitute for these requirements. An autopilot alone does not constitute being 'equipped for IFR flight' for the pilot, and contacting ATC for flight following is not the same as having an IFR flight plan on file.",
-      "reference": {
-        "page": "11-9",
-        "text": "Generally, at night, it is difficult to see clouds and restrictions to visibility, particularly on dark nights or under an overcast. When\nflying under VFR, pilots should exercise caution to avoid flying into clouds. Usually, the first indication of flying into restricted\nvisibility conditions is the gradual disappearance of lights on the ground. If the lights begin to appear surrounded by a halo or glow,\nfurther flight in the same direction calls for caution. Such a halo or glow around lights on the ground is indicative of ground fog. If a\ndescent occurs through clouds, smoke, or haze in order to land, the horizontal visibility is considerably less when looking through the\nrestriction than it is when looking straight down through it from above. Pilots should avoid a VFR night flight if expecting conditions\nbelow VFR minimums. If encountering IMC, risk increases dramatically unless both the pilot and aircraft are equipped for flight\nunder IFR, and the pilot has prepared and filed an IFR flight plan that can be activated, if needed."
-      }
-    },
-    {
-      "section": "Orientation and Navigation",
-      "difficulty": 3,
-      "categories": [
-        "written_exam",
-        "checkride_oral"
-      ],
-      "question": "While a clear night generally provides good visibility, what specific visual hazard can make it difficult to identify the horizon when flying over a large body of water?",
-      "correct_answer": "Stars reflected on the water surface can appear as a continuous array of lights.",
-      "distractors": [
-        "The water absorbs the starlight, causing the water and sky to blend into a single dark mass.",
-        "Reflected starlight creates a flickering optical illusion on the water that induces vertigo.",
-        "Ambient starlight reduces the contrast between the water surface and distant shorelines."
-      ],
-      "explanation": "According to the Airplane Flying Handbook, even on clear nights over water, stars may be reflected on the water's surface. This reflection can appear as a continuous array of lights, which makes the horizon difficult to identify and can lead to a loss of orientation.",
-      "reference": {
-        "page": "11-9",
-        "text": "Crossing large bodies of water at night in single-engine airplanes could be potentially hazardous, because in the event of an\nengine failure, the pilot may be forced to land (ditch) the airplane in the water. Another hazard faced by pilots of all aircraft, due to\nlimited or no lighting, is that the horizon blends with the water. During poor visibility conditions over water, the horizon becomes\nobscure and may result in a loss of orientation. Even on clear nights, the stars may be reflected on the water surface, which\ncould appear as a continuous array of lights, thus making the horizon difficult to identify."
-      }
-    },
-    {
-      "section": "Approaches and Landings",
-      "difficulty": 3,
-      "categories": [
-        "checkride_oral",
         "general_knowledge"
       ],
-      "question": "During a night approach, the landing light may be ineffective at higher altitudes and can even reflect glare back into the pilot's eyes in hazy or foggy conditions. Despite these disadvantages, what is a valid reason to still turn it on?",
-      "correct_answer": "Safety considerations regarding local traffic and collision avoidance may outweigh the disadvantages",
+      "question": "What colors are runway threshold lights and runway end lights, respectively?",
+      "correct_answer": "Threshold lights are aviation green and runway end lights are aviation red",
       "distractors": [
-        "The landing light beam effectively illuminates the runway surface from any altitude, improving landing accuracy",
-        "The landing light is required by regulation to be activated whenever the airplane is on final approach at night",
-        "The landing light enhances the pilot's depth perception during the roundout and flare"
+        "Both threshold and runway end lights are aviation white",
+        "Threshold lights are red and runway end lights are green",
+        "Threshold lights are yellow and runway end lights are white"
       ],
-      "explanation": "According to AFH Chapter 11, the landing light is usually turned on halfway through the final approach during night operations. The handbook acknowledges that the light beam may not reach the ground from higher altitudes and may be reflected back into the pilot's eyes by haze, smoke, or fog. However, safety considerations regarding local traffic and collision avoidance may overshadow these disadvantages, meaning the benefit of being seen by other aircraft can justify using the light despite its drawbacks.",
+      "explanation": "The chapter states that at some airports, runway threshold lights are aviation green and runway end lights are aviation red. Runway edge lights are aviation white, though yellow may be substituted for the last 2,000 feet to indicate a caution zone.",
       "reference": {
-        "page": "11-10",
-        "text": "After turning onto the final approach and aligning the airplane midway between the two rows of runway-edge lights, the pilot should\nnote and correct for any wind drift. Throughout the final approach, proper use of pitch and power helps to maintain a stabilized\napproach. Flaps are used as in a normal approach. Usually, halfway through the final approach, the landing light is turned on. The\nlanding light is sometimes ineffective since the light beam will usually not reach the ground from higher altitudes. The light may even\nbe reflected back into the pilot’s eyes by any existing haze, smoke, or fog. Safety considerations regarding local traffic and collision\navoidance may overshadow these disadvantages. 11-10"
+        "page": "11-7",
+        "text": "At some airports, the runway threshold lights are aviation green, and the runway end lights are aviation red."
       }
     },
     {
-      "section": "Approaches and Landings",
-      "difficulty": 3,
+      "section": "Airport and Navigation Lighting Aids",
+      "difficulty": 2,
       "categories": [
+        "written_exam",
         "checkride_oral"
       ],
-      "question": "When executing a night landing without landing lights, what technique should a pilot use during the round out and touchdown to safely reach the runway surface?",
-      "correct_answer": "Feel for the runway surface using power and pitch changes, allowing the airplane to settle slowly to the runway",
+      "question": "When using radio-controlled runway lighting, how many microphone clicks are recommended to initially activate all lights to maximum available intensity?",
+      "correct_answer": "7 clicks",
       "distractors": [
-        "Maintain a constant approach descent rate all the way to the runway without rounding out, since visual references are unavailable",
-        "Rely solely on the attitude indicator to determine pitch and power settings during touchdown",
-        "Keep the approach airspeed constant and flare aggressively once the runway edge lights disappear below the cowling"
+        "3 clicks",
+        "5 clicks",
+        "10 clicks"
       ],
-      "explanation": "According to AFH Chapter 11, during landings without the use of landing lights, the round out may be started when the runway lights at the far end of the runway first appear to be rising higher than the nose of the airplane. This demands a smooth and very timely round out and requires that the pilot feel for the runway surface using power and pitch changes, as necessary, for the airplane to settle slowly to the runway. The scarcity of observable objects at night impairs judgment of height, speed, and sink rate, making this tactile technique essential for a safe touchdown.",
+      "explanation": "The chapter recommends always initially keying the mike 7 times, which assures all controlled lights are turned on to maximum available intensity. If desired, adjustment can then be made to a lower intensity by keying 5 and/or 3 times.",
       "reference": {
-        "page": "11-11",
-        "text": "The round out and touchdown is made in the same manner as in day landings. At night, the judgment of height, speed, and sink rate is\nimpaired by the scarcity of observable objects in the landing area. An inexperienced pilot may have a tendency to round out too high.\nContinuing a constant approach descent until the landing lights reflect on the runway and tire marks on the runway can be seen clearly\nhelps identify the point to begin the round out. At this point, the round out is started smoothly and the throttle gradually reduced to\nidle as the airplane is touching down. [Figure 11-8] During landings without the use of landing lights, the round out may be started\nwhen the runway lights at the far end of the runway first appear to be rising higher than the nose of the airplane. This demands a\nsmooth and very timely round out and requires that the pilot feel for the runway surface using power and pitch changes, as necessary,\nfor the airplane to settle slowly to the runway. Blackout landings should always be included in night pilot training as an emergency\nprocedure. 11-11 11-12"
+        "page": "11-7",
+        "text": "Suggested use is to always initially key the mike 7 times; this assures that all controlled lights are turned on to the maximum available intensity."
+      }
+    },
+    {
+      "section": "Preparation and Preflight",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "Why does the chapter recommend paying particular attention to the temperature/dew point spread during night flight preparation?",
+      "correct_answer": "A narrow temperature/dew point spread may indicate the possibility of fog",
+      "distractors": [
+        "A wide spread ensures better engine performance at night",
+        "A narrow spread guarantees clear skies and good visibility",
+        "A wide spread indicates the need for supplemental oxygen"
+      ],
+      "explanation": "The chapter states that preparation for a night flight includes a thorough review of weather with particular attention to temperature/dew point spread. A narrow spread may indicate the possibility of fog, which is especially hazardous at night.",
+      "reference": {
+        "page": "11-7",
+        "text": "Preparation for a night flight includes a thorough review of the available weather reports and forecasts with particular attention given to temperature/dew point spread. A narrow temperature/dew point spread may indicate the possibility of fog."
+      }
+    },
+    {
+      "section": "Takeoff and Climb",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "During a night takeoff, why does the chapter emphasize frequent reference to flight instruments?",
+      "correct_answer": "Limited outside visual references at night make instruments essential for verifying airspeed, attitude, and heading",
+      "distractors": [
+        "Flight instruments are required to be used for all night departures by regulation",
+        "The airplane's mechanical operation changes at night and instruments compensate for this",
+        "ATC requires instrument reference for all night departures from controlled airports"
+      ],
+      "explanation": "The chapter explains that the most noticeable difference between day and night flying is the limited availability of outside visual references at night. Flight instruments should be used to a greater degree, particularly on night takeoffs and climbs, to ensure proper airspeed, attitude, and heading.",
+      "reference": {
+        "page": "11-8",
+        "text": "The most noticeable difference between daylight and nighttime flying is the limited availability of outside visual references at night. Therefore, flight instruments should be used to a greater degree in controlling the airplane."
+      }
+    },
+    {
+      "section": "Orientation and Navigation",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "What hazard does the chapter identify when flying over large bodies of water at night?",
+      "correct_answer": "Stars reflected on the water surface can appear as a continuous array of lights, making the horizon difficult to identify",
+      "distractors": [
+        "Radio navigation signals become unreliable over water at night",
+        "The water absorbs all ambient light, making the surface completely invisible",
+        "Temperature differentials over water cause rapid engine icing at night"
+      ],
+      "explanation": "The chapter identifies that crossing large bodies of water at night is hazardous for single-engine airplanes due to engine failure risk, and also because stars may be reflected on the water surface, appearing as a continuous array of lights and making the horizon difficult to identify.",
+      "reference": {
+        "page": "11-9",
+        "text": "Even on clear nights, the stars may be reflected on the water surface, which could appear as a continuous array of lights, thus making the horizon difficult to identify."
       }
     },
     {
@@ -148,215 +349,17 @@
         "written_exam",
         "checkride_oral"
       ],
-      "question": "During a night emergency landing, your landing lights are inoperative and you have no outside visual references. What should you do as the airplane descends toward the surface?",
+      "question": "During a night engine failure emergency, if the landing lights are unusable and outside visual references are not available, what should the pilot do?",
       "correct_answer": "Hold the airplane in a level-landing attitude until the ground is contacted",
       "distractors": [
-        "Execute a full-stall landing just above the surface to minimize impact force",
-        "Increase airspeed slightly and land flat to reduce the chance of a nose-first impact",
-        "Pitch down slightly to ensure contact with the ground as soon as possible",
-        "Flare aggressively at the estimated moment of touchdown"
+        "Descend in a spiral over the selected landing area to maintain visual contact with the ground",
+        "Use the vertical speed indicator to determine the correct flare height for touchdown",
+        "Turn on all cockpit lights to maximum brightness to illuminate the ground below"
       ],
-      "explanation": "According to AFH Chapter 11, Night Emergencies, if the landing lights are unusable and outside visual references are not available, the airplane should be held in a level-landing attitude until the ground is contacted. Attempting to judge flare height without visual references is impossible, so maintaining a level-landing attitude is the safest option. A full-stall landing or aggressive flare requires precise height judgment that is unavailable, increasing airspeed contradicts the goal of touching down at the slowest possible airspeed, and pitching down risks a nose-first impact.",
+      "explanation": "The chapter states that if the landing lights are unusable and outside visual references are not available during a night emergency landing, the airplane should be held in a level-landing attitude until the ground is contacted. The landing should be completed at the slowest possible airspeed in the normal landing attitude.",
       "reference": {
         "page": "11-13",
-        "text": "⦁ Complete the before-landing checklist, and check the landing lights for operation at altitude and turn ON in\n      sufficient time to illuminate the terrain or obstacles along the flightpath. The landing should be completed\n      in the normal landing attitude at the slowest possible airspeed. If the landing lights are unusable and outside\n      visual references are not available, the airplane should be held in level-landing attitude until the ground is\n      contacted."
-      }
-    },
-    {
-      "section": "Chapter 11: Night Operations",
-      "difficulty": 2,
-      "categories": [
-        "written_exam",
-        "checkride_oral"
-      ],
-      "question": "A student pilot claims that night flight requires different control inputs because the airplane responds differently in darkness. How should an instructor correct this misconception?",
-      "correct_answer": "The airplane performs and responds to control inputs the same as during the day; it is the pilot who is affected by various physical limitations and operational considerations at night",
-      "distractors": [
-        "The airplane's control effectiveness is reduced at night due to decreased air density, requiring the pilot to use larger control inputs",
-        "The airplane's engine produces less power at night due to cooler temperatures, so the pilot must adjust throttle settings accordingly",
-        "The airplane's instruments and systems operate at reduced sensitivity in darkness, requiring the pilot to interpret readings differently than during the day"
-      ],
-      "explanation": "According to AFH Chapter 11, the mechanical operation of an airplane at night is no different than during the day. The airplane does not know if it is being operated in the dark or in bright sunlight—it performs and responds to control inputs by the pilot the same way. It is the pilot who is affected by various aspects of night operations, including actual physical limitations as well as considerations such as equipment requirements, procedures, and emergency situations.",
-      "reference": {
-        "page": "11-1",
-        "text": "Introduction\nThe mechanical operation of an airplane at night is no different than operating the same airplane during the day. The airplane does not\nknow if it is being operated in the dark or in bright sunlight. It performs and responds to control inputs by the pilot. The\npilot, however, is affected by various aspects of night operations and should take them into consideration during night flight\noperations. Some are actual physical limitations affecting all pilots. Others, such as equipment requirements, procedures, and\nemergency situations, should also be considered."
-      }
-    },
-    {
-      "section": "Chapter 11: Night Operations",
-      "difficulty": 2,
-      "categories": [
-        "checkride_oral",
-        "general_knowledge"
-      ],
-      "question": "While the mechanical operation and performance of an airplane remain the same at night as they do during the day, which of the following factors must a pilot specifically consider when planning for and conducting night flight operations?",
-      "correct_answer": "Physical limitations, equipment requirements, procedures, and emergency situations",
-      "distractors": [
-        "Changes in aircraft performance, engine operating temperatures, and fuel consumption rates",
-        "Aerodynamic changes, control input delays, and modified center of gravity",
-        "Altered fuel-to-air mixtures, magneto timing, and spark plug fouling"
-      ],
-      "explanation": "According to the Airplane Flying Handbook (AFH) Chapter 11, the airplane itself does not know if it is being operated in the dark or in bright sunlight and performs the same. However, the pilot is affected by various aspects of night operations and must take into consideration actual physical limitations, equipment requirements, procedures, and emergency situations.",
-      "reference": {
-        "page": "11-1",
-        "text": "Introduction\nThe mechanical operation of an airplane at night is no different than operating the same airplane during the day. The airplane does not\nknow if it is being operated in the dark or in bright sunlight. It performs and responds to control inputs by the pilot. The\npilot, however, is affected by various aspects of night operations and should take them into consideration during night flight\noperations. Some are actual physical limitations affecting all pilots. Others, such as equipment requirements, procedures, and\nemergency situations, should also be considered."
-      }
-    },
-    {
-      "section": "Chapter 11: Night Operations",
-      "difficulty": 2,
-      "categories": [
-        "written_exam"
-      ],
-      "question": "A pilot is reviewing whether an early morning flight should be logged as night flying time. To make this determination, the pilot needs to understand when morning civil twilight begins and ends. Which statement is correct?",
-      "correct_answer": "Morning civil twilight begins when the geometric center of the sun is 6 degrees below the horizon and ends at sunrise.",
-      "distractors": [
-        "Morning civil twilight begins at sunrise and ends when the geometric center of the sun is 6 degrees below the horizon.",
-        "Morning civil twilight begins at sunset and ends when the geometric center of the sun is 6 degrees below the horizon.",
-        "Morning civil twilight begins when the geometric center of the sun is 6 degrees below the horizon and ends at sunset."
-      ],
-      "explanation": "According to the Airplane Flying Handbook Chapter 11, the National Weather Service defines morning civil twilight as beginning when the geometric center of the sun is 6 degrees below the horizon and ending at sunrise. This is distinct from evening civil twilight, which begins at sunset and ends when the geometric center of the sun is 6 degrees below the horizon. Since 14 CFR part 1 defines 'night' as the time between the end of evening civil twilight and the beginning of morning civil twilight, a pilot must understand these boundaries to accurately determine if a flight occurred during night conditions. Distractor 1 reverses the beginning and end points; Distractor 2 describes evening civil twilight; Distractor 3 incorrectly uses sunset as the ending point rather than sunrise.",
-      "reference": {
-        "page": "11-1",
-        "text": "According to 14 CFR part 1, section 1.1, Definitions and Abbreviations, “night” means the time between the end of evening civil\ntwilight and the beginning of morning civil twilight, as published in the Air Almanac, converted to local time. To explain further, the\nNational Weather Service defines evening civil twilight as the time that begins in the morning, or ends in the evening, when the\ngeometric center of the sun is 6 degrees below the horizon. Therefore, morning civil twilight begins when the geometric center of the\nsun is 6 degrees below the horizon, and ends at sunrise. Evening civil twilight begins at sunset and ends when the geometric center of\nthe sun is 6 degrees below the horizon. The FAA has an online tool to calculate sunrise, sunset, and civil twilight for any given\nlocation."
-      }
-    },
-    {
-      "section": "Chapter 11: Night Operations",
-      "difficulty": 2,
-      "categories": [
-        "written_exam"
-      ],
-      "question": "According to the National Weather Service definition referenced in the Airplane Flying Handbook, evening civil twilight ends at what specific point?",
-      "correct_answer": "When the geometric center of the sun is 6 degrees below the horizon.",
-      "distractors": [
-        "When the sun is no longer visible on the horizon.",
-        "When the geometric center of the sun is 12 degrees below the horizon.",
-        "At the beginning of morning civil twilight."
-      ],
-      "explanation": "The Airplane Flying Handbook, referencing 14 CFR part 1 and the National Weather Service, states that evening civil twilight begins at sunset and ends when the geometric center of the sun is 6 degrees below the horizon. This marks the beginning of 'night' as defined by the FAA.",
-      "reference": {
-        "page": "11-1",
-        "text": "According to 14 CFR part 1, section 1.1, Definitions and Abbreviations, “night” means the time between the end of evening civil\ntwilight and the beginning of morning civil twilight, as published in the Air Almanac, converted to local time. To explain further, the\nNational Weather Service defines evening civil twilight as the time that begins in the morning, or ends in the evening, when the\ngeometric center of the sun is 6 degrees below the horizon. Therefore, morning civil twilight begins when the geometric center of the\nsun is 6 degrees below the horizon, and ends at sunrise. Evening civil twilight begins at sunset and ends when the geometric center of\nthe sun is 6 degrees below the horizon. The FAA has an online tool to calculate sunrise, sunset, and civil twilight for any given\nlocation."
-      }
-    },
-    {
-      "section": "Chapter 11: Night Operations",
-      "difficulty": 2,
-      "categories": [
-        "written_exam",
-        "checkride_oral"
-      ],
-      "question": "A pilot completes three takeoffs and landings to a full stop 30 minutes after sunset. Assuming the aircraft category and class are appropriate and the landings were within the preceding 90 days, do these landings satisfy the night currency requirement to carry passengers?",
-      "correct_answer": "No, because for night currency, the landings must occur between 1 hour after sunset and 1 hour before sunrise.",
-      "distractors": [
-        "Yes, because night is defined as the period from sunset to sunrise.",
-        "No, because night currency requires the landings to occur at least 90 days prior to the flight.",
-        "Yes, because night is defined as the period from the end of evening civil twilight to the beginning of morning civil twilight."
-      ],
-      "explanation": "According to 14 CFR part 61, section 61.57(b)(1), as stated in the Airplane Flying Handbook, to act as PIC with passengers at night, the required three takeoffs and landings to a full stop must be performed during the time period beginning 1 hour after sunset and ending 1 hour before sunrise. Landings performed 30 minutes after sunset do not meet this specific regulatory definition for night currency.",
-      "reference": {
-        "page": "11-1",
-        "text": "For 14 CFR part 61, section 61.57(b)(1) night operations that meet recent flight experience requirements, the term “night” refers to\nthe time period beginning 1 hour after sunset and ending 1 hour before sunrise. The same regulation requires that during those hours,\nno person may act as pilot-in-command (PIC) of an aircraft carrying passengers unless within the preceding 90 days and during those\nspecified hours, that person has made 3 takeoffs and landings to a full stop. 14 CFR part 61, sections 61.57(b)(1)(i) and (ii) require the\npilot to have made the required takeoffs and landings acting as the sole manipulator of the controls, and to have performed the\ntakeoffs and landings in an aircraft of the same category, class, and type (if a type rating is required). Other conditions apply if using a\nfull flight simulator to meet the requirement as described in 14 CFR part 61 (section 61.57(b)(2)) or if seeking to use another\nalternative provided in the regulation."
-      }
-    },
-    {
-      "section": "Chapter 11: Night Operations",
-      "difficulty": 2,
-      "categories": [
-        "written_exam",
-        "checkride_oral"
-      ],
-      "question": "A pilot wants to carry passengers at night and is completing three takeoffs and landings to a full stop to meet recent flight experience requirements. Which statement correctly describes a requirement for how these takeoffs and landings must be performed?",
-      "correct_answer": "The pilot must have acted as the sole manipulator of the controls for each takeoff and landing",
-      "distractors": [
-        "The pilot must have been officially designated as PIC for each takeoff and landing",
-        "The pilot must have been the only pilot aboard the aircraft during the takeoffs and landings",
-        "The pilot must have logged the flight time as PIC in their logbook for each takeoff and landing"
-      ],
-      "explanation": "According to 14 CFR part 61, sections 61.57(b)(1)(i) and (ii), the pilot must have made the required takeoffs and landings acting as the sole manipulator of the controls, and in an aircraft of the same category, class, and type (if a type rating is required). Being designated as PIC, being the only pilot aboard, or logging PIC time are not the specific requirements stated in the regulation — the key requirement is being the sole manipulator of the controls.",
-      "reference": {
-        "page": "11-1",
-        "text": "For 14 CFR part 61, section 61.57(b)(1) night operations that meet recent flight experience requirements, the term “night” refers to\nthe time period beginning 1 hour after sunset and ending 1 hour before sunrise. The same regulation requires that during those hours,\nno person may act as pilot-in-command (PIC) of an aircraft carrying passengers unless within the preceding 90 days and during those\nspecified hours, that person has made 3 takeoffs and landings to a full stop. 14 CFR part 61, sections 61.57(b)(1)(i) and (ii) require the\npilot to have made the required takeoffs and landings acting as the sole manipulator of the controls, and to have performed the\ntakeoffs and landings in an aircraft of the same category, class, and type (if a type rating is required). Other conditions apply if using a\nfull flight simulator to meet the requirement as described in 14 CFR part 61 (section 61.57(b)(2)) or if seeking to use another\nalternative provided in the regulation."
-      }
-    },
-    {
-      "section": "Chapter 11: Night Operations",
-      "difficulty": 2,
-      "categories": [
-        "written_exam",
-        "checkride_oral"
-      ],
-      "question": "A pilot completed 3 full-stop landings at night 40 days ago in a multi-engine land airplane while acting as sole manipulator of the controls. The pilot now wishes to act as PIC carrying passengers at night in a single-engine land airplane. May the pilot do so based on those landings?",
-      "correct_answer": "No, because the landings were not performed in an aircraft of the same category, class, and type (if a type rating is required)",
-      "distractors": [
-        "Yes, because both aircraft share the same category (airplane) and the landings were within the preceding 90 days",
-        "Yes, because the pilot acted as sole manipulator of the controls for all 3 takeoffs and landings to a full stop",
-        "No, because the landings must be performed in the same make and model of aircraft"
-      ],
-      "explanation": "Per 14 CFR 61.57(b)(1), to act as PIC at night with passengers, a pilot must have made 3 takeoffs and landings to a full stop within the preceding 90 days acting as sole manipulator of the controls in an aircraft of the same category, class, and type (if a type rating is required). While the pilot met the 90-day, full-stop, and sole-manipulator requirements, the multi-engine land and single-engine land aircraft are different classes, so the currency does not transfer. Distractor 1 is wrong because category alone is insufficient—class must also match. Distractor 2 is wrong because sole manipulation is necessary but not sufficient without the same category/class/type. Distractor 3 is wrong because the requirement is category, class, and type—not make and model.",
-      "reference": {
-        "page": "11-1",
-        "text": "For 14 CFR part 61, section 61.57(b)(1) night operations that meet recent flight experience requirements, the term “night” refers to\nthe time period beginning 1 hour after sunset and ending 1 hour before sunrise. The same regulation requires that during those hours,\nno person may act as pilot-in-command (PIC) of an aircraft carrying passengers unless within the preceding 90 days and during those\nspecified hours, that person has made 3 takeoffs and landings to a full stop. 14 CFR part 61, sections 61.57(b)(1)(i) and (ii) require the\npilot to have made the required takeoffs and landings acting as the sole manipulator of the controls, and to have performed the\ntakeoffs and landings in an aircraft of the same category, class, and type (if a type rating is required). Other conditions apply if using a\nfull flight simulator to meet the requirement as described in 14 CFR part 61 (section 61.57(b)(2)) or if seeking to use another\nalternative provided in the regulation."
-      }
-    },
-    {
-      "section": "Chapter 11: Night Operations",
-      "difficulty": 2,
-      "categories": [
-        "written_exam"
-      ],
-      "question": "A pilot has not flown at night in over 90 days and wants to carry passengers on a night flight. The pilot has access to a full flight simulator. Which statement is correct regarding meeting night currency requirements?",
-      "correct_answer": "A full flight simulator may be used to meet night currency requirements under conditions specified in 14 CFR 61.57(b)(2)",
-      "distractors": [
-        "Only actual takeoffs and landings in an aircraft during night hours can satisfy the night currency requirement",
-        "A full flight simulator may be used, but only if the pilot first completes a flight review with a CFI",
-        "A full flight simulator may be used for instrument currency but is not permitted for night currency"
-      ],
-      "explanation": "According to AFH Chapter 11, while 14 CFR 61.57(b)(1) requires a pilot to have made 3 takeoffs and landings to a full stop at night within the preceding 90 days to act as PIC carrying passengers, the regulation also provides that a full flight simulator may be used to meet this requirement under the conditions specified in 14 CFR 61.57(b)(2). The simulator is a valid alternative to actual flight for regaining night currency, provided the regulatory conditions are met.",
-      "reference": {
-        "page": "11-1",
-        "text": "For 14 CFR part 61, section 61.57(b)(1) night operations that meet recent flight experience requirements, the term “night” refers to\nthe time period beginning 1 hour after sunset and ending 1 hour before sunrise. The same regulation requires that during those hours,\nno person may act as pilot-in-command (PIC) of an aircraft carrying passengers unless within the preceding 90 days and during those\nspecified hours, that person has made 3 takeoffs and landings to a full stop. 14 CFR part 61, sections 61.57(b)(1)(i) and (ii) require the\npilot to have made the required takeoffs and landings acting as the sole manipulator of the controls, and to have performed the\ntakeoffs and landings in an aircraft of the same category, class, and type (if a type rating is required). Other conditions apply if using a\nfull flight simulator to meet the requirement as described in 14 CFR part 61 (section 61.57(b)(2)) or if seeking to use another\nalternative provided in the regulation."
-      }
-    },
-    {
-      "section": "Night Vision",
-      "difficulty": 2,
-      "categories": [
-        "written_exam",
-        "checkride_oral"
-      ],
-      "question": "According to the Airplane Flying Handbook, why should pilots understand the physiology of the eye and how it functions in low-light conditions?",
-      "correct_answer": "Because vision involves the eyes and brain working together, and understanding this function enables pilots to adopt behaviors that significantly improve night vision.",
-      "distractors": [
-        "Because understanding eye physiology allows pilots to self-diagnose and correct visual deficiencies before conducting night flights.",
-        "Because it helps pilots determine when to transition from visual flight rules to instrument flight rules during low-light conditions.",
-        "Because it allows pilots to identify and avoid permanent eye damage caused by prolonged exposure to low-light environments."
-      ],
-      "explanation": "The AFH (Chapter 11, Night Vision) states that because vision involves the eyes and brain working together, understanding eye function leads to pilot behaviors that can improve night vision significantly. The goal is not self-diagnosis, deciding when to fly IFR, or preventing eye damage — it is about adopting practical behaviors that compensate for the eye's diminished performance in low light.",
-      "reference": {
-        "page": "11-1",
-        "text": "Due to the physiology of the eye [Figure 11-1], humans experience diminished vision in low-light conditions. Because vision\ninvolves the eyes and brain working together, understanding eye function leads to pilot behaviors that can improve night vision\nsignificantly."
-      }
-    },
-    {
-      "section": "Night Vision",
-      "difficulty": 2,
-      "categories": [
-        "written_exam",
-        "checkride_oral"
-      ],
-      "question": "In the human eye, what is the primary role of the cones located in the central area of the retina?",
-      "correct_answer": "They are involved with central vision to detect detail, perceive color, and identify far-away objects.",
-      "distractors": [
-        "They are used for low-light vision and are highly sensitive to movement in the peripheral field of view.",
-        "They regulate the dilation of the pupil to adjust the amount of light entering the eye during high-intensity conditions.",
-        "They provide peripheral vision but sacrifice visual acuity and color perception to detect motion."
-      ],
-      "explanation": "According to the Airplane Flying Handbook (AFH) Chapter 11, cones are concentrated in the central area of the retina (the macula and fovea) and are used for day or high-intensity light vision. Their primary role is to facilitate central vision, allowing a pilot to detect fine detail, perceive color, and identify far-away objects. Distractors describing low-light vision, peripheral movement detection, or pupil regulation are functions of rods or the iris, not the cones.",
-      "reference": {
-        "page": "11-1",
-        "text": "⦁ The cones are located in higher concentrations than rods in the central area of the retina known as the\n      macula, which measures about 4.5 mm in diameter. The exact center of the macula has a very small\n      depression called the fovea, which contains cones only. The cones are used for day or high-intensity light\n      vision. They are involved with central vision to detect detail, perceive color, and identify far-away objects."
+        "text": "If the landing lights are unusable and outside visual references are not available, the airplane should be held in level-landing attitude until the ground is contacted."
       }
     }
   ]

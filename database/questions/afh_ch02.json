@@ -3,361 +3,383 @@
   "chapter": 2,
   "questions": [
     {
-      "section": "Outer Wing Surfaces and Tail Section",
-      "difficulty": 3,
-      "categories": [
-        "checkride_oral",
-        "general_knowledge"
-      ],
-      "question": "During preflight inspection, a pilot completes all items specified in the AFM/POH checklist. What additional responsibility does the FAA emphasize regarding the inspection?",
-      "correct_answer": "Develop awareness for potential concerns beyond the listed items, such as structural deterioration, distortion, or loose and missing fasteners",
-      "distractors": [
-        "Limit the inspection strictly to AFM/POH items to avoid making subjective judgments about airworthiness",
-        "Rely on maintenance personnel to identify structural issues, as pilots are not trained to assess deterioration or distortion",
-        "Inspect only in the exact sequence specified by the AFM/POH, as deviating from the order risks missing critical items"
-      ],
-      "explanation": "According to AFH Chapter 2, while the AFM/POH provides a structured inspection sequence (often counterclockwise from the cabin entry), the FAA explicitly states that pilots should also 'develop awareness for potential areas of concern' beyond what is specifically listed. This includes signs of deterioration or distortion of the structure—whether metal or composite—as well as loose or missing rivets or screws. The checklist is a minimum framework, not a ceiling on what a pilot should evaluate.",
-      "reference": {
-        "page": "2-6",
-        "text": "Generally, the AFM/POH specifies a sequence for the pilot to inspect the aircraft that may sequence from the cabin entry access\nopening and then in a counterclockwise direction until the aircraft has been completely inspected. Besides the AFM/POH preflight\nassessment, the pilot should also develop awareness for potential areas of concern, such as signs of deterioration or distortion of the\nstructure, whether metal or composite, as well as loose or missing rivets or screws."
-      }
-    },
-    {
-      "section": "Outer Wing Surfaces and Tail Section",
-      "difficulty": 3,
-      "categories": [
-        "checkride_oral",
-        "general_knowledge"
-      ],
-      "question": "During a preflight inspection, a pilot notices a crack on a plastic wingtip fairing that has progressed beyond a previously drilled hole intended to stop the crack. What is the significance of this finding?",
-      "correct_answer": "It may indicate a potential in-flight failure and the part may be unairworthy.",
-      "distractors": [
-        "The crack has been successfully arrested and the component remains airworthy.",
-        "The component is safe for flight because wingtips and fairings are non-structural.",
-        "It is a routine maintenance issue that only requires monitoring until the next inspection."
-      ],
-      "explanation": "According to the Airplane Flying Handbook (AFH), Chapter 2, while stop-drilling is a common practice to prevent crack progression, extra care should be exercised to ensure these devices are in good condition without cracks that may render them unairworthy. Cracks that have continued beyond a stop-drilled location or any new adjacent cracks that have formed may lead to in-flight failure.",
-      "reference": {
-        "page": "2-7",
-        "text": "On metal airplanes, wingtips, fairings, and non-structural covers may be fabricated out of thin fiberglass or plastic. These items are\nfrequently affected by cracks radiating from screw holes or concentrated radii. Often, if any of these items are cracked, it is practice\nto “stop-drill” the crack to prevent crack progression. [Figure 2-8] Extra care should be exercised to ensure that these devices are in\ngood condition without cracks that may render them unairworthy. Cracks that have continued beyond a stop-drilled location or\nany new adjacent cracks that have formed may lead to in-flight failure."
-      }
-    },
-    {
-      "section": "Outer Wing Surfaces and Tail Section",
-      "difficulty": 3,
-      "categories": [
-        "checkride_oral",
-        "general_knowledge"
-      ],
-      "question": "During a preflight inspection, a pilot notices a small crack on a plastic wingtip fairing that was previously stop-drilled. Upon closer examination, the pilot spots a new, adjacent crack forming near the stop-drilled hole. What is the significance of this finding?",
-      "correct_answer": "It may indicate a potential in-flight failure of the component.",
-      "distractors": [
-        "It confirms the stop-drilling technique successfully relieved the structural stress in the component.",
-        "It indicates the crack is superficial and the component remains fully airworthy without further action.",
-        "It means the crack is now safely contained and only requires monitoring during future preflight inspections."
-      ],
-      "explanation": "According to the Airplane Flying Handbook, pilots use a 'stop-drill' technique at the end of a crack to prevent crack progression. However, the handbook specifically warns that if cracks continue beyond a stop-drilled location, or if new adjacent cracks form, it may lead to in-flight failure. This indicates the component is potentially unairworthy and requires maintenance.",
-      "reference": {
-        "page": "2-7",
-        "text": "On metal airplanes, wingtips, fairings, and non-structural covers may be fabricated out of thin fiberglass or plastic. These items are\nfrequently affected by cracks radiating from screw holes or concentrated radii. Often, if any of these items are cracked, it is practice\nto “stop-drill” the crack to prevent crack progression. [Figure 2-8] Extra care should be exercised to ensure that these devices are in\ngood condition without cracks that may render them unairworthy. Cracks that have continued beyond a stop-drilled location or\nany new adjacent cracks that have formed may lead to in-flight failure."
-      }
-    },
-    {
-      "section": "Fuel and Oil",
-      "difficulty": 3,
-      "categories": [
-        "written_exam"
-      ],
-      "question": "An engine is occasionally experiencing mild detonation during climb out. How should a pilot understand the long-term implications of this condition based on the FAA's guidance?",
-      "correct_answer": "Mild detonation may increase engine wear over time, though some engines can operate with mild detonation regularly without immediate failure.",
-      "distractors": [
-        "Mild detonation has no effect on engine wear and can be safely ignored as long as full power is maintained.",
-        "Mild detonation will cause engine failure within minutes, just as severe detonation would, requiring an immediate emergency landing.",
-        "Mild detonation actually reduces engine wear because the explosive combustion burns fuel more completely than smooth combustion."
-      ],
-      "explanation": "According to AFH Chapter 2, mild detonation may increase engine wear, though some engines can operate with mild detonation regularly. This distinguishes it from severe detonation, which can cause engine failure in minutes. The key understanding is that while mild detonation is not immediately catastrophic, it is still undesirable because it contributes to accelerated engine wear over time. The distractors are incorrect because: mild detonation does increase wear (not harmless), it does not cause failure in minutes like severe detonation, and it certainly does not reduce wear—the explosive rather than smooth burning of the mixture is what causes the damage.",
-      "reference": {
-        "page": "2-7",
-        "text": "Aircraft piston engines certificated for grade 80/87 run satisfactorily on 100LL if approved as an alternate. The reverse is not true.\nFuel of a lower grade should never be substituted for a required higher grade. Detonation will severely damage the engine in a very\nshort period of time. Detonation, as the name suggests, is an explosion of the fuel-air mixture inside the cylinder. During detonation,\nthe fuel/air charge (or pockets within the charge) explodes rather than burns smoothly. Because of this explosion, the charge exerts a\nmuch higher force on the piston and cylinder, leading to increased noise, vibration, and cylinder head temperatures. The violence of\ndetonation also causes a reduction in power. Mild detonation may increase engine wear, though some engines can operate with mild\ndetonation regularly. However, severe detonation can cause engine failure in minutes. [Figure 2-9] Because of the noise that it\nmakes, detonation is \"engine knock\" or \"pinging\" in cars."
-      }
-    },
-    {
-      "section": "Fuel and Oil",
-      "difficulty": 3,
+      "section": "Preflight Assessment of the Aircraft",
+      "difficulty": 2,
       "categories": [
         "written_exam",
         "checkride_oral"
       ],
-      "question": "A pilot notices that the engine oil has darkened significantly after only a few hours of use following a recent oil change. While some darkening over time is expected, what does the Airplane Flying Handbook indicate this rapid darkening may suggest?",
-      "correct_answer": "Engine cylinder problems",
+      "question": "During preflight assessment, a pilot reviews the aircraft logbooks and finds the annual inspection expired two weeks ago. The pilot argues the aircraft is still safe because a mechanic recently looked it over. Which statement best reflects the pilot's responsibility?",
+      "correct_answer": "The PIC is responsible for determining whether the aircraft is in condition for safe flight, and the aircraft does not meet airworthiness requirements without a current annual inspection.",
       "distractors": [
-        "Normal contamination buildup as oil operating hours increase",
-        "Excessive oil consumption during normal engine operation",
-        "An overfilled oil reservoir causing oil aeration"
+        "The owner/operator is primarily responsible for maintenance, so the PIC has no obligation regarding inspection status.",
+        "A mechanic's informal review satisfies the annual inspection requirement under 14 CFR part 91.",
+        "The aircraft may be flown as long as the pilot believes it is mechanically safe, regardless of inspection status."
       ],
-      "explanation": "According to the Airplane Flying Handbook (Chapter 2, Fuel and Oil), oils darken in color as operating hours increase, which is common and expected as the oil traps contaminants. However, oils that rapidly darken in the first few hours of use after an oil change may indicate engine cylinder problems. This distinguishes between normal gradual darkening over time and abnormal rapid darkening that warrants further investigation. Gradual darkening (distractor 1) is explicitly stated as normal, while excessive oil consumption (distractor 2) is a separate concern related to oil level changes rather than oil color. Oil reservoir overfill (distractor 3) is not discussed as a cause of oil darkening in the source material.",
+      "explanation": "Per 14 CFR part 91, sections 91.7(a) and (b), the PIC is responsible for determining whether the aircraft is in condition for safe flight, and no person may operate a civil aircraft unless it is in an airworthy condition. An annual inspection within the preceding 12 calendar months is required under section 91.409(a).",
+      "reference": {
+        "page": "2-1",
+        "text": "no person may operate a civil aircraft unless it is in an airworthy condition and the pilot in command of a civil aircraft is responsible for determining whether the aircraft is in condition for safe flight."
+      }
+    },
+    {
+      "section": "Preflight Assessment of the Aircraft",
+      "difficulty": 1,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "Which of the following documents must be on board or affixed to the airplane for flight under 14 CFR part 91?",
+      "correct_answer": "Current Airworthiness Certificate, Registration Certificate, and operating limitations",
+      "distractors": [
+        "Pilot logbook, medical certificate, and weight and balance data only",
+        "Maintenance logbooks, ELT battery receipt, and radio station license",
+        "Annual inspection endorsement, compass correction card, and insurance policy"
+      ],
+      "explanation": "The chapter lists required documents including the Current Airworthiness Certificate, Current Registration Certificate, and Operating limitations (which may be in the form of an FAA-approved AFM/POH, placards, instrument markings, or any combination thereof). Maintenance logbooks are not normally kept in the airplane.",
+      "reference": {
+        "page": "2-4",
+        "text": "The pilot needs to determine that the following documents are, as appropriate, on board, attached, or affixed to the airplane: Current Airworthiness Certificate… Current Registration Certificate… Operating limitations…"
+      }
+    },
+    {
+      "section": "Visual Preflight Assessment",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "During the interior preflight inspection, the pilot notices the VSI reads 300 feet per minute while the airplane is stationary on the ground. What action is appropriate?",
+      "correct_answer": "Use a small screwdriver to zero the VSI, as this is the only flight instrument a pilot has the prerogative to adjust.",
+      "distractors": [
+        "Note the error on the compass correction card and continue with the flight.",
+        "Contact an FAA-certificated repairman or mechanic to adjust the VSI before flight.",
+        "Subtract 300 feet per minute from all VSI readings during the flight to correct for the error."
+      ],
+      "explanation": "The chapter states: 'The mechanical VSI is the only flight instrument that a pilot has the prerogative to adjust. All others need to be adjusted by an FAA-certificated repairman or mechanic.' A small screwdriver can be used to zero the instrument if it is not part of an electronic display.",
+      "reference": {
+        "page": "2-5",
+        "text": "The mechanical VSI is the only flight instrument that a pilot has the prerogative to adjust. All others need to be adjusted by an FAA-certificated repairman or mechanic."
+      }
+    },
+    {
+      "section": "Visual Preflight Assessment",
+      "difficulty": 2,
+      "categories": [
+        "checkride_oral",
+        "general_knowledge"
+      ],
+      "question": "During preflight, the pilot discovers the seat rail holes are slightly oval-shaped rather than round. Why is this significant?",
+      "correct_answer": "Oval-shaped seat rail holes may indicate excessive wear, which could allow the seat lock pins to fail and the seat to slide during flight.",
+      "distractors": [
+        "Oval holes are normal and expected in older aircraft and require no action.",
+        "Oval holes indicate the seat was installed at the wrong angle and the seat rails must be replaced.",
+        "Oval holes are only a concern if the seat does not move at all during the inspection."
+      ],
+      "explanation": "The chapter states seats should be inspected to ensure 'that the seats properly latch into the seat rails through the seat lock pins and that seat rail holes are not abnormally worn to an oval shape.' This wear could compromise seat security.",
+      "reference": {
+        "page": "2-4",
+        "text": "seats should be inspected to ensure that the seats properly latch into the seat rails through the seat lock pins and that seat rail holes are not abnormally worn to an oval shape"
+      }
+    },
+    {
+      "section": "Outer Wing Surfaces and Tail Section",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "A pilot inspecting the wing notices a black-oxide film around several rivet heads along the spar line. What does this most likely indicate?",
+      "correct_answer": "The rivets are working loose in their holes, which may indicate internal structural damage or failure.",
+      "distractors": [
+        "The wing has been exposed to normal weathering and the film is purely cosmetic.",
+        "The rivets were recently replaced and the film is residual manufacturing lubricant.",
+        "The black-oxide film indicates the spar has been treated with corrosion inhibitor and is performing correctly."
+      ],
+      "explanation": "The chapter states: 'Inspect around rivet heads looking for cracked paint or a black-oxide film that forms when a rivet works free in its hole.' This is a sign of a loose rivet and potential structural concern.",
+      "reference": {
+        "page": "2-6",
+        "text": "Inspect around rivet heads looking for cracked paint or a black-oxide film that forms when a rivet works free in its hole."
+      }
+    },
+    {
+      "section": "Outer Wing Surfaces and Tail Section",
+      "difficulty": 2,
+      "categories": [
+        "checkride_oral",
+        "general_knowledge"
+      ],
+      "question": "When inspecting a composite airplane, the pilot gently taps on the wing surface and notices a change in sound in one area. Why is this technique used?",
+      "correct_answer": "A change in sound when tapping the structure may identify delamination of the spar to skin or other structural problems.",
+      "distractors": [
+        "It is used to locate the spar lines since composite airplanes have no visible rivets to identify them.",
+        "It is used to verify that the composite material has been properly cured at the factory.",
+        "It is used to check for water trapped inside the wing tanks before sumping the fuel."
+      ],
+      "explanation": "The chapter explains that composite airplanes generally have no rivets or screws to aid in identifying spar lines and attach points, but 'delamination of spar to skin or other structural problems may be identified by bubbles, fine hair-line cracks, or changes in sound when gently tapping on the structure with a fingertip.'",
+      "reference": {
+        "page": "2-7",
+        "text": "delamination of spar to skin or other structural problems may be identified by bubbles, fine hair-line cracks, or changes in sound when gently tapping on the structure with a fingertip."
+      }
+    },
+    {
+      "section": "Fuel and Oil",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "An engine certificated for grade 80/87 AVGAS has 100LL fuel available. The pilot knows 100LL is approved as an alternate. What is the general rule regarding fuel grade substitution?",
+      "correct_answer": "A lower grade should never be substituted for a required higher grade, but a higher grade may be used if approved as an alternate.",
+      "distractors": [
+        "Any grade of AVGAS may be substituted freely as long as the engine starts and runs normally.",
+        "Only grade 100/130 may be substituted for 80/87 because both have higher octane ratings.",
+        "A higher grade may never be substituted for a lower grade due to the risk of detonation."
+      ],
+      "explanation": "The chapter states: 'Aircraft piston engines certificated for grade 80/87 run satisfactorily on 100LL if approved as an alternate. The reverse is not true. Fuel of a lower grade should never be substituted for a required higher grade.' Using a lower grade can cause detonation.",
+      "reference": {
+        "page": "2-7",
+        "text": "Fuel of a lower grade should never be substituted for a required higher grade. Detonation will severely damage the engine in a very short period of time."
+      }
+    },
+    {
+      "section": "Fuel and Oil",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "During preflight, a pilot sumps the fuel tanks and finds a small amount of water in the first sample. What is the appropriate action?",
+      "correct_answer": "Continue sampling from each sump until no water or contamination appears, and investigate further if contamination is consistent or significant.",
+      "distractors": [
+        "Discard the contaminated sample and proceed with the flight since a small amount of water is normal.",
+        "Drain the entire fuel system and refuel the aircraft before continuing the preflight.",
+        "Add isopropyl alcohol to the fuel to absorb the water and continue with the flight."
+      ],
+      "explanation": "The chapter states: 'If water is found in the first fuel sample, continue sampling until no water and contamination appears. Significant and/or consistent water, sediment or contaminations are grounds for further investigation by qualified maintenance personnel.'",
       "reference": {
         "page": "2-10",
-        "text": "During the preflight assessment, if the engine is cold, oil levels on the oil dipstick show higher levels than if the engine was warm and\nrecently shutdown after a flight. When removing the oil dipstick, care should be taken to keep the dipstick from coming in contact\nwith dirty or grimy areas. The dipstick should be inspected to verify the oil level. Typically, piston airplane engines have\noil reservoirs with capacities between four and eight quarts, with six quarts being common. Aside from the level of oil, the\noil’s color also provides an insight as to its operating condition. Oils darken in color as the oil operating hours increase—this\nis common and expected as the oil traps contaminants. However, oils that rapidly darken in the first few hours of use after an oil\nchange may indicate engine cylinder problems. Piston airplane engines consume a small amount of oil during normal\noperation. The amount of consumption varies on many factors; however, if consumption increases or suddenly changes, qualified\nmaintenance personnel should investigate"
+        "text": "If water is found in the first fuel sample, continue sampling until no water and contamination appears. Significant and/or consistent water, sediment or contaminations are grounds for further investigation by qualified maintenance personnel."
+      }
+    },
+    {
+      "section": "Fuel and Oil",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "Why is it recommended to fill fuel tanks completely after the last flight of the day?",
+      "correct_answer": "The more fuel in the tanks, the less room there is for condensation to occur, which is the best preventive measure against water accumulation.",
+      "distractors": [
+        "It ensures the fuel quantity gauges are always calibrated to full for the next flight.",
+        "It prevents the rubber fuel tanks from shrinking and cracking when exposed to air.",
+        "It reduces the weight of the aircraft on the landing gear struts overnight."
+      ],
+      "explanation": "The chapter states: 'The best preventive measure is to minimize the opportunity for water to condense in the tanks… The more fuel that is in the tanks, the less room there is for condensation to occur. Keeping fuel tanks filled is also the best way to slow the aging of rubber fuel tanks and tank sealant.'",
+      "reference": {
+        "page": "2-10",
+        "text": "The more fuel that is in the tanks, the less room there is for condensation to occur. Keeping fuel tanks filled is also the best way to slow the aging of rubber fuel tanks and tank sealant."
+      }
+    },
+    {
+      "section": "Engine and Propeller",
+      "difficulty": 2,
+      "categories": [
+        "checkride_oral",
+        "general_knowledge"
+      ],
+      "question": "During the engine inspection, the pilot notices white stains near the exhaust stacks and cylinder heads. What do these stains most likely indicate?",
+      "correct_answer": "Exhaust leaks at the cylinder head or cracks in the exhaust stacks",
+      "distractors": [
+        "Fuel dye from a leaking fuel line, which is a fire hazard",
+        "Coolant leakage from the liquid-cooled engine cylinder heads",
+        "Normal combustion residue that requires no further action"
+      ],
+      "explanation": "The chapter states: 'The exhaust system should be checked for white stains caused by exhaust leaks at the cylinder head or cracks in the exhaust stacks.'",
+      "reference": {
+        "page": "2-12",
+        "text": "The exhaust system should be checked for white stains caused by exhaust leaks at the cylinder head or cracks in the exhaust stacks."
+      }
+    },
+    {
+      "section": "Engine and Propeller",
+      "difficulty": 1,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "How can jet fuel inadvertently introduced into an AVGAS-burning reciprocating engine affect the airplane?",
+      "correct_answer": "The engine may start and run long enough for the airplane to become airborne, only to fail catastrophically after takeoff.",
+      "distractors": [
+        "The engine will not start at all, making the misfueling immediately obvious.",
+        "The engine will run roughly but safely at reduced power for the duration of the flight.",
+        "The engine will overheat immediately upon startup and shut itself down automatically."
+      ],
+      "explanation": "The chapter warns: 'A reciprocating engine operating on jet fuel may start, run, and power the airplane long enough for the airplane to become airborne, only to have the engine fail catastrophically after takeoff.'",
+      "reference": {
+        "page": "2-7",
+        "text": "A reciprocating engine operating on jet fuel may start, run, and power the airplane long enough for the airplane to become airborne, only to have the engine fail catastrophically after takeoff."
+      }
+    },
+    {
+      "section": "Risk and Resource Management",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "Which of the following best describes the difference between a hazard and risk as defined in the chapter?",
+      "correct_answer": "A hazard is a condition or circumstance that could lead to an undesired event, while risk is the future impact of a hazard that is not controlled or eliminated.",
+      "distractors": [
+        "A hazard is the probability of an accident occurring, while risk is the cause of the accident.",
+        "A hazard is always weather-related, while risk is always pilot-related.",
+        "A hazard is a quantitative value assigned to a task, while risk is a qualitative assessment of pilot skill."
+      ],
+      "explanation": "The chapter defines a hazard as 'a condition, event, object, or circumstance that could lead to or contribute to an unplanned or undesired event' and risk as 'the future impact of a hazard that is not controlled or eliminated.'",
+      "reference": {
+        "page": "2-12",
+        "text": "A hazard is a condition, event, object, or circumstance that could lead to or contribute to an unplanned or undesired event… Risk is the future impact of a hazard that is not controlled or eliminated."
+      }
+    },
+    {
+      "section": "Risk and Resource Management",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "A pilot becomes fixated on a malfunctioning instrument light during a critical phase of flight. Which SRM concept does this situation best illustrate?",
+      "correct_answer": "Task management—fixation on a minor issue displaces the ability to process information of greater importance.",
+      "distractors": [
+        "Situational awareness—the pilot is demonstrating heightened awareness of all cockpit systems.",
+        "Human resource management—the pilot is effectively using available equipment resources.",
+        "Aeronautical decision-making—the pilot is following proper troubleshooting procedures."
+      ],
+      "explanation": "The chapter states under Task Management: 'distraction and fixation impede the ability to process information. For example, if a pilot becomes distracted and fixates on an instrument light failure, the unnecessary focus displaces capability and prevents appreciation of tasks of greater importance.'",
+      "reference": {
+        "page": "2-14",
+        "text": "if a pilot becomes distracted and fixates on an instrument light failure, the unnecessary focus displaces capability and prevents appreciation of tasks of greater importance."
       }
     },
     {
       "section": "Engine Starting",
-      "difficulty": 3,
+      "difficulty": 2,
       "categories": [
         "written_exam",
         "checkride_oral"
       ],
-      "question": "If a continuous and very high current draw is observed on the ammeter after the engine has started, indicating the starter motor remains engaged, what action should the pilot take?",
-      "correct_answer": "Shut down the engine immediately.",
+      "question": "After engine start, the pilot notices the ammeter shows a continuous and very high current draw. What does this most likely indicate and what action should be taken?",
+      "correct_answer": "The starter motor may have remained electrically and mechanically engaged after engine start; the engine should be shut down immediately.",
       "distractors": [
-        "Reduce the engine to idle and monitor the ammeter for any changes.",
-        "Pull the starter circuit breaker and continue running the engine.",
-        "Cycle the ignition switch off and back on to disengage the starter."
+        "The alternator is charging the battery normally; no action is needed.",
+        "The battery has a short circuit; the pilot should turn off the alternator and continue on battery power.",
+        "The magneto switch is faulty; the pilot should cycle the magnetos to reset the system."
       ],
-      "explanation": "According to the Airplane Flying Handbook, if the starter motor remains electrically and mechanically engaged after engine start, which can be detected by a continuous and very high current draw on the ammeter or a starter engaged warning light, the engine should be shut down immediately to prevent damage.",
+      "explanation": "The chapter states: 'the starter motor may remain electrically and mechanically engaged after engine start. This can be detected by a continuous and very high current draw on the ammeter… The engine should be shut down immediately if this occurs.'",
       "reference": {
         "page": "2-16",
-        "text": "Although quite rare, the starter motor may remain electrically and mechanically engaged after engine start. This can be detected by a\ncontinuous and very high current draw on the ammeter. Some airplanes also have a starter engaged warning light specifically for this\npurpose. The engine should be shut down immediately if this occurs."
+        "text": "the starter motor may remain electrically and mechanically engaged after engine start. This can be detected by a continuous and very high current draw on the ammeter… The engine should be shut down immediately if this occurs."
       }
     },
     {
-      "section": "Hand Propping",
-      "difficulty": 3,
+      "section": "Engine Starting",
+      "difficulty": 1,
       "categories": [
-        "checkride_oral",
+        "written_exam",
         "general_knowledge"
       ],
-      "question": "When hand propping an aircraft engine, what specific hazard is created by assuming a stance too far from the propeller blade?",
-      "correct_answer": "Leaning forward in an unbalanced condition to reach the blade may cause you to fall into the rotating blades when the engine starts",
+      "question": "What is the maximum recommended continuous starter operation time before a cool-down period is required?",
+      "correct_answer": "30 seconds, followed by a cool-down period of at least 30 seconds to 1 minute",
       "distractors": [
-        "The propeller may not rotate with enough momentum to start the engine",
-        "You may be unable to retard the throttle quickly enough after the engine starts",
-        "You may lose sight of the other participant's hand signals during the starting procedure"
+        "10 seconds, followed by a cool-down period of 2 minutes",
+        "60 seconds, followed by a cool-down period of 5 minutes",
+        "45 seconds, followed by a cool-down period of 45 seconds"
       ],
-      "explanation": "The Airplane Flying Handbook states that the person hand propping should stand slightly less than one arm's length from the blade. If a stance too far away were assumed, it would be necessary to lean forward in an unbalanced condition to reach the blade, which may cause the person to fall forward into the rotating blades when the engine starts. The proper distance also allows space to step away as a safeguard in case the brakes fail.",
+      "explanation": "The chapter states: 'Avoid continuous starter operation for periods longer than 30 seconds without a cool down period of at least 30 seconds to 1 minute (some AFM/POH specify longer cool down routines).'",
       "reference": {
-        "page": "2-17",
-        "text": "Both participants should discuss the procedure and agree on voice commands and expected actions. To begin the procedure, the fuel\nsystem and engine controls (tank selector, primer, pump, throttle, and mixture) are set for normal start. The ignition/magneto switch\nshould be checked to be sure that it is OFF. Then, the descending propeller blade should be rotated so that it assumes a\nposition slightly above the horizontal. The person doing the hand propping should face the descending blade squarely and stand\nslightly less than one arm’s length from the blade. If a stance too far away were assumed, it would be necessary to lean forward in an\nunbalanced condition to reach the blade, which may cause the person to fall forward into the rotating blades when the engine\nstarts. Allowing space for the person to be able to step away as the propeller is pulled down, and the engine starts, serves as\nsafeguard in case the brakes fail. The procedure and commands for hand propping are:"
+        "page": "2-16",
+        "text": "Avoid continuous starter operation for periods longer than 30 seconds without a cool down period of at least 30 seconds to 1 minute"
       }
     },
     {
-      "section": "Hand Propping",
-      "difficulty": 3,
+      "section": "Taxiing",
+      "difficulty": 2,
       "categories": [
-        "checkride_oral",
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "While taxiing with a quartering tailwind, what control positions should the pilot use to minimize the tendency of the wind to get under the tail and wing?",
+      "correct_answer": "Elevator held DOWN and upwind aileron DOWN",
+      "distractors": [
+        "Elevator held UP and upwind aileron UP",
+        "Elevator held DOWN and upwind aileron UP",
+        "Elevator held UP and upwind aileron DOWN"
+      ],
+      "explanation": "The chapter states: 'When taxiing with a quartering tailwind, the elevator should be held in the DOWN position, and the upwind aileron, DOWN. Since the wind is striking the airplane from behind, these control positions reduce the tendency of the wind to get under the tail and the wing and to nose the airplane over.'",
+      "reference": {
+        "page": "2-19",
+        "text": "When taxiing with a quartering tailwind, the elevator should be held in the DOWN position, and the upwind aileron, DOWN."
+      }
+    },
+    {
+      "section": "Taxiing",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
         "general_knowledge"
       ],
-      "question": "During hand propping, what is the specific purpose of allowing space for the person to step away as the propeller is pulled down and the engine starts?",
-      "correct_answer": "It serves as a safeguard in case the brakes fail.",
+      "question": "A pilot routinely receives the same taxi instructions at their home airport and begins to expect them without carefully listening. What human factors risk does this scenario describe?",
+      "correct_answer": "Expectation bias—the tendency to follow the same procedure repeatedly without evaluating current instructions",
       "distractors": [
-        "It prevents the person from leaning forward in an unbalanced condition to reach the blade.",
-        "It reduces the risk of being struck by the propeller if the engine backfires.",
-        "It allows the person to quickly move clear of the exhaust blast as the engine starts."
+        "Confirmation bias—the pilot confirms instructions with ATC before proceeding",
+        "Normalization of deviance—the pilot accepts increasingly dangerous taxi routes as normal",
+        "Task saturation—the pilot is overwhelmed by too many taxi instructions at once"
       ],
-      "explanation": "According to the Airplane Flying Handbook, allowing space to step away as the propeller is pulled down and the engine starts serves as a safeguard in case the brakes fail. Standing slightly less than an arm's length from the blade is what prevents leaning forward in an unbalanced condition, not the space allowed for stepping away.",
-      "reference": {
-        "page": "2-17",
-        "text": "Both participants should discuss the procedure and agree on voice commands and expected actions. To begin the procedure, the fuel\nsystem and engine controls (tank selector, primer, pump, throttle, and mixture) are set for normal start. The ignition/magneto switch\nshould be checked to be sure that it is OFF. Then, the descending propeller blade should be rotated so that it assumes a\nposition slightly above the horizontal. The person doing the hand propping should face the descending blade squarely and stand\nslightly less than one arm’s length from the blade. If a stance too far away were assumed, it would be necessary to lean forward in an\nunbalanced condition to reach the blade, which may cause the person to fall forward into the rotating blades when the engine\nstarts. Allowing space for the person to be able to step away as the propeller is pulled down, and the engine starts, serves as\nsafeguard in case the brakes fail. The procedure and commands for hand propping are:"
-      }
-    },
-    {
-      "section": "SWITCH ON and SWITCH OFF.",
-      "difficulty": 3,
-      "categories": [
-        "written_exam",
-        "checkride_oral"
-      ],
-      "question": "While taxiing in a moderate wind, during which specific maneuver is an airplane most susceptible to an uncontrollable swerve or ground loop?",
-      "correct_answer": "Turning from a downwind heading toward an upwind heading",
-      "distractors": [
-        "Turning from an upwind heading toward a downwind heading",
-        "Turning from a downwind heading toward a crosswind heading",
-        "Turning from a crosswind heading toward an upwind heading"
-      ],
-      "explanation": "According to the Airplane Flying Handbook (AFH), swerves during taxiing are most likely to occur when turning from a downwind heading toward an upwind heading. In moderate to high-wind conditions, the airplane may weathervane during this turn, which increases the swerving tendency and can lead to a ground loop.",
+      "explanation": "The chapter states: 'a pilot given the same taxi instructions by ATC, starts expecting those same instructions and might not realize that those instructions no longer apply… This expectation bias has occurred to many pilots who did not stop and carefully consider and evaluate their taxi instructions.'",
       "reference": {
         "page": "2-19",
-        "text": "⦁ When taxiing, the pilot should slow down before attempting a turn. Sharp high-speed turns place undesirable\n      side loads on the landing gear and may result in tire damage or an uncontrollable swerve or a ground loop.\n      Swerves are most likely to occur when turning from a downwind heading toward an upwind heading. In\n      moderate to high-wind conditions, the airplane may weathervane increasing the swerving tendency."
-      }
-    },
-    {
-      "section": "SWITCH ON and SWITCH OFF.",
-      "difficulty": 3,
-      "categories": [
-        "written_exam",
-        "checkride_oral"
-      ],
-      "question": "While taxiing in a quartering headwind, the upwind aileron is held UP. What is the aerodynamic effect of this control input on the downwind wing?",
-      "correct_answer": "The downwind aileron is placed DOWN, producing a small amount of lift and drag that helps reduce the upwind wing's tendency to rise.",
-      "distractors": [
-        "The downwind aileron is placed DOWN, creating a downward force that keeps the downwind wing firmly on the ground.",
-        "The downwind aileron is placed UP, reducing lift on the downwind wing to balance the aircraft against the crosswind.",
-        "The downwind aileron is placed DOWN, increasing lift but decreasing drag to improve directional control during the taxi."
-      ],
-      "explanation": "According to the Airplane Flying Handbook, holding the upwind aileron UP during a quartering headwind causes the interconnected downwind aileron to be placed DOWN. This control deflection produces a small amount of lift and drag on the downwind wing, which further reduces the tendency of the upwind wing to rise.",
-      "reference": {
-        "page": "2-19",
-        "text": "When taxiing with a quartering headwind, the wing on the upwind side (the side that the wind is coming from) tends to be lifted by\nthe wind unless the aileron control is held in that direction (upwind aileron UP). Moving the aileron into the UP position reduces the\neffect of the wind striking that wing, thus reducing the lifting action. This control movement also causes the downwind aileron to be\nplaced in the DOWN position, thus a small amount of lift and drag on the downwind wing, further reducing the tendency of\nthe upwind wing to rise. [Figure 2-15]"
-      }
-    },
-    {
-      "section": "SWITCH ON and SWITCH OFF.",
-      "difficulty": 3,
-      "categories": [
-        "written_exam",
-        "checkride_oral"
-      ],
-      "question": "When taxiing in a quartering headwind with the aileron held into the wind (upwind aileron UP), the downwind aileron deflects DOWN. What is the primary purpose of this downwind aileron deflection?",
-      "correct_answer": "It creates lift and drag on the downwind wing, further reducing the tendency of the upwind wing to rise",
-      "distractors": [
-        "It increases drag on the upwind wing, helping to slow the aircraft during taxi",
-        "It creates downforce on the upwind wing, directly countering the wind's lifting effect on that wing",
-        "It balances the control pressures, making it easier to maintain a straight taxi path"
-      ],
-      "explanation": "According to AFH Chapter 2, when taxiing with a quartering headwind, holding the upwind aileron UP reduces the wind's lifting effect on that wing. This control input simultaneously places the downwind aileron in the DOWN position, which generates a small amount of lift and drag on the downwind wing. This lift and drag on the downwind wing further reduces the tendency of the upwind wing to rise. The downwind aileron does not act on the upwind wing directly, nor is its purpose related to slowing the aircraft or balancing control pressures.",
-      "reference": {
-        "page": "2-19",
-        "text": "When taxiing with a quartering headwind, the wing on the upwind side (the side that the wind is coming from) tends to be lifted by\nthe wind unless the aileron control is held in that direction (upwind aileron UP). Moving the aileron into the UP position reduces the\neffect of the wind striking that wing, thus reducing the lifting action. This control movement also causes the downwind aileron to be\nplaced in the DOWN position, thus a small amount of lift and drag on the downwind wing, further reducing the tendency of\nthe upwind wing to rise. [Figure 2-15]"
-      }
-    },
-    {
-      "section": "SWITCH ON and SWITCH OFF.",
-      "difficulty": 3,
-      "categories": [
-        "written_exam"
-      ],
-      "question": "While taxiing an aircraft and performing a turn, how should the turn coordinator's ball react according to the AFH?",
-      "correct_answer": "It should move toward the outside of the turn.",
-      "distractors": [
-        "It should move toward the inside of the turn.",
-        "It should remain centered if the turn rate is consistent.",
-        "It should deflect in the same direction as the miniature airplane."
-      ],
-      "explanation": "According to the Airplane Flying Handbook (AFH), during taxi checks, the turn indicator should show the correct direction of turn with the ball movement toward the outside of the turn. This allows the pilot to verify the instrument is functioning properly before takeoff.",
-      "reference": {
-        "page": "2-21",
-        "text": "Taxiing checklists are sometimes specified by the AFM/POH, and the pilot should accomplish any items that are required. If there are\nno specific checklist items, taxiing still provides an opportunity to verify the operation and cross-check of the flight instruments. In\ngeneral, the flight instruments should indicate properly with the airspeed at or near zero (depending on taxi speed, wind speed and\ndirection, and lower limit sensitivity); the attitude indicator should indicate pitch and roll level (depending on airplane attitude) with\nno flags; the altimeter should indicate the proper elevation within prescribed limits; the turn indicator should show the correct\ndirection of turn with the ball movement toward the outside of the turn with no flags; the directional gyro should be set and crossed\nchecked to the magnetic compass and verified accurate to the direction of taxi; and the vertical speed indicator (VSI) should read\nzero. These checks can be accomplished on conventional mechanical instrumented aircraft or those with glass displays."
+        "text": "This expectation bias has occurred to many pilots who did not stop and carefully consider and evaluate their taxi instructions."
       }
     },
     {
       "section": "Before-Takeoff Check",
-      "difficulty": 3,
+      "difficulty": 2,
       "categories": [
-        "written_exam",
-        "checkride_oral"
+        "checkride_oral",
+        "general_knowledge"
       ],
-      "question": "During a takeoff briefing, a pilot states their plan for an engine failure after rotation (VR) with no runway remaining. Under what condition would turning back to the runway be considered?",
-      "correct_answer": "Only if the aircraft has reached at least a predetermined minimum altitude AGL.",
+      "question": "During the before-takeoff check, why should the airplane be positioned headed into the wind for the engine run-up?",
+      "correct_answer": "Air-cooled engines receive less cooling air on the ground, and heading into the wind provides the best degree of engine cooling during ground operations.",
       "distractors": [
-        "As soon as best glide speed is established to maximize the chance of making the runway.",
-        "Only if the engine failure occurs prior to VR and sufficient runway remains.",
-        "If the aircraft is unable to maintain a straight-ahead path clear of ground hazards."
+        "Heading into the wind prevents the airplane from weathervaning during the magneto check.",
+        "Heading into the wind reduces the engine rpm needed for the magneto check.",
+        "Heading into the wind ensures the altimeter reads field elevation accurately during the run-up."
       ],
-      "explanation": "According to the Airplane Flying Handbook, if an engine failure occurs after VR with no runway remaining, the pilot should lower the pitch to best glide speed and make no turns prior to a specified minimum altitude. A turn back to the runway should only be considered if the aircraft has reached at least that predetermined minimum altitude AGL.",
+      "explanation": "The chapter states: 'To minimize overheating during engine run-up, it is recommended that the airplane be headed as nearly as possible into the wind and, if equipped, engine instruments that indicate cylinder head temperatures should be monitored. Cowl flaps, if available, should be set according to the AFM/POH.'",
+      "reference": {
+        "page": "2-21",
+        "text": "To minimize overheating during engine run-up, it is recommended that the airplane be headed as nearly as possible into the wind… Cowl flaps, if available, should be set according to the AFM/POH."
+      }
+    },
+    {
+      "section": "After-Landing",
+      "difficulty": 2,
+      "categories": [
+        "checkride_oral",
+        "general_knowledge"
+      ],
+      "question": "After landing, a pilot wants to retract the flaps during the landing rollout to improve braking on a short-field landing. What precaution does the chapter recommend?",
+      "correct_answer": "The pilot should make a positive identification of the flap control handle before retracting the flaps to avoid mistakenly retracting the landing gear.",
+      "distractors": [
+        "The pilot should wait until reaching taxi speed before retracting flaps to avoid distraction.",
+        "The pilot should only retract flaps after turning off the runway and stopping completely.",
+        "The pilot should retract flaps only if the manufacturer does not recommend it for the specific landing type."
+      ],
+      "explanation": "The chapter states: 'There have been many cases where a pilot has mistakenly manipulated the wrong handle and retracted the landing gear, instead of the flaps… In this situation, the pilot should make a positive identification of the flap control handle before retracting the flaps.'",
       "reference": {
         "page": "2-22",
-        "text": "“This will be normal takeoff (use normal, short, or soft as appropriate) from runway (use runway assigned), wind is from the\n         (direction and speed), rotation speed is (use the specified or calculated manufacturer’s takeoff or rotation speed (VR)), an\n         initial turn to (use planned heading) and climb to (use initial altitude in feet). The takeoff will be rejected for engine failure\n         below VR, applying appropriate braking, stopping ahead. Engine failure after VR and with runway remaining, I will lower\n         pitch, land, and apply appropriate braking, stopping straight ahead. Engine failure after VR and with no runway remaining, I\n         will lower pitch to best glide speed, no turns will be made prior to (insert appropriate altitude), land in the most suitable area,\n         and apply appropriate braking, avoiding hazards on the ground as much as possible. I will only consider turning back to\n         runway __ if I have reached at least __ feet AGL, which would be __ feet MSL. If time permits, fuel, ignition, and electrical\n         systems will be switched off.”"
-      }
-    },
-    {
-      "section": "Chapter 2: Ground Operations",
-      "difficulty": 2,
-      "categories": [
-        "written_exam",
-        "checkride_oral"
-      ],
-      "question": "A pilot is preparing for a flight and wants to follow the practice of experienced pilots who emphasize thorough ground operations. Which combination of factors should the pilot assess during this phase to maintain adequate control of risk?",
-      "correct_answer": "Regulatory requirements, pilot's readiness for PIC responsibilities, aircraft condition, flight environment, and external pressures",
-      "distractors": [
-        "Aircraft airworthiness, fuel quantity, weight and balance, and weather minimums",
-        "Regulatory requirements, passenger briefings, runway lengths, and fuel reserves",
-        "Pilot currency, aircraft maintenance logs, ATC clearances, and traffic patterns"
-      ],
-      "explanation": "According to AFH Chapter 2, during ground operations a pilot should assess regulatory requirements, the pilot's readiness for PIC responsibilities, the airplane's condition, the flight environment, and any external pressures that could lead to inadequate control of risk. The distractors are incorrect because, while they list items that may be individually relevant to preflight planning, they do not represent the comprehensive set of factors identified in the handbook. Notably, the inclusion of 'external pressures' and 'pilot's readiness for PIC responsibilities' distinguishes the correct answer, as these address risk management beyond just the mechanical and regulatory aspects of flight.",
-      "reference": {
-        "page": "2-1",
-        "text": "Introduction\nExperienced pilots place a strong emphasis on ground operations as this is where safe flight begins and ends. They know that hasty\nground operations diminish their margin of safety. A smart pilot takes advantage of this phase of flight to assess various factors\nincluding the regulatory requirements, the pilot’s readiness for pilot-in-command (PIC) responsibilities, the airplane’s condition, the\nflight environment, and any external pressures that could lead to inadequate control of risk."
-      }
-    },
-    {
-      "section": "Chapter 2: Ground Operations",
-      "difficulty": 2,
-      "categories": [
-        "checkride_oral",
-        "general_knowledge"
-      ],
-      "question": "A pilot has completed their preflight preparation, boarded the aircraft, and started the engine. After taxiing to the run-up area, they notice an irregularity that concerns them and decide not to fly. They taxi back, shut down, and secure the aircraft. At what point did the pilot's situational awareness responsibility end?",
-      "correct_answer": "When the decision was made not to go, since situational awareness can end prior to flight if the pilot chooses not to depart.",
-      "distractors": [
-        "Situational awareness ended when the engine was shut down, as the pilot was still responsible for awareness during the taxi back.",
-        "Situational awareness ended when the aircraft was safely secured at the tie-down or hangar, regardless of the decision not to go.",
-        "Situational awareness ended once the pilot left the run-up area, as the flight was effectively cancelled at that point."
-      ],
-      "explanation": "According to the Airplane Flying Handbook (Chapter 2), situational awareness begins during flight preparation and only ends when the airplane is safely and securely returned to its tie-down or hangar, OR if a decision is made not to go. In this scenario, the pilot made a deliberate decision not to fly, which is one of the two conditions that end situational awareness. This highlights that situational awareness is not limited to the flying portion itself but encompasses the entire operation from preparation through completion.",
-      "reference": {
-        "page": "2-1",
-        "text": "Flying an airplane presents many new responsibilities not required for other forms of transportation. Focus is often placed on the\nflying portion itself with less emphasis placed on ground operations. However pilots need to allow time for flight preparation.\nSituational awareness begins during preparation and only ends when the airplane is safely and securely returned to its tie-down or\nhangar, or if a decision is made not to go."
-      }
-    },
-    {
-      "section": "Preflight Assessment of the Aircraft",
-      "difficulty": 2,
-      "categories": [
-        "general_knowledge",
-        "checkride_oral"
-      ],
-      "question": "During preflight, a pilot confirms that an aircraft conforms to its type design but identifies a mechanically unsafe condition. Based on the AFH's definition of airworthiness, what should the pilot determine?",
-      "correct_answer": "The aircraft is not airworthy because airworthiness requires both conformity to type design AND being in condition for safe operation",
-      "distractors": [
-        "The aircraft is airworthy because conformity to type design is the sole requirement for airworthiness under 14 CFR part 3",
-        "The aircraft is airworthy because the owner/operator is primarily responsible for maintenance, not the pilot",
-        "The aircraft's airworthiness cannot be determined by the pilot and requires a mechanic's certification"
-      ],
-      "explanation": "Per 14 CFR part 3, section 3.5(a), the term 'airworthy' means that the aircraft conforms to its type design AND is in condition for safe operation—both conditions must be met. The AFH states that the visual preflight assessment ensures the aircraft meets regulatory airworthiness standards and is in a safe mechanical condition prior to flight. Additionally, 14 CFR part 91, section 91.7(b) makes the PIC responsible for determining whether the aircraft is in condition for safe flight, so the pilot can and must make this determination.",
-      "reference": {
-        "page": "2-1",
-        "text": "The visual preflight assessment mitigates airplane flight hazards. The preflight assessment ensures that any aircraft flown meets\nregulatory airworthiness standards and is in a safe mechanical condition prior to flight. Per 14 CFR part 3, section 3.5(a), the\nterm “airworthy” means that the aircraft conforms to its type design and is in condition for safe operation. The owner/operator is\nprimarily responsible for maintenance, but in accordance with 14 CFR part 91, section 91.7(a) and (b) no person may operate a civil\naircraft unless it is in an airworthy condition and the pilot in command of a civil aircraft is responsible for determining whether the\naircraft is in condition for safe flight. The pilot's inspection should involve the following:\n    1. Inspecting the airplane’s airworthiness status.\n    2. Following the AFM/POH to determine the required items for visual inspection. [Figures 2-1, 2-2, 2-3]. 2-1 required items for inspection."
-      }
-    },
-    {
-      "section": "Preflight Assessment of the Aircraft",
-      "difficulty": 2,
-      "categories": [
-        "checkride_oral",
-        "general_knowledge"
-      ],
-      "question": "According to the Airplane Flying Handbook, a pilot's preflight inspection should involve which two key actions?",
-      "correct_answer": "Inspecting the airplane's airworthiness status and following the AFM/POH to determine required items for visual inspection",
-      "distractors": [
-        "Verifying maintenance records are current and relying on the owner/operator's airworthiness determination",
-        "Reviewing 14 CFR Part 43 requirements and conducting a visual inspection based on general aviation practices",
-        "Confirming the aircraft's registration is valid and using the type certificate data sheet for inspection guidance"
-      ],
-      "explanation": "The AFH Chapter 2 states that the pilot's inspection should involve: (1) inspecting the airplane's airworthiness status, and (2) following the AFM/POH to determine the required items for visual inspection. While the owner/operator is primarily responsible for maintenance, the PIC is responsible for determining whether the aircraft is in condition for safe flight per 14 CFR 91.7. The AFM/POH is the specific document that guides the visual inspection items, not Part 43 (which governs maintenance), the type certificate data sheet, or general practices.",
-      "reference": {
-        "page": "2-1",
-        "text": "The visual preflight assessment mitigates airplane flight hazards. The preflight assessment ensures that any aircraft flown meets\nregulatory airworthiness standards and is in a safe mechanical condition prior to flight. Per 14 CFR part 3, section 3.5(a), the\nterm “airworthy” means that the aircraft conforms to its type design and is in condition for safe operation. The owner/operator is\nprimarily responsible for maintenance, but in accordance with 14 CFR part 91, section 91.7(a) and (b) no person may operate a civil\naircraft unless it is in an airworthy condition and the pilot in command of a civil aircraft is responsible for determining whether the\naircraft is in condition for safe flight. The pilot's inspection should involve the following:\n    1. Inspecting the airplane’s airworthiness status.\n    2. Following the AFM/POH to determine the required items for visual inspection. [Figures 2-1, 2-2, 2-3]. 2-1 required items for inspection."
-      }
-    },
-    {
-      "section": "Preflight Assessment of the Aircraft",
-      "difficulty": 2,
-      "categories": [
-        "written_exam",
-        "checkride_oral"
-      ],
-      "question": "During preflight preparation, a pilot reviews a summary of the aircraft's airworthy status. What is the primary purpose of this review?",
-      "correct_answer": "To ensure that records of maintenance, alterations, and inspections are current and correct",
-      "distractors": [
-        "To confirm that the airplane logbooks are stored on board the aircraft for in-flight reference",
-        "To verify that all required cockpit documents such as the registration and operating handbook are present",
-        "To confirm that the aircraft's weight and balance records have been recalculated since the last flight"
-      ],
-      "explanation": "According to AFH Chapter 2, it should be a matter of procedure for the pilot to inspect the airplane logbooks or a summary of the airworthy status prior to flight to ensure that the airplane records of maintenance, alteration, and inspections are current and correct. The handbook also notes that logbooks are not normally kept in the airplane, making distractor 1 incorrect. Checking for required cockpit documents is a separate preflight task, and weight and balance recalculation is not the purpose of reviewing airworthy status.",
-      "reference": {
-        "page": "2-2",
-        "text": "Each airplane has a set of logbooks that include airframe and engine, and in some cases, propeller and appliance logbooks, which are\nused to record maintenance, alteration, and inspections performed on a specific airframe, engine, propeller, or appliance. It is\nimportant that the logbooks be kept accurate, secure, and available for inspection. Airplane logbooks are not normally kept in the\nairplane. It should be a matter of procedure by the pilot to inspect the airplane logbooks or a summary of the airworthy status prior to\nflight to ensure that the airplane records of maintenance, alteration, and inspections are current and correct. [Figure 2-4] The\nfollowing is required: 2-2"
+        "text": "the pilot should make a positive identification of the flap control handle before retracting the flaps."
       }
     }
   ]

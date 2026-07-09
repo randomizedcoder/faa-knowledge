@@ -3,321 +3,362 @@
   "chapter": 5,
   "questions": [
     {
-      "section": "Mechanical Factors",
-      "difficulty": 3,
+      "section": "Defining an Airplane Upset",
+      "difficulty": 1,
       "categories": [
-        "checkride_oral",
-        "general_knowledge"
+        "written_exam",
+        "checkride_oral"
       ],
-      "question": "According to the Airplane Flying Handbook, what is the primary reason a pilot must maintain proficiency in partial panel operations?",
-      "correct_answer": "To avoid an aircraft upset and prevent a subsequent loss of control in-flight (LOC-I) during instrument failures.",
+      "question": "The FAA considers an upset to be an event that unintentionally exceeds certain parameters. Which of the following situations would NOT meet the FAA's upset parameters?",
+      "correct_answer": "Bank angle of 35°",
       "distractors": [
-        "To troubleshoot the failed system and restore primary instrument functionality without needing to divert.",
-        "To maintain the original flight plan and avoid the necessity of declaring an IFR emergency.",
-        "To ensure the aircraft remains within its standard maneuvering speed while flying in IMC."
+        "Pitch attitude greater than 25° nose up",
+        "Pitch attitude greater than 10° nose down",
+        "Flying at airspeeds inappropriate for the conditions"
       ],
-      "explanation": "The AFH states that while in-flight anomalies like instrument failures may not be preventable, avoiding an upset and subsequent loss of control in-flight (LOC-I) may depend directly on the pilot's proficiency in the use of secondary instrumentation and partial panel operations.",
+      "explanation": "The FAA defines an upset as an event that unintentionally exceeds parameters including pitch greater than 25° nose up, pitch greater than 10° nose down, bank angle greater than 45°, or inappropriate airspeeds. A 35° bank does not exceed the 45° bank threshold.",
+      "reference": {
+        "page": "5-1",
+        "text": "These parameters are: 1. Pitch attitude greater than 25°, nose up 2. Pitch attitude greater than 10°, nose down 3. Bank angle greater than 45° 4. Within the above parameters, but flying at airspeeds inappropriate for the conditions"
+      }
+    },
+    {
+      "section": "Unusual Attitudes Versus Upsets",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "Which statement correctly distinguishes an upset from an unusual attitude?",
+      "correct_answer": "An upset has defined parameters, while an unusual attitude does not necessarily meet those parameters",
+      "distractors": [
+        "An unusual attitude includes stall events, but an upset does not",
+        "An unusual attitude is always intentional, while an upset is always unintentional",
+        "An upset only occurs in IMC, while an unusual attitude can occur in VMC"
+      ],
+      "explanation": "The chapter states that an upset includes stall events, has defined parameters, and centers on unintentional situations. A 30° bank with 15° nose-up pitch would be an unusual attitude but not meet upset parameters. Both unusual attitudes and upsets can occur in either VMC or IMC.",
       "reference": {
         "page": "5-2",
-        "text": "Although these and other in-flight anomalies may not be preventable, knowledge of systems and AFM/POH recommended\nprocedures helps the pilot minimize their impact and prevent an upset. In the case of instrument failures, avoiding an upset and\nsubsequent LOC-I may depend on the pilot’s proficiency in the use of secondary instrumentation and partial panel operations."
+        "text": "Has defined parameters. For example, for training purposes an instructor could place the aircraft in a 30° bank with a nose-up pitch attitude of 15° and ask the student to recover and that would be considered an unusual attitude, but would not meet the upset parameters."
       }
     },
     {
-      "section": "Task Saturation",
-      "difficulty": 3,
+      "section": "Environmental Factors",
+      "difficulty": 1,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "How does airframe icing contribute to the risk of an upset?",
+      "correct_answer": "It destroys the smooth flow of air over the airfoil, increasing drag and decreasing lift",
+      "distractors": [
+        "It increases the critical angle of attack of the wing",
+        "It primarily affects the engine, causing power loss that leads to a stall",
+        "It reduces stall speed by smoothing the airflow over the wing"
+      ],
+      "explanation": "The chapter states that icing can destroy the smooth flow of air over the airfoil and increase drag while decreasing the ability of the airfoil to create lift, which can significantly degrade airplane performance and result in a stall.",
+      "reference": {
+        "page": "5-2",
+        "text": "Icing can destroy the smooth flow of air over the airfoil and increase drag while decreasing the ability of the airfoil to create lift. Therefore, it can significantly degrade airplane performance, resulting in a stall if not handled correctly."
+      }
+    },
+    {
+      "section": "Mechanical Factors",
+      "difficulty": 2,
       "categories": [
         "written_exam",
         "checkride_oral"
       ],
-      "question": "A fatigued pilot on a night flight inadvertently enters IMC and experiences a vacuum pump failure. According to the AFH, what is the primary reason this scenario could lead to disorientation and loss of control?",
-      "correct_answer": "The demands of extended, unpracticed partial panel flight exceed the pilot's capabilities",
+      "question": "According to the chapter, why should a pilot disengage the autopilot and autothrottles when an in-flight anomaly occurs?",
+      "correct_answer": "Disengaging allows the pilot to directly control the airplane and possibly eliminate the cause of the problem",
       "distractors": [
-        "Night IMC conditions inherently exceed any pilot's capabilities regardless of training or currency",
-        "A vacuum pump failure in IMC automatically causes spatial disorientation regardless of pilot skill",
-        "Fatigue alone makes instrument flight impossible, rendering the equipment failure irrelevant"
+        "The autopilot will automatically recover from any upset if left engaged",
+        "Advanced automation always identifies and corrects the cause of the anomaly without pilot input",
+        "The autopilot must be disengaged before the pilot can communicate with ATC"
       ],
-      "explanation": "The AFH defines the margin of safety as the difference between task requirements and pilot capabilities, noting that loss of control can occur whenever requirements exceed capabilities. In this scenario, the handbook specifically identifies the demands of extended, unpracticed partial panel flight as the factor that could cause disorientation and loss of control. The danger arises from the gap between what the situation demands and what the pilot can deliver—not from any single factor alone making flight impossible. Distractor A is incorrect because trained and current pilots routinely fly in night IMC. Distractor C is incorrect because a vacuum pump failure does not automatically cause disorientation—a proficient pilot can maintain control using partial panel techniques. Distractor D is incorrect because fatigue contributes to the risk but does not, by itself, make instrument flight impossible.",
+      "explanation": "The chapter explains that advanced automation may mask the cause of an anomaly, and disengaging the autopilot and autothrottles allows the pilot to directly control the airplane and possibly eliminate the cause of the problem. The pilot should maintain proficiency to manually fly in all conditions.",
+      "reference": {
+        "page": "5-2",
+        "text": "Disengaging the autopilot and the autothrottles allows the pilot to directly control the airplane and possibly eliminate the cause of the problem."
+      }
+    },
+    {
+      "section": "Human Factors — Spatial Disorientation",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "A pilot who is unaware that an upset event is developing and fails to take any corrective action to prevent LOC-I is experiencing which type of spatial disorientation?",
+      "correct_answer": "Unrecognized spatial disorientation",
+      "distractors": [
+        "Recognized spatial disorientation",
+        "Incapacitating spatial disorientation",
+        "Reversible spatial disorientation"
+      ],
+      "explanation": "The chapter defines three types of spatial disorientation. In unrecognized spatial disorientation, the pilot is unaware that an upset event is developing or has occurred and fails to make essential decisions or take corrective action. 'Reversible' is not one of the defined types.",
       "reference": {
         "page": "5-3",
-        "text": "The margin of safety is the difference between task requirements and pilot capabilities. An upset and eventual LOC-I can occur\nwhenever requirements exceed capabilities. For example, an airplane upset event that requires rolling an airplane from a near-inverted\nto an upright orientation may demand piloting skills beyond those learned during primary training. In another example, a fatigued\npilot who inadvertently encounters IMC at night coupled with a vacuum pump failure, or a pilot fails to engage pitot heat while flying\nin IMC, could become disoriented and lose control of the airplane due to the demands of extended—and unpracticed—partial panel\nflight. Additionally, unnecessary low-altitude flying and impromptu demonstrations for friends or others on the ground could lead\npilots to exceed their capabilities, with fatal results."
+        "text": "Unrecognized spatial disorientation: the pilot is unaware that an upset event is developing, or has occurred, and fails to make essential decisions or take any corrective action to prevent LOC-I."
       }
     },
     {
-      "section": "Task Saturation",
-      "difficulty": 3,
+      "section": "Surprise and Startle Response",
+      "difficulty": 2,
       "categories": [
         "written_exam",
-        "checkride_oral"
+        "general_knowledge"
       ],
-      "question": "A pilot is flying in IMC and fails to activate the pitot heat. According to the Airplane Flying Handbook, why does this situation create a risk of loss of control?",
-      "correct_answer": "The resulting instrument failure creates demands of partial panel flight that may exceed the pilot's capabilities",
+      "question": "What is the key difference between surprise and startle as described in the chapter?",
+      "correct_answer": "Surprise is an unexpected event that violates expectations, while startle is an uncontrollable automatic muscle reflex",
       "distractors": [
-        "The pitot tube will physically detach from the airframe, causing structural damage and loss of control",
-        "The lack of pitot heat causes the engine to run rough due to induction icing, leading to power loss",
-        "Ice accumulation on the pitot tube increases drag sufficiently to stall the airplane"
+        "Surprise is an uncontrollable muscle reflex, while startle is an unexpected event that violates expectations",
+        "Surprise only occurs in IMC, while startle only occurs in VMC",
+        "Surprise and startle are the same physiological response with different names"
       ],
-      "explanation": "The AFH explains that the margin of safety is the difference between task requirements and pilot capabilities. When a pilot fails to engage pitot heat in IMC, the resulting loss of airspeed indication forces the pilot into partial panel flight. This scenario can cause the pilot to become disoriented and lose control due to the demands of extended—and unpracticed—partial panel flight, where the task requirements exceed the pilot's capabilities.",
+      "explanation": "The chapter explicitly distinguishes the two: surprise is an unexpected event that violates a pilot's expectations and can affect mental processes, while startle is an uncontrollable, automatic muscle reflex with raised heart rate and blood pressure elicited by a sudden, intense event.",
       "reference": {
         "page": "5-3",
-        "text": "The margin of safety is the difference between task requirements and pilot capabilities. An upset and eventual LOC-I can occur\nwhenever requirements exceed capabilities. For example, an airplane upset event that requires rolling an airplane from a near-inverted\nto an upright orientation may demand piloting skills beyond those learned during primary training. In another example, a fatigued\npilot who inadvertently encounters IMC at night coupled with a vacuum pump failure, or a pilot fails to engage pitot heat while flying\nin IMC, could become disoriented and lose control of the airplane due to the demands of extended—and unpracticed—partial panel\nflight. Additionally, unnecessary low-altitude flying and impromptu demonstrations for friends or others on the ground could lead\npilots to exceed their capabilities, with fatal results."
+        "text": "Surprise is an unexpected event that violates a pilot's expectations and can affect the mental processes used to respond to the event. Startle is an uncontrollable, automatic muscle reflex, raised heart rate, blood pressure, etc., elicited by exposure to a sudden, intense event that violates a pilot's expectations."
       }
     },
     {
-      "section": "Sensory Overload/Deprivation",
-      "difficulty": 3,
+      "section": "UPRT Core Concepts",
+      "difficulty": 2,
       "categories": [
         "written_exam",
         "checkride_oral"
       ],
-      "question": "A pilot practicing slow flight notices the stall warning horn has not activated despite flying at an airspeed well below the published stall speed. Which cues should the pilot rely on to recognize the impending stall and avert possible loss of control (LOC-I)?",
-      "correct_answer": "Aerodynamic buffet, loss of roll authority, or inability to arrest a descent",
+      "question": "How does UPRT differ from aerobatic training?",
+      "correct_answer": "UPRT focuses on helping pilots overcome sudden onsets of stress to avoid, prevent, and recover from unplanned excursions",
       "distractors": [
-        "Aerodynamic buffet, loss of elevator authority, or inability to arrest a descent",
-        "Increased airspeed, firmer control feel, and reduced sink rate",
-        "Engine roughness, ammeter fluctuation, and magnetic compass deviation"
+        "Aerobatic training focuses on unplanned excursions, while UPRT focuses on intentional maneuvers",
+        "Aerobatic training incorporates startle and surprise, while UPRT does not",
+        "UPRT requires an aerobatic-capable airplane, while aerobatic training does not"
       ],
-      "explanation": "According to AFH Chapter 5, if a stall warning system fails, a pilot should cross-check other cues to avert a stall and possible LOC-I. These specific cues include aerodynamic buffet, loss of roll authority, or inability to arrest a descent. The first distractor substitutes 'elevator authority' for 'roll authority,' which is specifically incorrect—the handbook identifies roll (aileron) authority loss, not pitch authority. The second distractor describes indications opposite of what occurs near a stall (airspeed decreases, controls become mushy, and descent rate may become unrecoverable). The third distractor lists unrelated engine and instrument indications that are not aerodynamic stall cues.",
+      "explanation": "The chapter states that in aerobatic training, the pilot knows and expects the maneuver, so effects of startle or surprise are missing. The primary goal of UPRT is to help pilots overcome sudden onsets of stress to avoid, prevent, and recover from unplanned excursions that could lead to LOC-I.",
       "reference": {
-        "page": "5-3",
-        "text": "The ability to separate time-critical information from distractions takes practice, experience, and knowledge of the airplane and its\nsystems. Cross-checks are necessary not only to corroborate other information that has been presented, but also to determine if\ninformation might be missing or invalid. For example, a stall warning system may fail and therefore not warn a pilot of close\nproximity to a stall, so other cues need to be used to avert a stall and possible LOC-I. These cues include aerodynamic buffet, loss of\nroll authority, or inability to arrest a descent."
+        "page": "5-5",
+        "text": "In aerobatic training, the pilot knows and expects the maneuver, so effects of startle or surprise are missing... The primary goal of UPRT is to help pilots overcome sudden onsets of stress to avoid, prevent, and recover from unplanned excursions that could lead to LOC-I."
       }
     },
     {
-      "section": "Spatial Disorientation",
-      "difficulty": 3,
+      "section": "Prevention Through Proportional Counter-Response",
+      "difficulty": 2,
       "categories": [
-        "written_exam",
-        "checkride_oral"
+        "written_exam"
       ],
-      "question": "A pilot flying in IMC feels a strong sensation of banking right, but the attitude indicator shows level flight. The pilot cannot determine which to believe. According to the Airplane Flying Handbook, what is the likely result?",
-      "correct_answer": "The airplane may divert from the desired flightpath because the pilot cannot resolve the conflict between senses and instruments.",
+      "question": "What is the typical time scale of proportional counter-response in UPRT prevention?",
+      "correct_answer": "Seconds or fractions of seconds",
       "distractors": [
-        "The pilot will instinctively trust the instruments and maintain the desired flightpath.",
-        "The bodily sensations will quickly self-correct to match the instrument indications.",
-        "The flight instruments will adjust to reflect the pilot's perceived attitude."
+        "Minutes or hours",
+        "Several minutes",
+        "It is measured in the number of flight hours remaining"
       ],
-      "explanation": "The Airplane Flying Handbook states that some pilots experiencing spatial disorientation 'perceive a conflict between bodily senses and the flight instruments, and allow the airplane to divert from the desired flightpath because they cannot resolve the conflict.' This means the pilot does not necessarily trust the instruments over their senses—the inability to resolve the conflict itself leads to deviation from the flightpath. The instruments do not adjust to match perception, and bodily sensations do not automatically self-correct.",
-      "reference": {
-        "page": "5-3",
-        "text": "Spatial disorientation has been a significant factor in many airplane upset accidents. Accident data from 2008 to 2013 shows nearly\n200 accidents associated with spatial disorientation with more than 70% of those being fatal. All pilots are susceptible to false sensory\nillusions while flying at night or in certain weather conditions. These illusions can lead to a conflict between actual attitude\nindications and what the pilot senses is the correct attitude. Disoriented pilots may not always be aware of their orientation error.\nMany airplane upsets occur while the pilot is engaged in some task that takes attention away from the flight instruments or outside\nreferences. Others perceive a conflict between bodily senses and the flight instruments, and allow the airplane to divert from the\ndesired flightpath because they cannot resolve the conflict."
-      }
-    },
-    {
-      "section": "Prevention Through ADM and Risk Management",
-      "difficulty": 3,
-      "categories": [
-        "written_exam",
-        "checkride_oral"
-      ],
-      "question": "According to the Airplane Flying Handbook, why should initial Upset Prevention and Recovery Training (UPRT) for crew operations be mastered individually before being integrated into a multi-crew, CRM environment?",
-      "correct_answer": "An untrained crewmember can be the most unpredictable element in an upset scenario.",
-      "distractors": [
-        "It ensures pilots do not become overly reliant on another crewmember during an upset.",
-        "It guarantees that the crew will not experience spatial disorientation simultaneously during an upset.",
-        "Individual mastery is required because CRM is ineffective at altitudes where upsets typically occur."
-      ],
-      "explanation": "The Airplane Flying Handbook states that since an untrained crewmember can be the most unpredictable element in an upset scenario, initial UPRT for crew operations should be mastered individually before being integrated into a multi-crew, CRM environment.",
+      "explanation": "The chapter distinguishes prevention through ADM and risk management (minutes or hours) from proportional counter-response, which typically occurs on the order of seconds or fractions of seconds, with the goal of recognizing a developing upset and taking proportionally-appropriate avoidance actions.",
       "reference": {
         "page": "5-6",
-        "text": "Another part of ADM is crew resource management (CRM) or single-pilot resource management (SRM). Both are relevant to the\nUPRT environment. When available, a coordinated crew response to potential and developing upsets can provide added benefits such\nas increased situational awareness, mutual support, and an improved margin of safety. Since an untrained crewmember can be the\nmost unpredictable element in an upset scenario, initial UPRT for crew operations should be mastered individually before being\nintegrated into a multi-crew, CRM environment. A crew should be able to accomplish the following:"
-      }
-    },
-    {
-      "section": "Common Errors",
-      "difficulty": 3,
-      "categories": [
-        "checkride_oral"
-      ],
-      "question": "A flight school plans to conduct UPRT using an advanced aviation training device that is not a Level C or D FFS. How should this device be incorporated into the training?",
-      "correct_answer": "Use it to build upon UPRT skills that were initially developed in a suitable airplane",
-      "distractors": [
-        "Use it to develop initial UPRT skills before the student practices recoveries in an airplane",
-        "Use it as a standalone substitute for airplane-based UPRT since it provides a safe, controlled environment",
-        "Use it only after the student has completed all UPRT in a Level C or D FFS first"
-      ],
-      "explanation": "According to AFH Chapter 5, only higher fidelity devices (Level C and D FFS) are a satisfactory substitution for developing UPRT skills in the actual aircraft. For all other training devices, initial skill development should be accomplished in a suitable airplane, and the training device should be used to build upon those skills. Using a lower-fidelity device for initial skill development or as a standalone substitute would not provide the fidelity needed for proper UPRT skill acquisition.",
-      "reference": {
-        "page": "5-7",
-        "text": "Roles of FSTDs and Airplanes in UPRT\nTraining devices range from aviation training devices (e.g., basic and advanced) to FSTDs (e.g., flight training devices (FTD) and full\nflight simulators (FFS)) and have a broad range of capabilities. While all of these devices have limitations relative to actual flight,\nonly the higher fidelity devices (i.e., Level C and D FFS) are a satisfactory substitution for developing UPRT skills in the actual\naircraft. Except for these higher fidelity devices, initial skill development should be accomplished in a suitable airplane, and the\naccompanying training device should be used to build upon these skills. [Figure 5-4]"
+        "text": "The time-scale of this element of prevention typically occurs on the order of seconds or fractions of seconds, with the goal being the ability to recognize a developing upset and take proportionally-appropriate avoidance actions to preclude the airplane entering a fully-developed upset."
       }
     },
     {
       "section": "Angle of Attack",
-      "difficulty": 3,
+      "difficulty": 2,
       "categories": [
         "written_exam",
         "checkride_oral"
       ],
-      "question": "Why is an aircraft's published \"stalling speed\" not considered a constant number?",
-      "correct_answer": "It varies based on factors such as load factor, gross weight, center of gravity, and flap setting.",
+      "question": "In a coordinated, level 60° banked turn with a load factor of 2G, approximately how much higher than the 1G stall speed will the airplane stall?",
+      "correct_answer": "41 percent higher than the 1G stall speed",
       "distractors": [
-        "It changes primarily with variations in airspeed, flight attitude, and power setting.",
-        "It fluctuates depending on density altitude, outside air temperature, and wind.",
-        "It varies because the wing's critical angle of attack constantly changes during flight."
+        "The same speed as the 1G stall speed",
+        "20 percent higher than the 1G stall speed",
+        "100 percent higher than the 1G stall speed"
       ],
-      "explanation": "According to the Airplane Flying Handbook, 'stalling speed' is not a constant number because it is affected by factors such as load factor, gross weight, center of gravity, and flap setting. A stall is the result of exceeding the critical AOA, not of insufficient airspeed, meaning a wing can stall at any airspeed, flight attitude, or power setting. The critical angle of attack itself is a fixed aerodynamic property of the airfoil and does not change.",
+      "explanation": "The chapter explains that increased load factor directly affects stall speed. In a level 60° banked turn, the load factor is 2G, and the airplane will stall at a speed 41 percent higher than the 1G stall speed because the pilot must increase AOA to generate the lift required to maintain altitude.",
       "reference": {
         "page": "5-9",
-        "text": "It is important for the pilot to understand that a stall is the result of exceeding the critical AOA, not of insufficient airspeed. The term\n“stalling speed” can be misleading, as this speed is often discussed when assuming 1G flight at a particular weight and configuration.\nIncreased load factor directly affects stall speed (as well as do other factors such as gross weight, center of gravity, and flap setting).\nTherefore, it is possible to stall the wing at any airspeed, at any flight attitude, and at any power setting. For example, if a\npilot maintains airspeed and rolls into a coordinated, level 60° banked turn, the load factor is 2G, and the airplane will stall at a speed\nthat is 41 percent higher than the 1G stall speed. In that 2G level turn, the pilot has to increase AOA to increase the lift\nrequired to maintain altitude. At this condition, the pilot is closer to the critical AOA than during level flight and therefore closer\nto the higher stalling speed. Because “stalling speed” is not a constant number, pilots need to understand the underlying factors\nthat affect it in order to maintain aircraft control in all circumstances."
+        "text": "if a pilot maintains airspeed and rolls into a coordinated, level 60° banked turn, the load factor is 2G, and the airplane will stall at a speed that is 41 percent higher than the 1G stall speed."
       }
     },
     {
-      "section": "Maneuvering in Slow Flight",
-      "difficulty": 3,
+      "section": "Slow Flight",
+      "difficulty": 2,
       "categories": [
         "written_exam",
         "checkride_oral"
       ],
-      "question": "During the transition out of slow flight, what is the primary reason a pilot must anticipate changes to AOA as landing gear and flaps are retracted?",
-      "correct_answer": "Retracting flaps reduces lift, and at the low airspeed of slow flight, an instinctive increase in back pressure to compensate could raise AOA to a stalling angle.",
+      "question": "When flying below L/DMAX (on the backside of the power curve), which statement correctly describes the relationship between pitch and power?",
+      "correct_answer": "Pitch becomes a more effective control of airspeed, and power is an effective control of the flight path",
       "distractors": [
-        "Retracting flaps and gear increases lift, requiring the pilot to reduce AOA to avoid an accelerated stall.",
-        "Retracting flaps and gear increases drag, requiring a higher AOA to maintain altitude until airspeed builds.",
-        "Retracting flaps and gear shifts the center of pressure aft, requiring an immediate increase in AOA to maintain altitude."
+        "Power becomes the primary control of airspeed, and pitch controls altitude",
+        "Rudder becomes the primary control of airspeed on the backside of the power curve",
+        "Pitch and power have equal and interchangeable effects on both airspeed and altitude"
       ],
-      "explanation": "The Airplane Flying Handbook (Chapter 5) states that when exiting slow flight, a pilot should add power, reduce AOA with forward control pressure as airspeed increases, and then clean up the airplane by retracting flaps and landing gear. The handbook specifically warns that a pilot should anticipate the changes to AOA as the landing gear and flaps are retracted to avoid a stall. This is because flap retraction reduces lift; at the low airspeeds inherent to slow flight, an instinctive pitch-up to compensate for the lost lift could increase AOA beyond the critical angle. Distractor 1 is incorrect because retracting flaps decreases, not increases, lift. Distractor 2 is incorrect because retracting flaps and gear decreases drag, not increases it. Distractor 3 describes a center of pressure shift that is not the concern identified in the handbook.",
+      "explanation": "The chapter explains that below L/DMAX, small changes in pitch result in disproportionally large changes in induced drag and airspeed, making pitch a more effective control of airspeed, while power becomes an effective control of the flight path.",
       "reference": {
-        "page": "5-11",
-        "text": "To exit the slow flight maneuver, add power. As airspeed and lift increase, apply forward control pressure to reduce the AOA and\nmaintain altitude. Maintain coordinated flight, level the wings as necessary, and return to the desired flightpath. As airspeed increases,\nclean up the airplane by retracting flaps and landing gear, if they were extended, and adjust trim as needed. A pilot should anticipate\nthe changes to the AOA as the landing gear and flaps are retracted to avoid a stall. 5-11"
+        "page": "5-10",
+        "text": "pitch becomes a more effective control of airspeed when flying below L/DMAX and power is an effective control of the path."
       }
     },
     {
-      "section": "Stall Characteristics",
-      "difficulty": 3,
+      "section": "Slow Flight",
+      "difficulty": 1,
       "categories": [
         "written_exam",
         "checkride_oral"
       ],
-      "question": "During a stall, an airplane rolls to the left. If the pilot applies right aileron to correct the roll, why might the airplane roll even further to the left?",
-      "correct_answer": "The downward-deflected aileron on the left wing increases that wing's AOA and induced drag, deepening the stall and worsening the roll",
+      "question": "For pilot training and testing purposes, what is a good target airspeed for maneuvering in slow flight?",
+      "correct_answer": "5 to 10 knots above the 1G stall speed",
       "distractors": [
-        "The upward-deflected aileron on the right wing reduces lift on that side, making it unable to counteract the left roll",
-        "The aileron input creates adverse yaw to the left, which pulls the nose left and increases the rolling moment",
-        "The aileron deflection causes stalled airflow to migrate outward from the roots to the tips, rendering both ailerons ineffective"
+        "1 to 2 knots above the 1G stall speed",
+        "15 to 20 knots above the 1G stall speed",
+        "Exactly at the 1G stall speed"
       ],
-      "explanation": "According to AFH Chapter 5, when an airplane rolls left at the stall and the pilot applies right aileron, the downward-deflected aileron on the left wing produces a greater AOA and more induced drag, exceeding the critical AOA and causing a more complete stall at the tip. This can cause the wing to roll even more to the left. The other options describe different aerodynamic effects: the right aileron's lift reduction is not the primary problem; adverse yaw is not the mechanism described; and while airflow migration outward is mentioned as a general concern, the specific danger is the downward-deflected aileron deepening the stall on the left wing. The handbook emphasizes reducing AOA before attempting to roll the airplane.",
+      "explanation": "The chapter specifies that slow flight includes slowing to, maneuvering at, and recovering from an airspeed where the airplane is still capable of maintaining controlled flight without activating the stall warning, and that 5 to 10 knots above the 1G stall speed is a good target.",
       "reference": {
-        "page": "5-15",
-        "text": "Most training airplanes are designed so that the wings stall progressively outward from the wing roots (where the wing attaches to the\nfuselage) to the wingtips. Some wings are manufactured with a certain amount of twist, known as washout, resulting in the outboard\nportion of the wings having a slightly lower AOA than the wing roots. This design feature causes the wingtips to have a smaller AOA\nduring flight than the wing roots. Thus, the wing roots of an airplane exceed the critical AOA before the wingtips, meaning the wing\nroots stall first. Therefore, when the airplane is in a stalled condition, the ailerons should still have a degree of control effectiveness\nuntil/unless stalled airflow migrates outward along the wings. Although airflow may still be attached at the wingtips, a pilot should\nexercise caution using the ailerons prior to the reduction of the AOA because it can exacerbate the stalled condition. For example, if\nthe airplane rolls left at the stall (“rolls-off”), and the pilot applies right aileron to try to level the wing, the downward-deflected\naileron on the left wing produces a greater AOA (and more induced drag), and a more complete stall at the tip as the critical AOA is\nexceeded. This can cause the wing to roll even more to the left, which is why it is important to first reduce the AOA before attempting\nto roll the airplane."
+        "page": "5-9",
+        "text": "Slowing to, maneuvering at, and recovering from an airspeed at which the airplane is still capable of maintaining controlled flight without activating the stall warning—5 to 10 knots above the 1G stall speed is a good target."
+      }
+    },
+    {
+      "section": "Stall Recognition",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "Which of the following is identified in the chapter as NOT being a foolproof indicator of an impending stall?",
+      "correct_answer": "Vision, since the airplane can be stalled in any attitude",
+      "distractors": [
+        "Hearing, as the sound of airflow changes with decreasing speed",
+        "Kinesthesia, the physical sensation of changes in direction or speed",
+        "Feel, as control pressures change with decreasing speed"
+      ],
+      "explanation": "The chapter lists several sensory cues for stall recognition including feel, vision, hearing, and kinesthesia. However, it specifically notes that vision is not a foolproof indicator because the airplane can be stalled in any attitude, though maintaining pitch awareness is still important.",
+      "reference": {
+        "page": "5-13",
+        "text": "Vision—since the airplane can be stalled in any attitude, vision is not a foolproof indicator of an impending stall. However, maintaining pitch awareness is important."
+      }
+    },
+    {
+      "section": "Angle of Attack Indicators",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "Which of the following is identified as a factor that may limit the effectiveness of an AOA indicator?",
+      "correct_answer": "Wing contamination",
+      "distractors": [
+        "Excessive use of rudder during turns",
+        "Flying at altitudes above 10,000 feet",
+        "Using trim during slow flight"
+      ],
+      "explanation": "The chapter lists several items that may limit the effectiveness of an AOA indicator, including calibration techniques, probes or vanes not being heated, the type of indicator itself, flap setting, and wing contamination. Rudder use, altitude, and trim are not listed as limiting factors.",
+      "reference": {
+        "page": "5-13",
+        "text": "Some items that may limit the effectiveness of an AOA indicator are listed below: 1. Calibration techniques 2. Probes or vanes not being heated 3. The type of indicator itself 4. Flap setting 5. Wing contamination"
       }
     },
     {
       "section": "Fundamentals of Stall Recovery",
-      "difficulty": 3,
+      "difficulty": 1,
       "categories": [
+        "written_exam",
         "checkride_oral"
       ],
-      "question": "During the final step of stall recovery—returning to the desired flightpath—what must the pilot balance alongside avoiding a secondary stall?",
-      "correct_answer": "Situational awareness of terrain proximity, taking necessary flight control action to avoid contact with it",
+      "question": "According to the stall recovery template, what is the most important action when recovering from an impending stall or a full stall?",
+      "correct_answer": "Reduce the angle of attack",
       "distractors": [
-        "Restoration of the original power setting, since power must be stabilized before any maneuvering",
-        "The airplane's trim position, which must be readjusted before completing the recovery",
-        "The bank angle used during the stall entry, which should be duplicated during recovery to maintain coordination"
+        "Add full power immediately",
+        "Roll the wings level before any other action",
+        "Retract speed brakes or spoilers first"
       ],
-      "explanation": "According to AFH Chapter 5, Fundamentals of Stall Recovery, step 6 of the recovery process instructs the pilot to return to the desired flightpath using smooth and coordinated control movements while being careful to avoid a secondary stall. Critically, the handbook emphasizes that the pilot must be situationally aware of the proximity to terrain during the recovery and take the necessary flight control action to avoid contact with it. This highlights that stall recovery is not purely a mechanical procedure—terrain awareness must guide how aggressively the pilot maneuvers during recovery.",
+      "explanation": "The chapter emphasizes that the most important action to an impending stall or a full stall is to reduce the AOA. It notes that there have been numerous situations where pilots did not first reduce AOA and instead prioritized power and maintaining altitude, which resulted in a loss of control.",
+      "reference": {
+        "page": "5-15",
+        "text": "the pilot should remember the most important action to an impending stall or a full stall is to reduce the AOA. There have been numerous situations where pilots did not first reduce AOA, and instead prioritized power and maintaining altitude, which resulted in a loss of control."
+      }
+    },
+    {
+      "section": "Fundamentals of Stall Recovery",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "During stall recovery, why should the pilot reduce the AOA before attempting to roll the wings level?",
+      "correct_answer": "Both roll stability and roll control will improve considerably after getting the wings flying again",
+      "distractors": [
+        "Rolling the wings level first will always cause a spin",
+        "The ailerons become inoperative once a stall warning activates",
+        "Reducing AOA first is only necessary in multiengine airplanes"
+      ],
+      "explanation": "The chapter states that it is important not to be tempted to control the bank angle prior to reducing AOA, because both roll stability and roll control will improve considerably after getting the wings flying again. Using ailerons before reducing AOA can exacerbate the stalled condition.",
       "reference": {
         "page": "5-16",
-        "text": "6. Return to the desired flightpath. Apply smooth and coordinated flight control movements to return\n       the airplane to the desired flightpath being careful to avoid a secondary stall. However, be\n       situationally aware of the proximity to terrain during the recovery and take the necessary flight\n       control action to avoid contact with it."
+        "text": "It is important not to be tempted to control the bank angle prior to reducing AOA. Both roll stability and roll control will improve considerably after getting the wings flying again."
       }
     },
     {
-      "section": "Full Stalls, Power-Off",
+      "section": "Cross-Control Stall",
       "difficulty": 3,
       "categories": [
         "written_exam",
         "checkride_oral"
       ],
-      "question": "While simulating an inadvertent stall on approach to landing, why should the pilot wait until a positive rate of climb is established before retracting flaps and landing gear?",
-      "correct_answer": "Retracting flaps prematurely during stall recovery could cause a secondary stall by further reducing lift, so the priority is first to recover from the stall and establish a climb.",
+      "question": "In which scenario is a skidding cross-control stall most likely to occur?",
+      "correct_answer": "During a poorly executed base-to-final approach turn with excessive rudder in the direction of the turn",
       "distractors": [
-        "Retracting flaps and gear simultaneously during the stall recovery reduces drag enough to guarantee a successful recovery without needing to establish a climb first.",
-        "The flaps and gear should be retracted immediately at the first sign of the stall so the pilot can focus entirely on reducing angle of attack without distraction.",
-        "The landing gear must be retracted before the flaps because the gear creates more drag, and both should be done before applying power to avoid torque effects."
+        "During a steep turn at cruise altitude with coordinated flight controls",
+        "During a power-on stall practice in a clean configuration",
+        "During an accelerated stall in a 45° bank with coordinated controls"
       ],
-      "explanation": "According to AFH Chapter 5, recovery from a stall on approach to landing requires reducing AOA, leveling the wings, maintaining coordination, and applying power as needed. Only after a positive rate of climb is established should the flaps and landing gear be retracted as necessary. Retracting flaps too early could reduce lift and induce a secondary stall before the aircraft has safely recovered and is climbing.",
+      "explanation": "The chapter describes that a skidding cross-control stall is most likely to occur in the traffic pattern during a poorly planned and executed base-to-final approach turn. The pilot overshoots the centerline and attempts to correct by increasing bank, adding back elevator pressure, and applying excess rudder in the direction of the turn.",
       "reference": {
-        "page": "5-17",
-        "text": "Recovery from the stall is accomplished by reducing the AOA, applying as much nose-down control input as required to eliminate the\nstall warning, leveling the wings, maintaining coordinated flight, and then applying power as needed. Right rudder pressure may be\nnecessary to overcome the engine torque effects as power is advanced and the nose is being lowered. [Figure 5-11] If simulating an\ninadvertent stall on approach to landing, the pilot should initiate a go-around by establishing a positive rate of climb. Once in a climb,\nthe flaps and landing gear should be retracted as necessary. 5-17"
+        "page": "5-20",
+        "text": "A skidding cross-control stall is most likely to occur in the traffic pattern during a poorly planned and executed base-to-final approach turn... the pilot attempts to correct by increasing the bank angle, increasing back elevator pressure, and applying excess rudder in the direction of the turn"
       }
     },
     {
-      "section": "Full Stalls, Power-On",
-      "difficulty": 3,
-      "categories": [
-        "checkride_oral",
-        "written_exam"
-      ],
-      "question": "During a power-on stall, as the airspeed decreases, what control inputs should the pilot make to maintain coordinated flight while holding the climb attitude until the full stall occurs?",
-      "correct_answer": "Move the elevator control progressively further back while simultaneously adding right rudder",
-      "distractors": [
-        "Hold elevator pressure constant and apply left rudder to counteract engine torque at high power",
-        "Relax back pressure on the elevator to prevent an accelerated stall while adding right rudder",
-        "Move the elevator progressively further back while adding left rudder to maintain coordinated flight"
-      ],
-      "explanation": "According to AFH Chapter 5, during a power-on stall as airspeed decreases, the pilot should move the elevator control progressively further back while simultaneously adding right rudder and maintaining the climb attitude until reaching the full stall. Progressive back pressure is needed because decreasing airspeed reduces elevator authority, requiring more deflection to hold the attitude. Right rudder is required to counteract left-turning tendencies (torque, spiraling slipstream, P-factor) that become more pronounced at high power and low airspeed. Holding elevator pressure constant would be insufficient, relaxing back pressure would prevent reaching the stall, and left rudder would worsen the coordination problem.",
-      "reference": {
-        "page": "5-18",
-        "text": "After establishing the climb attitude, the pilot should smoothly raise the nose to increase the AOA, and hold that attitude until the full\nstall occurs. As described in connection with the stall characteristics discussion, continual adjustments should be made to aileron\npressure, elevator pressure, and rudder pressure to maintain coordinated flight while holding the attitude until the full stall occurs. In\nmost airplanes, as the airspeed decreases the pilot should move the elevator control progressively further back while simultaneously\nadding right rudder and maintaining the climb attitude until reaching the full stall."
-      }
-    },
-    {
-      "section": "Secondary Stall",
-      "difficulty": 3,
-      "categories": [
-        "checkride_oral",
-        "general_knowledge"
-      ],
-      "question": "According to the Airplane Flying Handbook, what primary factor increases the risk of a secondary stall when the initial stall occurs at low altitude?",
-      "correct_answer": "The pilot's natural impulse to raise the nose abruptly is amplified as proximity to the ground increases",
-      "distractors": [
-        "Ground effect reduces induced drag near the surface, making it easier to inadvertently exceed the critical AOA",
-        "Lower air density at low altitude degrades climb performance, requiring a more abrupt pitch change during recovery",
-        "Surface-level turbulence disrupts airflow over the wing, making the airplane more susceptible to stalling again"
-      ],
-      "explanation": "The AFH states that a secondary stall occurs after recovery from a preceding stall when the pilot does not sufficiently reduce the AOA. At low altitude, the pilot's natural impulse is to bring the nose up as soon as possible and abruptly, and this reaction is amplified as proximity to the ground increases. This psychological factor—not aerodynamic changes like ground effect, density, or turbulence—is what the handbook identifies as driving the risk of a secondary stall at low altitude.",
-      "reference": {
-        "page": "5-18",
-        "text": "A secondary stall is so named because it occurs after recovery from a preceding stall. A normal recovery usually involves pointing the\nnose of the airplane toward the ground. However, if a stall should occur at low altitude, the pilot's natural impulse is to bring the nose\nup as soon as possible and to do so abruptly. This reaction is amplified as proximity to the ground increases. To demonstrate how this\noccurs at altitude, the pilot makes an abrupt recovery after one stall and exceeds the critical AOA a second time. Note that this stall\nmay occur after any stall when the pilot does not sufficiently reduce the AOA by lowering the pitch attitude or attempts to break the\nstall by using power only. [Figure 5-13] 5-18"
-      }
-    },
-    {
-      "section": "(VO).",
+      "section": "Spin Procedures",
       "difficulty": 3,
       "categories": [
         "written_exam",
         "checkride_oral"
       ],
-      "question": "What is the structural safety benefit of performing accelerated stalls at speeds at or below the applicable VA or VO?",
-      "correct_answer": "The airplane reaches the critical AOA, which unloads the wing, before exceeding the design load limit.",
+      "question": "According to the generic spin recovery procedure, when should the pilot apply positive, brisk, and straight-forward elevator?",
+      "correct_answer": "Immediately after applying full opposite rudder, without waiting for rotation to stop",
       "distractors": [
-        "The airplane's design load limit increases at these speeds, providing a greater margin before structural damage occurs.",
-        "The critical AOA cannot be reached at these speeds, so the wing never fully stalls.",
-        "Control surface deflection is mechanically limited at these speeds, preventing the pilot from imposing excessive loads."
+        "Before applying opposite rudder to initiate the recovery",
+        "Only after the rotation has completely stopped",
+        "Simultaneously with neutralizing the ailerons before rudder application"
       ],
-      "explanation": "According to AFH Chapter 5, performing accelerated stalls at speeds up to the applicable VA or VO ensures the airplane will reach the critical AOA, which unloads the wing, before exceeding the design load limit. At speeds above VA or VO, the airplane can reach its design load limit at less than the critical AOA, making it possible to add additional load and overstress the airplane. The design load limit itself does not change with speed, the critical AOA is indeed reached at these speeds (that is the point of the stall), and full control excursion is permitted at VA or VO—the protection comes from the stall unloading the wing, not from mechanical limits on control deflection.",
+      "explanation": "The chapter states that forward elevator should be applied immediately after full rudder application, and the pilot should not wait for the rotation to stop before performing this step. Waiting for rotation to stop is listed as a common error in spin recovery.",
       "reference": {
-        "page": "5-19",
-        "text": "It is important to be familiar with VA or VO, how it relates to accelerated stalls, and how it changes depending on the airplane's\nweight. VA is the maximum speed at which the positive design load limit can be imposed either by gusts or full one-sided deflection\nwith one control surface without causing structural damage. VO is a historical operating limitation applicable to certain airplanes\nonly. It represents the maximum speed where, at any given weight, the pilot may apply full control excursion without exceeding the\ndesign limit load factor. Performing accelerated stalls at speeds up to the applicable VA or VO, ensures the airplane will reach the\ncritical AOA, which unloads the wing, before exceeding the design load limit. At speeds above VA or VO, the airplane can reach its\ndesign load limit at less than the critical AOA. This condition makes it possible to add additional load and overstress the airplane.\nAdditional information on the effects of aircraft weight on stall speeds and structural limits while maneuvering is available in the\n\"Aerodynamics of Flight\" chapter of the Pilot’s Handbook of Aeronautical Knowledge (FAA-H-8083-25)."
+        "page": "5-25",
+        "text": "Apply positive, brisk, and straight-forward elevator (forward of neutral). This step should be taken immediately after full rudder application. Do not wait for the rotation to stop before performing this step."
       }
     },
     {
-      "section": "(VO).",
+      "section": "Spiral Dive",
       "difficulty": 3,
       "categories": [
         "written_exam",
         "checkride_oral"
       ],
-      "question": "What makes it possible to overstress an airplane when applying full or abrupt control inputs at a speed above VA or VO?",
-      "correct_answer": "The airplane reaches its design load limit before reaching the critical AOA, so the wing is still producing lift and can accept additional load",
+      "question": "During spiral dive recovery, why is it important to apply forward elevator pressure before rolling the wings level?",
+      "correct_answer": "To unload the wing, reduce G-load, and prevent a rolling pullout that could cause structural damage",
       "distractors": [
-        "The airplane reaches critical AOA before the design load limit, unloading the wing and preventing structural damage",
-        "The positive design load limit factor decreases as airspeed increases above VA or VO",
-        "The critical AOA increases at higher airspeeds, delaying the stall beyond the structural limit"
+        "To increase the G-load and tighten the spiral for a faster recovery",
+        "To increase airspeed for better aileron effectiveness during the roll",
+        "To reduce power before rolling the wings level"
       ],
-      "explanation": "According to AFH Chapter 5, at speeds up to VA or VO, the airplane reaches the critical AOA first, which stalls and unloads the wing before the design load limit is exceeded. At speeds above VA or VO, this protection is lost: the airplane reaches its design load limit at less than the critical AOA. Because the wing has not yet stalled, it continues producing lift, making it possible for the pilot to add additional load and overstress the airplane. Distractor 1 describes the protection that exists at or below VA/VO, not above it. Distractor 2 is incorrect because the design load limit is a fixed structural specification. Distractor 3 is incorrect because critical AOA is an aerodynamic property that does not change with airspeed.",
+      "explanation": "The chapter explains that applying forward elevator before rolling wings level unloads the G-load on the wing, reduces the AOA, slows the turn rate, increases turn radius, and prevents a rolling pullout. The design limit of the airplane is exceeded more easily during a rolling pullout, so failure to reduce G-load first could result in structural damage.",
       "reference": {
-        "page": "5-19",
-        "text": "It is important to be familiar with VA or VO, how it relates to accelerated stalls, and how it changes depending on the airplane's\nweight. VA is the maximum speed at which the positive design load limit can be imposed either by gusts or full one-sided deflection\nwith one control surface without causing structural damage. VO is a historical operating limitation applicable to certain airplanes\nonly. It represents the maximum speed where, at any given weight, the pilot may apply full control excursion without exceeding the\ndesign limit load factor. Performing accelerated stalls at speeds up to the applicable VA or VO, ensures the airplane will reach the\ncritical AOA, which unloads the wing, before exceeding the design load limit. At speeds above VA or VO, the airplane can reach its\ndesign load limit at less than the critical AOA. This condition makes it possible to add additional load and overstress the airplane.\nAdditional information on the effects of aircraft weight on stall speeds and structural limits while maneuvering is available in the\n\"Aerodynamics of Flight\" chapter of the Pilot’s Handbook of Aeronautical Knowledge (FAA-H-8083-25)."
+        "page": "5-26",
+        "text": "Prior to rolling the wings level, it is important to unload the G-load on the airplane ('unload the wing')... The design limit of the airplane is exceeded more easily during a rolling pullout, so failure to reduce the G-load prior to rolling the wings level could result in structural damage or failure."
       }
     }
   ]

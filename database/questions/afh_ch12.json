@@ -3,42 +3,102 @@
   "chapter": 12,
   "questions": [
     {
-      "section": "Function of Flaps",
-      "difficulty": 3,
+      "section": "Introduction",
+      "difficulty": 1,
       "categories": [
         "written_exam",
         "checkride_oral"
       ],
-      "question": "When flaps are deflected beyond 15° in most high-wing airplanes, what is the primary cause of the significant nose-up pitching moment?",
-      "correct_answer": "Downwash from the deflected flaps changes the airflow over the horizontal tail",
+      "question": "According to 14 CFR part 61, which combination of features defines a complex airplane?",
+      "correct_answer": "Retractable landing gear, flaps, and a controllable pitch propeller",
       "distractors": [
-        "The center of pressure shifts forward due to increased lift on the inboard wing sections",
-        "Increased parasite drag acting below the longitudinal axis creates a rotational moment",
-        "The horizontal tail enters the direct turbulent wake behind the deflected flaps"
+        "An engine developing more than 200 horsepower, flaps, and retractable landing gear",
+        "Retractable landing gear, flaps, and a turbocharged engine",
+        "A controllable pitch propeller, flaps, and an engine developing more than 200 horsepower"
       ],
-      "explanation": "According to AFH Chapter 12, deflection beyond 15° produces a significant nose-up pitching moment in most high-wing airplanes because the resulting downwash changes the airflow over the horizontal tail. This is a specific aerodynamic effect related to how the altered airflow pattern from flap deployment interacts with the tail surfaces, not a center of pressure shift, parasite drag moment, or wake turbulence effect.",
+      "explanation": "The chapter distinguishes between a high-performance airplane (more than 200 horsepower) and a complex airplane (retractable landing gear, flaps, and a controllable pitch propeller). The 200 hp threshold defines high-performance, not complex.",
+      "reference": {
+        "page": "12-1",
+        "text": "A complex airplane (see 14 CFR part 61, section 61.1) means an airplane that has a retractable landing gear, flaps, and a controllable pitch propeller"
+      }
+    },
+    {
+      "section": "Function of Flaps",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "How does flap deflection affect the critical (stall) angle of attack?",
+      "correct_answer": "Flap deflection does not increase the critical AOA and may actually decrease it",
+      "distractors": [
+        "Flap deflection increases the critical AOA, allowing a higher stall angle",
+        "Flap deflection increases the critical AOA only when combined with slotted flaps",
+        "Flap deflection has no effect on the critical AOA in any case"
+      ],
+      "explanation": "The chapter explicitly states that flap deflection does not increase the critical AOA and in some cases actually decreases it. The distractor claiming 'no effect in any case' is wrong because the chapter notes it can decrease the critical AOA.",
+      "reference": {
+        "page": "12-1",
+        "text": "Flap deflection does not increase the critical (stall) angle of attack (AOA). In some cases, flap deflection actually decreases the critical AOA."
+      }
+    },
+    {
+      "section": "Function of Flaps",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "What is the aerodynamic effect of deflecting flaps up to 15° versus beyond 15°?",
+      "correct_answer": "Up to 15° primarily produces lift with minimal drag; beyond 15° produces a large increase in drag",
+      "distractors": [
+        "Up to 15° produces maximum drag; beyond 15° primarily increases lift",
+        "Drag increases proportionally at all flap deflection angles",
+        "Up to 15° produces no drag; beyond 15° drag increases exponentially"
+      ],
+      "explanation": "The chapter states that flap deflection up to 15° primarily produces lift with minimal drag increases, while deflection beyond 15° produces a large increase in drag. This is why small flap deflections are useful for takeoff and larger deflections for landing.",
       "reference": {
         "page": "12-2",
-        "text": "Flap deflection of up to 15° primarily produces lift with minimal increases in drag. Deflection beyond 15° produces a large increase\nin drag. Drag from flap deflection is parasite drag and, as such, is proportional to the square of the speed. Also, deflection beyond 15°\nproduces a significant nose-up pitching moment in most high-wing airplanes because the resulting downwash changes the airflow\nover the horizontal tail. 12-2"
+        "text": "Flap deflection of up to 15° primarily produces lift with minimal increases in drag. Deflection beyond 15° produces a large increase in drag."
       }
     },
     {
       "section": "Flap Effectiveness",
-      "difficulty": 3,
+      "difficulty": 1,
       "categories": [
         "written_exam"
       ],
-      "question": "An aircraft equipped with slotted flaps is configured for a short-field takeoff using a small flap deflection. At this small deflection, how does the drag produced by the slotted flap compare to a hinge flap and a split flap?",
-      "correct_answer": "It produces more drag than a hinge flap but less than a split flap.",
+      "question": "Which type of trailing-edge flap produces the maximum lift coefficient?",
+      "correct_answer": "Fowler flap",
       "distractors": [
-        "It produces less drag than a hinge flap but more than a split flap.",
-        "It produces less drag than both a hinge flap and a split flap.",
-        "It produces more drag than both a hinge flap and a split flap."
+        "Plain flap",
+        "Split flap",
+        "Slotted flap"
       ],
-      "explanation": "According to the Airplane Flying Handbook, at small deflections, a slotted flap produces higher drag than a hinge flap but less drag than a split flap. This specific drag profile, combined with a higher lift-drag ratio, allows the slotted flap to be effectively used for takeoff.",
+      "explanation": "The chapter states that the Fowler flap deflects down and aft to increase wing area, can be multi-slotted, and gives the maximum lift coefficient of the four basic trailing-edge flap types.",
       "reference": {
         "page": "12-4",
-        "text": "The slotted flap has a gap between the wing and the leading edge of the flap. The slot allows high-pressure airflow on the wing\nundersurface to energize the lower pressure over the top, thereby delaying flow separation. The slotted flap has greater lift than the\nhinge flap but less than the split flap; but, because of a higher lift-drag ratio, it gives better takeoff and climb performance. Small\ndeflections of the slotted flap give a higher drag than the hinge flap but less than the split. This allows the slotted flap to be used for\ntakeoff."
+        "text": "The Fowler flap deflects down and aft to increase the wing area. This flap can be multi-slotted making it the most complex of the trailing-edge systems. This system does, however, give the maximum lift coefficient."
+      }
+    },
+    {
+      "section": "Operational Procedures",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "With flaps extended in a crosswind during landing, which wing is more affected by the wind and why?",
+      "correct_answer": "The upwind wing, because the deflected flap presents a larger surface area for the wind to act on",
+      "distractors": [
+        "The downwind wing, because it is more exposed to the crosswind",
+        "Both wings equally, because flaps are deployed symmetrically",
+        "The downwind wing, because the lowered aileron blocks airflow to the upwind wing"
+      ],
+      "explanation": "The chapter states that with flaps extended in a crosswind, the wing on the upwind side is more affected than the downwind wing because the deflected flap presents a surface area for the wind to act on.",
+      "reference": {
+        "page": "12-4",
+        "text": "With flaps extended in a crosswind, the wing on the upwind side is more affected than the downwind wing."
       }
     },
     {
@@ -48,193 +108,97 @@
         "written_exam",
         "checkride_oral"
       ],
-      "question": "During a crosswind landing, why does lateral control become increasingly difficult as flaps are extended to maximum, particularly when the wind is nearly perpendicular to the runway?",
-      "correct_answer": "The deflected flaps present a larger surface area for the wind to act on, and the upwind wing is affected more than the downwind wing due to dihedral and wind interaction.",
+      "question": "During a go-around with full power applied, why does the pitch-up tendency not completely diminish even as flaps are retracted?",
+      "correct_answer": "The trim setting used to offset the nose-down pitching moment from flap extension contributes to the pitch-up",
       "distractors": [
-        "Extended flaps increase drag asymmetrically because the crosswind disrupts airflow evenly across both flaps, causing an uncontrollable yawing moment.",
-        "Maximum flap extension reduces rudder authority, making it impossible to maintain runway alignment when the crosswind is perpendicular to the runway.",
-        "Full flaps create a venturi effect between the flap and runway surface, amplifying the crosswind's force on the downwind wing and pulling the aircraft off centerline."
+        "The horizontal tail loses effectiveness at high power settings",
+        "The constant-speed propeller increases airflow over the tail surfaces unevenly",
+        "The landing gear retraction causes a forward center of gravity shift"
       ],
-      "explanation": "According to AFH Chapter 12, the deflected flap presents a surface area for the wind to act on. With flaps extended in a crosswind, the wing on the upwind side is more affected than the downwind wing. The dihedral of the wing combined with the flap and wind make lateral control more difficult. This effect worsens as flap extension reaches maximum and the crosswind becomes perpendicular to the runway. The crabbed approach slightly reduces this effect since the airplane is more nearly aligned with the wind, and in a wing-low approach, the lowered wing partially blocks the upwind flap.",
+      "explanation": "The chapter explains that trim is used to offset the nose-down pitching moment from flap extension. When full power is applied in a go-around, increased airflow produces additional lift and significant pitch changes, and the pitch-up tendency does not diminish completely with flap retraction because of the trim setting.",
       "reference": {
         "page": "12-4",
-        "text": "Crosswind component is another factor to be considered in the degree of flap extension. The deflected flap presents a surface area for\nthe wind to act on. With flaps extended in a crosswind, the wing on the upwind side is more affected than the downwind wing. The\neffect is reduced to a slight extent in the crabbed approach since the airplane is more nearly aligned with the wind. When using a\nwing-low approach, the lowered wing partially blocks the upwind flap. The dihedral of the wing combined with the flap and wind\nmake lateral control more difficult. Lateral control becomes more difficult as flap extension reaches maximum and the crosswind\nbecomes perpendicular to the runway."
-      }
-    },
-    {
-      "section": "Operational Procedures",
-      "difficulty": 3,
-      "categories": [
-        "written_exam",
-        "checkride_oral"
-      ],
-      "question": "After touchdown in a crosswind with flaps extended, the upwind wing tends to rise. How does this raised wing affect the airplane's directional control during the landing rollout?",
-      "correct_answer": "It reduces tire forces, increasing the airplane's tendency to turn into the wind",
-      "distractors": [
-        "It increases tire forces, helping maintain runway alignment through greater traction",
-        "It shifts weight to the downwind tire, causing the airplane to turn away from the wind",
-        "It has minimal effect on directional control since the main tires are already on the runway"
-      ],
-      "explanation": "According to AFH Chapter 12, when flaps are extended during a crosswind landing, the crosswind fills the 'container' formed by the wing, flap, and ground on the upwind side. This raises the upwind wing, which reduces tire forces and further increases the airplane's tendency to turn into the wind. This is why proper aileron control (into the wind) is essential after touchdown, and retracting flaps may be necessary in strong crosswinds to maintain control.",
-      "reference": {
-        "page": "12-4",
-        "text": "With flaps extended, the crosswind effects on the wing become more pronounced as the airplane reaches the ground. The wing, flap,\nand ground on the upwind side of the airplane form a “container” that is filled with air by the crosswind. Since the flap is located\nbehind the main landing gear, wind striking the deflected flap tends to yaw the airplane into the wind and raise the upwind wing. The\nraised wing reduces the tire forces and further increases the tendency to turn into the wind. Proper control position (ailerons into the\nwind) is essential for maintaining runway alignment. Depending on the amount of crosswind, it may be necessary to retract the flaps\nsoon after touchdown in order to maintain control of the airplane."
-      }
-    },
-    {
-      "section": "Operational Procedures",
-      "difficulty": 3,
-      "categories": [
-        "written_exam",
-        "checkride_oral"
-      ],
-      "question": "During a go-around, a pilot retracts flaps to eliminate drag but notices the aircraft's pitch-up tendency does not completely diminish. What is the primary reason for this residual pitch-up tendency?",
-      "correct_answer": "The trim setting, previously used to offset the nose-down pitching moment from flap extension, remains and contributes to the pitch-up force",
-      "distractors": [
-        "Full power application permanently shifts the center of pressure forward, creating an inherent pitch-up moment independent of flap position",
-        "Flap retraction causes a sudden forward shift in the aircraft's center of gravity, producing a residual nose-up tendency",
-        "The horizontal stabilizer becomes less effective at higher airspeeds, reducing its ability to counteract the pitch-up force"
-      ],
-      "explanation": "According to AFH Chapter 12, during normal operations with flaps extended, trim is used to offset the nose-down pitching moment produced by flap extension. When full power is applied during a go-around, the increased airflow over the wing generates additional lift and significant pitch changes. Even when flaps are retracted, the pitch-up tendency does not completely diminish because the trim setting that was counteracting the flap-induced nose-down moment is still in place. The pilot should be prepared for rapid changes in pitch forces resulting from both the trim setting and increased airflow over control surfaces.",
-      "reference": {
-        "page": "12-4",
-        "text": "The go-around is another factor to consider when making a decision about degree of flap deflection and about where in the landing\npattern to extend flaps. Because of the nose-down pitching moment produced with flap extension, trim is used to offset this pitching\nmoment. Application of full power in the go-around increases the airflow over the wing. This produces additional lift causing\nsignificant changes in pitch. The pitch-up tendency does not diminish completely with flap retraction because of the trim setting.\nExpedient retraction of flaps is desirable to eliminate drag; however, the pilot should be prepared for rapid changes in pitch forces as\nthe result of trim and the increase in airflow over the control surfaces. [Figure 12-5] 12-4"
-      }
-    },
-    {
-      "section": "Operational Procedures",
-      "difficulty": 3,
-      "categories": [
-        "written_exam",
-        "checkride_oral"
-      ],
-      "question": "During a go-around, a pilot applies full power and retracts flaps. What should the pilot be prepared for, and what causes this phenomenon?",
-      "correct_answer": "Rapid changes in pitch forces, caused by the trim setting combined with increased airflow over the control surfaces from full power application",
-      "distractors": [
-        "A nose-down pitching moment, caused solely by the mechanical retraction of the flaps from their extended position",
-        "Strong left-turning tendencies, caused by engine torque and P-factor during the sudden full-power application",
-        "A forward shift in center of gravity, caused by the weight redistribution as flaps retract into the wing structure"
-      ],
-      "explanation": "According to AFH Chapter 12, during a go-around, application of full power increases airflow over the wing, producing additional lift and significant pitch changes. Because trim was used to offset the nose-down pitching moment from flap extension, the pitch-up tendency does not diminish completely with flap retraction due to this trim setting. The pilot must be prepared for rapid changes in pitch forces as a result of both the trim and the increased airflow over the control surfaces.",
-      "reference": {
-        "page": "12-4",
-        "text": "The go-around is another factor to consider when making a decision about degree of flap deflection and about where in the landing\npattern to extend flaps. Because of the nose-down pitching moment produced with flap extension, trim is used to offset this pitching\nmoment. Application of full power in the go-around increases the airflow over the wing. This produces additional lift causing\nsignificant changes in pitch. The pitch-up tendency does not diminish completely with flap retraction because of the trim setting.\nExpedient retraction of flaps is desirable to eliminate drag; however, the pilot should be prepared for rapid changes in pitch forces as\nthe result of trim and the increase in airflow over the control surfaces. [Figure 12-5] 12-4"
+        "text": "The pitch-up tendency does not diminish completely with flap retraction because of the trim setting."
       }
     },
     {
       "section": "Constant-Speed Propeller",
-      "difficulty": 3,
+      "difficulty": 1,
       "categories": [
         "written_exam",
         "checkride_oral"
       ],
-      "question": "When an airplane engine equipped with a constant-speed propeller is running at a constant governed speed, what is the relationship between the forces acting on the propeller?",
-      "correct_answer": "The torque exerted by the engine at the propeller shaft equals the force resisting the moving blades.",
+      "question": "For maximum takeoff power, what position should the propeller control be placed in?",
+      "correct_answer": "Low pitch/high rpm",
       "distractors": [
-        "The torque exerted by the engine at the propeller shaft is greater than the force resisting the moving blades.",
-        "The torque exerted by the engine at the propeller shaft is less than the force resisting the moving blades.",
-        "The governor continuously cycles the propeller blade pitch to ensure the engine torque is constantly greater than the air resistance."
+        "High pitch/low rpm",
+        "Mid-range pitch and rpm",
+        "High pitch/high rpm"
       ],
-      "explanation": "According to the Airplane Flying Handbook, when an airplane engine runs at a constant governed speed, the torque (force) exerted by the engine at the propeller shaft equals the force resisting the moving blades. If the engine torque were greater, the RPM would increase; if the air resistance were greater, the RPM would decrease. The system remains at a constant speed only when these opposing forces are in equilibrium.",
+      "explanation": "The chapter states that for maximum takeoff power, the propeller control is moved all the way forward to the low pitch/high rpm position, and the throttle is moved forward to the maximum allowable manifold pressure. Low blade pitch keeps the blade AOA small and efficient at low speed.",
       "reference": {
-        "page": "12-6",
-        "text": "When an airplane engine runs at a constant governed speed, the torque (force) exerted by the engine at the propeller shaft equals the\nforce resisting the moving blades. The pilot uses the propeller control to change engine rpm by adjusting the propeller blade pitch,\nwhich increases or decreases the air resistance on the rotating propeller. For example, pulling back on the propeller control moves the\npropeller blades to a higher pitch. This increases the air resistance exerted on the spinning propeller and puts an additional load on the\nengine, which causes it to slow down until the forces reach equilibrium. Advancing the propeller control reduces the propeller blade\npitch. This reduces the resistance of the air against the propeller. In response, the engine rpm increases until the opposing forces\nbalance. In order for this system to function, a constant-speed propeller governor needs the means to sense engine rpm and a means to\ncontrol the propeller AOA. In most cases, the governor is geared to the engine crankshaft giving it a means to sense engine rpm. The\n\"Blade Angle Control\" section of this chapter discusses the ways a propeller governor adjusts propeller blade angle."
+        "page": "12-5",
+        "text": "For maximum takeoff power, the propeller control is moved all the way forward to the low pitch/high rpm position, and the throttle is moved forward to the maximum allowable manifold pressure position."
       }
     },
     {
-      "section": "Takeoff, Climb, and Cruise",
-      "difficulty": 3,
-      "categories": [
-        "written_exam"
-      ],
-      "question": "During climb after liftoff, a constant-speed propeller's governor increases the blade angle as airspeed increases. How does this higher blade angle contribute to propeller efficiency?",
-      "correct_answer": "Combined with the higher airspeed, it keeps the blade angle of attack with respect to the relative wind small and efficient.",
-      "distractors": [
-        "It increases the blade angle of attack to match the higher airspeed for maximum thrust output.",
-        "It reduces the frontal area of the blades, decreasing parasite drag at higher airspeeds.",
-        "It allows the engine to develop more power by reducing rotational resistance on the crankshaft."
-      ],
-      "explanation": "According to AFH Chapter 12, as airspeed increases after lift-off, the load on the engine lightens due to the small blade angle. The governor senses this and increases the blade angle slightly. The higher blade angle, combined with the higher speed, keeps the blade AOA with respect to the relative wind small and efficient. Distractor 1 is incorrect because the higher blade angle keeps AOA small, not larger. Distractor 2 incorrectly attributes the efficiency gain to reduced parasite drag and frontal area. Distractor 3 incorrectly describes the effect as increasing engine power output rather than maintaining efficient propeller blade AOA.",
-      "reference": {
-        "page": "12-7",
-        "text": "As the airspeed increases after lift-off, the load on the engine is lightened because of the small blade angle. The governor senses this\nand increases the blade angle slightly. Again, the higher blade angle, with the higher speed, keeps the blade AOA with respect to the\nrelative wind small and efficient."
-      }
-    },
-    {
-      "section": "Takeoff, Climb, and Cruise",
-      "difficulty": 3,
-      "categories": [
-        "written_exam"
-      ],
-      "question": "During climb after takeoff in an aircraft with a constant-speed propeller, the blade angle is increased to reduce engine RPM. How does this higher blade angle improve propeller efficiency despite the reduction in engine power output?",
-      "correct_answer": "The propeller moves a greater mass of air per second at a lower slipstream velocity",
-      "distractors": [
-        "The propeller moves a smaller mass of air per second at a higher slipstream velocity",
-        "The propeller moves the same mass of air per second but at a higher slipstream velocity",
-        "The propeller moves a greater mass of air per second at a higher slipstream velocity"
-      ],
-      "explanation": "According to AFH Chapter 12, when climb power is set by decreasing manifold pressure and increasing the blade angle to lower RPM, the propeller operates at a higher blade angle and higher climb airspeed. In this configuration, the propeller handles a greater mass of air per second at a lower slipstream velocity. This increase in propeller efficiency offsets the reduction in power. The key principle is that moving more air mass at lower velocity is more efficient than moving less air mass at higher velocity. The distractors are incorrect because they either reverse the relationship (smaller mass, higher velocity), claim the mass stays the same, or get the slipstream velocity wrong while correctly identifying the greater mass of air.",
-      "reference": {
-        "page": "12-7",
-        "text": "For climb after takeoff, the power output of the engine is reduced to climb power by decreasing the manifold pressure and increasing\nthe blade angle to lower engine rpm. At the higher (climb) airspeed and the higher blade angle, the propeller is handling a greater\nmass of air per second at a lower slipstream velocity. This reduction in power is offset by the increase in propeller efficiency. The\nblade AOA is again kept small by the increase in the blade angle with an increase in airspeed."
-      }
-    },
-    {
-      "section": "Takeoff, Climb, and Cruise",
-      "difficulty": 3,
-      "categories": [
-        "written_exam"
-      ],
-      "question": "When transitioning from takeoff power to climb power, manifold pressure is reduced and blade angle is increased to lower RPM. Despite this reduction in engine power output, performance is partly sustained because the higher blade angle and climb airspeed cause the propeller to handle a greater mass of air per second at a lower slipstream velocity. What effect does this have?",
-      "correct_answer": "It increases propeller efficiency, which offsets the reduction in engine power",
-      "distractors": [
-        "It decreases propeller blade AOA, which reduces drag and offsets the reduction in engine power",
-        "It increases slipstream velocity over the tail, improving elevator authority and offsetting the reduction in engine power",
-        "It reduces propeller torque effects, freeing up additional thrust that offsets the reduction in engine power"
-      ],
-      "explanation": "According to AFH Chapter 12, when power is reduced to climb power after takeoff, the higher blade angle and higher climb airspeed allow the propeller to handle a greater mass of air per second at a lower slipstream velocity. This increases propeller efficiency, which offsets the reduction in engine power. The text also notes that the blade AOA is kept small by the increase in blade angle with the increase in airspeed, but it is the gain in propeller efficiency—not a reduction in drag, increased slipstream velocity, or reduced torque—that directly compensates for the power reduction.",
-      "reference": {
-        "page": "12-7",
-        "text": "For climb after takeoff, the power output of the engine is reduced to climb power by decreasing the manifold pressure and increasing\nthe blade angle to lower engine rpm. At the higher (climb) airspeed and the higher blade angle, the propeller is handling a greater\nmass of air per second at a lower slipstream velocity. This reduction in power is offset by the increase in propeller efficiency. The\nblade AOA is again kept small by the increase in the blade angle with an increase in airspeed."
-      }
-    },
-    {
-      "section": "Takeoff, Climb, and Cruise",
-      "difficulty": 3,
-      "categories": [
-        "written_exam"
-      ],
-      "question": "During climb after takeoff in an aircraft with a constant-speed propeller, how is the propeller blade angle of attack (AOA) kept small?",
-      "correct_answer": "The blade angle is increased as airspeed increases.",
-      "distractors": [
-        "The manifold pressure is increased to offset the reduction in power.",
-        "The engine RPM is increased to handle a greater mass of air per second.",
-        "The blade angle is decreased to lower the slipstream velocity."
-      ],
-      "explanation": "According to the Airplane Flying Handbook, during climb after takeoff, power is reduced by decreasing manifold pressure and increasing the blade angle to lower engine RPM. At this higher airspeed and higher blade angle, the propeller handles a greater mass of air at a lower slipstream velocity. Consequently, the blade AOA is kept small by the increase in the blade angle with the increase in airspeed.",
-      "reference": {
-        "page": "12-7",
-        "text": "For climb after takeoff, the power output of the engine is reduced to climb power by decreasing the manifold pressure and increasing\nthe blade angle to lower engine rpm. At the higher (climb) airspeed and the higher blade angle, the propeller is handling a greater\nmass of air per second at a lower slipstream velocity. This reduction in power is offset by the increase in propeller efficiency. The\nblade AOA is again kept small by the increase in the blade angle with an increase in airspeed."
-      }
-    },
-    {
-      "section": "Blade Angle Control",
-      "difficulty": 3,
+      "section": "Constant-Speed Propeller Operation",
+      "difficulty": 2,
       "categories": [
         "written_exam",
         "checkride_oral"
       ],
-      "question": "A pilot flying an aircraft with a constant-speed propeller notices a sudden loss of governor oil pressure. The propeller system is designed so that oil pressure moves the blades toward high pitch. What effect will this oil pressure loss have on propeller blade angle and engine performance?",
-      "correct_answer": "The blades will move toward low pitch, causing RPM to increase",
+      "question": "When decreasing power on an engine equipped with a constant-speed propeller, what sequence should be followed?",
+      "correct_answer": "Decrease manifold pressure first, then decrease rpm",
       "distractors": [
-        "The blades will move toward high pitch, causing RPM to decrease",
-        "The blades will remain in their current pitch position since the governor is no longer applying force",
-        "The blades will feather automatically to protect the engine from overspeed"
+        "Decrease rpm first, then decrease manifold pressure",
+        "Decrease both simultaneously",
+        "Decrease rpm, increase manifold pressure, then decrease manifold pressure"
       ],
-      "explanation": "According to AFH Chapter 12, on constant-speed propellers where governor oil pressure moves blades toward high pitch, an inherent centrifugal twisting moment tends to flatten the blades toward low pitch. Oil pressure counteracts this moment. When governor oil pressure is lost, nothing opposes the centrifugal twisting moment, so blades move toward low pitch, which decreases blade angle and causes RPM to rise. This is the opposite of systems using counterweights, where centrifugal force on counterweights drives blades toward high pitch and a loss of oil pressure would cause blades to move toward high pitch instead.",
+      "explanation": "The chapter specifies that a combination of high manifold pressure and low rpm can induce damaging detonation. To avoid this, when decreasing power, the pilot should decrease the manifold pressure first and then decrease the rpm.",
       "reference": {
-        "page": "12-7",
-        "text": "On some constant-speed propellers, changes in pitch are obtained by the use of an inherent centrifugal twisting moment of the blades\nthat tends to flatten the blades toward low pitch and oil pressure applied to a hydraulic piston connected to the propeller blades which\nmoves them toward high pitch. Another type of constant-speed propeller uses counterweights attached to the blade shanks in the hub.\nGovernor oil pressure and the blade twisting moment move the blades toward the low pitch position, and centrifugal force acting on\nthe counterweights moves them (and the blades) toward the high pitch position. In the first case above, governor oil pressure moves\nthe blades towards high pitch and in the second case, governor oil pressure and the blade twisting moment move the blades toward\nlow pitch. A loss of governor oil pressure, therefore, affects each differently. 12-7"
+        "page": "12-8",
+        "text": "When decreasing power, decrease the manifold pressure first and then decrease the rpm"
+      }
+    },
+    {
+      "section": "Constant-Speed Propeller Operation",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "Besides indicating maximum allowable rpm, what else does the red line on the tachometer indicate?",
+      "correct_answer": "The rpm required to obtain the engine's rated horsepower",
+      "distractors": [
+        "The maximum manifold pressure allowed for takeoff",
+        "The rpm at which the propeller governor reaches its high pitch stop",
+        "The engine's critical altitude rpm"
+      ],
+      "explanation": "The chapter states that the red line on the tachometer serves a dual purpose: it indicates both maximum allowable rpm and the rpm required to obtain the engine's rated horsepower. This is why a constant-speed propeller airplane can develop maximum rated horsepower even while motionless on the runway.",
+      "reference": {
+        "page": "12-9",
+        "text": "The red line on the tachometer not only indicates maximum allowable rpm; it also indicates the rpm required to obtain the engine's rated horsepower."
+      }
+    },
+    {
+      "section": "Constant-Speed Propeller Operation",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "Why should the propeller be exercised through a full cycle during engine warm-up before takeoff?",
+      "correct_answer": "To verify the system is operating correctly and to circulate fresh warm oil through the propeller governor system",
+      "distractors": [
+        "To test the engine's maximum rpm output before takeoff",
+        "To calibrate the tachometer against the manifold pressure gauge",
+        "To verify the propeller governor can reach its high pitch stop"
+      ],
+      "explanation": "The chapter states this procedure is done for two reasons: to determine whether the system is operating correctly and to circulate fresh warm oil through the propeller governor system. Oil trapped in the propeller cylinder since shutdown may have leaked or congealed, and if not exercised, the engine may over-speed on takeoff.",
+      "reference": {
+        "page": "12-8",
+        "text": "This is done for two reasons: to determine whether the system is operating correctly and to circulate fresh warm oil through the propeller governor system."
       }
     },
     {
@@ -242,118 +206,159 @@
       "difficulty": 3,
       "categories": [
         "written_exam",
-        "checkride_oral"
+        "general_knowledge"
       ],
-      "question": "A pilot is flying an aircraft with a constant-speed propeller at a selected RPM. If airspeed continues to decrease after the propeller blades have already contacted their low pitch stops, what happens to engine RPM?",
-      "correct_answer": "Engine RPM decreases, similar to a fixed-pitch propeller",
+      "question": "What happens when the propeller blades reach their low pitch stop during a decrease in airspeed?",
+      "correct_answer": "Any further reduction in airspeed causes the engine rpm to decrease, similar to a fixed-pitch propeller",
       "distractors": [
-        "Engine RPM remains constant because the governor continues to maintain the selected RPM",
-        "Engine RPM increases because the governor compensates for the decreased airspeed",
-        "Engine RPM remains constant until the blades contact the high pitch stop"
+        "The governor automatically increases the blade angle to maintain the selected rpm",
+        "The engine over-speeds until the pilot reduces the throttle",
+        "The propeller feathers automatically to prevent over-speed"
       ],
-      "explanation": "According to AFH Chapter 12, within the propeller's governing range (between the high and low pitch stops), the governor maintains a constant engine RPM by adjusting blade angle. However, once the blades contact a pitch stop, the governor can no longer adjust blade angle, and the propeller behaves like a fixed-pitch propeller. When airspeed decreases, the blades reduce pitch to maintain RPM until they reach the low pitch stops. Beyond that point, any further reduction in airspeed causes engine RPM to decrease. Distractor A is incorrect because the governor cannot maintain RPM once the blades are against a stop. Distractor B is incorrect because RPM decreases, not increases, with further airspeed loss at the low pitch stop. Distractor C is incorrect because RPM does not remain constant once a pitch stop is contacted—it changes with airspeed.",
+      "explanation": "The chapter explains that once propeller blades reach their pitch-stop limit, the engine rpm increases or decreases with changes in airspeed similar to a fixed-pitch propeller. If airspeed decreases enough that the blades contact the low pitch stops, any further reduction in airspeed causes engine rpm to decrease.",
       "reference": {
         "page": "12-8",
-        "text": "The range of possible blade angles between high and low blade angle pitch stops define the propeller’s governing range. As long as\nthe propeller's blades operate within the governing range and not against either pitch stop, a constant engine rpm is maintained.\nHowever, once the propeller blades reach their pitch-stop limit, the engine rpm increases or decreases with changes in airspeed and\npropeller load similar to a fixed-pitch propeller. For example, once a specific rpm is selected, if the airspeed decreases enough, the\npropeller blades reduce pitch in an attempt to maintain the selected rpm until they contact their low pitch stops. From that point, any\nfurther reduction in airspeed causes the engine rpm to decrease. Conversely, if the airspeed increases, the pitch angle of the propeller\nblades increase until the high pitch stop is reached. The engine rpm then begins to increase."
+        "text": "From that point, any further reduction in airspeed causes the engine rpm to decrease."
       }
     },
     {
-      "section": "Governing Range",
-      "difficulty": 3,
+      "section": "Turbocharging",
+      "difficulty": 2,
       "categories": [
         "written_exam",
         "checkride_oral"
       ],
-      "question": "A pilot is flying an aircraft with a constant-speed propeller operating within its governing range. If airspeed increases, what is the sequence of events that occurs to maintain the selected RPM, and what happens if airspeed continues to increase beyond the propeller's ability to compensate?",
-      "correct_answer": "Blade pitch angle increases to maintain constant RPM until the high pitch stop is reached, after which engine RPM begins to increase with further airspeed gains.",
+      "question": "What is the purpose of the waste gate in a turbocharger system?",
+      "correct_answer": "To divert some exhaust gases overboard before they pass through the turbine, preventing excessive manifold pressure",
       "distractors": [
-        "Blade pitch angle decreases to maintain constant RPM until the low pitch stop is reached, after which engine RPM begins to decrease with further airspeed gains.",
-        "Engine RPM immediately begins to increase with the rise in airspeed, as the governor cannot react quickly enough to adjust blade pitch within the governing range.",
-        "Blade pitch angle increases to maintain constant RPM until the high pitch stop is reached, after which engine RPM begins to decrease with further airspeed gains."
+        "To regulate the fuel-to-air ratio entering the engine cylinders",
+        "To control the speed of the compressor by adjusting induction air intake",
+        "To release excess compressed air from the induction manifold"
       ],
-      "explanation": "According to AFH Chapter 12, within the governing range, the propeller governor adjusts blade pitch to maintain a constant RPM. When airspeed increases, the blade pitch angle increases to absorb the additional airflow and hold RPM steady. However, once the blades reach the high pitch stop, the propeller can no longer increase pitch to compensate. At that point, further increases in airspeed cause engine RPM to rise, similar to a fixed-pitch propeller. Distractor 1 reverses the pitch direction and stop. Distractor 2 incorrectly suggests the governor cannot maintain RPM within the governing range. Distractor 3 has the correct pitch response but incorrectly states RPM decreases after reaching the high pitch stop.",
+      "explanation": "The chapter states that the turbine can produce manifold pressure in excess of the maximum allowable, so a waste gate diverts some exhaust overboard before it passes through the turbine. The waste gate position regulates turbine output and the compressed air available to the engine.",
       "reference": {
-        "page": "12-8",
-        "text": "The range of possible blade angles between high and low blade angle pitch stops define the propeller’s governing range. As long as\nthe propeller's blades operate within the governing range and not against either pitch stop, a constant engine rpm is maintained.\nHowever, once the propeller blades reach their pitch-stop limit, the engine rpm increases or decreases with changes in airspeed and\npropeller load similar to a fixed-pitch propeller. For example, once a specific rpm is selected, if the airspeed decreases enough, the\npropeller blades reduce pitch in an attempt to maintain the selected rpm until they contact their low pitch stops. From that point, any\nfurther reduction in airspeed causes the engine rpm to decrease. Conversely, if the airspeed increases, the pitch angle of the propeller\nblades increase until the high pitch stop is reached. The engine rpm then begins to increase."
-      }
-    },
-    {
-      "section": "Constant-Speed Propeller Operation",
-      "difficulty": 3,
-      "categories": [
-        "written_exam",
-        "checkride_oral"
-      ],
-      "question": "Why might a constant-speed propeller engine over-speed on takeoff if the propeller was not exercised during engine warm-up?",
-      "correct_answer": "Oil trapped in the propeller cylinder since shutdown may have congealed, preventing proper propeller blade pitch control",
-      "distractors": [
-        "Fresh warm oil in the governor system causes the propeller blades to rotate too rapidly during high power settings",
-        "The governor loses oil pressure because the propeller cylinder leaks excessively during engine shutdown",
-        "Stale oil in the governor causes the blades to stick in high pitch, forcing the engine to produce excessive rpm"
-      ],
-      "explanation": "According to AFH Chapter 12, oil remains trapped in the propeller cylinder since the last engine shutdown. Over time, this oil can leak and congeal—especially in low outside air temperatures. Exercising the propeller during warm-up circulates fresh warm oil through the system and confirms proper operation. If this step is skipped, the congealed or stale oil may prevent the propeller mechanism from properly controlling blade pitch, resulting in a potential engine over-speed on takeoff.",
-      "reference": {
-        "page": "12-8",
-        "text": "The engine is started with the propeller control in the low pitch/high rpm position. This position reduces the load or drag of the\npropeller and the result is easier starting and warm-up of the engine. During warm-up, the propeller blade changing mechanism is\noperated slowly and smoothly through a full cycle. This is done by moving the propeller control (with the manifold pressure set to\nproduce about 1,600 rpm) to the high pitch/low rpm position, allowing the rpm to stabilize, and then moving the propeller control\nback to the low pitch takeoff position. This is done for two reasons: to determine whether the system is operating correctly and to\ncirculate fresh warm oil through the propeller governor system. Remember the oil has been trapped in the propeller cylinder since the\nlast time the engine was shut down. There is a certain amount of leakage from the propeller cylinder, and the oil tends to congeal,\nespecially if the outside air temperature is low. Consequently, if the propeller is not exercised before takeoff, there is a possibility that\nthe engine may over-speed on takeoff."
-      }
-    },
-    {
-      "section": "Constant-Speed Propeller Operation",
-      "difficulty": 3,
-      "categories": [
-        "written_exam",
-        "checkride_oral"
-      ],
-      "question": "During a rapid descent or a descent from high altitude in an aircraft with a constant-speed propeller, what is the result if the maximum blade angle limit of the propeller is reached?",
-      "correct_answer": "The system can no longer hold the rpm constant, and the rpm becomes responsive to changes in the throttle setting.",
-      "distractors": [
-        "The propeller governor automatically reduces manifold pressure to prevent the engine from overspeeding.",
-        "The propeller blades feather automatically to increase drag and maintain a constant rpm.",
-        "The constant-speed propeller system automatically switches to a fixed-pitch low-rpm setting to protect the engine."
-      ],
-      "explanation": "According to the Airplane Flying Handbook, a constant-speed propeller compensates for the increased airspeed of a descent by increasing the propeller blade angles. However, if the descent is too rapid or from a high altitude, the maximum blade angle limit may be reached. When this occurs, the system is no longer sufficient to hold the rpm constant, and the rpm becomes responsive to any change in throttle setting.",
-      "reference": {
-        "page": "12-8",
-        "text": "The cruise power charts in the AFM/POH should be consulted when selecting cruise power settings. Whatever the combinations of\nrpm and manifold pressure listed in these charts—they have been flight tested and approved by engineers for the respective airframe\nand engine manufacturer. Therefore, if there are power settings, such as 2,100 rpm and 24 inches manifold pressure in the power\nchart, they are approved for use. With a constant-speed propeller, a power descent can be made without over-speeding the engine.\nThe system compensates for the increased airspeed of the descent by increasing the propeller blade angles. If the descent is too rapid\nor is being made from a high altitude, the maximum blade angle limit of the blades is not sufficient to hold the rpm constant. When\nthis occurs, the rpm is responsive to any change in throttle setting."
-      }
-    },
-    {
-      "section": "Constant-Speed Propeller Operation",
-      "difficulty": 3,
-      "categories": [
-        "written_exam",
-        "checkride_oral"
-      ],
-      "question": "During a steep or high-altitude descent in an aircraft equipped with a constant-speed propeller, the propeller blades may reach their maximum blade angle limit. What is the result once this limit is reached?",
-      "correct_answer": "The rpm is no longer held constant and becomes responsive to changes in throttle setting",
-      "distractors": [
-        "The governor automatically reduces manifold pressure to keep rpm within limits",
-        "The rpm remains constant because the constant-speed mechanism continues to function at the blade angle limit",
-        "The rpm decreases as the blades continue to increase pitch beyond the maximum angle"
-      ],
-      "explanation": "According to AFH Chapter 12, during a descent the constant-speed propeller system compensates for increased airspeed by increasing blade angle. However, if the descent is too rapid or from too high an altitude, the blades reach their maximum blade angle limit and can no longer hold rpm constant. At that point, the rpm becomes responsive to any change in throttle setting, meaning the constant-speed mechanism has effectively lost its ability to govern rpm. This is why pilots must be aware of rpm behavior during rapid descents.",
-      "reference": {
-        "page": "12-8",
-        "text": "The cruise power charts in the AFM/POH should be consulted when selecting cruise power settings. Whatever the combinations of\nrpm and manifold pressure listed in these charts—they have been flight tested and approved by engineers for the respective airframe\nand engine manufacturer. Therefore, if there are power settings, such as 2,100 rpm and 24 inches manifold pressure in the power\nchart, they are approved for use. With a constant-speed propeller, a power descent can be made without over-speeding the engine.\nThe system compensates for the increased airspeed of the descent by increasing the propeller blade angles. If the descent is too rapid\nor is being made from a high altitude, the maximum blade angle limit of the blades is not sufficient to hold the rpm constant. When\nthis occurs, the rpm is responsive to any change in throttle setting."
+        "page": "12-10",
+        "text": "In order not to exceed the maximum allowable manifold pressure, a bypass or waste gate is used so that some of the exhaust is diverted overboard before it passes through the turbine."
       }
     },
     {
       "section": "Ground Boosting Versus Altitude Turbocharging",
-      "difficulty": 3,
+      "difficulty": 2,
       "categories": [
-        "written_exam"
+        "written_exam",
+        "general_knowledge"
       ],
-      "question": "Why does maintaining equivalent horsepower output in a turbocharged engine require a higher manifold pressure at a given altitude than if the induction air were not compressed and heated?",
-      "correct_answer": "The compression process heats the induction air, which lowers its density and causes a loss of engine power.",
+      "question": "What happens to manifold pressure when climbing above the airplane's critical altitude?",
+      "correct_answer": "Manifold pressure decreases as additional altitude is gained",
       "distractors": [
-        "The turbocharger's turbine creates a physical restriction in the exhaust system that requires higher manifold pressure to overcome.",
-        "The waste gate automatically closes at altitude, restricting the volume of induction air reaching the cylinders.",
-        "The thinner air at altitude causes the turbocharger to spin slower, requiring higher manifold pressure to maintain RPM."
+        "Manifold pressure remains constant at the sea-level value",
+        "Manifold pressure increases due to higher compressor speeds",
+        "The waste gate opens fully to maintain manifold pressure"
       ],
-      "explanation": "According to the Airplane Flying Handbook, because turbocharged induction air is heated by compression, it experiences a loss of density. This lower induction air density causes a loss of engine power, meaning a somewhat higher manifold pressure is required at a given altitude to maintain equivalent horsepower output compared to a system where the air is not compressed and heated.",
+      "explanation": "The chapter states that altitude turbocharging maintains maximum allowable sea level manifold pressure up to the critical altitude. Above the critical altitude, the turbocharger can no longer maintain that pressure, and manifold pressure decreases as additional altitude is gained.",
       "reference": {
         "page": "12-10",
-        "text": "Although a sea-level manifold pressure setting and maximum rpm can be maintained up to the critical altitude, the engine may not be\ndeveloping sea-level power. Because the turbocharged induction air is heated by compression, lower induction air density causes a\nloss of engine power. Maintaining the equivalent horsepower output requires a somewhat higher manifold pressure at a given altitude\nthan if the induction air were not compressed and heated by turbocharging. If, on the other hand, the system incorporates an automatic\ndensity controller, which automatically positions the waste gate so as to maintain constant air density to the engine, a near equivalent\nto sea-level horsepower output results."
+        "text": "Above the critical altitude, the manifold pressure decreases as additional altitude is gained."
+      }
+    },
+    {
+      "section": "Operating Characteristics",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "When the waste gate is closed, how does manifold pressure respond to an increase in engine rpm?",
+      "correct_answer": "Manifold pressure increases, which is opposite to a normally aspirated engine",
+      "distractors": [
+        "Manifold pressure decreases slightly, same as a normally aspirated engine",
+        "Manifold pressure remains constant regardless of rpm changes",
+        "Manifold pressure increases only if the throttle is also advanced"
+      ],
+      "explanation": "The chapter states that when the waste gate is closed, manifold pressure variation with engine rpm is the opposite of a normally aspirated engine. An increase in engine rpm results in an increase in manifold pressure, and a decrease in engine rpm results in a decrease in manifold pressure.",
+      "reference": {
+        "page": "12-10",
+        "text": "when the waste gate is closed, manifold pressure variation with engine rpm is just the opposite of the normally aspirated engine. An increase in engine rpm results in an increase in manifold pressure"
+      }
+    },
+    {
+      "section": "Heat Management",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "At any given cruise power, which control is the most influential over exhaust gas temperature or turbine inlet temperature?",
+      "correct_answer": "The mixture",
+      "distractors": [
+        "The throttle",
+        "The propeller rpm",
+        "The cowl flaps"
+      ],
+      "explanation": "The chapter states that at any given cruise power, the mixture is the most influential control over the exhaust gas/TIT. The throttle regulates total fuel flow, but the mixture governs the fuel-to-air ratio, which directly controls temperature.",
+      "reference": {
+        "page": "12-11",
+        "text": "At any given cruise power, the mixture is the most influential control over the exhaust gas/TIT."
+      }
+    },
+    {
+      "section": "Turbocharger Failure",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "A low manifold pressure condition in a turbocharged engine may indicate what potentially hazardous situation?",
+      "correct_answer": "A serious exhaust leak",
+      "distractors": [
+        "A minor waste gate malfunction that can be ignored until the next maintenance cycle",
+        "Normal operation at high altitude with the waste gate open",
+        "A clogged fuel injector that requires mixture adjustment"
+      ],
+      "explanation": "The chapter states that although a low manifold pressure condition may be caused by a minor fault, it is quite possible that a serious exhaust leak has occurred, creating a potentially hazardous situation. The recommended procedure is to shut down the engine or use the lowest power setting and land as soon as practicable.",
+      "reference": {
+        "page": "12-11",
+        "text": "Although this condition may be caused by a minor fault, it is quite possible that a serious exhaust leak has occurred creating a potentially hazardous situation"
+      }
+    },
+    {
+      "section": "Landing Gear Safety Devices",
+      "difficulty": 1,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "What is the function of the landing gear safety switch (squat switch)?",
+      "correct_answer": "When the strut is compressed by the weight of the airplane, it opens the electrical circuit to prevent gear retraction on the ground",
+      "distractors": [
+        "It prevents the landing gear from extending while the airplane is in flight",
+        "It locks the landing gear in the down and locked position after touchdown",
+        "It activates the gear warning horn when the gear is in transit"
+      ],
+      "explanation": "The chapter states that a squat switch is mounted on a main gear shock strut. When the strut is compressed by the weight of the airplane, the switch opens the electrical circuit to the motor or mechanism that powers retraction, preventing accidental gear retraction while on the ground.",
+      "reference": {
+        "page": "12-14",
+        "text": "When the strut is compressed by the weight of the airplane, the switch opens the electrical circuit to the motor or mechanism that powers retraction."
+      }
+    },
+    {
+      "section": "Approach and Landing",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "What is the difference between VLO and VLE?",
+      "correct_answer": "VLO is the maximum speed at which the gear may be operated through its cycle; VLE is the maximum speed at which the airplane can be flown with the gear extended",
+      "distractors": [
+        "VLO is the maximum speed for landing; VLE is the maximum speed for takeoff",
+        "VLO applies to the nose gear only; VLE applies to the main gear only",
+        "VLO is the maximum speed with gear down; VLE is the maximum speed with gear up"
+      ],
+      "explanation": "The chapter defines VLE as the maximum speed at which the airplane can be flown with the landing gear extended, and VLO as the maximum speed at which the landing gear may be operated through its cycle. These speeds protect gear components from becoming overstressed.",
+      "reference": {
+        "page": "12-16",
+        "text": "The maximum landing extended speed (VLE) is the maximum speed at which the airplane can be flown with the landing gear extended. The maximum landing gear operating speed (VLO) is the maximum speed at which the landing gear may be operated through its cycle."
       }
     }
   ]
