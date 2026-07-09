@@ -87,6 +87,7 @@
           fi
           echo "Whole-chapter generation via GLM at $url"
 
+          failed=""
           for src in phak afh; do
             for f in "$textdir/$src"/ch*.txt; do
               [ -e "$f" ] || continue
@@ -94,10 +95,14 @@
               # Skip spurious mis-detected chapters (PHAK real max 17, AFH 18).
               if [ "$ch" -gt 18 ]; then echo "skip $src ch$ch (spurious)"; continue; fi
               echo "=== $src ch$ch ==="
-              "$quiz" --gen-chapter --source "$src" --chapter "$ch" \
-                --method direct --out-dir database/questions "$@"
+              if ! "$quiz" --gen-chapter --source "$src" --chapter "$ch" \
+                   --method direct --out-dir database/questions "$@"; then
+                echo "FAILED: $src ch$ch (continuing)"
+                failed="$failed $src-ch$ch"
+              fi
             done
           done
+          if [ -n "''${failed# }" ]; then echo "Chapters that failed:$failed"; fi
           echo "=== gen-chapters-glm complete ==="
         '';
 
