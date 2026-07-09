@@ -16,7 +16,7 @@
         "Thrust is always greater than drag, while lift is always greater than weight",
         "Weight is always the greatest force, with lift being slightly less than weight"
       ],
-      "explanation": "The chapter clarifies that the old 'thrust equals drag; lift equals weight' formula can be misleading. In steady flight, the opposing lift/weight forces are equal AND greater than the opposing thrust/drag forces, which are equal only to each other. The correct principle is that the sum of all upward force components equals the sum of all downward force components, and the sum of all forward components equals the sum of all backward components.",
+      "explanation": "The FAA handbook clarifies that the simplified 'lift equals weight and thrust equals drag' description can be misleading because it assumes all forces act purely vertically or horizontally. In reality, forces such as thrust may not be perfectly aligned with the flight path. The correct principle is that the sum of all upward force components equals the sum of all downward force components, and the sum of all forward force components equals the sum of all backward force components.",
       "reference": {
         "page": "5-2",
         "text": "The sum of all upward components of forces (not just lift) equals the sum of all downward components of forces (not just weight). The sum of all forward components of forces (not just thrust) equals the sum of all backward components of forces (not just drag)."

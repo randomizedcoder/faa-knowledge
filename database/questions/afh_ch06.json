@@ -190,13 +190,13 @@
         "checkride_oral"
       ],
       "question": "What happens to the airplane's performance as it climbs out of the ground effect area?",
-      "correct_answer": "The airplane requires an increase in AOA to maintain lift, experiences an increase in induced drag, and has a pitch-up tendency.",
+      "correct_answer": "The airplane requires an increase in AOA to maintain lift coefficient, experiences an increase in induced drag, and has a pitch-up tendency.",
       "distractors": [
         "The airplane experiences a decrease in induced drag and requires less elevator travel to maintain pitch.",
         "The airplane experiences a reduction in static source pressure and a corresponding decrease in indicated airspeed.",
         "The airplane requires less AOA to maintain lift and experiences a pitch-down tendency."
       ],
-      "explanation": "The chapter lists the effects of climbing out of ground effect: an increase in AOA is required to maintain lift coefficient, induced drag and thrust required increase, there is a pitch-up tendency with increased downwash at the tail, and indicated airspeed increases due to reduction in static source pressure.",
+      "explanation": "Per the FAA handbook, when climbing out of ground effect: the airplane requires an increase in AOA to maintain lift coefficient; induced drag and thrust required increase; and the airplane experiences a pitch-up tendency and requires less elevator travel because of an increase in downwash at the horizontal tail.",
       "reference": {
         "page": "6-10",
         "text": "The airplane requires an increase in AOA to maintain lift coefficient. The airplane experiences an increase in induced drag and thrust required. The airplane experiences a pitch-up tendency and requires less elevator travel because of an increase in downwash at the horizontal tail."

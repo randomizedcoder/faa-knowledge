@@ -94,7 +94,7 @@
       "distractors": [
         "The altitude indicated when the altimeter is set to the local altimeter setting",
         "The height above the standard datum plane where pressure is 29.92 \"Hg",
-        "The altitude at which the aircraft's weight equals the lift produced at a given airspeed"
+        "The altitude read directly from the altimeter when set to the current field elevation"
       ],
       "explanation": "The chapter defines density altitude as pressure altitude corrected for nonstandard temperature. The second distractor describes pressure altitude, not density altitude. Density altitude is the altitude in the standard atmosphere corresponding to a particular value of air density.",
       "reference": {

@@ -216,7 +216,7 @@
         "The maximum weight exclusive of usable fuel",
         "Only the expendable part of the aircraft's load, including usable fuel"
       ],
-      "explanation": "The chapter defines useful load as the weight of the pilot, copilot, passengers, baggage, usable fuel, and drainable oil. The first distractor describes standard empty weight, the second describes maximum zero fuel weight, and the third describes only fuel load.",
+      "explanation": "The chapter defines useful load as the weight of the pilot, copilot, passengers, baggage, usable fuel, and drainable oil. The first distractor describes standard empty weight, the second describes maximum zero fuel weight, and the third incorrectly limits useful load to only expendable items (fuel and oil), excluding the pilot, passengers, and baggage.",
       "reference": {
         "page": "10-5",
         "text": "Useful load—the weight of the pilot, copilot, passengers, baggage, usable fuel, and drainable oil."

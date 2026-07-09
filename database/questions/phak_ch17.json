@@ -153,10 +153,10 @@
       "correct_answer": "A gradual, prolonged turn below the detection threshold of the semicircular canals goes unnoticed; leveling the wings creates an illusion of banking in the opposite direction, causing the pilot to lean toward the original turn.",
       "distractors": [
         "A rapid head movement during a prolonged turn causes fluid in the ear canals to create a tumbling sensation, causing the pilot to grip the controls tightly.",
-        "A prolonged coordinated constant-rate turn creates the illusion of not turning; recovery creates a sensation of turning in the opposite direction, causing the pilot to return to the original turn.",
+        "A prolonged coordinated constant-rate turn goes unnoticed; when the pilot perceives a descent and pulls back on the controls to correct, the spiral tightens and altitude loss increases.",
         "An abrupt upward acceleration creates the illusion of climbing, causing the pilot to push the nose down."
       ],
-      "explanation": "The leans is caused by a gradual and prolonged turn (2 degrees per second or less) that goes unnoticed because it is below the detection threshold of the semicircular canals. When the pilot levels the wings, the sensation of turning in the opposite direction occurs, and the pilot leans toward the original turn to correct. The second distractor describes a graveyard spiral, and the third describes an elevator illusion.",
+      "explanation": "The leans is caused by a gradual and prolonged turn (approximately 2 degrees per second or less) that goes unnoticed because it is below the detection threshold of the semicircular canals. When the pilot levels the wings, the sensation of turning in the opposite direction occurs, and the pilot leans toward the original turn to correct. The second distractor describes a graveyard spiral, which involves a prolonged descending turn where the pilot pulls back to correct the perceived descent, tightening the spiral. The third describes an elevator illusion.",
       "reference": {
         "page": "17-7",
         "text": "A condition called the leans, is the most common illusion during flight and is caused by a sudden return to level flight following a gradual and prolonged turn that went unnoticed by the pilot. … Leveling the wings after such a turn may cause an illusion that the aircraft is banking in the opposite direction."

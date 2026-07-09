@@ -36,7 +36,7 @@
         "1600Z",
         "1800Z"
       ],
-      "explanation": "The chapter states that to convert Pacific Standard Time to UTC, add 8 hours. 0900 + 8 hours = 1700Z. 1500Z would result from subtracting 6 hours. 1600Z would be the conversion from Mountain Standard Time (adding 7 hours). 1800Z would result from adding 9 hours instead of 8.",
+      "explanation": "The chapter states that to convert Pacific Standard Time to UTC, add 8 hours. 0900 + 8 hours = 1700Z. 1500Z would result from adding 6 hours (the Central Standard Time conversion factor). 1600Z would be the conversion from Mountain Standard Time (adding 7 hours). 1800Z would result from adding 9 hours instead of 8.",
       "reference": {
         "page": "16-5",
         "text": "To convert to this time, a pilot should do the following: Eastern Standard Time ..........Add 5 hours, Central Standard Time ..........Add 6 hours, Mountain Standard Time.......Add 7 hours, Pacific Standard Time ...........Add 8 hours"

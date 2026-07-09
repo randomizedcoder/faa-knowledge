@@ -346,14 +346,14 @@
         "checkride_oral",
         "general_knowledge"
       ],
-      "question": "In the rising terrain scenario, the airplane has slowed to where PS \u003c 0 and the stall horn is sounding. What should the pilot do to recover?",
-      "correct_answer": "Push forward on the yoke/stick to trade altitude for speed until reaching an airspeed where PS \u003e 0, then climb",
+      "question": "When confronted with rising terrain and the airplane has slowed to an airspeed where specific excess power (PS) is negative and the stall horn is sounding, what should the pilot do to recover?",
+      "correct_answer": "Apply full throttle and push forward on the yoke/stick to trade altitude for speed until reaching an airspeed where PS \u003e 0, then climb",
       "distractors": [
         "Pitch up further to gain altitude while accepting additional airspeed loss, since altitude is needed to clear terrain",
         "Apply full throttle and maintain the current pitch attitude until the airplane begins climbing",
         "Extend flaps to increase lift and improve climb performance at the current airspeed"
       ],
-      "explanation": "The recovery requires doing something counterintuitive: trading altitude for speed by pushing forward on the yoke/stick. This reduces AOA and induced drag, allowing acceleration to an airspeed where PS \u003e 0. Only then can the airplane climb. If the pilot pitches up instead, the airplane goes deeper into the region where PS \u003c 0, making recovery impossible.",
+      "explanation": "The recovery requires doing something counterintuitive: applying full throttle and trading altitude for speed by pushing forward on the yoke/stick. This reduces AOA and induced drag, allowing acceleration to an airspeed where PS \u003e 0. Only then can the airplane climb. If the pilot pitches up instead, the airplane goes deeper into the region where PS \u003c 0, making recovery impossible.",
       "reference": {
         "page": "4-16",
         "text": "The pilot then has to do something that is not intuitive; consider gaining speed at the expense of some altitude initially to improve climbing performance with full throttle. Once the airplane accelerates to an airspeed in which the PS \u003e 0, it can begin to climb again."

@@ -334,8 +334,8 @@
       "correct_answer": "It likely leads to landing short and may cause loss of control if the airplane stalls",
       "distractors": [
         "It increases parasite drag and reduces the glide ratio",
-        "It causes the airplane to descend faster due to increased weight on the lifting surfaces",
-        "It overcomes the propeller's designed aerodynamic compensation"
+        "It temporarily increases lift, allowing the airplane to reach the runway",
+        "It raises the nose, which increases the glide angle and extends the flight path"
       ],
       "explanation": "The chapter identifies stretching a glide as a cardinal rule violation: 'attempting to apply elevator back pressure to stretch a glide back to the runway is likely to lead the airplane landing short and may even lead to loss of control if the airplane stalls.' The purpose of pitch control during a glide is to maintain maximum L/D.",
       "reference": {

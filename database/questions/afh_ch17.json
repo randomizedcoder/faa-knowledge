@@ -90,13 +90,13 @@
         "checkride_oral"
       ],
       "question": "Under what conditions may an LSA be operated at night under VFR?",
-      "correct_answer": "The aircraft must be equipped per 14 CFR 91.205(c), night operations must be allowed by the airplane's operating limitations, and the pilot must hold at least a recreational pilot certificate",
+      "correct_answer": "The aircraft must be equipped per 14 CFR 91.205(c), night operations must be allowed by the airplane's operating limitations, and the pilot may not be operating under sport pilot privileges",
       "distractors": [
         "Any pilot with a sport pilot certificate may fly at night if the aircraft is equipped per 14 CFR 91.205(c)",
         "The aircraft may fly at night if equipped with a ballistic parachute system, regardless of pilot certificate",
         "Only private pilots with a current flight review may operate LSAs at night"
       ],
-      "explanation": "The chapter states LSAs may be operated VFR at night if equipped per 14 CFR 91.205(c) and if the airplane's operating limitations allow it. However, sport pilots may not fly at night per 14 CFR 61.315(c)(5). Recreational pilots may operate between sunset and sunrise as sole occupant under specific conditions for additional training.",
+      "explanation": "Per the FAA handbook, LSAs may be operated VFR at night if the aircraft is equipped per 14 CFR 91.205(c) and if night operations are allowed by the airplane's operating limitations. However, sport pilots may not fly at night per 14 CFR 61.315(c)(5).",
       "reference": {
         "page": "17-3",
         "text": "LSAs may be operated by VFR at night if the aircraft is equipped with the instruments and equipment specified in 14 CFR part 91, section 91.205(c), and if night operations are allowed by the airplane's operating limitations. However, sport pilots may not fly at night."
@@ -149,14 +149,14 @@
         "written_exam",
         "checkride_oral"
       ],
-      "question": "Which of the following individuals is NOT listed in the chapter as someone who may maintain and inspect an S-LSA?",
-      "correct_answer": "An FAA-certificated A\u0026P mechanic with an Inspection Authorization (IA) only",
+      "question": "Which of the following individuals is NOT listed as someone who may maintain and inspect an S-LSA?",
+      "correct_answer": "A certificated flight instructor (CFI)",
       "distractors": [
         "An LSA Repairman with a Maintenance rating",
         "An FAA-certificated Airframe and Powerplant Mechanic (A\u0026P)",
         "An owner performing limited maintenance as permitted on their S-LSA"
       ],
-      "explanation": "The chapter lists four categories of those who may maintain S-LSAs: an LSA Repairman with a Maintenance rating, an FAA-certificated A\u0026P, as specified by the aircraft manufacturer, or owners performing limited maintenance. An A\u0026P with an IA is not listed as a separate requirement—S-LSA inspections can typically be signed off by an A\u0026P or LSA repairman with a Maintenance rating without needing an IA.",
+      "explanation": "The chapter lists four categories of those who may maintain and inspect S-LSAs: (1) an LSA Repairman with a Maintenance rating, (2) an FAA-certificated A\u0026P, (3) as specified by the aircraft manufacturer, or (4) owners performing limited maintenance on their S-LSA. A CFI is not among those listed.",
       "reference": {
         "page": "17-5",
         "text": "S-LSAs may be maintained and inspected by: 1. An LSA Repairman with a Maintenance rating; or, 2. An FAA-certificated Airframe and Powerplant Mechanic (A\u0026P); or, 3. As specified by the aircraft manufacturer; or 4. As permitted, owners performing limited maintenance on their S-LSA."
