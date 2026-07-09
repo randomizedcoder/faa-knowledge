@@ -42,7 +42,9 @@ CREATE TABLE IF NOT EXISTS questions (
     explanation     TEXT,
     knowledge_id    INTEGER REFERENCES knowledge_items(id),
     active          INTEGER NOT NULL DEFAULT 1,
-    created_at      TEXT    NOT NULL DEFAULT (datetime('now'))
+    created_at      TEXT    NOT NULL DEFAULT (datetime('now')),
+    reference_page  TEXT,
+    reference_text  TEXT
 );
 
 CREATE TABLE IF NOT EXISTS distractors (

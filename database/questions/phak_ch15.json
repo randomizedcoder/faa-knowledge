@@ -3,76 +3,364 @@
   "chapter": 15,
   "questions": [
     {
-      "section": "Airspace Classification",
+      "section": "Introduction",
       "difficulty": 1,
-      "categories": ["written_exam", "checkride_oral"],
-      "question": "Which class of airspace typically surrounds the busiest airports (e.g., major international airports) and extends from the surface to 10,000 feet MSL?",
-      "correct_answer": "Class B airspace",
-      "distractors": ["Class A airspace", "Class C airspace", "Class D airspace"],
-      "explanation": "Class B airspace surrounds the nation's busiest airports, from the surface to typically 10,000 feet MSL. It requires ATC clearance to enter and a Mode C transponder."
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "According to the chapter, what factors dictate the categories and types of airspace?",
+      "correct_answer": "The complexity or density of aircraft movements, nature of operations, level of safety required, and national and public interest",
+      "distractors": [
+        "The number of control towers and radar facilities within a given region",
+        "The volume of IFR versus VFR traffic in the area",
+        "The geographic location and population density below the airspace"
+      ],
+      "explanation": "The chapter explicitly states that the categories and types of airspace are dictated by these four factors, not by facility counts, traffic ratios, or geography.",
+      "reference": {
+        "page": "15-1",
+        "text": "The categories and types of airspace are dictated by the complexity or density of aircraft movements, nature of the operations conducted within the airspace, the level of safety required, and national and public interest."
+      }
     },
     {
       "section": "Class A Airspace",
       "difficulty": 1,
-      "categories": ["written_exam"],
-      "question": "What altitude range defines Class A airspace in the contiguous United States?",
-      "correct_answer": "18,000 feet MSL to FL600 (60,000 feet)",
-      "distractors": ["Surface to 18,000 feet MSL", "10,000 feet MSL to FL450", "14,500 feet MSL to FL600"],
-      "explanation": "Class A airspace extends from 18,000 feet MSL to FL600. All operations must be under IFR, and pilots must have an instrument rating."
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "A pilot is planning a VFR cross-country flight at FL 190. What must the pilot do to operate legally at this altitude?",
+      "correct_answer": "File and fly IFR with an ATC clearance, since all operations in Class A must be conducted under IFR",
+      "distractors": [
+        "Fly VFR as long as basic VFR weather minimums are met",
+        "Fly VFR during daylight hours but switch to IFR at night",
+        "Obtain a VFR clearance from ATC prior to entering the airspace"
+      ],
+      "explanation": "Class A airspace begins at 18,000 feet MSL and extends to FL 600. Unless otherwise authorized, all operations in Class A must be conducted under IFR. VFR flight is not permitted.",
+      "reference": {
+        "page": "15-2",
+        "text": "Unless otherwise authorized, all operation in Class A airspace is conducted under instrument flight rules (IFR)."
+      }
+    },
+    {
+      "section": "Class B Airspace",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "What service does ATC provide to all aircraft that are cleared to operate within Class B airspace?",
+      "correct_answer": "Separation services within the airspace",
+      "distractors": [
+        "Traffic advisories only; pilots maintain their own separation",
+        "Sequencing to the runway but pilots maintain their own separation",
+        "Weather avoidance and navigation assistance only"
+      ],
+      "explanation": "The chapter states that ATC clearance is required for all aircraft to operate in Class B, and all aircraft that are so cleared receive separation services within the airspace. This is a key distinction from Class C and D where only communications are required.",
+      "reference": {
+        "page": "15-2",
+        "text": "ATC clearance is required for all aircraft to operate in the area, and all aircraft that are so cleared receive separation services within the airspace."
+      }
     },
     {
       "section": "Class C Airspace",
       "difficulty": 2,
-      "categories": ["written_exam", "checkride_oral"],
-      "question": "What is required to enter Class C airspace?",
-      "correct_answer": "Two-way radio communication with ATC and a Mode C transponder",
-      "distractors": ["An ATC clearance, like Class B", "Only a transponder with Mode C", "No requirements beyond those for Class E"],
-      "explanation": "To enter Class C, you must establish two-way radio communication with approach control (ATC must acknowledge your callsign) and have a Mode C transponder."
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "A VFR pilot is approaching a Class C airspace area. What must the pilot establish before entering the airspace?",
+      "correct_answer": "Two-way radio communications with ATC prior to entering the airspace",
+      "distractors": [
+        "An ATC clearance prior to entering the airspace",
+        "Radar contact with ATC prior to entering the airspace",
+        "Visual contact with the control tower prior to entering"
+      ],
+      "explanation": "Class C requires two-way radio communications to be established prior to entry and maintained while in the airspace. Unlike Class B, an ATC clearance is not required—only communications. The chapter distinguishes between the clearance requirement of Class B and the communications requirement of Class C and D.",
+      "reference": {
+        "page": "15-2",
+        "text": "Each aircraft must establish two-way radio communications with the ATC facility providing air traffic services prior to entering the airspace and thereafter must maintain those communications while within the airspace."
+      }
     },
     {
       "section": "Class D Airspace",
-      "difficulty": 2,
-      "categories": ["written_exam", "checkride_oral"],
-      "question": "What happens to Class D airspace when the control tower closes?",
-      "correct_answer": "It typically reverts to Class E or Class G airspace",
-      "distractors": ["It becomes Class C airspace", "It remains Class D with CTAF procedures", "It becomes restricted airspace"],
-      "explanation": "When the tower closes, Class D airspace typically reverts to Class E (if shown on charts) or Class G. Pilots should use CTAF procedures."
+      "difficulty": 1,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "What is the typical vertical extent of Class D airspace?",
+      "correct_answer": "From the surface to 2,500 feet above the airport elevation",
+      "distractors": [
+        "From the surface to 4,000 feet above the airport elevation",
+        "From 700 feet AGL to 10,000 feet MSL",
+        "From the surface to 10,000 feet MSL"
+      ],
+      "explanation": "Class D airspace generally extends from the surface to 2,500 feet above the airport elevation. The 4,000-foot figure applies to Class C, while 10,000 feet MSL is associated with Class B.",
+      "reference": {
+        "page": "15-2",
+        "text": "Class D airspace is generally airspace from the surface to 2,500 feet above the airport elevation (charted in MSL) surrounding those airports that have an operational control tower."
+      }
     },
     {
       "section": "Class E Airspace",
       "difficulty": 2,
-      "categories": ["written_exam"],
-      "question": "In most of the contiguous US, at what altitude does Class E airspace begin if no other airspace is designated?",
-      "correct_answer": "1,200 feet AGL",
-      "distractors": ["700 feet AGL", "Surface level", "14,500 feet MSL"],
-      "explanation": "Unless otherwise designated, Class E airspace begins at 1,200 feet AGL in most areas. It can extend from 700 feet AGL near airports with instrument approaches, or from the surface in some cases."
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "In areas where aeronautical charts do not depict a Class E airspace base, at what altitude does Class E airspace begin?",
+      "correct_answer": "14,500 feet MSL",
+      "distractors": [
+        "1,200 feet AGL",
+        "700 feet AGL",
+        "18,000 feet MSL"
+      ],
+      "explanation": "The chapter states that where charts do not depict a Class E base, Class E begins at 14,500 feet MSL. In most depicted areas the base is 1,200 feet AGL, and in many others it is 700 feet AGL or the surface, but the default undepicted base is 14,500 feet MSL.",
+      "reference": {
+        "page": "15-3",
+        "text": "In areas where charts do not depict a class E base, class E begins at 14,500 feet MSL."
+      }
     },
     {
-      "section": "Class G Airspace",
+      "section": "Uncontrolled Airspace",
+      "difficulty": 1,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "What is true regarding ATC's authority and weather minimums in Class G airspace?",
+      "correct_answer": "ATC has no authority or responsibility to control air traffic, but VFR minimums still apply",
+      "distractors": [
+        "ATC has authority to control IFR traffic but not VFR traffic",
+        "ATC provides traffic advisories upon request but has no separation authority",
+        "ATC has no authority, and no weather minimums apply"
+      ],
+      "explanation": "Class G is uncontrolled airspace where ATC has no authority or responsibility to control air traffic. However, pilots must still comply with VFR minimums that apply to Class G, which vary by altitude and time of day.",
+      "reference": {
+        "page": "15-3",
+        "text": "Although ATC has no authority or responsibility to control air traffic, pilots should remember there are visual flight rules (VFR) minimums that apply to Class G airspace."
+      }
+    },
+    {
+      "section": "Prohibited Areas",
+      "difficulty": 1,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "For what purpose are prohibited areas established, and how are they charted?",
+      "correct_answer": "For security or reasons associated with the national welfare; charted with a \"P\" followed by a number",
+      "distractors": [
+        "To separate military training from IFR traffic; charted with an \"M\" followed by a number",
+        "To warn pilots of hazardous activities over international waters; charted with a \"W\" followed by a number",
+        "To confine artillery firing activities; charted with an \"R\" followed by a number"
+      ],
+      "explanation": "Prohibited areas are established for security or national welfare reasons, and flight within them is prohibited. They are charted as a \"P\" followed by a number (e.g., P-40). The other charting symbols apply to different special use airspace types.",
+      "reference": {
+        "page": "15-3",
+        "text": "Prohibited areas contain airspace of defined dimensions within which the flight of aircraft is prohibited. Such areas are established for security or other reasons associated with the national welfare."
+      }
+    },
+    {
+      "section": "Restricted Areas",
       "difficulty": 2,
-      "categories": ["written_exam", "checkride_oral"],
-      "question": "What are the VFR visibility and cloud clearance requirements in Class G airspace below 1,200 feet AGL during the day?",
-      "correct_answer": "1 statute mile visibility, clear of clouds",
-      "distractors": ["3 statute miles visibility, 500 below/1000 above/2000 horizontal from clouds", "5 statute miles visibility, clear of clouds", "1 statute mile visibility, 500 below/1000 above/2000 horizontal"],
-      "explanation": "In Class G below 1,200 feet AGL during the day, the minimums are 1 SM visibility and clear of clouds. At night, it's 3 SM and 500/1000/2000."
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "How does ATC handle an IFR aircraft transiting joint-use restricted airspace when the area is active and has NOT been released to the FAA?",
+      "correct_answer": "ATC issues a clearance that ensures the aircraft avoids the restricted airspace",
+      "distractors": [
+        "ATC allows the aircraft to operate in the restricted airspace without issuing specific clearance",
+        "ATC denies the IFR clearance entirely until the restricted area becomes inactive",
+        "ATC issues a clearance for the aircraft to transit at the pilot's own risk"
+      ],
+      "explanation": "The chapter outlines two scenarios for joint-use restricted areas. If the area is not active and has been released to the FAA, ATC allows operation without specific clearance. If the area is active and has not been released, ATC issues a clearance that ensures the aircraft avoids the restricted airspace.",
+      "reference": {
+        "page": "15-3",
+        "text": "If the restricted area is active and has not been released to the FAA, the ATC facility issues a clearance that ensures the aircraft avoids the restricted airspace."
+      }
     },
     {
-      "section": "Special Use Airspace",
-      "difficulty": 1,
-      "categories": ["written_exam", "general_knowledge"],
-      "question": "What type of special use airspace may have active hazardous activities (such as artillery firing) and is prohibited to all non-participating aircraft when active?",
-      "correct_answer": "Restricted area",
-      "distractors": ["Prohibited area", "Military Operations Area (MOA)", "Alert area"],
-      "explanation": "Restricted areas contain hazardous activities like artillery, aerial gunnery, or missile testing. Non-participating IFR traffic may be routed through with ATC. A Prohibited area is always prohibited; MOAs and Alert areas don't prohibit VFR traffic."
+      "section": "Warning Areas",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "What key factor distinguishes a warning area from a restricted area?",
+      "correct_answer": "The United States government does not have sole jurisdiction over the airspace in a warning area",
+      "distractors": [
+        "Warning areas prohibit all flight, while restricted areas allow limited flight",
+        "Warning areas are located only over domestic land, while restricted areas extend over water",
+        "Warning areas extend from the surface to 10,000 feet MSL, while restricted areas have no altitude limit"
+      ],
+      "explanation": "The chapter explicitly states that warning areas are similar in nature to restricted areas; however, the United States government does not have sole jurisdiction over the airspace. Warning areas extend from 3 NM outward from the coast and may be over domestic or international waters.",
+      "reference": {
+        "page": "15-4",
+        "text": "Warning areas are similar in nature to restricted areas; however, the United States government does not have sole jurisdiction over the airspace."
+      }
     },
     {
-      "section": "TFRs",
-      "difficulty": 1,
-      "categories": ["written_exam", "checkride_oral"],
-      "question": "What is a TFR?",
-      "correct_answer": "A Temporary Flight Restriction, a short-term airspace restriction for safety or security",
-      "distractors": ["A Transponder Frequency Requirement for Class B", "A Terminal Flight Route for arriving IFR traffic", "A Transition Flight Rule for changing airspace classes"],
-      "explanation": "TFRs temporarily restrict aircraft from specific areas due to hazards, VIP movement, disaster relief, space operations, or major sporting events. They are published as NOTAMs."
+      "section": "Military Operation Areas (MOAs)",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "When an MOA is active, what happens to nonparticipating IFR traffic transiting the area?",
+      "correct_answer": "It may be cleared through the MOA if IFR separation can be provided; otherwise, ATC reroutes or restricts it",
+      "distractors": [
+        "It must always be rerouted around the MOA regardless of separation capability",
+        "It is automatically cleared through the MOA without any ATC restrictions",
+        "It must cancel IFR and maintain VFR while transiting the MOA"
+      ],
+      "explanation": "The chapter states that when an MOA is being used, nonparticipating IFR traffic may be cleared through if IFR separation can be provided by ATC. Otherwise, ATC reroutes or restricts the nonparticipating IFR traffic.",
+      "reference": {
+        "page": "15-4",
+        "text": "Whenever an MOA is being used, nonparticipating IFR traffic may be cleared through an MOA if IFR separation can be provided by ATC. Otherwise, ATC reroutes or restricts nonparticipating IFR traffic."
+      }
+    },
+    {
+      "section": "Alert Areas",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "In an alert area, who is responsible for collision avoidance?",
+      "correct_answer": "Pilots of participating aircraft and pilots transiting the area are equally responsible",
+      "distractors": [
+        "ATC provides separation services for all aircraft within the alert area",
+        "Only pilots of participating aircraft are responsible for seeing and avoiding",
+        "Pilots transiting the area have right-of-way over participating aircraft"
+      ],
+      "explanation": "Alert areas are advisory in nature. The chapter states that pilots of participating aircraft as well as pilots transiting the area shall be equally responsible for collision avoidance. ATC does not provide separation services in alert areas.",
+      "reference": {
+        "page": "15-4",
+        "text": "pilots of participating aircraft, as well as pilots transiting the area, shall be equally responsible for collision avoidance."
+      }
+    },
+    {
+      "section": "Controlled Firing Areas (CFAs)",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "Why are Controlled Firing Areas not charted on aeronautical charts?",
+      "correct_answer": "Because activities are suspended when an aircraft approaches, so they do not cause a nonparticipating aircraft to change its flight path",
+      "distractors": [
+        "Because they are only active at night when chart use is minimal",
+        "Because they are temporary and their locations change daily",
+        "Because they are located only over restricted military ranges and do not affect civil aircraft"
+      ],
+      "explanation": "The key difference between CFAs and other special use airspace is that activities must be suspended when a spotter aircraft, radar, or ground lookout indicates an aircraft might be approaching. Since this ensures no nonparticipating aircraft needs to alter course, there is no need to chart CFAs.",
+      "reference": {
+        "page": "15-4",
+        "text": "The difference between CFAs and other special use airspace is that activities must be suspended when a spotter aircraft, radar, or ground lookout position indicates an aircraft might be approaching the area. There is no need to chart CFAs since they do not cause a nonparticipating aircraft to change its flight path."
+      }
+    },
+    {
+      "section": "Military Training Routes (MTRs)",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "A military training route is designated as \"VR1208.\" What does the four-number character designation indicate about this route?",
+      "correct_answer": "No segment of the route is above 1,500 feet AGL",
+      "distractors": [
+        "One or more segments of the route are above 1,500 feet AGL",
+        "The route is conducted at or above 10,000 feet MSL",
+        "The route is for IFR operations only"
+      ],
+      "explanation": "MTRs with no segment above 1,500 feet AGL are identified by four number characters (e.g., IR1206, VR1207). MTRs that include one or more segments above 1,500 feet AGL are identified by three number characters (e.g., IR206, VR207). The VR prefix indicates VFR, while IR indicates IFR.",
+      "reference": {
+        "page": "15-6",
+        "text": "MTRs with no segment above 1,500 feet AGL are identified by four number characters (e.g., IR1206, VR1207). MTRs that include one or more segments above 1,500 feet AGL are identified by three number characters (e.g., IR206, VR207)."
+      }
+    },
+    {
+      "section": "Temporary Flight Restrictions (TFR)",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "How is a Temporary Flight Restriction (TFR) officially designated, and what is the pilot's responsibility?",
+      "correct_answer": "An FDC NOTAM is issued, and the pilot must check NOTAMs as part of flight planning to be aware of TFRs",
+      "distractors": [
+        "A TFR is published in the Chart Supplement, and pilots must check it before flight",
+        "A TFR is announced by ATC broadcast on guard frequency, and pilots must monitor 121.5",
+        "A TFR is designated by FAA website posting only, and pilots have no specific regulatory responsibility"
+      ],
+      "explanation": "TFRs are designated by a Flight Data Center (FDC) NOTAM beginning with the phrase \"FLIGHT RESTRICTIONS.\" The chapter emphasizes that it is a pilot's responsibility to be aware of TFRs in their proposed area of flight, and one way to check is the FAA website.",
+      "reference": {
+        "page": "15-6",
+        "text": "A flight data center (FDC) Notice to Airmen (NOTAM) is issued to designate a TFR... It is a pilot's responsibility to be aware of TFRs in their proposed area of flight."
+      }
+    },
+    {
+      "section": "Terminal Radar Service Areas (TRSAs)",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "What is the policy regarding pilot participation in Terminal Radar Service Area (TRSA) services?",
+      "correct_answer": "Participation is voluntary, but VFR pilots are encouraged to contact the radar approach control and take advantage of the service",
+      "distractors": [
+        "Participation is mandatory for all aircraft operating within the TRSA",
+        "Participation is mandatory for IFR aircraft but voluntary for VFR aircraft",
+        "Participation is mandatory for VFR aircraft but voluntary for IFR aircraft"
+      ],
+      "explanation": "The chapter clearly states that participation in TRSA services is voluntary. However, VFR pilots are encouraged to contact the radar approach control and take advantage of TRSA service. The primary airport within a TRSA becomes Class D airspace, which does have its own communications requirements.",
+      "reference": {
+        "page": "15-7",
+        "text": "Participation in TRSA services is voluntary; however, pilots operating under VFR are encouraged to contact the radar approach control and take advantage of TRSA service."
+      }
+    },
+    {
+      "section": "Basic VFR Weather Minimums",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "What are the basic VFR weather minimums for operating in Class B airspace?",
+      "correct_answer": "3 statute miles flight visibility and clear of clouds",
+      "distractors": [
+        "3 statute miles flight visibility and 1,000 feet above, 500 feet below, 2,000 feet horizontal from clouds",
+        "1 statute mile flight visibility and clear of clouds",
+        "5 statute miles flight visibility and 1,000 feet above, 1,000 feet below, 1 statute mile horizontal from clouds"
+      ],
+      "explanation": "Class B airspace has the most lenient cloud clearance requirement of any controlled airspace: only \"clear of clouds\" with 3 statute miles visibility. The 1,000/500/2,000 requirement applies to Class C, D, and E (below 10,000 MSL). The 5-mile/1,000/1,000/1 requirement applies at or above 10,000 feet MSL in Class E and G.",
+      "reference": {
+        "page": "15-8",
+        "text": "Class B — 3 statute miles — Clear of clouds"
+      }
+    },
+    {
+      "section": "Operating Rules and Pilot/Equipment Requirements",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "If an aircraft's radio fails in flight under VFR while in Class D airspace, under what conditions may the pilot land at the primary airport?",
+      "correct_answer": "If weather is at or above basic VFR minimums, visual contact with the tower is maintained, and a clearance to land is received",
+      "distractors": [
+        "The pilot must immediately exit the Class D airspace and land at a non-towered airport",
+        "The pilot must declare an emergency and wait for ATC to dispatch emergency vehicles",
+        "The pilot may land at their discretion without any additional requirements since VFR applies"
+      ],
+      "explanation": "The chapter provides specific radio failure procedures for Class D. Under VFR, the PIC may operate and land if three conditions are met: weather at or above basic VFR minimums, visual contact with the tower maintained, and a clearance to land received. The same procedure applies in Class C and Class E surface areas with operational towers.",
+      "reference": {
+        "page": "15-10",
+        "text": "If the aircraft radio fails in flight under VFR, the PIC may operate that aircraft and land if weather conditions are at or above basic VFR weather minimums, visual contact with the tower is maintained, and a clearance to land is received."
+      }
     }
   ]
 }

@@ -1,0 +1,403 @@
+{
+  "source": "PHAK",
+  "chapter": 6,
+  "questions": [
+    {
+      "section": "Flight Control Systems",
+      "difficulty": 1,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "What distinguishes secondary flight controls from primary flight controls?",
+      "correct_answer": "Primary controls are required for safe flight; secondary controls improve performance or relieve control forces",
+      "distractors": [
+        "Primary controls are hydraulically actuated; secondary controls are mechanically actuated",
+        "Primary controls affect all three axes; secondary controls affect only one axis at a time",
+        "Primary controls are used during takeoff and landing; secondary controls are used only during cruise"
+      ],
+      "explanation": "The chapter states that ailerons, elevator, and rudder constitute the primary control system and are required to control an aircraft safely during flight, while wing flaps, leading edge devices, spoilers, and trim systems constitute the secondary control system and improve performance characteristics or relieve the pilot of excessive control forces.",
+      "reference": {
+        "page": "6-2",
+        "text": "The ailerons, elevator (or stabilator), and rudder constitute the primary control system and are required to control an aircraft safely during flight. Wing flaps, leading edge devices, spoilers, and trim systems constitute the secondary control system and improve the performance characteristics of the airplane or relieve the pilot of excessive control forces."
+      }
+    },
+    {
+      "section": "Introduction",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "What distinguishes a fly-by-wire flight control system from a traditional mechanical system?",
+      "correct_answer": "It replaces the physical connection between pilot controls and control surfaces with an electrical interface",
+      "distractors": [
+        "It uses hydraulic pressure to boost control forces while maintaining mechanical linkages",
+        "It uses fiber optic cables to mechanically actuate the control surfaces directly",
+        "It uses a neural network to autonomously fly the aircraft without pilot input"
+      ],
+      "explanation": "The chapter describes fly-by-wire as replacing the physical connection between pilot controls and the flight control surfaces with an electrical interface. Hydromechanical systems, by contrast, still use a mechanical circuit combined with a hydraulic circuit.",
+      "reference": {
+        "page": "6-2",
+        "text": "Called \"fly-by-wire,\" this flight control system replaces the physical connection between pilot controls and the flight control surfaces with an electrical interface."
+      }
+    },
+    {
+      "section": "Primary Flight Controls",
+      "difficulty": 1,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "How do flight controls typically feel and respond at low airspeeds compared to high airspeeds?",
+      "correct_answer": "Soft and sluggish with slow response at low airspeeds; firm and rapid response at high airspeeds",
+      "distractors": [
+        "Firm and rapid response at low airspeeds; soft and sluggish with slow response at high airspeeds",
+        "Identical feel and response at all airspeeds due to control system design limits",
+        "Soft at low airspeeds but with rapid response; firm at high airspeeds but with slow response"
+      ],
+      "explanation": "The chapter explains that at low airspeeds, controls usually feel soft and sluggish and the aircraft responds slowly, while at higher airspeeds, controls become increasingly firm and aircraft response is more rapid.",
+      "reference": {
+        "page": "6-3",
+        "text": "At low airspeeds, the controls usually feel soft and sluggish, and the aircraft responds slowly to control applications. At higher airspeeds, the controls become increasingly firm and aircraft response is more rapid."
+      }
+    },
+    {
+      "section": "Adverse Yaw",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "When rolling right, why does adverse yaw tend to pull the nose to the left?",
+      "correct_answer": "The down-going aileron on the left wing creates more lift and more drag, slowing that wing and yawing the nose left",
+      "distractors": [
+        "The up-going aileron on the right wing creates more drag, slowing the right wing and yawing the nose left",
+        "The rudder automatically deflects left due to the aileron-rudder interconnect springs",
+        "The right wing stalls first due to increased angle of attack, causing the nose to yaw left"
+      ],
+      "explanation": "The chapter explains that the downward-deflected aileron produces more lift and therefore more drag, slowing that wing. This results in the aircraft yawing toward the wing that experienced an increase in lift and drag, which is opposite the direction of bank.",
+      "reference": {
+        "page": "6-3",
+        "text": "Since the downward deflected aileron produces more lift as evidenced by the wing raising, it also produces more drag. This added drag causes the wing to slow down slightly. This results in the aircraft yawing toward the wing which had experienced an increase in lift (and drag)."
+      }
+    },
+    {
+      "section": "Differential Ailerons",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "How do differential ailerons reduce adverse yaw?",
+      "correct_answer": "The up-going aileron is raised more than the down-going aileron is lowered, creating more drag on the descending wing",
+      "distractors": [
+        "Both ailerons deflect equally but in opposite directions to balance drag on both wings",
+        "The down-going aileron is lowered more than the up-going aileron is raised, increasing drag on the rising wing",
+        "The ailerons are mechanically linked to the rudder to automatically coordinate turns"
+      ],
+      "explanation": "The chapter states that with differential ailerons, one aileron is raised a greater distance than the other is lowered, producing increased drag on the descending wing. While adverse yaw is reduced, it is not eliminated completely.",
+      "reference": {
+        "page": "6-4",
+        "text": "With differential ailerons, one aileron is raised a greater distance than the other aileron and is lowered for a given movement of the control wheel or control stick. This produces an increase in drag on the descending wing."
+      }
+    },
+    {
+      "section": "Frise-Type Ailerons",
+      "difficulty": 2,
+      "categories": [
+        "written_exam"
+      ],
+      "question": "How does a frise-type aileron help counteract adverse yaw?",
+      "correct_answer": "The raised aileron's leading edge projects into the airflow, creating drag on the descending wing to equalize drag",
+      "distractors": [
+        "A slot is formed that directs high-energy air over the lowered aileron, reducing its drag entirely",
+        "The ailerons are mechanically coupled to the rudder pedals to automatically coordinate turns",
+        "Both ailerons are lowered simultaneously to function as flaps and increase lift equally"
+      ],
+      "explanation": "The chapter explains that with a frise-type aileron, the aileron being raised pivots on an offset hinge, projecting its leading edge into the airflow to create drag. This helps equalize the drag created by the lowered aileron on the opposite wing and reduces adverse yaw, though it does not eliminate it entirely.",
+      "reference": {
+        "page": "6-4",
+        "text": "With a frise-type aileron, when pressure is applied to the control wheel, or control stick, the aileron that is being raised pivots on an offset hinge. This projects the leading edge of the aileron into the airflow and creates drag."
+      }
+    },
+    {
+      "section": "T-Tail",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "Why does a T-tail aircraft require greater elevator deflection to raise the nose at slow speeds compared to a conventional-tail aircraft?",
+      "correct_answer": "The T-tail is above the propeller downwash that assists conventional-tail aircraft in raising the nose",
+      "distractors": [
+        "The T-tail horizontal surface is smaller and produces less aerodynamic force at all speeds",
+        "The T-tail is continuously affected by wing wake at every airspeed and AOA",
+        "The T-tail's antiservo tab opposes elevator movement only at slow speeds"
+      ],
+      "explanation": "The chapter explains that conventional-tail aircraft benefit from propeller downwash pushing down on the tail to assist in raising the nose. The T-tail, being above this downwash, does not receive this assistance, requiring greater elevator movement and force at slow speeds.",
+      "reference": {
+        "page": "6-6",
+        "text": "the conventional-tail aircraft has the downwash from the propeller pushing down on the tail to assist in raising the nose."
+      }
+    },
+    {
+      "section": "T-Tail",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "Which combination of conditions makes a T-tail aircraft most susceptible to a deep stall?",
+      "correct_answer": "High AOA, low airspeed, and aft CG",
+      "distractors": [
+        "Low AOA, high airspeed, and forward CG",
+        "High AOA, high airspeed, and forward CG",
+        "Low AOA, low airspeed, and aft CG"
+      ],
+      "explanation": "The chapter states that when flying at a very high AOA with a low airspeed and an aft CG, the T-tail aircraft may be more susceptible to a deep stall, where the wake of the wing impinges on the tail surface and renders it almost ineffective.",
+      "reference": {
+        "page": "6-6",
+        "text": "When flying at a very high AOA with a low airspeed and an aft CG, the T-tail aircraft may be more susceptible to a deep stall. In this condition, the wake of the wing impinges on the tail surface and renders it almost ineffective."
+      }
+    },
+    {
+      "section": "T-Tail",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "What is the purpose of an elevator down spring?",
+      "correct_answer": "It mechanically drives the elevator to a nose-down position if the trim tab becomes ineffective, preventing a stall",
+      "distractors": [
+        "It increases elevator sensitivity at high airspeeds by opposing the pilot's control inputs",
+        "It automatically trims the elevator for level flight during cruise without pilot input",
+        "It prevents the elevator from moving past its design limits during high-speed flight"
+      ],
+      "explanation": "The chapter explains that an elevator down spring produces a mechanical load on the elevator, causing it to move toward the nose-down position. When the trim tab becomes ineffective at low airspeeds, the down spring drives the elevator nose-down, lowering the nose, building speed, and preventing a stall.",
+      "reference": {
+        "page": "6-6",
+        "text": "When the trim tab becomes ineffective, the down spring drives the elevator to a nose-down position. The nose of the aircraft lowers, speed builds up, and a stall is prevented."
+      }
+    },
+    {
+      "section": "Stabilator",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "What is the purpose of an antiservo tab on a stabilator?",
+      "correct_answer": "It deflects in the same direction as the stabilator to increase the force required to move it, preventing overcontrolling",
+      "distractors": [
+        "It deflects opposite to the stabilator to reduce control forces and make the aircraft easier to maneuver",
+        "It trims the stabilator by moving opposite to the control surface, just like an elevator trim tab",
+        "It provides additional lift to the horizontal tail surface at high angles of attack"
+      ],
+      "explanation": "The chapter states that because stabilators are extremely sensitive to control inputs, antiservo tabs are incorporated on the trailing edge to decrease sensitivity. They deflect in the same direction as the stabilator, increasing the force required to move it and making it less prone to pilot-induced overcontrolling.",
+      "reference": {
+        "page": "6-7",
+        "text": "Antiservo tabs are incorporated on the trailing edge to decrease sensitivity. They deflect in the same direction as the stabilator. This results in an increase in the force required to move the stabilator, thus making it less prone to pilot-induced overcontrolling."
+      }
+    },
+    {
+      "section": "Canard",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "How does a canard design differ from a conventional aft-tail configuration in providing longitudinal stability?",
+      "correct_answer": "The canard creates lift to hold the nose up, while a conventional tail exerts a downward force on the tail",
+      "distractors": [
+        "The canard exerts a downward force like a conventional tail but is mounted forward of the wing",
+        "The canard uses a servo tab instead of aerodynamic force for pitch stability",
+        "The canard relies on thrust vectoring rather than an aerodynamic surface for stability"
+      ],
+      "explanation": "The chapter explains that the canard is an airfoil that actually creates lift and holds the nose up, as opposed to the aft-tail design which exerts a downward force on the tail to prevent the nose from rotating downward. Theoretically, the canard is more efficient because both surfaces contribute to lifting the aircraft's weight.",
+      "reference": {
+        "page": "6-7",
+        "text": "The canard actually creates lift and holds the nose up, as opposed to the aft-tail design which exerts downward force on the tail to prevent the nose from rotating downward."
+      }
+    },
+    {
+      "section": "Rudder",
+      "difficulty": 1,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "How does rudder effectiveness change with airspeed, and what does this mean for required control inputs?",
+      "correct_answer": "Effectiveness increases with speed, requiring large deflections at low speed and small deflections at high speed",
+      "distractors": [
+        "Effectiveness decreases with speed, requiring small deflections at low speed and large deflections at high speed",
+        "Effectiveness remains constant regardless of speed, requiring the same deflection at all speeds",
+        "Effectiveness increases with speed, requiring small deflections at low speed and large deflections at high speed"
+      ],
+      "explanation": "The chapter states that rudder effectiveness increases with speed. Therefore, large deflections at low speeds and small deflections at high speeds may be required to provide the desired reaction. In propeller-driven aircraft, slipstream over the rudder also increases its effectiveness.",
+      "reference": {
+        "page": "6-8",
+        "text": "Rudder effectiveness increases with speed; therefore, large deflections at low speeds and small deflections at high speeds may be required to provide the desired reaction."
+      }
+    },
+    {
+      "section": "V-Tail",
+      "difficulty": 2,
+      "categories": [
+        "written_exam"
+      ],
+      "question": "On a V-tail aircraft, how do the ruddervators respond to elevator versus rudder inputs?",
+      "correct_answer": "The control wheel moves both surfaces simultaneously; rudder pedals move them differentially",
+      "distractors": [
+        "The control wheel moves the surfaces differentially; rudder pedals move them simultaneously",
+        "Both controls move the surfaces simultaneously but in opposite directions from each other",
+        "The control wheel moves only the left surface; rudder pedals move only the right surface"
+      ],
+      "explanation": "The chapter explains that ruddervators are connected through a special linkage allowing the control wheel to move both surfaces simultaneously for pitch control, while rudder pedal displacement moves the surfaces differentially for directional control. A control mixing mechanism handles combined inputs.",
+      "reference": {
+        "page": "6-8",
+        "text": "The movable surfaces, which are usually called ruddervators, are connected through a special linkage that allows the control wheel to move both surfaces simultaneously. On the other hand, displacement of the rudder pedals moves the surfaces differentially, thereby providing directional control."
+      }
+    },
+    {
+      "section": "Flaps",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "How do slotted flaps achieve a greater increase in maximum lift coefficient compared to plain or split flaps?",
+      "correct_answer": "High-energy air from the lower surface is ducted to the flap's upper surface, delaying airflow separation",
+      "distractors": [
+        "The flap slides backward on tracks, increasing wing area as well as camber",
+        "The flap deflects from the lower surface only, creating turbulent air that increases lift",
+        "The flap increases camber without changing the center of pressure on the airfoil"
+      ],
+      "explanation": "The chapter explains that when slotted flaps are lowered, a duct forms between the flap well and the flap's leading edge, ducting high-energy air from the lower surface to the flap's upper surface. This accelerates the boundary layer and delays airflow separation, providing a higher CL-MAX than plain or split flaps.",
+      "reference": {
+        "page": "6-9",
+        "text": "When the slotted flap is lowered, high energy air from the lower surface is ducted to the flap's upper surface. The high energy air from the slot accelerates the upper surface boundary layer and delays airflow separation, providing a higher CL."
+      }
+    },
+    {
+      "section": "Flaps",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "How do Fowler flaps differ from plain, split, and slotted flaps?",
+      "correct_answer": "They slide backward on tracks to increase wing area as well as camber",
+      "distractors": [
+        "They deflect from the lower surface only to create maximum drag with minimal lift increase",
+        "They use a slot to direct high-energy air over the upper surface without changing camber",
+        "They rotate down on a simple hinge to increase camber only, with no area change"
+      ],
+      "explanation": "The chapter explains that Fowler flaps not only change the camber of the wing but also increase the wing area. Instead of rotating down on a hinge, they slide backward on tracks. In the first portion of extension, drag increases very little while lift increases greatly due to the increase in both area and camber.",
+      "reference": {
+        "page": "6-9",
+        "text": "This flap design not only changes the camber of the wing, it also increases the wing area. Instead of rotating down on a hinge, it slides backwards on tracks."
+      }
+    },
+    {
+      "section": "Leading Edge Devices",
+      "difficulty": 2,
+      "categories": [
+        "written_exam"
+      ],
+      "question": "What do fixed slots accomplish, and how do they differ from leading edge flaps?",
+      "correct_answer": "Fixed slots direct airflow to the upper surface to delay stall without increasing camber; leading edge flaps increase camber",
+      "distractors": [
+        "Fixed slots increase camber and wing area; leading edge flaps only delay stall without changing camber",
+        "Fixed slots move on tracks at high AOA; leading edge flaps are fixed aerodynamic devices",
+        "Fixed slots reduce drag at cruise speed; leading edge flaps increase drag at cruise speed"
+      ],
+      "explanation": "The chapter states that fixed slots direct airflow to the upper wing surface and delay airflow separation at higher angles of attack without increasing wing camber. Leading edge flaps, by contrast, are used to increase both CL-MAX and the camber of the wings.",
+      "reference": {
+        "page": "6-9",
+        "text": "Fixed slots direct airflow to the upper wing surface and delay airflow separation at higher angles of attack. The slot does not increase the wing camber, but allows a higher maximum CL because the stall is delayed until the wing reaches a greater AOA."
+      }
+    },
+    {
+      "section": "Spoilers",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "When spoilers are used for roll control, why is adverse yaw eliminated?",
+      "correct_answer": "The spoiler creates drag on the same wing that loses lift, so the yaw is in the same direction as the roll",
+      "distractors": [
+        "The spoiler creates additional lift on the opposite wing, balancing the drag on both sides",
+        "The spoilers are mechanically linked to the rudder for automatic turn coordination",
+        "The spoilers reduce drag on both wings equally, preventing any differential yaw"
+      ],
+      "explanation": "The chapter explains that to turn right, the spoiler on the right wing is raised, destroying lift and creating more drag on the right. The right wing drops and the aircraft banks and yaws to the right. Since the drag and lift loss occur on the same side, the yaw is in the same direction as the roll, eliminating adverse yaw.",
+      "reference": {
+        "page": "6-10",
+        "text": "To turn right, for example, the spoiler on the right wing is raised, destroying some of the lift and creating more drag on the right. The right wing drops, and the aircraft banks and yaws to the right."
+      }
+    },
+    {
+      "section": "Trim Tabs",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "When a pilot applies full nose-down trim using the elevator trim tab, what happens to the tab and the elevator?",
+      "correct_answer": "The trim tab moves up, forcing the elevator trailing edge down, moving the tail up and nose down",
+      "distractors": [
+        "The trim tab moves down, forcing the elevator trailing edge up, moving the tail down and nose up",
+        "The trim tab moves down, forcing the elevator trailing edge down, moving the tail up and nose down",
+        "The trim tab moves up, forcing the elevator trailing edge up, moving the tail down and nose up"
+      ],
+      "explanation": "The chapter explains that placing the trim control in the full nose-down position moves the trim tab to its full up position. The airflow over the horizontal tail surface forces the trailing edge of the elevator down, causing the tail to move up and the nose to move down. The trim tab always moves opposite to the elevator.",
+      "reference": {
+        "page": "6-10",
+        "text": "Placing the trim control in the full nose-down position moves the trim tab to its full up position. With the trim tab up and into the airstream, the airflow over the horizontal tail surface tends to force the trailing edge of the elevator down. This causes the tail of the aircraft to move up and the nose to move down."
+      }
+    },
+    {
+      "section": "Balance Tabs",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "How does a balance tab differ from a trim tab in its operation?",
+      "correct_answer": "A balance tab automatically moves opposite the primary control surface to reduce control forces; a trim tab is manually positioned by the pilot",
+      "distractors": [
+        "A balance tab moves in the same direction as the control surface to increase sensitivity; a trim tab moves opposite",
+        "A balance tab is only adjustable on the ground; a trim tab is adjustable in flight",
+        "A balance tab is used on large aircraft only; a trim tab is used on small aircraft only"
+      ],
+      "explanation": "The chapter explains that the essential difference between balance tabs and trim tabs is that the balance tab is coupled to the control surface rod so that when the primary control surface is moved in any direction, the tab automatically moves in the opposite direction. The airflow striking the tab counterbalances air pressure against the primary control surface, enabling easier movement.",
+      "reference": {
+        "page": "6-11",
+        "text": "The essential difference between the two is that the balancing tab is coupled to the control surface rod so that when the primary control surface is moved in any direction, the tab automatically moves in the opposite direction."
+      }
+    },
+    {
+      "section": "Autopilot",
+      "difficulty": 1,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "What does a single-axis autopilot control, and which control surface does it actuate?",
+      "correct_answer": "It controls the longitudinal axis (roll) and actuates the ailerons",
+      "distractors": [
+        "It controls the lateral axis (pitch) and actuates the elevator",
+        "It controls the vertical axis (yaw) and actuates the rudder",
+        "It controls all three axes but only actuates the ailerons"
+      ],
+      "explanation": "The chapter states that a single-axis autopilot controls the aircraft about the longitudinal axis and a servo actuates the ailerons. A three-axis autopilot, by contrast, controls all three axes using separate servos for ailerons, elevator, and rudder.",
+      "reference": {
+        "page": "6-12",
+        "text": "a single-axis autopilot controls the aircraft about the longitudinal axis and a servo actuates the ailerons. A three-axis autopilot controls the aircraft about the longitudinal, lateral, and vertical axes."
+      }
+    }
+  ]
+}

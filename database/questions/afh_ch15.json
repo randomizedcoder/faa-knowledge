@@ -1,0 +1,366 @@
+{
+  "source": "AFH",
+  "chapter": 15,
+  "questions": [
+    {
+      "section": "Gas Turbine Engine",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "How does the combustion process in a gas turbine engine differ from that in a piston (reciprocating) engine?",
+      "correct_answer": "In a gas turbine engine, the phases of induction, compression, combustion, expansion, and exhaust occur simultaneously and continuously, with ignition occurring during starting and remaining continuous thereafter.",
+      "distractors": [
+        "In a gas turbine engine, combustion occurs once per revolution of the main shaft, while in a piston engine it occurs every other revolution.",
+        "In a gas turbine engine, combustion occurs only during the starting cycle and is then maintained by residual heat, while in a piston engine ignition occurs each cycle.",
+        "Both engines have identical combustion cycles, but the gas turbine operates at higher compression ratios to achieve continuous power."
+      ],
+      "explanation": "The chapter states that unlike reciprocating engines, where each event is a separate distinct occurrence in each cylinder, gas turbine engines conduct all phases of power simultaneously and continuously. Ignition occurs during the starting cycle and is continuous thereafter.",
+      "reference": {
+        "page": "15-1",
+        "text": "Unlike reciprocating engines, in gas turbine engines these phases of power occur simultaneously and continuously instead of successively one cycle at a time. Additionally, ignition occurs during the starting cycle and is continuous thereafter."
+      }
+    },
+    {
+      "section": "Turboprop Engines",
+      "difficulty": 1,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "At what speed and altitude range are turboprop engines most efficient?",
+      "correct_answer": "Between 250 and 400 mph and between 18,000 and 30,000 feet.",
+      "distractors": [
+        "Between 150 and 250 mph and between 10,000 and 18,000 feet.",
+        "Between 400 and 500 mph and between 30,000 and 40,000 feet.",
+        "Between 250 and 400 mph and between 10,000 and 18,000 feet."
+      ],
+      "explanation": "The chapter explicitly states the efficient speed and altitude ranges for turboprop engines, noting that the minimum specific fuel consumption is normally available in the altitude range of 25,000 feet up to the tropopause.",
+      "reference": {
+        "page": "15-2",
+        "text": "Turboprop engines are most efficient at speeds between 250 and 400 mph and altitudes between 18,000 and 30,000 feet."
+      }
+    },
+    {
+      "section": "Turboprop Engines",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "What is equivalent shaft horsepower (eshp) in a turboprop engine?",
+      "correct_answer": "Shaft horsepower plus jet thrust produced by exhaust leaving the engine.",
+      "distractors": [
+        "Shaft horsepower minus the power required to drive the engine's compressor section.",
+        "The total horsepower measured at the propeller shaft before reduction gearing.",
+        "Shaft horsepower multiplied by the propeller's efficiency percentage."
+      ],
+      "explanation": "The chapter explains that shaft horsepower is determined by rpm and torque applied to the propeller shaft. Since turboprops are gas turbine engines, some jet thrust is also produced, and this thrust is added to shaft horsepower to determine eshp. Jet thrust usually accounts for less than 10 percent of total engine power.",
+      "reference": {
+        "page": "15-2",
+        "text": "This thrust is added to the shaft horsepower to determine the total engine power or equivalent shaft horsepower (eshp). Jet thrust usually accounts for less than 10 percent of the total engine power."
+      }
+    },
+    {
+      "section": "Turboprop Engines",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "In cold weather conditions, which engine operating limit is most likely to be exceeded first when advancing the power lever on a turboprop engine?",
+      "correct_answer": "Torque limits can be exceeded while temperature limits are still within acceptable range.",
+      "distractors": [
+        "Temperature limits may be exceeded without exceeding torque limits.",
+        "Fuel flow limits will be reached before any other operating limit.",
+        "RPM limits will be exceeded before torque or temperature limits."
+      ],
+      "explanation": "The chapter explains that in cold weather, dense air allows the engine to produce more torque, so torque limits can be exceeded while temperature limits remain acceptable. In hot weather, the opposite occurs—temperature limits may be exceeded without exceeding torque limits. Reaching one operating limit normally occurs before the throttle reaches full forward.",
+      "reference": {
+        "page": "15-2",
+        "text": "In cold weather conditions, torque limits can be exceeded while temperature limits are still within acceptable range. In hot weather conditions, the maximum temperature limits may be exceeded without exceeding torque limits."
+      }
+    },
+    {
+      "section": "Turboprop Engine Types - Fixed-Shaft",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "In a fixed-shaft constant-speed turboprop engine, how are power changes accomplished during flight?",
+      "correct_answer": "By increasing fuel flow and propeller blade angle while engine speed remains constant.",
+      "distractors": [
+        "By varying engine rpm within a wide range from 70 to 100 percent.",
+        "By adjusting the condition lever to change the fuel metering rate.",
+        "By increasing engine rpm and decreasing propeller blade angle simultaneously."
+      ],
+      "explanation": "The chapter explains that in the fixed-shaft constant-speed engine, the engine operates at a constant speed maintained by the propeller governor. Power changes are made by increasing fuel flow, which increases temperature and energy to the turbine, producing more torque. The increased torque forces the propeller blade angle to increase to maintain constant speed.",
+      "reference": {
+        "page": "15-3",
+        "text": "Power changes are made by increasing fuel flow and propeller blade angle rather than engine speed. An increase in fuel flow causes an increase in temperature and a corresponding increase in energy available to the turbine."
+      }
+    },
+    {
+      "section": "Turboprop Engine Types - Fixed-Shaft",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "What is the purpose of the negative torque sensing (NTS) system on a fixed-shaft turboprop engine?",
+      "correct_answer": "To limit the torque the engine can extract from the propeller during windmilling by automatically moving the blades toward their feathered position.",
+      "distractors": [
+        "To automatically feather the propeller when the engine loses oil pressure during flight.",
+        "To prevent the propeller from overspeeding during a sudden power reduction.",
+        "To provide reverse thrust capability during landing rollout if the condition lever fails."
+      ],
+      "explanation": "The chapter describes NTS as an emergency backup system that activates when the engine suddenly loses power. It limits the torque the failed engine can extract from the windmilling propeller, moving blades toward feather to reduce drag. It is not a substitute for the feathering device controlled by the condition lever.",
+      "reference": {
+        "page": "15-5",
+        "text": "The function of the negative torque sensing system is to limit the torque the engine can extract from the propeller during windmilling and thereby prevent large drag forces on the airplane. The NTS system causes a movement of the propeller blades automatically toward their feathered position should the engine suddenly lose power while in flight."
+      }
+    },
+    {
+      "section": "Split-Shaft/Free Turbine Engine",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "What is a key operational advantage of the split-shaft/free turbine engine design over the fixed-shaft design?",
+      "correct_answer": "The propeller can be feathered in flight or on the ground with the basic engine still running.",
+      "distractors": [
+        "The engine operates at a higher maximum rpm, producing significantly more thrust.",
+        "The propeller is directly connected to the compressor for faster power response.",
+        "The engine has fewer moving parts and is lighter than a fixed-shaft engine."
+      ],
+      "explanation": "The chapter states that in a free power-turbine engine, the propeller is driven by a separate turbine and is not on the same shaft as the engine turbine and compressor. This design allows the propeller to be feathered while the basic engine continues to run, and allows the pilot to select a desired propeller governing rpm independent of basic engine rpm.",
+      "reference": {
+        "page": "15-5",
+        "text": "Unlike the fixed-shaft engine, in the split-shaft engine the propeller can be feathered in flight or on the ground with the basic engine still running. The free power-turbine design allows the pilot to select a desired propeller governing rpm, regardless of basic engine rpm."
+      }
+    },
+    {
+      "section": "Split-Shaft/Free Turbine Engine",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "On a split-shaft/free turbine engine, what is the function of the condition lever?",
+      "correct_answer": "It acts as an on/off valve for fuel delivery to the engine, with HIGH IDLE and LOW IDLE positions for ground operations, but has no metering function.",
+      "distractors": [
+        "It meters fuel to the engine like a mixture control on a piston engine, allowing the pilot to lean the mixture.",
+        "It sets the desired propeller governing rpm through the primary governor.",
+        "It directly controls propeller blade angle when operating in the beta range."
+      ],
+      "explanation": "The chapter explains that the condition lever on a free turbine engine controls fuel flow but is really just an on/off valve. It has HIGH IDLE and LOW IDLE positions for ground operations but no metering function. Leaning is not required in turbine engines; this function is performed automatically by a dedicated fuel control unit. The propeller lever controls propeller rpm, and the power lever controls beta range blade angle.",
+      "reference": {
+        "page": "15-6",
+        "text": "the condition lever on a turboprop engine is really just an on/off valve for delivering fuel. There are HIGH IDLE and LOW IDLE positions for ground operations, but condition levers have no metering function. Leaning is not required in turbine engines; this function is performed automatically by a dedicated fuel control unit."
+      }
+    },
+    {
+      "section": "Reverse Thrust and Beta Range Operations",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "What characterizes the beta range of propeller operation in a turboprop engine?",
+      "correct_answer": "The power lever directly controls propeller blade angle, with positions ranging from flight idle to maximum reverse.",
+      "distractors": [
+        "The propeller governor maintains constant rpm while the power lever controls fuel flow to the engine.",
+        "The propeller is in its maximum pitch angle to minimize drag during engine-out conditions.",
+        "The propeller blades are positioned for maximum forward thrust efficiency at high airspeeds."
+      ],
+      "explanation": "The chapter explains that when the power lever is positioned aft of flight idle, it directly controls propeller blade angle rather than engine fuel flow. This is the beta range, consisting of positions from flight idle to maximum reverse. In contrast, forward of flight idle is the alpha or governing mode, where the propeller governor selects pitch to maintain constant speed.",
+      "reference": {
+        "page": "15-9",
+        "text": "When positioned aft of flight idle, however, the power lever directly controls propeller blade angle. This is known as the 'beta' range of operation. The beta range of operation consists of power lever positions from flight idle to maximum reverse."
+      }
+    },
+    {
+      "section": "Reverse Thrust and Beta Range Operations",
+      "difficulty": 1,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "When a turboprop propeller is placed in reverse pitch, what occurs?",
+      "correct_answer": "The engine continues to turn in the same direction, but the propeller blade angle is positioned to the other side of flat pitch, pushing air away from the airplane.",
+      "distractors": [
+        "The engine reverses its rotation direction, causing the propeller to push air forward.",
+        "The propeller is placed in flat pitch to create maximum drag without delivering engine power.",
+        "The propeller blades are feathered to stop rotation and maximize drag on the airplane."
+      ],
+      "explanation": "The chapter clarifies that reverse pitch does not mean reverse rotation. The engine delivers power in the same direction, but the propeller blade angle is positioned to the other side of flat pitch, causing air to be pushed away from the airplane rather than drawn over it, resulting in braking action.",
+      "reference": {
+        "page": "15-9",
+        "text": "In the 'reverse' pitch position, the engine/propeller turns in the same direction as in the normal (forward) pitch position, but the propeller blade angle is positioned to the other side of flat pitch... Reverse pitch does not mean reverse rotation of the engine."
+      }
+    },
+    {
+      "section": "Turboprop Airplane Electrical Systems",
+      "difficulty": 1,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "How does a starter/generator function in a turboprop airplane's electrical system?",
+      "correct_answer": "It uses electrical power to produce mechanical torque to start the engine, then uses the engine's mechanical torque to produce electrical power after the engine is running.",
+      "distractors": [
+        "It uses electrical power to start the engine and is then physically disconnected from the engine by a clutch.",
+        "It uses hydraulic pressure to start the engine and then switches to producing electrical power from the engine.",
+        "It uses battery power to start the engine and is then replaced in operation by a separate, dedicated generator."
+      ],
+      "explanation": "The chapter describes starter/generators as DC generators that double as starter motors. They use electrical power to produce mechanical torque for engine starting, then reverse roles to use the engine's mechanical torque to produce electrical power once the engine is running.",
+      "reference": {
+        "page": "15-10",
+        "text": "The starter/generator uses electrical power to produce mechanical torque to start the engine and then uses the engine's mechanical torque to produce electrical power after the engine is running."
+      }
+    },
+    {
+      "section": "Turboprop Airplane Electrical Systems",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "What is the function of a current limiter in a turboprop airplane's electrical power distribution system?",
+      "correct_answer": "It protects buses from short circuits by opening the circuit to isolate the affected power source and separate the affected bus from the system when excessive current is supplied.",
+      "distractors": [
+        "It reduces the current supplied to essential buses during normal operations to prevent equipment overload.",
+        "It limits the maximum current output of the battery during engine start to prevent battery damage.",
+        "It automatically transfers power from the main buses to the essential buses when generator output decreases."
+      ],
+      "explanation": "The chapter describes current limiters as a type of fuse that protects power distribution buses from short circuits and malfunctions. When excessive current is supplied by any power source, the current limiter opens the circuit, isolating that power source and separating the affected bus from the system.",
+      "reference": {
+        "page": "15-11",
+        "text": "Power distribution buses are protected from short circuits and other malfunctions by a type of fuse called a current limiter. In the case of excessive current supplied by any power source, the current limiter opens the circuit and thereby isolates that power source and separates the affected bus from the system."
+      }
+    },
+    {
+      "section": "Operational Considerations",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "What should a transitioning pilot understand about power response when flying an airplane equipped with a split-shaft/free turbine engine?",
+      "correct_answer": "Power output lags for several seconds when the power lever is moved from flight idle to a high power setting, and the last 30 percent of engine rpm represents the majority of engine thrust.",
+      "distractors": [
+        "Power response is instantaneous, similar to a piston engine with a constant-speed propeller.",
+        "Power output temporarily decreases when the power lever is advanced rapidly, then recovers.",
+        "The engine responds immediately, but the propeller takes several seconds to adjust its blade angle."
+      ],
+      "explanation": "The chapter explains that in a split-shaft/free turbine engine, power output lags for several seconds when the power lever is moved from flight idle to high power. This may surprise pilots transitioning from piston or fixed-shaft turboprop engines. The pilot should anticipate power changes and understand that the last 30 percent of engine rpm produces the majority of thrust.",
+      "reference": {
+        "page": "15-11",
+        "text": "the split-shaft/free turbine engine, where power output lags for several seconds when the pilot moves the power lever from flight idle to a high power setting... the pilot should understand the lag and anticipate and lead the power changes more than in the past and should keep in mind that the last 30 percent of engine rpm represents the majority of the engine thrust."
+      }
+    },
+    {
+      "section": "Operational Considerations",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "What is a 'hot start' in a turbine engine, and what may be the first indication that one is occurring?",
+      "correct_answer": "A condition where the engine tends to exceed maximum starting temperature limits, which may be preceded by unusually high initial fuel flow.",
+      "distractors": [
+        "A start where engine temperature rises gradually but exceeds limits after the engine stabilizes at idle.",
+        "A start where the engine accelerates too quickly due to excessive battery voltage supplied to the starter.",
+        "A start where the engine reaches normal temperature but exhaust gas temperature exceeds cruise limits after takeoff."
+      ],
+      "explanation": "The chapter defines a hot start as an engine tendency to exceed maximum starting temperature limits. After fuel is introduced during the start sequence, light-off and heat rise occur very quickly, and temperatures may approach maximum in 2 or 3 seconds. Unusually high initial fuel flow may be the first indication of a hot start, and serious engine damage occurs if it is allowed to continue.",
+      "reference": {
+        "page": "15-12",
+        "text": "An engine tendency to exceed maximum starting temperature limits is termed a hot start. The temperature rise may be preceded by unusually high initial fuel flow, which may be the first indication the pilot has that the engine start is not proceeding normally."
+      }
+    },
+    {
+      "section": "Operational Considerations",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "What characterizes a 'hung start' or 'false start' in a turbine engine?",
+      "correct_answer": "The engine accelerates more slowly than normal and may stabilize at an rpm too low for the engine to continue running without help from the starter.",
+      "distractors": [
+        "The engine starts normally but then loses power shortly after the starter disengages.",
+        "The engine temperature rises rapidly while the rpm remains fixed at the initial starting value.",
+        "The engine starts but produces significantly less than rated power due to a malfunctioning fuel control unit."
+      ],
+      "explanation": "The chapter describes a hung start as a condition where the engine is accelerating more slowly than normal. The engine may stabilize at an rpm that is not high enough for it to continue running without starter assistance. This is usually caused by low battery power or the starter not turning the engine fast enough.",
+      "reference": {
+        "page": "15-12",
+        "text": "A condition where the engine is accelerating more slowly than normal is termed a hung start or false start. During a hung start/false start, the engine may stabilize at an engine rpm that is not high enough for the engine to continue to run without help from the starter. This is usually the result of low battery power or the starter not turning the engine fast enough for it to start properly."
+      }
+    },
+    {
+      "section": "Operational Considerations",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "How is takeoff power typically set in a turboprop airplane?",
+      "correct_answer": "Takeoff power may be limited by either torque or engine temperature, and the power lever position is normally somewhat aft of full forward.",
+      "distractors": [
+        "The power lever is advanced full forward to the stops to ensure maximum available power is delivered.",
+        "Takeoff power is set by advancing the power lever until fuel flow reaches its maximum indicated value.",
+        "The condition lever is advanced to set takeoff rpm while the power lever modulates fuel flow."
+      ],
+      "explanation": "The chapter explicitly states that takeoffs in turboprop airplanes are not made by automatically pushing the power lever full forward. Depending on conditions, takeoff power may be limited by torque or engine temperature. The power lever position on takeoff is normally somewhat aft of full forward because reaching an operating limit typically occurs before the throttle reaches the full forward position.",
+      "reference": {
+        "page": "15-12",
+        "text": "Takeoffs in turboprop airplanes are not made by automatically pushing the power lever full forward to the stops. As stated earlier, depending on conditions, takeoff power may be limited by either torque or by engine temperature. Normally, the power lever position on takeoff is somewhat aft of full forward."
+      }
+    },
+    {
+      "section": "Operational Considerations",
+      "difficulty": 2,
+      "categories": [
+        "checkride_oral",
+        "general_knowledge"
+      ],
+      "question": "Why might it be preferable to maintain power through the flare and touchdown when landing some turboprop airplanes?",
+      "correct_answer": "Large propellers spinning rapidly in low pitch create considerable drag, and idling the engines too soon can result in a hard, premature touchdown.",
+      "distractors": [
+        "The engines must be at operating temperature to ensure proper beta range operation after landing.",
+        "Maintaining power prevents the constant-speed propeller from automatically feathering during the flare.",
+        "The propeller needs engine power to maintain the correct blade angle for touchdown."
+      ],
+      "explanation": "The chapter explains that large propellers in low pitch create considerable drag. If the engines are idled too soon during landing, this drag can cause a hard, premature touchdown. In some turboprop airplanes, it may be preferable to maintain power throughout the flare and touchdown, then use beta range operation once on the ground to reduce landing roll.",
+      "reference": {
+        "page": "15-13",
+        "text": "Landing some turboprop airplanes (as well as some piston twins) can result in a hard, premature touchdown if the engines are idled too soon. This is because large propellers spinning rapidly in low pitch create considerable drag. In such airplanes, it may be preferable to maintain power throughout the landing flare and touchdown."
+      }
+    },
+    {
+      "section": "Training Considerations",
+      "difficulty": 1,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "What topics should thorough ground training cover for a pilot transitioning to turboprop airplanes?",
+      "correct_answer": "High-altitude flight environment, weather, flight planning and navigation, physiological aspects of high-altitude flight, oxygen and pressurization system operation, and high-altitude emergencies.",
+      "distractors": [
+        "Only aircraft systems and emergency procedures specific to the turboprop engine type being flown.",
+        "Basic aerodynamics, weight and balance calculations, and standard traffic pattern procedures.",
+        "Type-specific procedures for beta range operation, reverse thrust, and engine starting only."
+      ],
+      "explanation": "The chapter emphasizes that the medium and high altitudes at which turboprops operate provide an entirely different environment. Ground training should cover all aspects of high/medium altitude flight, including the flight environment, weather, flight planning and navigation, physiological aspects, oxygen and pressurization system operation, and high-altitude emergencies.",
+      "reference": {
+        "page": "15-13",
+        "text": "Thorough ground training should cover all aspects of high/medium altitude flight, including the flight environment, weather, flight planning and navigation, physiological aspects of high-altitude flight, oxygen and pressurization system operation, and high-altitude emergencies."
+      }
+    }
+  ]
+}

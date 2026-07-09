@@ -1,0 +1,363 @@
+{
+  "source": "AFH",
+  "chapter": 16,
+  "questions": [
+    {
+      "section": "Ground Safety",
+      "difficulty": 1,
+      "categories": [
+        "general_knowledge",
+        "written_exam"
+      ],
+      "question": "What makes jet engines particularly hazardous to ground personnel even when operating at idle?",
+      "correct_answer": "There is no visible propeller to indicate the engine is running, and intake suction at idle is sufficient to pull a nearby person into the fan.",
+      "distractors": [
+        "Jet engines at idle produce unpredictable thrust surges that can blow a person down.",
+        "The engine cowling reaches temperatures high enough to cause severe burns on contact.",
+        "Jet fuel vapor around an idling engine is toxic and can cause immediate disorientation."
+      ],
+      "explanation": "The chapter states there is no propeller to visually indicate whether a jet engine is running, and even at idle, enough air is being sucked into the intake to pull a nearby person into the fan. The exhaust is also hot and moving fast enough to blow a person down.",
+      "reference": {
+        "page": "16-1",
+        "text": "There is no propeller to indicate visually whether a jet engine is running. It is easy to inadvertently stray into danger since, even at idle, jet engines are a threat. Enough air is being sucked into the intake to pull a nearby person into the fan."
+      }
+    },
+    {
+      "section": "Jet Engine Basics",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "In a turbofan engine, what is the primary role of the bypass air that diverts around the engine core?",
+      "correct_answer": "It produces some of the engine's thrust, particularly at lower speeds and altitudes.",
+      "distractors": [
+        "It cools the turbine section to prevent temperature exceedances during high-power operations.",
+        "It provides combustion air for the engine core during high-altitude operations.",
+        "It reduces engine noise by insulating the exhaust gases from the surrounding air."
+      ],
+      "explanation": "The chapter explains that the large first stage of a turbofan diverts some air around the engine core, and this cooler bypass air produces some of the thrust. The turbofan design increases thrust particularly at lower speeds and altitudes, improving acceleration and initial climb performance.",
+      "reference": {
+        "page": "16-1",
+        "text": "This cooler bypass air produces some of the thrust. The amount of air that bypasses the core compared to the amount compressed for combustion determines a turbofan's bypass ratio."
+      }
+    },
+    {
+      "section": "Thrust to Thrust Lever Relationship",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "A pilot needs to make a significant thrust increase from a low RPM setting in a jet engine. What is the proper technique?",
+      "correct_answer": "Make a smooth and significant thrust lever position change, because inching the lever forward at low RPM will have little effect.",
+      "distractors": [
+        "Advance the thrust lever in small increments to avoid exceeding temperature limits.",
+        "Rapidly push the thrust lever to the full forward position to achieve maximum acceleration.",
+        "Wait for the engine to stabilize at intermediate RPM before advancing the thrust lever further."
+      ],
+      "explanation": "The chapter states that at low RPM, inching the thrust lever forward has little effect. The pilot needs to make a smooth and significant thrust lever position change. At high engine speeds, thrust output changes much more per increment of throttle movement, so only small movements are needed.",
+      "reference": {
+        "page": "16-2",
+        "text": "In a situation where significantly more thrust is needed and the jet engine is at low rpm, inching the thrust lever forward will have little effect. In this situation, the pilot needs to make a smooth and significant thrust lever position change to increase the power."
+      }
+    },
+    {
+      "section": "Variation of Thrust with RPM",
+      "difficulty": 2,
+      "categories": [
+        "written_exam"
+      ],
+      "question": "How does thrust output change as a jet engine's RPM increases from 90 to 100 percent?",
+      "correct_answer": "Thrust may increase by as much as the total thrust available at 70 percent RPM.",
+      "distractors": [
+        "Thrust increases linearly, with each 10 percent RPM increase producing roughly equal thrust gains.",
+        "Thrust increases only slightly because the engine is already near its maximum efficiency.",
+        "Thrust remains relatively constant until reaching 100 percent, then increases sharply."
+      ],
+      "explanation": "The chapter explains that jets operate most efficiently in the 85 to 100 percent RPM range, and the thrust curve is highly nonlinear. An increase from 90 to 100 percent RPM may produce as much additional thrust as the total available at 70 percent.",
+      "reference": {
+        "page": "16-3",
+        "text": "An increase in rpm from 90 to 100 percent may increase thrust by as much as the total available at 70 percent."
+      }
+    },
+    {
+      "section": "Slow Acceleration of the Jet Engine",
+      "difficulty": 1,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "Why should pilots of jet airplanes anticipate the need for adding power from low power settings?",
+      "correct_answer": "Jet engine acceleration from idle to full power can take up to 10 seconds, significantly longer than a piston engine.",
+      "distractors": [
+        "The fuel control system requires manual stabilization before accepting higher power settings.",
+        "Jet engines must pass through a critical temperature range during acceleration that limits spool-up rate.",
+        "The thrust levers must be held at an intermediate position for several seconds before advancing further."
+      ],
+      "explanation": "The chapter notes that while piston engine acceleration from idle to full power is relatively rapid, jet engine acceleration is usually much slower and can take up to 10 seconds. This necessitates anticipating power needs and maintaining a stabilized approach with stable power settings.",
+      "reference": {
+        "page": "16-3",
+        "text": "The acceleration on different jet engines can vary considerably, but it is usually much slower. In some cases, the transition to full power could take up to 10 seconds. Pilots should anticipate the need for adding power from low power settings."
+      }
+    },
+    {
+      "section": "Absence of Propeller Slipstream",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "In a jet airplane, how does the absence of propeller slipstream affect the relationship between adding power and stall speed?",
+      "correct_answer": "The stall speed is not decreased by adding power, and lift is not increased instantly.",
+      "distractors": [
+        "The stall speed decreases slightly because jet exhaust increases airflow over the tail surfaces.",
+        "The stall speed decreases significantly because jet thrust directly reduces the wing's angle of attack.",
+        "The stall speed increases because jet engine exhaust disrupts the boundary layer on the wing."
+      ],
+      "explanation": "The chapter explains that a propeller produces thrust by accelerating air over the wing, allowing instant lift changes without airspeed changes and lowering power-on stall speed. Without a propeller, a jet airplane gains no such benefits: lift is not increased instantly by adding power, and stall speed is not decreased.",
+      "reference": {
+        "page": "16-4",
+        "text": "Since the jet airplane has no propellers, the transitioning pilot should note the following: 1. Lift is not increased instantly by adding power. 2. The stall speed is not decreased by adding power."
+      }
+    },
+    {
+      "section": "Absence of Propeller Drag",
+      "difficulty": 2,
+      "categories": [
+        "written_exam"
+      ],
+      "question": "When a jet pilot reduces thrust to idle in level flight, approximately how much distance is required to lose 10 knots of airspeed?",
+      "correct_answer": "About 1 mile.",
+      "distractors": [
+        "About 1/4 mile.",
+        "About 1/2 mile.",
+        "About 2 miles."
+      ],
+      "explanation": "The chapter states that reducing power to idle on a jet engine produces no drag effect comparable to a propeller, and the jet engine still produces forward thrust at idle. Combined with the clean airframe, slowing down is one of the initial problems for transitioning pilots. In level flight at idle power, it takes about 1 mile to lose 10 knots of airspeed.",
+      "reference": {
+        "page": "16-4",
+        "text": "In level flight at idle power, it takes about 1 mile to lose 10 knots of airspeed."
+      }
+    },
+    {
+      "section": "Speed Margins",
+      "difficulty": 2,
+      "categories": [
+        "written_exam"
+      ],
+      "question": "Why does a jet airplane need both an airspeed indicator and a Mach indicator to observe all speed limitations?",
+      "correct_answer": "At low, warm altitudes the aircraft is limited by indicated airspeed, while at high, cold altitudes the lower speed of sound means the aircraft is limited by Mach number.",
+      "distractors": [
+        "The airspeed indicator is accurate only below 10,000 feet, and the Mach indicator must be used above that altitude.",
+        "VMO applies only to the climb phase, while MMO applies only to the descent phase.",
+        "The Mach indicator serves as a backup for the airspeed indicator in case of pitot-static system failure."
+      ],
+      "explanation": "The chapter explains that the speed of sound varies with temperature. At low, warm altitudes, the speed of sound is high, so the aircraft is limited by indicated airspeed (VMO). At high, cold altitudes, the speed of sound is lower, so the aircraft becomes limited by Mach number (MMO). Both indicators are needed to observe both limits.",
+      "reference": {
+        "page": "16-4",
+        "text": "At low/warm altitudes, the speed of sound is so high that an aircraft is limited by indicated airspeed. At high/cold altitudes, the speed of sound is lower so the aircraft is limited by Mach. To observe both limits VMO and MMO, the pilot of a jet airplane needs both an airspeed indicator and a Mach indicator."
+      }
+    },
+    {
+      "section": "Mach Buffet",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "What defines the region of a jet airplane's flight envelope known as \"coffin corner\"?",
+      "correct_answer": "The altitude where flying any faster would exceed MMO causing high-speed buffet, and flying any slower would require an AOA leading to low-speed buffet.",
+      "distractors": [
+        "The airspeed at which Mach buffet and stall buffet occur simultaneously at sea level.",
+        "The Mach number at which the critical Mach number equals the stall speed at any altitude.",
+        "The altitude where the airplane's thrust available equals thrust required at MMO."
+      ],
+      "explanation": "The chapter describes coffin corner as the altitude where an airplane flying at MMO would experience buffeting with any increase in AOA. At this altitude, flying faster exceeds MMO leading to high-speed Mach buffet, and flying slower requires an AOA that leads to low-speed Mach buffet. This altitude determines the airplane's absolute or aerodynamic ceiling.",
+      "reference": {
+        "page": "16-6",
+        "text": "The altitude at which an airplane flying at MMO would experience buffeting with any increase in AOA determines the absolute or aerodynamic ceiling. This is the altitude where: If an airplane flew any faster, it would exceed MMO leading to high-speed Mach buffet. If an airplane flew any slower, it would require an angle of attack leading to low-speed Mach buffet. This region of the airplane's flight envelope is known as 'coffin corner.'"
+      }
+    },
+    {
+      "section": "Low-Speed Flight",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "What characteristic of flight near VMD in a jet airplane creates a potential for speed divergence?",
+      "correct_answer": "A lack of speed stability, where a decrease in speed leads to increased drag, causing a further decrease in speed.",
+      "distractors": [
+        "A pronounced nose-down pitching moment that provides clear warning of the approaching stall.",
+        "A significant increase in buffet that provides clear aerodynamic warning of the approaching stall.",
+        "A dramatic loss of lift similar to a straight-wing airplane stall at the same speed."
+      ],
+      "explanation": "The chapter explains that in a jet airplane, flight near VMD does not produce noticeable changes in flying qualities other than a lack of speed stability. A decrease in speed leads to an increase in drag, which leads to a further decrease in speed, creating the potential for speed divergence. A pilot may find a serious sink rate developing while pitch attitude appears normal.",
+      "reference": {
+        "page": "16-6",
+        "text": "In a jet airplane, flight in the area of VMD (typically 1.5 – 1.6 VS) does not normally produce any noticeable changes in flying qualities other than a lack of speed stability—a condition where a decrease in speed leads to an increase in drag, which leads to a further decrease in speed, which creates the potential for a speed divergence."
+      }
+    },
+    {
+      "section": "Stalls",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "Why does a swept wing tend to stall at the wingtips first, and what design features do manufacturers use to counteract this tendency?",
+      "correct_answer": "The boundary layer tends to flow spanwise toward the tips; manufacturers use wing twist, airfoil section changes, and vortex generators to discourage tip stall.",
+      "distractors": [
+        "The wingtips operate at a lower angle of attack due to sweep; winglets are added to increase tip lift.",
+        "The tips have thinner airfoils that stall earlier; leading-edge cuffs are used to delay tip stall.",
+        "The wing root is heated by engine bleed air preventing root stall; fence panels redirect airflow to the tips."
+      ],
+      "explanation": "The chapter explains that when a straight-wing airfoil is swept, the boundary layer tends to flow spanwise toward the tips, causing tip stall first. This is problematic because tip stall allows the center of lift to move forward. Manufacturers counteract this with twist, changes in airfoil section, vortex generators, or a combination of these modifications to help the pilot retain roll control during a stall.",
+      "reference": {
+        "page": "16-7",
+        "text": "If a simple, straight-wing airplane's airfoil is swept, a natural tendency arises that it will stall at the wing tips first. This is because the boundary layer tends to flow spanwise toward the tips. To discourage a swept wing from stalling at the wingtips, manufacturers modify the wing spanwise with twist, changes in airfoil section, inclusion of vortex generators, or a combination of those modifications."
+      }
+    },
+    {
+      "section": "Drag Devices",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "What is the primary design purpose difference between spoilers and speed brakes?",
+      "correct_answer": "The primary purpose of spoilers is to spoil lift, while the primary purpose of speed brakes is to produce drag.",
+      "distractors": [
+        "Spoilers are used only on the ground, while speed brakes are used only in flight.",
+        "Spoilers are mounted on the fuselage, while speed brakes are mounted on the wings.",
+        "Spoilers increase lift for short-field landings, while speed brakes decrease lift for rapid descents."
+      ],
+      "explanation": "The chapter clearly distinguishes the two: the primary purpose of spoilers is to spoil lift (though they also increase drag), while the primary purpose of speed brakes is to produce drag. When spoilers are deployed after landing, most of the wing's lift is destroyed, transferring weight to the landing gear for more effective braking.",
+      "reference": {
+        "page": "16-9",
+        "text": "The primary purpose of spoilers is to spoil lift... The primary purpose of speed brakes is to produce drag."
+      }
+    },
+    {
+      "section": "Thrust Reversers",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "How does the effectiveness of jet engine reverse thrust vary with speed during the landing roll?",
+      "correct_answer": "Reverse thrust is more effective at high speed than at low speed, so it should be used as soon as prudent after touchdown.",
+      "distractors": [
+        "Reverse thrust is equally effective at all speeds throughout the landing roll.",
+        "Reverse thrust is more effective at low speed, so it should be delayed until the airplane has slowed significantly.",
+        "Reverse thrust is most effective at touchdown speed but becomes ineffective once the nose-wheel is on the ground."
+      ],
+      "explanation": "The chapter states that reverse thrust is more effective at high speed than at low speed, and for maximum efficiency the pilot should use it as soon as prudent after touchdown. This is similar to aerodynamic drag and unlike wheel brakes, which are most effective at low speed.",
+      "reference": {
+        "page": "16-11",
+        "text": "Reverse thrust is more effective at high speed than at low speed. For maximum reverse thrust efficiency, the pilot should use it as soon as is prudent after touchdown."
+      }
+    },
+    {
+      "section": "Rejected Takeoff",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "During a rejected takeoff, what is the correct sequence of pilot actions for maximum deceleration?",
+      "correct_answer": "Apply maximum braking immediately while simultaneously retarding the throttles, followed by spoiler extension and thrust reverser deployment.",
+      "distractors": [
+        "Retard throttles, deploy spoilers, deploy thrust reversers, then apply braking as in a normal landing.",
+        "Retard throttles, apply braking, deploy thrust reversers, then deploy spoilers.",
+        "Deploy spoilers, apply maximum braking, retard throttles, then deploy thrust reversers."
+      ],
+      "explanation": "The chapter warns that the initial tendency of flight crews is to use normal after-landing braking (retarding throttles and deploying spoilers first, then braking), which delays the primary deceleration force. Instead, pilots should apply maximum braking immediately while simultaneously retarding the throttles, with spoiler extension and thrust reverser deployment following in short sequence.",
+      "reference": {
+        "page": "16-16",
+        "text": "Instead of braking after the throttles are retarded and the spoilers are deployed (normal landing), pilots should apply maximum braking immediately while simultaneously retarding the throttles, with spoiler extension and thrust reverser deployment following in short sequence."
+      }
+    },
+    {
+      "section": "Rotation and Lift-Off",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "How does the target takeoff pitch attitude in a jet airplane vary with changes in aircraft weight?",
+      "correct_answer": "The takeoff pitch attitude remains constant regardless of weight.",
+      "distractors": [
+        "It increases with higher weights to generate additional lift.",
+        "It decreases with higher weights to maintain the same climb gradient.",
+        "It varies based on the center of gravity location rather than weight."
+      ],
+      "explanation": "The chapter states that each airplane has its own specific takeoff pitch attitude that remains constant regardless of weight. The takeoff pitch attitude in a jet is normally between 10 and 15 degrees nose up, and the rotation should be made smoothly at a rate of approximately 2.5 to 3 degrees per second.",
+      "reference": {
+        "page": "16-16",
+        "text": "Each airplane has its own specific takeoff pitch attitude that remains constant regardless of weight. The takeoff pitch attitude in a jet airplane is normally between 10° and 15° nose up."
+      }
+    },
+    {
+      "section": "Descent Planning",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "For a straight-in VFR approach without factoring wind, how can a pilot estimate the top of descent point?",
+      "correct_answer": "Multiply the planned descent in thousands of feet by 3, and add distance needed for speed reductions in level flight.",
+      "distractors": [
+        "Multiply the planned descent in thousands of feet by 2, and subtract distance for tailwind.",
+        "Divide the planned descent in feet by 1,000, then multiply by 5 for the distance in nautical miles.",
+        "Multiply the cruise altitude in feet by 0.003 to get the distance in nautical miles."
+      ],
+      "explanation": "The chapter provides a rule of thumb: multiply the planned descent in thousands of feet by 3 and add distance for speed reductions. For example, descending from 35,000 feet: 35 times 3 equals 105, plus about 15 miles for speed reduction, gives approximately 120 miles. Variables include wind (adjust 1 mile per 10 knots), field elevation, terrain, ATC vectors, and type of approach.",
+      "reference": {
+        "page": "16-18",
+        "text": "For a straight-in VFR approach to an airport without factoring wind, an estimate for TOD may be calculated by multiplying the planned descent (in thousands of feet) by 3 and adding any distance needed for speed reductions in level flight (losing about 10 KIAS per mile when level)."
+      }
+    },
+    {
+      "section": "Stabilized Approach",
+      "difficulty": 1,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "According to the chapter, what should the pilot do if the approach is not stabilized by 500 feet AGL in a jet airplane?",
+      "correct_answer": "Initiate a go-around.",
+      "distractors": [
+        "Increase thrust and adjust the glidepath to re-stabilize before reaching the threshold.",
+        "Extend full flaps and landing gear immediately to increase drag and slow to approach speed.",
+        "Continue the approach but plan for a firm landing within the touchdown zone."
+      ],
+      "explanation": "The chapter states that every approach should be evaluated at 500 feet, which in a typical jet airplane is approximately 1 minute from touchdown. If the approach is not stabilized at that height, a go-around should be initiated. The stabilized approach requires the airplane in landing configuration by 1,000 feet, on profile, with airspeed within 0 to 10 knots of target, and an appropriate descent rate.",
+      "reference": {
+        "page": "16-22",
+        "text": "Every approach should be evaluated at 500 feet. In a typical jet airplane, this is approximately 1 minute from touchdown. If the approach is not stabilized at that height, a go-around should be initiated."
+      }
+    },
+    {
+      "section": "The Flare",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "How should a jet airplane be landed compared to a light piston airplane during the flare?",
+      "correct_answer": "A jet airplane should be flown onto the runway rather than held off, as holding off increases landing distance and may cause a tail strike.",
+      "distractors": [
+        "A jet airplane should be held off the runway as long as possible to achieve the smoothest touchdown.",
+        "A jet airplane should maintain a nose-high attitude throughout the flare to maximize aerodynamic braking.",
+        "A jet airplane should use a burst of thrust just before touchdown to cushion the landing."
+      ],
+      "explanation": "The chapter explains that unlike light airplanes, a jet should be flown onto the runway rather than held off. A jet is aerodynamically clean even in landing configuration, and its engines still produce residual thrust at idle. Holding off during the flare greatly increases landing distance and may lead to a tail strike. A firm, deliberate landing is normal and desirable.",
+      "reference": {
+        "page": "16-23",
+        "text": "Unlike light airplanes, a jet airplane should be flown onto the runway rather than 'held off' the surface as speed dissipates. A jet airplane is aerodynamically clean even in the landing configuration, and its engines still produce residual thrust at idle rpm. Holding it off during the flare in an attempt to make a smooth landing greatly increases landing distance."
+      }
+    }
+  ]
+}

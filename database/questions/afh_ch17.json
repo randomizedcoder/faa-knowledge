@@ -3,76 +3,364 @@
   "chapter": 17,
   "questions": [
     {
-      "section": "Engine Failure After Takeoff",
-      "difficulty": 2,
-      "categories": ["written_exam", "checkride_oral"],
-      "question": "If the engine fails immediately after takeoff at low altitude, what is the recommended action?",
-      "correct_answer": "Lower the nose to maintain flying speed and land essentially straight ahead, making only small heading changes to avoid obstacles",
-      "distractors": ["Immediately turn back to the runway", "Attempt to restart the engine before doing anything else", "Pull back on the stick to gain altitude"],
-      "explanation": "At low altitude after takeoff, there is insufficient altitude/energy to turn back to the runway (the 'impossible turn'). Lower the nose to maintain airspeed and land as straight ahead as practical."
-    },
-    {
-      "section": "Engine Failure in Flight",
-      "difficulty": 2,
-      "categories": ["written_exam", "checkride_oral"],
-      "question": "What airspeed should be maintained after an engine failure to maximize glide distance?",
-      "correct_answer": "Best glide speed as specified in the POH",
-      "distractors": ["The fastest possible airspeed to cover more ground", "The slowest possible airspeed to stay aloft longest", "Normal cruise speed"],
-      "explanation": "Best glide speed (usually close to best L/D speed) maximizes the distance the aircraft can glide. This speed is specified in the POH and changes with weight."
-    },
-    {
-      "section": "Forced Landing",
-      "difficulty": 2,
-      "categories": ["checkride_oral"],
-      "question": "When selecting a field for an emergency off-airport landing, what factors should be considered?",
-      "correct_answer": "Wind direction, field length, surface condition, obstacles on approach, and proximity to civilization",
-      "distractors": ["Only the field length matters", "Choose the nearest paved road regardless of traffic", "Only the proximity to an airport matters"],
-      "explanation": "Select a field that is into the wind, long enough, has a firm and smooth surface, has a clear approach path free of obstacles, and is near help if possible. Avoid landing downwind or into obstacles."
-    },
-    {
-      "section": "Electrical Fire",
-      "difficulty": 2,
-      "categories": ["written_exam", "checkride_oral"],
-      "question": "What is the initial action if an electrical fire is suspected in flight?",
-      "correct_answer": "Turn off the master switch (electrical), then identify and isolate the faulty circuit",
-      "distractors": ["Open the cabin vents to clear smoke, then continue flight", "Increase power to maintain altitude and declare an emergency", "Turn on all electrical equipment to find the short circuit"],
-      "explanation": "For electrical fires: master switch OFF, all electrical OFF, cabin vents and heat closed initially (to starve fire). Then troubleshoot by turning on essential items one at a time. Land as soon as practical."
-    },
-    {
-      "section": "Engine Fire on Ground",
-      "difficulty": 2,
-      "categories": ["checkride_oral"],
-      "question": "If an engine fire occurs during start on the ground, what should the pilot do if the engine starts?",
-      "correct_answer": "Keep the engine running to draw the fire into the engine and away from the airframe, then shut down normally",
-      "distractors": ["Immediately shut down the engine and evacuate", "Add full throttle and attempt to take off", "Apply parking brake and use the fire extinguisher only"],
-      "explanation": "If the engine starts, running it briefly at higher RPM can draw the fire through the induction system and into the engine. If the engine doesn't start, continue cranking to attempt to draw fuel/fire through. Then shut down and evacuate."
-    },
-    {
-      "section": "Emergency Descent",
-      "difficulty": 2,
-      "categories": ["written_exam", "checkride_oral"],
-      "question": "When is an emergency descent appropriate?",
-      "correct_answer": "When rapid descent is needed, such as during an in-flight fire or sudden cabin depressurization",
-      "distractors": ["When ATC requests an expedited descent for traffic", "When the pilot wants to practice engine-out procedures", "Only during instrument approaches in IMC"],
-      "explanation": "Emergency descents are used for in-flight fires (to land quickly), cabin depressurization (to reach breathable air), or other situations requiring an immediate loss of altitude."
-    },
-    {
-      "section": "Lost Procedures",
+      "section": "Light-Sport Aircraft Background",
       "difficulty": 1,
-      "categories": ["written_exam", "checkride_oral"],
-      "question": "If a VFR pilot becomes lost, what are the '5 Cs' to follow?",
-      "correct_answer": "Confess, Climb, Communicate, Conserve, Comply",
-      "distractors": ["Check, Circle, Call, Climb, Continue", "Climb, Contact, Circle, Configure, Continue", "Confirm, Compass, Charts, Call, Confess"],
-      "explanation": "The 5 Cs: Confess (admit you're lost), Climb (better radio/visual range), Communicate (contact ATC for help), Conserve (fuel — reduce to best endurance), Comply (with ATC instructions)."
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "Which of the following is a defining characteristic of a light-sport aircraft (LSA) under 14 CFR part 1, section 1.1?",
+      "correct_answer": "A maximum speed in level flight at maximum continuous power of 120 knots CAS",
+      "distractors": [
+        "A maximum takeoff weight of 1,500 pounds for all landplanes",
+        "A maximum stall speed of 55 knots",
+        "A pressurized cabin with a maximum of two occupants"
+      ],
+      "explanation": "The chapter lists the LSA defining standards from 14 CFR part 1, section 1.1, including a maximum speed of 120 knots CAS in level flight at maximum continuous power and a maximum stall speed of 45 knots. The max takeoff weight is 1,320 lb for landplanes, and LSAs must be non-pressurized.",
+      "reference": {
+        "page": "17-2",
+        "text": "Maximum speed in level flight at maximum continuous power of 120 knots calibrated airspeed (CAS). Maximum stall speed of 45 knots."
+      }
     },
     {
-      "section": "Emergency Equipment",
+      "section": "Light-Sport Aircraft Background",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "S-LSA and E-LSA aircraft are designed and manufactured to which set of standards instead of 14 CFR part 23?",
+      "correct_answer": "ASTM Committee F-37 Industry Consensus Standards",
+      "distractors": [
+        "14 CFR part 23 certification requirements, identical to standard airworthiness aircraft",
+        "FAA Type Certificate Data Sheets specific to light-sport aircraft",
+        "European Aviation Safety Agency (EASA) CS-LSA standards"
+      ],
+      "explanation": "The chapter states that S-LSAs and E-LSAs are not type certificated by the FAA and are not required to meet 14 CFR part 23. Instead, they are designed and manufactured in accordance with ASTM Committee F-37 Industry Consensus Standards, which the FAA accepted in 2005.",
+      "reference": {
+        "page": "17-2",
+        "text": "S-LSAs and E-LSAs are designed and manufactured in accordance with ASTM Committee F-37 Industry Consensus Standards. Therefore, LSA designs are not subjected to the scrutiny, demands, and testing of FAA standard airworthiness certification."
+      }
+    },
+    {
+      "section": "Light-Sport Airplane Synopsis",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "A private pilot holding a valid U.S. driver's license wishes to fly an LSA as PIC. Under what condition is the driver's license NOT sufficient for medical eligibility?",
+      "correct_answer": "If the pilot's most recent FAA medical certificate was denied, revoked, suspended, or withdrawn",
+      "distractors": [
+        "If the pilot has never applied for an FAA medical certificate",
+        "If the pilot's most recent FAA medical certificate was issued more than 24 months ago",
+        "If the pilot holds only a student pilot certificate"
+      ],
+      "explanation": "The chapter specifies that pilots holding higher level certificates may fly LSAs using a valid U.S. driver's license as evidence of medical eligibility. However, if the pilot's most recent medical certificate was denied, revoked, suspended, or withdrawn, the driver's license is not sufficient and the pilot must hold a valid FAA medical certificate.",
+      "reference": {
+        "page": "17-4",
+        "text": "However, if the pilot's most recent medical certificate was denied, revoked, suspended, or withdrawn, a U.S. driver's license is not sufficient. The pilot would then need to hold a valid FAA medical certificate to fly an LSA."
+      }
+    },
+    {
+      "section": "Sport Pilot Certificate",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "A commercial pilot rated in airplane multiengine land and rotorcraft gyroplane wants to act as PIC of a light-sport airplane. What additional requirement must be met?",
+      "correct_answer": "Supervision from an authorized instructor, since the pilot lacks an airplane single-engine class rating",
+      "distractors": [
+        "No additional requirements; the commercial certificate allows PIC in any LSA",
+        "Obtaining a sport pilot certificate with an airplane category rating",
+        "Completing a flight review in a light-sport airplane within the preceding 24 calendar months"
+      ],
+      "explanation": "The chapter gives this exact example: a commercial pilot rated in airplane multiengine land and rotorcraft gyroplane is qualified to fly a light-sport gyroplane as PIC, but is not qualified to act as PIC of a light-sport airplane (sport airplanes are single-engine) without supervision from an authorized instructor, because the pilot does not hold the appropriate single-engine class rating.",
+      "reference": {
+        "page": "17-3",
+        "text": "However, that pilot is not qualified to act as PIC of a light-sport airplane (sport airplanes are single-engine) without supervision from an authorized instructor."
+      }
+    },
+    {
+      "section": "Light-Sport Airplane Synopsis",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "Under what conditions may an LSA be operated at night under VFR?",
+      "correct_answer": "The aircraft must be equipped per 14 CFR 91.205(c), night operations must be allowed by the airplane's operating limitations, and the pilot may not be operating under sport pilot privileges",
+      "distractors": [
+        "Any pilot with a sport pilot certificate may fly at night if the aircraft is equipped per 14 CFR 91.205(c)",
+        "The aircraft may fly at night if equipped with a ballistic parachute system, regardless of pilot certificate",
+        "Only private pilots with a current flight review may operate LSAs at night"
+      ],
+      "explanation": "Per the FAA handbook, LSAs may be operated VFR at night if the aircraft is equipped per 14 CFR 91.205(c) and if night operations are allowed by the airplane's operating limitations. However, sport pilots may not fly at night per 14 CFR 61.315(c)(5).",
+      "reference": {
+        "page": "17-3",
+        "text": "LSAs may be operated by VFR at night if the aircraft is equipped with the instruments and equipment specified in 14 CFR part 91, section 91.205(c), and if night operations are allowed by the airplane's operating limitations. However, sport pilots may not fly at night."
+      }
+    },
+    {
+      "section": "Transition Training Considerations – Flight Instructors",
       "difficulty": 1,
-      "categories": ["general_knowledge"],
-      "question": "What is the universal emergency frequency?",
-      "correct_answer": "121.5 MHz",
-      "distractors": ["122.8 MHz", "118.0 MHz", "126.7 MHz"],
-      "explanation": "121.5 MHz is the international emergency frequency, monitored by ATC, military, and many aircraft. It should be used when no other frequency is available in an emergency."
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "What is a limitation of a flight instructor-S (Sport Pilot flight instructor) compared to a flight instructor-A?",
+      "correct_answer": "A flight instructor-S may only provide instruction in LSAs and cannot instruct in non-LSA airplanes",
+      "distractors": [
+        "A flight instructor-S may only provide ground instruction, not flight instruction",
+        "A flight instructor-S may instruct in any airplane but cannot endorse students for solo flight",
+        "A flight instructor-S may instruct in non-LSA airplanes but only if the student holds a private pilot certificate"
+      ],
+      "explanation": "The chapter states that 14 CFR part 61, section 61.413 limits a flight instructor-S to instruction in LSAs—a flight instructor-S cannot give instruction in a non-LSA airplane such as a Cessna 150. A flight instructor-A, by contrast, may give instruction in both LSA and non-LSA airplanes.",
+      "reference": {
+        "page": "17-4",
+        "text": "14 CFR part 61, section 61.413 limits a flight instructor-S to instruction in LSAs—a flight instructor-S cannot give instruction in a non-LSA airplane (e.g., a Cessna 150)."
+      }
+    },
+    {
+      "section": "LSA Maintenance",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "How does the FAA handle Airworthiness Directives (ADs) for S-LSA and E-LSA aircraft?",
+      "correct_answer": "The FAA does not issue ADs for S-LSAs or E-LSAs, but will issue ADs for any FAA-certificated components installed on them",
+      "distractors": [
+        "The FAA issues ADs for S-LSAs and E-LSAs in the same manner as for standard airworthiness aircraft",
+        "ADs are issued by the LSA manufacturer and enforced by the FAA for all S-LSA and E-LSA aircraft",
+        "No ADs apply to S-LSAs or E-LSAs under any circumstances, including installed FAA-certificated components"
+      ],
+      "explanation": "The chapter clearly states the FAA does not issue ADs for S-LSAs or E-LSAs. However, if an FAA-certificated component is installed on an LSA, the FAA issues any pertaining ADs for that specific component. S-LSA owners should also comply with manufacturer safety directives.",
+      "reference": {
+        "page": "17-5",
+        "text": "The FAA does not issue Airworthiness Directives (ADs) for S-LSAs or E-LSAs. If an FAA-certified component is installed on an LSA, the FAA issues any pertaining ADs for that specific component."
+      }
+    },
+    {
+      "section": "LSA Maintenance",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "Which of the following individuals is NOT listed as someone who may maintain and inspect an S-LSA?",
+      "correct_answer": "A certificated flight instructor (CFI)",
+      "distractors": [
+        "An LSA Repairman with a Maintenance rating",
+        "An FAA-certificated Airframe and Powerplant Mechanic (A\u0026P)",
+        "An owner performing limited maintenance as permitted on their S-LSA"
+      ],
+      "explanation": "The chapter lists four categories of those who may maintain and inspect S-LSAs: (1) an LSA Repairman with a Maintenance rating, (2) an FAA-certificated A\u0026P, (3) as specified by the aircraft manufacturer, or (4) owners performing limited maintenance on their S-LSA. A CFI is not among those listed.",
+      "reference": {
+        "page": "17-5",
+        "text": "S-LSAs may be maintained and inspected by: 1. An LSA Repairman with a Maintenance rating; or, 2. An FAA-certificated Airframe and Powerplant Mechanic (A\u0026P); or, 3. As specified by the aircraft manufacturer; or 4. As permitted, owners performing limited maintenance on their S-LSA."
+      }
+    },
+    {
+      "section": "Airframe and Systems – Engines",
+      "difficulty": 2,
+      "categories": [
+        "general_knowledge",
+        "checkride_oral"
+      ],
+      "question": "Why do most light-sport airplanes with high-rpm engines require a gear-box?",
+      "correct_answer": "To reduce the propeller rpm to the proper range while allowing the engine to operate at higher rpm",
+      "distractors": [
+        "To increase the propeller rpm above the engine rpm for better climb performance",
+        "To provide reverse thrust capability for shorter landings on unprepared surfaces",
+        "To convert the engine's rotary motion into a reciprocating motion for the propeller"
+      ],
+      "explanation": "The chapter explains that most light-sport airplane engines are water-cooled, 4-cycle, and carbureted with much higher operating rpm. These engines require a gear-box to reduce propeller rpm to the proper range. Because of the higher engine operating rpm, vibration and noise signatures differ from standard type certificated designs.",
+      "reference": {
+        "page": "17-6",
+        "text": "These engines have much higher operating rpm and require a gear-box to reduce propeller rpm to the proper range."
+      }
+    },
+    {
+      "section": "Airframe and Systems – Instrumentation",
+      "difficulty": 2,
+      "categories": [
+        "general_knowledge",
+        "checkride_oral"
+      ],
+      "question": "What is a potential hazard identified with EFIS systems in LSAs if the pilot is not properly trained?",
+      "correct_answer": "A 'heads down' syndrome causing loss of situational awareness",
+      "distractors": [
+        "The EFIS automatically disconnects the autopilot during turns greater than 30 degrees of bank",
+        "The EFIS creates excessive heat in the cockpit that can lead to pilot fatigue",
+        "The EFIS interferes with VHF radio communications when displaying weather data"
+      ],
+      "explanation": "The chapter warns that EFIS systems can cause a 'heads down' syndrome and loss of situational awareness if the pilot is not trained to quickly and properly configure, access, program, and interpret the information provided. Transition training should include instruction in the use of the specific EFIS installed.",
+      "reference": {
+        "page": "17-7",
+        "text": "EFIS systems can cause a 'heads down' syndrome and loss of situation awareness if the pilot is not trained to quickly and properly configure, access, program, and interpret the information provided."
+      }
+    },
+    {
+      "section": "Weather Considerations",
+      "difficulty": 1,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "Why does the chapter advise that even greater distances from convective weather should be considered the norm for LSAs?",
+      "correct_answer": "Because an LSA's lighter weight makes it more susceptible to the effects of winds associated with convection",
+      "distractors": [
+        "Because LSAs lack the electrical systems needed to detect convective weather",
+        "Because LSA engines are more likely to ingest water and quit in humid air near thunderstorms",
+        "Because LSAs cannot climb fast enough to get above convective cloud tops"
+      ],
+      "explanation": "The chapter explains that managing weather factors becomes more significant as airplane weight decreases. Due to an LSA's lighter weight, even greater distances from convective weather should be considered the norm. Operations in the vicinity of convection should not be attempted in lightweight airplanes.",
+      "reference": {
+        "page": "17-8",
+        "text": "Due to an LSA's lighter weight, even greater distances from convective weather should be considered the norm... operations in the vicinity of convection should not be attempted in lightweight airplanes."
+      }
+    },
+    {
+      "section": "Flight Environment – Inside the Airplane",
+      "difficulty": 1,
+      "categories": [
+        "general_knowledge",
+        "checkride_oral"
+      ],
+      "question": "When performing a full range of motion check of flight controls on an LSA, what should a pilot verify regarding aileron movement?",
+      "correct_answer": "The direction of control surface movement, noting that differential aileron geometry may show very little 'down' aileron compared to 'up' aileron",
+      "distractors": [
+        "That both ailerons move equal distances up and down simultaneously",
+        "That the ailerons remain fixed during ground checks and only move in flight",
+        "That the ailerons move in the same direction as the elevator during the check"
+      ],
+      "explanation": "The chapter states that on some LSAs, aileron control geometry moves ailerons in a highly differential manner to minimize adverse yaw, so a pilot may see very little 'down' aileron compared to the 'up' aileron. Pilots should always verify the direction of control surface movement during the full range of motion check.",
+      "reference": {
+        "page": "17-10",
+        "text": "On some LSAs, aileron control geometry, in an attempt to minimize adverse yaw, moves ailerons in a highly differential manner; a pilot may see very little 'down' aileron when compared to the 'up' aileron. Pilots should always verify the direction of control surface movement."
+      }
+    },
+    {
+      "section": "Flight Environment – Inside the Airplane",
+      "difficulty": 2,
+      "categories": [
+        "checkride_oral",
+        "general_knowledge"
+      ],
+      "question": "During preflight of an LSA with electric elevator trim, what should the pilot verify regarding the trim system?",
+      "correct_answer": "Actuate the trim in both nose-up and nose-down directions, verify the trim disconnect functions if equipped, and set takeoff trim position",
+      "distractors": [
+        "Verify that the trim is in the full nose-down position to ensure proper takeoff rotation",
+        "Disconnect the trim system entirely before flight to prevent trim runaway",
+        "Check that the trim operates only in the nose-up direction for go-around capability"
+      ],
+      "explanation": "The chapter specifies that preflight should include actuating the trim switch in both nose-up and nose-down directions, verifying that the trim disconnect (if equipped) is properly functioning, and then properly setting the takeoff trim position. Pilots should understand how to respond to a trim-runaway condition.",
+      "reference": {
+        "page": "17-10",
+        "text": "Part of the preflight inspection should include actuating the trim switch in both nose-up and nose-down directions, verifying that the trim disconnect (if equipped) is properly functioning, and then properly setting the takeoff trim position."
+      }
+    },
+    {
+      "section": "Flight Environment – Outside the Airplane",
+      "difficulty": 2,
+      "categories": [
+        "checkride_oral",
+        "general_knowledge"
+      ],
+      "question": "When preflighting a ground-adjustable composite propeller on an LSA, what specific check should be performed?",
+      "correct_answer": "Snugly twist the blade at the root to verify there is no rotation of the blade at the hub",
+      "distractors": [
+        "Measure the blade angle with a protractor to confirm factory pitch setting",
+        "Tap the blade with a metal hammer to listen for a hollow sound indicating delamination",
+        "Apply lubricant to the hub to ensure smooth blade rotation during flight"
+      ],
+      "explanation": "The chapter states that on ground adjustable propellers, the pilot should ensure that the blades are tight against the hub by snugly twisting the blade at the root to verify that there is no rotation of the blade at the hub. This is an additional check specific to composite, ground-adjustable propellers.",
+      "reference": {
+        "page": "17-11",
+        "text": "On ground adjustable propellers, ensure that the blades are tight against the hub by snugly twisting the blade at the root to verify that there is no rotation of the blade at the hub."
+      }
+    },
+    {
+      "section": "Flight Environment – Taxi",
+      "difficulty": 2,
+      "categories": [
+        "checkride_oral",
+        "general_knowledge"
+      ],
+      "question": "When taxiing an LSA equipped with a full-castoring nose wheel, what technique is required for steering?",
+      "correct_answer": "Differential braking, which requires practice to maintain centerline while minimizing brake and tire wear",
+      "distractors": [
+        "Rudder pedal deflection alone, which mechanically steers the nose wheel through cables",
+        "Differential thrust using the throttle to create yawing moments for directional control",
+        "Asymmetric braking on the main wheels combined with full rudder deflection in the direction of turn"
+      ],
+      "explanation": "The chapter explains that to taxi a full-castoring nose-wheel equipped airplane, the use of differential brakes is required. This type of nose-wheel can require practice to keep the airplane on the centerline while minimizing brake application or damage to the tires. If taxi speed is too slow, brake application can cause the aircraft to pivot to a stop.",
+      "reference": {
+        "page": "17-12",
+        "text": "In order to taxi a full-castoring nose-wheel equipped airplane, the use of differential brakes is required. This type of nose-wheel can require practice to keep the airplane on the centerline while minimizing brake application or damage to the tires."
+      }
+    },
+    {
+      "section": "Flight Environment – Cruise",
+      "difficulty": 2,
+      "categories": [
+        "general_knowledge",
+        "checkride_oral"
+      ],
+      "question": "A transitioning pilot notices cruise rpm of 4,800 on an LSA and is concerned the engine is turning too fast. What explains this reading?",
+      "correct_answer": "The engine has a gear-reduction drive, so the propeller is turning much slower than the engine",
+      "distractors": [
+        "The tachometer is miscalibrated and needs to be replaced with a mechanical gauge",
+        "The high rpm indicates the mixture is too lean and the engine is overspeeding",
+        "The propeller governor has failed and the propeller is in fine pitch, requiring immediate power reduction"
+      ],
+      "explanation": "The chapter addresses this directly, noting that the first time a transitioning pilot sees a cruise rpm setting of 4,800 rpm, they may sense the engine is turning too fast. However, the engine has a gear-reduction drive and the propeller is turning much slower. If equipped with a standard aircraft engine, rpm would be in a comparable range to what the pilot is used to.",
+      "reference": {
+        "page": "17-13",
+        "text": "The first time a transitioning pilot sees cruise rpm setting of 4,800 rpm (or as recommended), they may have a sense that the engine is turning too fast; however, remember that the engine has gear-reduction drive and the propeller is turning much slower."
+      }
+    },
+    {
+      "section": "Flight Environment – Approach and Landing",
+      "difficulty": 3,
+      "categories": [
+        "checkride_oral",
+        "general_knowledge"
+      ],
+      "question": "According to the Key Points section, why is it important to maintain airspeed during a crosswind approach in a high-drag LSA rather than allowing a rapid power reduction?",
+      "correct_answer": "A rapid reduction in airspeed prior to touchdown may result in loss of rudder and/or aileron control, pushing the aircraft off runway heading",
+      "distractors": [
+        "A rapid power reduction will cause the LSA to float excessively, resulting in a long landing",
+        "A rapid power reduction will overspeed the flaps and cause structural damage to the wing",
+        "A rapid power reduction will cause the engine to quit and cannot be restarted during the approach"
+      ],
+      "explanation": "The Key Points section explains that LSAs with high drag, low mass, and low inertia tend to decelerate rapidly when power is reduced. During a crosswind landing, a rapid reduction in airspeed prior to touchdown may result in loss of rudder and/or aileron control, which may push the aircraft off the runway heading. The chapter advises maintaining airspeed and, when power is reduced, lowering the nose to maintain airspeed.",
+      "reference": {
+        "page": "17-15",
+        "text": "When combined with their low mass and inertia, these LSAs tend to decelerate rapidly when power is reduced. When attempting a crosswind landing in a high-drag LSA, a rapid reduction in airspeed prior to touchdown may result in a loss of rudder and/or aileron control, which may push the aircraft off of the runway heading."
+      }
+    },
+    {
+      "section": "Key Points",
+      "difficulty": 3,
+      "categories": [
+        "checkride_oral",
+        "general_knowledge"
+      ],
+      "question": "In the event of an engine failure in an LSA at low altitude, why is excessive pitch attitude during climb particularly dangerous?",
+      "correct_answer": "The higher the pitch attitude when failure occurs, the quicker the aircraft loses airspeed, making a stall more likely with less altitude available for recovery",
+      "distractors": [
+        "The higher pitch attitude makes it harder for ATC to see the aircraft on radar for rescue coordination",
+        "The higher pitch attitude increases fuel flow to the engine, making restart impossible due to flooding",
+        "The higher pitch attitude causes the ballistic parachute to deploy inadvertently due to G-forces"
+      ],
+      "explanation": "The Key Points section states that in an engine failure, the pilot should quickly transition to the required nose-down attitude to maintain airspeed. The higher the pitch attitude when failure occurs, the quicker the aircraft will lose airspeed and the more likely it is to stall. Stalls at low altitudes are especially dangerous because the closer to the ground the stall occurs, the less time there is to recover. Excessive pitch attitude during low-altitude climbs is discouraged.",
+      "reference": {
+        "page": "17-15",
+        "text": "The higher the pitch attitude is when the engine failure occurs, the quicker the aircraft will lose airspeed and the more likely the aircraft is to stall. Stalls that occur at low altitudes are especially dangerous because the closer to the ground the stall occurs, the less time there is to recover."
+      }
     }
   ]
 }

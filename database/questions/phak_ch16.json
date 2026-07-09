@@ -1,0 +1,366 @@
+{
+  "source": "PHAK",
+  "chapter": 16,
+  "questions": [
+    {
+      "section": "VFR Terminal Area Charts",
+      "difficulty": 1,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "A VFR pilot is planning a flight that will transit near Class B airspace and wants a chart that provides a more detailed display of topographical information for that congested area. Which chart should the pilot use in addition to a sectional chart?",
+      "correct_answer": "VFR Terminal Area Chart",
+      "distractors": [
+        "World Aeronautical Chart",
+        "Chart Supplement U.S.",
+        "A second sectional chart from an adjacent area"
+      ],
+      "explanation": "The chapter states that VFR Terminal Area Charts are helpful when flying in or near Class B airspace and provide a more detailed display of topographical information at a scale of 1:250,000. World Aeronautical Charts have less detail (1:1,000,000). Chart Supplement U.S. is a text-based directory, not a chart.",
+      "reference": {
+        "page": "16-2",
+        "text": "VFR terminal area charts are helpful when flying in or near Class B airspace. They have a scale of 1:250,000 (1 inch = 3.43 NM or approximately 4 SM). These charts provide a more detailed display of topographical information."
+      }
+    },
+    {
+      "section": "Time Zones",
+      "difficulty": 1,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "A pilot in the Pacific Standard Time zone needs to convert local time to UTC (Zulu time) for filing a VFR flight plan. If the planned departure time is 0900 Pacific Standard Time, what is the equivalent UTC time?",
+      "correct_answer": "1700Z",
+      "distractors": [
+        "1500Z",
+        "1600Z",
+        "1800Z"
+      ],
+      "explanation": "The chapter states that to convert Pacific Standard Time to UTC, add 8 hours. 0900 + 8 hours = 1700Z. 1500Z would result from adding 6 hours (the Central Standard Time conversion factor). 1600Z would be the conversion from Mountain Standard Time (adding 7 hours). 1800Z would result from adding 9 hours instead of 8.",
+      "reference": {
+        "page": "16-5",
+        "text": "To convert to this time, a pilot should do the following: Eastern Standard Time ..........Add 5 hours, Central Standard Time ..........Add 6 hours, Mountain Standard Time.......Add 7 hours, Pacific Standard Time ...........Add 8 hours"
+      }
+    },
+    {
+      "section": "Variation",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "A pilot is flying in an area where the magnetic variation is 9° E. If the true course measured on the chart is 270°, what magnetic course should the pilot fly?",
+      "correct_answer": "261°",
+      "distractors": [
+        "279°",
+        "270°",
+        "081°"
+      ],
+      "explanation": "The chapter states 'east is least (subtract) and west is best (add).' With 9° E variation, subtract 9° from the true course: 270° − 9° = 261°. Answer 279° incorrectly adds the variation. Answer 270° applies no variation correction. Answer 081° is the reciprocal of 261°.",
+      "reference": {
+        "page": "16-7",
+        "text": "If the variation is shown as '9° E,' this means that MN is 9° east of TN. If a TC of 360° is to be flown, 9° must be subtracted from 360°, which results in a magnetic heading of 351°."
+      }
+    },
+    {
+      "section": "Effect of Wind",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "An aircraft is flying eastward at a true airspeed of 120 knots. The wind is from 090° at 20 knots (blowing westward). What is the aircraft's groundspeed?",
+      "correct_answer": "100 knots",
+      "distractors": [
+        "140 knots",
+        "120 knots",
+        "80 knots"
+      ],
+      "explanation": "The chapter explains that when the air mass is moving westward at 20 knots opposite the aircraft's direction, the airspeed remains 120 knots but groundspeed becomes 120 minus 20, or 100 knots. Answer 140 treats the headwind as a tailwind. Answer 120 incorrectly assumes wind does not affect groundspeed. Answer 80 doubles the wind correction.",
+      "reference": {
+        "page": "16-9",
+        "text": "if the mass of air is moving westward at 20 knots, the airspeed of the aircraft remains the same, but GS becomes 120 minus 20 or 100 knots."
+      }
+    },
+    {
+      "section": "Fuel Consumption",
+      "difficulty": 1,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "A pilot is planning a 400 NM cross-country flight with a forecast groundspeed of 100 knots. The aircraft consumes 5 gallons of fuel per hour. How much fuel will be used during the flight (not including reserve)?",
+      "correct_answer": "20 gallons",
+      "distractors": [
+        "15 gallons",
+        "25 gallons",
+        "40 gallons"
+      ],
+      "explanation": "The chapter uses this exact example: time = distance ÷ groundspeed = 400 ÷ 100 = 4 hours. Fuel = time × rate = 4 × 5 = 20 gallons. Answer 15 uses 3 hours. Answer 25 uses 5 hours. Answer 40 uses a fuel rate of 10 GPH instead of 5.",
+      "reference": {
+        "page": "16-12",
+        "text": "a flight of 400 NM at 100 knots GS takes 4 hours to complete. If an aircraft consumes 5 gallons of fuel per hour, the total fuel consumption is 20 gallons (4 hours times 5 gallons)."
+      }
+    },
+    {
+      "section": "Pilotage",
+      "difficulty": 2,
+      "categories": [
+        "checkride_oral",
+        "general_knowledge"
+      ],
+      "question": "When selecting checkpoints for pilotage navigation, which practice does the FAA recommend?",
+      "correct_answer": "Select features that make useful boundaries or brackets on each side of the course, and never place complete reliance on any single checkpoint.",
+      "distractors": [
+        "Select only one prominent checkpoint every 50 miles to minimize cockpit workload.",
+        "Choose towns represented by a small circle on the chart since they are easy to identify from the air.",
+        "Select only roads as checkpoints since they are the most prominent features visible from the air."
+      ],
+      "explanation": "The chapter states to select features that make useful boundaries or brackets on each side of the course and to 'Never place complete reliance on any single checkpoint.' Towns shown as small circles 'may turn out to be only a half-dozen houses.' New roads may not be shown on the chart until the next edition is issued.",
+      "reference": {
+        "page": "16-12",
+        "text": "If possible, select features that make useful boundaries or brackets on each side of the course, such as highways, rivers, railroads, and mountains. A pilot can keep from drifting too far off course by referring to and not crossing the selected brackets. Never place complete reliance on any single checkpoint."
+      }
+    },
+    {
+      "section": "Wind Triangle or Vector Analysis",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "In constructing a wind triangle, if the wind is blowing from the right of the true course, how should the wind correction angle (WCA) be applied to determine the true heading?",
+      "correct_answer": "Add the WCA to the true course.",
+      "distractors": [
+        "Subtract the WCA from the true course.",
+        "Add the WCA to the magnetic heading.",
+        "Subtract the WCA from the compass heading."
+      ],
+      "explanation": "The chapter states: 'If the wind blows from the right of TC, the angle is added; if from the left, it is subtracted.' Subtracting is for wind from the left. The WCA is applied to TC to obtain TH, not to MH or CH, which are later steps in the heading sequence.",
+      "reference": {
+        "page": "16-15",
+        "text": "If the wind blows from the right of TC, the angle is added; if from the left, it is subtracted. In the example given, the WCA is 14° and the wind is from the left; therefore, subtract 14° from TC of 090°, making the TH 076°."
+      }
+    },
+    {
+      "section": "Very High Frequency (VHF) Omnidirectional Range (VOR)",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "A VOR receiver is tuned and the station's Morse code identification is verified, but the NAV warning flag remains visible on the indicator. What is the most likely cause?",
+      "correct_answer": "Signal strength is inadequate because the aircraft is too far from the VOR or too low to receive line-of-sight signals.",
+      "distractors": [
+        "The VOR station is out of service for maintenance.",
+        "The OBS is set to an incorrect radial.",
+        "The aircraft's VOR receiver has never been calibrated."
+      ],
+      "explanation": "The chapter states the NAV flag appears when 'signal strength is inadequate to operate the navigational equipment' due to being too far or too low. If the station were out of service, the coded identification would be removed—not received. An incorrect OBS setting deflects the CDI needle but does not trigger the NAV flag.",
+      "reference": {
+        "page": "16-23",
+        "text": "VOR receivers are designed with an alarm flag to indicate when signal strength is inadequate to operate the navigational equipment. This happens if the aircraft is too far from the VOR or the aircraft is too low and, therefore, is out of the line of sight of the transmitting signals."
+      }
+    },
+    {
+      "section": "Course Deviation Indicator (CDI)",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "A pilot flying toward a VOR station notices the CDI needle is moving in the opposite direction from what is expected—when the aircraft drifts right, the needle moves right instead of left. Which situation explains this reverse sensing?",
+      "correct_answer": "The pilot is flying toward the station with a 'FROM' indication displayed on the indicator.",
+      "distractors": [
+        "The pilot is flying toward the station with a 'TO' indication.",
+        "The VOR station is operating without its coded identification.",
+        "The course deviation needle is stuck due to a mechanical failure."
+      ],
+      "explanation": "The chapter explains that flying toward a station with a 'FROM' indication (or away with a 'TO' indication) causes reverse sensing—the needle indicates opposite to the direction it should. Flying with a 'TO' indication toward the station is correct procedure. A station without coded identification is out of service. Reverse sensing is a normal characteristic, not a mechanical failure.",
+      "reference": {
+        "page": "16-26",
+        "text": "if the aircraft is flown toward a station with a 'FROM' indication or away from a station with a 'TO' indication, the course deviation needle indicates in a direction opposite to that which it should indicate"
+      }
+    },
+    {
+      "section": "Distance Measuring Equipment (DME)",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "An aircraft is flying directly over a VORTAC at an altitude of 6,076 feet AGL. What distance will the DME display?",
+      "correct_answer": "Approximately 1.0 NM",
+      "distractors": [
+        "0 NM",
+        "6,076 feet",
+        "Approximately 2.0 NM"
+      ],
+      "explanation": "DME measures slant range distance, which includes the altitude component. The chapter gives this exact example: station passage directly over a VORTAC at 6,076 feet AGL shows approximately 1.0 NM. Answer 0 NM ignores the slant range effect. Answer 6,076 feet is in the wrong unit (DME displays NM). Answer 2.0 NM would correspond to roughly 12,000 feet AGL.",
+      "reference": {
+        "page": "16-27",
+        "text": "Slant range distance is the direct distance between the aircraft and the VORTAC and is therefore affected by aircraft altitude. (Station passage directly over a VORTAC from an altitude of 6,076 feet AGL would show approximately 1.0 NM on the DME.)"
+      }
+    },
+    {
+      "section": "Automatic Direction Finder (ADF)",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "What advantage does an NDB have over a VOR for navigation?",
+      "correct_answer": "NDB signals are not affected by line-of-sight limitations and follow the curvature of the Earth, so they can be received regardless of altitude if within range.",
+      "distractors": [
+        "NDB signals provide more accurate course guidance than VOR.",
+        "NDB signals are not affected by electrical disturbances such as lightning.",
+        "NDB stations have greater range than all VOR stations regardless of altitude."
+      ],
+      "explanation": "The chapter states NDBs use low/medium frequencies not affected by line-of-sight, with signals following the Earth's curvature. VOR accuracy is described as 'excellent, generally within plus or minus 1°,' superior to ADF. The text states LF signals are 'very susceptible to electrical disturbances, such as lightning.' VOR range increases significantly with altitude, and high-altitude VORs can reach 130 miles.",
+      "reference": {
+        "page": "16-29",
+        "text": "NDBs have one advantage over the VOR in that low or medium frequencies are not affected by line-of-sight. The signals follow the curvature of the Earth; therefore, if the aircraft is within the range of the station, the signals can be received regardless of altitude."
+      }
+    },
+    {
+      "section": "Global Positioning System",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "For a GPS receiver to perform RAIM (Receiver Autonomous Integrity Monitoring) to detect an integrity anomaly, what is the minimum satellite requirement?",
+      "correct_answer": "Five satellites in view, or four satellites with barometric altimeter input (baro-aiding)",
+      "distractors": [
+        "Four satellites in view, or three with baro-aiding",
+        "Six satellites in view, or five with baro-aiding",
+        "Three satellites in view with a barometric altimeter"
+      ],
+      "explanation": "The chapter states RAIM needs a minimum of five satellites or four with baro-aiding to detect an anomaly. Four satellites alone provide only a 3D position fix, not RAIM. Six satellites (or five with baro-aiding) are needed to isolate and remove a corrupt satellite signal, which is a higher level than detection. Three satellites are insufficient even for a basic position fix.",
+      "reference": {
+        "page": "16-31",
+        "text": "RAIM needs a minimum of five satellites in view or four satellites and a barometric altimeter (baro-aiding) to detect an integrity anomaly. For receivers capable of doing so, RAIM needs six satellites in view (or five satellites with baro-aiding) to isolate the corrupt satellite signal and remove it from the navigation solution."
+      }
+    },
+    {
+      "section": "Lost Procedures",
+      "difficulty": 1,
+      "categories": [
+        "checkride_oral",
+        "general_knowledge"
+      ],
+      "question": "If a pilot becomes lost during a VFR cross-country flight and cannot see a town or city, what should be one of the first actions taken?",
+      "correct_answer": "Climb, being mindful of traffic and weather conditions, to increase radio and navigation reception range and radar coverage.",
+      "distractors": [
+        "Descend immediately to maintain visual contact with the ground.",
+        "Immediately turn 180° to reverse course back to the last known position.",
+        "Squawk 7700 on the transponder immediately."
+      ],
+      "explanation": "The chapter states the first thing to do is climb, which increases radio and navigation reception range and radar coverage. Descending reduces reception. A 180° turn is not recommended as a first step. The text reserves squawking 7700 for when 'the situation becomes threatening,' after first attempting to communicate and determine position.",
+      "reference": {
+        "page": "16-34",
+        "text": "If a town or city cannot be seen, the first thing to do is climb, being mindful of traffic and weather conditions. An increase in altitude increases radio and navigation reception range and also increases radar coverage."
+      }
+    },
+    {
+      "section": "Flight Diversion",
+      "difficulty": 2,
+      "categories": [
+        "checkride_oral",
+        "general_knowledge"
+      ],
+      "question": "During a flight, a situation arises that requires an immediate diversion to an alternate airport. What should the pilot prioritize?",
+      "correct_answer": "Divert promptly toward the alternate destination, then compute heading, groundspeed, and fuel once established on course.",
+      "distractors": [
+        "Complete all course plotting, measuring, and fuel calculations before turning toward the alternate.",
+        "Remain on the original heading and contact ATC for vectors before diverting.",
+        "Climb to a higher altitude before diverting to improve navigation reception."
+      ],
+      "explanation": "The chapter states: 'in an emergency, divert promptly toward your alternate destination. Attempting to complete all plotting, measuring, and computations involved before diverting to the alternate destination may only aggravate an actual emergency.' Once established on course, the pilot should note the time and calculate heading, GS, and fuel consumption.",
+      "reference": {
+        "page": "16-35",
+        "text": "However, in an emergency, divert promptly toward your alternate destination. Attempting to complete all plotting, measuring, and computations involved before diverting to the alternate destination may only aggravate an actual emergency."
+      }
+    },
+    {
+      "section": "Filing a VFR Flight Plan",
+      "difficulty": 1,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "Which statement about VFR flight plans is correct?",
+      "correct_answer": "Filing a VFR flight plan is not required by regulations, but it is good operating practice because the information can be used for search and rescue in the event of an emergency.",
+      "distractors": [
+        "Filing a VFR flight plan is required by 14 CFR part 91 for all cross-country flights.",
+        "A VFR flight plan must be filed at least 30 minutes before the proposed departure time.",
+        "Once activated, a VFR flight plan remains active indefinitely until the pilot closes it."
+      ],
+      "explanation": "The chapter explicitly states filing is not required by regulation but is good practice for search and rescue purposes. It also states the flight plan is held by FSS for 1 hour after the proposed departure time and then canceled unless the actual departure time is received—so it does not remain active indefinitely. No minimum filing time is stated.",
+      "reference": {
+        "page": "16-21",
+        "text": "Filing a flight plan is not required by regulations; however, it is a good operating practice since the information contained in the flight plan can be used in search and rescue in the event of an emergency."
+      }
+    },
+    {
+      "section": "Dead Reckoning",
+      "difficulty": 1,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "Dead reckoning is best described as which type of navigation?",
+      "correct_answer": "Navigation solely by means of computations based on time, airspeed, distance, and direction.",
+      "distractors": [
+        "Navigation by reference to visible landmarks or checkpoints.",
+        "Navigation by use of radio aids such as VOR and GPS.",
+        "Navigation using a combination of pilotage and radio navigation."
+      ],
+      "explanation": "The chapter defines dead reckoning as 'navigation solely by means of computations based on time, airspeed, distance, and direction.' Navigation by visible landmarks is pilotage. Navigation by radio aids is radio navigation. The chapter lists all three as distinct methods: pilotage, dead reckoning, and radio navigation.",
+      "reference": {
+        "page": "16-13",
+        "text": "Dead reckoning is navigation solely by means of computations based on time, airspeed, distance, and direction. The products derived from these variables, when adjusted by wind speed and velocity, are heading and GS."
+      }
+    },
+    {
+      "section": "Effect of Wind",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "A pilot has determined a true heading of 088°. The magnetic variation in the flight area is 10° E, and the compass deviation card indicates a correction of −2° for the nearest heading. What is the compass heading?",
+      "correct_answer": "076°",
+      "distractors": [
+        "096°",
+        "080°",
+        "100°"
+      ],
+      "explanation": "The chapter gives the formula: TH ± V = MH ± D = CH. With 10° E variation, subtract (east is least): 088 − 10 = 078 (MH). Apply deviation of −2°: 078 − 2 = 076 (CH). Answer 096° adds variation instead of subtracting (088 + 10 = 098, − 2 = 096). Answer 080° applies deviation in the wrong direction (078 + 2 = 080). Answer 100° adds both variation and deviation (088 + 10 + 2 = 100).",
+      "reference": {
+        "page": "16-9",
+        "text": "the sequence TH ± variation (V) = magnetic heading (MH) ± deviation (D) = compass heading (CH) is followed to arrive at compass heading."
+      }
+    },
+    {
+      "section": "Course Intercept",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "When intercepting a VOR radial, what limits apply to the angle of intercept?",
+      "correct_answer": "The angle of intercept must be greater than the degrees from course but should not exceed 90°.",
+      "distractors": [
+        "The angle of intercept should be exactly 45° in all situations.",
+        "The angle of intercept should not exceed 30° to prevent overshooting.",
+        "The angle of intercept must equal the degrees from course for proper interception."
+      ],
+      "explanation": "The chapter states the angle of intercept 'must be greater than the degrees from course, but should not exceed 90°.' A fixed 45° ignores the factors of distance from station, degrees from course, and groundspeed. A 30° limit is too restrictive. Equaling the degrees from course would not produce an intercept—interception requires an angle greater than the offset.",
+      "reference": {
+        "page": "16-27",
+        "text": "Angle of intercept must be greater than the degrees from course, but should not exceed 90°. Within this limit, make adjustments as needed, to achieve the most desirable rate of intercept."
+      }
+    }
+  ]
+}

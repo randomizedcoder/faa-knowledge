@@ -3,76 +3,363 @@
   "chapter": 17,
   "questions": [
     {
-      "section": "Hypoxia",
+      "section": "Obtaining a Medical Certificate",
+      "difficulty": 1,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "A 35-year-old pilot obtains a third-class medical certificate. How long is it valid for exercising private pilot privileges?",
+      "correct_answer": "5 years",
+      "distractors": [
+        "2 years",
+        "1 year",
+        "6 months"
+      ],
+      "explanation": "A third-class medical certificate is valid for 5 years for individuals who have not reached age 40, and 2 years for those 40 or older. One year is the validity period for a second-class medical, and 6 months applies to a first-class medical for airmen 40 or older.",
+      "reference": {
+        "page": "17-2",
+        "text": "A third-class medical certificate is required for a private or recreational pilot certificate. It is valid for 5 years for those individuals who have not reached the age of 40; otherwise it is valid for 2 years."
+      }
+    },
+    {
+      "section": "Obtaining a Medical Certificate",
       "difficulty": 2,
-      "categories": ["written_exam", "checkride_oral"],
-      "question": "At what cabin altitude does significant hypoxia begin to affect most pilots?",
-      "correct_answer": "Above 10,000 feet MSL",
-      "distractors": ["Above 5,000 feet MSL", "Above 18,000 feet MSL", "Above 15,000 feet MSL"],
-      "explanation": "Significant hypoxia effects begin above 10,000 feet. FAR 91.211 requires supplemental oxygen for crew above 12,500 feet for more than 30 minutes, and for all above 14,000 feet."
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "Which statement is true regarding the fifteen medical conditions that 14 CFR part 67 lists as specifically disqualifying?",
+      "correct_answer": "With very few exceptions, all disqualifying medical conditions may be considered for a Special Issuance Authorization.",
+      "distractors": [
+        "These fifteen conditions permanently bar an individual from holding any medical certificate.",
+        "Only medical conditions not listed in the regulations are eligible for special issuance consideration.",
+        "A special issuance is only available after the condition has been completely cured for at least five years."
+      ],
+      "explanation": "The chapter states that with very few exceptions, all disqualifying medical conditions may be considered for special issuance if the airman can present satisfactory medical documentation that the condition is stable. The fifteen listed conditions are not an absolute bar, and special issuance does not require a cure—only demonstrated stability.",
+      "reference": {
+        "page": "17-3",
+        "text": "The important thing to remember is that with very few exceptions, all disqualifying medical conditions may be considered for special issuance."
+      }
     },
     {
       "section": "Hypoxia",
       "difficulty": 2,
-      "categories": ["written_exam", "checkride_oral"],
-      "question": "What are common symptoms of hypoxia?",
-      "correct_answer": "Headache, impaired judgment, euphoria, and cyanosis (blue fingernails/lips)",
-      "distractors": ["Nausea, vertigo, and ringing in the ears", "Increased alertness and improved night vision", "Severe joint pain and rash"],
-      "explanation": "Hypoxia symptoms include headache, drowsiness, impaired judgment, euphoria, a false sense of well-being, and blue discoloration of fingernails and lips (cyanosis). Insidious because the pilot may feel fine."
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "At altitude, the percentage of oxygen in the atmosphere remains constant, yet pilots can still develop hypoxic hypoxia. What is the primary reason?",
+      "correct_answer": "The partial pressure of oxygen decreases proportionately as atmospheric pressure decreases, reducing the number of oxygen molecules available at sufficient pressure.",
+      "distractors": [
+        "The percentage of oxygen in the atmosphere decreases significantly as altitude increases.",
+        "Oxygen molecules become chemically unstable at reduced atmospheric pressure.",
+        "The lungs lose their ability to transfer oxygen into the bloodstream above 10,000 feet."
+      ],
+      "explanation": "The chapter explains that although the percentage of oxygen in the atmosphere is constant, its partial pressure decreases proportionately as atmospheric pressure decreases. This means fewer oxygen molecules are available at the pressure required to pass through the membranes in the respiratory system, leading to hypoxic hypoxia.",
+      "reference": {
+        "page": "17-3",
+        "text": "Although the percentage of oxygen in the atmosphere is constant, its partial pressure decreases proportionately as atmospheric pressure decreases. As an aircraft ascends during flight, the percentage of each gas in the atmosphere remains the same, but there are fewer molecules available at the pressure required for them to pass between the membranes in the respiratory system."
+      }
+    },
+    {
+      "section": "Hypoxia",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "Carbon monoxide poisoning is classified as which type of hypoxia, and what is the mechanism?",
+      "correct_answer": "Hypemic hypoxia, because CO attaches to hemoglobin and prevents it from carrying oxygen to the cells.",
+      "distractors": [
+        "Hypoxic hypoxia, because CO reduces the amount of oxygen available in the lungs.",
+        "Histotoxic hypoxia, because CO prevents the cells from effectively using the oxygen delivered to them.",
+        "Stagnant hypoxia, because CO restricts blood flow to the extremities and brain."
+      ],
+      "explanation": "Hypemic hypoxia occurs when the blood cannot transport sufficient oxygen to the cells. CO poisoning is the most common form because CO attaches to hemoglobin about 200 times more easily than oxygen, preventing hemoglobin from carrying oxygen. Histotoxic hypoxia is caused by alcohol and drugs preventing cells from using oxygen, not by CO.",
+      "reference": {
+        "page": "17-3",
+        "text": "The most common form of hypemic hypoxia is CO poisoning. … CO prevents the hemoglobin from carrying oxygen to the cells, resulting in hypemic hypoxia."
+      }
     },
     {
       "section": "Hyperventilation",
       "difficulty": 2,
-      "categories": ["written_exam", "checkride_oral"],
-      "question": "How can hyperventilation be treated?",
-      "correct_answer": "Slow the breathing rate, talk aloud, or breathe into a paper bag",
-      "distractors": ["Increase the breathing rate to get more oxygen", "Descend to a lower altitude immediately", "Apply supplemental oxygen at high flow rate"],
-      "explanation": "Hyperventilation is caused by excessive breathing that lowers CO2 levels. Treatment is to consciously slow breathing, talk aloud, or breathe into a bag to restore CO2 balance."
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "A pilot at altitude is using supplemental oxygen and has verified the equipment is functioning properly, but still experiences tingling sensations, lightheadedness, and muscle spasms. What is the likely condition and appropriate treatment?",
+      "correct_answer": "Hyperventilation; breathe normally, talk aloud, or breathe into a paper bag to restore proper CO2 levels.",
+      "distractors": [
+        "Hypoxia; descend immediately and increase the oxygen flow rate.",
+        "Carbon monoxide poisoning; turn off the heater and open all fresh air vents.",
+        "Motion sickness; open fresh air vents and focus on objects outside the aircraft."
+      ],
+      "explanation": "Because the oxygen equipment has been checked and is working properly, hypoxia is unlikely. The symptoms described match hyperventilation, which results from abnormal loss of carbon dioxide. Treatment involves restoring proper CO2 levels by breathing normally, talking aloud, or breathing into a paper bag.",
+      "reference": {
+        "page": "17-4",
+        "text": "Since many of the symptoms of hyperventilation are similar to those of hypoxia, it is important to correctly diagnose and treat the proper condition. If using supplemental oxygen, check the equipment and flow rate to ensure the symptoms are not hypoxia related. … The treatment for hyperventilation involves restoring the proper carbon dioxide level in the body."
+      }
     },
     {
-      "section": "Spatial Disorientation",
+      "section": "Middle Ear and Sinus Problems",
       "difficulty": 2,
-      "categories": ["written_exam", "checkride_oral"],
-      "question": "What is the primary way to overcome spatial disorientation?",
-      "correct_answer": "Trust and rely on the flight instruments rather than bodily sensations",
-      "distractors": ["Focus on the horizon through peripheral vision", "Shake your head to reset the vestibular system", "Close your eyes for a few seconds to re-calibrate"],
-      "explanation": "The vestibular system can produce false sensations in flight (the leans, graveyard spiral, etc.). Trusting the flight instruments is the only reliable way to maintain orientation."
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "During descent, a pilot experiences increasing ear pain and reduced hearing that is difficult to relieve. What causes this condition, and what should the pilot do?",
+      "correct_answer": "The partial vacuum in the middle ear constricts the Eustachian tube walls; the pilot should pinch the nostrils shut, close the mouth, and blow gently to force air through the Eustachian tube.",
+      "distractors": [
+        "Air pressure in the middle ear exceeds external pressure, bulging the eardrum outward; the pilot should yawn repeatedly to release the excess pressure.",
+        "The eardrum has ruptured due to pressure differential; the pilot should climb back to altitude immediately to equalize pressure.",
+        "The Eustachian tube is permanently blocked by wax; the pilot should swallow repeatedly and continue descent."
+      ],
+      "explanation": "During descent, the middle ear cavity is at lower pressure than the external ear canal, causing the eardrum to bulge inward. The partial vacuum tends to constrict the walls of the Eustachian tube, making equalization difficult. The remedy is the Valsalva-type maneuver: pinch nostrils, close the mouth and lips, and blow slowly and gently to force air through the Eustachian tube into the middle ear.",
+      "reference": {
+        "page": "17-5",
+        "text": "This condition can be more difficult to relieve due to the fact that the partial vacuum tends to constrict the walls of the Eustachian tube. To remedy this often painful condition, which also causes a temporary reduction in hearing sensitivity, pinch the nostrils shut, close the mouth and lips, and blow slowly and gently into the mouth and nose."
+      }
     },
     {
-      "section": "Carbon Monoxide Poisoning",
-      "difficulty": 2,
-      "categories": ["written_exam", "checkride_oral"],
-      "question": "What is a common source of carbon monoxide poisoning in a single-engine aircraft?",
-      "correct_answer": "A leak in the exhaust system allowing CO into the cabin through the heater",
-      "distractors": ["Running the avionics master with the engine off", "Using recirculated cabin air at high altitude", "Burning avgas fumes entering through the fuel vents"],
-      "explanation": "The cabin heater in most single-engine aircraft uses a shroud around the exhaust manifold. A crack in the exhaust can allow CO into the heated air. Symptoms include headache, drowsiness, and cherry-red skin."
-    },
-    {
-      "section": "Alcohol and Drugs",
+      "section": "Middle Ear and Sinus Problems",
       "difficulty": 1,
-      "categories": ["written_exam", "checkride_oral"],
-      "question": "According to FAR 91.17, how many hours before flying must a pilot abstain from consuming alcohol?",
-      "correct_answer": "8 hours",
-      "distractors": ["12 hours", "24 hours", "4 hours"],
-      "explanation": "14 CFR 91.17: No person may act as a crewmember within 8 hours after consuming alcohol, while under the influence, or with a BAC of 0.04% or greater. '8 hours bottle to throttle.'"
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "A sinus block is most likely to occur during which phase of flight, and what is the primary contributing factor?",
+      "correct_answer": "During descent, when congestion from an upper respiratory infection plugs the sinus openings.",
+      "distractors": [
+        "During climb, when expanding air cannot escape rapidly enough through clear sinus passages.",
+        "During level cruise at high altitude, when cabin pressure changes gradually over time.",
+        "During taxi, when abrupt heading changes cause fluid to shift in the sinus cavities."
+      ],
+      "explanation": "The chapter states that a sinus block occurs most frequently during descent. Congestion from an upper respiratory infection or nasal allergic condition can slow equalization, and as the pressure difference increases, congestion may plug the opening entirely. Slow descent rates can reduce the associated pain.",
+      "reference": {
+        "page": "17-5",
+        "text": "This 'sinus block' occurs most frequently during descent. Slow descent rates can reduce the associated pain."
+      }
     },
     {
-      "section": "Night Vision",
+      "section": "Vestibular Illusions",
       "difficulty": 2,
-      "categories": ["written_exam", "general_knowledge"],
-      "question": "How long does it take for the eyes to fully adapt to darkness for night flying?",
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "What causes the vestibular illusion known as 'the leans,' and how does the pilot typically respond?",
+      "correct_answer": "A gradual, prolonged turn below the detection threshold of the semicircular canals goes unnoticed; leveling the wings creates an illusion of banking in the opposite direction, causing the pilot to lean toward the original turn.",
+      "distractors": [
+        "A rapid head movement during a prolonged turn causes fluid in the ear canals to create a tumbling sensation, causing the pilot to grip the controls tightly.",
+        "A prolonged coordinated constant-rate turn goes unnoticed; when the pilot perceives a descent and pulls back on the controls to correct, the spiral tightens and altitude loss increases.",
+        "An abrupt upward acceleration creates the illusion of climbing, causing the pilot to push the nose down."
+      ],
+      "explanation": "The leans is caused by a gradual and prolonged turn (approximately 2 degrees per second or less) that goes unnoticed because it is below the detection threshold of the semicircular canals. When the pilot levels the wings, the sensation of turning in the opposite direction occurs, and the pilot leans toward the original turn to correct. The second distractor describes a graveyard spiral, which involves a prolonged descending turn where the pilot pulls back to correct the perceived descent, tightening the spiral. The third describes an elevator illusion.",
+      "reference": {
+        "page": "17-7",
+        "text": "A condition called the leans, is the most common illusion during flight and is caused by a sudden return to level flight following a gradual and prolonged turn that went unnoticed by the pilot. … Leveling the wings after such a turn may cause an illusion that the aircraft is banking in the opposite direction."
+      }
+    },
+    {
+      "section": "Vestibular Illusions",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "In a graveyard spiral, what sequence of events leads the pilot to tighten the spiral and lose increasing altitude?",
+      "correct_answer": "After a prolonged turn, the pilot senses no turning; upon leveling, the pilot feels a turn in the opposite direction and returns to the original bank, then pulls back thinking the aircraft is in a level descent, tightening the spiral.",
+      "distractors": [
+        "The pilot feels a nose-up attitude from acceleration and pushes forward, steepening the descent angle.",
+        "The pilot sees a false horizon from sloping clouds and banks to align with it, entering a descending spiral.",
+        "The pilot experiences a tumbling sensation from head movement and rolls the aircraft inverted while pulling back."
+      ],
+      "explanation": "In a graveyard spiral, the pilot in a prolonged coordinated constant-rate turn experiences the illusion of not turning. During recovery to level flight, the pilot senses turning in the opposite direction and may return the aircraft to its original turn. The aircraft loses altitude in the turn, and the pilot—feeling no sensation of turning—perceives a level descent, pulling back on the controls. This tightens the spiral and increases the loss of altitude. The first distractor describes somatogravic illusion, the second describes false horizon, and the third describes coriolis illusion.",
+      "reference": {
+        "page": "17-7",
+        "text": "During the recovery to level flight, the pilot will then experience the sensation of turning in the opposite direction causing the disoriented pilot to return the aircraft to its original turn. … The pilot may pull back on the controls in an attempt to climb or stop the descent. This action tightens the spiral and increases the loss of altitude; this illusion is referred to as a 'graveyard spiral.'"
+      }
+    },
+    {
+      "section": "Vestibular Illusions",
+      "difficulty": 2,
+      "categories": [
+        "written_exam"
+      ],
+      "question": "During a nighttime takeoff over featureless terrain, a pilot experiences rapid acceleration and perceives the aircraft is pitching up. What illusion is this, and what is the primary danger?",
+      "correct_answer": "Somatogravic illusion; the pilot may push the aircraft into a nose-low or dive attitude.",
+      "distractors": [
+        "Inversion illusion; the pilot may push the aircraft into a nose-low attitude, intensifying the illusion.",
+        "Elevator illusion; the pilot may push the aircraft into a nose-low attitude due to perceived climb.",
+        "Coriolis illusion; the pilot may maneuver the aircraft into a dangerous attitude while correcting perceived roll."
+      ],
+      "explanation": "A rapid acceleration stimulates the otolith organs in the same way as tilting the head backward, creating the somatogravic illusion of being in a nose-up attitude. The disoriented pilot may push the aircraft into a nose-low or dive attitude. Inversion illusion results from an abrupt change from climb to straight-and-level, elevator illusion from upward vertical acceleration in an updraft, and coriolis illusion from head movement during a prolonged turn.",
+      "reference": {
+        "page": "17-7",
+        "text": "A rapid acceleration, such as experienced during takeoff, stimulates the otolith organs in the same way as tilting the head backwards. This action may create what is known as the 'somatogravic illusion' of being in a nose-up attitude, especially in conditions with poor visual references. The disoriented pilot may push the aircraft into a nose-low or dive attitude."
+      }
+    },
+    {
+      "section": "Optical Illusions",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "A pilot on final approach observes that the runway appears narrower than usual. If the pilot does not recognize this illusion, what is the likely outcome?",
+      "correct_answer": "The pilot will fly a lower approach, with the risk of striking objects or landing short.",
+      "distractors": [
+        "The pilot will fly a higher approach, risking a hard landing or overshooting the runway.",
+        "The pilot will steepen the approach abruptly, thinking the aircraft is pitching up.",
+        "The pilot will fly a lower approach because the terrain appears featureless and higher than it is."
+      ],
+      "explanation": "A narrower-than-usual runway creates an illusion that the aircraft is at a higher altitude than it actually is. The pilot who does not recognize this will fly a lower approach, risking striking objects along the approach path or landing short. A wider-than-usual runway has the opposite effect. Featureless terrain illusion is a separate phenomenon related to black hole approaches.",
+      "reference": {
+        "page": "17-10",
+        "text": "A narrower-than-usual runway can create an illusion that the aircraft is at a higher altitude than it actually is … The pilot who does not recognize this illusion will fly a lower approach, with the risk of striking objects along the approach path or landing short."
+      }
+    },
+    {
+      "section": "Carbon Monoxide (CO) Poisoning",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "A pilot detects a strong exhaust odor in the cabin during flight. What should the pilot assume and what immediate actions should be taken?",
+      "correct_answer": "Assume CO is present; turn off the heater, open fresh air vents and windows, and use supplemental oxygen if available.",
+      "distractors": [
+        "Assume the odor is from normal engine operation; continue flight and monitor for headache or dizziness.",
+        "Open the heater vents fully to dilute the exhaust fumes with warm air from the engine compartment.",
+        "Descend immediately to a lower altitude and declare an emergency before taking any other action."
+      ],
+      "explanation": "The chapter states that if a strong odor of exhaust gases is detected, the pilot should assume CO is present. Immediate corrective actions include turning off the heater (since heater vents may provide CO a passageway into the cabin), opening fresh air vents and windows, and using supplemental oxygen if available. CO may also be present in dangerous amounts even without an exhaust odor.",
+      "reference": {
+        "page": "17-12",
+        "text": "If a strong odor of exhaust gases is detected, assume that CO is present. … immediate corrective action should be taken including turning off the heater, opening fresh air vents and windows, and using supplemental oxygen, if available."
+      }
+    },
+    {
+      "section": "Alcohol",
+      "difficulty": 1,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "Under 14 CFR part 91, what are the regulatory requirements regarding blood alcohol level and time between drinking and flying?",
+      "correct_answer": "Blood alcohol level must be less than .04 percent, and at least 8 hours must pass between drinking alcohol and piloting an aircraft.",
+      "distractors": [
+        "Blood alcohol level must be less than .08 percent, and at least 12 hours must pass between drinking and flying.",
+        "Blood alcohol level must be less than .04 percent, and at least 12 hours must pass between drinking and flying.",
+        "Blood alcohol level must be .00 percent, and at least 4 hours must pass between drinking and flying."
+      ],
+      "explanation": "14 CFR part 91 requires that blood alcohol level be less than .04 percent and that 8 hours pass between drinking alcohol and piloting an aircraft. A pilot with a blood alcohol level of .04 percent or greater after 8 hours cannot fly until it falls below that amount. The chapter recommends being more conservative than the regulations.",
+      "reference": {
+        "page": "17-15",
+        "text": "14 CFR part 91 requires that blood alcohol level be less than .04 percent and that 8 hours pass between drinking alcohol and piloting an aircraft. A pilot with a blood alcohol level of .04 percent or greater after 8 hours cannot fly until the blood alcohol falls below that amount."
+      }
+    },
+    {
+      "section": "Altitude-Induced Decompression Sickness (DCS)",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "A pilot plans to fly at 6,000 feet MSL the day after completing a scuba dive that required controlled ascent (decompression stop diving). What is the minimum recommended waiting time before flying?",
+      "correct_answer": "At least 24 hours",
+      "distractors": [
+        "At least 12 hours",
+        "At least 4 hours",
+        "At least 48 hours"
+      ],
+      "explanation": "The recommended waiting time before going to flight altitudes up to 8,000 feet is at least 12 hours after diving that does not require controlled ascent (nondecompression stop diving), and at least 24 hours after diving that does require controlled ascent (decompression stop diving). For flight altitudes above 8,000 feet, the waiting time should be at least 24 hours after any scuba dive.",
+      "reference": {
+        "page": "17-19",
+        "text": "The recommended waiting time before going to flight altitudes of up to 8,000 feet is at least 12 hours after diving that does not require controlled ascent (nondecompression stop diving), and at least 24 hours after diving that does require controlled ascent (decompression stop diving)."
+      }
+    },
+    {
+      "section": "Vision in Flight",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "What is the key functional difference between rods and cones as it relates to night vision?",
+      "correct_answer": "Rods are concentrated away from the fovea, are very sensitive at low-light levels, but cannot discern color; cones are concentrated at the fovea and provide color and detail vision but are ineffective in dim light.",
+      "distractors": [
+        "Cones are concentrated in the periphery and provide night vision; rods are at the fovea and provide color vision.",
+        "Both rods and cones provide equal night vision capability, but rods also detect color in low light.",
+        "Rods are responsible for color vision in daylight; cones are responsible for black-and-white vision at night."
+      ],
+      "explanation": "Cones are concentrated at the fovea and are responsible for all color vision and fine detail, but they function only in good illumination. Rods are more numerous away from the fovea, are very sensitive at low-light levels, and are the primary receptors for night vision, but they cannot discern color. This is why a night blind spot exists in the center of the visual field.",
+      "reference": {
+        "page": "17-20",
+        "text": "The cones are responsible for all color vision … Cones are present throughout the retina, but are concentrated toward the center of the field of vision at the back of the retina. … the rods are better able to detect movement and provide vision in dim light. The rods are unable to discern color but are very sensitive at low-light levels."
+      }
+    },
+    {
+      "section": "Vision in Flight",
+      "difficulty": 1,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "How long does it typically take for the rods to fully adapt to darkness after exposure to bright light?",
       "correct_answer": "Approximately 30 minutes",
-      "distractors": ["Approximately 5 minutes", "Approximately 10 minutes", "Approximately 60 minutes"],
-      "explanation": "Full dark adaptation takes approximately 30 minutes. Exposure to bright light (especially white light) can destroy night adaptation. Red light helps preserve it."
+      "distractors": [
+        "Approximately 5 minutes",
+        "Approximately 10 minutes",
+        "Approximately 1 hour"
+      ],
+      "explanation": "While cones adapt rapidly to changes in light intensities, the rods take much longer. The rods can take approximately 30 minutes to fully adapt to darkness. A bright light can completely destroy night adaptation, requiring the process to restart.",
+      "reference": {
+        "page": "17-23",
+        "text": "The rods can take approximately 30 minutes to fully adapt to darkness. A bright light, however, can completely destroy night adaptation, leaving night vision severely compromised while the adaptation process is repeated."
+      }
     },
     {
-      "section": "IMSAFE Checklist",
-      "difficulty": 1,
-      "categories": ["checkride_oral", "general_knowledge"],
-      "question": "What does the IMSAFE checklist stand for?",
-      "correct_answer": "Illness, Medication, Stress, Alcohol, Fatigue, Emotion/Eating",
-      "distractors": ["Instruments, Maintenance, Safety, Airworthiness, Fuel, Equipment", "Initial, Maneuvers, Stalls, Approaches, Finals, Emergencies", "Inspection, Modifications, Systems, Avionics, Fuel, Engine"],
-      "explanation": "IMSAFE is a personal health checklist: Illness, Medication, Stress, Alcohol, Fatigue, and Emotion (or Eating). Pilots should assess each factor before every flight."
+      "section": "Vision in Flight",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "Why must pilots use off-center viewing—looking 5° to 10° to the side of an object—to see it clearly at night?",
+      "correct_answer": "The fovea contains almost all cones and virtually no rods, creating a night blind spot in the center of the visual field when light is dim.",
+      "distractors": [
+        "The optic nerve blocks the central field of view at night, requiring peripheral viewing to compensate.",
+        "The lens cannot focus light properly in low-light conditions, so peripheral vision is sharper.",
+        "Rods in the center of the retina become overstimulated by dim light, causing temporary blindness."
+      ],
+      "explanation": "The fovea centralis, where most 'looking' occurs, contains almost all cones and virtually no rods. Since cones are ineffective in low light, the center of the visual field has a night blind spot. By looking 5° to 10° off center, the pilot exposes the rods—which are more numerous away from the fovea—to the image, allowing the object to be seen.",
+      "reference": {
+        "page": "17-22",
+        "text": "The concentration of cones in the fovea can make a night blind spot in the center of the field of vision. To see an object clearly at night, the pilot must expose the rods to the image. This can be done by looking 5° to 10° off center of the object to be seen."
+      }
+    },
+    {
+      "section": "Enhanced Night Vision Systems",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "What operational advantage does an approved Enhanced Flight Vision System (EFVS) have over a Synthetic Vision System (SVS) when conducting straight-in instrument approaches?",
+      "correct_answer": "EFVS provides operational credit, allowing pilots to descend below the published DH or MDA when displayed on a HUD; SVS is certified only as an aid to situation awareness with no such credit.",
+      "distractors": [
+        "SVS provides real-time sensor imagery of the external scene, while EFVS uses only a stored terrain database for navigation.",
+        "EFVS requires a terrain and obstacle database to function, while SVS uses a forward-looking infrared sensor.",
+        "Both EFVS and SVS provide identical operational credit for descending below DH/MDA on instrument approaches."
+      ],
+      "explanation": "In 2004, 14 CFR 91.175 was amended to allow operators conducting straight-in instrument approaches to descend below the published DH or MDA when using an approved EFVS shown on the pilot's HUD. This 'operational credit' exists only for EFVS, not for SVS. SVS uses a stored terrain database and is certified as an aid to situation awareness only. EFVS uses a real-time imaging sensor such as FLIR or MMWR.",
+      "reference": {
+        "page": "17-29",
+        "text": "In 2004, 14 CFR part 91, section 91.175 was amended to reflect that operators conducting straight-in instrument approach procedures … may now operate below the published decision height (DH) or minimum descent altitude (MDA) when using an approved EFVS shown on the pilot's HUD. This rule change provides 'operational credit' for EV equipage. No such credit exists for SV."
+      }
     }
   ]
 }

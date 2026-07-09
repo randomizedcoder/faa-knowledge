@@ -1,0 +1,365 @@
+{
+  "source": "PHAK",
+  "chapter": 13,
+  "questions": [
+    {
+      "section": "Aviation Routine Weather Report (METAR)",
+      "difficulty": 1,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "In a METAR report, the first three digits of the wind group indicate the wind direction in reference to what?",
+      "correct_answer": "True north",
+      "distractors": [
+        "Magnetic north",
+        "Grid north",
+        "The local runway heading"
+      ],
+      "explanation": "The METAR wind group reports direction in reference to true north. The first three digits indicate the direction the true wind is blowing from in tens of degrees, and a 'Z' is not appended to the wind group—the Zulu time designation appears in the date/time group.",
+      "reference": {
+        "page": "13-6",
+        "text": "The first three digits indicate the direction the true wind is blowing from in tens of degrees."
+      }
+    },
+    {
+      "section": "Upper Air Observations",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "What is the approximate rate of ascent of a radiosonde balloon used for upper air observations?",
+      "correct_answer": "1,000 feet per minute",
+      "distractors": [
+        "500 feet per minute",
+        "2,000 feet per minute",
+        "1,500 feet per minute"
+      ],
+      "explanation": "The radiosonde is suspended below a hydrogen- or helium-filled balloon that rises at approximately 1,000 fpm. It can ascend to altitudes as high as 115,000 feet and drift as far as 125 miles before the balloon expands and pops.",
+      "reference": {
+        "page": "13-2",
+        "text": "Once released, the balloon rises at a rate of approximately 1,000 feet per minute (fpm)."
+      }
+    },
+    {
+      "section": "Radar Observations",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "How does NEXRAD Doppler radar operation in clear air mode differ from precipitation mode?",
+      "correct_answer": "Clear air mode is more sensitive and updates approximately every 10 minutes, while precipitation mode updates every 4 to 6 minutes",
+      "distractors": [
+        "Clear air mode updates every 4 to 6 minutes, while precipitation mode updates every 10 minutes",
+        "Clear air mode is less sensitive but updates more frequently than precipitation mode",
+        "Both modes have the same sensitivity but different update rates"
+      ],
+      "explanation": "In clear air mode, a slow antenna rotation allows the radar to sample the atmosphere longer, making it the most sensitive mode with updates about every 10 minutes. In precipitation mode, stronger return signals allow a faster antenna rotation, updating every 4 to 6 minutes.",
+      "reference": {
+        "page": "13-3",
+        "text": "In clear air mode, the radar is in its most sensitive operational mode because a slow antenna rotation allows the radar to sample the atmosphere longer. Images are updated about every 10 minutes in this mode."
+      }
+    },
+    {
+      "section": "Flight Service Station (FSS)",
+      "difficulty": 1,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "Which service outlet is described as the primary source for preflight weather information?",
+      "correct_answer": "Flight Service Station (FSS)",
+      "distractors": [
+        "Hazardous Inflight Weather Advisory Service (HIWAS)",
+        "Telephone Information Briefing Service (TIBS)",
+        "Transcribed Weather Broadcast (TWEB)"
+      ],
+      "explanation": "The FSS is the primary source for preflight weather information and can be reached 24 hours a day at 1-800-WX-BRIEF. TIBS is a preliminary briefing tool, HIWAS is an inflight broadcast, and TWEB is primarily an Alaska service.",
+      "reference": {
+        "page": "13-4",
+        "text": "The FSS is the primary source for preflight weather information."
+      }
+    },
+    {
+      "section": "Hazardous Inflight Weather Advisory Service (HIWAS)",
+      "difficulty": 1,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "Over what type of navigational aid does HIWAS broadcast hazardous weather information?",
+      "correct_answer": "Selected VORs",
+      "distractors": [
+        "Selected NDBs",
+        "Selected ILS localizers",
+        "Selected GPS waypoints"
+      ],
+      "explanation": "HIWAS is an automated continuous broadcast of hazardous weather information over selected VOR NAVAIDs. VORs with HIWAS capability are depicted on aeronautical charts with an 'H' in the upper right corner of the identification box.",
+      "reference": {
+        "page": "13-4",
+        "text": "Hazardous Inflight Weather Advisory Service (HIWAS), available in the 48 conterminous states, is an automated continuous broadcast of hazardous weather information over selected VOR navigational aids (NAVAIds)."
+      }
+    },
+    {
+      "section": "Outlook Briefing",
+      "difficulty": 1,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "Under what circumstance should a pilot request an outlook briefing?",
+      "correct_answer": "When the planned departure is 6 hours or more away",
+      "distractors": [
+        "When the flight is delayed less than 2 hours from the original departure time",
+        "When the pilot needs to update a previously obtained standard briefing",
+        "When the planned departure is within 2 hours and current conditions are needed"
+      ],
+      "explanation": "An outlook briefing is requested when a planned departure is 6 hours or more away. It provides initial forecast information limited in scope. A prudent pilot should request a follow-up standard briefing near the time of departure. An abbreviated briefing is used to update a previous briefing.",
+      "reference": {
+        "page": "13-5",
+        "text": "An outlook briefing should be requested when a planned departure is 6 hours or more away."
+      }
+    },
+    {
+      "section": "Standard Briefing",
+      "difficulty": 2,
+      "categories": [
+        "checkride_oral",
+        "general_knowledge"
+      ],
+      "question": "When a standard weather briefing includes the statement 'VFR flight not recommended,' what is the pilot's responsibility?",
+      "correct_answer": "The pilot must make the final go/no-go decision, but should carefully weigh the advisory",
+      "distractors": [
+        "The pilot is prohibited from conducting the flight under VFR",
+        "The pilot must file an IFR flight plan before departing",
+        "The pilot must request an abbreviated briefing before departing"
+      ],
+      "explanation": "The 'VFR flight not recommended' statement is an advisory, not a prohibition. The briefer states this when weather is below VFR minimums or doubtful for VFR flight. It remains the pilot's decision whether to continue, but the advisory should be weighed carefully.",
+      "reference": {
+        "page": "13-5",
+        "text": "It is the pilot's decision whether or not to continue the flight under VFR, but this advisory should be weighed carefully."
+      }
+    },
+    {
+      "section": "Pilot Weather Reports (PIREPs)",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "Under what conditions are ATC facilities required to solicit PIREPs from pilots in the area?",
+      "correct_answer": "When the ceiling is below 5,000 feet or visibility is at or below five miles",
+      "distractors": [
+        "When the ceiling is below 3,000 feet or visibility is at or below three miles",
+        "When the ceiling is below 1,000 feet or visibility is at or below one mile",
+        "When the ceiling is below 10,000 feet or visibility is at or below ten miles"
+      ],
+      "explanation": "ATC facilities are required to solicit PIREPs when the ceiling is below 5,000 feet or visibility is at or below five miles. PIREPs provide real-time information about turbulence, icing, and cloud heights that cannot be gathered from any other source.",
+      "reference": {
+        "page": "13-8",
+        "text": "If the ceiling is below 5,000 feet, or visibility is at or below five miles, ATC facilities are required to solicit PIREPs from pilots in the area."
+      }
+    },
+    {
+      "section": "Terminal Aerodrome Forecasts (TAF)",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "In a TAF, which cloud types are specifically identified in the forecast sky condition group?",
+      "correct_answer": "Only cumulonimbus (CB) clouds",
+      "distractors": [
+        "Cumulonimbus (CB) and towering cumulus (TCU) clouds",
+        "All cloud types including stratus, cumulus, and cirrus",
+        "Only towering cumulus (TCU) clouds"
+      ],
+      "explanation": "Unlike METARs, which can report both CB and TCU clouds, TAFs only specifically forecast cumulonimbus (CB) clouds in the sky condition group. This is because CB clouds indicate thunderstorms and have the most significant operational impact.",
+      "reference": {
+        "page": "13-9",
+        "text": "Only cumulonimbus (CB) clouds are forecast in this portion of the TAF report as opposed to CBs and towering cumulus in the METAR."
+      }
+    },
+    {
+      "section": "Area Forecasts (FA)",
+      "difficulty": 2,
+      "categories": [
+        "written_exam"
+      ],
+      "question": "How often are area forecasts (FA) issued, and what is their valid period?",
+      "correct_answer": "Issued three times a day, valid for 18 hours",
+      "distractors": [
+        "Issued four times a day, valid for 24 hours",
+        "Issued twice a day, valid for 12 hours",
+        "Issued six times a day, valid for 6 hours"
+      ],
+      "explanation": "Area forecasts are issued three times a day and are valid for 18 hours. They provide a picture of clouds, general weather conditions, and VMC expected over a large area encompassing several states, and are especially useful for smaller airports without terminal forecasts.",
+      "reference": {
+        "page": "13-10",
+        "text": "Area forecasts are issued three times a day and are valid for 18 hours."
+      }
+    },
+    {
+      "section": "AIRMET",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "Which AIRMET designator is used to denote turbulence, strong surface winds, and low-level wind shear?",
+      "correct_answer": "Tango",
+      "distractors": [
+        "Sierra",
+        "Zulu",
+        "Romeo"
+      ],
+      "explanation": "AIRMET Tango denotes turbulence, strong surface winds, and low-level wind shear. Sierra denotes IFR and mountain obscuration, and Zulu denotes icing and freezing levels. Only three AIRMET designators exist (Sierra, Tango, Zulu), so Romeo is not a valid AIRMET designator.",
+      "reference": {
+        "page": "13-11",
+        "text": "Sierra is the AIRMET code used to denote IFR and mountain obscuration; Tango is used to denote turbulence, strong surface winds, and low-level wind shear; and Zulu is used to denote icing and freezing levels."
+      }
+    },
+    {
+      "section": "SIGMET",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "What is the standard valid period for a SIGMET, and how does it differ for hurricanes?",
+      "correct_answer": "4 hours, but 6 hours if related to a hurricane",
+      "distractors": [
+        "6 hours, but 4 hours if related to a hurricane",
+        "2 hours, but 4 hours if related to a hurricane",
+        "4 hours for all SIGMETs regardless of weather type"
+      ],
+      "explanation": "SIGMETs are unscheduled forecasts valid for 4 hours. However, if the SIGMET relates to a hurricane, it is valid for 6 hours. SIGMETs concern non-convective weather hazardous to all aircraft, including severe icing, severe turbulence, dust storms, and volcanic ash.",
+      "reference": {
+        "page": "13-12",
+        "text": "SIGMETs are unscheduled forecasts that are valid for 4 hours unless the SIGMET relates to a hurricane, in which case it is valid for 6 hours."
+      }
+    },
+    {
+      "section": "Convective Significant Meteorological Information (WST)",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "Which of the following conditions would trigger the issuance of a Convective SIGMET?",
+      "correct_answer": "Severe thunderstorms with surface winds greater than 50 knots, hail at the surface greater than or equal to ¾ inch in diameter, or tornadoes",
+      "distractors": [
+        "Severe icing not associated with thunderstorms",
+        "Moderate turbulence and sustained surface winds of 30 knots or greater",
+        "Any thunderstorm with moderate precipitation regardless of coverage area"
+      ],
+      "explanation": "Convective SIGMETs are issued for severe thunderstorms with surface winds greater than 50 knots, hail at the surface greater than or equal to ¾ inch, or tornadoes. They are also issued for embedded thunderstorms, lines of thunderstorms, or thunderstorms with heavy or greater precipitation affecting 40 percent or more of a 3,000 square mile or greater region. Severe icing and moderate turbulence are covered by SIGMETs and AIRMETs, respectively.",
+      "reference": {
+        "page": "13-12",
+        "text": "Convective SIGMETs are issued for severe thunderstorms with surface winds greater than 50 knots, hail at the surface greater than or equal to ¾ inch in diameter, or tornadoes."
+      }
+    },
+    {
+      "section": "Winds and Temperature Aloft Forecast (FB)",
+      "difficulty": 3,
+      "categories": [
+        "written_exam"
+      ],
+      "question": "In a Winds and Temperature Aloft Forecast (FB), how should a pilot decode a four-digit wind group that appears as '7319'?",
+      "correct_answer": "Subtract 50 from the direction and add 100 to the speed, yielding 230° at 119 knots",
+      "distractors": [
+        "Add 50 to the direction and subtract 100 from the speed, yielding 123° at 81 knots",
+        "The wind is from 730° at 19 knots, which is invalid",
+        "The wind is from 73° at 19 knots, indicating light and variable winds"
+      ],
+      "explanation": "When wind speed is forecast to be greater than 99 knots but less than 199 knots, the computer adds 50 to the direction and subtracts 100 from the speed. To decode, the pilot must reverse this: subtract 50 from 73 to get 230°, and add 100 to 19 to get 119 knots.",
+      "reference": {
+        "page": "13-13",
+        "text": "If the wind speed is forecast to be greater than 99 knots but less than 199 knots, the computer adds 50 to the direction and subtracts 100 from the speed. To decode this type of data group, the reverse must be accomplished."
+      }
+    },
+    {
+      "section": "Weather Depiction Chart",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "On a weather depiction chart, how are areas of IFR conditions depicted?",
+      "correct_answer": "Hatched areas outlined by a smooth line",
+      "distractors": [
+        "Nonhatched areas outlined by a smooth line",
+        "Areas not outlined at all",
+        "Hatched areas outlined by a jagged line"
+      ],
+      "explanation": "IFR conditions (ceilings less than 1,000 feet and visibility less than three miles) are shown by a hatched area outlined by a smooth line. MVFR regions are shown by a nonhatched area outlined by a smooth line. VFR areas are not outlined.",
+      "reference": {
+        "page": "13-15",
+        "text": "Areas of IFR conditions (ceilings less than 1,000 feet and visibility less than three miles) are shown by a hatched area outlined by a smooth line."
+      }
+    },
+    {
+      "section": "ATC Radar Weather Displays",
+      "difficulty": 2,
+      "categories": [
+        "checkride_oral",
+        "general_knowledge"
+      ],
+      "question": "What limitation of ATC radar should pilots be aware of regarding turbulence near thunderstorms?",
+      "correct_answer": "ATC radar cannot detect turbulence, and severity can be much greater than precipitation intensity indicates",
+      "distractors": [
+        "ATC radar can detect turbulence but only within 20 miles of a thunderstorm",
+        "ATC radar detects turbulence but cannot display it to pilots",
+        "ATC radar can detect turbulence but only in clear air conditions"
+      ],
+      "explanation": "ATC radar is not able to detect turbulence. While turbulence generally correlates with precipitation intensity, the severity of turbulence near thunderstorms can be much greater than the precipitation intensity might indicate. Pilots should use caution within 20 miles of thunderstorms.",
+      "reference": {
+        "page": "13-17",
+        "text": "ATC radar is not able to detect turbulence... Operation within 20 miles of thunderstorms should be approached with great caution, as the severity of turbulence can be much greater than the precipitation intensity might indicate."
+      }
+    },
+    {
+      "section": "What Can Pilots Do?",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral",
+        "general_knowledge"
+      ],
+      "question": "When using in-cockpit NEXRAD weather displays, how much older could the actual weather conditions be compared to the age indicated on the display?",
+      "correct_answer": "Up to 15 to 20 minutes older than the age indicated on the display",
+      "distractors": [
+        "Up to 5 minutes older than the age indicated on the display",
+        "Up to 30 to 40 minutes older than the age indicated on the display",
+        "The age indicated on the display always matches the actual weather conditions"
+      ],
+      "explanation": "The NEXRAD age indicator shows the age of the mosaic image, not the actual weather conditions. Due to processing and transmission delays, the actual weather could be up to 15 to 20 minutes older than the age indicated on the display. Pilots should never use NEXRAD imagery for storm penetration or navigation through a line of storms.",
+      "reference": {
+        "page": "13-19",
+        "text": "The age indicator does not show the age of the actual weather conditions, but rather the age of the mosaic image. The actual weather conditions could be up to 15 to 20 minutes OLDER than the age indicated on the display."
+      }
+    },
+    {
+      "section": "Flight Information Service- Broadcast (FIS-B)",
+      "difficulty": 2,
+      "categories": [
+        "checkride_oral",
+        "general_knowledge"
+      ],
+      "question": "What is the regulatory status of weather products provided through FIS-B?",
+      "correct_answer": "They are for information only and do not meet the safety and regulatory requirements of official weather products",
+      "distractors": [
+        "They are official weather products that meet all regulatory requirements for flight planning",
+        "They can be used as primary weather products but only for VFR flight",
+        "They are official weather products but only when received within 5 minutes of transmission"
+      ],
+      "explanation": "FIS-B weather products are for information only and do not meet the safety and regulatory requirements of official weather products. They should not be used as primary weather products for operational and safety requirements. Some rendered data can be up to 20 or 30 minutes old.",
+      "reference": {
+        "page": "13-23",
+        "text": "The weather products provided by FIS-B are for information only. Therefore, these products do not meet the safety and regulatory requirements of official weather products."
+      }
+    }
+  ]
+}

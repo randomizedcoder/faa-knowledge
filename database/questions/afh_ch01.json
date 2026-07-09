@@ -1,0 +1,385 @@
+{
+  "source": "AFH",
+  "chapter": 1,
+  "questions": [
+    {
+      "section": "Introduction",
+      "difficulty": 1,
+      "categories": [
+        "general_knowledge",
+        "checkride_oral"
+      ],
+      "question": "According to the chapter, which comparison does the FAA describe as misleading when discussing learning to fly an aircraft?",
+      "correct_answer": "Learning to drive an automobile, because aircraft operate in a three-dimensional environment requiring different motor skills",
+      "distractors": [
+        "Learning to ride a bicycle, because aircraft require no balance skill",
+        "Learning to sail a boat, because both rely entirely on wind",
+        "Learning to operate heavy machinery, because both use foot pedals"
+      ],
+      "explanation": "The chapter states that comparing learning to fly to learning to drive an automobile is misleading because aircraft operate in a three-dimensional environment requiring a depth of knowledge and type of motor skill development more sensitive to that situation, including coordination, timing, control touch, and speed sense.",
+      "reference": {
+        "page": "1-1",
+        "text": "Learning to fly an aircraft has often been compared to learning to drive an automobile. This analogy is misleading. Since aircraft operate in a three-dimensional environment, they require a depth of knowledge and type of motor skill development that is more sensitive to this situation."
+      }
+    },
+    {
+      "section": "Introduction",
+      "difficulty": 2,
+      "categories": [
+        "checkride_oral",
+        "general_knowledge"
+      ],
+      "question": "What does the chapter identify as the primary purpose of primary and intermediate flight training?",
+      "correct_answer": "To develop knowledge, experience, skills, and safe habits that are transferable to any airplane",
+      "distractors": [
+        "To learn how to fly a particular make and model of airplane",
+        "To pass the required FAA practical tests for pilot certification",
+        "To accumulate the minimum flight hours required by 14 CFR part 61"
+      ],
+      "explanation": "The chapter explicitly states that the purpose of flight training is not to learn a particular make and model, but to develop transferable skills and safe habits. It also notes that passing practical tests is 'only incidental to this goal' of producing a safe and competent pilot.",
+      "reference": {
+        "page": "1-2",
+        "text": "The purpose of primary and intermediate flight training, however, is not to learn how to fly a particular make and model airplane. The purpose of flight training is to develop the knowledge, experience, skills, and safe habits that establish a foundation and are transferable to any airplane."
+      }
+    },
+    {
+      "section": "Role of the FAA",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "Under what condition does a standard airworthiness certificate remain valid?",
+      "correct_answer": "As long as the aircraft meets its approved type design, is in a condition for safe operation, and maintenance is performed in accordance with 14 CFR parts 21, 43, and 91",
+      "distractors": [
+        "It must be renewed every 2 years with proof of continued airworthiness",
+        "It remains valid indefinitely regardless of aircraft condition or maintenance",
+        "It is valid only for the original owner and expires upon sale of the aircraft"
+      ],
+      "explanation": "The chapter states a standard airworthiness certificate remains valid as long as the aircraft meets its approved type design, is in a condition for safe operation, and maintenance, preventative maintenance, and alterations are performed in accordance with 14 CFR parts 21, 43, and 91.",
+      "reference": {
+        "page": "1-3",
+        "text": "A standard airworthiness certificate remains valid as long as the aircraft meets its approved type design, is in a condition for safe operation and maintenance, and preventative maintenance and alterations are performed in accordance with 14 CFR parts 21, 43, and 91."
+      }
+    },
+    {
+      "section": "Role of the FAA",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "If the minimum equipment required for flight is outlined in 14 CFR part 91, section 91.205, where does the chapter say a pilot can find the specific equipment required for a particular airplane to be airworthy?",
+      "correct_answer": "The Airplane Flight Manual/Pilot's Operating Handbook (AFM/POH)",
+      "distractors": [
+        "The Type Certificate Data Sheet (TCDS) only",
+        "14 CFR part 43",
+        "The Airworthiness Directive (AD) database"
+      ],
+      "explanation": "The chapter states that while 14 CFR part 91, section 91.205 outlines the minimum equipment required for flight, the AFM/POH lists the equipment required for the airplane to be airworthy. The equipment list in the AFM/POH is developed during the airplane certification process.",
+      "reference": {
+        "page": "1-4",
+        "text": "While 14 CFR part 91, section 91.205 outlines the minimum equipment required for flight, the Airplane Flight Manual/Pilot's Operating Handbook (AFM/POH) lists the equipment required for the airplane to be airworthy."
+      }
+    },
+    {
+      "section": "Role of the Pilot Examiner",
+      "difficulty": 1,
+      "categories": [
+        "general_knowledge",
+        "checkride_oral"
+      ],
+      "question": "Which of the following is a Designated Pilot Examiner (DPE) NOT authorized to do on behalf of the FAA?",
+      "correct_answer": "Initiate enforcement action against a pilot",
+      "distractors": [
+        "Conduct practical tests leading to issuance of specific pilot certificates",
+        "Accept applications for pilot certificates and ratings",
+        "Charge a reasonable fee for administering a practical test"
+      ],
+      "explanation": "The chapter explicitly states that a DPE is not an FAA ASI and cannot initiate enforcement action, investigate accidents, or perform surveillance activities on behalf of the FAA. A DPE's authority is generally limited to accepting applications and conducting practical tests.",
+      "reference": {
+        "page": "1-6",
+        "text": "A DPE cannot initiate enforcement action, investigate accidents, or perform surveillance activities on behalf of the FAA."
+      }
+    },
+    {
+      "section": "Role of the Flight Instructor",
+      "difficulty": 2,
+      "categories": [
+        "checkride_oral",
+        "general_knowledge"
+      ],
+      "question": "What does the chapter describe as the cornerstone of aviation safety, and what responsibility does this role carry?",
+      "correct_answer": "The flight instructor, who assumes total responsibility for training pilots in all knowledge areas and skills necessary for safe operation in the NAS",
+      "distractors": [
+        "The DPE, who assumes responsibility for verifying pilot competency through practical tests",
+        "The FSDO inspector, who monitors all training activities and certifies pilots",
+        "The FAA Academy, which designs all training curricula for pilot certification"
+      ],
+      "explanation": "The chapter states 'The flight instructor is the cornerstone of aviation safety' and that the FAA has adopted a training concept placing full responsibility for pilot training on the flight instructor, including airmanship skills, judgment, decision-making, hazard identification, and risk analysis.",
+      "reference": {
+        "page": "1-6",
+        "text": "The flight instructor is the cornerstone of aviation safety. The FAA has adopted an operational training concept that places the full responsibility for pilot training on the flight instructor."
+      }
+    },
+    {
+      "section": "Role of the Flight Instructor",
+      "difficulty": 2,
+      "categories": [
+        "general_knowledge"
+      ],
+      "question": "What does the chapter identify as a key reason a flight instructor should meticulously observe safety practices during all flight operations, not just during instruction?",
+      "correct_answer": "Learners consciously or unconsciously attempt to imitate their instructor's flying habits",
+      "distractors": [
+        "The FAA requires instructors to maintain a perfect safety record to keep their certification",
+        "Insurance policies for flight schools mandate zero safety violations",
+        "Students are required to evaluate their instructors and report unsafe practices"
+      ],
+      "explanation": "The chapter explains that learners consider their flight instructor to be a paragon of flying proficiency whose flying habits they consciously or unconsciously attempt to imitate, which is why instructors must observe safety practices during all flight operations.",
+      "reference": {
+        "page": "1-7",
+        "text": "Learners consider their flight instructor to be a paragon of flying proficiency whose flying habits they, consciously or unconsciously, attempt to imitate."
+      }
+    },
+    {
+      "section": "Sources of Flight Training",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "Why are graduates of FAA-certificated pilot schools (14 CFR part 141) allowed to meet certification experience requirements with less flight time?",
+      "correct_answer": "Because the schools operate in a structured environment with an FAA-approved training course outline",
+      "distractors": [
+        "Because part 141 schools use only more advanced training aircraft",
+        "Because part 141 instructors have higher certification standards than part 61 instructors",
+        "Because part 141 graduates are exempt from taking the FAA practical test"
+      ],
+      "explanation": "The chapter states that training at an FAA-certificated pilot school is structured, and because of this structured environment, graduates are allowed to meet the certification experience requirements of 14 CFR part 61 with less flight time.",
+      "reference": {
+        "page": "1-8",
+        "text": "Training at an FAA-certificated pilot school is structured and because of this structured environment, the graduates of these pilot schools are allowed to meet the certification experience requirements of 14 CFR part 61 with less flight time."
+      }
+    },
+    {
+      "section": "Sources of Flight Training",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "What authority does an FAA-certificated pilot school with examining authority have that other schools do not?",
+      "correct_answer": "The authority to recommend its graduates for pilot certificates or ratings without further testing by the FAA",
+      "distractors": [
+        "The authority to issue medical certificates to its students",
+        "The authority to conduct all FAA knowledge tests on site",
+        "The authority to waive the flight time requirements for any certificate"
+      ],
+      "explanation": "The chapter states that a school with examining authority for a particular course has the authority to recommend its graduates for pilot certificates or ratings without further testing by the FAA.",
+      "reference": {
+        "page": "1-8",
+        "text": "A school with examining authority for a particular course(s) has the authority to recommend its graduates for pilot certificates or ratings without further testing by the FAA."
+      }
+    },
+    {
+      "section": "Airman Certification Standards (ACS) and Practical Test Standards (PTS)",
+      "difficulty": 1,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "How does the chapter characterize the ACS and PTS documents in terms of their intended use?",
+      "correct_answer": "They are testing documents, not teaching documents, and are not intended to be used as a training syllabus",
+      "distractors": [
+        "They are teaching documents that should be used as the primary training syllabus",
+        "They are reference manuals containing detailed descriptions of how to perform maneuvers",
+        "They are advisory documents with no bearing on practical test administration"
+      ],
+      "explanation": "The chapter explicitly states that the ACS and PTS are testing documents rather than teaching documents, and although applicants should be familiar with them during training, they are not intended to be used as a training syllabus. Descriptions of how to perform maneuvers are found in reference and teaching documents such as the handbook itself.",
+      "reference": {
+        "page": "1-9",
+        "text": "It should be emphasized that the ACS and PTS are testing documents rather than teaching documents. Although the pilot applicant should be familiar with these books and refer to the standards they contain during training, the ACS and PTS are not intended to be used as a training syllabus."
+      }
+    },
+    {
+      "section": "Collision Avoidance",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "According to the chapter, where do most midair collision accidents and near midair collision incidents typically occur?",
+      "correct_answer": "In good VFR weather conditions, during daylight hours, within 5 miles of an airport and/or near navigation aids",
+      "distractors": [
+        "In IFR conditions, at night, and in remote areas far from airports",
+        "In marginal VFR conditions, during twilight hours, and at cruising altitude above 10,000 feet",
+        "In clear air, at night, and more than 50 miles from any airport"
+      ],
+      "explanation": "The chapter states that most midair collision accidents and reported near midair collision incidents occur in good VFR weather conditions and during the hours of daylight, and that most occur within 5 miles of an airport and/or near navigation aids.",
+      "reference": {
+        "page": "1-10",
+        "text": "Most midair collision accidents and reported near midair collision incidents occur in good VFR weather conditions and during the hours of daylight. Most of these accident/incidents occur within 5 miles of an airport and/or near navigation aids."
+      }
+    },
+    {
+      "section": "Collision Avoidance",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "When scanning for traffic, what visual technique does the chapter recommend for the most effective detection of conflicting aircraft?",
+      "correct_answer": "A series of short, regularly-spaced eye movements not exceeding 10 degrees, observing each area for at least 1 second",
+      "distractors": [
+        "Continuous sweeping eye movements across 30-degree segments at a time",
+        "Staring fixedly at one sector of the sky for 10 seconds before moving to the next",
+        "Rapid random eye movements covering the entire visual field in under 5 seconds"
+      ],
+      "explanation": "The chapter states that effective scanning is accomplished with a series of short, regularly-spaced eye movements that bring successive areas of the sky into the central visual field. Each movement should not exceed 10 degrees, and each area should be observed for at least 1 second to enable detection.",
+      "reference": {
+        "page": "1-11",
+        "text": "Effective scanning is accomplished with a series of short, regularly-spaced eye movements that bring successive areas of the sky into the central visual field. Each movement should not exceed 10 degrees, and each area should be observed for at least 1 second to enable detection."
+      }
+    },
+    {
+      "section": "Collision Avoidance",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "If another aircraft appears to have no relative motion but is increasing in size, what does this indicate and what should the pilot do?",
+      "correct_answer": "The other aircraft is likely on a collision course, and the pilot should take immediate evasive action",
+      "distractors": [
+        "The other aircraft is moving away and no action is needed",
+        "The other aircraft is flying parallel and the pilot should maintain course",
+        "The other aircraft is descending below and the pilot should climb to avoid it"
+      ],
+      "explanation": "The chapter states that if another aircraft appears to have no relative motion, it is likely on a collision course. If the other aircraft shows no lateral or vertical motion but is increasing in size, the observing pilot needs to take immediate evasive action.",
+      "reference": {
+        "page": "1-11",
+        "text": "It is essential to remember that if another aircraft appears to have no relative motion, it is likely to be on a collision course. If the other aircraft shows no lateral or vertical motion, but is increasing in size, the observing pilot needs to take immediate evasive action to avoid a collision."
+      }
+    },
+    {
+      "section": "Runway Incursion Avoidance",
+      "difficulty": 1,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "What does the chapter identify as the three major areas contributing to runway incursions?",
+      "correct_answer": "Communications, airport knowledge, and flight deck procedures for maintaining orientation",
+      "distractors": [
+        "Weather conditions, aircraft speed, and runway lighting",
+        "ATC staffing, airport size, and time of day",
+        "Pilot fatigue, aircraft type, and taxiway markings"
+      ],
+      "explanation": "The chapter identifies the three major areas contributing to runway incursions as communications, airport knowledge, and flight deck procedures for maintaining orientation.",
+      "reference": {
+        "page": "1-12",
+        "text": "The three major areas contributing to runway incursions are communications, airport knowledge, and flight deck procedures for maintaining orientation."
+      }
+    },
+    {
+      "section": "Stall Awareness",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "According to the chapter, what is the direct cause of every stall, and what is the relationship between airspeed and stalls?",
+      "correct_answer": "An excessive angle of attack is the direct cause; the wing can be stalled at any speed",
+      "distractors": [
+        "Low airspeed is the direct cause; stalls cannot occur at high speed",
+        "High pitch attitude is the direct cause; stalls cannot occur at level pitch",
+        "Power loss is the direct cause; stalls cannot occur with full power"
+      ],
+      "explanation": "The chapter emphasizes that the direct cause of every stall is an excessive angle of attack (AOA). It further states that low speed is not necessary to produce a stall—the wing can be brought to an excessive AOA at any speed. High pitch attitude is also not an absolute indication of proximity to a stall.",
+      "reference": {
+        "page": "1-13",
+        "text": "The flight instructor should emphasize that the direct cause of every stall is an excessive angle of attack (AOA)... The flight instructor should emphasize that low speed is not necessary to produce a stall. The wing can be brought to an excessive AOA at any speed."
+      }
+    },
+    {
+      "section": "Stall Awareness",
+      "difficulty": 2,
+      "categories": [
+        "checkride_oral",
+        "general_knowledge"
+      ],
+      "question": "What does the chapter identify as the key skill a pilot needs for stall awareness?",
+      "correct_answer": "The ability to visualize the wing's angle of attack in any particular circumstance to estimate the margin of safety above stall",
+      "distractors": [
+        "The ability to memorize the stall speeds for every aircraft configuration",
+        "The ability to feel vibrations in the control yoke before a stall occurs",
+        "The ability to maintain a minimum airspeed buffer above the published stall speed"
+      ],
+      "explanation": "The chapter states that the key to stall awareness is the pilot's ability to visualize the wing's AOA in any particular circumstance and thereby estimate the margin of safety above stall. This is described as a learned skill that should be acquired early in flight training.",
+      "reference": {
+        "page": "1-14",
+        "text": "The key to stall awareness is the pilot's ability to visualize the wing's AOA in any particular circumstance, and thereby be able to estimate his or her margin of safety above stall."
+      }
+    },
+    {
+      "section": "Use of Checklists",
+      "difficulty": 1,
+      "categories": [
+        "checkride_oral",
+        "general_knowledge"
+      ],
+      "question": "What distinction does the chapter make between a checklist and a 'do list'?",
+      "correct_answer": "A checklist is used to verify that necessary actions have already been accomplished, while a 'do list' implies actions are performed while reading the list",
+      "distractors": [
+        "A checklist is mandatory while a 'do list' is optional",
+        "A 'do list' is used in flight and a checklist is used only on the ground",
+        "A checklist covers normal procedures while a 'do list' covers emergency procedures"
+      ],
+      "explanation": "The chapter explains that checklists need not be 'do lists.' The proper actions can be accomplished first, and then the checklist used to quickly ensure all necessary tasks have been completed, with emphasis on the 'check' in checklist.",
+      "reference": {
+        "page": "1-15",
+        "text": "Checklists need not be 'do lists.' In other words, the proper actions can be accomplished, and then the checklist used to quickly ensure all necessary tasks or actions have been completed with emphasis on the 'check' in checklist."
+      }
+    },
+    {
+      "section": "Use of Checklists",
+      "difficulty": 2,
+      "categories": [
+        "checkride_oral",
+        "general_knowledge"
+      ],
+      "question": "What three-step process does the chapter recommend for the exchange of flight controls between instructor and learner?",
+      "correct_answer": "The transferor says 'You have the flight controls,' the receiver acknowledges 'I have the flight controls,' and the transferor confirms 'You have the flight controls,' with a visual check",
+      "distractors": [
+        "The instructor taps the learner's shoulder and says 'Your airplane,' and the learner nods to confirm",
+        "The transferor says 'My airplane,' the receiver releases the controls, and the transferor takes over",
+        "The learner requests control by saying 'Can I fly?' and the instructor hands over the controls without verbal confirmation"
+      ],
+      "explanation": "The chapter describes a three-step process: the transferor says 'You have the flight controls,' the receiver acknowledges 'I have the flight controls,' and the transferor confirms 'You have the flight controls.' A visual check should also be performed to ensure the other person actually has the controls.",
+      "reference": {
+        "page": "1-16",
+        "text": "When a flight instructor wishes the learner to take control of the aircraft, he or she should say to the learner, 'You have the flight controls.' The learner should acknowledge immediately by saying, 'I have the flight controls.' The flight instructor should then confirm by again saying, 'You have the flight controls.'"
+      }
+    },
+    {
+      "section": "FAA WINGS Program",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "How does the chapter characterize the relationship between the flight review required under 14 CFR part 61.56(c) and the FAA WINGS Program?",
+      "correct_answer": "The regulation specifies a minimum requirement, while the WINGS Program offers a path to enhanced proficiency and safety that exceeds the minimum",
+      "distractors": [
+        "The WINGS Program replaces the need for any flight review under part 61",
+        "The WINGS Program is only available to flight instructors, not private pilots",
+        "The regulation requires WINGS Program participation every 24 calendar months"
+      ],
+      "explanation": "The chapter states that 14 CFR part 61.56(c) specifies a minimum requirement for training and sign-off within 24 calendar months, and that many astute pilots realize this is a minimum. The WINGS Program is presented as a higher degree of commitment for enhanced proficiency, safety, and enjoyment, and many pilots use it to keep their flight review current.",
+      "reference": {
+        "page": "1-16",
+        "text": "Many astute pilots realize that this regulation specifies a minimum requirement, and the path to enhanced proficiency, safety, and enjoyment of flying takes a higher degree of commitment such as using 14 CFR part 61, section 61.56(e). For this reason, many pilots keep their flight review up-to-date using the FAA WINGS program."
+      }
+    }
+  ]
+}

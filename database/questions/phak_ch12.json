@@ -3,94 +3,361 @@
   "chapter": 12,
   "questions": [
     {
-      "section": "Atmosphere",
+      "section": "Composition of the Atmosphere",
       "difficulty": 1,
-      "categories": ["written_exam", "general_knowledge"],
-      "question": "In the standard atmosphere, what is the average temperature lapse rate in the troposphere?",
-      "correct_answer": "2°C per 1,000 feet",
-      "distractors": ["3.5°C per 1,000 feet", "1°C per 1,000 feet", "2°F per 1,000 feet"],
-      "explanation": "The standard lapse rate is approximately 2°C (3.5°F) per 1,000 feet of altitude gain in the troposphere."
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "What are the two most abundant gases in the Earth's atmosphere, and approximately what percentage of the atmosphere do they comprise together?",
+      "correct_answer": "Nitrogen (78%) and oxygen (21%), comprising about 99% of the atmosphere.",
+      "distractors": [
+        "Oxygen (78%) and nitrogen (21%), comprising about 99% of the atmosphere.",
+        "Nitrogen (78%) and argon (21%), comprising about 99% of the atmosphere.",
+        "Oxygen (78%) and carbon dioxide (21%), comprising about 99% of the atmosphere."
+      ],
+      "explanation": "The chapter states that in any given volume of air, nitrogen accounts for 78 percent of the gases, while oxygen makes up 21 percent. Argon, carbon dioxide, and other trace gases make up the remaining one percent.",
+      "reference": {
+        "page": "12-2",
+        "text": "In any given volume of air, nitrogen accounts for 78 percent of the gases that comprise the atmosphere, while oxygen makes up 21 percent."
+      }
     },
     {
-      "section": "Wind",
+      "section": "Atmosphere",
       "difficulty": 2,
-      "categories": ["written_exam", "checkride_oral"],
-      "question": "What causes wind?",
-      "correct_answer": "Differences in atmospheric pressure (pressure gradient force)",
-      "distractors": ["Rotation of the earth only", "Heating of the earth's surface only", "Convective currents in the stratosphere"],
-      "explanation": "Wind is caused by pressure differences in the atmosphere. Air flows from high pressure to low pressure. The Coriolis effect, friction, and other forces then modify wind direction and speed."
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "Why is the tropopause important to pilots and meteorologists?",
+      "correct_answer": "It traps moisture and associated weather in the troposphere and is commonly associated with the jet stream and clear air turbulence.",
+      "distractors": [
+        "It is the boundary where temperature begins to increase with altitude, creating stable air.",
+        "It is the highest layer of the atmosphere where aircraft can operate without pressurization.",
+        "It separates the mesosphere from the thermosphere and prevents weather from rising above it."
+      ],
+      "explanation": "The text notes that the tropopause is a boundary at the top of the troposphere that traps moisture and associated weather below it. Its location is important because it is commonly associated with the location of the jet stream and clear air turbulence.",
+      "reference": {
+        "page": "12-3",
+        "text": "At the top of the troposphere is a boundary known as the tropopause, which traps moisture and the associated weather in the troposphere... Location of the tropopause is important because it is commonly associated with the location of the jet stream and possible clear air turbulence."
+      }
     },
     {
-      "section": "Coriolis Effect",
+      "section": "Coriolis Force",
       "difficulty": 2,
-      "categories": ["written_exam"],
-      "question": "In the Northern Hemisphere, how does the Coriolis effect influence wind direction?",
-      "correct_answer": "It deflects wind to the right of its path",
-      "distractors": ["It deflects wind to the left of its path", "It has no effect on wind direction", "It causes wind to blow directly from high to low pressure"],
-      "explanation": "In the Northern Hemisphere, the Coriolis effect (due to Earth's rotation) deflects moving air to the right. In the Southern Hemisphere, it deflects to the left."
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "How does the Coriolis force affect the movement of air in the Northern Hemisphere?",
+      "correct_answer": "It deflects moving air to the right, causing it to follow a curved path instead of a straight line.",
+      "distractors": [
+        "It deflects moving air to the left, creating a counterclockwise circulation around high-pressure systems.",
+        "It causes air to flow directly from areas of high pressure to areas of low pressure in a straight line.",
+        "It only affects air movement at the equator, causing air to rise directly upward."
+      ],
+      "explanation": "The chapter explains that the Coriolis force deflects air to the right in the Northern Hemisphere, causing it to follow a curved path instead of a straight line. The amount of deflection is greatest at the poles and diminishes to zero at the equator.",
+      "reference": {
+        "page": "12-3",
+        "text": "The Coriolis force deflects air to the right in the Northern Hemisphere, causing it to follow a curved path instead of a straight line."
+      }
     },
     {
-      "section": "Fronts",
-      "difficulty": 2,
-      "categories": ["written_exam", "checkride_oral"],
-      "question": "What type of weather is typically associated with a warm front?",
-      "correct_answer": "Widespread low clouds, steady precipitation, and poor visibility over a large area",
-      "distractors": ["Severe thunderstorms and hail along a narrow band", "Clear skies and unlimited visibility", "Isolated rain showers with rapid clearing"],
-      "explanation": "Warm fronts feature warm air riding up over cooler air, producing stratiform clouds, steady precipitation, and reduced visibility over a wide area ahead of the front."
+      "section": "Measurement of Atmosphere Pressure",
+      "difficulty": 1,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "Under standard atmospheric conditions at sea level, what is the standard sea level pressure and temperature?",
+      "correct_answer": "29.92 \"Hg and 15 °C",
+      "distractors": [
+        "29.92 \"Hg and 0 °C",
+        "1013.2 \"Hg and 59 °C",
+        "14.7 \"Hg and 15 °C"
+      ],
+      "explanation": "The International Standard Atmosphere (ISA) has established standard sea level pressure as 29.92 \"Hg and a standard temperature of 59 °F (15 °C). These conditions are the basis for certain flight instruments and aircraft performance data.",
+      "reference": {
+        "page": "12-5",
+        "text": "Standard sea level pressure is defined as 29.92 \"Hg and a standard temperature of 59 °F (15 °C)."
+      }
     },
     {
-      "section": "Fronts",
+      "section": "Measurement of Atmosphere Pressure",
       "difficulty": 2,
-      "categories": ["written_exam", "checkride_oral"],
-      "question": "What type of weather is typically associated with a fast-moving cold front?",
-      "correct_answer": "A narrow band of thunderstorms, turbulence, and gusty winds",
-      "distractors": ["Widespread fog and drizzle", "Gradual clearing with light winds", "Steady light rain over a broad area"],
-      "explanation": "A fast-moving cold front forces warm air up rapidly, creating cumulonimbus clouds, thunderstorms, heavy rain, turbulence, and gusty surface winds in a narrow band along the front."
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "If a weather station located at 5,000 feet above sea level measures a station pressure of 24.92 \"Hg, what pressure will it report to provide a standard sea level pressure reading?",
+      "correct_answer": "29.92 \"Hg",
+      "distractors": [
+        "24.92 \"Hg",
+        "25.92 \"Hg",
+        "19.92 \"Hg"
+      ],
+      "explanation": "To provide a common reference, stations convert barometric pressure to sea level pressure by adding approximately 1 \"Hg for every 1,000 feet of elevation. A station at 5,000 feet with 24.92 \"Hg adds 5 \"Hg, reporting 29.92 \"Hg.",
+      "reference": {
+        "page": "12-5",
+        "text": "each station converts its barometric pressure by adding approximately 1 \"Hg for every 1,000 feet of elevation. For example, a station at 5,000 feet above sea level, with a reading of 24.92 \"Hg, reports a sea level pressure reading of 29.92 \"Hg."
+      }
     },
     {
-      "section": "Thunderstorms",
+      "section": "Wind Patterns",
+      "difficulty": 1,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "What type of weather is typically associated with low-pressure systems, and why?",
+      "correct_answer": "Bad weather, because air flows into the low to replace rising air, bringing increasing cloudiness and precipitation.",
+      "distractors": [
+        "Good weather, because the air is dry and descending, preventing cloud formation.",
+        "Bad weather, because cold, dense air sinks and traps moisture near the surface.",
+        "Good weather, because the clockwise circulation disperses clouds and precipitation."
+      ],
+      "explanation": "High-pressure systems are areas of dry, descending air associated with good weather. Conversely, air flows into a low-pressure area to replace rising air, usually bringing increasing cloudiness and precipitation, hence bad weather is commonly associated with low pressure.",
+      "reference": {
+        "page": "12-7",
+        "text": "Conversely, air flows into a low-pressure area to replace rising air. This air usually brings increasing cloudiness and precipitation. Thus, bad weather is commonly associated with areas of low pressure."
+      }
+    },
+    {
+      "section": "Convective Currents",
       "difficulty": 2,
-      "categories": ["written_exam", "checkride_oral"],
-      "question": "What three conditions are necessary for a thunderstorm to form?",
-      "correct_answer": "Sufficient moisture, an unstable lapse rate, and a lifting action",
-      "distractors": ["High pressure, dry air, and wind shear", "Cold front passage, low humidity, and stable air", "Mountain terrain, fog, and temperature inversion"],
-      "explanation": "All thunderstorms require: (1) sufficient moisture to form clouds and rain, (2) an unstable atmosphere (steep lapse rate), and (3) a lifting force (fronts, orographic, convection, or convergence)."
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "During the day, how does the wind circulate near a large body of water adjacent to land, and what is this called?",
+      "correct_answer": "Land heats faster than water, causing warm air over land to rise and be replaced by cooler air from over the water, creating a sea breeze.",
+      "distractors": [
+        "Water heats faster than land, causing warm air over water to rise and be replaced by cooler air from land, creating a sea breeze.",
+        "Land cools faster than water, causing warm air over water to rise and be replaced by cooler air from land, creating a land breeze.",
+        "Water cools faster than land, causing warm air over land to rise and be replaced by cooler air from water, creating a land breeze."
+      ],
+      "explanation": "During the day, land heats faster than water, making the air over land warmer and less dense. It rises and is replaced by cooler, denser air flowing in from over the water, causing an onshore wind called a sea breeze. At night, the reverse occurs, creating a land breeze.",
+      "reference": {
+        "page": "12-7",
+        "text": "During the day, land heats faster than water, so the air over the land becomes warmer and less dense. It rises and is replaced by cooler, denser air flowing in from over the water. This causes an onshore wind called a sea breeze."
+      }
+    },
+    {
+      "section": "Low-Level Wind Shear",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "If an aircraft inadvertently takes off into a microburst, what sequence of wind changes will the aircraft experience?",
+      "correct_answer": "An increasing headwind, followed by severe downdrafts, followed by an increasing tailwind.",
+      "distractors": [
+        "An increasing tailwind, followed by an updraft, followed by a decreasing headwind.",
+        "Severe downdrafts, followed by an increasing headwind, followed by an increasing tailwind.",
+        "An increasing tailwind, followed by severe downdrafts, followed by an increasing headwind."
+      ],
+      "explanation": "The text describes a microburst encounter during takeoff as starting with a performance-increasing headwind, followed by performance-decreasing downdrafts, and finally a rapidly increasing tailwind, which can result in terrain impact.",
+      "reference": {
+        "page": "12-11",
+        "text": "During an inadvertent takeoff into a microburst, the plane may first experience a performance-increasing headwind (1), followed by performance-decreasing downdrafts (2), followed by a rapidly increasing tailwind (3)."
+      }
+    },
+    {
+      "section": "Wind and Pressure Representation on Surface Weather Maps",
+      "difficulty": 1,
+      "categories": [
+        "written_exam"
+      ],
+      "question": "On a surface weather chart, what do closely spaced isobars indicate about the weather?",
+      "correct_answer": "A steep pressure gradient and strong winds.",
+      "distractors": [
+        "A shallow pressure gradient and light winds.",
+        "A steep pressure gradient and calm winds.",
+        "A shallow pressure gradient and strong winds."
+      ],
+      "explanation": "Isobars are lines of equal pressure. Closely spaced isobars indicate a steep pressure gradient, which results in strong winds. Shallow gradients are represented by isobars spaced far apart and indicate light winds.",
+      "reference": {
+        "page": "12-12",
+        "text": "For example, isobars that are closely spaced indicate a steep pressure gradient and strong winds prevail. Shallow gradients, on the other hand, are represented by isobars that are spaced far apart and are indicative of light winds."
+      }
+    },
+    {
+      "section": "Atmospheric Stability",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "What is the standard lapse rate for unsaturated (dry) air, and how does it compare to the moist adiabatic lapse rate?",
+      "correct_answer": "The dry adiabatic lapse rate is 3 °C (5.4 °F) per 1,000 feet, which is faster than the moist adiabatic lapse rate.",
+      "distractors": [
+        "The dry adiabatic lapse rate is 2 °C (3.5 °F) per 1,000 feet, which is slower than the moist adiabatic lapse rate.",
+        "The dry adiabatic lapse rate is 1.1 °C to 2.8 °C per 1,000 feet, which is faster than the moist adiabatic lapse rate.",
+        "The dry adiabatic lapse rate is 3 °C (5.4 °F) per 1,000 feet, which is slower than the moist adiabatic lapse rate."
+      ],
+      "explanation": "The dry adiabatic lapse rate (unsaturated air) is 3 °C (5.4 °F) per 1,000 feet. The moist adiabatic lapse rate varies from 1.1 °C to 2.8 °C (2 °F to 5 °F) per 1,000 feet, meaning dry air cools faster than moist air as it rises.",
+      "reference": {
+        "page": "12-13",
+        "text": "The dry adiabatic lapse rate (unsaturated air) is 3 °C (5.4 °F) per 1,000 feet. The moist adiabatic lapse rate varies from 1.1 °C to 2.8 °C (2 °F to 5 °F) per 1,000 feet."
+      }
+    },
+    {
+      "section": "Temperature/Dew Point Relationship",
+      "difficulty": 3,
+      "categories": [
+        "written_exam"
+      ],
+      "question": "Given a surface temperature of 75 °F and a dew point of 65 °F, approximately what is the height of the cloud base AGL?",
+      "correct_answer": "2,272 feet AGL",
+      "distractors": [
+        "3,180 feet AGL",
+        "4,400 feet AGL",
+        "10,000 feet AGL"
+      ],
+      "explanation": "The formula to find the cloud base is (Temperature - Dew Point) / 4.4 * 1,000. (75 - 65) = 10. Then, 10 / 4.4 = 2.27. Finally, 2.27 * 1,000 = 2,272 feet AGL.",
+      "reference": {
+        "page": "12-14",
+        "text": "Apply the convergence rate to the reported temperature and dew point to determine the height of the cloud base... TDS ÷ CR = X... X × 1,000 feet = height of cloud base AGL"
+      }
     },
     {
       "section": "Fog",
       "difficulty": 2,
-      "categories": ["written_exam"],
-      "question": "What type of fog forms when warm, moist air moves over a colder surface?",
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "Which type of fog requires wind for formation, can persist for days, and commonly occurs in coastal areas where sea breezes blow air over cooler landmasses?",
       "correct_answer": "Advection fog",
-      "distractors": ["Radiation fog", "Upslope fog", "Steam fog"],
-      "explanation": "Advection fog forms when warm, moist air moves horizontally over a colder surface, cooling the air to its dew point. It is common along coastlines and can persist throughout the day."
+      "distractors": [
+        "Radiation fog",
+        "Upslope fog",
+        "Steam fog"
+      ],
+      "explanation": "Advection fog occurs when warm, moist air moves over a cold surface. Unlike radiation fog, wind is required (up to 15 knots) to form it. It is common in coastal areas and can persist for days, unlike radiation fog which burns off with the morning sun.",
+      "reference": {
+        "page": "12-15",
+        "text": "Advection fog is common in coastal areas where sea breezes can blow the air over cooler landmasses... Upslope and advection fog, unlike radiation fog, may not burn off with the morning sun but instead can persist for days."
+      }
     },
     {
-      "section": "Stability",
+      "section": "Clouds",
       "difficulty": 2,
-      "categories": ["written_exam", "checkride_oral"],
-      "question": "What kind of clouds and weather are associated with unstable air?",
-      "correct_answer": "Cumulus clouds, turbulence, good visibility outside of precipitation, and showery precipitation",
-      "distractors": ["Stratus clouds, smooth air, poor visibility, and steady precipitation", "No clouds, calm air, and excellent visibility", "Only high cirrus clouds with light turbulence"],
-      "explanation": "Unstable air promotes vertical development: cumulus/cumulonimbus clouds, turbulence, showery precipitation, and generally good visibility between showers."
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "What type of cloud is formed by heating of the air near the Earth's surface, appears individually or in groups, and is known as an air mass thunderstorm?",
+      "correct_answer": "Cumulonimbus",
+      "distractors": [
+        "Altocumulus",
+        "Cirrocumulus",
+        "Nimbostratus"
+      ],
+      "explanation": "The cumulonimbus cloud is perhaps the most dangerous cloud type to pilots. It appears individually or in groups and is known as either an air mass or orographic thunderstorm. Heating of the air near the Earth's surface creates an air mass thunderstorm.",
+      "reference": {
+        "page": "12-16",
+        "text": "To pilots, the cumulonimbus cloud is perhaps the most dangerous cloud type. It appears individually or in groups and is known as either an air mass or orographic thunderstorm. Heating of the air near the Earth’s surface creates an air mass thunderstorm"
+      }
     },
     {
-      "section": "Temperature Inversion",
+      "section": "Precipitation",
       "difficulty": 2,
-      "categories": ["written_exam", "checkride_oral"],
-      "question": "What weather conditions are typically associated with a temperature inversion near the surface?",
-      "correct_answer": "Smooth air, poor visibility, fog or haze, and stable conditions",
-      "distractors": ["Turbulence, good visibility, and cumulonimbus clouds", "Thunderstorms and wind shear", "Clear skies and gusty winds"],
-      "explanation": "A surface-based temperature inversion traps moisture, pollutants, and haze near the ground, resulting in smooth air, poor visibility, fog, and very stable conditions."
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "If rain falls through a temperature inversion and passes through underlying cold air, what form of precipitation will reach the ground, and what does it indicate?",
+      "correct_answer": "Ice pellets, indicating that freezing rain exists at a higher altitude.",
+      "distractors": [
+        "Snow, indicating that clear icing exists at a higher altitude.",
+        "Hail, indicating that severe updrafts are present in the clouds above.",
+        "Virga, indicating that the air below the inversion is very dry."
+      ],
+      "explanation": "If rain falls through a temperature inversion, it may freeze as it passes through the underlying cold air and fall to the ground in the form of ice pellets. Ice pellets are an indication of a temperature inversion and that freezing rain exists at a higher altitude.",
+      "reference": {
+        "page": "12-17",
+        "text": "If rain falls through a temperature inversion, it may freeze as it passes through the underlying cold air and fall to the ground in the form of ice pellets. Ice pellets are an indication of a temperature inversion and that freezing rain exists at a higher altitude."
+      }
     },
     {
-      "section": "Icing",
+      "section": "Air Masses",
       "difficulty": 2,
-      "categories": ["written_exam", "checkride_oral"],
-      "question": "What is the most hazardous type of structural icing?",
-      "correct_answer": "Clear ice",
-      "distractors": ["Rime ice", "Mixed ice", "Frost"],
-      "explanation": "Clear ice (or glaze ice) forms from large supercooled water droplets that spread before freezing. It is hard, heavy, tenacious, and difficult to remove, significantly altering the airfoil shape."
+      "categories": [
+        "written_exam"
+      ],
+      "question": "How does an air mass change when it passes over a colder surface, and what effect does this have on visibility?",
+      "correct_answer": "It creates a stable air mass with poor surface visibility because smoke, dust, and other particles are trapped near the surface.",
+      "distractors": [
+        "It creates an unstable air mass with good surface visibility due to the formation of convective currents.",
+        "It creates a stable air mass with good surface visibility because the cold air forces particles to the ground.",
+        "It creates an unstable air mass with poor surface visibility due to continuous cloud cover and precipitation."
+      ],
+      "explanation": "When an air mass passes over a colder surface, it does not form convective currents but instead creates a stable air mass with poor surface visibility. The poor visibility is because smoke, dust, and other particles cannot rise out of the air mass and are trapped near the surface.",
+      "reference": {
+        "page": "12-18",
+        "text": "Conversely, an air mass passing over a colder surface does not form convective currents but instead creates a stable air mass with poor surface visibility. The poor surface visibility is due to the fact that smoke, dust, and other particles cannot rise out of the air mass and are instead trapped near the surface."
+      }
+    },
+    {
+      "section": "Warm Front",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "What is a typical characteristic of a warm front's movement and slope compared to a cold front?",
+      "correct_answer": "Warm fronts move slowly (10 to 25 mph) and slide over the top of the cooler air with a gradual slope.",
+      "distractors": [
+        "Warm fronts move rapidly (25 to 30 mph) and slide under the cooler air with a steep slope.",
+        "Warm fronts move slowly (10 to 25 mph) and slide under the cooler air with a steep slope.",
+        "Warm fronts move rapidly (25 to 30 mph) and slide over the top of the cooler air with a gradual slope."
+      ],
+      "explanation": "A warm front occurs when warm air advances and replaces colder air. Warm fronts move slowly, typically 10 to 25 mph. The slope of the advancing front slides over the top of the cooler air and gradually pushes it out of the area.",
+      "reference": {
+        "page": "12-18",
+        "text": "Warm fronts move slowly, typically 10 to 25 miles per hour (mph). The slope of the advancing front slides over the top of the cooler air and gradually pushes it out of the area."
+      }
+    },
+    {
+      "section": "Occluded Front",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "What is an occluded front, and what weather sequence does it typically bring?",
+      "correct_answer": "It occurs when a fast-moving cold front catches a slow-moving warm front, bringing warm front weather immediately followed by cold front weather.",
+      "distractors": [
+        "It occurs when two air masses are equal in force, bringing a mixture of warm and cold front weather that influences the area for days.",
+        "It occurs when a warm front overtakes a cold front, bringing clear skies and gusty winds.",
+        "It occurs when a cold front dissipates before reaching a warm front, resulting in prolonged fog and low ceilings."
+      ],
+      "explanation": "An occluded front occurs when a fast-moving cold front catches up with a slow-moving warm front. As the occluded front approaches, warm front weather prevails but is immediately followed by cold front weather.",
+      "reference": {
+        "page": "12-21",
+        "text": "An occluded front occurs when a fast-moving cold front catches up with a slow-moving warm front. As the occluded front approaches, warm front weather prevails but is immediately followed by cold front weather."
+      }
+    },
+    {
+      "section": "Thunderstorms",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "During which stage of a thunderstorm's life cycle do drops of moisture become too heavy for the cloud to support and begin falling, creating a downward motion of air?",
+      "correct_answer": "The mature stage",
+      "distractors": [
+        "The cumulus stage",
+        "The dissipating stage",
+        "The squall line stage"
+      ],
+      "explanation": "Within approximately 15 minutes, the thunderstorm reaches the mature stage, which is the most violent time period. Drops of moisture become too heavy for the cloud to support and begin falling, creating a downward motion of the air.",
+      "reference": {
+        "page": "12-22",
+        "text": "Within approximately 15 minutes, the thunderstorm reaches the mature stage, which is the most violent time period of the thunderstorm’s life cycle. At this point, drops of moisture, whether rain or ice, are too heavy for the cloud to support and begin falling in the form of rain or hail. This creates a downward motion of the air."
+      }
     }
   ]
 }

@@ -3,76 +3,365 @@
   "chapter": 7,
   "questions": [
     {
-      "section": "Powerplant",
+      "section": "Reciprocating Engines",
       "difficulty": 1,
-      "categories": ["written_exam", "checkride_oral"],
-      "question": "In a normally aspirated reciprocating engine, what happens to engine power output as altitude increases?",
-      "correct_answer": "Power output decreases due to reduced air density",
-      "distractors": ["Power output increases due to cooler air", "Power output remains the same", "Power output increases due to lower atmospheric pressure"],
-      "explanation": "As altitude increases, air density decreases, meaning less air (and oxygen) enters the cylinders, reducing the engine's power output."
-    },
-    {
-      "section": "Carburetor Icing",
-      "difficulty": 2,
-      "categories": ["written_exam", "checkride_oral"],
-      "question": "Under what atmospheric conditions is carburetor icing most likely?",
-      "correct_answer": "Temperatures between 20°F and 70°F with visible moisture or high humidity",
-      "distractors": ["Only in freezing temperatures below 32°F", "Only in clear air above 80°F", "Only in clouds with temperatures below 0°F"],
-      "explanation": "Carburetor ice can form at temperatures as warm as 70°F (21°C) with humidity as low as 50%, due to the temperature drop from fuel vaporization and the venturi effect."
-    },
-    {
-      "section": "Carburetor Heat",
-      "difficulty": 2,
-      "categories": ["written_exam", "checkride_oral"],
-      "question": "What is the first indication of carburetor icing in an aircraft with a fixed-pitch propeller?",
-      "correct_answer": "A decrease in RPM",
-      "distractors": ["A decrease in manifold pressure", "An increase in oil temperature", "A rougher engine sound followed by increased RPM"],
-      "explanation": "In a fixed-pitch propeller aircraft, carburetor ice restricts airflow to the engine, reducing power, which shows as a decrease in RPM."
-    },
-    {
-      "section": "Fuel System",
-      "difficulty": 1,
-      "categories": ["written_exam", "general_knowledge"],
-      "question": "What color is 100LL aviation gasoline?",
-      "correct_answer": "Blue",
-      "distractors": ["Green", "Red", "Clear"],
-      "explanation": "100LL (low lead) aviation gasoline is dyed blue for identification. Other grades: 80 (red), 100 (green), Jet-A (clear/straw)."
-    },
-    {
-      "section": "Fuel System",
-      "difficulty": 2,
-      "categories": ["written_exam", "checkride_oral"],
-      "question": "Why should a pilot drain fuel from the sumps during preflight?",
-      "correct_answer": "To check for water contamination and sediment",
-      "distractors": ["To reduce fuel weight for takeoff", "To verify the fuel quantity gauges are accurate", "To prime the engine for starting"],
-      "explanation": "Water is denser than avgas and collects at the low points (sumps). Draining a sample reveals water (which appears as a clear bubble at the bottom) or sediment contamination."
-    },
-    {
-      "section": "Electrical System",
-      "difficulty": 2,
-      "categories": ["written_exam", "checkride_oral"],
-      "question": "What is the function of the alternator in a light aircraft?",
-      "correct_answer": "To supply electrical power during normal operation and recharge the battery",
-      "distractors": ["To start the engine", "To provide emergency backup power only", "To regulate fuel flow to the engine"],
-      "explanation": "The alternator is the primary source of electrical power during flight. It powers electrical systems and recharges the battery. The battery is used primarily for engine start."
-    },
-    {
-      "section": "Oil System",
-      "difficulty": 1,
-      "categories": ["written_exam", "general_knowledge"],
-      "question": "What are the primary functions of engine oil in a reciprocating aircraft engine?",
-      "correct_answer": "Lubrication, cooling, and sealing",
-      "distractors": ["Lubrication only", "Cooling and fuel mixing", "Cleaning and fuel delivery"],
-      "explanation": "Engine oil lubricates moving parts, helps cool the engine by carrying heat away from cylinders, and provides a seal between piston rings and cylinder walls."
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "What is the main difference between a spark ignition engine and a compression ignition engine?",
+      "correct_answer": "The process used to ignite the fuel-air mixture in the cylinder",
+      "distractors": [
+        "The type of fuel that can be used in the engine",
+        "The number of strokes in the operating cycle",
+        "The cylinder arrangement with respect to the crankshaft"
+      ],
+      "explanation": "The text states that the main mechanical components of both engine types are essentially the same, and the main difference is the ignition process. Spark ignition uses a spark plug to ignite a pre-mixed fuel-air mixture, while compression ignition compresses air first to raise its temperature for automatic ignition when fuel is injected.",
+      "reference": {
+        "page": "7-2",
+        "text": "The main difference between spark ignition and compression ignition is the process of igniting the fuel."
+      }
     },
     {
       "section": "Propeller",
       "difficulty": 2,
-      "categories": ["written_exam", "checkride_oral"],
-      "question": "What is the purpose of a constant-speed propeller?",
-      "correct_answer": "To automatically adjust blade pitch to maintain a selected RPM",
-      "distractors": ["To keep the aircraft at a constant airspeed", "To prevent the engine from exceeding redline temperature", "To reduce propeller noise at all speeds"],
-      "explanation": "A constant-speed propeller uses a governor to automatically change blade pitch, maintaining the RPM set by the pilot regardless of airspeed or power changes."
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "Why is a propeller blade twisted so that the blade angle changes from hub to tip?",
+      "correct_answer": "To produce uniform lift throughout the length of the blade",
+      "distractors": [
+        "To reduce aerodynamic drag at the propeller tip",
+        "To increase the blade angle at the tip for greater thrust",
+        "To prevent the propeller hub from stalling at high rpm"
+      ],
+      "explanation": "The tip of the blade travels faster than the hub because it covers a greater distance in the same time. The twist adjusts the angle of incidence from hub to tip to correspond with the different speeds, producing uniform lift throughout the blade length.",
+      "reference": {
+        "page": "7-4",
+        "text": "The reason for the twist is to produce uniform lift from the hub to the tip."
+      }
+    },
+    {
+      "section": "Fixed-Pitch Propeller",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "On an aircraft with a fixed-pitch propeller, if the tachometer shows 2,300 rpm at 5,000 feet, how does the engine power output compare to 2,300 rpm at sea level?",
+      "correct_answer": "It produces less horsepower at 5,000 feet than at sea level",
+      "distractors": [
+        "It produces more horsepower due to cooler air at altitude",
+        "It produces the same horsepower because rpm is unchanged",
+        "It produces less horsepower only if the mixture is not leaned"
+      ],
+      "explanation": "The text explains that power output depends on air density. Air density decreases as altitude increases, so 2,300 rpm at 5,000 feet produces less horsepower than 2,300 rpm at sea level. The throttle must be opened further at altitude to maintain the same rpm.",
+      "reference": {
+        "page": "7-5",
+        "text": "2,300 rpm at 5,000 feet produces less horsepower than 2,300 rpm at sea level because power output depends on air density."
+      }
+    },
+    {
+      "section": "Adjustable-Pitch Propeller",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "On an aircraft with a constant-speed propeller, what does the manifold pressure gauge measure?",
+      "correct_answer": "The absolute pressure of the fuel-air mixture inside the intake manifold",
+      "distractors": [
+        "The rotational speed of the propeller in rpm",
+        "The pressure difference between the fuel pump and carburetor",
+        "The density altitude at the current flight altitude"
+      ],
+      "explanation": "The manifold pressure gauge measures the absolute pressure of the fuel-air mixture inside the intake manifold (MAP). On a constant-speed propeller aircraft, power output is controlled by the throttle and indicated by the manifold pressure gauge, while rpm is regulated by the propeller control.",
+      "reference": {
+        "page": "7-6",
+        "text": "The gauge measures the absolute pressure of the fuel-air mixture inside the intake manifold and is more correctly a measure of manifold absolute pressure (MAP)."
+      }
+    },
+    {
+      "section": "Adjustable-Pitch Propeller",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "When decreasing power settings on an aircraft with a constant-speed propeller, what is the proper order of adjustments to avoid engine overstress?",
+      "correct_answer": "Reduce manifold pressure first, then reduce rpm",
+      "distractors": [
+        "Reduce rpm first, then reduce manifold pressure",
+        "Reduce both manifold pressure and rpm simultaneously",
+        "The order does not matter when decreasing power"
+      ],
+      "explanation": "If rpm is reduced before manifold pressure, the manifold pressure automatically increases, possibly exceeding the manufacturer's tolerances. When increasing power, the order is reversed—increase rpm first, then manifold pressure.",
+      "reference": {
+        "page": "7-7",
+        "text": "When power settings are being decreased, reduce manifold pressure before reducing rpm. If rpm is reduced before manifold pressure, manifold pressure automatically increases, possibly exceeding the manufacturer's tolerances."
+      }
+    },
+    {
+      "section": "Carburetor Icing",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "Under what temperature and humidity conditions is carburetor ice most likely to occur?",
+      "correct_answer": "Below 70 °F (21 °C) with relative humidity above 80 percent",
+      "distractors": [
+        "Only below 32 °F (0 °C) with relative humidity above 50 percent",
+        "Above 80 °F (27 °C) with relative humidity below 30 percent",
+        "Only at temperatures below freezing regardless of humidity"
+      ],
+      "explanation": "The text states carburetor ice is most likely when temperatures are below 70 °F (21 °C) and relative humidity is above 80 percent. However, due to the sudden cooling in the carburetor, icing can occur at outside air temperatures as high as 100 °F (38 °C) with humidity as low as 50 percent.",
+      "reference": {
+        "page": "7-9",
+        "text": "Carburetor ice is most likely to occur when temperatures are below 70 degrees Fahrenheit (°F) or 21 degrees Celsius (°C) and the relative humidity is above 80 percent."
+      }
+    },
+    {
+      "section": "Carburetor Heat",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "Why does the use of carburetor heat cause a decrease in engine power?",
+      "correct_answer": "The heated air is less dense than the outside air that was entering the engine",
+      "distractors": [
+        "The heat leans the fuel-air mixture, reducing power",
+        "The heat restricts airflow through the venturi",
+        "The heat increases friction on the throttle valve"
+      ],
+      "explanation": "Carburetor heat can decrease engine power by up to 15 percent because the heated air is less dense than the outside air. This less dense air also enriches the mixture. For this reason, carburetor heat should not be used when full power is required, such as during takeoff.",
+      "reference": {
+        "page": "7-10",
+        "text": "The use of carburetor heat causes a decrease in engine power, sometimes up to 15 percent, because the heated air is less dense than the outside air that had been entering the engine. This enriches the mixture."
+      }
+    },
+    {
+      "section": "Carburetor Icing",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "In an aircraft with a constant-speed propeller, what is usually the first indication of carburetor icing?",
+      "correct_answer": "A decrease in manifold pressure with no reduction in rpm",
+      "distractors": [
+        "A decrease in engine rpm followed by engine roughness",
+        "An increase in manifold pressure and engine roughness",
+        "Engine roughness followed by a rise in oil temperature"
+      ],
+      "explanation": "With a constant-speed propeller, the propeller pitch is automatically adjusted to compensate for the loss of power, maintaining a constant rpm. The first indication is a decrease in manifold pressure. In contrast, a fixed-pitch propeller aircraft shows a decrease in rpm as the first sign.",
+      "reference": {
+        "page": "7-10",
+        "text": "In an aircraft with a constant-speed propeller, carburetor icing is usually indicated by a decrease in manifold pressure, but no reduction in rpm."
+      }
+    },
+    {
+      "section": "Fuel Injection Systems",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "Which of the following is a disadvantage of a fuel injection system compared to a carburetor system?",
+      "correct_answer": "Difficulty in starting a hot engine",
+      "distractors": [
+        "Higher susceptibility to carburetor icing",
+        "Slower throttle response",
+        "Less precise control of the fuel-air mixture"
+      ],
+      "explanation": "The text lists several disadvantages of fuel injection, including difficulty starting a hot engine, vapor locks during ground operations on hot days, and problems restarting an engine that quits due to fuel starvation. Fuel injection is actually less susceptible to icing, has faster throttle response, and provides more precise mixture control.",
+      "reference": {
+        "page": "7-12",
+        "text": "The following are disadvantages of using fuel injection: Difficulty in starting a hot engine; Vapor locks during ground operations on hot days; Problems associated with restarting an engine that quits because of fuel starvation"
+      }
+    },
+    {
+      "section": "Turbosuperchargers",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "What is a key advantage of a turbocharger over a gear-driven supercharger?",
+      "correct_answer": "The turbocharger is powered by exhaust gases that would otherwise be lost",
+      "distractors": [
+        "The turbocharger can boost manifold pressure above 30 \"Hg while a supercharger cannot",
+        "The turbocharger operates at lower rotational speeds than a supercharger",
+        "The turbocharger does not require engine oil for lubrication"
+      ],
+      "explanation": "The major disadvantage of a gear-driven supercharger is that it uses a large amount of the engine's power output. A turbocharger avoids this by using exhaust gases to drive the compressor, recovering energy that would otherwise be lost. Both systems can boost manifold pressure above 30 \"Hg.",
+      "reference": {
+        "page": "7-13",
+        "text": "The major disadvantage of the gear-driven supercharger––use of a large amount of the engine's power output for the amount of power increase produced––is avoided with a turbocharger because turbochargers are powered by an engine's exhaust gases."
+      }
+    },
+    {
+      "section": "Ignition System",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral",
+        "general_knowledge"
+      ],
+      "question": "Why can a reciprocating engine fire and turn over even with the battery and master switches OFF?",
+      "correct_answer": "The magneto generates electrical current completely independent of the aircraft's electrical system",
+      "distractors": [
+        "The battery retains enough residual charge to fire the spark plugs",
+        "The alternator continues to produce electricity whenever the engine rotates",
+        "The starter motor provides backup electrical power to the magnetos"
+      ],
+      "explanation": "A magneto uses a permanent magnet to generate electrical current and requires no outside source of electrical power. This is why the engine can fire if the ignition switch is left ON and the propeller is moved, even with all electrical switches OFF. This is a serious safety hazard during ground handling.",
+      "reference": {
+        "page": "7-15",
+        "text": "Even with the battery and master switches OFF, the engine can fire and turn over if the ignition switch is left ON and the propeller is moved because the magneto requires no outside source of electrical power."
+      }
+    },
+    {
+      "section": "Oil Systems",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "What is the primary difference between a wet-sump and a dry-sump oil system?",
+      "correct_answer": "In a dry-sump system, the oil is contained in a separate tank external to the engine",
+      "distractors": [
+        "A wet-sump system does not require an oil pump to circulate oil",
+        "A dry-sump system does not require an oil cooler for temperature regulation",
+        "A wet-sump system is only used on turbine engines while a dry-sump is used on reciprocating engines"
+      ],
+      "explanation": "In a wet-sump system, the oil is located in a sump that is an integral part of the engine. In a dry-sump system, the oil is contained in a separate tank and circulated through the engine by pumps. Dry-sump systems allow for a greater volume of oil, making them suitable for very large reciprocating engines.",
+      "reference": {
+        "page": "7-16",
+        "text": "In a wet-sump system, the oil is located in a sump that is an integral part of the engine. In a dry-sump system, the oil is contained in a separate tank and circulated through the engine by pumps."
+      }
+    },
+    {
+      "section": "Combustion",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "Which of the following is a common operational cause of detonation in a reciprocating engine?",
+      "correct_answer": "Using a lower fuel grade than that specified by the aircraft manufacturer",
+      "distractors": [
+        "Using a higher fuel grade than that specified by the manufacturer",
+        "Operating at low power settings with an excessively rich mixture",
+        "Operating with cowl flaps fully open during cruise flight"
+      ],
+      "explanation": "Detonation is an uncontrolled, explosive ignition of the fuel-air mixture. Using a lower-than-specified fuel grade is a common cause. The text specifically notes that if the proper grade is not available, the next higher grade should be used as a substitute—never a lower grade.",
+      "reference": {
+        "page": "7-19",
+        "text": "Common operational causes of detonation are: Use of a lower fuel grade than that specified by the aircraft manufacturer"
+      }
+    },
+    {
+      "section": "Turboprop",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "Why is reduction gearing necessary in turboprop engines?",
+      "correct_answer": "Optimum propeller performance is achieved at much slower speeds than the engine's operating rpm",
+      "distractors": [
+        "To reduce fuel consumption during cruise flight",
+        "To decrease engine noise during takeoff and landing",
+        "To allow the propeller to reverse thrust for ground operations"
+      ],
+      "explanation": "Turboprop engines operate at very high rpm, but propellers are most efficient at slower rotational speeds. Reduction gearing bridges this difference, allowing both the engine and propeller to operate at their optimal speeds.",
+      "reference": {
+        "page": "7-21",
+        "text": "Reduction gearing is necessary in turboprop engines because optimum propeller performance is achieved at much slower speeds than the engine's operating rpm."
+      }
+    },
+    {
+      "section": "Compressor Stalls",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "What causes a compressor stall in a turbine engine?",
+      "correct_answer": "An imbalance between inlet air velocity and compressor rotational speed causing the compressor blades' AOA to exceed the critical AOA",
+      "distractors": [
+        "Excessive fuel flow causing the combustion chamber to overheat",
+        "Insufficient oil pressure to the turbine bearings",
+        "Ice buildup on the compressor inlet guide vanes"
+      ],
+      "explanation": "Compressor blades are airfoils subject to aerodynamic principles. A compressor stall occurs when the compressor blades' angle of attack exceeds the critical AOA due to an imbalance between inlet velocity and compressor rotational speed, disrupting smooth airflow.",
+      "reference": {
+        "page": "7-23",
+        "text": "A compressor stall is an imbalance between the two vector quantities, inlet velocity, and compressor rotational speed. Compressor stalls occur when the compressor blades' AOA exceeds the critical AOA."
+      }
+    },
+    {
+      "section": "Fuel Grades",
+      "difficulty": 1,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "What color is 100LL AVGAS, and how is it identified on fuel handling equipment?",
+      "correct_answer": "Blue, identified by white letters on a red background",
+      "distractors": [
+        "Green, identified by white letters on a red background",
+        "Red, identified by white letters on a black background",
+        "Colorless or straw, identified by white letters on a black background"
+      ],
+      "explanation": "100LL AVGAS is blue. All AVGAS grades are identified on fuel handling equipment using white letters on a red background. In contrast, turbine fuels (JET A, JET A-1, JET B) are identified by white letters on a black background.",
+      "reference": {
+        "page": "7-27",
+        "text": "Although AVGAS 100LL performs the same as grade 100, the 'LL' indicates it has a low lead content."
+      }
+    },
+    {
+      "section": "Electrical System",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "On an ammeter with a center zero point, what does a full-scale negative (minus) deflection indicate?",
+      "correct_answer": "A malfunction of the alternator or generator",
+      "distractors": [
+        "A malfunction of the voltage regulator",
+        "The battery is fully charged and no longer drawing current",
+        "An electrical short in the bus bar"
+      ],
+      "explanation": "A full-scale minus deflection on an ammeter indicates that more current is being drawn from the battery than is being replaced, which signals a malfunction of the alternator or generator. A full-scale positive deflection would indicate a malfunction of the voltage regulator.",
+      "reference": {
+        "page": "7-31",
+        "text": "A full-scale minus deflection indicates a malfunction of the alternator/generator. A full-scale positive deflection indicates a malfunction of the regulator."
+      }
+    },
+    {
+      "section": "Pressurized Aircraft",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "What distinguishes an explosive decompression from a rapid decompression?",
+      "correct_answer": "In an explosive decompression, cabin pressure changes faster than the lungs can decompress",
+      "distractors": [
+        "An explosive decompression is caused by system malfunction while a rapid decompression is caused by structural damage",
+        "An explosive decompression occurs only above 35,000 feet while a rapid decompression occurs below",
+        "An explosive decompression involves fog formation while a rapid decompression does not"
+      ],
+      "explanation": "The distinction is based on the speed of pressure change relative to lung decompression. Explosive decompression occurs faster than the lungs can decompress (less than 0.5 seconds), potentially causing lung damage. In rapid decompression, the lungs decompress faster than the cabin, which is less dangerous physiologically.",
+      "reference": {
+        "page": "7-36",
+        "text": "Explosive decompression—a change in cabin pressure faster than the lungs can decompress, possibly resulting in lung damage."
+      }
     }
   ]
 }

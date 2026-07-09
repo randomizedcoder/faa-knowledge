@@ -1,0 +1,366 @@
+{
+  "source": "PHAK",
+  "chapter": 2,
+  "questions": [
+    {
+      "section": "Introduction",
+      "difficulty": 1,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "According to the chapter, approximately what percentage of all aviation accidents are related to human factors?",
+      "correct_answer": "80 percent",
+      "distractors": [
+        "50 percent",
+        "65 percent",
+        "95 percent"
+      ],
+      "explanation": "The chapter states that approximately 80 percent of all aviation accidents are related to human factors, and the vast majority of these occur during landing (24.1%) and takeoff (23.4%).",
+      "reference": {
+        "page": "2-2",
+        "text": "It is estimated that approximately 80 percent of all aviation accidents are related to human factors and the vast majority of these accidents occur during landing (24.1 percent) and takeoff (23.4 percent)."
+      }
+    },
+    {
+      "section": "Risk Management",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "A pilot is planning to fly an unfamiliar aircraft for the first time and decides to wait for a day with good weather rather than flying in low IFR conditions. Which fundamental principle of risk management does this best illustrate?",
+      "correct_answer": "Accept risk when benefits outweigh dangers (costs)",
+      "distractors": [
+        "Accept no unnecessary risk",
+        "Make risk decisions at the appropriate level",
+        "Integrate risk management into planning at all levels"
+      ],
+      "explanation": "The chapter's third principle states to accept risk when benefits outweigh dangers. The example given is nearly identical: 'A day with good weather, for example, is a much better time to fly an unfamiliar airplane for the first time than a day with low IFR conditions.'",
+      "reference": {
+        "page": "2-4",
+        "text": "Accept risk when benefits outweigh dangers (costs). In any flying activity, it is necessary to accept some degree of risk. A day with good weather, for example, is a much better time to fly an unfamiliar airplane for the first time than a day with low IFR conditions."
+      }
+    },
+    {
+      "section": "Hazardous Attitudes and Antidotes",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "A pilot notices a small nick in the propeller leading edge before a flight. An experienced pilot assesses it as low risk because the nick is blunt, in the strongest portion of the propeller, and unlikely to propagate a crack. An inexperienced pilot sees the same nick as high risk and cancels the flight. What does this scenario best illustrate about hazard and risk?",
+      "correct_answer": "Risk is an assessment that varies by pilot because different pilots see hazards differently",
+      "distractors": [
+        "Hazard and risk are identical concepts that depend on the aircraft type",
+        "Risk is an objective measurement that does not change between pilots",
+        "The hazard only exists if the pilot identifies it as a problem"
+      ],
+      "explanation": "The chapter defines hazard as a real or perceived condition, and risk as an assessment of that hazard. It explicitly states 'different pilots see hazards differently,' using this exact propeller nick example to show how experience changes risk assessment.",
+      "reference": {
+        "page": "2-4",
+        "text": "Therefore, risk is an assessment of the single or cumulative hazard facing a pilot; however, different pilots see hazards differently."
+      }
+    },
+    {
+      "section": "Hazardous Attitudes and Antidotes",
+      "difficulty": 1,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "A pilot consistently feels that accidents happen to other people but never to him, and this belief leads him to take chances and increase risk. Which hazardous attitude does this describe, and what is the correct antidote?",
+      "correct_answer": "Invulnerability — \"It could happen to me.\"",
+      "distractors": [
+        "Macho — \"Taking chances is foolish.\"",
+        "Impulsivity — \"Not so fast. Think first.\"",
+        "Resignation — \"I'm not helpless. I can make a difference.\""
+      ],
+      "explanation": "The chapter describes invulnerability as the attitude that 'accidents happen to others, but never to them.' The antidote to memorize is 'It could happen to me.'",
+      "reference": {
+        "page": "2-5",
+        "text": "Invulnerability: \"It won't happen to me.\" Many people falsely believe that accidents happen to others, but never to them… Pilots who think this way are more likely to take chances and increase risk."
+      }
+    },
+    {
+      "section": "Assessing Risk",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "Using the risk assessment matrix, a non-instrument-rated pilot assigns a likelihood of 'occasional' for encountering IMC and a severity of 'catastrophic.' What risk level results, and what action is appropriate?",
+      "correct_answer": "High risk — the pilot must either not fly or mitigate, eliminate, or control the risk",
+      "distractors": [
+        "Serious risk — the pilot may continue with extra caution",
+        "Medium risk — the pilot should proceed but monitor conditions",
+        "Low risk — no special action is required"
+      ],
+      "explanation": "The chapter's risk matrix shows that 'occasional' likelihood combined with 'catastrophic' severity falls in the high risk area. The text states: 'the risk is high and the pilot must either not fly or fly only after finding ways to mitigate, eliminate, or control the risk.'",
+      "reference": {
+        "page": "2-6",
+        "text": "Simply connecting the two factors as shown in Figure 2-5 indicates the risk is high and the pilot must either not fly or fly only after finding ways to mitigate, eliminate, or control the risk."
+      }
+    },
+    {
+      "section": "Mitigating Risk",
+      "difficulty": 1,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "A pilot uses the IMSAFE checklist before a flight. Under which letter does the checklist address psychological pressure from the job, money, health, or family problems?",
+      "correct_answer": "Stress",
+      "distractors": [
+        "Emotion",
+        "Illness",
+        "Fatigue"
+      ],
+      "explanation": "The IMSAFE checklist's 'S' stands for Stress. The chapter defines it as: 'Am I under psychological pressure from the job? Do I have money, health, or family problems? Stress causes concentration and performance problems.'",
+      "reference": {
+        "page": "2-8",
+        "text": "Stress—Am I under psychological pressure from the job? Do I have money, health, or family problems? Stress causes concentration and performance problems."
+      }
+    },
+    {
+      "section": "The PAVE Checklist",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "The chapter identifies management of which PAVE risk category as the single most important key to risk management, because it can cause a pilot to ignore all other risk factors?",
+      "correct_answer": "External pressures",
+      "distractors": [
+        "Pilot in command",
+        "Aircraft",
+        "EnVironment"
+      ],
+      "explanation": "The chapter states: 'Management of external pressure is the single most important key to risk management because it is the one risk factor category that can cause a pilot to ignore all the other risk factors.'",
+      "reference": {
+        "page": "2-10",
+        "text": "Management of external pressure is the single most important key to risk management because it is the one risk factor category that can cause a pilot to ignore all the other risk factors."
+      }
+    },
+    {
+      "section": "Human Factors",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "According to the FAA research study described in the chapter, which of the following was NOT identified as a trait found in pilots prone to having accidents?",
+      "correct_answer": "Strong reliance on checklists and established procedures",
+      "distractors": [
+        "Disdain toward rules",
+        "High correlation between flying accidents and driving safety violations",
+        "Impulsive rather than methodical information gathering and action selection"
+      ],
+      "explanation": "The chapter lists five traits of accident-prone pilots: disdain toward rules, correlation between flying and driving violations, thrill and adventure seeking, impulsivity, and disregard for outside sources of information. Reliance on checklists is the opposite of the identified traits.",
+      "reference": {
+        "page": "2-12",
+        "text": "Five traits were discovered in pilots prone to having accidents. These pilots: Have disdain toward rules… Have very high correlation between accidents on their flying records and safety violations on their driving records… Frequently fall into the 'thrill and adventure seeking' personality category… Are impulsive rather than methodical and disciplined… Have a disregard for or tend to under utilize outside sources of information"
+      }
+    },
+    {
+      "section": "Single-Pilot Resource Management (SRM)",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "The 5 Ps check recommends reviewing the Plan, the Plane, the Pilot, the Passengers, and the Programming at key decision points. According to the chapter, what is the easiest point to cancel a flight due to bad weather?",
+      "correct_answer": "During preflight in the flight planning room, before walking out to the aircraft",
+      "distractors": [
+        "Just prior to takeoff, after all passengers are loaded",
+        "At the midpoint of the flight when ATIS weather is available",
+        "Just prior to descent into the terminal area"
+      ],
+      "explanation": "The chapter states: 'the easiest point to cancel a flight due to bad weather is before the pilot and passengers walk out the door and load the aircraft. So the first decision point is preflight in the flight planning room.'",
+      "reference": {
+        "page": "2-13",
+        "text": "the easiest point to cancel a flight due to bad weather is before the pilot and passengers walk out the door and load the aircraft. So the first decision point is preflight in the flight planning room, where all the information is readily available to make a sound decision"
+      }
+    },
+    {
+      "section": "Perceive, Process, Perform (3P) Model",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "In the 3P model, a pilot uses the CARE checklist during the 'Process' step. What does the 'A' in CARE stand for, and what question does it address?",
+      "correct_answer": "Alternatives — what other options are available",
+      "distractors": [
+        "Aircraft — is the aircraft suitable for the flight",
+        "Attitude — what hazardous attitudes might affect judgment",
+        "Assessment — what is the overall risk level"
+      ],
+      "explanation": "The CARE checklist stands for Consequences, Alternatives, Reality, External factors. The chapter explains it is used to process hazards by evaluating their impact on flight safety, with 'Alternatives' addressing what other options exist.",
+      "reference": {
+        "page": "2-16",
+        "text": "process by using the CARE checklist of: Consequences, Alternatives, Reality, External factors."
+      }
+    },
+    {
+      "section": "Perceive, Process, Perform (3P) Model",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "In the 3P model's TEAM checklist, a pilot decides to hire a CFI to accompany her on a cross-country flight to mitigate risk from her lack of experience. Which TEAM action does this represent?",
+      "correct_answer": "Mitigate",
+      "distractors": [
+        "Transfer",
+        "Eliminate",
+        "Accept"
+      ],
+      "explanation": "The chapter shows that hiring a CFI to accompany the pilot is listed under 'Mitigate' in the TEAM checklist example. Transfer would mean having another pilot act as PIC; Eliminate would mean canceling the trip entirely.",
+      "reference": {
+        "page": "2-18",
+        "text": "Gayle chooses to mitigate the major risk by hiring a CFI to accompany her and provide dual cross-country instruction."
+      }
+    },
+    {
+      "section": "The DECIDE Model",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "In the DECIDE model, what is the first step a pilot should take when faced with a changing situation, such as an engine failure?",
+      "correct_answer": "Detect — recognize that a change occurred or an expected change did not occur",
+      "distractors": [
+        "Estimate — determine the need to react to the situation",
+        "Choose — select a course of action to reach the desired outcome",
+        "Identify — formulate solutions that lead to the objective"
+      ],
+      "explanation": "The DECIDE model begins with Detect: 'Problem detection is the first step in the decision-making process. It begins with recognizing a change occurred or an expected change did not occur.'",
+      "reference": {
+        "page": "2-20",
+        "text": "Detect (the Problem) Problem detection is the first step in the decision-making process. It begins with recognizing a change occurred or an expected change did not occur."
+      }
+    },
+    {
+      "section": "Decision-Making in a Dynamic Environment",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "When an expert pilot faces an emergency with no time for analytical decision-making, what type of decision-making does the chapter describe them using?",
+      "correct_answer": "Automatic or naturalistic decision-making, taking the first workable option they can find",
+      "distractors": [
+        "Analytical decision-making, comparing the pros and cons of all available approaches",
+        "The DECIDE model, working through all six steps systematically",
+        "The 5 Ps check, reviewing all five variables before acting"
+      ],
+      "explanation": "The chapter describes automatic/naturalistic decision-making: 'Rather than comparing the pros and cons of different approaches, they quickly imagine how one or a few possible courses of action in such situations will play out. Experts take the first workable option they can find.'",
+      "reference": {
+        "page": "2-21",
+        "text": "Rather than comparing the pros and cons of different approaches, they quickly imagine how one or a few possible courses of action in such situations will play out. Experts take the first workable option they can find."
+      }
+    },
+    {
+      "section": "Operational Pitfalls",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "A pilot on an IFR approach is tempted to descend below minimums, believing there is a built-in margin of error in every approach procedure. Which operational pitfall does this describe?",
+      "correct_answer": "Duck-under syndrome",
+      "distractors": [
+        "Scud running",
+        "Get-there-itis",
+        "Getting behind the aircraft"
+      ],
+      "explanation": "The chapter defines duck-under syndrome as: 'A pilot may be tempted to make it into an airport by descending below minimums during an approach. There may be a belief that there is a built-in margin of error in every approach procedure.'",
+      "reference": {
+        "page": "2-22",
+        "text": "Duck-under syndrome. A pilot may be tempted to make it into an airport by descending below minimums during an approach. There may be a belief that there is a built-in margin of error in every approach procedure"
+      }
+    },
+    {
+      "section": "Stress Management",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "According to the chapter, how does performance typically change as stress levels increase?",
+      "correct_answer": "Performance increases with stress, peaks, then falls off rapidly as stress exceeds the ability to cope",
+      "distractors": [
+        "Performance decreases steadily as soon as any stress is present",
+        "Performance remains constant until stress reaches a critical threshold, then stops entirely",
+        "Performance increases linearly with stress and never decreases"
+      ],
+      "explanation": "The chapter states: 'Performance generally increases with the onset of stress, peaks, and then begins to fall off rapidly as stress levels exceed a person's ability to cope.'",
+      "reference": {
+        "page": "2-21",
+        "text": "Performance generally increases with the onset of stress, peaks, and then begins to fall off rapidly as stress levels exceed a person's ability to cope."
+      }
+    },
+    {
+      "section": "Situational Awareness",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "A pilot is being vectored by ATC but is simply making turns without understanding why. According to the chapter, what problem does this create?",
+      "correct_answer": "The pilot has added an additional burden to risk management in the event of an emergency",
+      "distractors": [
+        "The pilot is demonstrating good CRM by trusting ATC completely",
+        "The pilot is reducing workload by not analyzing the vectoring",
+        "The pilot is maintaining situational awareness by following instructions"
+      ],
+      "explanation": "The chapter states: 'A pilot who is simply making turns without understanding why has added an additional burden to his or her management in the event of an emergency.' Understanding why vectors are given is part of maintaining situational awareness.",
+      "reference": {
+        "page": "2-24",
+        "text": "A pilot who is simply making turns without understanding why has added an additional burden to his or her management in the event of an emergency."
+      }
+    },
+    {
+      "section": "Workload Management",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "When a pilot becomes task saturated due to high workload, what is the primary effect on decision-making?",
+      "correct_answer": "There is no awareness of input from various sources, so decisions may be made on incomplete information",
+      "distractors": [
+        "The pilot automatically defaults to using checklists more frequently",
+        "The pilot becomes more efficient by focusing on multiple tasks simultaneously",
+        "The pilot instinctively slows down and prioritizes tasks without conscious effort"
+      ],
+      "explanation": "The chapter states: 'When a pilot becomes task saturated, there is no awareness of input from various sources, so decisions may be made on incomplete information and the possibility of error increases.'",
+      "reference": {
+        "page": "2-24",
+        "text": "When a pilot becomes task saturated, there is no awareness of input from various sources, so decisions may be made on incomplete information and the possibility of error increases."
+      }
+    },
+    {
+      "section": "Managing Aircraft Automation",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "A study described in the chapter compared pilots flying EFIS-equipped aircraft with pilots flying analog-equipped aircraft. What key finding emerged about the EFIS pilots when required to fly maneuvers manually without a flight director?",
+      "correct_answer": "They exhibited erosion of flying skills, with greater deviations especially during abnormal and emergency maneuvers",
+      "distractors": [
+        "They performed identically to the analog group in all maneuvers",
+        "They performed better than the analog group due to greater overall situational awareness",
+        "They performed better in normal maneuvers but worse only in IFR approaches"
+      ],
+      "explanation": "The chapter reports: 'When pilots who had flown EFIS for several years were required to fly various maneuvers manually, the aircraft parameters and flight control inputs clearly showed some erosion of flying skills.' The differences became more significant during abnormal and emergency maneuvers.",
+      "reference": {
+        "page": "2-27",
+        "text": "When pilots who had flown EFIS for several years were required to fly various maneuvers manually, the aircraft parameters and flight control inputs clearly showed some erosion of flying skills."
+      }
+    }
+  ]
+}

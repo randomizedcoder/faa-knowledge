@@ -1,0 +1,366 @@
+{
+  "source": "AFH",
+  "chapter": 11,
+  "questions": [
+    {
+      "section": "Anatomy of the Eye",
+      "difficulty": 1,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "Which photosensitive cells in the eye are primarily responsible for night vision, and where are they concentrated?",
+      "correct_answer": "Rods, located mainly in the periphery of the retina",
+      "distractors": [
+        "Cones, concentrated in the fovea",
+        "Both rods and cones equally distributed across the retina",
+        "The iris, which adjusts pupil size in response to dim light"
+      ],
+      "explanation": "The chapter states that rods are located mainly in the periphery of the retina and are used for low light intensity or night vision. Cones, concentrated in the fovea, are used for day or high-intensity light vision.",
+      "reference": {
+        "page": "11-1",
+        "text": "The rods are located mainly in the periphery of the retina—an area that is about 10,000 times more sensitive to light than the fovea. Rods are used for low light intensity or night vision and are involved with peripheral vision"
+      }
+    },
+    {
+      "section": "Types of Vision",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "Under scotopic vision conditions, what happens if a pilot looks directly at a dim object for more than a few seconds?",
+      "correct_answer": "The image of the object fades away completely due to the night blind spot",
+      "distractors": [
+        "The object becomes sharper as the cones adapt to the darkness",
+        "The object's color becomes distinguishable after several seconds",
+        "The object appears to move, creating the autokinesis illusion"
+      ],
+      "explanation": "The chapter explains that under scotopic conditions, central vision (foveal cones) becomes ineffective. If looking directly at an object for more than a few seconds, the image fades away completely due to the night blind spot. Autokinesis is a separate illusion involving a stationary light appearing to move.",
+      "reference": {
+        "page": "11-3",
+        "text": "Under these conditions, if looking directly at an object for more than a few seconds, the image of the object fades away completely (night blind spot). Peripheral vision (off center scanning) provides the only means of seeing very dim objects in the dark."
+      }
+    },
+    {
+      "section": "The Night Blind Spot",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "What causes the night blind spot, and how much of the visual field does it affect?",
+      "correct_answer": "Absence of rods in the fovea, affecting the central 5 to 10 degrees of the visual field",
+      "distractors": [
+        "Absence of cones in the periphery, affecting 30 to 40 degrees of the visual field",
+        "Damage to the optic nerve, affecting the entire peripheral field",
+        "Blood vessels blocking the macula, affecting the central 1 to 2 degrees"
+      ],
+      "explanation": "The night blind spot appears under low ambient illumination due to the absence of rods in the fovea. This affects the central 5 to 10 degrees of the visual field, meaning objects viewed directly may go undetected or fade away.",
+      "reference": {
+        "page": "11-3",
+        "text": "The \"Night Blind Spot\" appears under conditions of low ambient illumination due to the absence of rods in the fovea. This absence of rods affects the central 5 to 10 degrees of the visual field."
+      }
+    },
+    {
+      "section": "Vision Under Dim and Bright Illumination",
+      "difficulty": 1,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "Approximately how long does it take for the eyes to achieve maximum dark adaptation?",
+      "correct_answer": "Up to 30 minutes",
+      "distractors": [
+        "5 to 10 minutes",
+        "1 to 2 hours",
+        "Approximately 15 minutes"
+      ],
+      "explanation": "The chapter states that in darkness, vision gradually becomes more sensitive to light and maximum dark adaptation can take up to 30 minutes. Exposure to bright light for 1 second or more can temporarily impair this adaptation.",
+      "reference": {
+        "page": "11-3",
+        "text": "In darkness, vision gradually becomes more sensitive to light. Maximum dark adaptation can take up to 30 minutes."
+      }
+    },
+    {
+      "section": "Factors Affecting Vision",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "At what altitude does the chapter state that inflight exposure to low barometric pressure without supplemental oxygen can result in hypoxia impairing visual performance at night?",
+      "correct_answer": "Above 5,000 feet",
+      "distractors": [
+        "Above 10,000 feet",
+        "Above 12,500 feet",
+        "Above 8,000 feet"
+      ],
+      "explanation": "The chapter specifies that hypoxia can impair visual performance above 10,000 feet during the day and above 5,000 feet at night. The lower nighttime altitude reflects the eye's greater sensitivity to oxygen deprivation in low-light conditions.",
+      "reference": {
+        "page": "11-4",
+        "text": "Inflight exposure to low barometric pressure without the use of supplemental oxygen (above 10,000 feet during the day and above 5,000 feet at night) can result in hypoxia, which impairs visual performance."
+      }
+    },
+    {
+      "section": "Autokinesis",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "What is the visual illusion known as autokinesis?",
+      "correct_answer": "A stationary light appears to move when stared at for many seconds in the dark",
+      "distractors": [
+        "Ground lights blend with stars, making it difficult to distinguish the actual horizon",
+        "A runway appears to slope up or down due to a lack of surrounding visual cues",
+        "Bright lights make the runway appear closer than it actually is"
+      ],
+      "explanation": "The chapter describes autokinesis as an illusion where a stationary light appears to move about when stared at for many seconds in the dark. A disoriented pilot could lose control attempting to align the aircraft with the false movements.",
+      "reference": {
+        "page": "11-4",
+        "text": "In the dark, a stationary light will appear to move about when stared at for many seconds. The disoriented pilot could lose control of the aircraft in attempting to align it with the false movements of this light."
+      }
+    },
+    {
+      "section": "Featureless Terrain Illusion",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "During a black-hole approach, what is the most likely hazardous outcome if the pilot does not recognize the illusion?",
+      "correct_answer": "Landing short of the runway",
+      "distractors": [
+        "Landing long on the runway",
+        "Flaring too high above the runway",
+        "Overshooting the final approach course"
+      ],
+      "explanation": "The chapter states that a black-hole approach occurs when landing from over water or non-lighted terrain where runway lights are the only source of light. Without peripheral visual cues, the runway can seem out of position and, in the worst case, results in landing short of the runway.",
+      "reference": {
+        "page": "11-5",
+        "text": "Without peripheral visual cues to help, orientation is difficult. The runway can seem out of position (down-sloping or up-sloping) and in the worst case, results in landing short of the runway."
+      }
+    },
+    {
+      "section": "Ground Lighting Illusions",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "When bright runway and approach lighting systems create the illusion of being closer to the runway than actual, what tendency does this create for the pilot?",
+      "correct_answer": "Flying a higher-than-normal approach",
+      "distractors": [
+        "Flying a lower-than-normal approach",
+        "Landing short of the runway threshold",
+        "Overcorrecting with excessive bank on final approach"
+      ],
+      "explanation": "The chapter explains that bright runway and approach lighting systems, especially where few lights illuminate the surrounding terrain, may create the illusion of less distance to the runway. The pilot who does not recognize this illusion will often fly a higher approach.",
+      "reference": {
+        "page": "11-5",
+        "text": "Bright runway and approach lighting systems, especially where few lights illuminate the surrounding terrain, may create the illusion of less distance to the runway. The pilot who does not recognize this illusion will often fly a higher approach."
+      }
+    },
+    {
+      "section": "Pilot Equipment",
+      "difficulty": 1,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "According to the chapter, what color flashlight light is recommended for use during flight deck operations at night, and why?",
+      "correct_answer": "Red light, because it is non-glaring and will not impair night vision",
+      "distractors": [
+        "White light, because it provides the best detail for instrument reading",
+        "Green light, because it preserves color perception on aeronautical charts",
+        "Blue light, because it reduces eye strain during prolonged use"
+      ],
+      "explanation": "The chapter recommends a dimmable flashlight able to produce white/red light. White light is used for preflight inspection, red light is used for flight deck operations because it is non-glaring and will not impair night vision, and dim white light may be used for chart reading.",
+      "reference": {
+        "page": "11-5",
+        "text": "Since the red light is non-glaring, it will not impair night vision."
+      }
+    },
+    {
+      "section": "Airplane Equipment and Lighting",
+      "difficulty": 1,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "How are airplane position lights arranged according to the chapter?",
+      "correct_answer": "Red on the left wingtip, green on the right wingtip, and white on the tail",
+      "distractors": [
+        "Green on the left wingtip, red on the right wingtip, and white on the tail",
+        "Red on the left wingtip, white on the right wingtip, and green on the tail",
+        "White on the left wingtip, green on the right wingtip, and red on the tail"
+      ],
+      "explanation": "The chapter states that airplane position lights are arranged similar to those of boats and ships: a red light on the left wingtip, a green light on the right wingtip, and a white light on the tail. This arrangement helps pilots determine the general direction of movement of other aircraft.",
+      "reference": {
+        "page": "11-6",
+        "text": "A red light is positioned on the left wingtip, a green light on the right wingtip, and a white light on the tail."
+      }
+    },
+    {
+      "section": "Airplane Equipment and Lighting",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "Under what authority may a pilot-in-command turn off the aircraft's anti-collision light system at night?",
+      "correct_answer": "14 CFR part 91, section 91.209(b) allows the PIC to turn them off in the interest of safety",
+      "distractors": [
+        "The PIC may never turn off anti-collision lights during night flight under any circumstances",
+        "The PIC may turn them off only after receiving ATC approval",
+        "The PIC may turn them off only when operating below 10,000 feet MSL"
+      ],
+      "explanation": "While 14 CFR 91.205(c)(3) requires an approved anti-collision light system for VFR night flight, 14 CFR 91.209(b) gives the pilot-in-command leeway to turn off the anti-collision lights in the interest of safety.",
+      "reference": {
+        "page": "11-6",
+        "text": "14 CFR part 91, section 91.209(b) gives the pilot-in-command leeway to turn off the anti-collision lights in the interest of safety."
+      }
+    },
+    {
+      "section": "Airport and Navigation Lighting Aids",
+      "difficulty": 1,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "What color pattern does a rotating beacon display to identify a lighted civilian land airport?",
+      "correct_answer": "Alternating white and green lights",
+      "distractors": [
+        "Alternating white and yellow lights",
+        "Dual peaked white flashes, then green",
+        "Alternating white and red flashes"
+      ],
+      "explanation": "The chapter lists beacon color patterns for different airport types. Civilian land airports use alternating white and green lights. Civilian water airports use alternating white and yellow. Military airports use dual peaked white flashes then green. Red flashes indicate obstructions.",
+      "reference": {
+        "page": "11-7",
+        "text": "Lighted civilian land airports—alternating white and green lights"
+      }
+    },
+    {
+      "section": "Airport and Navigation Lighting Aids",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "What colors are runway threshold lights and runway end lights, respectively?",
+      "correct_answer": "Threshold lights are aviation green and runway end lights are aviation red",
+      "distractors": [
+        "Both threshold and runway end lights are aviation white",
+        "Threshold lights are red and runway end lights are green",
+        "Threshold lights are yellow and runway end lights are white"
+      ],
+      "explanation": "The chapter states that at some airports, runway threshold lights are aviation green and runway end lights are aviation red. Runway edge lights are aviation white, though yellow may be substituted for the last 2,000 feet to indicate a caution zone.",
+      "reference": {
+        "page": "11-7",
+        "text": "At some airports, the runway threshold lights are aviation green, and the runway end lights are aviation red."
+      }
+    },
+    {
+      "section": "Airport and Navigation Lighting Aids",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "When using radio-controlled runway lighting, how many microphone clicks are recommended to initially activate all lights to maximum available intensity?",
+      "correct_answer": "7 clicks",
+      "distractors": [
+        "3 clicks",
+        "5 clicks",
+        "10 clicks"
+      ],
+      "explanation": "The chapter recommends always initially keying the mike 7 times, which assures all controlled lights are turned on to maximum available intensity. If desired, adjustment can then be made to a lower intensity by keying 5 and/or 3 times.",
+      "reference": {
+        "page": "11-7",
+        "text": "Suggested use is to always initially key the mike 7 times; this assures that all controlled lights are turned on to the maximum available intensity."
+      }
+    },
+    {
+      "section": "Preparation and Preflight",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "Why does the chapter recommend paying particular attention to the temperature/dew point spread during night flight preparation?",
+      "correct_answer": "A narrow temperature/dew point spread may indicate the possibility of fog",
+      "distractors": [
+        "A wide spread ensures better engine performance at night",
+        "A narrow spread guarantees clear skies and good visibility",
+        "A wide spread indicates the need for supplemental oxygen"
+      ],
+      "explanation": "The chapter states that preparation for a night flight includes a thorough review of weather with particular attention to temperature/dew point spread. A narrow spread may indicate the possibility of fog, which is especially hazardous at night.",
+      "reference": {
+        "page": "11-7",
+        "text": "Preparation for a night flight includes a thorough review of the available weather reports and forecasts with particular attention given to temperature/dew point spread. A narrow temperature/dew point spread may indicate the possibility of fog."
+      }
+    },
+    {
+      "section": "Takeoff and Climb",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "During a night takeoff, why does the chapter emphasize frequent reference to flight instruments?",
+      "correct_answer": "Limited outside visual references at night make instruments essential for verifying airspeed, attitude, and heading",
+      "distractors": [
+        "Flight instruments are required to be used for all night departures by regulation",
+        "The airplane's mechanical operation changes at night and instruments compensate for this",
+        "ATC requires instrument reference for all night departures from controlled airports"
+      ],
+      "explanation": "The chapter explains that the most noticeable difference between day and night flying is the limited availability of outside visual references at night. Flight instruments should be used to a greater degree, particularly on night takeoffs and climbs, to ensure proper airspeed, attitude, and heading.",
+      "reference": {
+        "page": "11-8",
+        "text": "The most noticeable difference between daylight and nighttime flying is the limited availability of outside visual references at night. Therefore, flight instruments should be used to a greater degree in controlling the airplane."
+      }
+    },
+    {
+      "section": "Orientation and Navigation",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "What hazard does the chapter identify when flying over large bodies of water at night?",
+      "correct_answer": "Stars reflected on the water surface can appear as a continuous array of lights, making the horizon difficult to identify",
+      "distractors": [
+        "Radio navigation signals become unreliable over water at night",
+        "The water absorbs all ambient light, making the surface completely invisible",
+        "Temperature differentials over water cause rapid engine icing at night"
+      ],
+      "explanation": "The chapter identifies that crossing large bodies of water at night is hazardous for single-engine airplanes due to engine failure risk, and also because stars may be reflected on the water surface, appearing as a continuous array of lights and making the horizon difficult to identify.",
+      "reference": {
+        "page": "11-9",
+        "text": "Even on clear nights, the stars may be reflected on the water surface, which could appear as a continuous array of lights, thus making the horizon difficult to identify."
+      }
+    },
+    {
+      "section": "Night Emergencies",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "During a night engine failure emergency, if the landing lights are unusable and outside visual references are not available, what should the pilot do?",
+      "correct_answer": "Hold the airplane in a level-landing attitude until the ground is contacted",
+      "distractors": [
+        "Descend in a spiral over the selected landing area to maintain visual contact with the ground",
+        "Use the vertical speed indicator to determine the correct flare height for touchdown",
+        "Turn on all cockpit lights to maximum brightness to illuminate the ground below"
+      ],
+      "explanation": "The chapter states that if the landing lights are unusable and outside visual references are not available during a night emergency landing, the airplane should be held in a level-landing attitude until the ground is contacted. The landing should be completed at the slowest possible airspeed in the normal landing attitude.",
+      "reference": {
+        "page": "11-13",
+        "text": "If the landing lights are unusable and outside visual references are not available, the airplane should be held in level-landing attitude until the ground is contacted."
+      }
+    }
+  ]
+}

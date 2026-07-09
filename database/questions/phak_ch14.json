@@ -3,76 +3,364 @@
   "chapter": 14,
   "questions": [
     {
-      "section": "Runway Markings",
+      "section": "Runway Markings and Signs",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "A displaced threshold reduces the length of runway available for landings. What use is permitted on the portion of runway behind a displaced threshold?",
+      "correct_answer": "Takeoffs in either direction, or landings from the opposite direction",
+      "distractors": [
+        "Takeoffs in the direction of the displaced threshold only",
+        "Taxiing only, since the surface is not structurally rated for landing or takeoff",
+        "Landings from either direction"
+      ],
+      "explanation": "The chapter states that the portion of runway behind a displaced threshold is available for takeoffs in either direction or landings from the opposite direction. It is not limited to taxiing, and landings are only permitted from the opposite direction, not from the direction of the displacement.",
+      "reference": {
+        "page": "14-5",
+        "text": "The portion of runway behind a displaced threshold is available for takeoffs in either direction, or landings from the opposite direction."
+      }
+    },
+    {
+      "section": "Types of Airports",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "When arriving from the upwind side of a nontowered airport traffic pattern, what is one recommended method of entry?",
+      "correct_answer": "Cross over midfield at least 500 feet above pattern altitude, then when clear of the pattern, descend to pattern altitude and turn right to enter on a 45° to the downwind leg at midfield",
+      "distractors": [
+        "Descend directly to pattern altitude and enter on a base leg",
+        "Cross over midfield at pattern altitude and immediately turn downwind",
+        "Enter on a 45° to the upwind leg at pattern altitude"
+      ],
+      "explanation": "The chapter describes crossing over midfield at least 500 feet above pattern altitude, then when approximately 2 miles clear of the pattern, descending to pattern altitude and turning right to enter at 45° to the downwind leg at midfield. Entering at pattern altitude directly or entering on the upwind leg is not the recommended procedure.",
+      "reference": {
+        "page": "14-3",
+        "text": "One method of entry from the opposite side of the pattern is to announce your intentions and cross over midfield at least 500 feet above pattern altitude…When well clear of the pattern—approximately 2 miles—scan carefully for traffic, descend to pattern altitude, then turn right to enter at 45° to the downwind leg at midfield."
+      }
+    },
+    {
+      "section": "Runway Holding Position Marking",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "When exiting a runway, how does a pilot interpret the runway holding position markings, and is ATC clearance required to cross them?",
+      "correct_answer": "The aircraft approaches the dashed lines first; the entire aircraft must cross both the dashed and solid lines to be clear of the runway, and no ATC clearance is needed",
+      "distractors": [
+        "The aircraft approaches the solid lines first, and must stop until ATC provides clearance to cross",
+        "The aircraft approaches the dashed lines first, and must stop until ATC provides clearance to cross",
+        "The aircraft approaches the solid lines first, and no clearance is needed since the aircraft is exiting"
+      ],
+      "explanation": "When exiting the runway, the aircraft approaches the dashed lines first. The entire aircraft must cross both the dashed and solid lines to be clear of the runway. No ATC clearance is needed to cross when exiting. When approaching the runway (the opposite direction), the solid lines are encountered first and ATC clearance is required.",
+      "reference": {
+        "page": "14-8",
+        "text": "When exiting the runway, the same markings will be seen except the aircraft will be approaching the double dashed lines. In order to be clear of the runway, the entire aircraft must cross both the dashed and solid lines. An ATC clearance is not needed to cross this marking when exiting the runway."
+      }
+    },
+    {
+      "section": "Land and Hold Short Operations (LAHSO)",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "Which of the following statements about LAHSO restrictions is correct?",
+      "correct_answer": "LAHSO are not authorized for student pilots who are performing a solo flight",
+      "distractors": [
+        "LAHSO are authorized at night for properly rated non-student pilots",
+        "LAHSO are authorized on wet runways if the pilot has received ATC approval",
+        "Student pilots may participate in LAHSO only when a CFI is on board"
+      ],
+      "explanation": "The chapter explicitly states that LAHSO are not authorized for student pilots on solo flights, are generally not authorized at night, and are not authorized on wet runways. The text does not provide an exception for student pilots with a CFI on board.",
+      "reference": {
+        "page": "14-11",
+        "text": "LAHSO are not authorized for student pilots who are performing a solo flight…Generally, LAHSO are not authorized at night…LAHSO are not authorized on wet runways."
+      }
+    },
+    {
+      "section": "Visual Approach Slope Indicator (VASI)",
       "difficulty": 1,
-      "categories": ["written_exam", "general_knowledge"],
-      "question": "What do the numbers on the ends of a runway indicate?",
-      "correct_answer": "The magnetic heading of the runway rounded to the nearest 10 degrees, divided by 10",
-      "distractors": ["The length of the runway in hundreds of feet", "The elevation of the runway in feet MSL", "The runway's assigned traffic pattern number"],
-      "explanation": "Runway numbers represent the magnetic heading divided by 10 and rounded. Runway 27 has a magnetic heading of approximately 270 degrees."
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "A VASI installation provides obstruction clearance within what spatial limits?",
+      "correct_answer": "Within 10° of the extended runway centerline and up to 4 NM from the runway threshold",
+      "distractors": [
+        "Within 10° of the extended runway centerline and up to 10 NM from the runway threshold",
+        "Within 15° of the extended runway centerline and up to 4 NM from the runway threshold",
+        "Within 5° of the extended runway centerline and up to 3 NM from the runway threshold"
+      ],
+      "explanation": "The chapter specifies that the VASI provides obstruction clearance within 10° of the extended runway centerline and up to 4 nautical miles from the runway threshold. The other options combine incorrect distance or angular values.",
+      "reference": {
+        "page": "14-16",
+        "text": "The VASI provides obstruction clearance within 10° of the extended runway centerline and up to four nautical miles (NM) from the runway threshold."
+      }
+    },
+    {
+      "section": "Airport Beacon",
+      "difficulty": 1,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "A pilot at night observes an airport beacon flashing white and yellow. What type of airport does this indicate?",
+      "correct_answer": "A water airport",
+      "distractors": [
+        "A civilian land airport",
+        "A heliport",
+        "A military airport"
+      ],
+      "explanation": "The chapter lists beacon color combinations: flashing white and green indicates a civilian land airport, white and yellow indicates a water airport, white/yellow/green indicates a heliport, and two quick white flashes alternating with green identifies a military airport.",
+      "reference": {
+        "page": "14-16",
+        "text": "Flashing white and yellow for a water airport"
+      }
+    },
+    {
+      "section": "Automated Terminal Information Service (ATIS)",
+      "difficulty": 1,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "When contacting the tower controller after listening to ATIS, what should the pilot do?",
+      "correct_answer": "State the ATIS code letter received so the controller can verify the pilot has the current information",
+      "distractors": [
+        "Request the controller to read back the current weather conditions for confirmation",
+        "State only 'ATIS received' without specifying the code letter",
+        "Wait for the controller to ask if the pilot has the current ATIS before stating the code"
+      ],
+      "explanation": "The chapter states that upon contacting the tower controller, the pilot should state the ATIS code received (e.g., 'information Bravo'). This allows the controller to verify the pilot has the current weather and airport information without relaying it individually. Simply saying 'ATIS received' without the code does not allow verification.",
+      "reference": {
+        "page": "14-5",
+        "text": "Upon contacting the tower controller, state information Bravo was received. This allows the tower controller to verify the pilot has the current local weather and airport information without having to state it all to each pilot who calls."
+      }
+    },
+    {
+      "section": "Vortex Behavior",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "Which wind condition presents the worst case scenario for wake turbulence on final approach?",
+      "correct_answer": "A light quartering tailwind",
+      "distractors": [
+        "A direct headwind",
+        "A strong crosswind from the right",
+        "A light quartering headwind"
+      ],
+      "explanation": "The chapter identifies a light quartering tailwind as the worst case scenario because the wake vortices could be present along a significant portion of the final approach and extended centerline, not just in the touchdown zone. A headwind would push vortices away, and a crosswind moves vortices laterally but does not concentrate them along the approach path as effectively.",
+      "reference": {
+        "page": "14-28",
+        "text": "A light quartering tailwind presents the worst case scenario as the wake vortices could be all present along a significant portion of the final approach and extended centerline and not just in the touchdown zone as typically expected."
+      }
+    },
+    {
+      "section": "Holding Position Signs and Markings for an Instrument Landing System (ILS) Critical Area",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "What do the ILS critical area holding position markings look like on the pavement?",
+      "correct_answer": "A horizontal yellow ladder extending across the width of the taxiway",
+      "distractors": [
+        "Four yellow lines, two solid and two dashed, extending across the taxiway",
+        "A single dashed yellow line extending across the taxiway",
+        "White characters on a red background painted on the left side of the taxiway centerline"
+      ],
+      "explanation": "The chapter describes the ILS critical area holding position markings as appearing on the pavement as a horizontal yellow ladder extending across the width of the taxiway. The four-line solid/dashed pattern is the runway holding position marking, the single dashed line is for taxiway/taxiway intersections, and white-on-red characters describe a surface painted holding position sign.",
+      "reference": {
+        "page": "14-12",
+        "text": "The holding position markings for the ILS critical area appear on the pavement as a horizontal yellow ladder extending across the width of the taxiway."
+      }
+    },
+    {
+      "section": "ATC Instructions—Hold Short",
+      "difficulty": 2,
+      "categories": [
+        "checkride_oral",
+        "written_exam"
+      ],
+      "question": "When ATC issues a 'hold short' instruction, what is the pilot required to read back?",
+      "correct_answer": "The entire clearance and 'hold short' instruction, including the runway identifier and aircraft call sign",
+      "distractors": [
+        "Only the runway identifier, acknowledged with 'roger'",
+        "The entire clearance, but the call sign may be omitted if the frequency is busy",
+        "Only 'hold short' and the runway identifier"
+      ],
+      "explanation": "ATC is required to obtain a read-back of all runway 'hold short' instructions. The pilot must read back the entire clearance and 'hold short' instruction, including the runway identifier and aircraft call sign. Partial read-backs or omitting the call sign do not satisfy this requirement.",
+      "reference": {
+        "page": "14-32",
+        "text": "you must read back the entire clearance and 'hold short' instruction, to include runway identifier and your call sign."
+      }
+    },
+    {
+      "section": "Engineered Materials Arresting Systems (EMAS)",
+      "difficulty": 3,
+      "categories": [
+        "checkride_oral",
+        "general_knowledge"
+      ],
+      "question": "If a pilot determines the aircraft will exit the runway end and enter an EMAS bed during an overrun, what actions should the pilot take?",
+      "correct_answer": "Continue maximum deceleration efforts, maintain runway centerline, and do not attempt to taxi once stopped",
+      "distractors": [
+        "Apply nosewheel steering to steer the aircraft out of the EMAS bed to one side",
+        "Reduce braking to allow the EMAS bed to absorb the aircraft's momentum more gently",
+        "Shut down engines and apply the parking brake before entering the EMAS bed"
+      ],
+      "explanation": "The chapter provides specific guidance: continue deceleration following rejected takeoff or maximum braking procedures, maintain runway centerline to maximize the EMAS bed's stopping capability, maintain deceleration efforts since the bed is passive, and once stopped, do not attempt to taxi or move the aircraft. Steering out of the bed or reducing braking would reduce effectiveness.",
+      "reference": {
+        "page": "14-36",
+        "text": "Continue deceleration - Regardless of aircraft speed upon exiting the runway, continue to follow Rejected/Aborted Takeoff procedures…Maintain runway centerline…Maintain deceleration efforts…Once stopped, do not attempt to taxi or otherwise move the aircraft."
+      }
+    },
+    {
+      "section": "Nontowered Airport",
+      "difficulty": 1,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "At an airport with no tower, FSS, or UNICOM, what frequency and procedure should a pilot use for self-announcing?",
+      "correct_answer": "Self-announce on MULTICOM frequency 122.9",
+      "distractors": [
+        "Self-announce on UNICOM frequency 122.8",
+        "Use the tower frequency even though the tower is not in operation",
+        "Self-announce on the emergency frequency 121.5"
+      ],
+      "explanation": "Figure 14-1 specifies that at an airport with no tower, FSS, or UNICOM, pilots should self-announce on MULTICOM frequency 122.9. UNICOM frequencies are used when a UNICOM station exists, the tower frequency is used when a tower exists but is not in operation, and 121.5 is for emergencies only.",
+      "reference": {
+        "page": "14-2",
+        "text": "No tower, FSS, or UNICOM—Self-announce on MULTICOM frequency 122.9."
+      }
     },
     {
       "section": "Traffic Patterns",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "On a segmented circle, what do the traffic pattern indicators indicate?",
+      "correct_answer": "The direction of turns when there is a variation from the normal left traffic pattern",
+      "distractors": [
+        "The direction of the wind",
+        "The alignment of the landing strips",
+        "The recommended traffic pattern altitude"
+      ],
+      "explanation": "The chapter states that traffic pattern indicators are arranged in pairs in conjunction with landing strip indicators and are used to indicate the direction of turns when there is a variation from the normal left traffic pattern. Wind direction is shown by wind direction indicators, landing strip alignment by landing strip indicators, and pattern altitude is not indicated by the segmented circle.",
+      "reference": {
+        "page": "14-20",
+        "text": "Traffic pattern indicators are arranged in pairs in conjunction with landing strip indicators and used to indicate the direction of turns when there is a variation from the normal left traffic pattern."
+      }
+    },
+    {
+      "section": "Lost Communication Procedures",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "If both the transmitter and receiver are inoperative and a pilot needs to land at a towered airport, what should the pilot do?",
+      "correct_answer": "Remain outside of Class D airspace until the flow of traffic is determined, then enter the pattern and watch for light signals",
+      "distractors": [
+        "Squawk 7700 and wait for a steady green light before entering Class D airspace",
+        "Enter Class D airspace immediately and orbit the tower until light signals are received",
+        "Remain outside Class D and land at the nearest nontowered airport since landing at a towered airport is not possible"
+      ],
+      "explanation": "The chapter states that when both receiver and transmitter are inoperative, the pilot should remain outside Class D airspace until the flow of traffic is determined, then enter the pattern and watch for light signals. The text does not say landing at a towered airport is impossible; it provides a specific procedure. Squawking 7700 is for emergencies, and orbiting the tower without determining traffic flow first is not the recommended procedure.",
+      "reference": {
+        "page": "14-23",
+        "text": "When both receiver and transmitter are inoperative, the pilot should remain outside of Class D airspace until the flow of traffic has been determined and then enter the pattern and watch for light signals."
+      }
+    },
+    {
+      "section": "Taxiway Markings and Signs",
       "difficulty": 1,
-      "categories": ["written_exam", "checkride_oral"],
-      "question": "Unless otherwise indicated, what is the standard direction of traffic pattern turns at an airport?",
-      "correct_answer": "Left turns",
-      "distractors": ["Right turns", "Alternating left and right turns", "Either direction, pilot's discretion"],
-      "explanation": "Standard traffic patterns use left turns unless the airport has designated right traffic for specific runways, as indicated in the Chart Supplement or by visual indicators."
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "How are taxiway direction signs identified?",
+      "correct_answer": "Yellow background with black characters, with arrows indicating the direction of turn",
+      "distractors": [
+        "Black background with yellow inscription and no arrows",
+        "Red background with white inscription",
+        "Yellow background with black characters and no arrows"
+      ],
+      "explanation": "The chapter describes taxiway direction signs as having a yellow background with black characters, with arrows indicating the direction of turn. A black background with yellow inscription and no arrows describes a location sign. A red background with white inscription describes a mandatory instruction sign. Direction signs always include arrows.",
+      "reference": {
+        "page": "14-11",
+        "text": "Taxiway direction signs have a yellow background and black characters, which identifies the designation or intersecting taxiways. Arrows indicate the direction of turn that would place the aircraft on the designated taxiway."
+      }
     },
     {
-      "section": "Airport Lighting",
-      "difficulty": 2,
-      "categories": ["written_exam"],
-      "question": "What color are the runway edge lights that mark the last 2,000 feet of runway available for landing?",
-      "correct_answer": "Yellow (caution zone)",
-      "distractors": ["Red", "White", "Green"],
-      "explanation": "Runway edge lights are white, but the last 2,000 feet (or last half of the runway if less than 4,000 feet) have yellow caution-zone lighting to warn pilots of the approaching runway end."
-    },
-    {
-      "section": "Airport Beacons",
+      "section": "Runway Distance Remaining Signs",
       "difficulty": 1,
-      "categories": ["written_exam", "general_knowledge"],
-      "question": "What colors does a civilian airport beacon alternate between?",
-      "correct_answer": "White and green",
-      "distractors": ["White and red", "Green and yellow", "White and blue"],
-      "explanation": "Civilian airport beacons alternate white and green. Military airport beacons alternate white and green but with dual-peaked white flashes. Heliport beacons are green-yellow-white."
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "What do runway distance remaining signs indicate?",
+      "correct_answer": "The distance of the remaining runway in thousands of feet",
+      "distractors": [
+        "The distance of the remaining runway in hundreds of feet",
+        "The distance from the current position to the next taxiway intersection",
+        "The distance remaining to the nearest runway threshold"
+      ],
+      "explanation": "The chapter states that runway distance remaining signs have a black background with a white number indicating the distance, in thousands of feet, of landing runway remaining. They do not indicate hundreds of feet, taxiway distances, or distance to a threshold.",
+      "reference": {
+        "page": "14-8",
+        "text": "The number on the signs indicates the distance, in thousands of feet, of landing runway remaining."
+      }
     },
     {
-      "section": "VASI/PAPI",
+      "section": "Wind Direction Indicators",
       "difficulty": 2,
-      "categories": ["written_exam", "checkride_oral"],
-      "question": "When using a VASI (Visual Approach Slope Indicator), what does seeing two red lights over two red lights indicate?",
-      "correct_answer": "The aircraft is below the glide path",
-      "distractors": ["The aircraft is on the glide path", "The aircraft is above the glide path", "The VASI system is inoperative"],
-      "explanation": "VASI: Red over Red = below glide path (dangerously low). Red over White = on glide path. White over White = above glide path. Memory: 'Red over red, you're dead.'"
+      "categories": [
+        "checkride_oral",
+        "general_knowledge"
+      ],
+      "question": "Why should a pilot also check the wind sock even when a tetrahedron is available at an airport?",
+      "correct_answer": "A tetrahedron can be manually set to align with the runway in use, so the wind sock provides actual wind information",
+      "distractors": [
+        "The wind sock is more visible at night than the tetrahedron",
+        "The wind sock is calibrated to FAA standards while the tetrahedron is not",
+        "The tetrahedron only indicates wind direction and not velocity, while the wind sock indicates both"
+      ],
+      "explanation": "The chapter explains that wind tees and tetrahedrons can swing freely and align with the wind, but they can also be manually set to align with the runway in use. For this reason, a pilot should also look at the wind sock for wind information if one is available. The other options give reasons not stated in the text.",
+      "reference": {
+        "page": "14-20",
+        "text": "Since a wind tee or tetrahedron can also be manually set to align with the runway in use, a pilot should also look at the wind sock for wind information, if one is available."
+      }
     },
     {
-      "section": "NOTAMs",
-      "difficulty": 1,
-      "categories": ["written_exam", "general_knowledge"],
-      "question": "What is the purpose of NOTAMs (Notices to Air Missions)?",
-      "correct_answer": "To alert pilots of temporary changes, hazards, or conditions at airports and in the NAS",
-      "distractors": ["To provide permanent changes to instrument approach procedures", "To update aircraft maintenance records", "To issue new FARs"],
-      "explanation": "NOTAMs provide time-critical aeronautical information on temporary conditions, such as runway closures, airspace restrictions, hazards, and equipment outages."
-    },
-    {
-      "section": "Taxiway Markings",
+      "section": "ATC Instructions—Line Up and Wait (LUAW)",
       "difficulty": 2,
-      "categories": ["written_exam", "checkride_oral"],
-      "question": "What does a solid yellow line paired with a dashed yellow line on a taxiway mean?",
-      "correct_answer": "Hold short line — do not cross from the solid side without ATC clearance",
-      "distractors": ["Taxiway centerline marking", "Taxiway edge marking", "ILS critical area boundary that can be freely crossed"],
-      "explanation": "The hold short marking has a solid line on the taxiway side and dashed lines on the runway side. Aircraft must stop before the solid line and not cross without ATC clearance."
-    },
-    {
-      "section": "Wake Turbulence",
-      "difficulty": 2,
-      "categories": ["written_exam", "checkride_oral"],
-      "question": "When landing behind a large aircraft on the same runway, where should a pilot plan to touch down?",
-      "correct_answer": "Beyond the large aircraft's touchdown point",
-      "distractors": ["Before the large aircraft's touchdown point", "At the same point as the large aircraft", "On the first third of the runway regardless"],
-      "explanation": "Wake turbulence (wingtip vortices) sink and drift. Landing beyond the preceding aircraft's touchdown point helps avoid its wake vortices, which are generated from rotation to touchdown."
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "After receiving a 'line up and wait' instruction, if a takeoff clearance has not been received within a certain time, what should the pilot do?",
+      "correct_answer": "Contact ATC immediately if no takeoff clearance is received within 90 seconds",
+      "distractors": [
+        "Contact ATC if no takeoff clearance is received within 60 seconds",
+        "Cancel the LUAW clearance and taxi clear of the runway after 2 minutes",
+        "Begin the takeoff roll if no clearance is received within 120 seconds"
+      ],
+      "explanation": "The chapter specifies that if a takeoff clearance is not received within 90 seconds after receiving a 'line up and wait' instruction, the pilot should contact ATC immediately. The pilot should never begin takeoff without an explicit clearance, and taxiing off the runway without ATC instruction is not authorized.",
+      "reference": {
+        "page": "14-34",
+        "text": "If a takeoff clearance is not received within 90 seconds after receiving the 'line up and wait' instruction, contact ATC immediately."
+      }
     }
   ]
 }

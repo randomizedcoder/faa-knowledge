@@ -1,0 +1,364 @@
+{
+  "source": "PHAK",
+  "chapter": 1,
+  "questions": [
+    {
+      "section": "History of Flight",
+      "difficulty": 1,
+      "categories": [
+        "general_knowledge"
+      ],
+      "question": "Who is credited with discovering the basic principles on which the modern science of aeronautics is founded?",
+      "correct_answer": "Sir George Cayley",
+      "distractors": [
+        "Leonardo da Vinci, who sketched ornithopter wings",
+        "Robert Hooke, who concluded human flight required artificial propulsion",
+        "Otto Lilienthal, who proved human flight in heavier-than-air aircraft was practical"
+      ],
+      "explanation": "While da Vinci, Hooke, and Lilienthal all contributed to early aviation thought, the chapter specifically identifies Sir George Cayley as the 'Father of Aerial Navigation' who discovered the basic principles of modern aeronautics, built the first successful flying model, and tested the first full-size man-carrying airplane.",
+      "reference": {
+        "page": "1-2",
+        "text": "The \"Father of Aerial Navigation,\" Cayley discovered the basic principles on which the modern science of aeronautics is founded; built what is recognized as the first successful flying model; and tested the first full-size man-carrying airplane."
+      }
+    },
+    {
+      "section": "History of the Federal Aviation Administration (FAA)",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "The Air Commerce Act of 1926 charged which official with licensing pilots, certificating aircraft, and establishing airways?",
+      "correct_answer": "The Secretary of Commerce",
+      "distractors": [
+        "The Postmaster General, who already managed airmail routes",
+        "The Administrator of the Federal Aviation Agency",
+        "The Secretary of Transportation"
+      ],
+      "explanation": "The Air Commerce Act of 1926 predated both the FAA and the Department of Transportation. It charged the Secretary of Commerce with aviation oversight responsibilities. The Postmaster General managed airmail but not certification, and the FAA and DOT did not yet exist.",
+      "reference": {
+        "page": "1-4",
+        "text": "The Air Commerce Act charged the Secretary of Commerce with fostering air commerce, issuing and enforcing air traffic rules, licensing pilots, certificating aircraft, establishing airways, and operating and maintaining aids to air navigation."
+      }
+    },
+    {
+      "section": "History of the Federal Aviation Administration (FAA)",
+      "difficulty": 2,
+      "categories": [
+        "written_exam"
+      ],
+      "question": "What primary circumstances led Congress to pass the Federal Aviation Act of 1958?",
+      "correct_answer": "A series of mid-air collisions highlighting the need for more regulation",
+      "distractors": [
+        "The PATCO strike that disrupted air traffic control services",
+        "The Airline Deregulation Act that removed government economic controls",
+        "The creation of the Department of Transportation"
+      ],
+      "explanation": "The chapter states that by mid-century, a series of mid-air collisions underlined the need for more regulation as aircraft increased in numbers and speed. The PATCO strike occurred in 1981, deregulation in 1978, and the DOT was established in 1966—all after the 1958 Act.",
+      "reference": {
+        "page": "1-6",
+        "text": "A series of mid-air collisions underlined the need for more regulation of the aviation industry. Aircraft were not only increasing in numbers, but were now streaking across the skies at much higher speeds. The Federal Aviation Act of 1958 established a new independent body..."
+      }
+    },
+    {
+      "section": "The Role of the FAA",
+      "difficulty": 1,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "Under which title of the Code of Federal Regulations are all FAA civil aviation regulations found?",
+      "correct_answer": "Title 14, \"Aeronautics and Space\"",
+      "distractors": [
+        "Title 49, \"Transportation\"",
+        "Title 1, \"General Provisions\"",
+        "Title 91, \"Air Traffic and General Rules\""
+      ],
+      "explanation": "The CFR is divided into 50 titles representing broad areas of federal regulation. FAA regulations are under Title 14. Title 49 covers transportation broadly but is not where FAA regulations reside. Title 91 is not a CFR title; 14 CFR Part 91 is a specific regulation within Title 14.",
+      "reference": {
+        "page": "1-7",
+        "text": "FAA regulations are listed under Title 14, \"Aeronautics and Space,\" which encompasses all aspects of civil aviation from how to earn a pilot's certificate to maintenance of an aircraft."
+      }
+    },
+    {
+      "section": "The Role of the FAA",
+      "difficulty": 2,
+      "categories": [
+        "checkride_oral",
+        "general_knowledge"
+      ],
+      "question": "Which FAA field office serves as the primary point of interaction between the Flight Standards Service and the aviation community?",
+      "correct_answer": "Flight Standards District Office (FSDO)",
+      "distractors": [
+        "The Mike Monroney Aeronautical Center (MMAC)",
+        "The William J. Hughes Technical Center (WJHTC)",
+        "The Regional FAASTeam Office"
+      ],
+      "explanation": "The MMAC is a training and logistics facility, the WJHTC is a research and development facility, and the FAASTeam Office focuses on safety programs. The FSDO is specifically identified as the focus of interaction between Flight Standards Service and the public, handling certification, surveillance, and enforcement.",
+      "reference": {
+        "page": "1-8",
+        "text": "The focus of interaction between Flight Standards Service and the aviation community/general public is the Flight Standards District Office (FSDO)."
+      }
+    },
+    {
+      "section": "Obtaining Assistance from the FAA",
+      "difficulty": 1,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "What is the primary purpose of the Aeronautical Information Manual (AIM)?",
+      "correct_answer": "To provide basic flight information and ATC procedures for flying in the National Airspace System",
+      "distractors": [
+        "To establish certification requirements for pilots and flight instructors",
+        "To provide aircraft maintenance and inspection procedures",
+        "To list aircraft specifications and operating limitations by serial number"
+      ],
+      "explanation": "The AIM is the official guide to basic flight information and ATC procedures for the NAS. It is not a regulatory document for certification (that is 14 CFR Part 61), nor a maintenance manual (Part 43), nor an aircraft-specific document (that is the POH).",
+      "reference": {
+        "page": "1-9",
+        "text": "The Aeronautical Information Manual (AIM) is the official guide to basic flight information and ATC procedures for the aviation community flying in the NAS of the United States."
+      }
+    },
+    {
+      "section": "Obtaining Assistance from the FAA",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "In the Advisory Circular number 61-65E, what does the letter \"E\" signify?",
+      "correct_answer": "It is the fifth revision of that Advisory Circular",
+      "distractors": [
+        "The AC was published in the year ending in E",
+        "The AC applies only to aircraft in the \"E\" weight category",
+        "The AC is mandatory and enforceable as an emergency rule"
+      ],
+      "explanation": "An AC number has three parts: the subject area (corresponding to a 14 CFR part), a sequential number, and a revision letter. The first version has no letter; each subsequent revision adds the next letter. 'E' means the fifth revision. ACs are advisory, not regulatory.",
+      "reference": {
+        "page": "1-11",
+        "text": "The third part of the number is a letter assigned by the originating office and shows the revision sequence if an AC is revised. The first version of an AC does not have a revision letter. In Figure 1-17, this is the fifth revision, as designated by the \"E.\""
+      }
+    },
+    {
+      "section": "Pilot and Aeronautical Information",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "Which type of NOTAM typically contains regulatory information such as changes to instrument approach procedures and temporary flight restrictions?",
+      "correct_answer": "FDC NOTAMs",
+      "distractors": [
+        "NOTAM (D) information",
+        "Pointer NOTAMs",
+        "Military NOTAMs"
+      ],
+      "explanation": "FDC NOTAMs are issued by the National Flight Data Center and contain regulatory information including interim IFR procedures, temporary flight restrictions, and airspace changes. NOTAM (D) covers distant dissemination items like runway closures and lighting issues. Pointer NOTAMs direct attention to other NOTAMs, and Military NOTAMs pertain to military facilities.",
+      "reference": {
+        "page": "1-13",
+        "text": "FDC NOTAMs are issued by the National Flight Data Center and contain information that is regulatory in nature pertaining to flight including, but not limited to, changes to charts, procedures, and airspace usage."
+      }
+    },
+    {
+      "section": "Aircraft Classifications and Ultralight Vehicles",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "When used with respect to the certification of aircraft (not airmen), what does the term \"category\" mean under 14 CFR 1.1?",
+      "correct_answer": "A grouping of aircraft based upon intended use or operating limitations, such as normal, utility, or acrobatic",
+      "distractors": [
+        "A broad classification of aircraft such as airplane, rotorcraft, or glider",
+        "A classification within a category having similar operating characteristics, such as single-engine or multiengine",
+        "A specific make and basic model of aircraft, such as a Cessna 172"
+      ],
+      "explanation": "The term 'category' has different meanings depending on context. For aircraft certification, it refers to intended use or operating limitations (e.g., transport, normal, utility). For airmen certification, it means a broad classification (e.g., airplane, rotorcraft). 'Class' refers to similar operating characteristics, and 'type' refers to a specific make and model.",
+      "reference": {
+        "page": "1-15",
+        "text": "As used with respect to the certification of aircraft, means a grouping of aircraft based upon intended use or operating limitations. Examples include: transport, normal, utility, acrobatic, limited, restricted, and provisional."
+      }
+    },
+    {
+      "section": "Pilot Certifications",
+      "difficulty": 1,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "What may a sport pilot use as evidence of medical eligibility instead of obtaining an FAA medical certificate?",
+      "correct_answer": "A current and valid driver's license",
+      "distractors": [
+        "A statement from any physician certifying no medical defects exist",
+        "A third-class medical certificate issued under 14 CFR part 67",
+        "A self-certification statement submitted through MedXPress"
+      ],
+      "explanation": "The sport pilot category does not require a medical examination; a current and valid driver's license serves as proof of medical competence. A third-class medical certificate is required for private, recreational, and student pilots in airplanes. Glider and balloon pilots do not need a medical certificate but must self-certify that they have no known medical condition that would prevent safe operation.",
+      "reference": {
+        "page": "1-16",
+        "text": "The new sport pilot category does not require a medical examination; a driver's license can be used as proof of medical competence."
+      }
+    },
+    {
+      "section": "Pilot Certifications",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "Without additional training and a logbook endorsement, what is the maximum cross-country range a recreational pilot may fly from the departure airport?",
+      "correct_answer": "50 NM",
+      "distractors": [
+        "25 NM",
+        "100 NM",
+        "There is no cross-country limit for recreational pilots"
+      ],
+      "explanation": "The recreational pilot certificate carries a limitation restricting cross-country flight to 50 NM from the departure airport. This restriction can be lifted with additional training per 14 CFR 61.101(c). The 25 NM figure is not associated with recreational pilot limitations, and 100 NM is not the specified limit.",
+      "reference": {
+        "page": "1-17",
+        "text": "As a recreational pilot, cross-country flight is limited to a 50 NM range from the departure airport but is permitted with additional training per 14 CFR part 61, section 61.101(c)."
+      }
+    },
+    {
+      "section": "Pilot Certifications",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "Under 14 CFR part 61, what is the minimum total piloting time required for a Private Pilot Certificate?",
+      "correct_answer": "40 hours, including 20 hours with an instructor and 10 hours solo",
+      "distractors": [
+        "35 hours, which is the part 141 school minimum",
+        "30 hours, including 15 hours of dual instruction and 3 hours solo",
+        "60 to 75 hours, which is the national average"
+      ],
+      "explanation": "Part 61 requires at least 40 hours of piloting time including 20 hours with an instructor and 10 hours solo. The 35-hour minimum applies to part 141 schools. The 30-hour figure matches recreational pilot requirements, and 60–75 hours is the national average, not the regulatory minimum.",
+      "reference": {
+        "page": "1-17",
+        "text": "If training under 14 CFR part 61, experience requirements include at least 40 hours of piloting time, including 20 hours of flight with an instructor and 10 hours of solo flight."
+      }
+    },
+    {
+      "section": "Pilot Certifications",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "Which three features must an aircraft have to be considered a \"complex aircraft\" for commercial pilot certification purposes?",
+      "correct_answer": "Retractable landing gear, movable flaps, and a controllable-pitch propeller",
+      "distractors": [
+        "Retractable landing gear, a turbocharger, and movable flaps",
+        "A constant-speed propeller, pressurization system, and retractable gear",
+        "Movable flaps, tricycle landing gear, and a constant-speed propeller"
+      ],
+      "explanation": "The chapter specifically defines a complex aircraft as one with retractable landing gear, movable flaps, and a controllable-pitch propeller. Turbochargers, pressurization, and tricycle gear are not part of the definition. Tricycle gear is not retractable by definition in this context.",
+      "reference": {
+        "page": "1-18",
+        "text": "A complex aircraft must have retractable landing gear, movable flaps, and a controllable-pitch propeller. See 14 CFR part 61, section 61.31(e) for additional information."
+      }
+    },
+    {
+      "section": "Pilot Certifications",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "What is the minimum pilot experience required to be eligible for an Airline Transport Pilot (ATP) certificate?",
+      "correct_answer": "1,500 hours of flight time",
+      "distractors": [
+        "1,000 hours of flight time",
+        "500 hours of flight time",
+        "250 hours of flight time"
+      ],
+      "explanation": "The ATP certificate requires 1,500 hours of flight time, the highest minimum among all pilot certificates. A restricted-privileges ATP is available at reduced minimums for those with specific academic and flight training experience, but the standard minimum is 1,500 hours.",
+      "reference": {
+        "page": "1-18",
+        "text": "The minimum pilot experience is 1,500 hours of flight time. In addition, the pilot must be at least 23 years of age, be able to read, write, speak, and understand the English language, and be \"of good moral standing.\""
+      }
+    },
+    {
+      "section": "Selecting a Flight School",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "How do the minimum flight hour requirements for a Private Pilot Certificate compare between part 141 and part 61 schools?",
+      "correct_answer": "35 hours under part 141 versus 40 hours under part 61",
+      "distractors": [
+        "40 hours under part 141 versus 35 hours under part 61",
+        "Both require 40 hours regardless of the regulation part",
+        "30 hours under part 141 versus 50 hours under part 61"
+      ],
+      "explanation": "Part 141 schools follow an FAA-approved structured curriculum allowing fewer minimum hours (35), while part 61 offers flexibility but requires more minimum hours (40). The chapter notes the national average is 60–75 hours, so this difference may be insignificant in practice.",
+      "reference": {
+        "page": "1-19",
+        "text": "For example, the minimum requirement for a Private Pilot Certificate is 35 hours in a part 141-certificated school and 40 hours in a part 61-certificated school."
+      }
+    },
+    {
+      "section": "The Student Pilot",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "Under the process described in the chapter, which of the following individuals is authorized to process a Student Pilot Certificate application?",
+      "correct_answer": "An FAA inspector, DPE, CFI, or Airman Certification Representative",
+      "distractors": [
+        "Only an FAA inspector at a FSDO can process the application",
+        "Only a Designated Pilot Examiner may process the application",
+        "Only the student's assigned CFI may process the application"
+      ],
+      "explanation": "The chapter describes multiple authorized individuals who can process the application: an FAA inspector or technician, an FAA-Designated Pilot Examiner, a CFI, or an Airman Certification Representative. The application is then submitted to AFS-760 via IACRA.",
+      "reference": {
+        "page": "1-20",
+        "text": "The application may be processed by an FAA inspector or technician, an FAA-Designated Pilot Examiner, a Certified Flight Instructor (CFI), or an Airman Certification Representative (ACR)."
+      }
+    },
+    {
+      "section": "Becoming a Pilot",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "When does the FAA recommend a student pilot take the knowledge test for maximum benefit?",
+      "correct_answer": "After the student pilot has completed a solo cross-country flight",
+      "distractors": [
+        "Before beginning any flight training, to establish a baseline of knowledge",
+        "Immediately after the first solo flight but before any cross-country training",
+        "Only after all dual instruction is complete and just before the practical test"
+      ],
+      "explanation": "The FAA recommends taking the knowledge test after completing a solo cross-country flight because the operational knowledge gained from that experience helps the applicant on the test. Taking it too early or too late reduces its value. The CFI is the best judge of when the applicant is ready.",
+      "reference": {
+        "page": "1-22",
+        "text": "the FAA recommends the knowledge test be taken after the student pilot has completed a solo cross-country flight. The operational knowledge gained by this experience can be used to the student's advantage in the knowledge test."
+      }
+    },
+    {
+      "section": "Role of the Designated Pilot Examiner",
+      "difficulty": 3,
+      "categories": [
+        "checkride_oral",
+        "general_knowledge"
+      ],
+      "question": "Under which specific regulation are Designated Pilot Examiners appointed, and what is a key characteristic of their role?",
+      "correct_answer": "14 CFR part 183, section 183.23; they are private individuals, not FAA employees, who may charge a reasonable fee",
+      "distractors": [
+        "14 CFR part 61, section 61.58; they are FAA employees paid a government salary for conducting tests",
+        "14 CFR part 141, section 141.36; they must be employed by an FAA-approved flight school",
+        "14 CFR part 91, section 91.3; they serve as volunteers without compensation"
+      ],
+      "explanation": "DPEs are appointed under 14 CFR part 183, section 183.23. They are private individuals, not FAA employees, who meet qualification requirements in FAA Order 8710.3. They may charge a reasonable fee for their services. The majority of private and commercial practical tests are administered by DPEs.",
+      "reference": {
+        "page": "1-24",
+        "text": "Appointed in accordance with 14 CFR part 183, section 183.23, a DPE is an individual who meets the qualification requirements of the Pilot Examiner's Handbook, FAA Order 8710.3... Designated to perform specific pilot certification tasks on behalf of the FAA, a DPE may charge a reasonable fee."
+      }
+    }
+  ]
+}

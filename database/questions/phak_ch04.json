@@ -3,76 +3,356 @@
   "chapter": 4,
   "questions": [
     {
-      "section": "Four Forces of Flight",
+      "section": "Structure of the Atmosphere",
       "difficulty": 1,
-      "categories": ["written_exam", "general_knowledge"],
-      "question": "What are the four forces acting on an airplane in flight?",
-      "correct_answer": "Lift, weight, thrust, and drag",
-      "distractors": ["Lift, gravity, power, and friction", "Thrust, drag, centripetal force, and weight", "Lift, drag, torque, and gravity"],
-      "explanation": "The four forces are lift (opposes weight), weight (gravity), thrust (opposes drag), and drag (opposes thrust)."
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "Why is most of the atmosphere's oxygen concentrated below 35,000 feet?",
+      "correct_answer": "Oxygen is heavier than other atmospheric gases, so it settles toward the Earth's surface.",
+      "distractors": [
+        "Oxygen is generated primarily at the Earth's surface by plant life and has not had time to rise higher.",
+        "Oxygen molecules are too large to remain suspended above 35,000 feet.",
+        "Oxygen is lighter than nitrogen and rises to fill the upper atmosphere first."
+      ],
+      "explanation": "The chapter explains that the atmosphere is a mixture of gases, and the heavier elements, such as oxygen, settle to the surface of the Earth, while the lighter elements are lifted up to the region of higher altitude.",
+      "reference": {
+        "page": "4-1",
+        "text": "The heavier elements, such as oxygen, settle to the surface of the Earth, while the lighter elements are lifted up to the region of higher altitude. Most of the atmosphere's oxygen is contained below 35,000 feet altitude."
+      }
     },
     {
-      "section": "Bernoulli's Principle",
-      "difficulty": 2,
-      "categories": ["written_exam", "checkride_oral"],
-      "question": "According to Bernoulli's principle, as air velocity over a surface increases, what happens to the static pressure?",
-      "correct_answer": "Static pressure decreases",
-      "distractors": ["Static pressure increases", "Static pressure remains constant", "Static pressure oscillates"],
-      "explanation": "Bernoulli's principle states that as the velocity of a fluid increases, its static pressure decreases. This pressure differential contributes to lift generation on a wing."
-    },
-    {
-      "section": "Newton's Third Law",
-      "difficulty": 2,
-      "categories": ["written_exam", "checkride_oral"],
-      "question": "How does Newton's Third Law contribute to lift on an airplane wing?",
-      "correct_answer": "The wing deflects air downward and receives an equal upward reaction force",
-      "distractors": ["The wing pushes air forward, creating a vacuum above", "Air molecules accelerate equally in all directions around the wing", "Gravity is counteracted by the inertia of the air mass"],
-      "explanation": "Newton's Third Law: for every action there is an equal and opposite reaction. The wing deflects air downward (downwash), and the reaction force pushes the wing upward."
-    },
-    {
-      "section": "Angle of Attack",
+      "section": "Air is a Fluid",
       "difficulty": 1,
-      "categories": ["written_exam", "checkride_oral"],
-      "question": "What is the angle of attack?",
-      "correct_answer": "The angle between the chord line of the wing and the relative wind",
-      "distractors": ["The angle between the wing and the horizon", "The angle between the fuselage and the flight path", "The angle between the chord line and the longitudinal axis"],
-      "explanation": "Angle of attack (AoA) is measured between the chord line of the airfoil and the direction of the relative wind, not the horizon."
+      "categories": [
+        "general_knowledge"
+      ],
+      "question": "When air flows over a wing, what two properties working together create drag?",
+      "correct_answer": "Friction (air adhering to the surface) and viscosity (air sticking to itself)",
+      "distractors": [
+        "Pressure and temperature differences between the upper and lower wing surfaces",
+        "Gravity and the weight of the air flowing over the wing",
+        "Compressibility and density of the air at the leading edge"
+      ],
+      "explanation": "The chapter describes how the boundary layer of air adheres to the wing by friction, and then further resistance is caused by viscosity—the tendency of air to stick to itself. When these two forces act together to resist airflow over a wing, it is called drag.",
+      "reference": {
+        "page": "4-3",
+        "text": "Once the boundary layer of the air adheres to the wing by friction, further resistance to the airflow is caused by the viscosity, the tendency of the air to stick to itself. When these two forces act together to resist airflow over a wing, it is called drag."
+      }
+    },
+    {
+      "section": "Atmospheric Pressure",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "Under standard atmospheric conditions, approximately what percentage of the atmosphere's weight is below 18,000 feet?",
+      "correct_answer": "50 percent",
+      "distractors": [
+        "25 percent",
+        "75 percent",
+        "90 percent"
+      ],
+      "explanation": "The chapter states that the thickness of the atmosphere is limited, so the higher the altitude, the less air there is above. At 18,000 feet, the weight of the atmosphere is one-half what it is at sea level.",
+      "reference": {
+        "page": "4-3",
+        "text": "The thickness of the atmosphere is limited; therefore, the higher the altitude, the less air there is above. For this reason, the weight of the atmosphere at 18,000 feet is one-half what it is at sea level."
+      }
+    },
+    {
+      "section": "Standard Atmosphere",
+      "difficulty": 2,
+      "categories": [
+        "written_exam"
+      ],
+      "question": "A pilot is flying at 10,000 feet on a standard day. What temperature should the pilot expect according to the standard atmosphere model?",
+      "correct_answer": "23.3 °F",
+      "distractors": [
+        "44.7 °F",
+        "37.6 °F",
+        "30.5 °F"
+      ],
+      "explanation": "The standard atmosphere table in Figure 4-3 lists the temperature at 10,000 feet as 23.3 °F. This is consistent with the standard temperature lapse rate of approximately 3.5 °F per thousand feet from the sea level value of 59 °F.",
+      "reference": {
+        "page": "4-3",
+        "text": "10,000 ... 20.57 ... -4.8 ... 23.3"
+      }
+    },
+    {
+      "section": "Pressure Altitude",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "A pilot wants to determine pressure altitude using the altimeter. What setting should be entered in the Kollsman window?",
+      "correct_answer": "29.92 \"Hg",
+      "distractors": [
+        "The current field elevation corrected for nonstandard temperature",
+        "The current altimeter setting reported by ATIS",
+        "30.00 \"Hg to correct for standard sea level pressure"
+      ],
+      "explanation": "The chapter states that pressure altitude can be determined by setting the barometric scale of the altimeter to 29.92 \"Hg and reading the indicated altitude. Pressure altitude is the height above the standard datum plane where atmospheric pressure is 29.92 \"Hg.",
+      "reference": {
+        "page": "4-4",
+        "text": "The pressure altitude can be determined by one of the following methods: 1. Setting the barometric scale of the altimeter to 29.92 and reading the indicated altitude"
+      }
+    },
+    {
+      "section": "Density Altitude",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "Which scenario would result in the highest density altitude?",
+      "correct_answer": "High elevation, high temperature, high humidity, and low atmospheric pressure",
+      "distractors": [
+        "Low elevation, high temperature, low humidity, and high atmospheric pressure",
+        "High elevation, low temperature, low humidity, and high atmospheric pressure",
+        "Low elevation, low temperature, high humidity, and low atmospheric pressure"
+      ],
+      "explanation": "The chapter states that high density altitude refers to thin air, and the conditions that result in a high density altitude are high elevations, low atmospheric pressures, high temperatures, high humidity, or some combination of these factors.",
+      "reference": {
+        "page": "4-4",
+        "text": "The conditions that result in a high density altitude are high elevations, low atmospheric pressures, high temperatures, high humidity, or some combination of these factors."
+      }
+    },
+    {
+      "section": "Density Altitude",
+      "difficulty": 2,
+      "categories": [
+        "checkride_oral"
+      ],
+      "question": "As air density decreases, how are engine power, thrust, and lift affected?",
+      "correct_answer": "All three decrease because the engine takes in less air, the propeller is less efficient, and thin air exerts less force on the airfoils.",
+      "distractors": [
+        "Engine power and thrust decrease, but lift increases because less drag is produced in thin air",
+        "Only lift decreases; engine power and thrust remain unchanged because the engine compensates for density changes",
+        "Engine power increases due to reduced air resistance, but thrust and lift decrease"
+      ],
+      "explanation": "The chapter explicitly lists the three effects of decreased air density: power is reduced because the engine takes in less air, thrust is reduced because a propeller is less efficient in thin air, and lift is reduced because thin air exerts less force on the airfoils.",
+      "reference": {
+        "page": "4-4",
+        "text": "Power because the engine takes in less air... Thrust because a propeller is less efficient in thin air... Lift because the thin air exerts less force on the airfoils"
+      }
+    },
+    {
+      "section": "Effect of Pressure on Density",
+      "difficulty": 3,
+      "categories": [
+        "written_exam"
+      ],
+      "question": "The chapter states that air density is directly proportional to pressure and inversely proportional to temperature. In the real atmosphere, both pressure and temperature decrease with altitude. Why does density still decrease with altitude?",
+      "correct_answer": "The rapid drop in pressure as altitude increases usually has a dominating effect over the temperature decrease.",
+      "distractors": [
+        "The temperature decrease actually increases density, which amplifies the pressure effect, causing density to increase with altitude",
+        "Both effects cancel each other out, so density remains roughly constant with altitude",
+        "The temperature decrease has a dominating effect because cold air is always denser regardless of pressure changes"
+      ],
+      "explanation": "The chapter explains that in the atmosphere, both temperature and pressure decrease with altitude and have conflicting effects upon density. However, a fairly rapid drop in pressure as altitude increases usually has a dominating effect, so pilots can expect density to decrease with altitude.",
+      "reference": {
+        "page": "4-4",
+        "text": "In the atmosphere, both temperature and pressure decrease with altitude and have conflicting effects upon density. However, a fairly rapid drop in pressure as altitude increases usually has a dominating effect. Hence, pilots can expect the density to decrease with altitude."
+      }
+    },
+    {
+      "section": "Effect of Humidity (Moisture) on Density",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "Why does high humidity decrease air density and increase density altitude?",
+      "correct_answer": "Water vapor is lighter than dry air, so replacing dry air molecules with water vapor molecules reduces the overall mass of the air.",
+      "distractors": [
+        "Water vapor is heavier than dry air, which compresses the air column and reduces its volume",
+        "Humidity increases air temperature, which in turn increases density altitude independently of the water vapor itself",
+        "Water vapor displaces oxygen molecules, reducing the amount of combustible air available to the engine"
+      ],
+      "explanation": "The chapter states that water vapor is lighter than air; consequently, moist air is lighter than dry air. As the water content of the air increases, the air becomes less dense, increasing density altitude and decreasing performance.",
+      "reference": {
+        "page": "4-5",
+        "text": "Water vapor is lighter than air; consequently, moist air is lighter than dry air. Therefore, as the water content of the air increases, the air becomes less dense, increasing density altitude and decreasing performance."
+      }
+    },
+    {
+      "section": "Newton's Basic Laws of Motion",
+      "difficulty": 1,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "A propeller pushes air backward. Which principle explains why the airplane moves forward, and which of Newton's laws directly applies?",
+      "correct_answer": "The air pushes back on the propeller with equal and opposite force, as described by Newton's Third Law.",
+      "distractors": [
+        "The propeller creates a pressure differential that pulls the airplane forward, as described by Bernoulli's Principle",
+        "The airplane's mass resists changes in motion until thrust overcomes inertia, as described by Newton's First Law",
+        "The acceleration of the airplane is proportional to its mass and the force applied, as described by Newton's Second Law"
+      ],
+      "explanation": "The chapter uses the propeller as a direct example of Newton's Third Law: 'For every action, there is an equal and opposite reaction.' The propeller moves and pushes back the air; consequently, the air pushes the propeller (and thus the airplane) in the opposite direction—forward.",
+      "reference": {
+        "page": "4-6",
+        "text": "In an airplane, the propeller moves and pushes back the air; consequently, the air pushes the propeller (and thus the airplane) in the opposite direction—forward."
+      }
+    },
+    {
+      "section": "Bernoulli's Principle of Differential Pressure",
+      "difficulty": 2,
+      "categories": [
+        "written_exam"
+      ],
+      "question": "In a venturi tube, what happens to air pressure at the constriction (throat) compared to the inlet?",
+      "correct_answer": "Pressure decreases because the velocity increases at the constriction.",
+      "distractors": [
+        "Pressure increases because the air is compressed at the narrow throat",
+        "Pressure remains constant because the same mass of air enters and exits the tube",
+        "Pressure decreases because the air cools as it passes through the constriction"
+      ],
+      "explanation": "The chapter explains that in a venturi tube, the mass of air entering must equal the mass exiting. At the constriction, speed must increase to allow the same amount of air to pass. Bernoulli's Principle states that as velocity increases, pressure decreases. So at the constriction, pressure drops.",
+      "reference": {
+        "page": "4-6",
+        "text": "At the constriction, the speed must increase to allow the same amount of air to pass in the same amount of time as in all other parts of the tube. When the air speeds up, the pressure also decreases."
+      }
     },
     {
       "section": "Airfoil Design",
       "difficulty": 2,
-      "categories": ["general_knowledge", "checkride_oral"],
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
       "question": "What is the chord line of an airfoil?",
-      "correct_answer": "An imaginary straight line from the leading edge to the trailing edge",
-      "distractors": ["The curved upper surface of the airfoil", "The line of maximum thickness", "The path air follows over the top of the wing"],
-      "explanation": "The chord line is the imaginary straight line drawn from the leading edge to the trailing edge of the airfoil. It is used as a reference for measuring angle of attack."
+      "correct_answer": "A straight line connecting the leading edge to the trailing edge",
+      "distractors": [
+        "A line equidistant at all points from the upper and lower surfaces of the airfoil",
+        "A line drawn from the leading edge to the point of maximum camber on the upper surface",
+        "A line representing the direction of the oncoming airflow relative to the airfoil"
+      ],
+      "explanation": "The chapter defines the chord line as a straight line drawn through the profile connecting the extremities of the leading and trailing edges. The line equidistant from upper and lower surfaces is the mean camber line, which is a different reference.",
+      "reference": {
+        "page": "4-6",
+        "text": "A reference line often used in discussing the airfoil is the chord line, a straight line drawn through the profile connecting the extremities of the leading and trailing edges."
+      }
     },
     {
-      "section": "Relative Wind",
+      "section": "Airfoil Design",
+      "difficulty": 3,
+      "categories": [
+        "general_knowledge"
+      ],
+      "question": "Why don't modern high-speed jet aircraft use a concave (scooped-out lower surface) airfoil as a fixed design, despite it being the most efficient at producing lift?",
+      "correct_answer": "A concave airfoil sacrifices too much speed while producing lift, making it unsuitable for high-speed flight.",
+      "distractors": [
+        "A concave airfoil produces too much drag at high angles of attack, making stalls uncontrollable",
+        "A concave airfoil cannot generate enough lift at the high angles of attack required for high-speed flight",
+        "A concave airfoil is structurally too weak to withstand the forces encountered at high speeds"
+      ],
+      "explanation": "The chapter states that the most efficient airfoil for producing the greatest lift is one with a concave lower surface, but as a fixed design, this type of airfoil sacrifices too much speed while producing lift and is not suitable for high-speed flight. Modern jets instead use leading and trailing edge flaps to temporarily change the airfoil shape into a concave form for slow flight.",
+      "reference": {
+        "page": "4-7",
+        "text": "The most efficient airfoil for producing the greatest lift is one that has a concave or 'scooped out' lower surface. As a fixed design, this type of airfoil sacrifices too much speed while producing lift and is not suitable for high-speed flight."
+      }
+    },
+    {
+      "section": "Low Pressure Above",
       "difficulty": 2,
-      "categories": ["written_exam", "checkride_oral"],
-      "question": "What determines the direction of the relative wind?",
-      "correct_answer": "The flight path of the aircraft; relative wind is parallel and opposite to the flight path",
-      "distractors": ["The surface wind direction and speed", "The angle of the wing relative to the horizon", "The direction the propeller blast flows over the wing"],
-      "explanation": "The relative wind is always parallel to and opposite the flight path of the aircraft. It is not related to surface wind."
+      "categories": [
+        "checkride_oral"
+      ],
+      "question": "If a teardrop-shaped airfoil is cut in half lengthwise and inclined so airflow strikes it at an angle, what causes the reduced pressure on the upper surface?",
+      "correct_answer": "Air moving over the upper surface is forced to move faster than air along the bottom, and the increased velocity reduces the pressure per Bernoulli's Principle.",
+      "distractors": [
+        "The angled airfoil deflects air downward from the upper surface, creating a vacuum above the wing",
+        "The lower surface blocks airflow, compressing air below and forcing air above to expand and cool",
+        "Friction between the air and the upper surface heats the air, causing it to rise and reduce pressure"
+      ],
+      "explanation": "The chapter describes how cutting a teardrop airfoil in half produces a basic wing section. When inclined at an angle, air moving over the upper surface is forced to move faster than air along the bottom. Applying Bernoulli's Principle, this increased velocity reduces the pressure above the airfoil, contributing to lift.",
+      "reference": {
+        "page": "4-7",
+        "text": "If the airfoil were then inclined so the airflow strikes it at an angle, the air moving over the upper surface would be forced to move faster than the air moving along the bottom of the airfoil. This increased velocity reduces the pressure above the airfoil."
+      }
     },
     {
-      "section": "Lift",
+      "section": "High Pressure Below",
       "difficulty": 2,
-      "categories": ["written_exam"],
-      "question": "Which factors affect the amount of lift produced by a wing?",
-      "correct_answer": "Airspeed, air density, wing area, and angle of attack",
-      "distractors": ["Only airspeed and angle of attack", "Wing area and weight only", "Thrust and altitude only"],
-      "explanation": "Lift = CL × ½ρV²S. Lift depends on the coefficient of lift (related to AoA and airfoil shape), air density (ρ), velocity (V), and wing area (S)."
+      "categories": [
+        "checkride_oral"
+      ],
+      "question": "At a point near the leading edge of the lower surface of an airfoil, the airflow is virtually stopped. What is this point called, and what is the pressure effect beneath the airfoil?",
+      "correct_answer": "It is called the stagnation point, and the slowed airflow creates a positive upward pressure beneath the airfoil.",
+      "distractors": [
+        "It is called the boundary layer, and the slowed airflow creates a negative pressure that reduces lift",
+        "It is called the center of pressure, and the slowed airflow creates equal pressure on both surfaces",
+        "It is called the downwash point, and the slowed airflow creates drag that opposes thrust"
+      ],
+      "explanation": "The chapter identifies the stagnation point near the leading edge where airflow is virtually stopped. As the airflow slows beneath the airfoil, Bernoulli's principle dictates that pressure must increase, creating a positive upward pressure that contributes to total lift.",
+      "reference": {
+        "page": "4-8",
+        "text": "At a point close to the leading edge, the airflow is virtually stopped (stagnation point) and then gradually increases speed... In conformance with Bernoulli's principle, where the airflow was slowed beneath the airfoil, a positive upward pressure was created"
+      }
     },
     {
-      "section": "Camber",
-      "difficulty": 1,
-      "categories": ["general_knowledge"],
-      "question": "What is the camber of an airfoil?",
-      "correct_answer": "The curvature of the airfoil from the leading edge to the trailing edge",
-      "distractors": ["The thickness of the airfoil at its widest point", "The angle between the chord line and the horizontal", "The span of the wing from root to tip"],
-      "explanation": "Camber refers to the curvature of the airfoil. A wing with more camber (more curvature on top) generally produces more lift at a given angle of attack."
+      "section": "Pressure Distribution",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "How does the center of pressure (CP) move as the angle of attack of an airfoil changes from low to high?",
+      "correct_answer": "The CP moves forward as angle of attack increases and moves aft as angle of attack decreases.",
+      "distractors": [
+        "The CP moves aft as angle of attack increases and forward as angle of attack decreases",
+        "The CP remains fixed at the aerodynamic center regardless of changes in angle of attack",
+        "The CP moves in a circular pattern around the chord line as angle of attack changes"
+      ],
+      "explanation": "The chapter states that at high angles of attack, the CP moves forward, while at low angles of attack, the CP moves aft. This CP travel is important in wing structure design and affects the airplane's aerodynamic balance and controllability.",
+      "reference": {
+        "page": "4-8",
+        "text": "At high angles of attack, the CP moves forward, while at low angles of attack the CP moves aft."
+      }
+    },
+    {
+      "section": "Airfoil Behavior",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "Symmetrical airfoils and flat plates (like a paper airplane) can produce lift even though their upper and lower surfaces are identical. What does this demonstrate about the production of lift?",
+      "correct_answer": "Lift can be produced by flow turning—the deflection of air caused by the airfoil's angle relative to the oncoming airstream—not just by pressure differences from unequal surface curvature.",
+      "distractors": [
+        "Symmetrical airfoils produce lift only at supersonic speeds where compressibility effects create pressure differences",
+        "Symmetrical airfoils cannot actually produce lift; they require asymmetric flaps to function",
+        "Symmetrical airfoils produce lift because the stagnation point shifts to the lower surface at all angles of attack"
+      ],
+      "explanation": "The chapter notes that many lifting airfoils, including symmetrical airfoils and flat plates, do not have an upper surface longer than the bottom. The only difference is the relationship of the airfoil with the oncoming airstream (angle). Flow turning—deflection of the air—is partly or fully responsible for creating lift in these cases.",
+      "reference": {
+        "page": "4-9",
+        "text": "many lifting airfoils do not have an upper surface longer than the bottom, as in the case of symmetrical airfoils... Yet, these airfoils do produce lift, and 'flow turning' is partly (or fully) responsible for creating lift."
+      }
+    },
+    {
+      "section": "A Third Dimension",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "What causes a tip vortex to form at the end of a wing, and what is its effect on the airfoil's performance?",
+      "correct_answer": "High-pressure air from beneath the wing flows around the tip to the low-pressure area on top, creating a rotating vortex that produces downwash and reduces lift for the affected portion of the airfoil.",
+      "distractors": [
+        "Air stagnating at the leading edge spills over the tip, creating a vortex that increases lift at the wingtip",
+        "Friction between the wingtip and the air creates a vortex that increases drag but has no effect on lift",
+        "The boundary layer separates at the trailing edge and curls around the tip, creating turbulence that increases lift at the wingtip"
+      ],
+      "explanation": "The chapter explains that the high-pressure area on the bottom of an airfoil pushes around the tip to the low-pressure area on top, creating a rotating flow called a tip vortex. The vortex flows behind the airfoil creating a downwash that results in an overall reduction in lift for the affected portion of the airfoil.",
+      "reference": {
+        "page": "4-9",
+        "text": "The high-pressure area on the bottom of an airfoil pushes around the tip to the low-pressure area on the top. This action creates a rotating flow called a tip vortex. The vortex flows behind the airfoil creating a downwash that extends back to the trailing edge of the airfoil. This downwash results in an overall reduction in lift for the affected portion of the airfoil."
+      }
     }
   ]
 }

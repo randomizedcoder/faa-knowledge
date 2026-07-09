@@ -3,76 +3,364 @@
   "chapter": 8,
   "questions": [
     {
-      "section": "Pitot-Static System",
+      "section": "Static Pressure Chamber and Lines",
       "difficulty": 2,
-      "categories": ["written_exam", "checkride_oral"],
-      "question": "Which flight instruments operate from the pitot-static system?",
-      "correct_answer": "Airspeed indicator, altimeter, and vertical speed indicator",
-      "distractors": ["Airspeed indicator, heading indicator, and altimeter", "Attitude indicator, altimeter, and turn coordinator", "Airspeed indicator, attitude indicator, and VSI"],
-      "explanation": "The pitot-static system powers three instruments: the airspeed indicator (pitot + static), altimeter (static only), and vertical speed indicator (static only)."
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "When an aircraft's alternate static source is activated, how are the pitot-static instrument indications affected?",
+      "correct_answer": "The altimeter reads higher than actual, the ASI reads higher than actual, and the VSI momentarily shows a climb.",
+      "distractors": [
+        "The altimeter reads lower than actual, the ASI reads lower than actual, and the VSI momentarily shows a descent.",
+        "All three instruments read lower than actual because the flight deck pressure is higher than outside pressure.",
+        "The altimeter and ASI are unaffected, but the VSI shows a momentary descent."
+      ],
+      "explanation": "Due to the venturi effect of air flowing around the fuselage, the air pressure inside the flight deck is lower than the exterior pressure. When the alternate static source is used, this lower pressure causes the altimeter to indicate higher than actual, the ASI to indicate faster than actual, and the VSI to momentarily show a climb.",
+      "reference": {
+        "page": "8-3",
+        "text": "Due to the venturi effect of the air flowing around the fuselage, the air pressure inside the flight deck is lower than the exterior pressure. When the alternate static source pressure is used, the following instrument indications are observed: 1. The altimeter indicates a slightly higher altitude than actual. 2. The ASI indicates an airspeed greater than the actual airspeed. 3. The VSI shows a momentary climb and then stabilizes if the altitude is held constant."
+      }
     },
     {
-      "section": "Altimeter",
-      "difficulty": 2,
-      "categories": ["written_exam", "checkride_oral"],
-      "question": "What does the altimeter setting (Kollsman window) compensate for?",
-      "correct_answer": "Changes in atmospheric pressure",
-      "distractors": ["Changes in outside air temperature", "Changes in aircraft weight", "Changes in magnetic variation"],
-      "explanation": "The Kollsman window allows the pilot to set the current altimeter setting (barometric pressure), compensating for nonstandard pressure so the altimeter reads correct altitude."
-    },
-    {
-      "section": "Altimeter Errors",
-      "difficulty": 3,
-      "categories": ["written_exam", "checkride_oral"],
-      "question": "When flying from a high-pressure area to a low-pressure area without adjusting the altimeter, what will the altimeter indicate?",
-      "correct_answer": "An altitude higher than the actual altitude (the aircraft is lower than indicated)",
-      "distractors": ["An altitude lower than actual altitude", "The correct altitude", "An altitude that fluctuates unpredictably"],
-      "explanation": "High to low, look out below. Flying from high to low pressure without correcting the altimeter causes it to indicate higher than actual altitude, putting the aircraft dangerously lower than the pilot thinks."
-    },
-    {
-      "section": "Airspeed Indicator",
-      "difficulty": 2,
-      "categories": ["written_exam"],
-      "question": "What does the green arc on the airspeed indicator represent?",
-      "correct_answer": "Normal operating range (VS1 to VNO)",
-      "distractors": ["Flap operating range", "Caution range for turbulence", "Maximum structural cruising range"],
-      "explanation": "Green arc: normal operating range from VS1 (stall speed, clean) to VNO (max structural cruising speed). White arc is flap range, yellow arc is caution range."
-    },
-    {
-      "section": "Airspeed Indicator",
-      "difficulty": 2,
-      "categories": ["written_exam", "checkride_oral"],
-      "question": "What speed does the bottom of the white arc on the airspeed indicator represent?",
-      "correct_answer": "VS0 — stall speed in landing configuration (full flaps)",
-      "distractors": ["VS1 — stall speed in clean configuration", "VFE — maximum flap extended speed", "VMC — minimum controllable airspeed"],
-      "explanation": "The white arc ranges from VS0 (stall speed in landing configuration/full flaps) at the bottom to VFE (max flap extended speed) at the top."
-    },
-    {
-      "section": "Gyroscopic Instruments",
-      "difficulty": 2,
-      "categories": ["written_exam", "checkride_oral"],
-      "question": "Which instruments typically use a gyroscope driven by the vacuum system?",
-      "correct_answer": "Attitude indicator and heading indicator",
-      "distractors": ["Turn coordinator and heading indicator", "Airspeed indicator and altimeter", "Attitude indicator and turn coordinator"],
-      "explanation": "The vacuum system typically drives the attitude indicator and heading indicator. The turn coordinator is usually electrically driven, providing redundancy."
-    },
-    {
-      "section": "Magnetic Compass",
-      "difficulty": 3,
-      "categories": ["written_exam", "checkride_oral"],
-      "question": "When accelerating on an east or west heading, what compass error will the magnetic compass display?",
-      "correct_answer": "No apparent error; acceleration errors are most apparent on north/south headings",
-      "distractors": ["The compass will show a turn toward the north", "The compass will show a turn toward the south", "The compass will spin freely"],
-      "explanation": "The ANDS memory aid: Accelerate-North, Decelerate-South. These acceleration errors affect the compass most on east/west headings — wait, actually the errors show on north/south headings. On east/west headings, acceleration errors are minimal."
-    },
-    {
-      "section": "Vertical Speed Indicator",
+      "section": "Effect of Nonstandard Pressure and Temperature",
       "difficulty": 1,
-      "categories": ["written_exam", "general_knowledge"],
-      "question": "What does the vertical speed indicator (VSI) display?",
-      "correct_answer": "The rate of climb or descent in feet per minute",
-      "distractors": ["The aircraft's vertical altitude above sea level", "The rate of airspeed change", "The angle of climb or descent in degrees"],
-      "explanation": "The VSI shows the rate of altitude change (climb or descent) in feet per minute by measuring the rate of pressure change in the static system through a calibrated leak."
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "An aircraft is flown from an area of high pressure to an area of low pressure without updating the altimeter setting. How does the actual altitude compare to the indicated altitude?",
+      "correct_answer": "The actual altitude is lower than indicated.",
+      "distractors": [
+        "The actual altitude is higher than indicated.",
+        "The actual altitude is the same as indicated because the altimeter automatically adjusts.",
+        "The altimeter would indicate a descent even though the aircraft is maintaining altitude."
+      ],
+      "explanation": "When flying from high to low pressure without adjusting the altimeter, the altimeter continues to display the same indication, but the aircraft is actually lower than it indicates. The memory aid is: 'GOING FROM A HIGH TO A LOW, LOOK OUT BELOW.'",
+      "reference": {
+        "page": "8-4",
+        "text": "If an aircraft is flown from a high pressure area to a low pressure area without adjusting the altimeter, the actual height of the aircraft above the ground would be lower then the indicated altitude. There is an old aviation axiom: 'GOING FROM A HIGH TO A LOW, LOOK OUT BELOW.'"
+      }
+    },
+    {
+      "section": "Effect of Nonstandard Pressure and Temperature",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "While maintaining a constant indicated altitude, an aircraft flies from an area of standard temperature into a colder air mass. What happens to the aircraft's true altitude?",
+      "correct_answer": "True altitude decreases, placing the aircraft lower than indicated.",
+      "distractors": [
+        "True altitude increases, placing the aircraft higher than indicated.",
+        "True altitude remains the same because temperature does not affect the altimeter.",
+        "The altimeter would indicate a climb even though the aircraft is level."
+      ],
+      "explanation": "Cold air is denser than warm air, so when operating in temperatures colder than standard, the aircraft is lower than the altimeter indicates. The memory aid is: 'FROM HOT TO COLD, LOOK OUT BELOW.' This is especially dangerous in mountainous terrain.",
+      "reference": {
+        "page": "8-4",
+        "text": "Since cold air is denser than warm air, when operating in temperatures that are colder than standard, the altitude is lower than the altimeter indication... A variation of the memory aid used for pressure can be employed: 'FROM HOT TO COLD, LOOK OUT BELOW.'"
+      }
+    },
+    {
+      "section": "Types of Altitude",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "At an airport with a field elevation of 5,048 feet MSL, the temperature is 30°C instead of the standard 5°C. How does this affect the density altitude compared to the pressure altitude?",
+      "correct_answer": "The density altitude is higher than the pressure altitude, and the aircraft performs as if at a higher elevation.",
+      "distractors": [
+        "The density altitude is lower than the pressure altitude, and the aircraft performs better.",
+        "The density altitude equals the pressure altitude because field elevation determines both.",
+        "The density altitude cannot be determined without knowing the current altimeter setting."
+      ],
+      "explanation": "Density altitude is pressure altitude corrected for nonstandard temperature. When temperature is above standard, density altitude is higher than pressure altitude. In the example given, the density altitude increases to 7,855 feet, meaning the aircraft performs as though the field elevation were 7,855 feet at standard temperature.",
+      "reference": {
+        "page": "8-7",
+        "text": "Density altitude—pressure altitude corrected for variations from standard temperature. When conditions are standard, pressure altitude and density altitude are the same. If the temperature is above standard, the density altitude is higher than pressure altitude."
+      }
+    },
+    {
+      "section": "Vertical Speed Indicator (VSI)",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "How does the VSI produce a rate of climb or descent indication using only static pressure?",
+      "correct_answer": "The diaphragm receives unrestricted static pressure while the instrument case receives static pressure through a calibrated leak, creating a pressure differential during altitude changes.",
+      "distractors": [
+        "The diaphragm receives pitot pressure while the case receives static pressure, and the difference indicates climb or descent rate.",
+        "The VSI uses both pitot and static pressure through restricted orifices to measure the rate of altitude change.",
+        "The VSI measures the difference between current static pressure and a fixed reference pressure sealed inside the diaphragm at manufacture."
+      ],
+      "explanation": "Although the VSI operates solely from static pressure, it is a differential pressure instrument. The inside of the diaphragm connects directly to the static line, while the case receives static pressure through a restricted orifice (calibrated leak). When the aircraft climbs or descends, the diaphragm pressure changes immediately while the case pressure lags, creating the differential that drives the indication.",
+      "reference": {
+        "page": "8-7",
+        "text": "The inside of the diaphragm is connected directly to the static line of the pitot-static system. The area outside the diaphragm, which is inside the instrument case, is also connected to the static line but through a restricted orifice (calibrated leak)."
+      }
+    },
+    {
+      "section": "Airspeed Indicator (ASI)",
+      "difficulty": 1,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "How is true airspeed (TAS) defined, and how does it relate to calibrated airspeed (CAS) as altitude changes?",
+      "correct_answer": "TAS is CAS corrected for altitude and nonstandard temperature, and for a given CAS, TAS increases as altitude increases.",
+      "distractors": [
+        "TAS is IAS corrected for installation and instrument error, and it decreases as altitude increases.",
+        "TAS is CAS corrected for wind, and it equals groundspeed in zero wind conditions.",
+        "TAS is IAS corrected for density altitude only, and it equals CAS at all altitudes on a standard day."
+      ],
+      "explanation": "TAS is CAS corrected for altitude and nonstandard temperature. Because air density decreases with altitude, an aircraft must fly faster at higher altitudes to produce the same pressure difference between pitot and static pressure. Therefore, for a given CAS, TAS increases as altitude increases.",
+      "reference": {
+        "page": "8-9",
+        "text": "True airspeed (TAS)—CAS corrected for altitude and nonstandard temperature. Because air density decreases with an increase in altitude, an aircraft has to be flown faster at higher altitudes to cause the same pressure difference between pitot impact pressure and static pressure. Therefore, for a given CAS, TAS increases as altitude increases."
+      }
+    },
+    {
+      "section": "Airspeed Indicator Markings",
+      "difficulty": 1,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "What does the red line on a standard airspeed indicator represent?",
+      "correct_answer": "VNE, the never-exceed speed, above which operation may result in damage or structural failure.",
+      "distractors": [
+        "VNO, the maximum structural cruising speed, which should not be exceeded except in smooth air.",
+        "VNE, the maximum speed at which full or abrupt control deflection can be applied without structural damage.",
+        "VFE, the maximum speed with flaps extended."
+      ],
+      "explanation": "The red line on the ASI marks VNE (never-exceed speed). Operating above this speed is prohibited since it may result in damage or structural failure. VNO is the upper limit of the green arc, and VFE is the upper limit of the white arc. The speed for full control deflection is VA, which is not marked on the ASI.",
+      "reference": {
+        "page": "8-9",
+        "text": "Red line (VNE)—never exceed speed. Operating above this speed is prohibited since it may result in damage or structural failure."
+      }
+    },
+    {
+      "section": "Blockage of the Pitot-Static System",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "If the pitot tube opening becomes blocked but the drain hole remains clear, what indication does the airspeed indicator show?",
+      "correct_answer": "The ASI reads zero because the pressure in the pitot system drops to ambient pressure.",
+      "distractors": [
+        "The ASI continues to operate normally because the drain hole compensates for the blockage.",
+        "The ASI freezes at the airspeed indicated at the time of the blockage.",
+        "The ASI acts as an altimeter, showing an increase in airspeed when the aircraft climbs."
+      ],
+      "explanation": "When the pitot tube is blocked but the drain hole remains clear, ram air can no longer enter the system. Air already in the system vents through the drain hole, and the remaining pressure drops to ambient. The ASI senses no difference between ram and static pressure, so it reads zero. The ASI acting as an altimeter occurs only when both the pitot opening and drain hole are blocked simultaneously.",
+      "reference": {
+        "page": "8-10",
+        "text": "If the pitot tube becomes blocked and its associated drain hole remains clear, ram air is no longer able to enter the pitot system. Air already in the system vents through the drain hole, and the remaining pressure drops to ambient (outside) air pressure. Under these circumstances, the ASI reading decreases to zero."
+      }
+    },
+    {
+      "section": "Blockage of the Pitot-Static System",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "If the static port becomes blocked but the pitot tube remains clear, what are the instrument indications when the aircraft climbs above the altitude where the blockage occurred?",
+      "correct_answer": "The ASI indicates lower than actual airspeed, the altimeter freezes at the blockage altitude, and the VSI reads zero.",
+      "distractors": [
+        "The ASI indicates higher than actual airspeed, the altimeter continues to climb, and the VSI shows a descent.",
+        "All three instruments continue to operate normally because the pitot tube is still clear.",
+        "The ASI reads zero, the altimeter freezes, and the VSI shows a continuous climb."
+      ],
+      "explanation": "With a blocked static system, the trapped static pressure is higher than normal for the new altitude, causing the ASI to read lower than actual when climbing. The altimeter freezes at the blockage altitude because it cannot sense pressure changes. The VSI continuously reads zero because there is no pressure differential between the diaphragm and the case.",
+      "reference": {
+        "page": "8-11",
+        "text": "If the static system becomes blocked but the pitot tube remains clear, the ASI continues to operate; however, it is inaccurate. The airspeed indicates lower than the actual airspeed when the aircraft is operated above the altitude where the static ports became blocked... Trapped static pressure causes the altimeter to freeze at the altitude where the blockage occurred. In the case of the VSI, a blocked static system produces a continuous zero indication."
+      }
+    },
+    {
+      "section": "Gyroscopic Principles",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "When a deflective force is applied to a spinning gyroscope, at what point does the resulting precession occur?",
+      "correct_answer": "90° later in the direction of rotation from where the force was applied.",
+      "distractors": [
+        "At the exact point where the force is applied, opposite to the direction of rotation.",
+        "180° opposite the point where the force is applied, in the direction of rotation.",
+        "90° before the point of force application, opposite the direction of rotation."
+      ],
+      "explanation": "Precession is the tilting or turning of a gyro in response to a deflective force. The reaction occurs not at the point of application but 90° later in the direction of rotation. This principle allows gyros to determine rate of turn by sensing pressure created by a change in direction.",
+      "reference": {
+        "page": "8-15",
+        "text": "Precession is the tilting or turning of a gyro in response to a deflective force. The reaction to this force does not occur at the point at which it was applied; rather, it occurs at a point that is 90° later in the direction of rotation."
+      }
+    },
+    {
+      "section": "Sources of Power",
+      "difficulty": 2,
+      "categories": [
+        "checkride_oral",
+        "general_knowledge"
+      ],
+      "question": "What happens to gyroscopic instruments powered by the vacuum system when the vacuum pressure drops below the normal operating range?",
+      "correct_answer": "The attitude and heading indicators may become unstable and provide inaccurate information.",
+      "distractors": [
+        "The instruments continue to operate normally on electrical backup power automatically.",
+        "Only the turn coordinator is affected because it relies solely on the vacuum system.",
+        "The instruments immediately tumble and must be reset using the caging knob."
+      ],
+      "explanation": "The attitude and heading indicators rely on the vacuum system to spin their gyros. When vacuum pressure drops below normal, these gyros slow down and become unstable and inaccurate. The turn coordinator is typically electrically powered, so it is not affected by a vacuum failure. Pilots should cross-check instruments routinely to detect this condition.",
+      "reference": {
+        "page": "8-16",
+        "text": "When the vacuum pressure drops below the normal operating range, the gyroscopic instruments may become unstable and inaccurate. Cross-checking the instruments routinely is a good habit to develop."
+      }
+    },
+    {
+      "section": "Turn Indicators",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "What is the primary difference between a turn coordinator and a turn-and-slip indicator?",
+      "correct_answer": "The turn coordinator's gyro is canted, allowing it to initially show roll rate, while the turn-and-slip indicator shows only the rate of turn.",
+      "distractors": [
+        "The turn coordinator displays angle of bank, while the turn-and-slip indicator displays only rate of turn.",
+        "The turn coordinator uses an electric gyro, while the turn-and-slip indicator uses a vacuum-driven gyro.",
+        "The turn coordinator displays pitch attitude, while the turn-and-slip indicator does not."
+      ],
+      "explanation": "The turn-and-slip indicator's gyro rotates in the vertical plane and shows only the rate of turn in degrees per second. The turn coordinator's gyro is mounted at an angle (canted), so it can initially show roll rate and then indicate rate of turn once the roll stabilizes. Neither instrument displays a specific angle of bank.",
+      "reference": {
+        "page": "8-16",
+        "text": "Because of the way the gyro is mounted, the turn-and-slip indicator shows only the rate of turn in degrees per second. The turn coordinator is mounted at an angle, or canted, so it can initially show roll rate. When the roll stabilizes, it indicates rate of turn."
+      }
+    },
+    {
+      "section": "Heading Indicator",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "Aside from precession caused by bearing friction, what is the primary source of drift in a free-gyro heading indicator, and approximately how much error can it introduce per hour?",
+      "correct_answer": "The Earth's rotation causes up to 15° of error per hour.",
+      "distractors": [
+        "Magnetic variation causes up to 15° of error per hour.",
+        "Compass deviation causes up to 10° of error per hour.",
+        "The Coriolis effect causes up to 20° of error per hour."
+      ],
+      "explanation": "The heading indicator is a free gyro oriented in space. The Earth rotates at 15° per hour, so the heading indicator may drift up to 15° per hour even without bearing friction. This is why pilots must periodically realign the heading indicator with the magnetic compass, approximately every 15 minutes.",
+      "reference": {
+        "page": "8-20",
+        "text": "Another error in the heading indicator is caused by the fact that the gyro is oriented in space, and the Earth rotates in space at a rate of 15° in 1 hour. Thus, discounting precession caused by friction, the heading indicator may indicate as much as 15° error per every hour of operation."
+      }
+    },
+    {
+      "section": "Compass Systems",
+      "difficulty": 1,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "Which statement correctly describes magnetic variation?",
+      "correct_answer": "Variation is the angular difference between true and magnetic directions, and it does not change with the heading of the aircraft.",
+      "distractors": [
+        "Variation is the angular difference between magnetic and compass directions, and it changes with aircraft heading.",
+        "Variation is the angular difference between true and magnetic directions, and it changes with the heading of the aircraft.",
+        "Variation is the angular difference between magnetic and compass directions, and it is the same anywhere in the world."
+      ],
+      "explanation": "Variation is the angular difference between true directions (measured from geographic poles) and magnetic directions (measured from magnetic poles). It is a geographic property fixed along isogonic lines and does not change with aircraft heading. Deviation, not variation, depends on aircraft heading.",
+      "reference": {
+        "page": "8-24",
+        "text": "In aerial navigation, the difference between true and magnetic directions is called variation... The variation error does not change with the heading of the aircraft; it is the same anywhere along the isogonic line."
+      }
+    },
+    {
+      "section": "Compass Systems",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "How does compass deviation differ from variation?",
+      "correct_answer": "Deviation depends on aircraft heading and is caused by magnetic fields within the aircraft, while variation is fixed for a given geographic location.",
+      "distractors": [
+        "Deviation is the same for all headings and is caused by the Earth's magnetic field, while variation changes with heading.",
+        "Deviation depends on geographic location and is caused by the Earth's magnetic field, while variation depends on aircraft heading.",
+        "Deviation is caused by solar activity and varies with time of day, while variation is fixed by the aircraft's electrical system."
+      ],
+      "explanation": "Deviation is caused by magnetic fields within the aircraft (electrical current, magnetized parts, etc.) and depends on the aircraft's heading. Unlike variation, it is not affected by geographic location. An AMT can minimize deviation by 'swinging the compass,' and remaining errors are recorded on a compass correction card.",
+      "reference": {
+        "page": "8-24",
+        "text": "Deviation, unlike variation, depends on the aircraft heading. Also unlike variation, the aircraft's geographic location does not affect deviation. While no one can reduce or change variation error, an aviation maintenance technician (AMT) can provide the means to minimize deviation error by performing the maintenance task known as 'swinging the compass.'"
+      }
+    },
+    {
+      "section": "Compass Systems",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "When turning toward a northerly heading, when should the turn be stopped to compensate for magnetic compass turning error?",
+      "correct_answer": "Stop the turn prior to the desired heading, using the rule of 15 degrees plus half the latitude.",
+      "distractors": [
+        "Stop the turn after passing the desired heading by 15 degrees plus half the latitude.",
+        "Stop the turn directly on the desired heading because the compass is accurate on northerly headings.",
+        "Stop the turn after passing the desired heading by 15 degrees minus half the latitude."
+      ],
+      "explanation": "Due to magnetic dip, the compass card leads during a northerly turn, causing a false indication that arrives at the desired heading early. The turn should be stopped prior to the desired heading. The rule of thumb is to stop 15 degrees plus half the latitude before the desired heading. For southerly turns, the compass lags, so the turn should be stopped after passing the desired heading.",
+      "reference": {
+        "page": "8-26",
+        "text": "Because of this lead of the compass card, or float assembly, a northerly turn should be stopped prior to arrival at the desired heading... One rule of thumb to correct for this leading error is to stop the turn 15 degrees plus half of the latitude."
+      }
+    },
+    {
+      "section": "Compass Systems",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "On which headings does magnetic compass acceleration error occur, and what does the mnemonic 'ANDS' represent?",
+      "correct_answer": "It occurs on easterly or westerly headings; Acceleration indicates North, Deceleration indicates South.",
+      "distractors": [
+        "It occurs on northerly or southerly headings; Acceleration indicates North, Deceleration indicates South.",
+        "It occurs on all headings; Acceleration indicates North, Deceleration indicates South.",
+        "It occurs on easterly or westerly headings; Acceleration indicates South, Deceleration indicates North."
+      ],
+      "explanation": "Acceleration error occurs on easterly and westerly headings due to magnetic dip and the pendulous mounting of the compass. When accelerating, the compass indicates a turn toward north; when decelerating, it indicates a turn toward south. The mnemonic ANDS (Acceleration-North/Deceleration-South) helps recall this error.",
+      "reference": {
+        "page": "8-26",
+        "text": "When accelerating on either an easterly or westerly heading, the error appears as a turn indication toward north. When decelerating on either of these headings, the compass indicates a turn toward south. A mnemonic, or memory jogger, for the effect of acceleration error is the word 'ANDS' (Acceleration-North/Deceleration-South)."
+      }
+    },
+    {
+      "section": "Angle of Attack Indicators",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "According to the chapter, for a given configuration, the critical angle of attack does not change with which of the following factors?",
+      "correct_answer": "Weight, bank angle, temperature, density altitude, and center of gravity.",
+      "distractors": [
+        "Weight, bank angle, and airspeed only.",
+        "Temperature, density altitude, and center of gravity only.",
+        "Weight, bank angle, temperature, density altitude, center of gravity, and configuration."
+      ],
+      "explanation": "For a given configuration, an airplane always stalls at the same critical AOA regardless of weight, bank angle, temperature, density altitude, or center of gravity. This is why AOA is a better parameter than speed for avoiding a stall—an airplane can stall at any speed, but always at the same AOA. Configuration is held as a condition, not listed as a factor that does not change the critical AOA.",
+      "reference": {
+        "page": "8-22",
+        "text": "For a given configuration, the airplane always stalls at the same AOA, referred to as the critical AOA. This critical AOA does not change with: Weight, Bank Angle, Temperature, Density Altitude, Center of Gravity"
+      }
     }
   ]
 }

@@ -11,8 +11,7 @@ A Private Pilot License study tool — interactive CLI quiz backed by a SQLite d
 ```bash
 nix develop          # enter dev shell with go, sqlite, curl
 nix build            # build the binary
-./result/bin/quiz --init
-./result/bin/quiz --import database/questions/phak_ch05.json
+./result/bin/quiz --init     # create DB + import all 106 bundled questions
 ./result/bin/quiz --count 5
 ```
 
@@ -20,13 +19,8 @@ nix build            # build the binary
 
 ```bash
 go build -o quiz ./cmd/quiz
-./quiz --init                    # create database + seed data
-```
-
-Import all questions:
-
-```bash
-for f in database/questions/*.json; do ./quiz --import "$f"; done
+./quiz --init                # create DB + import all 106 bundled questions
+./quiz --count 10
 ```
 
 Run the quiz:
@@ -48,11 +42,84 @@ make run
 make download-pdfs               # fetch FAA PDFs into pdfs/
 ```
 
+## Knowledge Extraction Pipeline
+
+This project includes an automated pipeline for generating quiz questions
+directly from FAA handbook PDFs. See [docs/pipeline.md](docs/pipeline.md)
+for the full design.
+
+**Quick overview:** PDFs → text extraction → paragraph chunking → LLM-powered
+knowledge mining → question generation → multi-run consensus → cross-validation
+→ final validation. The pipeline produces 500+ grounded questions from the
+PHAK and AFH handbooks.
+
+The pipeline targets two llama.cpp endpoints (managed by the NixOS configs on hosts `l`/`l2`):
+the **large** model — mine/generate/validate — on `http://l2:8095` (MI50 32GB), and the **small**
+cross-check model on `http://l2:8096` (W5700 8GB) — all inference stays on host `l2`. Override with
+`--llm-url` / `--small-llm-url` or the `FAA_LLM_URL` / `FAA_SMALL_LLM_URL` env vars. Run
+`nix run .#check-llms` (or `make check-llms`) to confirm both are reachable before a run.
+
+### Single powerful model (GLM)
+
+When a single, much stronger model is available (e.g. GLM served at `http://localhost:8000`),
+use the **extract + verify** target instead of the multi-run consensus pipeline:
+
+```bash
+nix run .#extract-glm                 # extract from all chapters, then GLM-verify each question
+nix run .#extract-glm -- --chapters phak:04   # scope to one chapter
+make extract-glm CHAPTERS=phak:04     # same, via Make
+make verify-glm                       # GLM verify/fix pass over existing questions only
+make check-glm                        # confirm the GLM endpoint is reachable
+```
+
+This does a single generation run (no consensus voting) and then re-checks every generated
+question with the same GLM. It runs the model in **reasoning mode** — `chat_template_kwargs.enable_thinking`
+is set, `response_format` is dropped, and JSON is parsed out of the reasoned output — which is
+slower but higher quality. Configure it with:
+
+| Flag | Env var | Default | Purpose |
+|---|---|---|---|
+| `--llm-url` | `FAA_LLM_URL` | `http://localhost:8000` (GLM target) | Model endpoint |
+| `--llm-model` | `FAA_LLM_MODEL` | `/model` (GLM target) | Served model name |
+| `--think` | `FAA_LLM_THINK` | `1` (GLM target) | Enable reasoning mode on every call |
+
+The `--llm-model` / `--think` flags also work with the individual stage commands (`--mine`,
+`--generate`, `--cross-check`, `--validate`), so any stage can be pointed at GLM. Defaults for
+the plain `quiz` binary keep the l2 behavior unchanged (`model=local`, thinking off).
+
+### Whole-chapter generation (recommended with a large-context model)
+
+The paragraph-by-paragraph miner was designed for small-context models. With GLM's 128K window an
+entire chapter (~47K–77K tokens) fits in one request, so the model can find real subject boundaries
+and generate better-organised questions. An experiment on **PHAK ch08 (Flight Instruments)**
+compared three approaches (see [docs/experiment_ch08.md](docs/experiment_ch08.md)):
+
+| Method | Questions | Distinct sections | Section labels |
+|---|---|---|---|
+| **A — paragraph** (per-paragraph mine→generate) | 17 | 8 | noisy — figure axis labels like `"30°C 15°C 0°C"`, `"UPTHOUSAND FT PER MIN"` |
+| **B — outline→generate** (LLM splits chapter into sections, then per-point generate) | 18 | 8 | clean, real topics |
+| **C — whole-chapter→direct** (chapter → finished questions in one call) | 18 | **14** | clean, broadest coverage |
+
+**Method C won** — clean section names, the broadest topical coverage (it reached the gyroscopic
+and compass material the others missed), and just one LLM call per chapter (no mining or merge).
+It is the production path:
+
+```bash
+nix run .#gen-chapters-glm            # Method C over all chapters -> database/questions
+make gen-chapters-glm CAP=25          # same, 25 questions/chapter
+make gen-chapter SOURCE=PHAK CH=8 METHOD=both   # single-chapter experiment -> runs/experiment
+```
+
+`--gen-chapter` flags: `--source`/`--chapter` (which chapter), `--method outline|direct|both`,
+`--gen-cap N` (questions per chapter, default 18), `--out-dir` (empty = `runs/experiment`; set to
+`database/questions` for production, which the target does automatically). Spurious mis-detected
+chapters (PHAK >17, AFH >18) are skipped.
+
 ## CLI Flags
 
 | Flag | Description |
 |---|---|
-| `--init` | Create database with schema and seed data |
+| `--init` | Create database, seed data, and import all bundled questions |
 | `--import FILE` | Import questions from a JSON seed file |
 | `--count N` | Limit to N random questions (default: all) |
 | `--category` | Filter: `written_exam`, `checkride_oral`, `general_knowledge` |

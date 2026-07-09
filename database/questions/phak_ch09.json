@@ -1,0 +1,366 @@
+{
+  "source": "PHAK",
+  "chapter": 9,
+  "questions": [
+    {
+      "section": "Airplane Flight Manuals (AFM)",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "What distinguishes an Aircraft Owner/Information Manual from an FAA-approved AFM/POH?",
+      "correct_answer": "The owner/information manual is not FAA-approved, is not specific to an individual aircraft, and cannot be substituted for the AFM/POH",
+      "distractors": [
+        "The owner/information manual is FAA-approved but lacks weight and balance data for the specific aircraft",
+        "The owner/information manual is specific to an individual aircraft by serial number but is not kept current by the manufacturer",
+        "The owner/information manual contains the same information as the AFM/POH but is only valid for the first 90 days after aircraft purchase"
+      ],
+      "explanation": "The chapter states that the aircraft owner/information manual is developed by the manufacturer, is not approved by the FAA, is not specific to an individual aircraft, is not kept current, and cannot be substituted for the AFM/POH.",
+      "reference": {
+        "page": "9-2",
+        "text": "The manual is not approved by the Federal Aviation Administration (FAA) and is not specific to an individual aircraft...is not kept current, and cannot be substituted for the AFM/POH."
+      }
+    },
+    {
+      "section": "Airplane Flight Manuals (AFM)",
+      "difficulty": 1,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "If a flight manual does not indicate a specific aircraft registration and serial number on the title page, how may that manual be used?",
+      "correct_answer": "It is limited to general study purposes only",
+      "distractors": [
+        "It may be used for flight operations for up to 90 days until a proper manual is obtained",
+        "It may be used for flight operations as long as the pilot carries a separate weight and balance document",
+        "It may be used for VFR flight only, since IFR operations require the original manual"
+      ],
+      "explanation": "The chapter explicitly states that manufacturers are required to include the serial number and registration on the title page to identify the aircraft to which the manual belongs, and if a manual does not indicate a specific aircraft registration and serial number, it is limited to general study purposes only.",
+      "reference": {
+        "page": "9-2",
+        "text": "If a manual does not indicate a specific aircraft registration and serial number, it is limited to general study purposes only."
+      }
+    },
+    {
+      "section": "Limitations (Section 2)",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "On a multi-engine airplane's airspeed indicator, what does a blue radial line indicate?",
+      "correct_answer": "Single-engine best rate of climb speed at maximum weight at sea level (VYSE)",
+      "distractors": [
+        "Single-engine minimum controllable airspeed (VMC)",
+        "Maximum structural cruising speed (VNO)",
+        "Maximum flap extended speed (VFE)"
+      ],
+      "explanation": "The chapter states that small multi-engine airplanes have a red radial line to indicate VMC and a blue radial line to indicate VYSE, the single-engine best rate of climb speed at maximum weight at sea level.",
+      "reference": {
+        "page": "9-3",
+        "text": "A blue radial line is used to indicate single-engine best rate of climb speed at maximum weight at sea level (VYSE)."
+      }
+    },
+    {
+      "section": "Limitations (Section 2)",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "What airspeed is represented by the lower end of the green arc on an airspeed indicator?",
+      "correct_answer": "Stalling speed at maximum weight with the landing gear and flaps retracted (VS1)",
+      "distractors": [
+        "Stalling speed with the landing gear and flaps in the landing configuration (VS0)",
+        "Maximum structural cruising speed (VNO)",
+        "The airspeed limit beyond which structural damage could occur (VNE)"
+      ],
+      "explanation": "The chapter states that a green arc depicts the normal operating speed range, with the upper end at VNO and the lower end at stalling speed at maximum weight with the landing gear and flaps retracted (VS1).",
+      "reference": {
+        "page": "9-2",
+        "text": "A green arc depicts the normal operating speed range, with the upper end at VN0 and the lower end at stalling speed at maximum weight with the landing gear and flaps retracted (VS1)."
+      }
+    },
+    {
+      "section": "Limitations (Section 2)",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "What does the white arc on an airplane's airspeed indicator depict?",
+      "correct_answer": "The flap operating range, from VS0 at the lower end to VFE at the upper end",
+      "distractors": [
+        "The caution speed range for smooth air only, from VNO to VNE",
+        "The normal operating range, from VS1 to VNO",
+        "The single-engine operating range, from VMC to VYSE"
+      ],
+      "explanation": "The chapter states that for airplanes, the flap operating range is depicted by the white arc, with the upper end at the maximum flap extended speed (VFE) and the lower end at the stalling speed in the landing configuration (VS0).",
+      "reference": {
+        "page": "9-2",
+        "text": "For airplanes, the flap operating range is depicted by the white arc, with the upper end at the maximum flap extended speed (VFE), and the lower end at the stalling speed with the landing gear and flaps in the landing configuration (VS0)."
+      }
+    },
+    {
+      "section": "Emergency Procedures (Section 3)",
+      "difficulty": 2,
+      "categories": [
+        "checkride_oral",
+        "general_knowledge"
+      ],
+      "question": "What is the recommended procedure regarding immediate action items during an emergency situation?",
+      "correct_answer": "Memorize the immediate action items, complete them, and then refer to the appropriate checklist",
+      "distractors": [
+        "Always locate and read the entire checklist before taking any action",
+        "Memorize and perform only the abbreviated checklist items; the amplified checklist is for post-flight review",
+        "Rely solely on the amplified checklist since it contains more detailed information than the abbreviated version"
+      ],
+      "explanation": "The chapter states that manufacturers may first show an emergency checklist in abbreviated form reflecting the sequence of action, followed by amplified checklists. To be prepared for emergency situations, pilots should memorize the immediate action items and, after completion, refer to the appropriate checklist.",
+      "reference": {
+        "page": "9-4",
+        "text": "To be prepared for emergency situations, memorize the immediate action items and, after completion, refer to the appropriate checklist."
+      }
+    },
+    {
+      "section": "Supplements (Section 9)",
+      "difficulty": 1,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "What type of information is found in the Supplements section of an AFM/POH?",
+      "correct_answer": "Information necessary to operate the aircraft when equipped with optional systems and equipment not provided with the standard aircraft",
+      "distractors": [
+        "Information about mandatory manufacturer recalls and service bulletins",
+        "Information about the standard aircraft systems such as electrical and fuel systems",
+        "Information about weight and balance computations for various loading configurations"
+      ],
+      "explanation": "The chapter states that the Supplements section contains information necessary to safely and efficiently operate the aircraft when equipped with optional systems and equipment not provided with the standard aircraft, such as autopilots, navigation systems, and air-conditioning systems.",
+      "reference": {
+        "page": "9-5",
+        "text": "The Supplements section contains information necessary to safely and efficiently operate the aircraft when equipped with optional systems and equipment (not provided with the standard aircraft)."
+      }
+    },
+    {
+      "section": "Certificate of Aircraft Registration",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "Under which condition is the Certificate of Aircraft Registration invalid for operations?",
+      "correct_answer": "When the ownership of the aircraft is transferred",
+      "distractors": [
+        "When the aircraft is flown outside of its home state for more than 30 days",
+        "When the aircraft undergoes a major repair or alteration",
+        "When the aircraft's annual inspection expires"
+      ],
+      "explanation": "The chapter lists several conditions under which the Certificate of Aircraft Registration cannot be used, including when the aircraft is registered under the laws of a foreign country, when registration is canceled upon written request, when the aircraft is totally destroyed or scrapped, when ownership is transferred, and when the certificate holder loses U.S. citizenship.",
+      "reference": {
+        "page": "9-6",
+        "text": "The Certificate of Aircraft Registration cannot be used for operations when: ...The ownership of the aircraft is transferred"
+      }
+    },
+    {
+      "section": "Airworthiness Certificate",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "Under what condition does a Standard Airworthiness Certificate remain in effect?",
+      "correct_answer": "As long as the aircraft receives the required maintenance and is properly registered in the United States",
+      "distractors": [
+        "For a period of 12 calendar months, at which point it must be renewed by an FAA inspector",
+        "Indefinitely, regardless of maintenance status, as long as the aircraft is not sold to a foreign purchaser",
+        "For the life of the aircraft, provided the owner submits an annual airworthiness report to the FAA"
+      ],
+      "explanation": "The chapter states that a Standard Airworthiness Certificate remains in effect if the aircraft receives the required maintenance and is properly registered in the United States. The Terms and Conditions on the certificate specify it is effective as long as maintenance, preventative maintenance, and alterations are performed in accordance with 14 CFR parts 21, 43, and 91.",
+      "reference": {
+        "page": "9-8",
+        "text": "A Standard Airworthiness Certificate remains in effect if the aircraft receives the required maintenance and is properly registered in the United States."
+      }
+    },
+    {
+      "section": "Aircraft Inspections",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "Which aircraft must receive a 100-hour inspection in addition to an annual inspection?",
+      "correct_answer": "Aircraft under 12,500 pounds used to carry passengers for hire, and aircraft used for flight instruction for hire when provided by the person giving the instruction",
+      "distractors": [
+        "All aircraft regardless of weight or use, if operated under 14 CFR part 91",
+        "Only turbojet and turbopropeller-powered multi-engine airplanes",
+        "All aircraft over 12,500 pounds used for any purpose"
+      ],
+      "explanation": "The chapter states that all aircraft under 12,500 pounds (with certain exceptions) used to carry passengers for hire must receive a 100-hour inspection, and additionally, aircraft used for flight instruction for hire, when provided by the person giving the flight instruction, must also have received a 100-hour inspection.",
+      "reference": {
+        "page": "9-8",
+        "text": "All aircraft under 12,500 pounds...used to carry passengers for hire, must receive a 100-hour inspection...Additionally, an aircraft used for flight instruction for hire, when provided by the person giving the flight instruction, must also have received a 100-hour inspection."
+      }
+    },
+    {
+      "section": "Aircraft Inspections",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "By how much may the 100-hour inspection limitation be exceeded, and what is the purpose for which this excess time may be used?",
+      "correct_answer": "By no more than 10 hours, for the purpose of traveling to a location where the required inspection can be performed",
+      "distractors": [
+        "By no more than 10 hours, for any purpose, as long as the inspection is completed before further flight",
+        "By no more than 25 hours, for the purpose of returning the aircraft to its home base for inspection",
+        "By no more than 5 hours, for the purpose of completing a revenue flight already in progress"
+      ],
+      "explanation": "The chapter states the 100-hour limitation may be exceeded by no more than 10 hours for the purpose of traveling to a location at which the required inspection can be performed, and any excess time used for this purpose must be included in computing the next 100 hours of time in service.",
+      "reference": {
+        "page": "9-9",
+        "text": "The 100-hour limitation may be exceeded by no more than 10 hours for the purpose of traveling to a location at which the required inspection can be performed. Any excess time used for this purpose must be included in computing the next 100 hours of time in service."
+      }
+    },
+    {
+      "section": "Aircraft Inspections",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "Who may perform an annual inspection on a reciprocating-engine-powered aircraft?",
+      "correct_answer": "A certificated A\u0026P mechanic holding an inspection authorization (IA), the manufacturer of the aircraft, or a certificated and appropriately rated repair station",
+      "distractors": [
+        "Any FAA-certificated A\u0026P mechanic, regardless of whether they hold an inspection authorization",
+        "Only an FAA inspector or designated airworthiness representative",
+        "The aircraft owner if they hold at least a private pilot certificate and have completed a maintenance course"
+      ],
+      "explanation": "The chapter specifies that the annual inspection shall be performed by a certificated A\u0026P mechanic who holds an inspection authorization (IA), by the manufacturer of the aircraft, or by a certificated and appropriately rated repair station.",
+      "reference": {
+        "page": "9-8",
+        "text": "The inspection shall be performed by a certificated airframe and powerplant (A\u0026P) mechanic who holds an inspection authorization (IA) by the manufacturer of the aircraft or by a certificated and appropriately rated repair station."
+      }
+    },
+    {
+      "section": "Emergency Locator Transmitter",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "Under what conditions must ELT batteries be replaced or recharged?",
+      "correct_answer": "When the transmitter has been in use for more than 1 cumulative hour, or when 50 percent of the battery useful life (or charge, for rechargeable batteries) has expired",
+      "distractors": [
+        "Every 12 calendar months regardless of use, or after any hard landing",
+        "When the transmitter has been in use for more than 1 cumulative hour, or every 24 calendar months regardless of battery age",
+        "Every 24 calendar months, or whenever the annual inspection is due, whichever occurs first"
+      ],
+      "explanation": "The chapter lists two conditions for battery replacement or recharge: when the transmitter has been in use for more than 1 cumulative hour, and when 50 percent of the battery useful life has expired (or, for rechargeable batteries, 50 percent of the useful life of the charge has expired). An expiration date must be marked on the outside of the transmitter.",
+      "reference": {
+        "page": "9-9",
+        "text": "Batteries used in the ELTs must be replaced (or recharged, if the batteries are rechargeable): When the transmitter has been in use for more than 1 cumulative hour; When 50 percent of the battery useful life or, for rechargeable batteries, 50 percent of useful life of the charge has expired"
+      }
+    },
+    {
+      "section": "Minimum Equipment Lists (MEL) and Operations With Inoperative Equipment",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "When using the deferral provision of 14 CFR part 91, section 91.213(d) for inoperative equipment, what must the pilot do if the inoperative item is not required by type design, 14 CFR, or ADs, and the aircraft can be safely operated without it?",
+      "correct_answer": "Deactivate or remove the item and place an INOPERATIVE placard near the appropriate switch, control, or indicator",
+      "distractors": [
+        "Notify the local FSDO within 24 hours and obtain verbal authorization to defer the repair",
+        "Remove the item from the aircraft's equipment list and file an amended weight and balance document",
+        "Log the inoperative item in the maintenance record and obtain a special flight permit before the next flight"
+      ],
+      "explanation": "The chapter states that under 91.213(d), if the inoperative item is not required and the aircraft can be safely operated without it, the deferral may be made. The inoperative item shall be deactivated or removed and an INOPERATIVE placard placed near the appropriate switch, control, or indicator. If deactivation or removal involves maintenance, it must be accomplished by certificated maintenance personnel and recorded per 14 CFR part 43.",
+      "reference": {
+        "page": "9-9",
+        "text": "If the inoperative item is not required, and the aircraft can be safely operated without it, the deferral may be made. The inoperative item shall be deactivated or removed and an INOPERATIVE placard placed near the appropriate switch, control, or indicator."
+      }
+    },
+    {
+      "section": "Minimum Equipment Lists (MEL) and Operations With Inoperative Equipment",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "Once an operator requests an MEL and a Letter of Authorization (LOA) is issued by the FAA, what is the requirement regarding use of the MEL?",
+      "correct_answer": "Use of the MEL becomes mandatory for that aircraft, and all maintenance deferrals must be accomplished in accordance with the MEL terms and conditions",
+      "distractors": [
+        "The operator may choose between using the MEL or the 91.213(d) deferral provision on a per-flight basis",
+        "The MEL is optional, but once used for a specific deferral, it must be used for all subsequent deferrals on that aircraft",
+        "The MEL replaces the AFM/POH as the primary document for determining aircraft airworthiness"
+      ],
+      "explanation": "The chapter states that once an operator requests an MEL and a LOA is issued by the FAA, the use of the MEL becomes mandatory for that aircraft. All maintenance deferrals must be accomplished in accordance with the terms and conditions of the MEL and the operator-generated procedures document.",
+      "reference": {
+        "page": "9-10",
+        "text": "However, once an operator requests an MEL, and a Letter of Authorization (LOA) is issued by the FAA, then the use of the MEL becomes mandatory for that aircraft. All maintenance deferrals must be accomplished in accordance with the terms and conditions of the MEL and the operator-generated procedures document."
+      }
+    },
+    {
+      "section": "Preventive Maintenance",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "Which pilots are excluded from performing preventive maintenance on an aircraft they own or operate?",
+      "correct_answer": "Student pilots, sport pilots, and recreational pilots",
+      "distractors": [
+        "Private pilots and commercial pilots who do not hold an instrument rating",
+        "Flight instructors and ATP certificate holders who are not aircraft owners",
+        "All pilots except those who hold a current flight review endorsement within the preceding 12 calendar months"
+      ],
+      "explanation": "The chapter states that certificated pilots, excluding student pilots, sport pilots, and recreational pilots, may perform preventive maintenance on any aircraft owned or operated by them, provided the aircraft is not used in air carrier service and does not qualify under parts 121, 129, or 135. Sport pilots may perform preventive maintenance only on LSA-category aircraft they own or operate.",
+      "reference": {
+        "page": "9-12",
+        "text": "Certificated pilots, excluding student pilots, sport pilots, and recreational pilots, may perform preventive maintenance on any aircraft that is owned or operated by them..."
+      }
+    },
+    {
+      "section": "Airworthiness Directives (ADs)",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "What are the two categories into which Airworthiness Directives are divided?",
+      "correct_answer": "Those of an emergency nature requiring immediate compliance prior to further flight, and those of a less urgent nature requiring compliance within a specified period of time",
+      "distractors": [
+        "Those applicable to the airframe and those applicable to the engine or propeller",
+        "Those that require one-time compliance and those that require recurring compliance",
+        "Those issued by the manufacturer and those issued by the FAA Administrator"
+      ],
+      "explanation": "The chapter states that ADs are divided into two categories: those of an emergency nature requiring immediate compliance prior to further flight, and those of a less urgent nature requiring compliance within a specified period of time.",
+      "reference": {
+        "page": "9-12",
+        "text": "ADs are divided into two categories: 1. Those of an emergency nature requiring immediate compliance prior to further flight 2. Those of a less urgent nature requiring compliance within a specified period of time"
+      }
+    },
+    {
+      "section": "Special Flight Permits",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "For which of the following purposes may a special flight permit be issued?",
+      "correct_answer": "To allow an aircraft to be flown to a base where repairs, alterations, or maintenance can be performed",
+      "distractors": [
+        "To allow an aircraft with an expired annual inspection to be operated for compensation or hire on a one-time basis",
+        "To allow an aircraft to be operated indefinitely with inoperative equipment not listed in the MEL",
+        "To allow an unregistered aircraft to be operated within the United States for up to 90 days"
+      ],
+      "explanation": "The chapter states that a special flight permit is issued to allow the aircraft to be flown to a base where repairs, alterations, or maintenance can be performed, for delivering or exporting the aircraft, for evacuating an aircraft from an area of impending danger, and for operation of an overweight aircraft for flight beyond its normal range.",
+      "reference": {
+        "page": "9-12",
+        "text": "The special flight permit is issued to allow the aircraft to be flown to a base where repairs, alterations, or maintenance can be performed; for delivering or exporting the aircraft; or for evacuating an aircraft from an area of impending danger."
+      }
+    }
+  ]
+}

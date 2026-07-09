@@ -1,0 +1,366 @@
+{
+  "source": "AFH",
+  "chapter": 14,
+  "questions": [
+    {
+      "section": "Instability",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "Why are tailwheel airplanes inherently unstable on the ground during turns?",
+      "correct_answer": "The CG is aft of the main gear pivot point, so forward momentum acts to continue and tighten the turn",
+      "distractors": [
+        "The CG is forward of the main gear, causing the airplane to naturally straighten out",
+        "The tailwheel is too small to provide adequate friction against turning forces",
+        "The main gear struts are too close together to resist lateral forces"
+      ],
+      "explanation": "The chapter states that because the CG is aft of the main gear pivot point, forward momentum acts to continue and even tighten a turn once started. This is the fundamental source of ground instability in tailwheel designs.",
+      "reference": {
+        "page": "14-1",
+        "text": "From that point, with the CG aft of that pivot point, the forward momentum of the plane acts to continue and even tighten the turn without further steering inputs."
+      }
+    },
+    {
+      "section": "Instability",
+      "difficulty": 1,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "When taxiing a tailwheel airplane, what action is required to stop a turn that has been started?",
+      "correct_answer": "Apply opposite rudder input",
+      "distractors": [
+        "Neutralize the rudder pedals and the turn will stop on its own",
+        "Apply brake pressure on the inside wheel",
+        "Reduce throttle to idle and the turn will stop naturally"
+      ],
+      "explanation": "The chapter explicitly states that removal of rudder pressure does not stop a turn that has been started, and it is necessary to apply opposite rudder to bring the aircraft back to straight-line travel.",
+      "reference": {
+        "page": "14-1",
+        "text": "Ordinarily, removal of rudder pressure does not stop a turn that has been started, and it is necessary to apply an opposite input (opposite rudder) to bring the aircraft back to straight-line travel."
+      }
+    },
+    {
+      "section": "Angle of Attack",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "What characteristic of tailwheel airplanes creates lift while on the ground, even at slow taxi speeds?",
+      "correct_answer": "The nose-high resting attitude produces a positive angle of attack",
+      "distractors": [
+        "The propeller slipstream generates lift over the wings at all power settings",
+        "The tailwheel design uses vortex generators to create low-speed lift",
+        "The main gear position forces air over the wing at taxi speeds"
+      ],
+      "explanation": "The chapter explains that due to the built-in AOA from the nose-high attitude, tailwheel aircraft make lift while on the ground anytime there is a relative headwind, even at slow taxi speeds.",
+      "reference": {
+        "page": "14-2",
+        "text": "A second strong contrast to nose-wheel airplanes, tailwheel aircraft make lift while on the ground anytime there is a relative headwind."
+      }
+    },
+    {
+      "section": "Taxiing",
+      "difficulty": 1,
+      "categories": [
+        "checkride_oral",
+        "general_knowledge"
+      ],
+      "question": "What is the proper procedure for testing brakes when beginning to taxi a tailwheel airplane?",
+      "correct_answer": "Apply power to start moving slowly forward, then retard throttle and apply both brakes smoothly",
+      "distractors": [
+        "Apply full power briefly, then test both brakes while holding position",
+        "Test each brake individually while holding the tailwheel straight with rudder",
+        "Accelerate to normal taxi speed, then apply brakes firmly to test stopping power"
+      ],
+      "explanation": "The chapter specifies the procedure: first apply power to start moving slowly forward, then retard the throttle and simultaneously apply pressure smoothly to both brakes. If braking is unsatisfactory, shut down immediately.",
+      "reference": {
+        "page": "14-2",
+        "text": "This is done by first applying power to start the airplane moving slowly forward, then retarding the throttle and simultaneously applying pressure smoothly to both brakes."
+      }
+    },
+    {
+      "section": "Taxiing",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "When taxiing a tailwheel airplane in a quartering headwind, what control inputs are generally recommended?",
+      "correct_answer": "Stick into the wind and elevator full back",
+      "distractors": [
+        "Stick away from the wind and elevator full forward",
+        "Stick into the wind and elevator neutral",
+        "Stick away from the wind and elevator full back"
+      ],
+      "explanation": "The chapter states that when taxiing in a quartering headwind, the upwind wing can be lifted by gusting winds unless ailerons are positioned to kill lift (stick into the wind). Elevator should usually be held full back to add downward pressure to the tailwheel and improve steering response.",
+      "reference": {
+        "page": "14-2",
+        "text": "When taxiing in a quartering headwind, the upwind wing can easily be lifted by gusting or strong winds unless ailerons are positioned to 'kill' lift on that side (stick held into the wind)."
+      }
+    },
+    {
+      "section": "Taxiing",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "When taxiing a tailwheel airplane in light tailwind conditions, what elevator position is likely most appropriate for directional control?",
+      "correct_answer": "Back stick, because propeller wash usually overcomes the light tailwind to produce a net headwind over the tail",
+      "distractors": [
+        "Full forward stick, because any tailwind requires forward pressure to keep the tail down",
+        "Neutral elevator, because light winds have negligible effect on tailwheel steering",
+        "Full forward stick, because tailwind striking the up-deflected elevator could lift the tail"
+      ],
+      "explanation": "The chapter explains that while full forward stick is essential in strong tailwinds, in light tailwinds the propeller wash is usually strong enough to overcome the tailwind, producing a net headwind over the tail. This means back stick, not forward, does the most to help directional control.",
+      "reference": {
+        "page": "14-2",
+        "text": "The propeller wash in even lightly-powered airplanes is usually strong enough to overcome the effects of light tailwinds, producing a net headwind over the tail. This in turn suggests that back stick, not forward, does the most to help with directional control."
+      }
+    },
+    {
+      "section": "Visibility",
+      "difficulty": 1,
+      "categories": [
+        "checkride_oral",
+        "general_knowledge"
+      ],
+      "question": "How should a pilot taxi a tailwheel airplane that is completely blind ahead due to the nose-high attitude?",
+      "correct_answer": "Make a series of slow S-turns to alternately see the area ahead",
+      "distractors": [
+        "Taxi at higher speed to reduce the time spent in blind spots",
+        "Make sharp turns only to the left, keeping the right side clear for traffic",
+        "Rely on ground personnel for marshalling and do not turn the nose"
+      ],
+      "explanation": "The chapter states that in aircraft completely blind ahead, the pilot should alternately turn the nose from one side to the other (zigzag) or make a series of short S-turns, done slowly, smoothly, positively, and cautiously.",
+      "reference": {
+        "page": "14-3",
+        "text": "In taxiing such an airplane, the pilot should alternately turn the nose from one side to the other (zigzag) or make a series of short S-turns."
+      }
+    },
+    {
+      "section": "Normal Takeoff Roll",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "What causes left yaw when the tail is raised during a tailwheel takeoff roll?",
+      "correct_answer": "Gyroscopic precession from the propeller",
+      "distractors": [
+        "Asymmetric thrust from the propeller at high pitch angles",
+        "Spiraling slipstream striking the rudder from the right",
+        "Engine torque causing the left wing to drop"
+      ],
+      "explanation": "The chapter specifically identifies the left yaw during tail-raising as the result of gyroscopic precession created by the propeller. The force is directly related to the rate the propeller axis is tilted when the tail is raised.",
+      "reference": {
+        "page": "14-3",
+        "text": "It is important to note that nose-down pitch movement produces left yaw, the result of gyroscopic precession created by the propeller."
+      }
+    },
+    {
+      "section": "Liftoff",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "During a takeoff in strong, gusty winds in a tailwheel airplane, what technique is recommended for liftoff?",
+      "correct_answer": "Hold the airplane on the ground longer to attain more speed, then make a smooth, positive rotation",
+      "distractors": [
+        "Lift off at normal takeoff speed in a three-point attitude to minimize time on the runway",
+        "Use a soft-field technique, holding the tail low throughout the takeoff roll",
+        "Rotate early and climb at best angle of speed to exit gusty conditions quickly"
+      ],
+      "explanation": "The chapter advises that in strong, gusty winds, taking off at normal speed may result in loss of control or stall when encountering a sudden lull. The pilot should hold the airplane on the ground longer to attain more speed, then make a smooth, positive rotation.",
+      "reference": {
+        "page": "14-3",
+        "text": "In this case, the pilot should hold the airplane on the ground longer to attain more speed, then make a smooth, positive rotation to leave the ground."
+      }
+    },
+    {
+      "section": "Wheel Landing",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "What is the only difference between a three-point landing and a wheel landing in a tailwheel airplane?",
+      "correct_answer": "The timing of the touchdown",
+      "distractors": [
+        "The approach airspeed used for the landing",
+        "The flap configuration on final approach",
+        "The power setting used during the roundout"
+      ],
+      "explanation": "The chapter explicitly states that the only difference between three-point and wheel landings is the timing of the touchdown (early and later). There is no difference between the approach angles and airspeeds in the two techniques.",
+      "reference": {
+        "page": "14-6",
+        "text": "Note: The only difference between three-point and wheel landings is the timing of the touchdown (early and later). There is no difference between the approach angles and airspeeds in the two techniques."
+      }
+    },
+    {
+      "section": "Three-Point Landing",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "What should the pilot do with elevator control once the tailwheel makes contact with the runway during a three-point landing?",
+      "correct_answer": "Ease the elevator control fully back to press the tailwheel on the runway",
+      "distractors": [
+        "Relax elevator pressure to neutral to allow the tailwheel to settle naturally",
+        "Apply slight forward elevator to transfer weight to the main wheels",
+        "Hold elevator position steady to maintain the current pitch attitude"
+      ],
+      "explanation": "The chapter states that once the tailwheel contacts the runway, the elevator control should be eased fully back to press the tailwheel on the runway. Without this input, lift on the horizontal stabilizer lightens tailwheel pressure and renders it useless for directional control.",
+      "reference": {
+        "page": "14-5",
+        "text": "In every case, once the tailwheel makes contact, the elevator control should be eased fully back to press the tailwheel on the runway."
+      }
+    },
+    {
+      "section": "Three-Point Landing",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "What occurs if the main wheels make runway contact slightly early with the tail still in the air during a three-point landing attempt?",
+      "correct_answer": "The tail drops, AOA increases, and the plane may become airborne again (a skip)",
+      "distractors": [
+        "The tailwheel slams down causing possible structural damage to the tail",
+        "The airplane pitches forward onto its nose due to the CG location",
+        "The airplane immediately settles onto all three wheels and stops flying"
+      ],
+      "explanation": "The chapter describes this as the first potential error in a three-point landing. With the CG aft of the main wheels, the tail naturally drops when the main wheels touch, AOA increases, and the plane may become airborne again, causing a skip.",
+      "reference": {
+        "page": "14-5",
+        "text": "With the CG aft of the main wheels, the tail naturally drops when the main wheels touch, AOA increases, and the plane may become airborne again. This 'skip' is easily managed by re-flaring and again trying to hold the plane off until reaching the three-point attitude."
+      }
+    },
+    {
+      "section": "Wheel Landing",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "What is the recommended response if a wheel landing results in a bounce due to too high a rate of descent?",
+      "correct_answer": "Initiate a go-around or convert to a three-point landing if conditions permit",
+      "distractors": [
+        "Push forward on the elevator to re-establish main wheel contact with the runway",
+        "Apply full back elevator to convert immediately to a three-point attitude",
+        "Apply differential braking to maintain directional control and force the tail down"
+      ],
+      "explanation": "The chapter warns that if the pilot pushes forward after a bounced wheel landing, a potentially dangerous pilot-induced oscillation may develop. It is far better to initiate a go-around or convert to a three-point landing if conditions permit.",
+      "reference": {
+        "page": "14-6",
+        "text": "If the pilot now pushes forward in an attempt to again make contact with the surface, a potentially dangerous pilot-induced oscillation may develop. It is far better to respond to a bounced wheel landing attempt by initiating a go-around or converting to a three-point landing if conditions permit."
+      }
+    },
+    {
+      "section": "Crosswind After-Landing Roll",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "How should aileron input be adjusted during the crosswind after-landing roll as the airplane decelerates?",
+      "correct_answer": "Increase aileron deflection into the wind as speed decreases, reaching full deflection when stopped",
+      "distractors": [
+        "Decrease aileron deflection as the airplane slows to avoid overcontrolling",
+        "Maintain a constant aileron deflection throughout the landing roll",
+        "Reverse aileron deflection from into the wind to away from the wind as speed decreases"
+      ],
+      "explanation": "The chapter explains that as the airplane slows, ailerons become less effective and the relative wind becomes more of a crosswind, exerting greater lifting force on the upwind wing. Therefore, more aileron should be applied, reaching fully into the wind when coming to a stop.",
+      "reference": {
+        "page": "14-7",
+        "text": "While the airplane is decelerating during the after-landing roll, more aileron should be applied to keep the upwind wing from rising. Consequently, when the airplane is coming to a stop, the aileron control should be held fully toward the wind."
+      }
+    },
+    {
+      "section": "Crosswind After-Landing Roll",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "Why do tailwheel airplanes have a greater weathervaning tendency during the after-landing roll compared to nose-wheel airplanes?",
+      "correct_answer": "Tailwheel airplanes have a greater surface area behind the main landing gear than forward of it",
+      "distractors": [
+        "The tailwheel provides less friction on the runway than a nosewheel",
+        "The CG is farther forward in tailwheel airplanes, increasing weathervane tendency",
+        "The higher pitch angle exposes more wing area to crosswinds"
+      ],
+      "explanation": "The chapter explains that an airplane has greater profile area behind the main landing gear than forward of it. With the main wheels as a pivot point, this greater surface area exposed to crosswind behind the pivot causes weathervaning. This tendency is more prevalent in tailwheel airplanes because their surface area behind the main gear is greater than in nose-wheel types.",
+      "reference": {
+        "page": "14-7",
+        "text": "Characteristically, an airplane has a greater profile or side area behind the main landing gear than forward of it. With the main wheels acting as a pivot point and the greater surface area exposed to the crosswind behind that pivot point, the airplane tends to turn or weathervane into the wind."
+      }
+    },
+    {
+      "section": "Soft-Field Landing",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "In a soft-field landing in a tailwheel airplane, when should the tailwheel contact the surface relative to the main wheels?",
+      "correct_answer": "Simultaneously with or just before the main wheels",
+      "distractors": [
+        "Well after the main wheels to ensure directional control is established",
+        "Only after the main wheels have settled into the soft surface",
+        "After the main wheels touch and the elevator is relaxed to neutral"
+      ],
+      "explanation": "The chapter states that for a soft-field landing, the tailwheel should touchdown simultaneously with or just before the main wheels and be held down with firm back-elevator pressure throughout the roll. This minimizes nose-over tendency and provides aerodynamic braking.",
+      "reference": {
+        "page": "14-8",
+        "text": "The tailwheel should touchdown simultaneously with or just before the main wheels and should then be held down by maintaining firm back-elevator pressure throughout the landing roll."
+      }
+    },
+    {
+      "section": "Ground Loop",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "What is the initial event that leads to a ground loop in a tailwheel airplane?",
+      "correct_answer": "A swerve that is allowed to continue for too long",
+      "distractors": [
+        "A sudden crosswind gust that exceeds rudder authority",
+        "Brake failure on one side during the landing roll",
+        "Touching down with excessive airspeed in a flat attitude"
+      ],
+      "explanation": "The chapter defines a ground loop as starting with a swerve that is allowed to continue for too long. The swerve may result from side-load on landing, a taxi turn started with too much groundspeed, overcorrection, or uneven ground surface.",
+      "reference": {
+        "page": "14-8",
+        "text": "Ground loops start with a swerve that is allowed to continue for too long. The swerve may be the result of side-load on landing, a taxi turn started with too much groundspeed, overcorrection, or even an uneven ground surface or a soft spot that retards one main wheel of the airplane."
+      }
+    },
+    {
+      "section": "Ground Loop",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "When correcting a swerve to prevent a ground loop, what is critical regarding the removal of rudder and braking inputs?",
+      "correct_answer": "Remove inputs promptly as corrections become apparent to avoid starting a departure in the opposite direction",
+      "distractors": [
+        "Hold inputs until the airplane is completely straight and at taxi speed",
+        "Gradually reduce inputs over several seconds to smooth the correction",
+        "Remove braking first but hold full rudder until directional control is assured"
+      ],
+      "explanation": "The chapter emphasizes that as corrections begin to become apparent, rudder and braking inputs need to be removed promptly. Failing to do so risks starting yet another departure in the opposite direction, which could be equally dangerous.",
+      "reference": {
+        "page": "14-8",
+        "text": "It is important to note, however, that as corrections begin to become apparent, rudder and braking inputs need to be removed promptly to avoid starting yet another departure in the opposite direction."
+      }
+    }
+  ]
+}

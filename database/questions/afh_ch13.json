@@ -1,0 +1,366 @@
+{
+  "source": "AFH",
+  "chapter": 13,
+  "questions": [
+    {
+      "section": "General",
+      "difficulty": 1,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "In a multiengine airplane, loss of thrust from one engine reduces climb performance by approximately what percentage?",
+      "correct_answer": "80 to 90 percent",
+      "distractors": [
+        "50 percent, equal to the power lost",
+        "25 to 30 percent, since the remaining engine compensates",
+        "100 percent, since climb is always impossible after an engine failure"
+      ],
+      "explanation": "The chapter explains that while an engine failure means a 50 percent loss of power, the reduction in climb performance is far more dramatic—80 to 90 percent—because climb depends on excess thrust above that required for level flight.",
+      "reference": {
+        "page": "13-1",
+        "text": "The most obvious problem is the loss of 50 percent of power, which reduces climb performance 80 to 90 percent."
+      }
+    },
+    {
+      "section": "Terms and Definitions",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "According to the chapter, which statement about VMC is correct?",
+      "correct_answer": "VMC only addresses directional control; there is no requirement that the airplane be capable of climbing at this airspeed.",
+      "distractors": [
+        "VMC guarantees the airplane can maintain altitude with one engine inoperative.",
+        "VMC is the speed at which the airplane can maintain a 50 fpm rate of climb with one engine inoperative.",
+        "VMC is the minimum speed at which the airplane can maintain directional control with both engines operating."
+      ],
+      "explanation": "The chapter is explicit that VMC is solely about directional control following the sudden critical loss of thrust. There is no climb requirement at VMC under either the current or historical certification definitions.",
+      "reference": {
+        "page": "13-2",
+        "text": "There is no requirement under either determination that the airplane be capable of climbing at this airspeed. VMC only addresses directional control."
+      }
+    },
+    {
+      "section": "Operation of Systems — Feathering Propellers",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "On most multiengine airplanes, the constant-speed propellers are full-feathering designs. What happens to the propeller blades when oil pressure from the governor is lost?",
+      "correct_answer": "Counterweights and spring or dome pressure drive the blades toward the feathered position.",
+      "distractors": [
+        "Oil pressure loss causes the blades to move to the low-pitch, high-rpm position.",
+        "The blades remain in their current position until the pilot manually feathers them.",
+        "Aerodynamic forces alone drive the blades to the flat-pitch position."
+      ],
+      "explanation": "The chapter explains that most multiengine propellers are oil-pressure-to-decrease-pitch designs. Oil pressure keeps blades at low pitch/high rpm; when oil pressure is lost, counterweights (and then spring or dome pressure) drive blades toward feather.",
+      "reference": {
+        "page": "13-5",
+        "text": "A reduction in oil pressure allows the counterweights to drive the blades to a higher pitch and decreases engine rpm... additional forces are needed to completely feather the blades. This additional force comes from either a spring or high-pressure air stored in the propeller dome."
+      }
+    },
+    {
+      "section": "Operation of Systems — Propeller Synchronization",
+      "difficulty": 1,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "Under what conditions should the propeller synchronizer (prop sync) always be turned off?",
+      "correct_answer": "For takeoff, landing, and any single-engine operation",
+      "distractors": [
+        "Only during cruise flight at altitude above 10,000 feet",
+        "During engine start and taxi only",
+        "When descending below pattern altitude with both engines operating"
+      ],
+      "explanation": "The chapter clearly states the prop sync should always be off for takeoff, landing, and single-engine operation. It should also be disengaged when selecting a new propeller rpm and re-engaged after the new rpm is set.",
+      "reference": {
+        "page": "13-7",
+        "text": "The prop sync should always be off for takeoff, landing, and single-engine operation."
+      }
+    },
+    {
+      "section": "Operation of Systems — Fuel Crossfeed",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "On most multiengine airplanes, how is fuel crossfeed operation classified?",
+      "correct_answer": "As an emergency procedure used to extend range and endurance during one-engine-inoperative flight",
+      "distractors": [
+        "As a normal fuel-balancing technique used routinely during cruise with both engines operating",
+        "As a standard procedure used during takeoff to ensure equal fuel distribution",
+        "As a required procedure for all single-engine approaches and landings"
+      ],
+      "explanation": "The chapter states that on most multiengine airplanes, crossfeed is an emergency procedure for OEI flight. Only a few models permit crossfeed as a normal fuel balancing technique. Pilots should never use crossfeed during takeoff or normal landing operations with both engines operating.",
+      "reference": {
+        "page": "13-7",
+        "text": "On most multiengine airplanes, operation in the crossfeed mode is an emergency procedure used to extend airplane range and endurance in OEI flight."
+      }
+    },
+    {
+      "section": "Operation of Systems — Anti-Icing/Deicing Equipment",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "Unless otherwise recommended in the AFM/POH, why should the autopilot not be used in icing conditions?",
+      "correct_answer": "Continuous autopilot use masks trim and handling changes from ice accumulation, and the autopilot may suddenly disconnect at design limits, leaving the pilot with unsatisfactory handling characteristics.",
+      "distractors": [
+        "The autopilot servos can freeze in icing conditions, causing loss of all flight control.",
+        "The autopilot competes with deicing equipment for electrical power and may cause system failure.",
+        "The autopilot is not certified for operation in any known or suspected icing conditions."
+      ],
+      "explanation": "The chapter explains that continuous autopilot use masks the trim and handling feedback that would alert a pilot to ice accumulation. When the autopilot reaches its design limits and disconnects, the pilot may be confronted with an airplane that has hazardous handling characteristics.",
+      "reference": {
+        "page": "13-10",
+        "text": "Continuous use of the autopilot masks trim and handling changes that occur with ice accumulation. Without this control feedback, the pilot may not be aware of ice accumulation building to hazardous levels. The autopilot suddenly disconnects when it reaches design limits, and the pilot may find the airplane has assumed unsatisfactory handling characteristics."
+      }
+    },
+    {
+      "section": "Performance and Limitations",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "The accelerate-go distance, as defined in the AFM/POH, brings the airplane to what altitude above the takeoff elevation?",
+      "correct_answer": "50 feet",
+      "distractors": [
+        "500 feet AGL",
+        "1,000 feet AGL",
+        "Pattern altitude"
+      ],
+      "explanation": "The chapter defines accelerate-go distance as the horizontal distance required to continue the takeoff and climb to 50 feet, assuming an engine failure at VR or VLOF. The chapter emphasizes this is a meager climb achieved under ideal conditions.",
+      "reference": {
+        "page": "13-10",
+        "text": "Accelerate-go distance is the horizontal distance required to continue the takeoff and climb to 50 feet, assuming an engine failure at VR or VLOF, as specified by the manufacturer."
+      }
+    },
+    {
+      "section": "Weight and Balance",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "What is the purpose of a zero fuel weight limitation, as published in some multiengine airplane AFM/POHs?",
+      "correct_answer": "To limit load forces on the wing spars with heavy fuselage loads",
+      "distractors": [
+        "To ensure the airplane does not exceed maximum landing weight upon arrival",
+        "To prevent the center of gravity from shifting aft of limits during flight",
+        "To limit the total weight of usable fuel that can be loaded on board"
+      ],
+      "explanation": "The chapter defines zero fuel weight as the maximum allowable weight of the airplane and payload assuming no usable fuel. All weight in excess of zero fuel weight should consist of usable fuel. The purpose is to limit load forces on the wing spars when carrying heavy fuselage loads.",
+      "reference": {
+        "page": "13-13",
+        "text": "The purpose of a zero fuel weight is to limit load forces on the wing spars with heavy fuselage loads."
+      }
+    },
+    {
+      "section": "Normal and Crosswind Takeoff and Climb",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "During takeoff in a multiengine airplane, what is the minimum airspeed at which the airplane should become airborne?",
+      "correct_answer": "VMC",
+      "distractors": [
+        "VSSE",
+        "VYSE",
+        "VREF"
+      ],
+      "explanation": "The chapter states that if an engine fails below VMC while airborne, directional control is not possible with the remaining engine at takeoff power. Therefore, the airplane should never be airborne before the airspeed exceeds VMC. If no manufacturer's rotation speed is published, a minimum of VMC plus 5 knots should be used for VR.",
+      "reference": {
+        "page": "13-15",
+        "text": "On takeoffs, therefore, the airplane should never be airborne before the airspeed exceeds VMC."
+      }
+    },
+    {
+      "section": "Spin Awareness and Stalls",
+      "difficulty": 1,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "Which statement correctly describes the spin approval and recovery characteristics of multiengine airplanes?",
+      "correct_answer": "No multiengine airplane is approved for spins, and their spin recovery characteristics are generally very poor.",
+      "distractors": [
+        "Multiengine airplanes are approved for spins if operated within normal category weight and CG limits.",
+        "Multiengine airplanes may be spun with both engines operating, but not with one engine inoperative.",
+        "Spins are permitted in multiengine airplanes only when a qualified flight instructor is present."
+      ],
+      "explanation": "The chapter is unambiguous: no multiengine airplane is approved for spins, and spin recovery characteristics are generally very poor. Very few twins have ever been spin-tested, and none are required to be.",
+      "reference": {
+        "page": "13-18",
+        "text": "No multiengine airplane is approved for spins, and their spin recovery characteristics are generally very poor."
+      }
+    },
+    {
+      "section": "Engine Inoperative Flight Principles — Derivation of VMC",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "How does bank angle affect VMC, as determined during aircraft certification?",
+      "correct_answer": "VMC increases as bank angle decreases, potentially by more than 3 knots for each degree of bank reduction between 5° and wings-level.",
+      "distractors": [
+        "VMC decreases as bank angle decreases because the airplane is more stable in level flight.",
+        "Bank angle has no measurable effect on VMC during certification testing.",
+        "VMC is lowest at wings level because the rudder is most effective without any bank."
+      ],
+      "explanation": "The chapter explains that VMC is highly sensitive to bank angle. The manufacturer may use up to 5° of bank toward the operative engine during certification, which lowers VMC. As bank angle decreases toward wings-level, VMC increases significantly—more than 3 knots per degree of bank reduction between 5° and wings-level.",
+      "reference": {
+        "page": "13-25",
+        "text": "VMC increases as bank angle decreases. In fact, VMC may increase more than 3 knots for each degree of bank reduction between 5° and wings-level."
+      }
+    },
+    {
+      "section": "Engine Inoperative Flight Principles — OEI Climb Performance",
+      "difficulty": 3,
+      "categories": [
+        "checkride_oral",
+        "written_exam"
+      ],
+      "question": "To achieve zero sideslip and best single-engine climb performance, approximately what bank angle and slip/skid indicator ball position should be established?",
+      "correct_answer": "Approximately 2° bank toward the operative engine with the ball deflected one-third to one-half toward the operative engine",
+      "distractors": [
+        "Wings level with the ball centered, using rudder alone to counteract yaw",
+        "8 to 10° bank toward the operative engine with no rudder input",
+        "5° bank toward the inoperative engine with the ball centered"
+      ],
+      "explanation": "The chapter describes three scenarios. Wings-level with centered ball creates moderate sideslip and reduced climb. Excessive bank with no rudder creates large sideslip and greatly reduced climb. The correct combination is approximately 2° bank toward the operative engine with the ball deflected one-third to one-half toward the operative engine, achieving zero sideslip.",
+      "reference": {
+        "page": "13-29",
+        "text": "Rudder and ailerons used together in the proper combination result in a bank of approximately 2° toward the operative engine. The ball is displaced approximately one-third to one-half toward the operative engine. The result is zero sideslip and maximum climb performance."
+      }
+    },
+    {
+      "section": "Low Altitude Engine Failure Scenarios",
+      "difficulty": 3,
+      "categories": [
+        "checkride_oral",
+        "written_exam"
+      ],
+      "question": "If an engine failure occurs shortly after takeoff and the landing gear selector is still in the DOWN position, what action does the chapter recommend?",
+      "correct_answer": "Close both throttles, maintain directional control, and land on the remaining runway or overrun",
+      "distractors": [
+        "Retract the landing gear, feather the failed engine, and continue the climb at VYSE",
+        "Reduce power on the operative engine and attempt a turn back to the airport",
+        "Apply full rudder, maintain heading, and accelerate to VYSE before reconfiguring"
+      ],
+      "explanation": "The chapter states that with the landing gear down, continued takeoff and climb is not recommended. The chances of maintaining directional control while retracting flaps, raising gear, feathering the propeller, and accelerating are minimal. The recommended action is to close both throttles and land straight ahead.",
+      "reference": {
+        "page": "13-30",
+        "text": "Keep the nose as straight as possible, close both throttles, adjust pitch attitude to maintain adequate airspeed, and descend to the runway... There are really no other practical options."
+      }
+    },
+    {
+      "section": "Low Altitude Engine Failure Scenarios — Control",
+      "difficulty": 2,
+      "categories": [
+        "checkride_oral",
+        "general_knowledge"
+      ],
+      "question": "The memory aid 'dead foot, dead engine' helps identify the failed engine. What is the correct interpretation of this phrase?",
+      "correct_answer": "The foot not applying rudder pressure is on the same side as the failed engine, because rudder pressure is exerted on the side of the operating engine.",
+      "distractors": [
+        "The foot that feels no vibration through the rudder pedal indicates the failed engine side.",
+        "The rudder pedal that cannot be moved is on the same side as the failed engine.",
+        "The foot applying the most pressure is on the side of the failed engine."
+      ],
+      "explanation": "The chapter explains that in maintaining directional control, rudder pressure is exerted on the side with the operating engine. The 'dead foot'—the one not applying pressure—is on the same side as the 'dead engine.' This helps identify the failed engine quickly.",
+      "reference": {
+        "page": "13-33",
+        "text": "In maintaining directional control, however, rudder pressure is exerted on the side (left or right) of the airplane with the operating engine. Thus, the 'dead foot' is on the same side as the 'dead engine.'"
+      }
+    },
+    {
+      "section": "Engine Inoperative Approach and Landing",
+      "difficulty": 2,
+      "categories": [
+        "checkride_oral",
+        "written_exam"
+      ],
+      "question": "During a single-engine approach, why might a single-engine go-around not be possible once the landing gear and flaps are extended on final approach?",
+      "correct_answer": "Most light-twins lack the performance to climb on one engine with gear and flaps extended, and considerable altitude is lost while retracting them.",
+      "distractors": [
+        "VMC increases with flaps extended, making directional control impossible during a go-around.",
+        "The operative engine cannot produce enough power with the landing gear doors open.",
+        "The single-engine service ceiling is below pattern altitude, preventing any climb."
+      ],
+      "explanation": "The chapter states that once on final with gear and flaps extended, the airplane is committed to land. Most light-twins cannot climb on one engine in this configuration. Losses of 500 feet or more are not unusual while retracting gear and flaps, and if alternate gear extension was used, retraction may not be possible at all.",
+      "reference": {
+        "page": "13-35",
+        "text": "Most light-twins do not have the performance to climb on one engine with landing gear and flaps extended. Considerable altitude is lost while maintaining VYSE and retracting landing gear and flaps. Losses of 500 feet or more are not unusual."
+      }
+    },
+    {
+      "section": "Multiengine Training Considerations",
+      "difficulty": 2,
+      "categories": [
+        "checkride_oral",
+        "general_knowledge"
+      ],
+      "question": "The FAA recommends that all in-flight simulated engine failures below 3,000 feet AGL be introduced using what method?",
+      "correct_answer": "A smooth reduction of the throttle",
+      "distractors": [
+        "Pulling the mixture control to idle cutoff",
+        "Turning off the fuel selector for the affected engine",
+        "Pulling the propeller control fully aft to the feather position"
+      ],
+      "explanation": "The chapter states the FAA recommends smooth throttle reduction for simulated engine failures below 3,000 feet AGL. This keeps the engine running and available for instant use, avoids engine abuse, and avoids the high and unnecessary training risk of simulating failures below VSSE.",
+      "reference": {
+        "page": "13-35",
+        "text": "The FAA recommends that all in-flight simulated engine failures below 3,000 feet AGL, be introduced with a smooth reduction of the throttle. Thus, the engine is kept running and is available for instant use, if necessary."
+      }
+    },
+    {
+      "section": "Engine Inoperative Flight Principles — VMC Demo",
+      "difficulty": 2,
+      "categories": [
+        "checkride_oral",
+        "written_exam"
+      ],
+      "question": "During a VMC demonstration, what should the pilot do upon first recognizing uncontrollable yaw or experiencing any symptom associated with a stall?",
+      "correct_answer": "Simultaneously retard the throttle for the operating engine and lower the pitch attitude to regain speed",
+      "distractors": [
+        "Apply full rudder opposite the yaw and increase power on the operating engine",
+        "Add full power to the idle engine to counteract the asymmetrical thrust",
+        "Roll into a steeper bank toward the operative engine to gain more rudder authority"
+      ],
+      "explanation": "The chapter specifies that the moment the pilot recognizes uncontrollable yaw or any stall symptom, the recovery is to simultaneously retard the operating engine throttle to stop the yaw and lower the pitch attitude to regain speed. Recovery is made to straight flight at VSSE or VYSE.",
+      "reference": {
+        "page": "13-26",
+        "text": "The moment the pilot first recognizes the uncontrollable yaw, or experiences any symptom associated with a stall, the pilot simultaneously retards the throttle for the operating engine to stop the yaw and lowers the pitch attitude to regain speed."
+      }
+    },
+    {
+      "section": "Short-Field Takeoff and Climb",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "When planning a short-field takeoff, if VX is less than 5 knots higher than VMC, what does the chapter recommend?",
+      "correct_answer": "Give strong consideration to reducing useful load or using another runway so that a short-field technique is not required",
+      "distractors": [
+        "Proceed with the short-field takeoff but rotate at VMC plus 10 knots for additional margin",
+        "Use partial flaps to increase the margin above VMC during the climb",
+        "Delay rotation until VYSE to ensure adequate directional control is available"
+      ],
+      "explanation": "The chapter warns that VX and VXSE are often perilously close to VMC during short-field takeoffs, leaving scant margin for error. If VX is less than 5 knots higher than VMC, the pilot should strongly consider reducing useful load or using another runway to increase takeoff margins.",
+      "reference": {
+        "page": "13-17",
+        "text": "If VX is less than 5 knots higher than VMC, give strong consideration to reducing useful load or using another runway in order to increase the takeoff margins so that a short-field technique is not required."
+      }
+    }
+  ]
+}

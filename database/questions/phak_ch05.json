@@ -3,94 +3,366 @@
   "chapter": 5,
   "questions": [
     {
-      "section": "Lift and Drag",
+      "section": "Forces Acting on the Aircraft",
       "difficulty": 2,
-      "categories": ["written_exam", "checkride_oral"],
-      "question": "What happens to lift as angle of attack increases below the critical angle of attack?",
-      "correct_answer": "Lift increases",
-      "distractors": ["Lift decreases", "Lift stays constant", "Lift oscillates"],
-      "explanation": "Below the critical angle of attack, increasing AoA increases the pressure differential between the upper and lower wing surfaces, producing more lift."
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "In straight-and-level, unaccelerated flight, which statement correctly describes the relationship between the four forces acting on an aircraft?",
+      "correct_answer": "The sum of all upward components of forces equals the sum of all downward components, and the sum of all forward components equals the sum of all backward components",
+      "distractors": [
+        "All four forces—thrust, drag, lift, and weight—are equal in magnitude",
+        "Thrust is always greater than drag, while lift is always greater than weight",
+        "Weight is always the greatest force, with lift being slightly less than weight"
+      ],
+      "explanation": "The FAA handbook clarifies that the simplified 'lift equals weight and thrust equals drag' description can be misleading because it assumes all forces act purely vertically or horizontally. In reality, forces such as thrust may not be perfectly aligned with the flight path. The correct principle is that the sum of all upward force components equals the sum of all downward force components, and the sum of all forward force components equals the sum of all backward force components.",
+      "reference": {
+        "page": "5-2",
+        "text": "The sum of all upward components of forces (not just lift) equals the sum of all downward components of forces (not just weight). The sum of all forward components of forces (not just thrust) equals the sum of all backward components of forces (not just drag)."
+      }
     },
     {
-      "section": "Stalls",
+      "section": "Lift",
       "difficulty": 2,
-      "categories": ["written_exam", "checkride_oral"],
-      "question": "An airplane can stall at any airspeed and any attitude. What determines whether a stall occurs?",
-      "correct_answer": "Exceeding the critical angle of attack",
-      "distractors": ["Flying below minimum controllable airspeed", "Exceeding maximum gross weight", "Flying with the nose above the horizon"],
-      "explanation": "A stall occurs when the critical angle of attack is exceeded, regardless of airspeed, attitude, or weight."
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "If an aircraft's airspeed doubles while the angle of attack and all other factors remain constant, what happens to the lift produced?",
+      "correct_answer": "Lift increases by a factor of four",
+      "distractors": [
+        "Lift doubles",
+        "Lift increases by a factor of three",
+        "Lift remains the same because AOA hasn't changed"
+      ],
+      "explanation": "The lift equation (L = CL · ρ · V² · S / 2) shows that lift is proportional to the square of velocity. The chapter explicitly states that an airplane traveling at 200 knots has four times the lift as the same airplane traveling at 100 knots, if AOA and other factors remain constant.",
+      "reference": {
+        "page": "5-4",
+        "text": "Lift is proportional to the square of the aircraft's velocity. For example, an airplane traveling at 200 knots has four times the lift as the same airplane traveling at 100 knots, if the AOA and other factors remain constant."
+      }
+    },
+    {
+      "section": "Lift/Drag Ratio",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "At the angle of attack where the lift-to-drag ratio (L/D) is at its maximum, what condition exists?",
+      "correct_answer": "The total drag is at its minimum",
+      "distractors": [
+        "The coefficient of lift is at its maximum",
+        "The coefficient of drag is at its minimum",
+        "The aircraft is flying at its maximum speed"
+      ],
+      "explanation": "The chapter states that the maximum L/D ratio (L/DMAX) occurs at one specific CL and AOA. If the aircraft is operated in steady flight at L/DMAX, the total drag is at a minimum. CL-MAX occurs at the critical (stalling) AOA, which is a different point. The coefficient of drag being at its minimum is not the same as total drag being at its minimum.",
+      "reference": {
+        "page": "5-5",
+        "text": "Note that the maximum lift/drag ratio (L/DMAX) occurs at one specific CL and AOA. If the aircraft is operated in steady flight at L/DMAX, the total drag is at a minimum."
+      }
     },
     {
       "section": "Drag",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "How does induced drag vary with changes in airspeed?",
+      "correct_answer": "Induced drag varies inversely with the square of the airspeed",
+      "distractors": [
+        "Induced drag increases as the square of the airspeed",
+        "Induced drag varies directly and proportionally with airspeed",
+        "Induced drag remains constant regardless of airspeed"
+      ],
+      "explanation": "The chapter states that as AOA increases (which happens at lower airspeeds to maintain lift), induced drag increases proportionally. Specifically, 'the amount of induced drag varies inversely with the square of the airspeed.' This is the opposite of parasite drag, which increases as the square of airspeed.",
+      "reference": {
+        "page": "5-8",
+        "text": "The amount of induced drag varies inversely with the square of the airspeed."
+      }
+    },
+    {
+      "section": "Wingtip Vortices",
       "difficulty": 1,
-      "categories": ["written_exam", "general_knowledge"],
-      "question": "Which type of drag increases as airspeed increases?",
-      "correct_answer": "Parasite drag",
-      "distractors": ["Induced drag", "Total drag always decreases", "Profile drag decreases at all speeds"],
-      "explanation": "Parasite drag increases with the square of airspeed, while induced drag decreases as airspeed increases."
+      "categories": [
+        "written_exam",
+        "checkride_oral",
+        "general_knowledge"
+      ],
+      "question": "Under what conditions are wingtip vortices the strongest from a generating aircraft?",
+      "correct_answer": "When the generating aircraft is heavy, clean, and slow",
+      "distractors": [
+        "When the generating aircraft is light, dirty, and fast",
+        "When the generating aircraft is at high altitude in thin air",
+        "When the generating aircraft has full flaps extended at cruise speed"
+      ],
+      "explanation": "The chapter explicitly states that wingtip vortices are greatest when the generating aircraft is 'heavy, clean, and slow.' This condition is most commonly encountered during approaches or departures because the aircraft's AOA is at its highest to produce the lift necessary to land or take off.",
+      "reference": {
+        "page": "5-9",
+        "text": "Wingtip vortices are greatest when the generating aircraft is 'heavy, clean, and slow.'"
+      }
     },
     {
       "section": "Ground Effect",
       "difficulty": 2,
-      "categories": ["written_exam", "checkride_oral"],
-      "question": "What is the primary effect of ground effect on an aircraft during takeoff?",
-      "correct_answer": "Induced drag is reduced",
-      "distractors": ["Parasite drag is reduced", "Thrust is increased", "Weight is effectively reduced"],
-      "explanation": "Ground effect reduces the upwash and downwash around the wing, decreasing induced drag. It is most pronounced within one wingspan of the surface."
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "What happens when an aircraft leaves ground effect after takeoff with a deficiency of airspeed?",
+      "correct_answer": "The aircraft experiences an increase in induced drag, requires an increase in AOA to maintain the same CL, and may have marginal initial climb performance",
+      "distractors": [
+        "The aircraft experiences a decrease in induced drag and improved climb performance",
+        "The aircraft experiences a nose-down pitch change and increased stability",
+        "The aircraft requires less thrust and a lower AOA to maintain flight"
+      ],
+      "explanation": "The chapter explains that an aircraft leaving ground effect will require an increase in AOA to maintain the same CL, experience an increase in induced drag and thrust required, and experience a decrease in stability and a nose-up change in moment. With a deficiency of speed, the greater induced drag may result in marginal initial climb performance, and in extreme conditions the aircraft may settle back to the runway.",
+      "reference": {
+        "page": "5-12",
+        "text": "The aircraft leaving ground effect will: Require an increase in AOA to maintain the same CL, Experience an increase in induced drag and thrust required, Experience a decrease in stability and a nose-up change in moment."
+      }
     },
     {
-      "section": "Turns",
-      "difficulty": 2,
-      "categories": ["written_exam"],
-      "question": "In a coordinated level turn, what must increase to maintain altitude?",
-      "correct_answer": "Lift",
-      "distractors": ["Thrust only", "Weight", "Parasite drag"],
-      "explanation": "In a banked turn, the vertical component of lift decreases. Total lift must increase (by increasing AoA/back pressure) to maintain the same vertical lift component and hold altitude."
-    },
-    {
-      "section": "Load Factor",
-      "difficulty": 2,
-      "categories": ["written_exam", "checkride_oral"],
-      "question": "What is the load factor in a 60-degree banked level turn?",
-      "correct_answer": "2 Gs",
-      "distractors": ["1.5 Gs", "1.41 Gs", "3 Gs"],
-      "explanation": "Load factor = 1/cos(bank angle). At 60 degrees: 1/cos(60°) = 1/0.5 = 2 Gs."
-    },
-    {
-      "section": "Stability",
+      "section": "Axes of an Aircraft",
       "difficulty": 1,
-      "categories": ["written_exam", "general_knowledge"],
-      "question": "What does positive static stability mean?",
-      "correct_answer": "The aircraft tends to return to its original state after a disturbance",
-      "distractors": ["The aircraft remains in its displaced position", "The aircraft continues to diverge from its original state", "The aircraft oscillates with increasing amplitude"],
-      "explanation": "Positive static stability means the initial tendency is to return toward the original state of equilibrium after being disturbed."
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "Which motion of an aircraft occurs about its lateral axis?",
+      "correct_answer": "Pitch",
+      "distractors": [
+        "Roll",
+        "Yaw",
+        "Sideslip"
+      ],
+      "explanation": "The chapter defines the three axes and their associated motions: motion about the longitudinal axis is 'roll,' motion about the lateral axis is 'pitch,' and motion about the vertical axis is 'yaw.' The lateral axis passes through the CG parallel to a line from wingtip to wingtip.",
+      "reference": {
+        "page": "5-13",
+        "text": "The motion about the aircraft's longitudinal axis is 'roll,' the motion about its lateral axis is 'pitch,' and the motion about its vertical axis is 'yaw.'"
+      }
     },
     {
-      "section": "Thrust and Power",
-      "difficulty": 1,
-      "categories": ["general_knowledge"],
-      "question": "Which of the four forces acts parallel to the flight path and opposite to the direction of flight?",
-      "correct_answer": "Drag",
-      "distractors": ["Weight", "Thrust", "Lift"],
-      "explanation": "Drag acts rearward, parallel to the relative wind and opposite to the direction of flight."
+      "section": "Aircraft Design Characteristics",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "An aircraft that, after being disturbed from equilibrium, initially tends to remain in its new displaced condition rather than returning or continuing away, is exhibiting which type of static stability?",
+      "correct_answer": "Neutral static stability",
+      "distractors": [
+        "Positive static stability",
+        "Negative static stability",
+        "Dynamic stability"
+      ],
+      "explanation": "The chapter defines three types of static stability. Positive static stability is the initial tendency to return to equilibrium. Negative static stability is the initial tendency to continue moving away from equilibrium. Neutral static stability is the initial tendency to remain in the new condition after being disturbed. Dynamic stability refers to the aircraft's response over time, not the initial tendency.",
+      "reference": {
+        "page": "5-14",
+        "text": "Neutral static stability—the initial tendency of the aircraft to remain in a new condition after its equilibrium has been disturbed."
+      }
     },
     {
-      "section": "Wing Design",
+      "section": "Longitudinal Stability (Pitching)",
       "difficulty": 3,
-      "categories": ["checkride_oral"],
-      "question": "Why do some wings have washout (twist)?",
-      "correct_answer": "To ensure the wing root stalls before the wingtip, maintaining aileron effectiveness",
-      "distractors": ["To increase the maximum lift coefficient", "To reduce parasite drag at cruise speeds", "To allow higher speeds before flutter occurs"],
-      "explanation": "Washout decreases the angle of incidence from root to tip so the root reaches the critical AoA first, keeping ailerons effective during the stall."
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "Why do aircraft designers typically place the center of gravity (CG) forward of the center of lift (CL)?",
+      "correct_answer": "To create a nose-heavy tendency that is counterbalanced by a downward force on the horizontal stabilizer, providing longitudinal stability",
+      "distractors": [
+        "To align the thrust line with the flight path and reduce drag in cruise",
+        "To eliminate the need for a horizontal stabilizer entirely",
+        "To increase maneuverability by making the aircraft less stable in pitch"
+      ],
+      "explanation": "The chapter explains that when the CG is forward of the CL, the aircraft is 'nose heavy' and requires a downward force on the horizontal stabilizer to balance it. This arrangement provides longitudinal stability: if the aircraft pitches nose up or down, the changing moments from the wing and tail work to restore the original attitude. Designers fix the aft limit of the CG forward of the CP to retain flight equilibrium.",
+      "reference": {
+        "page": "5-16",
+        "text": "Most aircraft are designed so that the wing's CL is to the rear of the CG. This makes the aircraft 'nose heavy' and requires that there be a slight downward force on the horizontal stabilizer in order to balance the aircraft and keep the nose from continually pitching downward."
+      }
     },
     {
-      "section": "Aerodynamics of Flight",
+      "section": "Lateral Stability (Rolling)",
       "difficulty": 2,
-      "categories": ["written_exam", "checkride_oral"],
-      "question": "What is the relationship between indicated airspeed and true airspeed as altitude increases?",
-      "correct_answer": "True airspeed is higher than indicated airspeed",
-      "distractors": ["True airspeed equals indicated airspeed", "True airspeed is lower than indicated airspeed", "The relationship depends solely on temperature"],
-      "explanation": "As altitude increases, air density decreases. The pitot-static system senses less dynamic pressure, so IAS reads lower than the actual TAS."
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "How does dihedral contribute to lateral stability when an aircraft is disturbed by a gust causing a roll?",
+      "correct_answer": "The resulting sideslip increases the AOA on the wing being lowered, generating more lift on that wing and rolling the aircraft back toward level",
+      "distractors": [
+        "The sideslip causes both wings to generate equal lift, stabilizing the aircraft",
+        "The fuselage weight acts as a pendulum below the wings to return the aircraft to level",
+        "The sweepback of the wing creates more drag on the low wing, pulling it back up"
+      ],
+      "explanation": "The chapter explains that when a gust causes a roll, a sideslip results. The relative wind from the side causes the wing slipping into the wind (the lowered wing) to experience an increased AOA and more lift, while the wing on the other side experiences decreased AOA and less lift. This rolling moment tends to raise the lowered wing, restoring the aircraft to level flight. The pendulum effect described in option B is the keel effect, and option C describes sweepback, not dihedral.",
+      "reference": {
+        "page": "5-18",
+        "text": "When a gust causes a roll, a sideslip will result. This sideslip causes the relative wind affecting the entire airplane to be from the direction of the slip... the wing slipping into the wind is subject to an increase in AOA and develops an increase in lift."
+      }
+    },
+    {
+      "section": "Aerodynamic Forces in Flight Maneuvers",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "In a coordinated, banked turn, what force actually causes the aircraft to deviate from a straight flight path?",
+      "correct_answer": "The horizontal component of lift",
+      "distractors": [
+        "The rudder pushing the tail in the desired direction of turn",
+        "Centrifugal force pulling the aircraft toward the center of the turn",
+        "The vertical component of lift acting opposite to weight"
+      ],
+      "explanation": "The chapter explains that when an aircraft banks, lift acts inward toward the center of the turn as well as upward. The horizontal component of lift (centripetal force) is what pulls the aircraft from a straight flight path to make it turn. The rudder is used only to keep the nose and tail tracking along the same path, not to turn the aircraft. Centrifugal force is the equal and opposite reaction, acting outward, not inward.",
+      "reference": {
+        "page": "5-22",
+        "text": "The horizontal component of lift is the force that pulls the aircraft from a straight flight path to make it turn."
+      }
+    },
+    {
+      "section": "Stalls",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral",
+        "general_knowledge"
+      ],
+      "question": "Which statement about stalls is correct according to the chapter?",
+      "correct_answer": "A given aircraft always stalls at the same AOA regardless of airspeed, weight, load factor, or density altitude",
+      "distractors": [
+        "An aircraft stalls at a fixed airspeed that does not change with weight or bank angle",
+        "Stalls can only occur at low airspeeds below the published stall speed",
+        "The critical AOA changes depending on the aircraft's weight and density altitude"
+      ],
+      "explanation": "The chapter explicitly states that each aircraft has a particular AOA where airflow separates and the stall occurs, and this critical AOA does not change with weight, bank angle, temperature, density altitude, or CG. The stalling speed, however, does vary with these factors. An aircraft can be stalled at any airspeed if the critical AOA is exceeded.",
+      "reference": {
+        "page": "5-25",
+        "text": "a given aircraft always stalls at the same AOA regardless of airspeed, weight, load factor, or density altitude. Each aircraft has a particular AOA where the airflow separates from the upper surface of the wing and the stall occurs."
+      }
+    },
+    {
+      "section": "Basic Propeller Principles",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "Why are propeller blades twisted along their length, with greater blade angle near the hub and lesser blade angle near the tip?",
+      "correct_answer": "To maintain a relatively constant AOA along the entire blade length despite differences in rotational velocity from hub to tip",
+      "distractors": [
+        "To reduce noise generated by the propeller tips at high RPM",
+        "To increase the geometric pitch at the hub for better climb performance",
+        "To balance the propeller dynamically for smoother operation at cruise RPM"
+      ],
+      "explanation": "The chapter explains that the outer parts of propeller blades travel faster than portions near the hub. If blades had the same geometric pitch throughout, portions near the hub could have negative AOAs while the tips would be stalled at cruise speed. Twisting the blades varies the blade angle in proportion to the speed differences, keeping the AOA relatively constant and thrust more equalized along the blade length.",
+      "reference": {
+        "page": "5-30",
+        "text": "If the blades had the same geometric pitch throughout their lengths, portions near the hub could have negative AOAs while the propeller tips would be stalled at cruise speed. Twisting or variations in the geometric pitch of the blades permits the propeller to operate with a relatively constant AOA along its length when in cruising flight."
+      }
+    },
+    {
+      "section": "Torque and P-Factor",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "At a high angle of attack, why does asymmetric loading (P-factor) cause a left yawing tendency in aircraft with clockwise-rotating propellers (as viewed from the cockpit)?",
+      "correct_answer": "The downward-moving blade on the right side has a higher resultant velocity and produces more thrust than the upward-moving blade",
+      "distractors": [
+        "The upward-moving blade stalls first, reducing thrust on the left side of the propeller disc",
+        "Gyroscopic precession deflects the propeller force 90° ahead in the direction of rotation",
+        "The corkscrew slipstream strikes the left side of the vertical fin, pushing the nose left"
+      ],
+      "explanation": "The chapter explains that at high AOA, the downward-moving (right) blade has a greater resultant velocity because the aircraft's forward velocity adds to the blade's rotational velocity. Since the propeller blade is an airfoil, increased velocity means increased lift (thrust). This moves the center of thrust to the right, causing a yawing moment toward the left. Option B describes gyroscopic precession, option C describes the corkscrew effect—both are separate elements of left-turning tendency.",
+      "reference": {
+        "page": "5-32",
+        "text": "When an aircraft is flying with a high AOA, the 'bite' of the downward moving blade is greater than the 'bite' of the upward moving blade. This moves the center of thrust to the right of the prop disc area, causing a yawing moment toward the left around the vertical axis."
+      }
+    },
+    {
+      "section": "Load Factors",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "In a coordinated, constant-altitude turn, what is the load factor at a 60° bank angle?",
+      "correct_answer": "2 Gs",
+      "distractors": [
+        "1.41 Gs",
+        "1.73 Gs",
+        "3 Gs"
+      ],
+      "explanation": "The chapter states that the load factor for any aircraft in a coordinated level turn at 60° bank is 2 Gs. The load factor increases rapidly after 45°–50° of bank. At 80° bank, the load factor would be 5.76 Gs. A 90° banked, constant-altitude turn is not mathematically possible.",
+      "reference": {
+        "page": "5-34",
+        "text": "The load factor for any aircraft in a coordinated level turn at 60° bank is 2 Gs. The load factor in an 80° bank is 5.76 Gs."
+      }
+    },
+    {
+      "section": "Load Factors and Stalling Speeds",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "If an aircraft has a normal unaccelerated stalling speed of 50 knots, at approximately what airspeed would it stall if subjected to a load factor of 4 Gs?",
+      "correct_answer": "100 knots",
+      "distractors": [
+        "75 knots",
+        "150 knots",
+        "200 knots"
+      ],
+      "explanation": "The chapter states that stalling speed increases in proportion to the square root of the load factor. The square root of 4 is 2, so the stalling speed doubles from 50 to 100 knots. The chapter uses this exact example: 'an aircraft with a normal unaccelerated stalling speed of 50 knots can be stalled at 100 knots by inducing a load factor of 4 Gs.'",
+      "reference": {
+        "page": "5-34",
+        "text": "an aircraft's stalling speed increases in proportion to the square root of the load factor. This means that an aircraft with a normal unaccelerated stalling speed of 50 knots can be stalled at 100 knots by inducing a load factor of 4 Gs."
+      }
+    },
+    {
+      "section": "Vg Diagram",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "What is the significance of the maneuvering speed (VA) as depicted on the Vg diagram?",
+      "correct_answer": "Below this speed, the aircraft will stall before it can produce a damaging positive flight load",
+      "distractors": [
+        "It is the maximum speed at which the aircraft can be flown in smooth air",
+        "It is the speed at which the aircraft reaches its maximum coefficient of lift",
+        "It is the minimum speed at which the aircraft can sustain level flight"
+      ],
+      "explanation": "The chapter explains that the maneuvering speed is the intersection of the positive limit load factor and the line of maximum positive lift capability on the Vg diagram. Below this speed, the aircraft cannot produce enough lift to exceed the limit load factor—it will stall first. The chapter states, 'an aircraft operating below this point cannot produce a damaging positive flight load.' VA is not the never-exceed speed (VNE), nor is it CL-MAX or minimum level flight speed.",
+      "reference": {
+        "page": "5-37",
+        "text": "The usual term given to this speed is 'maneuvering speed,' since consideration of subsonic aerodynamics would predict minimum usable turn radius or maneuverability to occur at this condition. The maneuver speed is a valuable reference point, since an aircraft operating below this point cannot produce a damaging positive flight load."
+      }
+    },
+    {
+      "section": "Radius of Turn",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "If an aircraft doubles its airspeed while maintaining the same bank angle, what happens to the radius of turn?",
+      "correct_answer": "The radius quadruples",
+      "distractors": [
+        "The radius doubles",
+        "The radius remains the same because bank angle is unchanged",
+        "The radius is halved"
+      ],
+      "explanation": "The chapter's radius of turn formula (R = V² / 11.26 × tangent of bank angle) shows that radius is proportional to velocity squared. The chapter provides a concrete example: at 120 knots with 30° bank, the radius is 2,215 feet; at 240 knots with the same 30° bank, the radius is 8,861 feet—four times greater. The chapter emphasizes that 'airspeed is the most influential factor in determining how much distance is required to turn.'",
+      "reference": {
+        "page": "5-40",
+        "text": "Note that if the speed is doubled, the radius is quadrupled."
+      }
     }
   ]
 }

@@ -1,0 +1,359 @@
+{
+  "source": "AFH",
+  "chapter": 18,
+  "questions": [
+    {
+      "section": "Types of Emergency Landings",
+      "difficulty": 1,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "Why is a precautionary landing generally less hazardous than a forced landing?",
+      "correct_answer": "The pilot has more time for terrain selection and planning, and can use power to compensate for errors in judgment or technique",
+      "distractors": [
+        "The airplane is always at a lower altitude, making the approach easier to manage",
+        "ATC is more likely to provide radar vectors to a nearby suitable airport",
+        "The airplane's stalling speed is reduced, allowing a slower touchdown speed"
+      ],
+      "explanation": "The chapter states that a precautionary landing is less hazardous because the pilot has more time for terrain selection and approach planning, and can use power to compensate for errors. A forced landing, by contrast, is an immediate landing necessitated by the inability to continue flight.",
+      "reference": {
+        "page": "18-1",
+        "text": "A precautionary landing, generally, is less hazardous than a forced landing because the pilot has more time for terrain selection and the planning of the approach. In addition, the pilot can use power to compensate for errors in judgment or technique."
+      }
+    },
+    {
+      "section": "Psychological Hazards",
+      "difficulty": 2,
+      "categories": [
+        "checkride_oral",
+        "general_knowledge"
+      ],
+      "question": "A pilot experiences an engine failure shortly after takeoff and attempts a 180° turn back to the runway despite insufficient altitude. Which psychological hazard does this exemplify?",
+      "correct_answer": "Desire to save the airplane",
+      "distractors": [
+        "Reluctance to accept the emergency situation",
+        "Undue concern about getting hurt",
+        "Failure to maintain airplane control while attempting to correct the malfunction"
+      ],
+      "explanation": "The chapter lists 'making a 180° turn back to the runway when available altitude is insufficient' as a typical consequence of the 'desire to save the airplane.' This hazard occurs when a pilot ignores basic rules of airmanship to avoid airplane damage, sometimes influenced by financial stake in the airplane or the belief that an undamaged airplane implies no bodily harm.",
+      "reference": {
+        "page": "18-2",
+        "text": "Typical consequences are: making a 180° turn back to the runway when available altitude is insufficient; stretching the glide without regard for minimum control speed in order to reach a more appealing field; and accepting an approach and touchdown situation that leaves no margin for error."
+      }
+    },
+    {
+      "section": "Basic Safety Concepts",
+      "difficulty": 2,
+      "categories": [
+        "written_exam"
+      ],
+      "question": "According to the chapter, how does groundspeed affect the total destructive energy during an emergency landing?",
+      "correct_answer": "Doubling the groundspeed quadruples the total destructive energy",
+      "distractors": [
+        "Doubling the groundspeed doubles the total destructive energy",
+        "Doubling the groundspeed triples the total destructive energy",
+        "Groundspeed has no effect on destructive energy; only stopping distance matters"
+      ],
+      "explanation": "The chapter identifies speed as the most critical factor in deceleration severity. Doubling groundspeed quadruples total destructive energy, which is why the touchdown should be made at the lowest possible controllable airspeed using all available aerodynamic devices.",
+      "reference": {
+        "page": "18-3",
+        "text": "The most critical of these is speed; doubling the groundspeed means quadrupling the total destructive energy and vice versa. Even a small change in groundspeed at touchdown—be it as a result of wind or pilot technique—affects the outcome of a controlled crash."
+      }
+    },
+    {
+      "section": "Attitude and Sink Rate Control",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "What danger does a flat touchdown at a high sink rate present during an emergency landing on a hard surface?",
+      "correct_answer": "It can be injurious to occupants without destroying the cabin structure, especially during gear-up landings in low-wing airplanes",
+      "distractors": [
+        "It guarantees the cabin structure will collapse, resulting in serious injury regardless of airplane type",
+        "It is only a concern for high-wing airplanes, not low-wing airplanes",
+        "It has no effect on occupant safety as long as the landing gear is extended"
+      ],
+      "explanation": "The chapter warns that a flat touchdown at a high sink rate (well in excess of 500 fpm) on a hard surface can be injurious without destroying the cabin structure. Low-wing airplanes with rigid bottom construction may not provide adequate cushioning by structural deformation during gear-up landings.",
+      "reference": {
+        "page": "18-4",
+        "text": "A flat touchdown at a high sink rate (well in excess of 500 feet per minute (fpm)) on a hard surface can be injurious without destroying the cabin structure, especially during gear-up landings in low-wing airplanes."
+      }
+    },
+    {
+      "section": "Airplane Configuration",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "Under what condition might a gear-up landing result in less airplane damage than a gear-down landing?",
+      "correct_answer": "When a normal touchdown is assured and ample stopping distance is available, on level but soft terrain or across a plowed field",
+      "distractors": [
+        "When landing on a smooth, hard-surface runway with crash rescue facilities standing by",
+        "When landing in dense trees where the gear could snag and cause the airplane to flip",
+        "When landing on water, since the extended landing gear would help cushion the impact and protect the cabin from damage"
+      ],
+      "explanation": "The chapter states that when a normal touchdown is assured and ample stopping distance is available, a gear-up landing on level but soft terrain or across a plowed field may result in less damage than gear-down. In rugged terrain or trees, however, extended gear has a protective effect on the cabin area.",
+      "reference": {
+        "page": "18-4",
+        "text": "When a normal touchdown is assured, and ample stopping distance is available, a gear-up landing on level, but soft terrain or across a plowed field may result in less airplane damage than a gear-down landing."
+      }
+    },
+    {
+      "section": "Terrain Types — Trees (Forest)",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "When executing a forced landing in trees, what airspeed and attitude should the pilot maintain at the moment of contact?",
+      "correct_answer": "Minimum indicated airspeed but not below stall speed, in a nose-high landing attitude",
+      "distractors": [
+        "Best glide speed in a level attitude to maximize control authority through the canopy",
+        "Slightly above stall speed in a nose-low attitude to ensure the nose contacts first",
+        "Maneuvering speed in a steep bank to distribute the impact across both wings equally"
+      ],
+      "explanation": "The chapter recommends making contact at minimum indicated airspeed (but not below stall speed) and 'hanging' the airplane in the tree branches in a nose-high attitude. This involves the underside of the fuselage and both wings for even cushioning and prevents penetration of the windshield.",
+      "reference": {
+        "page": "18-6",
+        "text": "Make contact at minimum indicated airspeed, but not below stall speed, and \"hang\" the airplane in the tree branches in a nose-high landing attitude. Involving the underside of the fuselage and both wings in the initial tree contact provides a more even and positive cushioning effect, while preventing penetration of the windshield."
+      }
+    },
+    {
+      "section": "Water (Ditching) and Snow",
+      "difficulty": 2,
+      "categories": [
+        "written_exam"
+      ],
+      "question": "Why should a pilot use no more than intermediate flaps on a low-wing airplane when ditching?",
+      "correct_answer": "The water resistance of fully extended flaps may result in asymmetrical flap failure and slowing of the airplane",
+      "distractors": [
+        "Full flaps cause the airplane to float on the water surface, preventing a controlled touchdown",
+        "Full flaps reduce the approach angle too much, making depth perception impossible",
+        "Full flaps increase the stalling speed, making it harder to touch down at minimum speed"
+      ],
+      "explanation": "The chapter specifically warns that on low-wing airplanes, the water resistance of fully extended flaps may result in asymmetrical flap failure and slowing of the airplane. Intermediate flaps are recommended, and the retractable gear should be kept up unless the AFM/POH advises otherwise.",
+      "reference": {
+        "page": "18-6",
+        "text": "Use no more than intermediate flaps on low-wing airplanes. The water resistance of fully extended flaps may result in asymmetrical flap failure and slowing of the airplane."
+      }
+    },
+    {
+      "section": "Engine Failure After Takeoff (Single-Engine)",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "Using a standard rate turn (3° per second) to attempt a turnback after engine failure on takeoff, what is the primary problem with this rate of turn?",
+      "correct_answer": "It consumes too much time, requires too much distance, and generates an unacceptable solution",
+      "distractors": [
+        "It takes only 30 seconds, which is too fast and may cause an accelerated stall",
+        "It takes 2 minutes, resulting in excessive altitude loss but keeps the airplane close to the runway centerline",
+        "It takes 1 minute, but the primary problem is that the turn radius is too small to properly align with the runway"
+      ],
+      "explanation": "The chapter's example shows a standard rate turn takes 1 minute for 180°, plus additional time for alignment. At a typical glide descent rate, this places the airplane over 1,000 feet below the runway. The text concludes that a standard rate or shallow turn consumes too much time, requires too much distance, and generates an unacceptable solution.",
+      "reference": {
+        "page": "18-7",
+        "text": "A standard rate or shallow turn consumes too much time, requires too much distance, and generates an unacceptable solution."
+      }
+    },
+    {
+      "section": "Emergency Descents",
+      "difficulty": 1,
+      "categories": [
+        "written_exam"
+      ],
+      "question": "What bank angle should be established when initiating an emergency descent, and what is the purpose?",
+      "correct_answer": "Approximately 30 to 45° to maintain positive load factors (G forces) on the airplane",
+      "distractors": [
+        "Wings level to minimize structural stress and maintain the highest possible descent rate",
+        "10 to 20° to provide a gentle turn while maintaining passenger comfort",
+        "60° or greater to maximize the descent rate and quickly lose altitude"
+      ],
+      "explanation": "The chapter specifies that when initiating an emergency descent, a bank of approximately 30 to 45° should be established to maintain positive load factors on the airplane. The turn also serves to check for other air traffic below and to look for a possible emergency landing area.",
+      "reference": {
+        "page": "18-8",
+        "text": "When initiating the descent, a bank of approximately 30 to 45° should be established to maintain positive load factors (G forces) on the airplane."
+      }
+    },
+    {
+      "section": "In-Flight Fire — Engine Fire",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "When responding to an in-flight engine compartment fire, why should the ignition switch be left ON after shutting off the fuel supply?",
+      "correct_answer": "To use up the fuel that remains in the fuel lines and components between the fuel selector/shutoff valve and the engine",
+      "distractors": [
+        "To keep the engine running so the airplane can maintain altitude and reach an airport",
+        "To generate airflow through the engine compartment to blow out the fire",
+        "To keep the electrical system active for radio communications with ATC"
+      ],
+      "explanation": "The chapter states that after placing the mixture in idle cutoff and the fuel selector to OFF, the ignition switch should be left ON to use up remaining fuel in the lines and components. This procedure may starve the engine compartment of fuel and cause the fire to die naturally. If the flames are snuffed out, no restart should be attempted.",
+      "reference": {
+        "page": "18-9",
+        "text": "The ignition switch should be left ON in order to use up the fuel that remains in the fuel lines and components between the fuel selector/shutoff valve and the engine. This procedure may starve the engine compartment of fuel and cause the fire to die naturally."
+      }
+    },
+    {
+      "section": "In-Flight Fire — Electrical Fires",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "If electrical power is essential and the pilot must identify a faulty circuit after an electrical fire, what is the proper procedure?",
+      "correct_answer": "Turn the master OFF, turn all individual switches OFF, turn the master back ON, then select switches one at a time with a short time lapse after each to check for odor, smoke, or sparks",
+      "distractors": [
+        "Turn the master switch ON and immediately turn on all electrical switches simultaneously to identify which circuit trips its breaker",
+        "Leave the master switch OFF and test each circuit by touching its wire to the battery terminal",
+        "Turn on the master and avionics first, then systematically turn off each switch until the odor disappears"
+      ],
+      "explanation": "The chapter outlines a four-step procedure: master OFF, all individual switches OFF, master back ON, then select switches one at a time with a short delay to check for signs of the fire. However, the chapter warns this procedure has the effect of recreating the original problem, and the most prudent course of action is to land as soon as possible.",
+      "reference": {
+        "page": "18-10",
+        "text": "1. Turning the electrical master switch OFF. 2. Turning all individual electrical switches OFF. 3. Turning the master switch back ON. 4. Selecting electrical switches that were ON before the fire indication one at a time, permitting a short time lapse after each switch is turned on to check for signs of odor, smoke, or sparks."
+      }
+    },
+    {
+      "section": "Flight Control Malfunction/Failure — Asymmetric (Split) Flap",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "What is the typical indication that a pilot has encountered an asymmetric (split) flap situation?",
+      "correct_answer": "A pronounced roll toward the wing with the least flap deflection when flaps are extended or retracted",
+      "distractors": [
+        "A sudden pitch-up tendency and a significant increase in airspeed",
+        "A violent yaw toward the wing with the most flap deflection",
+        "Complete loss of aileron authority on the side with the deployed flap"
+      ],
+      "explanation": "The chapter states that a split flap situation is indicated by a pronounced roll toward the wing with the least flap deflection. The roll is countered with opposite aileron, and the yaw from the additional drag of the extended flap requires substantial opposite rudder, resulting in a cross-control condition.",
+      "reference": {
+        "page": "18-11",
+        "text": "The problem is indicated by a pronounced roll toward the wing with the least flap deflection when wing flaps are extended/retracted."
+      }
+    },
+    {
+      "section": "Flight Control Malfunction/Failure — Loss of Elevator Control",
+      "difficulty": 3,
+      "categories": [
+        "checkride_oral"
+      ],
+      "question": "If the 'up' elevator cable fails but the 'down' cable remains intact, how can the pilot retain pitch control for landing?",
+      "correct_answer": "Apply considerable nose-up trim, push the yoke forward to attain and maintain attitude, and release forward pressure to flare",
+      "distractors": [
+        "Apply considerable nose-down trim and pull the yoke aft to maintain attitude, then increase back pressure to flare",
+        "Reduce power to idle and use rudder inputs to control pitch through yaw-roll coupling",
+        "Extend full flaps and use throttle changes as the sole means of pitch control"
+      ],
+      "explanation": "The chapter describes the procedure for loss of up-elevator control: apply nose-up trim, push the control yoke forward to attain and maintain desired attitude, increase forward pressure to lower the nose and relax forward pressure to raise the nose, and release forward pressure to flare for landing. The procedure for loss of down-elevator control is the opposite.",
+      "reference": {
+        "page": "18-11",
+        "text": "When experiencing a loss of up-elevator control, the pilot can retain pitch control by: Applying considerable nose-up trim; Pushing the control yoke forward to attain and maintain desired attitude; Increasing forward pressure to lower the nose and relaxing forward pressure to raise the nose; Releasing forward pressure to flare for landing"
+      }
+    },
+    {
+      "section": "Landing Gear Malfunction",
+      "difficulty": 2,
+      "categories": [
+        "checkride_oral"
+      ],
+      "question": "If only one main gear leg fails to extend, what factor should influence the pilot's decision to land on the available gear versus retracting all gear?",
+      "correct_answer": "If the runway is narrow and/or ditches and obstacles line the runway edge, landing with all three gear retracted may be the safest course of action",
+      "distractors": [
+        "Landing on the available gear legs is always safer because it reduces the risk of post-crash fire",
+        "Landing with all gear retracted is always safer because it prevents the airplane from veering off the runway",
+        "The decision should be based solely on the amount of fuel remaining, since fuel weight affects wing loading"
+      ],
+      "explanation": "The chapter explains that landing on only one main gear usually causes the airplane to veer strongly toward the faulty gear leg after touchdown. If the runway is narrow or has obstacles along the edges where maximum directional control is needed, landing with all three gear retracted may be the safest option.",
+      "reference": {
+        "page": "18-12",
+        "text": "If the landing runway is narrow and/or ditches and obstacles line the runway edge, maximum directional control after touchdown is a necessity. In this situation, a landing with all three gear retracted may be the safest course of action."
+      }
+    },
+    {
+      "section": "System Malfunctions — Pitot-Static System",
+      "difficulty": 3,
+      "categories": [
+        "written_exam"
+      ],
+      "question": "If the static reference system is severely restricted but not entirely blocked, what will the instruments indicate during a descent?",
+      "correct_answer": "The altimeter indicates higher than actual, the airspeed indicator indicates higher than actual, and the VSI shows a descent rate lower than actual",
+      "distractors": [
+        "The altimeter indicates lower than actual, the airspeed indicator indicates lower than actual, and the VSI shows a climb",
+        "The altimeter indicates higher than actual, the airspeed indicator indicates lower than actual, and the VSI shows a descent rate higher than actual",
+        "All three instruments indicate normally during descent; the malfunction only appears during climb"
+      ],
+      "explanation": "The chapter explains that with a restricted static system, the reference pressure lags behind actual outside air pressure during descent. The altimeter reads higher than actual, the airspeed indicator reads higher than actual (due to lower static reference pressure), and the VSI shows a descent rate much lower than actual. To the pilot, the airplane appears too high, too fast, and descending too slowly.",
+      "reference": {
+        "page": "18-14",
+        "text": "While descending, the altimeter may indicate that the airplane is higher than actual because the obstruction slows the airflow from the static port to the altimeter... The airspeed indicator, unable to tell whether it is experiencing more airspeed pitot pressure or less static reference pressure, indicates a higher airspeed than actual. To the pilot, the instruments indicate that the airplane is too high, too fast, and descending at a rate much lower than desired."
+      }
+    },
+    {
+      "section": "Door Opening In-Flight",
+      "difficulty": 1,
+      "categories": [
+        "general_knowledge",
+        "checkride_oral"
+      ],
+      "question": "According to the chapter, what is the primary cause of accidents related to an open cabin door in flight?",
+      "correct_answer": "The pilot's distraction or failure to maintain control of the airplane",
+      "distractors": [
+        "Structural failure of the door hinges causing the door to separate and strike the tail",
+        "Loss of cabin pressure resulting in hypoxia and pilot incapacitation",
+        "Disruption of airflow over the wing causing an uncontrollable roll"
+      ],
+      "explanation": "The chapter emphasizes that accidents are almost never caused by an open door itself. Rather, an open door accident is caused by the pilot's distraction or failure to maintain control. A cabin door that opens in flight seldom compromises the airplane's ability to fly, and the pilot should concentrate on flying the airplane.",
+      "reference": {
+        "page": "18-17",
+        "text": "Remember that accidents are almost never caused by an open door. Rather, an open door accident is caused by the pilot's distraction or failure to maintain control of the airplane."
+      }
+    },
+    {
+      "section": "Inadvertent VFR Flight Into IMC — Maintaining Airplane Control",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "For a VFR pilot who has inadvertently entered IMC, what is the most important initial concern for maintaining airplane control?",
+      "correct_answer": "Keep the wings level, since good bank control makes pitch control much easier",
+      "distractors": [
+        "Reduce power immediately to minimize airspeed buildup in the clouds",
+        "Initiate a standard-rate turn to reverse course and exit the IMC conditions",
+        "Descend immediately to get below the cloud layer and regain visual reference"
+      ],
+      "explanation": "The chapter stresses that the pilot should not panic and that the only concern at this point is to keep the wings level. An uncontrolled turn or bank leads to difficulty achieving any desired flight condition, but good bank control has the effect of making pitch control much easier. The pilot should trim for hands-off level flight and use fingertip control.",
+      "reference": {
+        "page": "18-18",
+        "text": "the only concern at this point—is to keep the wings level. An uncontrolled turn or bank usually leads to difficulty in achieving the objectives of any desired flight condition, but good bank control has the effect of making pitch control much easier."
+      }
+    },
+    {
+      "section": "Emergency Response Systems — Ballistic Parachutes",
+      "difficulty": 1,
+      "categories": [
+        "general_knowledge"
+      ],
+      "question": "Under which of the following conditions would deployment of a ballistic parachute system be appropriate?",
+      "correct_answer": "A catastrophic loss of controllability due to a collision or mechanical failure, actual loss of control, or pilot incapacitation",
+      "distractors": [
+        "Any time the pilot is unsure of the airplane's position or is uncertain about the weather ahead",
+        "Only when the airplane is above 3,000 feet AGL to ensure the parachute fully deploys",
+        "Any time the engine fails, as the parachute eliminates the need for an emergency landing"
+      ],
+      "explanation": "The chapter states that deployment results in the loss of the airframe, but deploying within an acceptable flight regime prevents injuries and saves lives. Qualifying conditions include a catastrophic loss of controllability due to a collision or mechanical failure, actual loss of control, or pilot incapacitation. Pilots should brief passengers on deployment conditions and procedures.",
+      "reference": {
+        "page": "18-22",
+        "text": "a catastrophic loss of controllability due to a collision or mechanical failure, actual loss of control, or pilot incapacitation would qualify."
+      }
+    }
+  ]
+}

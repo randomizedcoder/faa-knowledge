@@ -21,7 +21,8 @@ func GetQuestions(db *sql.DB, f Filters) ([]models.Question, error) {
 	query := `
 		SELECT q.id, q.chapter_id, q.section, q.difficulty,
 		       q.question_text, q.correct_answer, q.explanation,
-		       s.code, ch.number
+		       s.code, ch.number,
+		       q.reference_page, q.reference_text
 		FROM questions q
 		JOIN chapters ch ON ch.id = q.chapter_id
 		JOIN sources s ON s.id = ch.source_id
@@ -73,16 +74,19 @@ func GetQuestions(db *sql.DB, f Filters) ([]models.Question, error) {
 	var questions []models.Question
 	for rows.Next() {
 		var q models.Question
-		var section, explanation sql.NullString
+		var section, explanation, refPage, refText sql.NullString
 		if err := rows.Scan(
 			&q.ID, &q.ChapterID, &section, &q.Difficulty,
 			&q.QuestionText, &q.CorrectAnswer, &explanation,
 			&q.SourceCode, &q.ChapterNum,
+			&refPage, &refText,
 		); err != nil {
 			return nil, fmt.Errorf("scan question: %w", err)
 		}
 		q.Section = section.String
 		q.Explanation = explanation.String
+		q.ReferencePage = refPage.String
+		q.ReferenceText = refText.String
 		questions = append(questions, q)
 	}
 
@@ -144,14 +148,22 @@ func GetCategoryID(db *sql.DB, name string) (int64, error) {
 
 func InsertQuestion(tx *sql.Tx, q models.Question) (int64, error) {
 	res, err := tx.Exec(
-		`INSERT INTO questions (chapter_id, section, difficulty, question_text, correct_answer, explanation)
-		 VALUES (?, ?, ?, ?, ?, ?)`,
+		`INSERT INTO questions (chapter_id, section, difficulty, question_text, correct_answer, explanation, reference_page, reference_text)
+		 VALUES (?, ?, ?, ?, ?, ?, ?, ?)`,
 		q.ChapterID, q.Section, q.Difficulty, q.QuestionText, q.CorrectAnswer, q.Explanation,
+		nullString(q.ReferencePage), nullString(q.ReferenceText),
 	)
 	if err != nil {
 		return 0, fmt.Errorf("insert question: %w", err)
 	}
 	return res.LastInsertId()
+}
+
+func nullString(s string) interface{} {
+	if s == "" {
+		return nil
+	}
+	return s
 }
 
 func InsertDistractor(tx *sql.Tx, questionID int64, text string, sortHint int) error {

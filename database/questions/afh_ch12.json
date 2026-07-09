@@ -1,0 +1,365 @@
+{
+  "source": "AFH",
+  "chapter": 12,
+  "questions": [
+    {
+      "section": "Introduction",
+      "difficulty": 1,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "According to 14 CFR part 61, which combination of features defines a complex airplane?",
+      "correct_answer": "Retractable landing gear, flaps, and a controllable pitch propeller",
+      "distractors": [
+        "An engine developing more than 200 horsepower, flaps, and retractable landing gear",
+        "Retractable landing gear, flaps, and a turbocharged engine",
+        "A controllable pitch propeller, flaps, and an engine developing more than 200 horsepower"
+      ],
+      "explanation": "The chapter distinguishes between a high-performance airplane (more than 200 horsepower) and a complex airplane (retractable landing gear, flaps, and a controllable pitch propeller). The 200 hp threshold defines high-performance, not complex.",
+      "reference": {
+        "page": "12-1",
+        "text": "A complex airplane (see 14 CFR part 61, section 61.1) means an airplane that has a retractable landing gear, flaps, and a controllable pitch propeller"
+      }
+    },
+    {
+      "section": "Function of Flaps",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "How does flap deflection affect the critical (stall) angle of attack?",
+      "correct_answer": "Flap deflection does not increase the critical AOA and may actually decrease it",
+      "distractors": [
+        "Flap deflection increases the critical AOA, allowing a higher stall angle",
+        "Flap deflection increases the critical AOA only when combined with slotted flaps",
+        "Flap deflection has no effect on the critical AOA in any case"
+      ],
+      "explanation": "The chapter explicitly states that flap deflection does not increase the critical AOA and in some cases actually decreases it. The distractor claiming 'no effect in any case' is wrong because the chapter notes it can decrease the critical AOA.",
+      "reference": {
+        "page": "12-1",
+        "text": "Flap deflection does not increase the critical (stall) angle of attack (AOA). In some cases, flap deflection actually decreases the critical AOA."
+      }
+    },
+    {
+      "section": "Function of Flaps",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "What is the aerodynamic effect of deflecting flaps up to 15° versus beyond 15°?",
+      "correct_answer": "Up to 15° primarily produces lift with minimal drag; beyond 15° produces a large increase in drag",
+      "distractors": [
+        "Up to 15° produces maximum drag; beyond 15° primarily increases lift",
+        "Drag increases proportionally at all flap deflection angles",
+        "Up to 15° produces no drag; beyond 15° drag increases exponentially"
+      ],
+      "explanation": "The chapter states that flap deflection up to 15° primarily produces lift with minimal drag increases, while deflection beyond 15° produces a large increase in drag. This is why small flap deflections are useful for takeoff and larger deflections for landing.",
+      "reference": {
+        "page": "12-2",
+        "text": "Flap deflection of up to 15° primarily produces lift with minimal increases in drag. Deflection beyond 15° produces a large increase in drag."
+      }
+    },
+    {
+      "section": "Flap Effectiveness",
+      "difficulty": 1,
+      "categories": [
+        "written_exam"
+      ],
+      "question": "Which type of trailing-edge flap produces the maximum lift coefficient?",
+      "correct_answer": "Fowler flap",
+      "distractors": [
+        "Plain flap",
+        "Split flap",
+        "Slotted flap"
+      ],
+      "explanation": "The chapter states that the Fowler flap deflects down and aft to increase wing area, can be multi-slotted, and gives the maximum lift coefficient of the four basic trailing-edge flap types.",
+      "reference": {
+        "page": "12-4",
+        "text": "The Fowler flap deflects down and aft to increase the wing area. This flap can be multi-slotted making it the most complex of the trailing-edge systems. This system does, however, give the maximum lift coefficient."
+      }
+    },
+    {
+      "section": "Operational Procedures",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "With flaps extended in a crosswind during landing, which wing is more affected by the wind and why?",
+      "correct_answer": "The upwind wing, because the deflected flap presents a larger surface area for the wind to act on",
+      "distractors": [
+        "The downwind wing, because it is more exposed to the crosswind",
+        "Both wings equally, because flaps are deployed symmetrically",
+        "The downwind wing, because the lowered aileron blocks airflow to the upwind wing"
+      ],
+      "explanation": "The chapter states that with flaps extended in a crosswind, the wing on the upwind side is more affected than the downwind wing because the deflected flap presents a surface area for the wind to act on.",
+      "reference": {
+        "page": "12-4",
+        "text": "With flaps extended in a crosswind, the wing on the upwind side is more affected than the downwind wing."
+      }
+    },
+    {
+      "section": "Operational Procedures",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "During a go-around with full power applied, why does the pitch-up tendency not completely diminish even as flaps are retracted?",
+      "correct_answer": "The trim setting used to offset the nose-down pitching moment from flap extension contributes to the pitch-up",
+      "distractors": [
+        "The horizontal tail loses effectiveness at high power settings",
+        "The constant-speed propeller increases airflow over the tail surfaces unevenly",
+        "The landing gear retraction causes a forward center of gravity shift"
+      ],
+      "explanation": "The chapter explains that trim is used to offset the nose-down pitching moment from flap extension. When full power is applied in a go-around, increased airflow produces additional lift and significant pitch changes, and the pitch-up tendency does not diminish completely with flap retraction because of the trim setting.",
+      "reference": {
+        "page": "12-4",
+        "text": "The pitch-up tendency does not diminish completely with flap retraction because of the trim setting."
+      }
+    },
+    {
+      "section": "Constant-Speed Propeller",
+      "difficulty": 1,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "For maximum takeoff power, what position should the propeller control be placed in?",
+      "correct_answer": "Low pitch/high rpm",
+      "distractors": [
+        "High pitch/low rpm",
+        "Mid-range pitch and rpm",
+        "High pitch/high rpm"
+      ],
+      "explanation": "The chapter states that for maximum takeoff power, the propeller control is moved all the way forward to the low pitch/high rpm position, and the throttle is moved forward to the maximum allowable manifold pressure. Low blade pitch keeps the blade AOA small and efficient at low speed.",
+      "reference": {
+        "page": "12-5",
+        "text": "For maximum takeoff power, the propeller control is moved all the way forward to the low pitch/high rpm position, and the throttle is moved forward to the maximum allowable manifold pressure position."
+      }
+    },
+    {
+      "section": "Constant-Speed Propeller Operation",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "When decreasing power on an engine equipped with a constant-speed propeller, what sequence should be followed?",
+      "correct_answer": "Decrease manifold pressure first, then decrease rpm",
+      "distractors": [
+        "Decrease rpm first, then decrease manifold pressure",
+        "Decrease both simultaneously",
+        "Decrease rpm, increase manifold pressure, then decrease manifold pressure"
+      ],
+      "explanation": "The chapter specifies that a combination of high manifold pressure and low rpm can induce damaging detonation. To avoid this, when decreasing power, the pilot should decrease the manifold pressure first and then decrease the rpm.",
+      "reference": {
+        "page": "12-8",
+        "text": "When decreasing power, decrease the manifold pressure first and then decrease the rpm"
+      }
+    },
+    {
+      "section": "Constant-Speed Propeller Operation",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "Besides indicating maximum allowable rpm, what else does the red line on the tachometer indicate?",
+      "correct_answer": "The rpm required to obtain the engine's rated horsepower",
+      "distractors": [
+        "The maximum manifold pressure allowed for takeoff",
+        "The rpm at which the propeller governor reaches its high pitch stop",
+        "The engine's critical altitude rpm"
+      ],
+      "explanation": "The chapter states that the red line on the tachometer serves a dual purpose: it indicates both maximum allowable rpm and the rpm required to obtain the engine's rated horsepower. This is why a constant-speed propeller airplane can develop maximum rated horsepower even while motionless on the runway.",
+      "reference": {
+        "page": "12-9",
+        "text": "The red line on the tachometer not only indicates maximum allowable rpm; it also indicates the rpm required to obtain the engine's rated horsepower."
+      }
+    },
+    {
+      "section": "Constant-Speed Propeller Operation",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "Why should the propeller be exercised through a full cycle during engine warm-up before takeoff?",
+      "correct_answer": "To verify the system is operating correctly and to circulate fresh warm oil through the propeller governor system",
+      "distractors": [
+        "To test the engine's maximum rpm output before takeoff",
+        "To calibrate the tachometer against the manifold pressure gauge",
+        "To verify the propeller governor can reach its high pitch stop"
+      ],
+      "explanation": "The chapter states this procedure is done for two reasons: to determine whether the system is operating correctly and to circulate fresh warm oil through the propeller governor system. Oil trapped in the propeller cylinder since shutdown may have leaked or congealed, and if not exercised, the engine may over-speed on takeoff.",
+      "reference": {
+        "page": "12-8",
+        "text": "This is done for two reasons: to determine whether the system is operating correctly and to circulate fresh warm oil through the propeller governor system."
+      }
+    },
+    {
+      "section": "Governing Range",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "What happens when the propeller blades reach their low pitch stop during a decrease in airspeed?",
+      "correct_answer": "Any further reduction in airspeed causes the engine rpm to decrease, similar to a fixed-pitch propeller",
+      "distractors": [
+        "The governor automatically increases the blade angle to maintain the selected rpm",
+        "The engine over-speeds until the pilot reduces the throttle",
+        "The propeller feathers automatically to prevent over-speed"
+      ],
+      "explanation": "The chapter explains that once propeller blades reach their pitch-stop limit, the engine rpm increases or decreases with changes in airspeed similar to a fixed-pitch propeller. If airspeed decreases enough that the blades contact the low pitch stops, any further reduction in airspeed causes engine rpm to decrease.",
+      "reference": {
+        "page": "12-8",
+        "text": "From that point, any further reduction in airspeed causes the engine rpm to decrease."
+      }
+    },
+    {
+      "section": "Turbocharging",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "What is the purpose of the waste gate in a turbocharger system?",
+      "correct_answer": "To divert some exhaust gases overboard before they pass through the turbine, preventing excessive manifold pressure",
+      "distractors": [
+        "To regulate the fuel-to-air ratio entering the engine cylinders",
+        "To control the speed of the compressor by adjusting induction air intake",
+        "To release excess compressed air from the induction manifold"
+      ],
+      "explanation": "The chapter states that the turbine can produce manifold pressure in excess of the maximum allowable, so a waste gate diverts some exhaust overboard before it passes through the turbine. The waste gate position regulates turbine output and the compressed air available to the engine.",
+      "reference": {
+        "page": "12-10",
+        "text": "In order not to exceed the maximum allowable manifold pressure, a bypass or waste gate is used so that some of the exhaust is diverted overboard before it passes through the turbine."
+      }
+    },
+    {
+      "section": "Ground Boosting Versus Altitude Turbocharging",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "What happens to manifold pressure when climbing above the airplane's critical altitude?",
+      "correct_answer": "Manifold pressure decreases as additional altitude is gained",
+      "distractors": [
+        "Manifold pressure remains constant at the sea-level value",
+        "Manifold pressure increases due to higher compressor speeds",
+        "The waste gate opens fully to maintain manifold pressure"
+      ],
+      "explanation": "The chapter states that altitude turbocharging maintains maximum allowable sea level manifold pressure up to the critical altitude. Above the critical altitude, the turbocharger can no longer maintain that pressure, and manifold pressure decreases as additional altitude is gained.",
+      "reference": {
+        "page": "12-10",
+        "text": "Above the critical altitude, the manifold pressure decreases as additional altitude is gained."
+      }
+    },
+    {
+      "section": "Operating Characteristics",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "When the waste gate is closed, how does manifold pressure respond to an increase in engine rpm?",
+      "correct_answer": "Manifold pressure increases, which is opposite to a normally aspirated engine",
+      "distractors": [
+        "Manifold pressure decreases slightly, same as a normally aspirated engine",
+        "Manifold pressure remains constant regardless of rpm changes",
+        "Manifold pressure increases only if the throttle is also advanced"
+      ],
+      "explanation": "The chapter states that when the waste gate is closed, manifold pressure variation with engine rpm is the opposite of a normally aspirated engine. An increase in engine rpm results in an increase in manifold pressure, and a decrease in engine rpm results in a decrease in manifold pressure.",
+      "reference": {
+        "page": "12-10",
+        "text": "when the waste gate is closed, manifold pressure variation with engine rpm is just the opposite of the normally aspirated engine. An increase in engine rpm results in an increase in manifold pressure"
+      }
+    },
+    {
+      "section": "Heat Management",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "At any given cruise power, which control is the most influential over exhaust gas temperature or turbine inlet temperature?",
+      "correct_answer": "The mixture",
+      "distractors": [
+        "The throttle",
+        "The propeller rpm",
+        "The cowl flaps"
+      ],
+      "explanation": "The chapter states that at any given cruise power, the mixture is the most influential control over the exhaust gas/TIT. The throttle regulates total fuel flow, but the mixture governs the fuel-to-air ratio, which directly controls temperature.",
+      "reference": {
+        "page": "12-11",
+        "text": "At any given cruise power, the mixture is the most influential control over the exhaust gas/TIT."
+      }
+    },
+    {
+      "section": "Turbocharger Failure",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "A low manifold pressure condition in a turbocharged engine may indicate what potentially hazardous situation?",
+      "correct_answer": "A serious exhaust leak",
+      "distractors": [
+        "A minor waste gate malfunction that can be ignored until the next maintenance cycle",
+        "Normal operation at high altitude with the waste gate open",
+        "A clogged fuel injector that requires mixture adjustment"
+      ],
+      "explanation": "The chapter states that although a low manifold pressure condition may be caused by a minor fault, it is quite possible that a serious exhaust leak has occurred, creating a potentially hazardous situation. The recommended procedure is to shut down the engine or use the lowest power setting and land as soon as practicable.",
+      "reference": {
+        "page": "12-11",
+        "text": "Although this condition may be caused by a minor fault, it is quite possible that a serious exhaust leak has occurred creating a potentially hazardous situation"
+      }
+    },
+    {
+      "section": "Landing Gear Safety Devices",
+      "difficulty": 1,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "What is the function of the landing gear safety switch (squat switch)?",
+      "correct_answer": "When the strut is compressed by the weight of the airplane, it opens the electrical circuit to prevent gear retraction on the ground",
+      "distractors": [
+        "It prevents the landing gear from extending while the airplane is in flight",
+        "It locks the landing gear in the down and locked position after touchdown",
+        "It activates the gear warning horn when the gear is in transit"
+      ],
+      "explanation": "The chapter states that a squat switch is mounted on a main gear shock strut. When the strut is compressed by the weight of the airplane, the switch opens the electrical circuit to the motor or mechanism that powers retraction, preventing accidental gear retraction while on the ground.",
+      "reference": {
+        "page": "12-14",
+        "text": "When the strut is compressed by the weight of the airplane, the switch opens the electrical circuit to the motor or mechanism that powers retraction."
+      }
+    },
+    {
+      "section": "Approach and Landing",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "What is the difference between VLO and VLE?",
+      "correct_answer": "VLO is the maximum speed at which the gear may be operated through its cycle; VLE is the maximum speed at which the airplane can be flown with the gear extended",
+      "distractors": [
+        "VLO is the maximum speed for landing; VLE is the maximum speed for takeoff",
+        "VLO applies to the nose gear only; VLE applies to the main gear only",
+        "VLO is the maximum speed with gear down; VLE is the maximum speed with gear up"
+      ],
+      "explanation": "The chapter defines VLE as the maximum speed at which the airplane can be flown with the landing gear extended, and VLO as the maximum speed at which the landing gear may be operated through its cycle. These speeds protect gear components from becoming overstressed.",
+      "reference": {
+        "page": "12-16",
+        "text": "The maximum landing extended speed (VLE) is the maximum speed at which the airplane can be flown with the landing gear extended. The maximum landing gear operating speed (VLO) is the maximum speed at which the landing gear may be operated through its cycle."
+      }
+    }
+  ]
+}

@@ -34,23 +34,23 @@ INSERT OR IGNORE INTO chapters (source_id, number, title) VALUES
     ((SELECT id FROM sources WHERE code='PHAK'), 16, 'Navigation'),
     ((SELECT id FROM sources WHERE code='PHAK'), 17, 'Aeromedical Factors');
 
--- AFH Chapters (18)
+-- AFH Chapters (FAA-H-8083-3C)
 INSERT OR IGNORE INTO chapters (source_id, number, title) VALUES
     ((SELECT id FROM sources WHERE code='AFH'),  1, 'Introduction to Flight Training'),
     ((SELECT id FROM sources WHERE code='AFH'),  2, 'Ground Operations'),
     ((SELECT id FROM sources WHERE code='AFH'),  3, 'Basic Flight Maneuvers'),
-    ((SELECT id FROM sources WHERE code='AFH'),  4, 'Maintaining Aircraft Control: Upset Prevention and Recovery Training'),
-    ((SELECT id FROM sources WHERE code='AFH'),  5, 'Takeoffs and Departure Climbs'),
-    ((SELECT id FROM sources WHERE code='AFH'),  6, 'Ground Reference Maneuvers'),
-    ((SELECT id FROM sources WHERE code='AFH'),  7, 'Airport Traffic Patterns'),
-    ((SELECT id FROM sources WHERE code='AFH'),  8, 'Approaches and Landings'),
-    ((SELECT id FROM sources WHERE code='AFH'),  9, 'Performance Maneuvers'),
-    ((SELECT id FROM sources WHERE code='AFH'), 10, 'Night Operations'),
-    ((SELECT id FROM sources WHERE code='AFH'), 11, 'Transition to Complex Airplanes'),
-    ((SELECT id FROM sources WHERE code='AFH'), 12, 'Transition to Multiengine Airplanes'),
-    ((SELECT id FROM sources WHERE code='AFH'), 13, 'Transition to Tailwheel Airplanes'),
-    ((SELECT id FROM sources WHERE code='AFH'), 14, 'Transition to Turbopropeller-Powered Airplanes'),
-    ((SELECT id FROM sources WHERE code='AFH'), 15, 'Transition to Jet-Powered Airplanes'),
-    ((SELECT id FROM sources WHERE code='AFH'), 16, 'Transition to Light Sport Airplanes'),
-    ((SELECT id FROM sources WHERE code='AFH'), 17, 'Emergency Procedures'),
-    ((SELECT id FROM sources WHERE code='AFH'), 18, 'Glossary');
+    ((SELECT id FROM sources WHERE code='AFH'),  4, 'Energy Management'),
+    ((SELECT id FROM sources WHERE code='AFH'),  5, 'Maintaining Aircraft Control: Upset Prevention and Recovery Training'),
+    ((SELECT id FROM sources WHERE code='AFH'),  6, 'Takeoffs and Departure Climbs'),
+    ((SELECT id FROM sources WHERE code='AFH'),  7, 'Ground Reference Maneuvers'),
+    ((SELECT id FROM sources WHERE code='AFH'),  8, 'Airport Traffic Patterns'),
+    ((SELECT id FROM sources WHERE code='AFH'),  9, 'Approaches and Landings'),
+    ((SELECT id FROM sources WHERE code='AFH'), 10, 'Performance Maneuvers'),
+    ((SELECT id FROM sources WHERE code='AFH'), 11, 'Night Operations'),
+    ((SELECT id FROM sources WHERE code='AFH'), 12, 'Transition to Complex Airplanes'),
+    ((SELECT id FROM sources WHERE code='AFH'), 13, 'Transition to Multiengine Airplanes'),
+    ((SELECT id FROM sources WHERE code='AFH'), 14, 'Transition to Tailwheel Airplanes'),
+    ((SELECT id FROM sources WHERE code='AFH'), 15, 'Transition to Turbopropeller-Powered Airplanes'),
+    ((SELECT id FROM sources WHERE code='AFH'), 16, 'Transition to Jet-Powered Airplanes'),
+    ((SELECT id FROM sources WHERE code='AFH'), 17, 'Transition to Light Sport Airplanes'),
+    ((SELECT id FROM sources WHERE code='AFH'), 18, 'Emergency Procedures');

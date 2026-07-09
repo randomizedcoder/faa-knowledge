@@ -1,0 +1,360 @@
+{
+  "source": "AFH",
+  "chapter": 7,
+  "questions": [
+    {
+      "section": "Maneuvering by Reference to Ground Objects",
+      "difficulty": 2,
+      "categories": [
+        "checkride_oral",
+        "general_knowledge"
+      ],
+      "question": "A beginning pilot fixates on a single ground reference during a ground reference maneuver. What is the primary problem with this technique?",
+      "correct_answer": "The pilot loses the ability to determine rate, which significantly degrades performance",
+      "distractors": [
+        "The pilot will be unable to maintain altitude because visual references are too close to the airplane",
+        "The pilot will overcontrol the airplane because the reference appears to move too quickly",
+        "The pilot will confuse the reference with a different landmark on the downwind leg"
+      ],
+      "explanation": "The chapter states that fixating on any one reference causes the pilot to lose the ability to determine rate, which significantly degrades performance. Pilots should scan between several visual references to determine relative motion and drift.",
+      "reference": {
+        "page": "7-1",
+        "text": "It is a common error for beginning pilots to fixate on a specific reference... A pilot fixating on any one reference loses the ability to determine rate, which significantly degrades a pilot's performance."
+      }
+    },
+    {
+      "section": "Maneuvering by Reference to Ground Objects",
+      "difficulty": 2,
+      "categories": [
+        "checkride_oral"
+      ],
+      "question": "Before performing any ground reference maneuver, the pilot should clear the area using two 90° clearing turns. What should the pilot look for during these turns?",
+      "correct_answer": "Left and right, as well as above and below the airplane",
+      "distractors": [
+        "Only in the direction of the upcoming turn, since other aircraft are unlikely to approach from above",
+        "Only below the airplane, since ground reference maneuvers are flown at low altitudes where the primary hazard is terrain",
+        "Only to the left and right, since altitude separation makes scanning above and below unnecessary"
+      ],
+      "explanation": "The chapter explicitly states pilots should always clear the area with two 90° clearing turns looking to the left and the right, as well as above and below the airplane.",
+      "reference": {
+        "page": "7-2",
+        "text": "Pilots should always clear the area with two 90° clearing turns looking to the left and the right, as well as above and below the airplane."
+      }
+    },
+    {
+      "section": "Maneuvering by Reference to Ground Objects",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "Ground reference maneuvers should generally be flown at what altitude range AGL, and what obstruction clearance should the pilot maintain?",
+      "correct_answer": "600 to 1,000 feet AGL, with no less than 500 feet vertically and 2,000 feet horizontally from obstructions",
+      "distractors": [
+        "500 to 1,500 feet AGL, with no less than 1,000 feet vertically and 2,000 feet horizontally from obstructions",
+        "600 to 1,000 feet AGL, with no less than 1,000 feet vertically and 1,500 feet horizontally from obstructions",
+        "1,000 to 1,500 feet AGL, with no less than 500 feet vertically and 2,000 feet horizontally from obstructions"
+      ],
+      "explanation": "The chapter states ground reference maneuvers are generally flown at altitudes between 600 and 1,000 feet AGL, and the altitude should provide obstruction clearance of no less than 500 feet vertically above the obstruction and 2,000 feet horizontally.",
+      "reference": {
+        "page": "7-2",
+        "text": "Ground reference maneuvers are generally flown at altitudes between 600 and 1,000 feet above ground level (AGL)... The altitude should provide obstruction clearance of no less than 500 feet vertically above the obstruction and 2,000 feet horizontally."
+      }
+    },
+    {
+      "section": "Drift and Ground Track Control",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "An airplane has an airspeed of 100 knots and the wind is blowing directly from the side at 20 knots. Approximately what wind correction angle is needed to cancel the drift?",
+      "correct_answer": "12 degrees into the wind",
+      "distractors": [
+        "6 degrees into the wind",
+        "20 degrees into the wind",
+        "45 degrees into the wind"
+      ],
+      "explanation": "The chapter gives this exact example: an airplane with an airspeed of 100 knots in an air mass moving at 20 knots directly from the side should turn 12° into the wind to cancel the airplane's drift. If the wind were only 10 knots, the correction would be 6 degrees.",
+      "reference": {
+        "page": "7-2",
+        "text": "an airplane with an airspeed of 100 knots in an air mass moving at 20 knots directly from the side, should turn 12° into the wind to cancel the airplane's drift."
+      }
+    },
+    {
+      "section": "Drift and Ground Track Control",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "A crosswind is blowing at 45° to the nose of the airplane (halfway between the side and the nose). Approximately what percentage of the total wind speed will cause sideways drift?",
+      "correct_answer": "Just over 70 percent of the total wind speed",
+      "distractors": [
+        "Approximately 50 percent of the total wind speed",
+        "Approximately 45 percent of the total wind speed",
+        "100 percent of the total wind speed"
+      ],
+      "explanation": "The chapter states that when the wind is halfway between the side and the nose of the airplane (at a 45° angle), it causes a sideways drift up to just over 70 percent of the total speed of the wind.",
+      "reference": {
+        "page": "7-3",
+        "text": "When the wind is halfway between the side and the nose of the airplane (at a 45° angle), it causes a sideways drift up to just over 70 percent of the total speed of the wind."
+      }
+    },
+    {
+      "section": "Constant Radius During Turning Flight",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "When performing a constant-radius turn over the ground in wind, how should the pilot adjust bank angle as groundspeed changes?",
+      "correct_answer": "Increase bank angle when groundspeed increases and decrease bank angle when groundspeed decreases",
+      "distractors": [
+        "Maintain a constant bank angle throughout the turn and adjust airspeed instead",
+        "Decrease bank angle when groundspeed increases to avoid overshooting the reference",
+        "Increase bank angle when groundspeed decreases to maintain the same turn rate"
+      ],
+      "explanation": "The chapter explains that to maintain a constant-radius turn over the ground, the pilot compensates for changes in groundspeed by varying the bank angle. When groundspeed increases, the pilot banks more steeply; when groundspeed decreases, the pilot uses a shallower bank.",
+      "reference": {
+        "page": "7-3",
+        "text": "For a ground-referenced constant-radius turn, the pilot compensates for changes in groundspeed by varying the bank angle throughout the turn. When groundspeed increases, the pilot banks more steeply to maintain a constant-radius turn over the ground."
+      }
+    },
+    {
+      "section": "Constant Radius During Turning Flight",
+      "difficulty": 3,
+      "categories": [
+        "checkride_oral",
+        "general_knowledge"
+      ],
+      "question": "Why should ground reference maneuvers always be entered from a downwind position?",
+      "correct_answer": "It allows the pilot to establish the steepest bank angle required to maintain a constant radius ground track",
+      "distractors": [
+        "It allows the pilot to establish the shallowest bank angle, making the maneuver easier to control",
+        "It ensures the airplane has the lowest groundspeed at the entry point, providing more time to assess the maneuver",
+        "It positions the wind on the nose, which helps maintain a constant airspeed throughout the maneuver"
+      ],
+      "explanation": "The chapter states that ground reference maneuvers should always be entered from a downwind position because this allows the pilot to establish the steepest bank angle required to maintain a constant radius ground track. If the bank is too steep, the pilot should exit and re-establish further from the reference.",
+      "reference": {
+        "page": "7-5",
+        "text": "Ground reference maneuvers should always be entered from a downwind position. This allows the pilot to establish the steepest bank angle required to maintain a constant radius ground track."
+      }
+    },
+    {
+      "section": "Rectangular Course",
+      "difficulty": 2,
+      "categories": [
+        "checkride_oral"
+      ],
+      "question": "When flying a rectangular course, how should the turn from the downwind leg onto the base leg be executed, and why?",
+      "correct_answer": "With a relatively steep bank angle because groundspeed is highest on the downwind leg",
+      "distractors": [
+        "With a shallow bank angle because the wind will help push the airplane around the corner",
+        "With a medium bank angle because the groundspeed is the same on all legs of the course",
+        "With a steep bank angle only if the wind is directly on the nose during the turn"
+      ],
+      "explanation": "The chapter explains that the entry is downwind with increased groundspeed. The turn from the downwind leg onto the base leg is entered with a relatively steep bank angle. As the airplane turns onto base, the tailwind lessens and becomes a crosswind, so the bank angle is reduced gradually.",
+      "reference": {
+        "page": "7-6",
+        "text": "The turn from the downwind leg onto the base leg is entered with a relatively steep bank angle... As the airplane turns onto the following base leg, the tailwind lessens and becomes a crosswind; the bank angle is reduced gradually with coordinated aileron and rudder pressures."
+      }
+    },
+    {
+      "section": "Rectangular Course",
+      "difficulty": 3,
+      "categories": [
+        "checkride_oral",
+        "general_knowledge"
+      ],
+      "question": "On the rectangular course, when the wind could drift the airplane into the course, how should the banking roll rate be adjusted?",
+      "correct_answer": "The banking roll rate should be slow",
+      "distractors": [
+        "The banking roll rate should be quick to counteract the drift",
+        "The banking roll rate should be constant regardless of wind direction",
+        "The banking roll rate should be quick only on the upwind leg"
+      ],
+      "explanation": "The chapter states that when the wind is from a direction that could drift the airplane into the course, the banking roll rate should be slow. When the wind is from a direction that could drift the airplane to the outside of the course, the banking roll rate should be quick.",
+      "reference": {
+        "page": "7-7",
+        "text": "When the wind is from a direction that could drift the airplane into the course, the banking roll rate should be slow. When the wind is from a direction that could drift the airplane to the outside of the course, the banking roll rate should be quick."
+      }
+    },
+    {
+      "section": "Turns Around a Point",
+      "difficulty": 2,
+      "categories": [
+        "checkride_oral"
+      ],
+      "question": "During the downwind half of a turn around a point, how should the pilot adjust the airplane's heading relative to its position over the ground?",
+      "correct_answer": "The airplane's heading should be ahead of its position over the ground",
+      "distractors": [
+        "The airplane's heading should be behind its position over the ground",
+        "The airplane's heading should match its position over the ground exactly",
+        "The airplane's heading should be perpendicular to its position over the ground"
+      ],
+      "explanation": "The chapter states that during the downwind half of the turn, the pilot should progressively adjust the airplane's heading toward the inside of the turn. The airplane's heading should be ahead of its position over the ground during the downwind half and behind its position during the upwind half.",
+      "reference": {
+        "page": "7-8",
+        "text": "During the downwind half of the turn, the pilot should progressively adjust the airplane's heading toward the inside of the turn... the airplane's heading should be ahead of its position over the ground during the downwind half of the turn and behind its position during the upwind half."
+      }
+    },
+    {
+      "section": "S-Turns",
+      "difficulty": 2,
+      "categories": [
+        "checkride_oral"
+      ],
+      "question": "When performing S-turns across a road, at what angle should the airplane cross the straight-line ground reference?",
+      "correct_answer": "At a 90° angle",
+      "distractors": [
+        "At a 45° angle",
+        "At a 180° angle",
+        "At whatever angle the wind dictates"
+      ],
+      "explanation": "The chapter states that with the airplane in the downwind position, the maneuver consists of crossing a straight-line ground reference at a 90° angle and immediately beginning a 180° constant-radius turn.",
+      "reference": {
+        "page": "7-9",
+        "text": "With the airplane in the downwind position, the maneuver consists of crossing a straight-line ground reference at a 90° angle and immediately beginning a 180° constant-radius turn."
+      }
+    },
+    {
+      "section": "S-Turns",
+      "difficulty": 3,
+      "categories": [
+        "checkride_oral",
+        "general_knowledge"
+      ],
+      "question": "During S-turns, the airplane is exactly crosswind at the 90° point with a required 10° wind correction angle (left turn, crosswind from the left). How many degrees of heading change will the first 90° of ground track require?",
+      "correct_answer": "100 degrees of heading change",
+      "distractors": [
+        "90 degrees of heading change",
+        "80 degrees of heading change",
+        "10 degrees of heading change"
+      ],
+      "explanation": "The chapter explains that the airplane would be at a heading 10° ahead when directly over the 90° ground reference point. The first 90° track over the ground results in a heading change of 100°, and the last 90° track over the ground results in 80° of heading change.",
+      "reference": {
+        "page": "7-10",
+        "text": "the first 90° track over the ground would result in a heading change of 100° and the last 90° track over the ground would result in 80° of heading change."
+      }
+    },
+    {
+      "section": "Eights Along a Road",
+      "difficulty": 3,
+      "categories": [
+        "checkride_oral",
+        "general_knowledge"
+      ],
+      "question": "When performing eights along a road with the wind perpendicular to the reference, what portion of the groundspeed change occurs during the first 2/3 of the turn from downwind to crosswind?",
+      "correct_answer": "One-half of the reduction in groundspeed occurs during the first 2/3 of the turn",
+      "distractors": [
+        "Two-thirds of the reduction in groundspeed occurs during the first 2/3 of the turn",
+        "One-third of the reduction in groundspeed occurs during the first 2/3 of the turn",
+        "All of the reduction in groundspeed occurs during the first 2/3 of the turn"
+      ],
+      "explanation": "The chapter states that when turning from a downwind position to a crosswind position, 1/2 of the reduction in groundspeed occurs during the first 2/3 of the turn from downwind to crosswind. This means the pilot must plan bank angle reduction accordingly.",
+      "reference": {
+        "page": "7-11",
+        "text": "1/2 of the reduction in groundspeed occurs during the first 2/3 of the turn from downwind to crosswind."
+      }
+    },
+    {
+      "section": "Eights Across a Road",
+      "difficulty": 2,
+      "categories": [
+        "general_knowledge"
+      ],
+      "question": "What is the primary difference between eights across a road and eights along a road?",
+      "correct_answer": "At the completion of each loop, the airplane should cross an intersection or specific ground reference point",
+      "distractors": [
+        "Eights across a road require the wind to be parallel to the road rather than perpendicular",
+        "Eights across a road are performed at a higher altitude than eights along a road",
+        "Eights across a road use two ground reference points instead of one"
+      ],
+      "explanation": "The chapter states that the primary difference is that at the completion of each loop of the figure eight, the airplane should cross an intersection or a specific ground reference point. The loops should be across the road with the wind perpendicular to the loops.",
+      "reference": {
+        "page": "7-12",
+        "text": "The primary difference is that at the completion of each loop of the figure eight, the airplane should cross an intersection or a specific ground reference point."
+      }
+    },
+    {
+      "section": "Eights Around Pylons",
+      "difficulty": 2,
+      "categories": [
+        "checkride_oral"
+      ],
+      "question": "In eights around pylons, what determines the initial angle of bank required to maintain a constant turn radius from the pylons?",
+      "correct_answer": "The distance between the pylons and the wind velocity",
+      "distractors": [
+        "The altitude of the pylons above sea level",
+        "The airplane's maneuvering speed and the density altitude",
+        "The angle between the road and the wind direction"
+      ],
+      "explanation": "The chapter states that the distance between the pylons and the wind velocity determines the initial angle of bank required to maintain a constant turn radius from the pylons during each turn.",
+      "reference": {
+        "page": "7-13",
+        "text": "The distance between the pylons and the wind velocity determines the initial angle of bank required to maintain a constant turn radius from the pylons during each turn."
+      }
+    },
+    {
+      "section": "Eights on Pylons",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "What is the rule of thumb for estimating pivotal altitude when groundspeed is in knots?",
+      "correct_answer": "Square the groundspeed, divide by 11.3, and add the MSL altitude of the ground reference",
+      "distractors": [
+        "Square the groundspeed, divide by 15, and add the MSL altitude of the ground reference",
+        "Square the groundspeed, divide by 11.3, and subtract the MSL altitude of the ground reference",
+        "Multiply the groundspeed by 11.3 and add the MSL altitude of the ground reference"
+      ],
+      "explanation": "The chapter provides the rule of thumb: square the groundspeed, then divide by 15 (if mph) or divide by 11.3 (if knots), and then add the MSL altitude of the ground reference. The question specifies knots, so 11.3 is the correct divisor.",
+      "reference": {
+        "page": "7-15",
+        "text": "a good rule of thumb for estimating the pivotal altitude is to square the groundspeed, then divide by 15 (if the groundspeed is in miles per hour) or divide by 11.3 (if the groundspeed is in knots), and then add the mean sea level (MSL) altitude of the ground reference."
+      }
+    },
+    {
+      "section": "Eights on Pylons",
+      "difficulty": 3,
+      "categories": [
+        "checkride_oral",
+        "general_knowledge"
+      ],
+      "question": "During eights on pylons, if the visual reference line appears to move ahead of the pylon (pylon appears to move back), what should the pilot do?",
+      "correct_answer": "Increase altitude to return to the pivotal altitude",
+      "distractors": [
+        "Decrease altitude to return to the pivotal altitude",
+        "Apply inside rudder pressure to yaw the wing backward",
+        "Increase bank angle to turn faster and catch up with the pylon"
+      ],
+      "explanation": "The chapter states that if the visual reference line appears to move ahead of the pylon (pylon appears to move back), the pilot should increase altitude. This is because the airplane is below pivotal altitude. Applying rudder to force the reference line is explicitly stated as something that should not be attempted.",
+      "reference": {
+        "page": "7-17",
+        "text": "If the visual reference line appears to move ahead of the pylon (pylon appears to move back), the pilot should increase altitude."
+      }
+    },
+    {
+      "section": "Eights on Pylons",
+      "difficulty": 3,
+      "categories": [
+        "checkride_oral",
+        "general_knowledge"
+      ],
+      "question": "How does the bank angle chosen during eights on pylons affect the pivotal altitude?",
+      "correct_answer": "The bank angle does not alter the pivotal altitude unless the bank is steep enough to affect groundspeed",
+      "distractors": [
+        "A steeper bank angle always increases the pivotal altitude",
+        "A steeper bank angle always decreases the pivotal altitude",
+        "The pivotal altitude is directly proportional to the tangent of the bank angle"
+      ],
+      "explanation": "The chapter explicitly states that the bank chosen does not alter the pivotal altitude. The pivotal altitude is determined by groundspeed. The chapter also notes that the pivotal altitude does not vary with the angle of bank unless the bank is steep enough to affect the groundspeed.",
+      "reference": {
+        "page": "7-17",
+        "text": "The pilot should understand that the bank chosen does not alter the pivotal altitude."
+      }
+    }
+  ]
+}

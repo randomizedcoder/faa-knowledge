@@ -1,0 +1,366 @@
+{
+  "source": "PHAK",
+  "chapter": 3,
+  "questions": [
+    {
+      "section": "Introduction",
+      "difficulty": 1,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "According to 14 CFR part 1, how is an airplane defined?",
+      "correct_answer": "An engine-driven, fixed-wing aircraft supported in flight by the dynamic reaction of air against its wings",
+      "distractors": [
+        "Any device that is used or intended to be used for flight",
+        "An aircraft that contains a GPS navigation system with a moving map display and an autopilot",
+        "A weight-shift control aircraft that is powered by an engine and supported by a parafoil"
+      ],
+      "explanation": "The chapter states that 14 CFR part 1 defines an airplane as an engine-driven, fixed-wing aircraft that is supported in flight by the dynamic reaction of air against its wings.",
+      "reference": {
+        "page": "3-1",
+        "text": "Title 14 CFR part 1 also defines airplane as an engine-driven, fixed-wing aircraft that is supported in flight by the dynamic reaction of air against its wings."
+      }
+    },
+    {
+      "section": "Aircraft Design, Certification, and Airworthiness",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "What is required for an aircraft's airworthiness certificate to remain valid?",
+      "correct_answer": "The required maintenance and inspections must be kept up to date",
+      "distractors": [
+        "The aircraft must pass an annual conformity inspection by the FAA",
+        "The Type Certificate Data Sheet (TCDS) must be updated annually",
+        "The aircraft must be flown at least once every 90 days"
+      ],
+      "explanation": "The text states the airworthiness certificate remains valid as long as the required maintenance and inspections are kept up to date for the aircraft.",
+      "reference": {
+        "page": "3-2",
+        "text": "This airworthiness certificate remains valid as long as the required maintenance and inspections are kept up to date for the aircraft."
+      }
+    },
+    {
+      "section": "Aircraft Design, Certification, and Airworthiness",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "Which type of airworthiness certificate is issued for a normal, utility, or acrobatic category aircraft?",
+      "correct_answer": "Standard airworthiness certificate",
+      "distractors": [
+        "Special airworthiness certificate",
+        "Provisional airworthiness certificate",
+        "Light Sport Aircraft airworthiness certificate"
+      ],
+      "explanation": "Standard airworthiness certificates are white and issued for normal, utility, acrobatic, commuter, or transport category aircraft.",
+      "reference": {
+        "page": "3-2",
+        "text": "Standard airworthiness certificates are white, and are issued for normal, utility, acrobatic, commuter, or transport category aircraft."
+      }
+    },
+    {
+      "section": "A Note About Light Sport Aircraft",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "How do Light Sport Aircraft (LSA) differ from standard aircraft in terms of design criteria?",
+      "correct_answer": "They are designed to a consensus of standards agreed upon in the aviation industry",
+      "distractors": [
+        "They are designed to FAA airworthiness standards under 14 CFR part 23",
+        "They must have individually type certificated engines and propellers",
+        "They are certified under a combination of 14 CFR parts 23, 25, 27, and 29"
+      ],
+      "explanation": "The chapter notes that LSA are not designed according to FAA airworthiness standards, but rather to a consensus of standards agreed upon in the aviation industry, which the FAA has accepted.",
+      "reference": {
+        "page": "3-2",
+        "text": "Light sport aircraft are not designed according to FAA airworthiness standards. Instead, they are designed to a consensus of standards agreed upon in the aviation industry."
+      }
+    },
+    {
+      "section": "Lift and Basic Aerodynamics",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "What effect does moving the center of gravity (CG) rearward have on an aircraft?",
+      "correct_answer": "The aircraft becomes more dynamically unstable",
+      "distractors": [
+        "The aircraft becomes more stable and easier to flare",
+        "The aircraft's stall speed will significantly increase",
+        "The center of lift moves forward, increasing drag"
+      ],
+      "explanation": "The text states that as the CG moves rearward (towards the tail), the aircraft becomes more and more dynamically unstable.",
+      "reference": {
+        "page": "3-3",
+        "text": "As the CG moves rearward (towards the tail), the aircraft becomes more and more dynamically unstable."
+      }
+    },
+    {
+      "section": "Wings",
+      "difficulty": 1,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "What are the principal structural parts of a wing?",
+      "correct_answer": "Spars, ribs, and stringers",
+      "distractors": [
+        "Longerons, ribs, and bulkheads",
+        "Struts, formers, and skin",
+        "Ailerons, flaps, and trim tabs"
+      ],
+      "explanation": "The chapter states that the principal structural parts of the wing are spars, ribs, and stringers, which are reinforced by trusses, I-beams, tubing, or other devices.",
+      "reference": {
+        "page": "3-4",
+        "text": "The principal structural parts of the wing are spars, ribs, and stringers."
+      }
+    },
+    {
+      "section": "Wings",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "What type of wing structure is used when a high-wing airplane has external braces or struts transmitting flight and landing loads to the main fuselage?",
+      "correct_answer": "Semi-cantilever",
+      "distractors": [
+        "Monocoque",
+        "Full cantilever",
+        "Truss"
+      ],
+      "explanation": "The text explains that since wing struts are usually attached halfway out on the wing, this type of wing structure is called semi-cantilever.",
+      "reference": {
+        "page": "3-4",
+        "text": "Since the wing struts are usually attached approximately halfway out on the wing, this type of wing structure is called semi-cantilever."
+      }
+    },
+    {
+      "section": "Empennage",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "How does an antiservo tab function on a stabilator?",
+      "correct_answer": "It moves in the same direction as the trailing edge to make the stabilator less sensitive",
+      "distractors": [
+        "It moves in the opposite direction of the trailing edge to decrease control pressure",
+        "It acts as a trim tab only, moving opposite to the control wheel input",
+        "It provides aerodynamic balance to reduce the physical force needed to move the controls"
+      ],
+      "explanation": "The chapter states that the antiservo tab moves in the same direction as the trailing edge of the stabilator and helps make the stabilator less sensitive.",
+      "reference": {
+        "page": "3-6",
+        "text": "The antiservo tab moves in the same direction as the trailing edge of the stabilator and helps make the stabilator less sensitive."
+      }
+    },
+    {
+      "section": "The Powerplant",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "How is the pitch of a propeller defined?",
+      "correct_answer": "The distance a propeller would travel in one revolution if turning in a solid",
+      "distractors": [
+        "The angle between the propeller blade and the relative wind",
+        "The rotational speed of the propeller measured in revolutions per minute",
+        "The amount of thrust produced by the propeller at a given power setting"
+      ],
+      "explanation": "The text defines pitch as the distance a propeller would travel in one revolution if it were turning in a solid.",
+      "reference": {
+        "page": "3-8",
+        "text": "The pitch is defined as the distance a propeller would travel in one revolution if it were turning in a solid."
+      }
+    },
+    {
+      "section": "Types of Aircraft Construction",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "Why is semimonocoque construction generally preferred over pure monocoque construction in modern aircraft?",
+      "correct_answer": "Monocoque construction is not highly tolerant to deformation of the surface, which can cause it to collapse easily",
+      "distractors": [
+        "Monocoque construction lacks a streamlined shape and requires external bracing",
+        "Monocoque construction is highly tolerant to surface deformation",
+        "Semimonocoque uses stressed skin to support almost all loads, eliminating the need for a substructure"
+      ],
+      "explanation": "The text explains that while monocoque construction is very strong, it is not highly tolerant to deformation of the surface and can collapse easily if dented. Semimonocoque uses a substructure to take some of the bending stress.",
+      "reference": {
+        "page": "3-9",
+        "text": "Although very strong, monocoque construction is not highly tolerant to deformation of the surface. For example, an aluminum beverage can supports considerable forces at the ends of the can, but if the side of the can is deformed slightly while supporting a load, it collapses easily."
+      }
+    },
+    {
+      "section": "Composite Construction",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "What is a primary disadvantage of carbon fiber compared to fiberglass in aircraft construction?",
+      "correct_answer": "It is relatively poor in impact resistance and tends to shatter under sharp impact",
+      "distractors": [
+        "It is significantly heavier and has lower bending stiffness",
+        "It has poor tensile and compressive strength",
+        "It is difficult to form into complex curved or streamlined structures"
+      ],
+      "explanation": "The chapter notes that carbon fiber is stronger, stiffer, and lighter than fiberglass, but it is relatively poor in impact resistance; the fibers are brittle and tend to shatter under sharp impact.",
+      "reference": {
+        "page": "3-10",
+        "text": "However, it is relatively poor in impact resistance; the fibers are brittle and tend to shatter under sharp impact."
+      }
+    },
+    {
+      "section": "Disadvantages of Composites",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "What is a major concern regarding low energy impacts on composite structures?",
+      "correct_answer": "They may not leave any visible sign of impact but can cause extensive hidden delaminations",
+      "distractors": [
+        "They always result in visible surface crushing that is easy to detect",
+        "They cause the structure to corrode rapidly from the inside out",
+        "They immediately compromise the lightning strike protection mesh"
+      ],
+      "explanation": "The text states that a low energy impact on a composite structure may not leave any visible sign of the impact on the surface, but underneath there may be extensive delaminations that are hidden from view.",
+      "reference": {
+        "page": "3-10",
+        "text": "In a composite structure, a low energy impact, such as a bump or a tool drop, may not leave any visible sign of the impact on the surface. Underneath the impact site there may be extensive delaminations..."
+      }
+    },
+    {
+      "section": "Disadvantages of Composites",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "At what approximate temperature do many epoxy resins begin to weaken, prompting the use of white paint on composite aircraft?",
+      "correct_answer": "150 °F",
+      "distractors": [
+        "100 °F",
+        "220 °F",
+        "300 °F"
+      ],
+      "explanation": "The chapter states that many epoxies begin to weaken over 150 °F, and white paint on composites is often used to minimize this heat absorption issue.",
+      "reference": {
+        "page": "3-11",
+        "text": "While “too hot” depends on the particular resin system chosen, many epoxies begin to weaken over 150 °F. White paint on composites is often used to minimize this issue."
+      }
+    },
+    {
+      "section": "Disadvantages of Composites",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "How should paint be removed from composite aircraft structures?",
+      "correct_answer": "By using mechanical methods such as gentle grit blasting or sanding",
+      "distractors": [
+        "By using standard chemical paint strippers",
+        "By applying a specialized solvent and wiping it off with a rag",
+        "By heating the surface with a heat gun and scraping the paint"
+      ],
+      "explanation": "The text specifies that chemical paint strippers are very harmful to composites and must not be used on them. If paint needs to be removed, only mechanical methods are allowed.",
+      "reference": {
+        "page": "3-11",
+        "text": "chemical paint strippers are very harmful to composites and must not be used on them. If paint needs to be removed from composites, only mechanical methods are allowed, such as gentle grit blasting or sanding."
+      }
+    },
+    {
+      "section": "Lightning Strike Protection",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "How is lightning strike protection typically added to the outside layer of a carbon fiber composite skin?",
+      "correct_answer": "By bonding copper mesh to the skin surface",
+      "distractors": [
+        "By applying a thick coat of conductive epoxy paint",
+        "By using aluminum tubing inside the composite layers",
+        "By bonding aluminum mesh to the skin surface"
+      ],
+      "explanation": "The text states that additional electrical conductivity is added with fine metal meshes bonded to the skin surfaces, with aluminum used on fiberglass and copper on carbon fiber.",
+      "reference": {
+        "page": "3-12",
+        "text": "This is done typically with fine metal meshes bonded to the skin surfaces. Aluminum and copper mesh are the two most common types, with aluminum used on fiberglass and copper on carbon fiber."
+      }
+    },
+    {
+      "section": "Instrumentation: Moving into the Future",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "Which category of instruments displays immediate attitude and power changes, permitting adjustments in precise increments?",
+      "correct_answer": "Control instruments",
+      "distractors": [
+        "Performance instruments",
+        "Navigation instruments",
+        "Primary flight display instruments"
+      ],
+      "explanation": "The chapter states that the control instruments display immediate attitude and power changes and are calibrated to permit adjustments in precise increments.",
+      "reference": {
+        "page": "3-13",
+        "text": "The control instruments display immediate attitude and power changes and are calibrated to permit adjustments in precise increments."
+      }
+    },
+    {
+      "section": "Instrumentation: Moving into the Future",
+      "difficulty": 1,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "Which of the following is considered a performance instrument?",
+      "correct_answer": "Altimeter",
+      "distractors": [
+        "Attitude indicator",
+        "Manifold pressure gauge",
+        "VOR indicator"
+      ],
+      "explanation": "The text lists the altimeter, airspeed indicator, VSI, heading indicator, and turn-and-slip indicator as performance instruments. The attitude indicator and manifold pressure gauge are control instruments, and the VOR is a navigation instrument.",
+      "reference": {
+        "page": "3-12",
+        "text": "The performance instruments indicate the aircraft’s actual performance. Performance is determined by reference to the altimeter, airspeed or vertical speed indicator (VSI), heading indicator, and turn-and-slip indicator."
+      }
+    },
+    {
+      "section": "Global Positioning System (GPS)",
+      "difficulty": 1,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "How many satellites must a GPS receiver be locked onto to calculate a three-dimensional position (latitude, longitude, and altitude)?",
+      "correct_answer": "Four or more",
+      "distractors": [
+        "At least two",
+        "At least three",
+        "Six or more"
+      ],
+      "explanation": "The chapter explains that with three satellites, a 2D position is calculated. With four or more satellites in view, the receiver can determine the user's three-dimensional position.",
+      "reference": {
+        "page": "3-13",
+        "text": "With four or more satellites in view, the receiver can determine the user’s three-dimensional position (latitude, longitude, and altitude)."
+      }
+    }
+  ]
+}

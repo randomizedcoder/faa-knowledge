@@ -1,0 +1,354 @@
+{
+  "source": "AFH",
+  "chapter": 10,
+  "questions": [
+    {
+      "section": "Introduction",
+      "difficulty": 1,
+      "categories": [
+        "general_knowledge"
+      ],
+      "question": "What is the primary purpose of performance maneuvers in flight training?",
+      "correct_answer": "To develop a pilot's proficiency in flight control application, situational awareness, and division of attention",
+      "distractors": [
+        "To prepare pilots for aerobatic competition and airshow performances",
+        "To satisfy FAA hourly requirements for cross-country flight training",
+        "To practice emergency procedures similar to engine failure scenarios"
+      ],
+      "explanation": "The chapter states that performance maneuvers enhance a pilot's proficiency in flight control application, maneuver planning, situational awareness, and division of attention, and that their design allows for constantly changing flight control pressures, attitudes, airspeeds, and orientations.",
+      "reference": {
+        "page": "10-1",
+        "text": "Performance maneuvers enhance a pilot's proficiency in flight control application, maneuver planning, situational awareness, and division of attention."
+      }
+    },
+    {
+      "section": "Steep Turns",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "What is the load factor in a level altitude 60° banked turn?",
+      "correct_answer": "2.0",
+      "distractors": [
+        "1.41",
+        "1.73",
+        "3.8"
+      ],
+      "explanation": "The chapter specifies that a level altitude 45° banked turn produces a load factor of 1.41, while a level altitude 60° banked turn produces a load factor of 2.0, meaning the effective weight of the aircraft and occupants doubles.",
+      "reference": {
+        "page": "10-2",
+        "text": "When the bank becomes steep as in a level altitude 45° banked turn, the resulting load factor is 1.41. In a level altitude 60° banked turn, the resulting load factor is 2.0."
+      }
+    },
+    {
+      "section": "Steep Turns",
+      "difficulty": 2,
+      "categories": [
+        "written_exam"
+      ],
+      "question": "If an airplane stalls in level flight at 50 knots, approximately what is its stalling speed in a level altitude 45° banked turn while maintaining altitude?",
+      "correct_answer": "60 knots",
+      "distractors": [
+        "55 knots",
+        "71 knots",
+        "100 knots"
+      ],
+      "explanation": "The chapter provides this exact example: if an airplane stalls in level flight at 50 knots, it will stall at 60 knots in a 45° steep turn. At 60° of bank, it would stall at 70 knots. Stalling speed increases at the square root of the load factor.",
+      "reference": {
+        "page": "10-2",
+        "text": "if an airplane stalls in level flight at 50 knots, it will stall at 60 knots in a 45° steep turn while maintaining altitude. It will stall at 70 knots if the bank is increased to 60°."
+      }
+    },
+    {
+      "section": "Steep Turns",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "Why should steep turns be performed at an airspeed that does not exceed the airplane's design maneuvering speed (VA) or operating maneuvering speed (VO)?",
+      "correct_answer": "At speeds at or below VA or VO, the airplane will stall before exceeding the design load limit",
+      "distractors": [
+        "Above VA or VO, the airplane will be unable to maintain altitude in a steep turn",
+        "Above VA or VO, the overbanking tendency becomes uncontrollable",
+        "At speeds above VA or VO, the airplane's trim system becomes ineffective"
+      ],
+      "explanation": "The chapter explains that as bank angle increases in level flight, the margin between stalling speed and maneuvering speed decreases. At speeds at or below VA or VO, the airplane will stall before exceeding the design load limit, providing a built-in safety margin against structural overload.",
+      "reference": {
+        "page": "10-2",
+        "text": "At speeds at or below VA or VO, the airplane will stall before exceeding the design load limit."
+      }
+    },
+    {
+      "section": "Steep Turns",
+      "difficulty": 2,
+      "categories": [
+        "checkride_oral"
+      ],
+      "question": "When performing a steep turn, what should the pilot do if the nose drops excessively low, resulting in a significant loss of altitude?",
+      "correct_answer": "Reduce the angle of bank first with coordinated opposite aileron and rudder, then increase pitch with elevator back pressure",
+      "distractors": [
+        "Apply full elevator back pressure immediately while holding the bank angle constant",
+        "Reduce power to idle and apply forward elevator pressure to lower the nose further",
+        "Roll wings level immediately and then apply full power to climb back to altitude"
+      ],
+      "explanation": "The chapter warns that attempting to recover from an excessively nose-low, steep bank condition by using only the elevator causes a steepening of the bank and puts unnecessary stress on the airplane. The correct procedure is to first reduce the angle of bank with coordinated use of opposite aileron and rudder, then increase pitch attitude with elevator back pressure.",
+      "reference": {
+        "page": "10-2",
+        "text": "The pilot can recover from such an altitude loss by first reducing the angle of bank with coordinated use of opposite aileron and rudder and then increasing the pitch attitude by increasing elevator back pressure."
+      }
+    },
+    {
+      "section": "Steep Turns",
+      "difficulty": 1,
+      "categories": [
+        "checkride_oral"
+      ],
+      "question": "Using the rule of thumb from the chapter, if a pilot begins a right steep turn on a heading of 270° using a 60° bank angle, at what heading should the pilot begin the rollout?",
+      "correct_answer": "240°",
+      "distractors": [
+        "210°",
+        "255°",
+        "300°"
+      ],
+      "explanation": "The chapter states that a good rule of thumb is to begin the rollout at half the number of degrees of bank prior to reaching the terminating heading. With a 60° bank, the rollout should begin 30° prior to the original heading. Starting from 270°, the rollout should begin at 240°.",
+      "reference": {
+        "page": "10-3",
+        "text": "A good rule of thumb is to begin the rollout at ½ the number of degrees of bank prior to reaching the terminating heading. For example, if a right steep turn was begun on a heading of 270° and if the bank angle is 60°, the pilot should begin the rollout 30° prior or at a heading of 240°."
+      }
+    },
+    {
+      "section": "Steep Turns",
+      "difficulty": 2,
+      "categories": [
+        "general_knowledge"
+      ],
+      "question": "What causes the overbanking tendency experienced during steep turns?",
+      "correct_answer": "At steep bank angles, the airplane loses positive or neutral stability about the longitudinal axis and continues rolling in the direction of the bank unless opposite aileron is held",
+      "distractors": [
+        "The increased load factor shifts the center of gravity laterally during the turn",
+        "P-factor causes one wing to produce more thrust, creating a rolling moment",
+        "The increased G-forces compress the wing structure, changing the lift distribution"
+      ],
+      "explanation": "The chapter explains that in most flight maneuvers, bank angles are shallow enough that the airplane exhibits positive or neutral stability about the longitudinal axis. However, as bank angles steepen, the airplane will continue rolling in the direction of the bank unless deliberate and opposite aileron pressure is held.",
+      "reference": {
+        "page": "10-2",
+        "text": "as bank angles steepen, the airplane will continue rolling in the direction of the bank unless deliberate and opposite aileron pressure is held."
+      }
+    },
+    {
+      "section": "Steep Spiral",
+      "difficulty": 1,
+      "categories": [
+        "checkride_oral"
+      ],
+      "question": "What is the primary objective of the steep spiral maneuver?",
+      "correct_answer": "To rapidly dissipate substantial amounts of altitude while remaining over a selected spot",
+      "distractors": [
+        "To practice emergency descent procedures at maximum airspeed",
+        "To simulate an engine-out approach to a specific landing zone",
+        "To develop coordination skills during high-speed descending turns"
+      ],
+      "explanation": "The chapter states that the objective of the steep spiral is to provide a flight maneuver for rapidly dissipating substantial amounts of altitude while remaining over a selected spot, and notes it may be useful during an emergency landing.",
+      "reference": {
+        "page": "10-3",
+        "text": "The objective of the steep spiral is to provide a flight maneuver for rapidly dissipating substantial amounts of altitude while remaining over a selected spot."
+      }
+    },
+    {
+      "section": "Steep Spiral",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "How should a pilot correct for wind drift to maintain a constant radius during a steep spiral?",
+      "correct_answer": "Steepen the bank on downwind headings and shallow the bank on upwind headings",
+      "distractors": [
+        "Maintain a constant bank angle and adjust airspeed to compensate for wind",
+        "Steepen the bank on upwind headings and shallow the bank on downwind headings",
+        "Increase pitch on downwind headings and decrease pitch on upwind headings"
+      ],
+      "explanation": "The chapter explains that maintaining a constant radius around the reference point can only be accomplished by proper correction for wind drift by steepening the bank on downwind headings and shallowing the bank on upwind headings.",
+      "reference": {
+        "page": "10-4",
+        "text": "This can only be accomplished by proper correction for wind drift by steepening the bank on downwind headings and shallowing the bank on upwind headings."
+      }
+    },
+    {
+      "section": "Steep Spiral",
+      "difficulty": 2,
+      "categories": [
+        "general_knowledge",
+        "checkride_oral"
+      ],
+      "question": "Why should the throttle be periodically advanced during a steep spiral maneuver?",
+      "correct_answer": "To prevent excessive engine cooling, spark plug fouling, or carburetor ice from prolonged idle operation",
+      "distractors": [
+        "To maintain adequate cylinder head temperatures for optimal fuel efficiency",
+        "To clear the engine of accumulated oil that pools during idle descent",
+        "To practice power-off to power-on transitions as part of the maneuver requirements"
+      ],
+      "explanation": "The chapter warns that operating the engine at idle speed for any prolonged period during the glide may result in excessive engine cooling, spark plug fouling, or carburetor ice. To avoid these issues, the throttle should be periodically advanced and sustained for a few seconds.",
+      "reference": {
+        "page": "10-4",
+        "text": "Operating the engine at idle speed for any prolonged period during the glide may result in excessive engine cooling, spark plug fouling, or carburetor ice. To assist in avoiding these issues, the throttle should be periodically advanced and sustained for a few seconds."
+      }
+    },
+    {
+      "section": "Steep Spiral",
+      "difficulty": 1,
+      "categories": [
+        "checkride_oral"
+      ],
+      "question": "At what minimum altitude should the steep spiral maneuver conclude?",
+      "correct_answer": "1,500 feet AGL",
+      "distractors": [
+        "500 feet AGL",
+        "1,000 feet AGL",
+        "3,000 feet AGL"
+      ],
+      "explanation": "The chapter specifies that the steep spiral should begin at sufficient altitude such that the maneuver concludes no lower than 1,500 feet above ground level (AGL).",
+      "reference": {
+        "page": "10-3",
+        "text": "should begin at sufficient altitude such that the maneuver concludes no lower than 1,500 feet above ground level (AGL)."
+      }
+    },
+    {
+      "section": "Chandelle",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "How are the two phases of a chandelle correctly described?",
+      "correct_answer": "The first 90° is constant bank with continuously increasing pitch; the second 90° is constant pitch with continuously decreasing bank",
+      "distractors": [
+        "The first 90° is constant pitch with continuously increasing bank; the second 90° is constant bank with continuously decreasing pitch",
+        "Both 90° segments use constant bank with continuously increasing pitch throughout",
+        "The first 90° is decreasing bank with increasing pitch; the second 90° is constant pitch with constant bank"
+      ],
+      "explanation": "The chapter explicitly describes the chandelle in two phases: the first 90° of turn is constant bank and continuously increasing pitch, and the second 90° is constant pitch and continuously decreasing bank. Maximum pitch-up occurs at the 90° mark and is held for the remainder of the maneuver.",
+      "reference": {
+        "page": "10-4",
+        "text": "The first 90° of turn is described as constant bank and continuously increasing pitch; and the second 90° as constant pitch and continuously decreasing bank."
+      }
+    },
+    {
+      "section": "Chandelle",
+      "difficulty": 2,
+      "categories": [
+        "checkride_oral"
+      ],
+      "question": "What is the correct bank angle generally used when initiating a chandelle?",
+      "correct_answer": "Approximately 30°",
+      "distractors": [
+        "Approximately 45°",
+        "Approximately 15°",
+        "Approximately 60°"
+      ],
+      "explanation": "The chapter states that once the bank angle is established, which is generally 30°, a climbing turn should be started by smoothly applying elevator back pressure while simultaneously increasing engine power.",
+      "reference": {
+        "page": "10-5",
+        "text": "Once the bank angle is established, which is generally 30°, a climbing turn should be started by smoothly applying elevator back pressure at a constant rate while simultaneously increasing engine power to the recommended setting."
+      }
+    },
+    {
+      "section": "Chandelle",
+      "difficulty": 3,
+      "categories": [
+        "checkride_oral"
+      ],
+      "question": "When rolling out from a left chandelle near completion of the maneuver, what rudder pressure is required and why?",
+      "correct_answer": "Significant right rudder pressure, because left adverse yaw and left-turning tendencies such as P-factor combine during the rollout",
+      "distractors": [
+        "Significant left rudder pressure, because the decreasing bank angle creates a right yawing moment",
+        "Very little rudder pressure, because the left-turning tendencies cancel the adverse yaw during rollout",
+        "Alternating left and right rudder pressure, because the airspeed is at its slowest point and control effectiveness is minimal"
+      ],
+      "explanation": "The chapter explains that when airspeed is slowest near completion of the chandelle, right rudder pressure is significant, especially when rolling out from a left chandelle due to left adverse yaw and left-turning tendencies such as P-factor. When rolling out from a right chandelle, the yawing moment is to the right, which partially cancels some of the left-turning tendency's effect.",
+      "reference": {
+        "page": "10-5",
+        "text": "When the airspeed is slowest, near the completion of the chandelle, right rudder pressure is significant, especially when rolling out from a left chandelle due to left adverse yaw and left-turning tendencies, such as P-factor."
+      }
+    },
+    {
+      "section": "Chandelle",
+      "difficulty": 2,
+      "categories": [
+        "checkride_oral"
+      ],
+      "question": "What should be the airplane's airspeed at the completion of 180° of turn in a chandelle?",
+      "correct_answer": "Just above the power-on stall speed",
+      "distractors": [
+        "At the airplane's design maneuvering speed (VA)",
+        "At the entry airspeed used to begin the maneuver",
+        "Just above the power-off stall speed"
+      ],
+      "explanation": "The chapter states that at the completion of 180° of turn, the wings should be level to the horizon, the airspeed should be just above the power-on stall speed, and the airplane's pitch-high attitude should be held momentarily.",
+      "reference": {
+        "page": "10-5",
+        "text": "At the completion of 180° of turn, the wings should be level to the horizon, the airspeed should be just above the power-on stall speed, and the airplane's pitch-high attitude should be held momentarily."
+      }
+    },
+    {
+      "section": "Lazy Eight",
+      "difficulty": 1,
+      "categories": [
+        "general_knowledge"
+      ],
+      "question": "What makes the lazy eight unique among standard flight training maneuvers?",
+      "correct_answer": "It is the only standard flight training maneuver in which flight control pressures are constantly changing",
+      "distractors": [
+        "It is the only maneuver that requires the pilot to use trim throughout its execution",
+        "It is the only maneuver performed entirely by outside visual references without instrument cross-check",
+        "It is the only maneuver that requires the pilot to change power settings continuously throughout"
+      ],
+      "explanation": "The chapter explicitly states that the lazy eight is the only standard flight training maneuver in which flight control pressures are constantly changing, and that it is designed to develop proper coordination of the flight controls across a wide range of airspeeds and attitudes.",
+      "reference": {
+        "page": "10-6",
+        "text": "It is the only standard flight training maneuver in which flight control pressures are constantly changing."
+      }
+    },
+    {
+      "section": "Lazy Eight",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "In a lazy eight, at what point should the maximum pitch-up attitude be reached, and what should the approximate bank angle be at that point?",
+      "correct_answer": "Maximum pitch-up at the 45° reference point with an approximate bank angle of 15°",
+      "distractors": [
+        "Maximum pitch-up at the 90° reference point with an approximate bank angle of 30°",
+        "Maximum pitch-up at the 45° reference point with an approximate bank angle of 30°",
+        "Maximum pitch-up at the 90° reference point with an approximate bank angle of 15°"
+      ],
+      "explanation": "The chapter describes that the climbing turn should be planned and controlled so that the maximum pitch-up attitude is reached at the 45° point with an approximate bank angle of 15°. At the 90° reference point, the bank angle should reach its maximum of approximately 30°, and the pitch attitude passes through level.",
+      "reference": {
+        "page": "10-7",
+        "text": "The climbing turn should be planned and controlled so that the maximum pitch-up attitude is reached at the 45° point with an approximate bank angle of 15°."
+      }
+    },
+    {
+      "section": "Lazy Eight",
+      "difficulty": 2,
+      "categories": [
+        "checkride_oral"
+      ],
+      "question": "What should the airspeed and pitch attitude be at the 90° reference point of a lazy eight?",
+      "correct_answer": "Airspeed at its minimum (5–10 knots above stall speed) with pitch attitude passing through level flight",
+      "distractors": [
+        "Airspeed at its maximum with pitch attitude at its highest point above the horizon",
+        "Airspeed at entry speed with pitch attitude at its lowest point below the horizon",
+        "Airspeed at maneuvering speed with pitch attitude at maximum pitch-up"
+      ],
+      "explanation": "The chapter states that at the lazy eight's 90° reference point, the airspeed should be at its minimum, just about 5 to 10 knots above stall speed, with the airplane's pitch attitude passing through level flight. The bank angle should also have reached its maximum of approximately 30° at this point.",
+      "reference": {
+        "page": "10-7",
+        "text": "At the lazy eight's 90° reference point, the bank angle should also have reached its maximum angle of approximately 30°. The airspeed should be at its minimum, just about 5 to 10 knots above stall speed, with the airplane's pitch attitude passing through level flight."
+      }
+    }
+  ]
+}

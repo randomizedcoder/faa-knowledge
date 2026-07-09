@@ -1,0 +1,366 @@
+{
+  "source": "AFH",
+  "chapter": 6,
+  "questions": [
+    {
+      "section": "Prior to Takeoff",
+      "difficulty": 1,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "What effect does high density altitude have on airplane performance during takeoff?",
+      "correct_answer": "It reduces engine and propeller performance, increases takeoff roll, and decreases climb performance.",
+      "distractors": [
+        "It improves climb performance but increases takeoff roll distance.",
+        "It has no measurable effect on takeoff roll but reduces cruise speed.",
+        "It increases propeller efficiency while decreasing engine power output."
+      ],
+      "explanation": "The chapter explicitly states that high density altitudes reduce engine and propeller performance, increase takeoff rolls, and decrease climb performance, and directs pilots to consult performance charts before takeoff.",
+      "reference": {
+        "page": "6-1",
+        "text": "High density altitudes reduce engine and propeller performance, increase takeoff rolls, and decrease climb performance."
+      }
+    },
+    {
+      "section": "Normal Takeoff",
+      "difficulty": 1,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "What are the two primary reasons for making a takeoff as nearly into the wind as possible?",
+      "correct_answer": "A headwind provides airspeed before acceleration begins and decreases the ground speed needed to reach flying speed.",
+      "distractors": [
+        "A headwind reduces engine torque and improves directional control during the roll.",
+        "A headwind increases propeller efficiency and reduces fuel consumption during climb.",
+        "A headwind allows earlier rotation and reduces wear on the braking system."
+      ],
+      "explanation": "The chapter identifies two reasons: the airplane depends on airspeed so a headwind provides some of that airspeed before the airplane begins to accelerate, and a headwind decreases the ground speed necessary to achieve flying speed, yielding shorter ground roll distances.",
+      "reference": {
+        "page": "6-3",
+        "text": "First, since the airplane depends on airspeed, a headwind provides some of that airspeed even before the airplane begins to accelerate into the wind. Second, a headwind decreases the ground speed necessary to achieve flying speed."
+      }
+    },
+    {
+      "section": "Normal Takeoff",
+      "difficulty": 2,
+      "categories": [
+        "checkride_oral",
+        "general_knowledge"
+      ],
+      "question": "During the takeoff roll, what does the feel of resistance to control movement indicate?",
+      "correct_answer": "The degree of controllability attained, not the airplane's speed.",
+      "distractors": [
+        "The exact airspeed of the airplane at that moment.",
+        "The amount of engine torque being generated.",
+        "The distance remaining on the runway."
+      ],
+      "explanation": "The chapter is explicit that the feel of resistance is not a measure of the airplane's speed but rather of its controllability. The pilot should sense the control resistance and adjust pressures as needed to control the airplane.",
+      "reference": {
+        "page": "6-3",
+        "text": "This feel of resistance is not a measure of the airplane's speed, but rather of its controllability."
+      }
+    },
+    {
+      "section": "Normal Takeoff",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "What is the likely result if the pilot forces the airplane into the air by applying excessive back-elevator pressure before adequate flying speed is attained?",
+      "correct_answer": "The wing's AOA may become excessive, causing the airplane to settle back to the runway or even to stall.",
+      "distractors": [
+        "The airplane will accelerate more rapidly due to reduced ground friction.",
+        "The airplane will establish a steeper climb gradient but at a lower airspeed.",
+        "The airplane will remain in ground effect until VY is reached."
+      ],
+      "explanation": "The chapter warns that forcing the airplane off the ground prematurely may cause the AOA to become excessive, resulting in the airplane settling back or stalling. This is considered an unsafe practice.",
+      "reference": {
+        "page": "6-5",
+        "text": "If the airplane is forced to leave the ground by using too much back-elevator pressure before adequate flying speed is attained, the wing's AOA may become excessive, causing the airplane to settle back to the runway or even to stall."
+      }
+    },
+    {
+      "section": "Normal Takeoff",
+      "difficulty": 2,
+      "categories": [
+        "checkride_oral",
+        "general_knowledge"
+      ],
+      "question": "During a takeoff in strong, gusty wind, why should the pilot allow the airplane to stay on the ground longer to attain more speed before rotation?",
+      "correct_answer": "A takeoff at normal speed may result in a lack of positive control or a stall if the airplane encounters a sudden lull in the gusty wind.",
+      "distractors": [
+        "The extra speed reduces the effect of torque and P-factor during the initial climb.",
+        "The longer ground roll allows the engine to reach operating temperature before climb.",
+        "The additional speed is needed to overcome the increased parasite drag from the gusty headwind."
+      ],
+      "explanation": "The chapter states that in strong, gusty wind, an extra margin of speed should be obtained before the airplane leaves the ground, because a takeoff at normal speed may result in loss of control or a stall when encountering a sudden lull in the wind.",
+      "reference": {
+        "page": "6-5",
+        "text": "A takeoff at the normal takeoff speed may result in a lack of positive control, or a stall, when the airplane encounters a sudden lull in strong, gusty wind, or other turbulent air currents."
+      }
+    },
+    {
+      "section": "Crosswind Takeoff",
+      "difficulty": 1,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "At the beginning of a crosswind takeoff roll, how should the pilot apply aileron control?",
+      "correct_answer": "Apply full aileron pressure into the wind, decreasing as the airplane accelerates and the ailerons become more effective.",
+      "distractors": [
+        "Apply full aileron pressure away from the wind to prevent the downwind wing from dragging.",
+        "Keep ailerons neutral until lift-off, then apply aileron into the wind.",
+        "Apply half aileron pressure into the wind and hold that amount constant throughout the roll."
+      ],
+      "explanation": "The chapter specifies that the pilot should apply full aileron pressure into the wind while beginning the takeoff roll, and as the airplane accelerates and ailerons become effective, the pilot will feel an increase in pressure and can relax the input as needed.",
+      "reference": {
+        "page": "6-6",
+        "text": "If a crosswind is present, the pilot should apply full aileron pressure into the wind while beginning the takeoff roll."
+      }
+    },
+    {
+      "section": "Crosswind Takeoff",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "What is the danger of side-skipping during a crosswind takeoff?",
+      "correct_answer": "It imposes severe side stresses on the landing gear and may result in structural failure.",
+      "distractors": [
+        "It causes the airplane to weathervane excessively into the wind after lift-off.",
+        "It increases induced drag and prevents the airplane from climbing out of ground effect.",
+        "It results in the nose-wheel bearing excessive weight and potential wheel barrowing."
+      ],
+      "explanation": "The chapter explains that side-skipping develops from a series of small bounces where the crosswind moves the airplane sideways, and this imposes severe side stresses on the landing gear that may result in structural failure.",
+      "reference": {
+        "page": "6-7",
+        "text": "This side-skipping imposes severe side stresses on the landing gear and may result in structural failure."
+      }
+    },
+    {
+      "section": "Crosswind Takeoff",
+      "difficulty": 2,
+      "categories": [
+        "checkride_oral",
+        "general_knowledge"
+      ],
+      "question": "After becoming airborne in a crosswind, how should the pilot transition from the initial sideslip to the proper climb configuration?",
+      "correct_answer": "Turn the nose into the wind to establish a crab, bring the wings level, and adjust rudder to maintain runway alignment.",
+      "distractors": [
+        "Maintain the sideslip throughout the entire climb to keep the flightpath aligned with the runway.",
+        "Level the wings and apply full rudder away from the wind to straighten the nose.",
+        "Lower the nose and accelerate in ground effect before establishing any wind correction."
+      ],
+      "explanation": "The chapter describes that as the aircraft establishes its climb, the nose should be turned into the wind to offset the crosswind, wings brought to level, and rudder input adjusted to maintain runway alignment, transitioning from a sideslip to a crab.",
+      "reference": {
+        "page": "6-8",
+        "text": "As the aircraft establishes its climb, the nose should be turned into the wind to offset the crosswind, wings brought to level, and rudder input adjusted to maintain runway alignment (crabbing)."
+      }
+    },
+    {
+      "section": "Ground Effect on Takeoff",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "general_knowledge"
+      ],
+      "question": "What causes the reduction in induced drag when an airplane is operating in ground effect?",
+      "correct_answer": "A reduction in upwash, downwash, and wingtip vortices.",
+      "distractors": [
+        "An increase in static pressure around the wing increasing lift coefficient.",
+        "A decrease in parasite drag due to ground proximity smoothing airflow.",
+        "An increase in airspeed due to the propeller slipstream being compressed against the ground."
+      ],
+      "explanation": "The chapter states that when the wing is under the influence of ground effect, there is a reduction in upwash, downwash, and wingtip vortices, and as a result of the reduced wingtip vortices, induced drag is reduced.",
+      "reference": {
+        "page": "6-10",
+        "text": "When the wing is under the influence of ground effect, there is a reduction in upwash, downwash, and wingtip vortices. As a result of the reduced wingtip vortices, induced drag is reduced."
+      }
+    },
+    {
+      "section": "Ground Effect on Takeoff",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "What happens to the airplane's performance as it climbs out of the ground effect area?",
+      "correct_answer": "The airplane requires an increase in AOA to maintain lift coefficient, experiences an increase in induced drag, and has a pitch-up tendency.",
+      "distractors": [
+        "The airplane experiences a decrease in induced drag and requires less elevator travel to maintain pitch.",
+        "The airplane experiences a reduction in static source pressure and a corresponding decrease in indicated airspeed.",
+        "The airplane requires less AOA to maintain lift and experiences a pitch-down tendency."
+      ],
+      "explanation": "Per the FAA handbook, when climbing out of ground effect: the airplane requires an increase in AOA to maintain lift coefficient; induced drag and thrust required increase; and the airplane experiences a pitch-up tendency and requires less elevator travel because of an increase in downwash at the horizontal tail.",
+      "reference": {
+        "page": "6-10",
+        "text": "The airplane requires an increase in AOA to maintain lift coefficient. The airplane experiences an increase in induced drag and thrust required. The airplane experiences a pitch-up tendency and requires less elevator travel because of an increase in downwash at the horizontal tail."
+      }
+    },
+    {
+      "section": "Ground Effect on Takeoff",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "Under certain conditions, an airplane may be able to lift off in ground effect below recommended airspeed but then be unable to climb out of ground effect. What factors contribute to this hazardous situation?",
+      "correct_answer": "High density altitude, high temperature, and/or maximum gross weight.",
+      "distractors": [
+        "Low density altitude, cold temperature, and minimum gross weight.",
+        "Tailwind, low humidity, and a center of gravity aft of limits.",
+        "Crosswind, low temperature, and a center of gravity forward of limits."
+      ],
+      "explanation": "The chapter specifically warns that under conditions of high density altitude, high temperature, and/or maximum gross weight, the airplane may be able to lift off but will be unable to climb out of ground effect, and may not be able to clear obstructions.",
+      "reference": {
+        "page": "6-11",
+        "text": "Under conditions of high density altitude, high temperature, and/or maximum gross weight, the airplane may be able to lift off but will be unable to climb out of ground effect."
+      }
+    },
+    {
+      "section": "Short-Field Takeoff and Maximum Performance Climb",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "During a short-field takeoff, what airspeed should the pilot maintain after lift-off until all obstacles are cleared?",
+      "correct_answer": "VX, the best angle-of-climb speed.",
+      "distractors": [
+        "VY, the best rate-of-climb speed, to gain altitude in the shortest time.",
+        "The normal takeoff speed to ensure maximum acceleration.",
+        "A speed slightly above VY to maintain a positive rate of climb with a margin for gusts."
+      ],
+      "explanation": "The chapter states that after becoming airborne on a short-field takeoff, the pilot should maintain a wings-level climb at VX until all obstacles have been cleared, or until reaching at least 50 feet above the takeoff surface, then lower the pitch to VY.",
+      "reference": {
+        "page": "6-12",
+        "text": "After becoming airborne, the pilot will maintain a wings-level climb at VX until all obstacles have been cleared, or if no obstacles are present, until reaching an altitude of at least 50 feet above the takeoff surface."
+      }
+    },
+    {
+      "section": "Short-Field Takeoff and Maximum Performance Climb",
+      "difficulty": 2,
+      "categories": [
+        "checkride_oral",
+        "general_knowledge"
+      ],
+      "question": "If an airplane has a natural tendency to lift off well before reaching VX on a short-field takeoff, what does the chapter recommend?",
+      "correct_answer": "Allow the airplane to lift off in ground effect, then reduce pitch attitude to level until accelerating to VX with the wheels just clear of the surface.",
+      "distractors": [
+        "Hold the airplane on the ground with forward elevator pressure until VX is attained to ensure the shortest possible ground roll.",
+        "Apply full flaps and reduce power to prevent premature lift-off.",
+        "Abort the takeoff and reconfigure the airplane for a lower gross weight."
+      ],
+      "explanation": "The chapter states that it may be necessary to allow the airplane to lift off in ground effect and then reduce pitch to level until VX is reached. This is preferable to forcing the airplane to remain on the ground, which puts excessive pressure on the nose-wheel and may result in wheel barrowing.",
+      "reference": {
+        "page": "6-12",
+        "text": "It may be necessary to allow the airplane to lift off in ground effect and then reduce pitch attitude to level until the airplane accelerates to VX with the wheels just clear of the runway surface. This method is preferable to forcing the airplane to remain on the ground with forward elevator-control pressure until VX is attained."
+      }
+    },
+    {
+      "section": "Soft/Rough-Field Takeoff and Climb",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "What is the primary technique for transferring the airplane's weight from the wheels to the wings during a soft-field takeoff?",
+      "correct_answer": "Establish and maintain a relatively high AOA or nose-high pitch attitude as early as possible during the takeoff roll.",
+      "distractors": [
+        "Apply full flaps and accelerate rapidly with the nose-wheel on the ground until reaching VY.",
+        "Use minimum power and a nose-low attitude to reduce drag from the soft surface.",
+        "Hold forward elevator pressure to keep the nose-wheel firmly on the ground until lift-off speed is reached."
+      ],
+      "explanation": "The chapter states that to minimize hazards on soft or rough fields, the pilot should transfer the support of the airplane's weight as rapidly as possible from the wheels to the wings by establishing and maintaining a relatively high AOA or nose-high pitch attitude as early as possible.",
+      "reference": {
+        "page": "6-13",
+        "text": "The pilot should transfer the support of the airplane's weight as rapidly as possible from the wheels to the wings as the takeoff roll proceeds by establishing and maintaining a relatively high AOA or nose-high pitch attitude as early as possible."
+      }
+    },
+    {
+      "section": "Soft/Rough-Field Takeoff and Climb",
+      "difficulty": 2,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "After lift-off from a soft field, why is it essential to remain in ground effect until at least VX is reached?",
+      "correct_answer": "Because while transitioning out of ground effect, the airplane will have a tendency to settle back onto the surface even with full power applied.",
+      "distractors": [
+        "Because ground effect increases lift coefficient and allows the airplane to climb at a steeper angle.",
+        "Because remaining in ground effect reduces engine wear during high-power operations.",
+        "Because the soft surface causes the landing gear to retract improperly if climbed out too quickly."
+      ],
+      "explanation": "The chapter warns that immediately after becoming airborne and while it accelerates, the airplane will have a tendency to settle back onto the surface while transitioning out of ground effect, even with full power applied. Therefore, it is essential to remain in ground effect until at least VX is reached.",
+      "reference": {
+        "page": "6-13",
+        "text": "While transitioning out of the ground effect area, the airplane will have a tendency to settle back onto the surface, even with full power applied. Therefore, it is essential that the airplane remain in ground effect until at least VX is reached."
+      }
+    },
+    {
+      "section": "Rejected Takeoff/Engine Failure",
+      "difficulty": 1,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "What should a pilot do prior to takeoff to establish a decision point for a potential rejected takeoff?",
+      "correct_answer": "Identify a point along the runway at which the airplane should be airborne, and if that point is reached without becoming airborne, discontinue the takeoff.",
+      "distractors": [
+        "Calculate the total runway length and plan to reject only if less than half the runway remains at rotation speed.",
+        "Note the halfway point of the runway and plan to reject if the airplane has not reached rotation speed by that point.",
+        "Estimate the stopping distance from VY and mark that distance from the departure end of the runway."
+      ],
+      "explanation": "The chapter states that prior to takeoff, the pilot should identify a point along the runway at which the airplane should be airborne. If that point is reached and the airplane is not airborne, immediate action should be taken to discontinue the takeoff.",
+      "reference": {
+        "page": "6-14",
+        "text": "Prior to takeoff, the pilot should identify a point along the runway at which the airplane should be airborne. If that point is reached and the airplane is not airborne, immediate action should be taken to discontinue the takeoff."
+      }
+    },
+    {
+      "section": "Rejected Takeoff/Engine Failure",
+      "difficulty": 3,
+      "categories": [
+        "written_exam",
+        "checkride_oral"
+      ],
+      "question": "In the event of an engine failure on initial climb-out, what is the pilot's first responsibility?",
+      "correct_answer": "Lower the nose to prevent a stall while moving the rudder to ensure coordinated flight.",
+      "distractors": [
+        "Immediately turn back toward the takeoff runway to minimize time without power.",
+        "Apply full flaps and pitch for the best glide speed while extending the landing gear.",
+        "Transmit a distress call on the CTAF or tower frequency before making any control inputs."
+      ],
+      "explanation": "The chapter states that at a climb pitch attitude without power, the airplane is at or near a stalling AOA, and the pilot may still be holding right rudder. The first responsibility is to maintain aircraft control by lowering the nose to prevent a stall while coordinating rudder.",
+      "reference": {
+        "page": "6-14",
+        "text": "The pilot's first responsibility is to maintain aircraft control. At a climb pitch attitude without power, the airplane is at or near a stalling AOA. At the same time, the pilot may still be holding right rudder. The pilot should immediately lower the nose to prevent a stall while moving the rudder to ensure coordinated flight."
+      }
+    },
+    {
+      "section": "Prior to Takeoff",
+      "difficulty": 2,
+      "categories": [
+        "checkride_oral",
+        "general_knowledge"
+      ],
+      "question": "If an immediate takeoff behind a large, heavy transport airplane is necessary, what should the pilot do to minimize the risk of encountering wake turbulence?",
+      "correct_answer": "Avoid the preceding aircraft's flightpath or rotate prior to the point at which the preceding aircraft rotated.",
+      "distractors": [
+        "Wait at least 3 minutes on the runway before beginning the takeoff roll in all cases.",
+        "Climb at VY immediately after lift-off to pass above the preceding aircraft's wake.",
+        "Request a different runway or delay the takeoff until the wake turbulence has dissipated completely."
+      ],
+      "explanation": "The chapter states that if an immediate takeoff behind a large heavy aircraft is necessary, the pilot should plan to minimize the chances of flying through the aircraft's wake turbulence by avoiding the other aircraft's flightpath or rotating prior to the point at which the preceding aircraft rotated.",
+      "reference": {
+        "page": "6-1",
+        "text": "If an immediate takeoff behind a large heavy aircraft is necessary, the pilot should plan to minimize the chances of flying through an aircraft's wake turbulence by avoiding the other aircraft's flightpath or rotating prior to the point at which the preceding aircraft rotated."
+      }
+    }
+  ]
+}
