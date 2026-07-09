@@ -159,9 +159,32 @@ Create a JSON file in `database/questions/`:
 
 Then import: `./quiz --import database/questions/your_file.json`
 
+## Mobile / Web App (Flutter)
+
+`app/` is a Flutter quiz app that mirrors the CLI on **web, Android, and iOS**, with a deliberately
+simple, high-contrast, low-vision-friendly UI (large text, big buttons, light/dark toggle). It bundles
+all 635 questions offline (`app/assets/questions.json`, regenerate with `make app-assets`).
+
+Features: **Quick Start** (50 random, fresh each time); **3 saved sessions** that let you pick chapters
+to focus on and remember exactly where you left off so you can resume later; per-question immediate
+feedback (correct answer + explanation, reference when wrong); a **Done** button that ends the session
+and shows the score `x/y (%)` against the 70% FAA pass line.
+
+```bash
+nix develop .#flutter        # Flutter + Android SDK + Chrome dev shell
+cd app
+flutter run -d chrome        # run on the web
+flutter build apk            # Android APK  (build web: flutter build web)
+flutter analyze && flutter test
+```
+
+iOS is code-supported (the `ios/` project is scaffolded) but must be built on macOS with Xcode; the
+Nix dev shell covers web + Android on Linux.
+
 ## Project Structure
 
 ```
+app/                          Flutter app (web/android/ios) — lib/{models,data,screens}, theme.dart
 cmd/quiz/main.go              CLI entry point
 internal/db/                  SQLite open, migrate, queries
 internal/models/              Domain structs
