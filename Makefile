@@ -1,6 +1,6 @@
 .PHONY: build run init-db import validate add-refs download-pdfs clean \
        extract-text chunk-text mine-all merge cross-check pipeline check-llms \
-       extract-glm verify-glm check-glm gen-chapters-glm gen-chapter
+       extract-glm verify-glm check-glm gen-chapters-glm gen-chapter quiz
 
 NIX_RUN = nix develop --command
 RUNS ?= 5
@@ -17,6 +17,12 @@ build:
 
 run: build
 	$(NIX_RUN) ./quiz
+
+# Play the quiz with arbitrary flags, e.g.:
+#   make quiz ARGS="--count 10 --source PHAK --chapter 8"
+#   make quiz ARGS="--category written_exam --difficulty 3"
+quiz: build
+	$(NIX_RUN) ./quiz $(ARGS)
 
 init-db: build
 	$(NIX_RUN) ./quiz --init

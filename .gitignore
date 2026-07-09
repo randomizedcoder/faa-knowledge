@@ -1,5 +1,7 @@
 # FAA Knowledge project
 *.db
+*.db-shm
+*.db-wal
 result
 !flake.lock
 pdfs/
@@ -12,6 +14,7 @@ runs_old_qwen3/
 pdfs_text_run/
 database/crosscheck_report.json
 /resume
+runs_run01_knowledge_backup.tar.gz
 
 # Miscellaneous
 *.class
