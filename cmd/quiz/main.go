@@ -69,6 +69,9 @@ func main() {
 	llmModel := flag.String("llm-model", envOr("FAA_LLM_MODEL", "local"), "Model name sent to the LLM server (e.g. /model for GLM)")
 	think := flag.Bool("think", envOrBool("FAA_LLM_THINK", false), "Enable the model's reasoning mode (chat_template_kwargs.enable_thinking) for all LLM calls")
 	genCap := flag.Int("gen-cap", 0, "Max questions to generate per chapter (0 = one per fact); selects hardest, distinct facts")
+	genChapter := flag.Bool("gen-chapter", false, "Experimental: generate questions from a whole chapter at once (requires --source, --chapter)")
+	method := flag.String("method", "both", "Chapter method for --gen-chapter: outline, direct, or both")
+	outDir := flag.String("out-dir", "", "Output dir for --gen-chapter (empty = runs/experiment; set to database/questions for production)")
 	file := flag.String("file", "", "Validate a specific JSON file (requires --validate)")
 	addRefs := flag.Bool("add-refs", false, "Extract references from PDFs and add to JSON files")
 	pdfDir := flag.String("pdf-dir", "pdfs", "Directory containing phak.pdf and afh.pdf")
@@ -129,6 +132,25 @@ func main() {
 		ctx := context.Background()
 		client := newLLMClient(*smallLLMURL, *llmModel, *think, 0.1, 120*time.Second)
 		if err := pipeline.CrossCheck(ctx, client, "database/questions"); err != nil {
+			fmt.Fprintf(os.Stderr, "Error: %v\n", err)
+			os.Exit(1)
+		}
+		return
+	}
+
+	if *genChapter {
+		if *source == "" || *chapter <= 0 {
+			fmt.Fprintf(os.Stderr, "Error: --gen-chapter requires --source and --chapter\n")
+			os.Exit(1)
+		}
+		ctx := context.Background()
+		// Whole-chapter calls produce large outputs; give the model room and time.
+		client := newLLMClient(*llmURL, *llmModel, *think, 0.7, 900*time.Second).WithMaxTokens(32000)
+		capN := *genCap
+		if capN <= 0 {
+			capN = 18
+		}
+		if err := pipeline.GenChapterExperiment(ctx, client, *textDir, *outDir, *source, *chapter, *method, capN); err != nil {
 			fmt.Fprintf(os.Stderr, "Error: %v\n", err)
 			os.Exit(1)
 		}

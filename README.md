@@ -87,6 +87,34 @@ The `--llm-model` / `--think` flags also work with the individual stage commands
 `--generate`, `--cross-check`, `--validate`), so any stage can be pointed at GLM. Defaults for
 the plain `quiz` binary keep the l2 behavior unchanged (`model=local`, thinking off).
 
+### Whole-chapter generation (recommended with a large-context model)
+
+The paragraph-by-paragraph miner was designed for small-context models. With GLM's 128K window an
+entire chapter (~47K–77K tokens) fits in one request, so the model can find real subject boundaries
+and generate better-organised questions. An experiment on **PHAK ch08 (Flight Instruments)**
+compared three approaches (see [docs/experiment_ch08.md](docs/experiment_ch08.md)):
+
+| Method | Questions | Distinct sections | Section labels |
+|---|---|---|---|
+| **A — paragraph** (per-paragraph mine→generate) | 17 | 8 | noisy — figure axis labels like `"30°C 15°C 0°C"`, `"UPTHOUSAND FT PER MIN"` |
+| **B — outline→generate** (LLM splits chapter into sections, then per-point generate) | 18 | 8 | clean, real topics |
+| **C — whole-chapter→direct** (chapter → finished questions in one call) | 18 | **14** | clean, broadest coverage |
+
+**Method C won** — clean section names, the broadest topical coverage (it reached the gyroscopic
+and compass material the others missed), and just one LLM call per chapter (no mining or merge).
+It is the production path:
+
+```bash
+nix run .#gen-chapters-glm            # Method C over all chapters -> database/questions
+make gen-chapters-glm CAP=25          # same, 25 questions/chapter
+make gen-chapter SOURCE=PHAK CH=8 METHOD=both   # single-chapter experiment -> runs/experiment
+```
+
+`--gen-chapter` flags: `--source`/`--chapter` (which chapter), `--method outline|direct|both`,
+`--gen-cap N` (questions per chapter, default 18), `--out-dir` (empty = `runs/experiment`; set to
+`database/questions` for production, which the target does automatically). Spurious mis-detected
+chapters (PHAK >17, AFH >18) are skipped.
+
 ## CLI Flags
 
 | Flag | Description |

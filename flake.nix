@@ -66,6 +66,41 @@
           echo "=== extract-glm complete ==="
         '';
 
+        # Whole-chapter generation (experiment "Method C"): one GLM call per
+        # chapter feeds the entire chapter text and returns finished questions.
+        # Writes straight to database/questions (no mining/merge). Iterates the
+        # real chapters (skips spurious mis-detected ch>18). Extra args (e.g.
+        # --gen-cap 25) are forwarded to each per-chapter call.
+        packages.gen-chapters-glm = pkgs.writeShellScriptBin "faa-gen-chapters-glm" ''
+          set -euo pipefail
+          quiz=${self.packages.${system}.default}/bin/quiz
+          url="''${FAA_LLM_URL:-http://localhost:8000}"
+          export FAA_LLM_URL="$url"
+          export FAA_LLM_MODEL="''${FAA_LLM_MODEL:-/model}"
+          export FAA_LLM_THINK="''${FAA_LLM_THINK:-1}"
+          textdir="''${FAA_TEXT_DIR:-pdfs_text}"
+
+          if ! ${pkgs.curl}/bin/curl -fsS -m 5 "$url/health" >/dev/null 2>&1 \
+             && ! ${pkgs.curl}/bin/curl -fsS -m 5 "$url/v1/models" >/dev/null 2>&1; then
+            echo "GLM endpoint $url is not reachable" >&2
+            exit 1
+          fi
+          echo "Whole-chapter generation via GLM at $url"
+
+          for src in phak afh; do
+            for f in "$textdir/$src"/ch*.txt; do
+              [ -e "$f" ] || continue
+              ch=$(basename "$f" .txt | sed 's/^ch0*//')
+              # Skip spurious mis-detected chapters (PHAK real max 17, AFH 18).
+              if [ "$ch" -gt 18 ]; then echo "skip $src ch$ch (spurious)"; continue; fi
+              echo "=== $src ch$ch ==="
+              "$quiz" --gen-chapter --source "$src" --chapter "$ch" \
+                --method direct --out-dir database/questions "$@"
+            done
+          done
+          echo "=== gen-chapters-glm complete ==="
+        '';
+
         # Verify-only pass: run the GLM validate/fix over existing questions.
         packages.verify-glm = pkgs.writeShellScriptBin "faa-verify-glm" ''
           set -euo pipefail
@@ -130,6 +165,11 @@
         apps.verify-glm = {
           type = "app";
           program = "${self.packages.${system}.verify-glm}/bin/faa-verify-glm";
+        };
+
+        apps.gen-chapters-glm = {
+          type = "app";
+          program = "${self.packages.${system}.gen-chapters-glm}/bin/faa-gen-chapters-glm";
         };
 
         apps.check-glm = {
