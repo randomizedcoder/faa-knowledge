@@ -1,7 +1,12 @@
+import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 import 'package:faa_quiz/data/question_repository.dart';
+import 'package:faa_quiz/data/session_store.dart';
 import 'package:faa_quiz/models/question.dart';
 import 'package:faa_quiz/models/session.dart';
+import 'package:faa_quiz/screens/quiz_screen.dart';
+import 'package:faa_quiz/theme.dart';
 
 Question _q(String correct) => Question(
       source: 'PHAK',
@@ -107,5 +112,16 @@ void main() {
     expect(r.marked, {1});
     expect(r.graded, isTrue);
     expect(r.correctCount(repo), 2);
+  });
+
+  testWidgets('QuizScreen renders without layout errors (AppBar button bounded)',
+      (tester) async {
+    SharedPreferences.setMockInitialValues({});
+    await tester.pumpWidget(MaterialApp(
+      theme: buildTheme(Brightness.light),
+      home: QuizScreen(session: newSession(), repo: repo, store: SessionStore()),
+    ));
+    expect(tester.takeException(), isNull);
+    expect(find.text('Grade Session'), findsOneWidget);
   });
 }
