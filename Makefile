@@ -1,6 +1,6 @@
 .PHONY: build run init-db import validate add-refs download-pdfs clean \
        extract-text chunk-text mine-all merge cross-check pipeline check-llms \
-       extract-glm verify-glm check-glm gen-chapters-glm gen-chapter quiz app-assets
+       extract-glm verify-glm check-glm gen-chapters-glm gen-chapter quiz app-assets emulator
 
 NIX_RUN = nix develop --command
 RUNS ?= 5
@@ -57,6 +57,10 @@ check-glm:
 # Regenerate the Flutter app's bundled question asset from database/questions.
 app-assets:
 	python3 scripts/build_app_assets.py
+
+# Boot an Android emulator to run the app on (needs KVM + a display).
+emulator:
+	nix run .#emulator
 
 # Extract + verify against the GLM model. Pass CHAPTERS=phak:04 to scope.
 extract-glm: build

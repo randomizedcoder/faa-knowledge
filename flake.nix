@@ -147,9 +147,34 @@
           exit $rc
         '';
 
+        # Android emulator for the app. Heavy (pulls a ~1GB+ system image), and
+        # needs KVM (/dev/kvm) and a display to actually boot. Boots a fresh
+        # emulator you can `flutter run` against. Run: nix run .#emulator
+        packages.emulator =
+          let
+            pkgsAndroid = import nixpkgs {
+              inherit system;
+              config = {
+                allowUnfree = true;
+                android_sdk.accept_license = true;
+              };
+            };
+          in
+          pkgsAndroid.androidenv.emulateApp {
+            name = "faa-emulator";
+            platformVersion = "34";
+            abiVersion = "x86_64";
+            systemImageType = "google_apis";
+          };
+
         apps.default = {
           type = "app";
           program = "${self.packages.${system}.default}/bin/quiz";
+        };
+
+        apps.emulator = {
+          type = "app";
+          program = "${self.packages.${system}.emulator}/bin/run-test-emulator";
         };
 
         apps.pipeline = {

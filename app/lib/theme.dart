@@ -53,29 +53,52 @@ const _darkScheme = ColorScheme(
   onSurface: Colors.white,
 );
 
+// Bundled serif face (SIL OFL, assets/fonts/Lora.ttf) — serifs make the large
+// body text easier to read.
+const _fontFamily = 'Lora';
+
 ThemeData buildTheme(Brightness brightness) {
   final scheme = brightness == Brightness.dark ? _darkScheme : _lightScheme;
-  final base = ThemeData(useMaterial3: true, colorScheme: scheme);
+  final base = ThemeData(
+      useMaterial3: true, colorScheme: scheme, fontFamily: _fontFamily);
 
   return base.copyWith(
     scaffoldBackgroundColor: scheme.surface,
     // Large, bold, high-contrast text throughout.
     textTheme: base.textTheme
-        .apply(bodyColor: scheme.onSurface, displayColor: scheme.onSurface)
+        .apply(
+            fontFamily: _fontFamily,
+            bodyColor: scheme.onSurface,
+            displayColor: scheme.onSurface)
         .copyWith(
           headlineMedium: TextStyle(
-              fontSize: 30, fontWeight: FontWeight.w800, color: scheme.onSurface),
+              fontFamily: _fontFamily,
+              fontSize: 30,
+              fontWeight: FontWeight.w800,
+              color: scheme.onSurface),
           titleLarge: TextStyle(
-              fontSize: 26, fontWeight: FontWeight.w700, color: scheme.onSurface),
+              fontFamily: _fontFamily,
+              fontSize: 26,
+              fontWeight: FontWeight.w700,
+              color: scheme.onSurface),
           bodyLarge: TextStyle(
-              fontSize: 22, height: 1.35, color: scheme.onSurface),
+              fontFamily: _fontFamily,
+              fontSize: 22,
+              height: 1.35,
+              color: scheme.onSurface),
           bodyMedium: TextStyle(
-              fontSize: 20, height: 1.35, color: scheme.onSurface),
+              fontFamily: _fontFamily,
+              fontSize: 20,
+              height: 1.35,
+              color: scheme.onSurface),
         ),
     elevatedButtonTheme: ElevatedButtonThemeData(
       style: ElevatedButton.styleFrom(
         minimumSize: const Size.fromHeight(64),
-        textStyle: const TextStyle(fontSize: 22, fontWeight: FontWeight.w700),
+        textStyle: const TextStyle(
+            fontFamily: _fontFamily,
+            fontSize: 22,
+            fontWeight: FontWeight.w700),
         shape:
             RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
       ),
@@ -84,7 +107,10 @@ ThemeData buildTheme(Brightness brightness) {
       backgroundColor: scheme.surface,
       foregroundColor: scheme.onSurface,
       titleTextStyle: TextStyle(
-          fontSize: 24, fontWeight: FontWeight.w800, color: scheme.onSurface),
+          fontFamily: _fontFamily,
+          fontSize: 24,
+          fontWeight: FontWeight.w800,
+          color: scheme.onSurface),
       elevation: 0,
     ),
   );
