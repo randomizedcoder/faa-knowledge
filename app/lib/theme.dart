@@ -57,6 +57,15 @@ const _darkScheme = ColorScheme(
 // body text easier to read.
 const _fontFamily = 'Lora';
 
+// Shared large, accessible button sizing.
+ButtonStyle _bigButton() => ButtonStyle(
+      minimumSize: const WidgetStatePropertyAll(Size.fromHeight(60)),
+      textStyle: const WidgetStatePropertyAll(TextStyle(
+          fontFamily: _fontFamily, fontSize: 20, fontWeight: FontWeight.w700)),
+      shape: WidgetStatePropertyAll(
+          RoundedRectangleBorder(borderRadius: BorderRadius.circular(12))),
+    );
+
 ThemeData buildTheme(Brightness brightness) {
   final scheme = brightness == Brightness.dark ? _darkScheme : _lightScheme;
   final base = ThemeData(
@@ -92,17 +101,14 @@ ThemeData buildTheme(Brightness brightness) {
               height: 1.35,
               color: scheme.onSurface),
         ),
-    elevatedButtonTheme: ElevatedButtonThemeData(
-      style: ElevatedButton.styleFrom(
-        minimumSize: const Size.fromHeight(64),
-        textStyle: const TextStyle(
-            fontFamily: _fontFamily,
-            fontSize: 22,
-            fontWeight: FontWeight.w700),
-        shape:
-            RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+    elevatedButtonTheme: ElevatedButtonThemeData(style: _bigButton()),
+    outlinedButtonTheme: OutlinedButtonThemeData(
+      style: _bigButton().copyWith(
+        side: WidgetStatePropertyAll(
+            BorderSide(color: scheme.primary, width: 2)),
       ),
     ),
+    filledButtonTheme: FilledButtonThemeData(style: _bigButton()),
     appBarTheme: AppBarTheme(
       backgroundColor: scheme.surface,
       foregroundColor: scheme.onSurface,

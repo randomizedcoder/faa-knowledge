@@ -1,85 +1,111 @@
 import 'package:flutter_test/flutter_test.dart';
+import 'package:faa_quiz/data/question_repository.dart';
 import 'package:faa_quiz/models/question.dart';
 import 'package:faa_quiz/models/session.dart';
 
-const _sampleJson = {
-  'source': 'PHAK',
-  'chapter': 8,
-  'section': 'Altimeter',
-  'difficulty': 2,
-  'categories': ['written_exam'],
-  'question': 'What does an altimeter measure?',
-  'correct_answer': 'Altitude',
-  'distractors': ['Airspeed', 'Heading', 'Vertical speed'],
-  'explanation': 'An altimeter measures altitude via static pressure.',
-  'reference_page': '8-3',
-  'reference_text': 'The altimeter is a static pressure instrument.',
-};
+Question _q(String correct) => Question(
+      source: 'PHAK',
+      chapter: 8,
+      section: 'Test',
+      difficulty: 2,
+      categories: const ['written_exam'],
+      question: 'Q?',
+      correctAnswer: correct,
+      distractors: const ['x', 'y', 'z'],
+      explanation: 'because',
+      referencePage: '8-1',
+      referenceText: 'ref',
+    );
 
 void main() {
-  group('Question', () {
-    test('parses all fields', () {
-      final q = Question.fromJson(Map<String, dynamic>.from(_sampleJson));
-      expect(q.source, 'PHAK');
-      expect(q.chapter, 8);
-      expect(q.chapterKey, 'PHAK-8');
-      expect(q.difficulty, 2);
-      expect(q.distractors.length, 3);
-      expect(q.correctAnswer, 'Altitude');
-    });
+  // ids 0..3, correct answers A/B/C/D
+  final repo = QuestionRepository([_q('A'), _q('B'), _q('C'), _q('D')]);
 
-    test('options returns 4 items including the correct answer, stable per seed',
-        () {
-      final q = Question.fromJson(Map<String, dynamic>.from(_sampleJson));
-      final a = q.options(42);
-      final b = q.options(42);
-      expect(a.length, 4);
-      expect(a.contains('Altitude'), isTrue);
-      expect(a, b); // deterministic for the same seed
-    });
-  });
-
-  group('QuizSession', () {
-    test('records answers, advances, and scores', () {
-      final s = QuizSession(
+  QuizSession newSession() => QuizSession(
         slot: 0,
         name: 'test',
         chapterKeys: const ['PHAK-8'],
-        order: [10, 11, 12, 13],
+        order: [0, 1, 2, 3],
       );
-      expect(s.total, 4);
-      expect(s.isComplete, isFalse);
-      expect(s.currentId, 10);
 
-      s.record(true);
-      s.record(false);
-      expect(s.answered, 2);
-      expect(s.correct, 1);
-      expect(s.percent, 50.0);
-      expect(s.currentId, 12);
+  group('Question', () {
+    test('options are 4, include the answer, stable per seed', () {
+      final q = _q('A');
+      final a = q.options(42);
+      expect(a.length, 4);
+      expect(a.contains('A'), isTrue);
+      expect(a, q.options(42));
+    });
+  });
 
-      s.record(true);
-      s.record(true);
-      expect(s.isComplete, isTrue);
-      expect(s.currentId, isNull);
-      expect(s.correct, 3);
+  group('QuizSession navigation', () {
+    test('prev/next clamp at bounds', () {
+      final s = newSession();
+      expect(s.current, 0);
+      s.prev();
+      expect(s.current, 0); // clamped
+      s.next();
+      s.next();
+      expect(s.current, 2);
+      s.next();
+      s.next();
+      s.next();
+      expect(s.current, 3); // clamped at last
     });
 
-    test('json round-trip preserves progress', () {
-      final s = QuizSession(
-        slot: 1,
-        name: 'resume me',
-        chapterKeys: const ['AFH-3'],
-        order: [1, 2, 3],
-      )..record(true);
-
-      final restored = QuizSession.decode(s.encode());
-      expect(restored.slot, 1);
-      expect(restored.name, 'resume me');
-      expect(restored.cursor, 1);
-      expect(restored.answered, 1);
-      expect(restored.correct, 1);
-      expect(restored.currentId, 2);
+    test('select stores and overwrites the answer at current', () {
+      final s = newSession();
+      s.select('A');
+      expect(s.currentAnswer, 'A');
+      s.select('x'); // change it
+      expect(s.currentAnswer, 'x');
+      expect(s.answered, 1);
     });
+
+    test('toggleMark flags/unflags current', () {
+      final s = newSession();
+      expect(s.isCurrentMarked, isFalse);
+      s.toggleMark();
+      expect(s.isCurrentMarked, isTrue);
+      expect(s.marked, {0});
+      s.toggleMark();
+      expect(s.isCurrentMarked, isFalse);
+    });
+  });
+
+  group('QuizSession grading', () {
+    test('correctCount and percent score only answered questions', () {
+      final s = newSession();
+      s.select('A'); // q0 correct
+      s.next();
+      s.select('wrong'); // q1 incorrect
+      s.next();
+      s.select('C'); // q2 correct
+      // q3 left unanswered
+      expect(s.answered, 3);
+      expect(s.correctCount(repo), 2);
+      expect(s.percent(repo), closeTo(66.67, 0.1));
+    });
+
+    test('empty session scores 0 without dividing by zero', () {
+      final s = newSession();
+      expect(s.percent(repo), 0);
+    });
+  });
+
+  test('json round-trip preserves current/answers/marked/graded', () {
+    final s = newSession()
+      ..select('A')
+      ..next()
+      ..select('B')
+      ..toggleMark()
+      ..graded = true;
+
+    final r = QuizSession.decode(s.encode());
+    expect(r.current, 1);
+    expect(r.answers, {0: 'A', 1: 'B'});
+    expect(r.marked, {1});
+    expect(r.graded, isTrue);
+    expect(r.correctCount(repo), 2);
   });
 }
