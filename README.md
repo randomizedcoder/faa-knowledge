@@ -181,9 +181,10 @@ light/dark toggle). It bundles all 635 questions offline (`app/assets/questions.
 `make app-assets`).
 
 Features: **Quick Start** (50 random, fresh each time); **3 saved sessions** that let you pick chapters
-to focus on and remember exactly where you left off so you can resume later; per-question immediate
-feedback (correct answer + explanation, reference when wrong); a **Done** button that ends the session
-and shows the score `x/y (%)` against the 70% FAA pass line.
+to focus on and remember exactly where you left off so you can resume later. Exam-style flow — move
+freely with **Previous/Next**, **Mark** questions for review, reveal the correct answer + explanation
+on demand (**Show Answer**), and **Grade Session** to score `correct/answered (%)` against the 70% FAA
+pass line, then page back through with the answers shown.
 
 ```bash
 nix develop .#flutter        # Flutter + Android SDK + Chrome dev shell

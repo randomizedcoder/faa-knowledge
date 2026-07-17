@@ -135,7 +135,8 @@ class _HomeScreenState extends State<HomeScreen> {
 
   Widget _filledCard(int slot, QuizSession session) {
     final theme = Theme.of(context);
-    final pct = session.percent.toStringAsFixed(0);
+    final pct = session.percent(widget.repo).toStringAsFixed(0);
+    final markedCount = session.marked.length;
     return Column(
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: [
@@ -146,10 +147,10 @@ class _HomeScreenState extends State<HomeScreen> {
             overflow: TextOverflow.ellipsis),
         const SizedBox(height: 6),
         Text(
-          session.isComplete
-              ? 'Complete · ${session.correct}/${session.answered} ($pct%)'
-              : 'Progress ${session.answered}/${session.total}'
-                  '${session.answered > 0 ? ' · $pct%' : ''}',
+          session.graded
+              ? 'Graded · ${session.correctCount(widget.repo)}/${session.answered} ($pct%)'
+              : 'Answered ${session.answered}/${session.total}'
+                  '${markedCount > 0 ? ' · $markedCount marked' : ''}',
           style: theme.textTheme.bodyMedium,
         ),
         const SizedBox(height: 12),
@@ -161,7 +162,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     session: session,
                     repo: widget.repo,
                     store: widget.store)),
-                child: Text(session.isComplete ? 'Review score' : 'Continue'),
+                child: Text(session.graded ? 'Review' : 'Continue'),
               ),
             ),
             const SizedBox(width: 12),
