@@ -148,7 +148,8 @@ class _QuizScreenState extends State<QuizScreen> {
                   const SizedBox(height: 16),
                   Text(q.question, style: theme.textTheme.headlineMedium),
                   const SizedBox(height: 24),
-                  for (final opt in q.options(s.currentId)) _optionTile(opt, q),
+                  for (final (i, opt) in q.options(s.currentId).indexed)
+                    _optionTile(opt, q, i),
                   if (_reveal) _feedback(q),
                 ],
               ),
@@ -160,7 +161,7 @@ class _QuizScreenState extends State<QuizScreen> {
     );
   }
 
-  Widget _optionTile(String opt, Question q) {
+  Widget _optionTile(String opt, Question q, int index) {
     final theme = Theme.of(context);
     final selected = s.currentAnswer == opt;
     Color? bg;
@@ -187,6 +188,7 @@ class _QuizScreenState extends State<QuizScreen> {
     }
 
     return Padding(
+      key: ValueKey('option_$index'),
       padding: const EdgeInsets.only(bottom: 12),
       child: Material(
         color: bg ?? Colors.transparent,
