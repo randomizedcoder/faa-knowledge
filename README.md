@@ -204,8 +204,13 @@ nix run .#emulator           # boot an Android emulator (Pixel, API 34, x86_64)
 cd app && flutter run        # runs the app on the booted emulator
 ```
 
-The emulator pulls a ~1 GB system image on first run and needs **KVM** (`/dev/kvm`) plus a graphical
-display to boot; on a headless box use the web target instead.
+The emulator pulls a ~1 GB system image on first run and needs **KVM** (`/dev/kvm`). The target sets
+`QT_QPA_PLATFORM=xcb` (the bundled emulator's Qt has no Wayland plugin; `xcb` works on most desktops
+via XWayland). To boot headless — no window, but `adb`/`flutter` still connect — override it:
+
+```bash
+QT_QPA_PLATFORM=offscreen nix run .#emulator
+```
 
 iOS is code-supported (the `ios/` project is scaffolded) but must be built on macOS with Xcode; the
 Nix dev shell covers web + Android on Linux.
