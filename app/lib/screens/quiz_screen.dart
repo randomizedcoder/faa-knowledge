@@ -67,6 +67,7 @@ class _QuizScreenState extends State<QuizScreen> {
               onPressed: () => Navigator.pop(ctx, false),
               child: const Text('Keep going')),
           FilledButton(
+              style: FilledButton.styleFrom(minimumSize: const Size(0, 44)),
               onPressed: () => Navigator.pop(ctx, true),
               child: const Text('Grade')),
         ],
@@ -104,6 +105,17 @@ class _QuizScreenState extends State<QuizScreen> {
             Padding(
               padding: const EdgeInsets.only(right: 8),
               child: FilledButton(
+                // A bounded size: the app-wide button theme uses an
+                // infinite-width minimumSize for full-width buttons, which
+                // can't live in the AppBar's unbounded actions row.
+                style: FilledButton.styleFrom(
+                  minimumSize: const Size(0, 44),
+                  padding: const EdgeInsets.symmetric(horizontal: 18),
+                  textStyle: const TextStyle(
+                      fontFamily: 'Lora',
+                      fontSize: 16,
+                      fontWeight: FontWeight.w700),
+                ),
                 onPressed: _grade,
                 child: const Text('Grade Session'),
               ),
