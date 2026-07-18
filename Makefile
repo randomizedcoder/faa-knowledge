@@ -1,6 +1,7 @@
 .PHONY: build run init-db import validate add-refs download-pdfs clean \
        extract-text chunk-text mine-all merge cross-check pipeline check-llms \
-       extract-glm verify-glm check-glm gen-chapters-glm gen-chapter quiz app-assets emulator
+       extract-glm verify-glm check-glm gen-chapters-glm gen-chapter quiz app-assets emulator \
+       integration-test
 
 NIX_RUN = nix develop --command
 RUNS ?= 5
@@ -61,6 +62,12 @@ app-assets:
 # Boot an Android emulator to run the app on (needs KVM + a display).
 emulator:
 	nix run .#emulator
+
+# End-to-end integration test on a real engine. DEVICE defaults to the headless
+# host tester; pass DEVICE=emulator-5554 (from `make emulator`) for Android, or
+# DEVICE=linux for the desktop build.
+integration-test:
+	nix develop .#flutter --command bash -c 'cd app && flutter test integration_test -d $(or $(DEVICE),flutter-tester)'
 
 # Extract + verify against the GLM model. Pass CHAPTERS=phak:04 to scope.
 extract-glm: build

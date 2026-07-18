@@ -215,6 +215,31 @@ QT_QPA_PLATFORM=offscreen nix run .#emulator
 iOS is code-supported (the `ios/` project is scaffolded) but must be built on macOS with Xcode; the
 Nix dev shell covers web + Android on Linux.
 
+### Tests
+
+```bash
+cd app
+flutter test                                    # unit + widget tests
+```
+
+- **Model tests** (`test/quiz_test.dart`) cover session navigation, scoring, and JSON round-trips.
+- **Render matrix** (`test/render_matrix_test.dart`) pumps every screen in light + dark at 4 widths
+  (320–1400) asserting no layout errors — catches overflow/constraint bugs headlessly. These use the
+  host test renderer (layout logic is identical across platforms).
+
+To verify rendering/behaviour on the **real Android engine** (asset loading, plugins, device sizes),
+run the end-to-end integration test on an emulator or device:
+
+```bash
+nix run .#emulator                              # boot an emulator (needs KVM + display)
+make integration-test DEVICE=emulator-5554      # drive the app on Android
+make integration-test                           # or headless on the host tester
+make integration-test DEVICE=linux              # or the desktop build
+```
+
+It launches the real app and drives the full flow (Quick Start → answer → navigate → mark → grade →
+results), asserting no exceptions.
+
 ## Project Structure
 
 ```
