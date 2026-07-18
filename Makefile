@@ -1,7 +1,7 @@
 .PHONY: build run init-db import validate add-refs download-pdfs clean \
        extract-text chunk-text mine-all merge cross-check pipeline check-llms \
        extract-glm verify-glm check-glm gen-chapters-glm gen-chapter quiz app-assets emulator \
-       integration-test
+       integration-test apk run-device
 
 NIX_RUN = nix develop --command
 RUNS ?= 5
@@ -68,6 +68,16 @@ emulator:
 # DEVICE=linux for the desktop build.
 integration-test:
 	nix develop .#flutter --command bash -c 'cd app && flutter test integration_test -d $(or $(DEVICE),flutter-tester)'
+
+# Build a release APK to sideload onto a phone.
+apk:
+	nix develop .#flutter --command bash -c 'cd app && flutter build apk --release'
+	@echo "APK -> app/build/app/outputs/flutter-apk/app-release.apk"
+
+# Install + launch the app on a connected Android device (USB or wireless
+# debugging). Pass DEVICE=<id> from `flutter devices` if more than one attached.
+run-device:
+	nix develop .#flutter --command bash -c 'cd app && flutter run --release $(if $(DEVICE),-d $(DEVICE),)'
 
 # Extract + verify against the GLM model. Pass CHAPTERS=phak:04 to scope.
 extract-glm: build

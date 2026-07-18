@@ -212,6 +212,31 @@ via XWayland). To boot headless — no window, but `adb`/`flutter` still connect
 QT_QPA_PLATFORM=offscreen nix run .#emulator
 ```
 
+### Deploy to a phone (Android)
+
+Install the app on a real device (e.g. a Pixel). The release build is signed with the debug key, so
+it installs without setting up a keystore.
+
+1. On the phone: enable **Developer options** (tap Build number 7×), then either **USB debugging**
+   (plug in over USB) or **Wireless debugging** (Android 11+; avoids NixOS udev-rule setup).
+2. Point `adb` at the phone (in `nix develop .#flutter`):
+   ```bash
+   adb devices                          # USB: authorise the prompt on the phone
+   # or wireless: Settings → Developer → Wireless debugging → Pair with code
+   adb pair <phone-ip>:<pair-port>      # enter the 6-digit code
+   adb connect <phone-ip>:<debug-port>
+   ```
+3. Build and install:
+   ```bash
+   make run-device                      # build + install + launch on the connected device
+   # or just build an APK to sideload:
+   make apk                             # -> app/build/app/outputs/flutter-apk/app-release.apk
+   ```
+
+> **NixOS + USB:** if `adb devices` shows nothing over USB, add `services.udev.packages = [
+> pkgs.android-udev-rules ];` to your NixOS config (or use wireless debugging, which needs no udev
+> rules).
+
 iOS is code-supported (the `ios/` project is scaffolded) but must be built on macOS with Xcode; the
 Nix dev shell covers web + Android on Linux.
 
