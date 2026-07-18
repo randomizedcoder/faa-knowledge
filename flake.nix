@@ -148,8 +148,8 @@
         '';
 
         # Android emulator for the app. Heavy (pulls a ~1GB+ system image), and
-        # needs KVM (/dev/kvm) and a display to actually boot. Boots a fresh
-        # emulator you can `flutter run` against. Run: nix run .#emulator
+        # needs KVM (/dev/kvm) to boot. Boots a fresh emulator you can
+        # `flutter run` against. Run: nix run .#emulator
         packages.emulator =
           let
             pkgsAndroid = import nixpkgs {
@@ -159,13 +159,22 @@
                 android_sdk.accept_license = true;
               };
             };
+            emu = pkgsAndroid.androidenv.emulateApp {
+              name = "faa-emulator";
+              platformVersion = "34";
+              abiVersion = "x86_64";
+              systemImageType = "google_apis";
+            };
           in
-          pkgsAndroid.androidenv.emulateApp {
-            name = "faa-emulator";
-            platformVersion = "34";
-            abiVersion = "x86_64";
-            systemImageType = "google_apis";
-          };
+          # The bundled emulator's Qt has no `wayland` platform plugin, so on a
+          # Wayland session its window can't open. Default QT_QPA_PLATFORM to
+          # `xcb` (X11/XWayland, works on most desktops); override to
+          # `offscreen` for headless boots (adb/flutter still connect):
+          #   QT_QPA_PLATFORM=offscreen nix run .#emulator
+          pkgs.writeShellScriptBin "faa-emulator" ''
+            export QT_QPA_PLATFORM="''${QT_QPA_PLATFORM:-xcb}"
+            exec ${emu}/bin/run-test-emulator "$@"
+          '';
 
         apps.default = {
           type = "app";
@@ -174,7 +183,7 @@
 
         apps.emulator = {
           type = "app";
-          program = "${self.packages.${system}.emulator}/bin/run-test-emulator";
+          program = "${self.packages.${system}.emulator}/bin/faa-emulator";
         };
 
         apps.pipeline = {
