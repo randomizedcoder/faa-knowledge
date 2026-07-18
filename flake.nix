@@ -184,14 +184,15 @@
             };
           in
           # The bundled emulator's Qt has no `wayland` platform plugin, so on a
-          # Wayland session its window can't open. Default QT_QPA_PLATFORM to
-          # `xcb` (X11/XWayland, works on most desktops); override to
-          # `offscreen` for headless boots (adb/flutter still connect):
-          #   QT_QPA_PLATFORM=offscreen nix run .#emulator
+          # Wayland session its window can't open. FORCE `xcb` (X11/XWayland) —
+          # we can't use QT_QPA_PLATFORM's own default because Wayland sessions
+          # commonly export QT_QPA_PLATFORM=wayland, which would win. Override
+          # with FAA_EMULATOR_QT_PLATFORM, e.g. for a headless boot (adb/flutter
+          # still connect):  FAA_EMULATOR_QT_PLATFORM=offscreen nix run .#emulator
           pkgs.writeShellApplication {
             name = "faa-emulator";
             text = ''
-              export QT_QPA_PLATFORM="''${QT_QPA_PLATFORM:-xcb}"
+              export QT_QPA_PLATFORM="''${FAA_EMULATOR_QT_PLATFORM:-xcb}"
               exec ${emu}/bin/run-test-emulator "$@"
             '';
           };
