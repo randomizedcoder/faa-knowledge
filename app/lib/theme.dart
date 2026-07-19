@@ -43,9 +43,9 @@ const _lightScheme = ColorScheme(
 
 const _darkScheme = ColorScheme(
   brightness: Brightness.dark,
-  primary: Color(0xFFFFD54F), // high-contrast amber on black
+  primary: Color(0xFFCFD8DC), // light grey on black
   onPrimary: Colors.black,
-  secondary: Color(0xFFFFD54F),
+  secondary: Color(0xFFCFD8DC),
   onSecondary: Colors.black,
   error: Color(0xFFFF6E6E),
   onError: Colors.black,
@@ -125,3 +125,10 @@ ThemeData buildTheme(Brightness brightness) {
 /// Semantic colors for answer feedback (kept vivid in both themes).
 const answerCorrect = Color(0xFF2E7D32);
 const answerWrong = Color(0xFFC62828);
+
+/// Pastel accents for the quiz navigation buttons. Light fills, so they use
+/// dark text/icons for contrast in both themes.
+const navPrevious = Color(0xFFEF9A9A); // pastel red
+const navNext = Color(0xFF81C784); // brighter pastel green
+const navMark = Color(0xFFFFCC80); // pastel orange
+const navShowAnswer = Color(0xFFCE93D8); // pastel purple

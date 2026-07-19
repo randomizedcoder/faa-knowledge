@@ -12,6 +12,90 @@
         pkgs = nixpkgs.legacyPackages.${system};
         # The quiz CLI, reused as a runtimeInput so scripts can just call `quiz`.
         quizPkg = self.packages.${system}.default;
+
+        # One Android SDK shared by the Flutter dev shell and the emulator
+        # package, so both use the *same* adb (mismatched adb client/server
+        # versions silently drop the emulator). The SDK is unfree and needs its
+        # license accepted, so import a separately-configured nixpkgs for it.
+        pkgsAndroid = import nixpkgs {
+          inherit system;
+          config = {
+            allowUnfree = true;
+            android_sdk.accept_license = true;
+          };
+        };
+        androidComposition = pkgsAndroid.androidenv.composeAndroidPackages {
+          platformVersions = [ "36" "34" ]; # 36 builds the app; 34 is the emulator system image
+          buildToolsVersions = [ "35.0.0" ];
+          includeEmulator = true; # emulator lives in the SDK now (was a separate emulateApp)
+          includeSystemImages = true;
+          systemImageTypes = [ "google_apis" ];
+          abiVersions = [ "x86_64" ];
+          includeNDK = true; # Flutter's Gradle plugin forces NDK resolution
+          ndkVersions = [ "28.2.13676358" ]; # matches app/android/app/build.gradle.kts
+          cmakeVersions = [ "3.22.1" ]; # NDK presence triggers a CMake config step
+        };
+        androidSdk = androidComposition.androidsdk;
+        sdkRoot = "${androidSdk}/libexec/android-sdk";
+
+        # Runtime inputs + env for launching Flutter with the Android SDK,
+        # mirroring devShells.flutter so the `run-*` apps work as one-shots
+        # (`nix run` runs outside the dev shell, so they set the env themselves).
+        flutterRunInputs = [ pkgs.flutter pkgs.jdk17 pkgs.chromium androidSdk pkgs.coreutils pkgs.gnugrep ];
+        flutterEnv = ''
+          export ANDROID_SDK_ROOT="${sdkRoot}"
+          export ANDROID_HOME="${sdkRoot}"
+          export ANDROID_NDK_ROOT="${sdkRoot}/ndk/28.2.13676358"
+          export JAVA_HOME="${pkgs.jdk17}"
+          export CHROME_EXECUTABLE="${pkgs.chromium}/bin/chromium"
+          export GRADLE_OPTS="-Dorg.gradle.project.android.aapt2FromMavenOverride=${sdkRoot}/build-tools/35.0.0/aapt2"
+          export PATH="${sdkRoot}/emulator:${sdkRoot}/platform-tools:${sdkRoot}/cmdline-tools/19.0/bin:$PATH"
+        '';
+
+        # Persistent-AVD emulator launcher, shared by packages.emulator and the
+        # run-android one-shot. Boots the "faa" AVD (creating it if missing) on
+        # the shared SDK, so it uses the same adb as the flutter env.
+        faaEmulator = pkgs.writeShellApplication {
+          name = "faa-emulator";
+          runtimeInputs = [ pkgs.coreutils pkgs.gnugrep ];
+          text = ''
+            export ANDROID_SDK_ROOT="${sdkRoot}"
+            export ANDROID_HOME="${sdkRoot}"
+            export JAVA_HOME="${pkgs.jdk17}"
+            export PATH="${sdkRoot}/emulator:${sdkRoot}/platform-tools:${sdkRoot}/cmdline-tools/19.0/bin:$PATH"
+
+            # The bundled emulator's Qt has no `wayland` plugin, and Wayland
+            # sessions preset QT_QPA_PLATFORM=wayland — which is fatal here. Force
+            # `xcb` (X11/XWayland) unless the caller asked for something else
+            # (e.g. `offscreen` for headless); only override unset/`wayland`.
+            case "''${QT_QPA_PLATFORM:-}" in
+              "" | wayland) QT_QPA_PLATFORM=xcb ;;
+            esac
+            export QT_QPA_PLATFORM
+
+            name="''${AVD_NAME:-faa}"
+            # Create the persistent AVD once; it lives in the writable
+            # $HOME/.android/avd (the /nix/store SDK stays read-only).
+            if ! avdmanager list avd -c | grep -qx "$name"; then
+              echo "Creating AVD $name ..."
+              echo no | avdmanager create avd -n "$name" \
+                -k "system-images;android-34;google_apis;x86_64" -d pixel --force
+            fi
+
+            # Headless: `QT_QPA_PLATFORM=offscreen` only hides the Qt UI — the
+            # emulator still tries to create a host window (X_CreateWindow ->
+            # BadWindow -> hang) unless we also pass `-no-window`. Add it
+            # automatically so headless boots (adb/flutter still connect).
+            windowflag=()
+            if [ "$QT_QPA_PLATFORM" = "offscreen" ]; then windowflag=(-no-window); fi
+
+            # Software GL (swiftshader) for reliability: flutter doctor reports
+            # eglinfo unavailable here, so host-GPU passthrough isn't guaranteed.
+            # Override by passing e.g. `-gpu host` as an extra arg.
+            exec emulator -avd "$name" -gpu swiftshader_indirect \
+              -no-boot-anim -no-snapshot "''${windowflag[@]}" "$@"
+          '';
+        };
       in
       {
         packages.default = pkgs.buildGoModule {
@@ -164,37 +248,74 @@
           '';
         };
 
-        # Android emulator for the app. Heavy (pulls a ~1GB+ system image), and
-        # needs KVM (/dev/kvm) to boot. Boots a fresh emulator you can
-        # `flutter run` against. Run: nix run .#emulator
-        packages.emulator =
-          let
-            pkgsAndroid = import nixpkgs {
-              inherit system;
-              config = {
-                allowUnfree = true;
-                android_sdk.accept_license = true;
-              };
-            };
-            emu = pkgsAndroid.androidenv.emulateApp {
-              name = "faa-emulator";
-              platformVersion = "34";
-              abiVersion = "x86_64";
-              systemImageType = "google_apis";
-            };
-          in
-          # The bundled emulator's Qt has no `wayland` platform plugin, so on a
-          # Wayland session its window can't open. Default QT_QPA_PLATFORM to
-          # `xcb` (X11/XWayland, works on most desktops); override to
-          # `offscreen` for headless boots (adb/flutter still connect):
-          #   QT_QPA_PLATFORM=offscreen nix run .#emulator
-          pkgs.writeShellApplication {
-            name = "faa-emulator";
-            text = ''
-              export QT_QPA_PLATFORM="''${QT_QPA_PLATFORM:-xcb}"
-              exec ${emu}/bin/run-test-emulator "$@"
-            '';
-          };
+        # Android emulator for the app. Heavy (the ~1GB system image is part of
+        # the shared SDK closure) and needs KVM (/dev/kvm) to boot. Boots a
+        # persistent AVD ("faa") you can `flutter run` against; it uses the same
+        # SDK (and thus the same adb) as `nix develop .#flutter`, so the two
+        # never fight over the adb server on port 5037. Override the window
+        # backend with QT_QPA_PLATFORM (xcb window by default; offscreen for
+        # headless). Run: nix run .#emulator
+        packages.emulator = faaEmulator;
+
+        # One-shot: launch the app in Chrome (hot reload). Runs the whole thing
+        # in one command from the repo root: nix run .#run-web
+        packages.run-web = pkgs.writeShellApplication {
+          name = "faa-run-web";
+          runtimeInputs = flutterRunInputs;
+          text = ''
+            ${flutterEnv}
+            cd app 2>/dev/null || { echo "run from the repo root (needs ./app)" >&2; exit 1; }
+            exec flutter run -d chrome "$@"
+          '';
+        };
+
+        # One-shot: boot the emulator (creating/reusing the "faa" AVD), wait for
+        # Android to finish booting, then launch the app on it (hot reload).
+        # One command from the repo root: nix run .#run-android
+        # (QT_QPA_PLATFORM=offscreen nix run .#run-android boots it headless.)
+        packages.run-android = pkgs.writeShellApplication {
+          name = "faa-run-android";
+          runtimeInputs = flutterRunInputs;
+          text = ''
+            ${flutterEnv}
+            # Force xcb unless the caller wants a specific backend: Wayland
+            # sessions preset QT_QPA_PLATFORM=wayland, which the emulator's Qt
+            # can't use (see packages.emulator). Only override unset/`wayland`.
+            case "''${QT_QPA_PLATFORM:-}" in
+              "" | wayland) QT_QPA_PLATFORM=xcb ;;
+            esac
+            export QT_QPA_PLATFORM
+
+            if adb devices | grep -qE 'emulator-[0-9]+[[:space:]]+device'; then
+              echo "Reusing the running emulator."
+            else
+              echo "Booting emulator (log: /tmp/faa-emulator.log) ..."
+              ${faaEmulator}/bin/faa-emulator >/tmp/faa-emulator.log 2>&1 &
+              adb wait-for-device
+              echo "Waiting for Android to finish booting ..."
+              until [ "$(adb shell getprop sys.boot_completed 2>/dev/null | tr -d '\r')" = "1" ]; do
+                sleep 2
+              done
+              echo "Boot complete."
+            fi
+
+            # Target whichever emulator is attached — the console port isn't
+            # always 5554 (a busy port bumps it to 5556, 5558, ...).
+            dev=$(adb devices | awk '$1 ~ /^emulator-[0-9]+$/ && $2 == "device" { print $1; exit }')
+            if [ -z "$dev" ]; then echo "no running emulator found" >&2; exit 1; fi
+            echo "Running the app on $dev ..."
+
+            # The app follows the device theme; default the emulator to dark so
+            # you see the dark high-contrast palette. Override: EMULATOR_THEME=light.
+            case "''${EMULATOR_THEME:-dark}" in
+              light) adb -s "$dev" shell cmd uimode night no  >/dev/null 2>&1 || true ;;
+              *)     adb -s "$dev" shell cmd uimode night yes >/dev/null 2>&1 || true ;;
+            esac
+
+            cd app 2>/dev/null || { echo "run from the repo root (needs ./app)" >&2; exit 1; }
+            exec flutter run -d "$dev" "$@"
+          '';
+        };
 
         apps.default = {
           type = "app";
@@ -204,6 +325,16 @@
         apps.emulator = {
           type = "app";
           program = "${self.packages.${system}.emulator}/bin/faa-emulator";
+        };
+
+        apps.run-web = {
+          type = "app";
+          program = "${self.packages.${system}.run-web}/bin/faa-run-web";
+        };
+
+        apps.run-android = {
+          type = "app";
+          program = "${self.packages.${system}.run-android}/bin/faa-run-android";
         };
 
         apps.pipeline = {
@@ -250,32 +381,12 @@
         # Flutter + Android toolchain for the quiz app (app/). Web + Android
         # build here; iOS needs macOS + Xcode. Enter with: nix develop .#flutter
         devShells.flutter =
-          let
-            # Android SDK is unfree and needs its license accepted, so import a
-            # separately-configured nixpkgs just for it.
-            pkgsAndroid = import nixpkgs {
-              inherit system;
-              config = {
-                allowUnfree = true;
-                android_sdk.accept_license = true;
-              };
-            };
-            androidComposition = pkgsAndroid.androidenv.composeAndroidPackages {
-              platformVersions = [ "36" ]; # Flutter 3.41 compileSdk/targetSdk = 36
-              buildToolsVersions = [ "35.0.0" ];
-              includeEmulator = false;
-              includeNDK = true; # Flutter's Gradle plugin forces NDK resolution
-              ndkVersions = [ "28.2.13676358" ]; # matches app/android/app/build.gradle.kts
-              cmakeVersions = [ "3.22.1" ]; # NDK presence triggers a CMake config step
-            };
-            androidSdk = androidComposition.androidsdk;
-            sdkRoot = "${androidSdk}/libexec/android-sdk";
-          in
           pkgs.mkShell {
+            # No pkgs.android-tools here: it ships adb 35, which clashes with the
+            # SDK's adb 36 that the emulator uses. Use the SDK's own adb (below).
             buildInputs = [
               pkgs.flutter
               pkgs.jdk17
-              pkgs.android-tools
               pkgs.chromium
               androidSdk
             ];
@@ -285,8 +396,10 @@
             JAVA_HOME = "${pkgs.jdk17}";
             CHROME_EXECUTABLE = "${pkgs.chromium}/bin/chromium";
             GRADLE_OPTS = "-Dorg.gradle.project.android.aapt2FromMavenOverride=${sdkRoot}/build-tools/35.0.0/aapt2";
+            # Prepend the SDK's own tool dirs so its adb (36), emulator, and
+            # avdmanager win over anything else on PATH.
             shellHook = ''
-              export PATH="$PATH:${sdkRoot}/platform-tools"
+              export PATH="${sdkRoot}/emulator:${sdkRoot}/platform-tools:${sdkRoot}/cmdline-tools/19.0/bin:$PATH"
             '';
           };
       }
