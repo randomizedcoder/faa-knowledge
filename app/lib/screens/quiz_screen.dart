@@ -1,3 +1,4 @@
+import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/material.dart';
 
 import '../data/question_repository.dart';
@@ -29,6 +30,10 @@ class _QuizScreenState extends State<QuizScreen> {
   // Whether the correct answer is revealed for the current question. Always
   // revealed once the session is graded (review mode).
   bool _revealed = false;
+
+  // Syncs the four options to one font size (the largest that fits them all),
+  // so a short option doesn't render bigger than a wrapping one.
+  final AutoSizeGroup _optionsGroup = AutoSizeGroup();
 
   QuizSession get s => widget.session;
   bool get _reveal => s.graded || _revealed;
@@ -128,30 +133,79 @@ class _QuizScreenState extends State<QuizScreen> {
             LinearProgressIndicator(
                 value: s.total == 0 ? 0 : s.answered / s.total, minHeight: 6),
             Expanded(
-              child: ListView(
-                padding: const EdgeInsets.all(20),
-                children: [
-                  Row(
+              // Meta + question take only the height they need; the answer
+              // options get all the remaining space so their text stays large.
+              // Nothing scrolls (except revealed feedback).
+              child: Padding(
+                padding: const EdgeInsets.fromLTRB(16, 8, 16, 4),
+                child: LayoutBuilder(
+                  builder: (context, box) => Column(
+                    crossAxisAlignment: CrossAxisAlignment.stretch,
                     children: [
-                      Expanded(
-                        child: Text('${q.source} Ch.${q.chapter}  •  ${q.section}',
-                            style: theme.textTheme.bodyMedium
-                                ?.copyWith(fontWeight: FontWeight.w600)),
+                      // Meta on a single line (scaled to fit width) to leave
+                      // more room for the options.
+                      SizedBox(
+                        height: 24,
+                        child: Row(
+                          children: [
+                            Expanded(
+                              child: FittedBox(
+                                fit: BoxFit.scaleDown,
+                                alignment: Alignment.centerLeft,
+                                child: Text(
+                                  '${q.source} Ch.${q.chapter} • ${q.section}'
+                                  '  •  ${'★' * q.difficulty}${'☆' * (3 - q.difficulty)}',
+                                  maxLines: 1,
+                                  softWrap: false,
+                                  style: theme.textTheme.bodyMedium
+                                      ?.copyWith(fontWeight: FontWeight.w600),
+                                ),
+                              ),
+                            ),
+                            if (s.isCurrentMarked)
+                              Icon(Icons.flag,
+                                  size: 20, color: theme.colorScheme.primary),
+                          ],
+                        ),
                       ),
-                      if (s.isCurrentMarked)
-                        Icon(Icons.flag, color: theme.colorScheme.primary),
+                      const SizedBox(height: 6),
+                      // Question: smaller cap than before so the options get
+                      // more of the screen (bigger answer text). Wraps at full
+                      // width, shrinking its font only to fit the cap.
+                      ConstrainedBox(
+                        constraints:
+                            BoxConstraints(maxHeight: box.maxHeight * 0.22),
+                        child: AutoSizeText(
+                          q.question,
+                          style: theme.textTheme.headlineMedium,
+                          maxLines: 6,
+                          minFontSize: 12,
+                          stepGranularity: 1,
+                          overflow: TextOverflow.ellipsis,
+                        ),
+                      ),
+                      const SizedBox(height: 8),
+                      Expanded(
+                        flex: _reveal ? 5 : 1,
+                        child: Column(
+                          children: [
+                            for (final (i, opt)
+                                in q.options(s.currentId).indexed)
+                              Expanded(child: _optionTile(opt, q, i)),
+                          ],
+                        ),
+                      ),
+                      if (_reveal)
+                        Expanded(
+                          flex: 4,
+                          child: Padding(
+                            padding: const EdgeInsets.only(top: 8),
+                            child: SingleChildScrollView(child: _feedback(q)),
+                          ),
+                        ),
                     ],
                   ),
-                  Text(
-                      'Difficulty: ${'★' * q.difficulty}${'☆' * (3 - q.difficulty)}',
-                      style: theme.textTheme.bodyMedium),
-                  const SizedBox(height: 16),
-                  Text(q.question, style: theme.textTheme.headlineMedium),
-                  const SizedBox(height: 24),
-                  for (final (i, opt) in q.options(s.currentId).indexed)
-                    _optionTile(opt, q, i),
-                  if (_reveal) _feedback(q),
-                ],
+                ),
               ),
             ),
             _bottomBar(),
@@ -189,7 +243,7 @@ class _QuizScreenState extends State<QuizScreen> {
 
     return Padding(
       key: ValueKey('option_$index'),
-      padding: const EdgeInsets.only(bottom: 12),
+      padding: const EdgeInsets.only(bottom: 6),
       child: Material(
         color: bg ?? Colors.transparent,
         borderRadius: BorderRadius.circular(12),
@@ -197,14 +251,23 @@ class _QuizScreenState extends State<QuizScreen> {
           borderRadius: BorderRadius.circular(12),
           onTap: s.graded ? null : () => _select(opt),
           child: Container(
-            constraints: const BoxConstraints(minHeight: 64),
-            padding: const EdgeInsets.symmetric(horizontal: 18, vertical: 14),
+            width: double.infinity,
+            padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+            alignment: Alignment.centerLeft,
             decoration: BoxDecoration(
               border: Border.all(color: border, width: borderWidth),
               borderRadius: BorderRadius.circular(12),
             ),
-            child: Text(opt,
-                style: theme.textTheme.bodyLarge?.copyWith(color: fg)),
+            child: AutoSizeText(
+              opt,
+              group: _optionsGroup,
+              style: theme.textTheme.bodyLarge
+                  ?.copyWith(color: fg, fontWeight: FontWeight.w700),
+              maxLines: 3,
+              minFontSize: 10,
+              stepGranularity: 0.5,
+              overflow: TextOverflow.ellipsis,
+            ),
           ),
         ),
       ),
@@ -244,6 +307,16 @@ class _QuizScreenState extends State<QuizScreen> {
     );
   }
 
+  // Pastel-filled nav button with dark text/icon (readable on the light fill).
+  ButtonStyle _navStyle(Color bg) => ElevatedButton.styleFrom(
+        backgroundColor: bg,
+        foregroundColor: Colors.black,
+        // Keep the pastel fill when disabled (a translucent fill over black
+        // turns an ugly brown); just fade the label to signal it's inactive.
+        disabledBackgroundColor: bg,
+        disabledForegroundColor: Colors.black.withValues(alpha: 0.38),
+      );
+
   Widget _bottomBar() {
     final marked = s.isCurrentMarked;
     return Padding(
@@ -254,7 +327,8 @@ class _QuizScreenState extends State<QuizScreen> {
           Row(
             children: [
               Expanded(
-                child: OutlinedButton(
+                child: ElevatedButton(
+                  style: _navStyle(navPrevious),
                   onPressed: s.current > 0 ? () => _move(s.prev) : null,
                   child: const Text('Previous'),
                 ),
@@ -262,6 +336,7 @@ class _QuizScreenState extends State<QuizScreen> {
               const SizedBox(width: 12),
               Expanded(
                 child: ElevatedButton(
+                  style: _navStyle(navNext),
                   onPressed:
                       s.current < s.total - 1 ? () => _move(s.next) : null,
                   child: const Text('Next'),
@@ -273,7 +348,8 @@ class _QuizScreenState extends State<QuizScreen> {
           Row(
             children: [
               Expanded(
-                child: OutlinedButton.icon(
+                child: ElevatedButton.icon(
+                  style: _navStyle(navMark),
                   onPressed: _toggleMark,
                   icon: Icon(marked ? Icons.flag : Icons.outlined_flag),
                   label: Text(marked ? 'Marked' : 'Mark'),
@@ -282,9 +358,9 @@ class _QuizScreenState extends State<QuizScreen> {
               if (!s.graded) ...[
                 const SizedBox(width: 12),
                 Expanded(
-                  child: OutlinedButton(
-                    onPressed: () =>
-                        setState(() => _revealed = !_revealed),
+                  child: ElevatedButton(
+                    style: _navStyle(navShowAnswer),
+                    onPressed: () => setState(() => _revealed = !_revealed),
                     child: Text(_revealed ? 'Hide Answer' : 'Show Answer'),
                   ),
                 ),

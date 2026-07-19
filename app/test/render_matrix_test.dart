@@ -63,6 +63,19 @@ QuizSession _graded() => _fresh()
   ..select('wrong')
   ..graded = true;
 
+/// A no-overflow-exception test does NOT prove content is visible: a ListView
+/// scrolls content off-screen with no error. This asserts a finder's box sits
+/// within the screen height (i.e. visible without scrolling).
+void _expectWithinViewport(
+    WidgetTester tester, Finder f, double screenHeight, String label) {
+  expect(f, findsOneWidget, reason: '$label not found');
+  final r = tester.getRect(f);
+  expect(r.top, greaterThanOrEqualTo(-0.5), reason: '$label clipped above top');
+  expect(r.bottom, lessThanOrEqualTo(screenHeight + 0.5),
+      reason: '$label below the fold (screen '
+          '${screenHeight.toStringAsFixed(0)}px)');
+}
+
 void main() {
   final repo = _repo();
 
@@ -107,6 +120,66 @@ void main() {
               reason: '${screen.key} threw at ${size.key} (${brightness.name})');
         });
       }
+    }
+  }
+
+  // Fit guarantees: the segmented no-scroll layouts must keep key content on
+  // screen. These would FAIL against the old ListView layouts (which scrolled
+  // the extra options/cards off-screen with no exception).
+  for (final brightness in Brightness.values) {
+    for (final size in sizes.entries) {
+      final h = size.value.height;
+
+      testWidgets(
+          'Quiz · all four options visible, no scroll · ${brightness.name} · ${size.key}',
+          (tester) async {
+        SharedPreferences.setMockInitialValues({});
+        tester.view.physicalSize = size.value;
+        tester.view.devicePixelRatio = 1.0;
+        addTearDown(tester.view.resetPhysicalSize);
+        addTearDown(tester.view.resetDevicePixelRatio);
+
+        await tester.pumpWidget(MaterialApp(
+          theme: buildTheme(brightness),
+          home:
+              QuizScreen(session: _fresh(), repo: repo, store: SessionStore()),
+        ));
+        await tester.pumpAndSettle();
+
+        for (var i = 0; i < 4; i++) {
+          _expectWithinViewport(
+              tester, find.byKey(ValueKey('option_$i')), h, 'option_$i');
+        }
+        // While answering, nothing scrolls — the four options must fit.
+        expect(find.byType(Scrollable), findsNothing,
+            reason: 'quiz should not scroll while answering (${size.key})');
+      });
+
+      testWidgets(
+          'Home · Quick Start + all session slots visible, no scroll · ${brightness.name} · ${size.key}',
+          (tester) async {
+        SharedPreferences.setMockInitialValues({});
+        tester.view.physicalSize = size.value;
+        tester.view.devicePixelRatio = 1.0;
+        addTearDown(tester.view.resetPhysicalSize);
+        addTearDown(tester.view.resetDevicePixelRatio);
+
+        await tester.pumpWidget(MaterialApp(
+          theme: buildTheme(brightness),
+          home: HomeScreen(
+              repo: repo,
+              store: SessionStore(),
+              theme: ThemeController(ThemeMode.light)),
+        ));
+        await tester.pumpAndSettle();
+
+        _expectWithinViewport(
+            tester, find.text('Quick Start · 50 random'), h, 'Quick Start');
+        expect(find.text('New Session'), findsNWidgets(SessionStore.slots),
+            reason: 'all ${SessionStore.slots} session slots present');
+        expect(find.byType(Scrollable), findsNothing,
+            reason: 'home should not scroll (${size.key})');
+      });
     }
   }
 }

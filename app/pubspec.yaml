@@ -38,6 +38,10 @@ dependencies:
   # Local persistence for the 3 saved sessions and theme mode.
   shared_preferences: ^2.3.2
 
+  # Auto-sizing text that fits its box; an AutoSizeGroup lets the four answer
+  # options share one font size (the largest that fits them all).
+  auto_size_text: ^3.0.0
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
