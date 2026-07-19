@@ -74,12 +74,16 @@
             export QT_QPA_PLATFORM
 
             name="''${AVD_NAME:-faa}"
+            # Device profile (screen size/density). Default is a phone; override
+            # to test other form factors, e.g. a tablet:
+            #   AVD_NAME=faa-tablet AVD_DEVICE=pixel_tablet nix run .#emulator
+            device="''${AVD_DEVICE:-pixel}"
             # Create the persistent AVD once; it lives in the writable
             # $HOME/.android/avd (the /nix/store SDK stays read-only).
             if ! avdmanager list avd -c | grep -qx "$name"; then
-              echo "Creating AVD $name ..."
+              echo "Creating AVD $name (device: $device) ..."
               echo no | avdmanager create avd -n "$name" \
-                -k "system-images;android-34;google_apis;x86_64" -d pixel --force
+                -k "system-images;android-34;google_apis;x86_64" -d "$device" --force
             fi
 
             # Headless: `QT_QPA_PLATFORM=offscreen` only hides the Qt UI — the

@@ -227,7 +227,17 @@ flutter run                   # installs + runs the app on emulator-5554
 ```
 
 The `faa` AVD is created automatically on first boot (or ahead of time with `make avd`) and persists in
-`$HOME/.android/avd`. The emulator needs **KVM** (`/dev/kvm`); the ~1 GB system image is part of the SDK
+`$HOME/.android/avd`.
+
+**Tablet:** boot a separate AVD with a tablet device profile (same system image) to check the layout on a
+big/landscape screen:
+
+```bash
+AVD_NAME=faa-tablet AVD_DEVICE=pixel_tablet nix run .#emulator
+# other profiles: `avdmanager list device` (e.g. "Nexus 10", "medium_tablet")
+```
+
+The emulator needs **KVM** (`/dev/kvm`); the ~1 GB system image is part of the SDK
 closure. The target sets `QT_QPA_PLATFORM=xcb` (the bundled emulator's Qt has no Wayland plugin; `xcb`
 works on most desktops via XWayland) and software GL (`-gpu swiftshader_indirect`) for reliability. To
 boot headless — no window, but `adb`/`flutter` still connect — set `QT_QPA_PLATFORM=offscreen` (the
@@ -264,7 +274,9 @@ it installs without setting up a keystore.
 > rules).
 
 iOS is code-supported (the `ios/` project is scaffolded) but must be built on macOS with Xcode; the
-Nix dev shell covers web + Android on Linux.
+Nix dev shell covers web + Android on Linux. See
+[docs/ios-macos-testing.md](docs/ios-macos-testing.md) for the macOS runbook (simulator, real
+iPhone/iPad, and TestFlight).
 
 ### Tests
 

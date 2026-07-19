@@ -122,6 +122,25 @@ ThemeData buildTheme(Brightness brightness) {
   );
 }
 
+/// On tablets/large screens, cap the content width and centre it so the layout
+/// doesn't stretch edge-to-edge; the scale-to-fit text then fills the narrower
+/// column (bigger, readable) instead of the whole width. Phones (narrower than
+/// this) are unaffected — they still use the full width.
+const double kMaxContentWidth = 720;
+
+class MaxWidth extends StatelessWidget {
+  final Widget child;
+  const MaxWidth({super.key, required this.child});
+
+  @override
+  Widget build(BuildContext context) => Center(
+        child: ConstrainedBox(
+          constraints: const BoxConstraints(maxWidth: kMaxContentWidth),
+          child: SizedBox(width: double.infinity, child: child),
+        ),
+      );
+}
+
 /// Semantic colors for answer feedback (kept vivid in both themes).
 const answerCorrect = Color(0xFF2E7D32);
 const answerWrong = Color(0xFFC62828);

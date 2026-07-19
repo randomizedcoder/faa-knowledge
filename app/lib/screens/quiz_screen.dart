@@ -128,7 +128,8 @@ class _QuizScreenState extends State<QuizScreen> {
         ],
       ),
       body: SafeArea(
-        child: Column(
+        child: MaxWidth(
+          child: Column(
           children: [
             LinearProgressIndicator(
                 value: s.total == 0 ? 0 : s.answered / s.total, minHeight: 6),
@@ -210,6 +211,7 @@ class _QuizScreenState extends State<QuizScreen> {
             ),
             _bottomBar(),
           ],
+          ),
         ),
       ),
     );
