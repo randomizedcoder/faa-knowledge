@@ -1,7 +1,7 @@
 .PHONY: build run init-db import validate add-refs download-pdfs clean \
        extract-text chunk-text mine-all merge cross-check pipeline check-llms \
-       extract-glm verify-glm check-glm gen-chapters-glm gen-chapter quiz app-assets emulator \
-       integration-test apk run-device
+       extract-glm verify-glm check-glm gen-chapters-glm gen-chapter quiz app-assets avd emulator \
+       run-web run-android integration-test apk run-device
 
 NIX_RUN = nix develop --command
 RUNS ?= 5
@@ -59,9 +59,32 @@ check-glm:
 app-assets:
 	python3 scripts/build_app_assets.py
 
-# Boot an Android emulator to run the app on (needs KVM + a display).
+# Create the persistent "faa" AVD if it doesn't exist yet (Pixel, API 34,
+# x86_64). `make emulator` also auto-creates it on first boot; this is for
+# pre-creating without booting. Override the name with AVD_NAME=<name>.
+avd:
+	nix develop .#flutter --command bash -c '\
+	  name=$(or $(AVD_NAME),faa); \
+	  if avdmanager list avd -c | grep -qx "$$name"; then \
+	    echo "AVD $$name already exists"; \
+	  else \
+	    echo no | avdmanager create avd -n "$$name" \
+	      -k "system-images;android-34;google_apis;x86_64" -d pixel --force; \
+	  fi'
+
+# Boot the persistent Android emulator to run the app on (needs KVM + a
+# display). Uses the same SDK/adb as `nix develop .#flutter`.
 emulator:
 	nix run .#emulator
+
+# One-shot: launch the app in Chrome (hot reload).
+run-web:
+	nix run .#run-web
+
+# One-shot: boot the emulator (if not already running) and launch the app on
+# it (hot reload). QT_QPA_PLATFORM=offscreen make run-android boots headless.
+run-android:
+	nix run .#run-android
 
 # End-to-end integration test on a real engine. DEVICE defaults to the headless
 # host tester; pass DEVICE=emulator-5554 (from `make emulator`) for Android, or

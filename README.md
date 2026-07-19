@@ -186,6 +186,15 @@ freely with **Previous/Next**, **Mark** questions for review, reveal the correct
 on demand (**Show Answer**), and **Grade Session** to score `correct/answered (%)` against the 70% FAA
 pass line, then page back through with the answers shown.
 
+One-shot commands (run from the repo root — no dev shell needed, they set up the toolchain themselves):
+
+```bash
+nix run .#run-web            # build + launch the app in Chrome (hot reload)
+nix run .#run-android        # boot the emulator (if needed) + launch the app on it (hot reload)
+```
+
+Or work inside the dev shell:
+
 ```bash
 nix develop .#flutter        # Flutter + Android SDK + Chrome dev shell
 cd app
@@ -198,15 +207,32 @@ flutter analyze && flutter test
 
 ### Android emulator
 
+The emulator now lives in the **same** SDK as the `.#flutter` dev shell, so both use one `adb` and
+`flutter run` / `flutter emulators` / `flutter doctor` all see it (mismatched adb versions used to drop
+the emulator silently).
+
 ```bash
-nix run .#emulator           # boot an Android emulator (Pixel, API 34, x86_64)
-# then in the Flutter dev shell:
-cd app && flutter run        # runs the app on the booted emulator
+nix run .#run-android         # one-shot: boot the emulator (if needed) + flutter run on it
 ```
 
-The emulator pulls a ~1 GB system image on first run and needs **KVM** (`/dev/kvm`). The target sets
-`QT_QPA_PLATFORM=xcb` (the bundled emulator's Qt has no Wayland plugin; `xcb` works on most desktops
-via XWayland). To boot headless — no window, but `adb`/`flutter` still connect — override it:
+or drive it in two steps:
+
+```bash
+nix run .#emulator            # boot the persistent "faa" AVD (Pixel, API 34, x86_64)
+# then in another terminal:
+nix develop .#flutter
+cd app
+flutter emulators             # lists: faa
+flutter run                   # installs + runs the app on emulator-5554
+```
+
+The `faa` AVD is created automatically on first boot (or ahead of time with `make avd`) and persists in
+`$HOME/.android/avd`. The emulator needs **KVM** (`/dev/kvm`); the ~1 GB system image is part of the SDK
+closure. The target sets `QT_QPA_PLATFORM=xcb` (the bundled emulator's Qt has no Wayland plugin; `xcb`
+works on most desktops via XWayland) and software GL (`-gpu swiftshader_indirect`) for reliability. To
+boot headless — no window, but `adb`/`flutter` still connect — set `QT_QPA_PLATFORM=offscreen` (the
+launcher then also adds the emulator's `-no-window`, without which it would still try to open an X
+window and hang):
 
 ```bash
 QT_QPA_PLATFORM=offscreen nix run .#emulator
