@@ -74,21 +74,24 @@ class _HomeScreenState extends State<HomeScreen> {
         // Divide the screen into segments that share the available height so
         // everything fits without scrolling on any device. Each segment scales
         // its content to fit its box (FittedBox), so the effective font size
-        // follows the segment size.
-        child: Padding(
-          padding: const EdgeInsets.all(12),
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.stretch,
-            children: [
-              Expanded(flex: 3, child: _quickStartButton()),
-              const SizedBox(height: 12),
-              Expanded(flex: 2, child: _savedHeader(theme)),
-              const SizedBox(height: 12),
-              for (var i = 0; i < SessionStore.slots; i++) ...[
-                Expanded(flex: 3, child: _sessionCard(i, _sessions[i])),
-                if (i < SessionStore.slots - 1) const SizedBox(height: 12),
+        // follows the segment size. MaxWidth keeps it from stretching on
+        // tablets.
+        child: MaxWidth(
+          child: Padding(
+            padding: const EdgeInsets.all(12),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.stretch,
+              children: [
+                Expanded(flex: 3, child: _quickStartButton()),
+                const SizedBox(height: 12),
+                Expanded(flex: 2, child: _savedHeader(theme)),
+                const SizedBox(height: 12),
+                for (var i = 0; i < SessionStore.slots; i++) ...[
+                  Expanded(flex: 3, child: _sessionCard(i, _sessions[i])),
+                  if (i < SessionStore.slots - 1) const SizedBox(height: 12),
+                ],
               ],
-            ],
+            ),
           ),
         ),
       ),

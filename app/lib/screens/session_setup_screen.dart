@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import '../data/question_repository.dart';
 import '../data/session_store.dart';
 import '../models/session.dart';
+import '../theme.dart';
 import 'quiz_screen.dart';
 
 /// Pick one or more chapters to focus a saved session on.
@@ -92,7 +93,8 @@ class _SessionSetupScreenState extends State<SessionSetupScreen> {
     return Scaffold(
       appBar: AppBar(title: Text('New Session ${widget.slot + 1}')),
       body: SafeArea(
-        child: Column(
+        child: MaxWidth(
+          child: Column(
           children: [
             Padding(
               padding: const EdgeInsets.fromLTRB(20, 16, 20, 8),
@@ -125,6 +127,7 @@ class _SessionSetupScreenState extends State<SessionSetupScreen> {
               ),
             ),
           ],
+        ),
         ),
       ),
     );

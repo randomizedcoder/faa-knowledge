@@ -94,6 +94,14 @@ void main() {
   const sizes = <String, Size>{
     'narrow-320': Size(320, 640),
     'phone-400': Size(400, 800),
+    // iPhone logical point sizes (a lot of pilots use iPhones/iPads). Layout is
+    // platform-independent, so these validate the fit at those form factors on
+    // Linux; they don't exercise iOS-specific rendering (notch/Cupertino).
+    'iphone-se': Size(375, 667),
+    'iphone-15': Size(393, 852),
+    'iphone-max': Size(430, 932),
+    'ipad-portrait': Size(820, 1180),
+    'ipad-landscape': Size(1180, 820),
     'tablet-800': Size(800, 1200),
     'wide-1400': Size(1400, 900),
   };
@@ -182,4 +190,36 @@ void main() {
       });
     }
   }
+
+  // iOS notch / Dynamic Island + home indicator: the SafeArea insets must not
+  // push the options off-screen or cause an overflow.
+  testWidgets('Quiz · all four options fit under iPhone notch insets',
+      (tester) async {
+    SharedPreferences.setMockInitialValues({});
+    const size = Size(393, 852); // iPhone 15
+    tester.view.physicalSize = size;
+    tester.view.devicePixelRatio = 1.0;
+    addTearDown(tester.view.resetPhysicalSize);
+    addTearDown(tester.view.resetDevicePixelRatio);
+
+    await tester.pumpWidget(MaterialApp(
+      theme: buildTheme(Brightness.dark),
+      home: Builder(builder: (context) {
+        // Add typical iPhone insets on top of the view's MediaQuery.
+        return MediaQuery(
+          data: MediaQuery.of(context)
+              .copyWith(padding: const EdgeInsets.only(top: 59, bottom: 34)),
+          child:
+              QuizScreen(session: _fresh(), repo: repo, store: SessionStore()),
+        );
+      }),
+    ));
+    await tester.pumpAndSettle();
+
+    expect(tester.takeException(), isNull);
+    for (var i = 0; i < 4; i++) {
+      _expectWithinViewport(tester, find.byKey(ValueKey('option_$i')),
+          size.height, 'option_$i (notch)');
+    }
+  });
 }

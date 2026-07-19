@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../data/question_repository.dart';
 import '../models/session.dart';
+import '../theme.dart';
 
 /// Score for a graded session (correct out of answered), with the option to
 /// page back through the questions with the correct answers shown.
@@ -25,7 +26,8 @@ class ResultsScreen extends StatelessWidget {
       body: SafeArea(
         // Center when the content fits, scroll when it doesn't (large fonts on
         // short screens would otherwise overflow).
-        child: LayoutBuilder(
+        child: MaxWidth(
+          child: LayoutBuilder(
           builder: (context, constraints) => SingleChildScrollView(
             child: ConstrainedBox(
               constraints: BoxConstraints(minHeight: constraints.maxHeight),
@@ -87,6 +89,7 @@ class ResultsScreen extends StatelessWidget {
               ),
             ),
           ),
+        ),
         ),
       ),
     );
