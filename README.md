@@ -328,3 +328,13 @@ scripts/download_pdfs.sh      PDF downloader
 - [AvSem Private Pilot Book](https://www.avsem.com/private/pvtbook.pdf)
 - [AvSport Test Bank](https://avsport.org/docs/Test_Bank_pvt.pdf)
 - [CAP Private Pilot Final](https://fullerton.cap.gov/moduledocuments/embed/3615/Private_Pilot_Final_60_7898663A8F75F.pdf)
+
+## License
+
+Copyright (c) 2026 randomizedcoder. All Rights Reserved.
+
+This is **proprietary, commercial software** — not open source. The source is
+visible for reference only; using, copying, modifying, or distributing it
+without a valid purchased license is prohibited. See [LICENSE](LICENSE) for the
+full terms. Bundled third-party components (the Lora font under the SIL OFL, and
+the vendored Go dependencies under `vendor/`) retain their own licenses.
