@@ -1,3 +1,6 @@
+// Copyright (c) 2026 randomizedcoder. All Rights Reserved.
+// Proprietary and confidential -- see the LICENSE file in the project root.
+
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:shared_preferences/shared_preferences.dart';

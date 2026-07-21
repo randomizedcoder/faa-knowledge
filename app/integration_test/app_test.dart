@@ -1,3 +1,6 @@
+// Copyright (c) 2026 randomizedcoder. All Rights Reserved.
+// Proprietary and confidential -- see the LICENSE file in the project root.
+
 // End-to-end integration test. Unlike the widget tests (which use the host
 // test renderer), this launches the REAL app and can run on an actual Android
 // emulator/device — verifying rendering, asset loading, and the shared_prefs

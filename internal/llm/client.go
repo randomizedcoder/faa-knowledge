@@ -1,3 +1,6 @@
+// Copyright (c) 2026 randomizedcoder. All Rights Reserved.
+// Proprietary and confidential -- see the LICENSE file in the project root.
+
 package llm
 
 import (

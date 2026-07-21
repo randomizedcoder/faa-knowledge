@@ -1,3 +1,6 @@
+// Copyright (c) 2026 randomizedcoder. All Rights Reserved.
+// Proprietary and confidential -- see the LICENSE file in the project root.
+
 import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/material.dart';
 
