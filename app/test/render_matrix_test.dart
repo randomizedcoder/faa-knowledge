@@ -1,3 +1,6 @@
+// Copyright (c) 2026 randomizedcoder. All Rights Reserved.
+// Proprietary and confidential -- see the LICENSE file in the project root.
+
 // Table-driven render matrix: pump every screen in both themes at several
 // screen sizes and assert no layout exception. This catches layout bugs like
 // the AppBar infinite-width crash — including RenderFlex overflows on narrow
